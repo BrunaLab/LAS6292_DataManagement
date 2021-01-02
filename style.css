@@ -1,0 +1,19 @@
+/* Whole document: */
+
+/* Headers */
+
+
+body{
+  font-family: Helvetica;
+  font-size: 12pt;
+}
+
+.author,.title{
+    display: none;
+}
+
+
+h1, h2, h3 {
+  text-align: center;
+}
+
