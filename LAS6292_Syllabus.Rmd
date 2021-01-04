@@ -1,44 +1,36 @@
 ---
-title: "LAS 6292: Data Collection & Management"
+title: 'LAS 6292: Data Collection & Management'
 author: "Emilio M. Bruna"
 date: "`r format(Sys.time(), '%Y')`"
-email: embruna@ufl.edu
+output:
+  pdf_document: default
+  word_document: default
+  html_document:
+    df_print: paged
 web: www.BrunaLab.org
 github: embruna
 twitter: https://twitter.com/BrunaLab
-phone: "(352) 514-3935"
+phone: (352) 514-3935
 geometry: margin=1in
 linkcolor: blue
 urlcolor: blue
-# tables: true
-# fontsize: 11pt
-# fontfamily: clear sans
-# fontawesome: yes
 site: bookdown::bookdown_site
 header-includes:
 - \usepackage{fancyhdr}
 - \pagestyle{fancy}
 - \fancyfoot{}
-# - \fancyfoot[R]{`r format(Sys.time(), '%Y')`}
 - \fancyhead[R]{Syllabus, p. \thepage}
 - \fancyhead[L]{LAS 6292}
 - \usepackage[default]{sourcesanspro}
-- \usepackage{parskip} 
-- \usepackage{xcolor} 
-- \AtBeginDocument{\let\maketitle\relax} # this removes default title section
-  # to center to top level (#) headings - my name 
-  # more info # https://www.ctan.org/pkg/sectsty
+- \usepackage{parskip}
+- \usepackage{xcolor}
+- \AtBeginDocument{\let\maketitle\relax}
 - \usepackage{sectsty} \allsectionsfont{\centering}
 - \usepackage{titlesec}
 - \titlespacing{\section}{0pt}{12pt plus 2pt minus 1pt}{0pt plus 1pt minus 1pt}
 - \titlespacing{\subsection}{0pt}{12pt plus 2pt minus 1pt}{0pt plus 1pt minus 1pt}
 - \titlespacing{\subsubsection}{0pt}{12pt plus 2pt minus 1pt}{0pt plus 1pt minus 1pt}
-output:
-   pdf_document: default
-   # html_document:
-   # df_print: paged
-   
-   
+email: embruna@ufl.edu
 ---
 
 ```{r setup, include=FALSE}
@@ -192,7 +184,7 @@ https://catalog.ufl.edu/graduate/regulations/#text. **_Let me know as soon as po
 &nbsp;
 &nbsp;
 
-**Week 2: File Formats, Naming conventions, Data Storage, and Data Security**
+**Week 2: File Formats, Naming Conventions, Data Storage, and Data Security**
 
 1.  Jan Čurn. 2014. How a bug in Dropbox permanently deleted my 8000 photos. [[read online]](https://medium.com/@jancurn/how-bug-in-dropbox-permanently-deleted-my-8000-photos-cb7dcf13647b) [download pdf]
 
@@ -204,13 +196,19 @@ https://catalog.ufl.edu/graduate/regulations/#text. **_Let me know as soon as po
 
 **Week 3: Data structure & format of data and datasets **
 
-1.  Broman, K. W., & Woo, K. H. (2018). Data organization in spreadsheets. The American Statistician, 72(1), 2-10. [[read online]](https://www.tandfonline.com/doi/full/10.1080/00031305.2017.1375989) [download pdf]
+1.  Tesi, W. 2020. An Outdated Version of Excel Led the U.K. to Undercount COVID-19 Cases. [[read online]](https://slate.com/technology/2020/10/u-k-covid-19-spike-caused-by-microsoft-excel-error.html)  [download pdf]
 
-2.  Johnson, B. D., Dunlap, E., & Benoit, E. (2010). Organizing "mountains of words" for data analysis, both qualitative and quantitative. Substance Use & Misuse, 45(5), 648-70. [[read online]](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2838205/) [download pdf]
+2.  Broman, K. W., & Woo, K. H. (2018). Data organization in spreadsheets. The American Statistician, 72(1), 2-10. [[read online]](https://www.tandfonline.com/doi/full/10.1080/00031305.2017.1375989) [download pdf]
+
+3.  Johnson, B. D., Dunlap, E., & Benoit, E. (2010). Organizing "mountains of words" for data analysis, both qualitative and quantitative. Substance Use & Misuse, 45(5), 648-70. [[read online]](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2838205/) [download pdf]
+
+
 
 **Week 4: Reproducible data (re)organization**
 
 1.  Lewis, Keith P., Eric Vander Wal, and David A. Fifield. 2018. Wildlife biology, big data, and reproducible research. Wildlife Society Bulletin 42(1): 172-179. [[read online]](https://wildlife.onlinelibrary.wiley.com/doi/10.1002/wsb.847) [download pdf]
+
+2.  Wilson G, Bryan J, Cranston K, Kitzes J, Nederbragt L, Teal TK (2017) Good enough practices in scientific computing. PLoS Comput Biol 13(6): e1005510. [[read online]](https://doi.org/10.1371/journal.pcbi.1005510)  [download pdf]
 
 **Week 5: QA/QC: Data validation & correction 1**
 
@@ -240,6 +238,8 @@ https://catalog.ufl.edu/graduate/regulations/#text. **_Let me know as soon as po
 
 1.  Bakker, Rebecca. "Transcription Tools and Software" (2017). Works of the FIU Libraries. 62. [[read online]](https://digitalcommons.fiu.edu/glworks/62) [download pdf]  
 
+2. Watch "The Text Wash team discusses text anonymization" [link](https://youtu.be/5fFO4ROg4Vw); related blog post [link](https://ocean.sagepub.com/blog/making-sensitive-text-data-accessible-for-computational-social-science)
+
 **Week 11: ‘Paperless’ data collection**
 
 1.  Aanensen DM, Huntley DM, Feil EJ, al-Own F, Spratt BG (2009) EpiCollect: Linking Smartphones to Web Applications for Epidemiology, Ecology and Community Data Collection. PLoS ONE 4(9): e6968.[[read online]](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0006968) [download pdf]
@@ -259,9 +259,14 @@ https://catalog.ufl.edu/graduate/regulations/#text. **_Let me know as soon as po
 2.  Katie Fortney, UC Office of Scholarly Communication. 2016. “Who owns your data?” [[read online]](https://uc3.cdlib.org/2016/09/08/who-owns-your-data/)  [download pdf]
 
 
+Goodluck, K. 2020. Indigenous data sovereignty shakes up research. High COuntry News. [[read online]](https://www.hcn.org/issues/52.11/indigenous-affairs-covid19-indigenous-data-sovereignty-shakes-up-research)  [download pdf]
+
 **Week 14: Data Sharing, Reuse, & Archives**
 
 1.  Alexander, S.M., Jones, K., Bennett, N.J. et al. Qualitative data sharing and synthesis for sustainability science. Nat Sustain 3, 81–88 (2020). [[read online]](https://doi.org/10.1038/s41893-019-0434-8 )  [download pdf]
+
+2. Sébastien Renaut, Amber E Budden, Dominique Gravel, Timothée Poisot, Pedro Peres-Neto, Management, Archiving, and Sharing for Biologists and the Role of Research Institutions in the Technology-Oriented Age, BioScience, Volume 68, Issue 6, June 2018, Pages 400–411,
+
 
 2.  Duke, Clifford S., and John H. Porter. 2013. "The ethics of data sharing and reuse in biology." BioScience 63(6): 483-489.[[read online]](https://academic.oup.com/bioscience/article/63/6/483/226339) [download pdf]
 

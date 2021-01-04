@@ -1,0 +1,68 @@
+---
+output:
+  word_document: default
+  html_document: default
+  pdf_document: default
+---
+
+<!-- Note: to rendr as pdf delete the \newline -->
+
+##### **LAS 6292: WEEK 1 IN-CLASS ASSIGNMENT**  
+\newline  
+\newline   
+1. What degree are you pursuing?  
+\newline
+\newline
+2. What is your department or degree program?  
+\newline
+\newline  
+3. Please provide a brief summary - 1 paragraph max - of your thesis research *(or research interests, if not yet defined)*.  
+\newline
+\newline 
+4. Do You Have a Messy Data you would like to clean up and organize as your course project? *This can be data from your current or prior research, including side projects, Master's thesis, undergraduate thesis, etc. If you don't have a dataset, that's ok - I will help you find one.*  
+\newline
+\newline
+5. What is the status of this dataset? *Leave only the most relevant answer.*  
+
+    a. I have finished collecting data
+    b. I have started data collection but *will not* be done before the semester ends
+    c. I have started data collection and *will* be done before the semester ends
+    d. Other (please elaborate)  
+\newline  
+\newline    
+6. Tell me about your dataset(s):  
+
+    a. What are they and what kind of information do they contain?  
+    b. What tools and techniques did you use to collect it?  
+    c. What format are they in  (e.g., sheets of paper, notebooks, spreadsheet, text files, photographs)  
+    d. How much data is it? *(estimated number of files, surveys, photographs, etc).*  
+\newline  
+\newline  
+7. Do you use any third-party data? If so what is the source?  
+\newline
+\newline
+10. Are the data from research conducted with human subjects?  
+\newline
+\newline
+7. Are any collaborators currently working with the data?  
+\newline
+\newline
+9. Will anyone (e.g., collaborators, advisor) be working with the data in the future?   
+\newline
+\newline
+11. What instruments did you use for **recording** raw data *(e.g., paper survey or data forms, online surveys, notebooks/forms in which observations/responses were recorded, audio recordings, automated data loggers, photographs, video)*    
+\newline
+\newline
+13.  What instruments and software do you use for **processing and organizing** data? *(e.g., MS Word, Google Docs, other word processor, MS Excel, Google Sheets, other spreadsheets, Scrivener, OSF, Evernote, Flickr, R, nVivo)*    
+\newline
+\newline 
+14. Are you an R user? If so,how would you rate your proficiency? *Note: No prior programming experience is required for this class.*     
+\newline  
+\newline  
+14. Have you previously been the lead-author on a paper or book chapter resulting from data you gathered and analyzed? If so, please provide the citation.    
+\newline  
+\newline  
+16. Do you have any favorite data-collection-or-management-related tools?      
+\newline  
+\newline  
+17. Is there anything you'd like to add? Are there particular topics you'd like to see covered or tools you'd like to learn?   

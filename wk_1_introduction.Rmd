@@ -1,0 +1,110 @@
+---
+title: 'Week 1: Introduction'
+author: "Emilio M. Bruna"
+# date: "1/4/2021"
+output:
+  pdf_document: default
+  html_document: default
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Overview 
+
+* Introductions and an overview of the class
+
+## Pre-Class Preparation & Materials Needed (Instructor):
+
+* email students: 
+    * Confirmation of room and zoom link
+    * Pls bring own mug or water bottle, welcome to bring food / snacks
+    * Ask if any students need a laptop and arrange for a loan if necessary.
+* Snacks
+* Copies of the syllabus
+* Flip charts and markers
+* Dry write markers
+* Tent cards for student names
+
+## Objectives
+
+* Meet the instructor and students
+* Gain an appreciation for why I think this subject matter is important
+* Understand how different disciplines define and use 'data'
+* Learn the 'Research Data Life-Cycle'
+* Overview of the Course Structure, Syllabus
+
+## Pre-class Preparation (Students):
+
+* Readings: None
+
+* Online Lectures: None
+
+## Class Outline
+
+1)  **15 min Breakout: ** Get to know one another! Get in groups and introduce yourselves to each other; gather data on each other to present it back to the group  
+
+    * **Tell me about yourself**  
+         1. Name
+         2. In what city were you born?
+         3. What you consider your “hometown”?
+         4. Program and Degree?
+         5. Thesis topic in 5 words or less 
+         6. Hobbies or what you do to relax.   
+         
+         
+    * **Share with each other:**  
+        1. Goals for the class
+        2. Concerns / worries / fears about this class (in particular) and this semester (in general)? 
+        3. Record these on flip chart (if in person) or on jamboard   
+
+2) **15 min Instructor Presentation: ** Introduction to the research data life-cycle	
+
+<!-- Walk through the 'old' and 'new' research flow. Be sure to point out that in 'old' data were only in the middle, but in new they are at every step.  End with question “what are data?” to be discussed after a quick break.  break.  -->
+
+3) **25 min Breakout: ** 'Data' across disciplines  
+
+    * Define 'Data' 
+    
+    * Breakout: now that data have been defined, please work with your group to: 
+        * Identify different kinds of data collected in different disciplines 
+           <!-- ('disciplines' broadly defined, lets see what groups come up with).  -->
+        * How are these data collected / recorded? 
+        * Define 'Data Management'
+        
+    * Return, Report, Discuss
+        * After each group reprts back, discuss the following questions as a group: 
+            1)  Are data types and data recording methods that are unique (or at least much more common) in the biophysical                sciences, social sciences, humanities, or other disciplines? 
+            <!-- Ot is likely that across disciplines the issues and types of data being used are often very similar, but                    there might be some differences (e.g., text corpora from humanities). Also key is to emphasize that a key part of               'data' likely not brought up by the groups is information about how they were recorded, decisions made about how               to code them, corrections, etc. -->
+                
+            2)  Data Management: what do these definitions have in common?
+            
+                <!-- Key point: look to see if the definitions include the word "PLAN": managing data requires a PLAN.  This                    will let you segway into...-->
+
+4) **10 min BREAK **
+
+5) **10 min Instructor Presentation: ** Why *I* think this matters
+
+    * Slides
+    
+      <!-- Examples from “real world” about why data management matters: policy fails, data problems in the news, lost data,         data lost because of outdated media, etc.  -->
+
+
+6) **15 min Course Overview: **
+
+    * Review course objectives, topics, and why I take an approach different from many other data manag classes.  
+    * Introduce Assignments and Format of Weekly Sessions. This is a workshop!  
+    * *This course is driven by student needs and interests! *The syllabus may change as I learn more about those.   
+    * In-Class Assignment 1  
+
+7) **Time Remaining: In-class assignment**
+
+    * Please complete the survey in Canvas (under "Assignments: Week 1 Survey")
+
+## After class: 
+
+* Be sure you complete and submit the assignment by 9 am Monday  
+* Prepare for next session (assigned reading, videos, etc).
+
+
