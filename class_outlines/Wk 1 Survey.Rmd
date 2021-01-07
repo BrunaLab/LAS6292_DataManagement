@@ -1,4 +1,7 @@
 ---
+title: 'LAS 6292: Week 1 - Survey'
+author: "Emilio M. Bruna"
+date: "`r format(Sys.time(), '%Y')`"
 output:
   word_document: default
   html_document: default
@@ -75,3 +78,13 @@ It is important to remember that the 'dataset' can be more than one file. For in
 \newline  
 \newline  
 17. Is there anything you'd like to add? Are there particular topics you'd like to see covered or tools you'd like to learn?   
+\newline  
+\newline  
+\newline  
+\newline  
+    
+**Grading Rubric: **
+1) Survey completed with thorough answers: 50  
+2) Most questions answered completely; some require instructor follow-up: 40  
+3) Many questions missing answers or answers are cursory: 30 
+4) Instructor follow-up required for survey submission: 20
