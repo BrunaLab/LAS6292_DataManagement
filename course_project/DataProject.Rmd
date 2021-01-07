@@ -13,8 +13,6 @@ header-includes:
 - \fancyhead[R]{Data Management Project, p. \thepage}
 - \fancyhead[L]{}
 - \usepackage[default]{sourcesanspro}
-# - \usepackage{parskip}
-# - \usepackage{xcolor}
 - \AtBeginDocument{\let\maketitle\relax}
 - \usepackage{sectsty} \allsectionsfont{\centering}
 - \usepackage{titlesec}
@@ -50,7 +48,7 @@ total_points <- code + clean_data + metadata + dmp
 
 ## Assignment overview  
 &nbsp;  
-**Your project this semester is to (1)** clean and organize a 'messy' data set, **(2)** prepare metadata describing the resulting 'clean' data, and **(3)** prepare a data managment plant for your thesis research. The assignment is **due is due 30 April 2021** by 5 pm and has a **total value of `r total_points` points.**
+**Your project this semester is to (1)** clean and organize a 'messy' data set, **(2)** prepare metadata describing the resulting 'clean' data, and **(3)** prepare a data management plant for your thesis research. The assignment is **due is due 30 April 2021** by 5 pm and has a **total value of `r total_points` points.**
 
 **The complete project requires the submission of three items via the course Canvas website: **
 
