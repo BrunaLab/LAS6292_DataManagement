@@ -2,16 +2,13 @@
 title: 'LAS 6292: Data Collection & Management'
 author: "Emilio M. Bruna"
 date: "`r format(Sys.time(), '%Y')`"
-output:
-  pdf_document: default
-  word_document: default
-  html_document:
-    df_print: paged
 web: www.BrunaLab.org
 github: embruna
 twitter: https://twitter.com/BrunaLab
 phone: (352) 514-3935
+email: embruna@ufl.edu
 geometry: margin=1in
+fontsize: 12pt
 linkcolor: blue
 urlcolor: blue
 site: bookdown::bookdown_site
@@ -20,7 +17,7 @@ header-includes:
 - \pagestyle{fancy}
 - \fancyfoot{}
 - \fancyhead[R]{Syllabus, p. \thepage}
-- \fancyhead[L]{LAS 6292}
+- \fancyhead[L]{LAS 6292 (`r format(Sys.time(), '%Y')`)}
 - \usepackage[default]{sourcesanspro}
 - \usepackage{parskip}
 - \usepackage{xcolor}
@@ -30,7 +27,11 @@ header-includes:
 - \titlespacing{\section}{0pt}{12pt plus 2pt minus 1pt}{0pt plus 1pt minus 1pt}
 - \titlespacing{\subsection}{0pt}{12pt plus 2pt minus 1pt}{0pt plus 1pt minus 1pt}
 - \titlespacing{\subsubsection}{0pt}{12pt plus 2pt minus 1pt}{0pt plus 1pt minus 1pt}
-email: embruna@ufl.edu
+output:
+  pdf_document: default
+  word_document: default
+  html_document:
+    df_print: paged
 ---
 
 ```{r setup, include=FALSE}
@@ -43,15 +44,15 @@ library(tidyverse)
 
 ## **TCD RESEARCH METHODS: DATA COLLECTION & MANAGEMENT (LAS 6292)**  
 ### **Spring 2021 | Class No. 26033**
-&nbsp;
+&nbsp;  
 
 **INSTRUCTOR:**  Dr. Emilio M. Bruna [website](http://brunalab.org/emilio-m-bruna/) 
 
 **CONTACT INFO:** Phone: (352) 846-0634 | email: embruna@ufl.edu | Twitter: [\@BrunaLab](https://twitter.com/BrunaLab)  
 
-**CLASS SESSIONS:** Friday, Periods 6-8 (12:50-3:50) in Grinter Hall 376 and online  
+**CLASS SESSIONS:** Friday, Periods 6-8 (12:50-3:50) in Grinter 376 & online  
 
-**OFFICE HOURS:** Thursdays from 10:30-12:00 via zoom (you can guarantee a specific time slot by scheduling online at http://brunalab.org/teaching/office-hours) OR by appointment
+**OFFICE HOURS:** Monday and Wednesday 10:30 am -12:00 pm via zoom. You can guarantee a specific time slot by scheduling online at http://brunalab.org/teaching/office-hours. You can email me to arrange a more convenient time to meet. 
 
 **OBJECTIVES:**  This course is designed for graduate students from any discipline – social sciences, humanities, biophysical sciences – and at all stages of their graduate program. It is an introduction to methods for collecting, organizing, managing, and visualizing both qualitative and quantitative data. Students will gain hands-on experience with best practices and tools. **_At the conclusion of this course students will be able to_**:
 
@@ -62,8 +63,8 @@ library(tidyverse)
 5.	Carry out simple and reproducible data corrections and dataset organization;
 6.	Describe public policies and agency requirements for data management and sharing; 
 7.	Articulate the major legal and ethical considerations regarding the collection, use, and storage of research data (e.g., privacy/human subjects, intellectual property;
-8.	Create and Implement and a Data Management Plan;
-9.	Identify and properly use tools and techniques for more efficient and secure data collection in the field.
+8.	Create and Implement a Data Management Plan;
+9.	Identify and properly use tools for more efficient and secure data collection in the field.
 
 
 **COURSE FORMAT:** I believe there is no better way to learn than by doing, which is why this course is taught (mostly) in a ‘flipped-course’ format. Students are expected to complete each week’s assigned reading and watch the short video lectures prior class. The class session will typically include an opportunity for students to ask questions about the pre-class materials and for the instructor to briefly summarize material or demonstrate challenging concepts; occasionally there will be a class discussion about the assigned reading. However, most of the class session will be spent working in small groups on exercises that reinforce that week’s concepts and techniques. Throughout the session I will be circulating between groups to assist with the assignment, work though mistakes, and discuss how the techniques can be applied to each student’s research. 
@@ -71,9 +72,9 @@ library(tidyverse)
 
 **COURSE MATERIALS:**
 
-1.	**Required Textbook:** *None*. All readings and materials will be provided to students on the course webpage,
+1.	**Required Textbook:** *None*. All readings will be provided on the course Canvas page [https://elearning.ufl.edu].
 
-2.	**Course Web Pages:** All course materials, communication, and assignment submission will be via Canvas: https://elearning.ufl.edu/.   
+2.	**Course Web Page:** All course materials, communication, and assignment submission will be via Canvas [https://elearning.ufl.edu].   
 
 \newpage
 **COURSE OUTLINE & CRITICAL DATES**
@@ -112,6 +113,14 @@ kable(outline,
 
 ```
 
+```{r points, include=FALSE}
+in_class <- 50
+no_classes <- 14
+in_class_total <- no_classes * in_class
+project <- 800
+course_total <- in_class_total + project
+```
+
 &nbsp;
 &nbsp;
 
@@ -119,9 +128,9 @@ kable(outline,
 &nbsp;  
 **Assignments: ** The course grade is based on the completion of the following assignments:
 
-1.  Weekly in-class in-class exercises (14 x 20 pts each = 350 points total)
-2.  An individual data management project (750 points). 
-3.  Course total: 1100 points
+1.  Weekly in-class exercises: `r no_classes` x `r in_class` each = `r in_class_total` total
+2.  Individual data management project: `r project` points 
+3.  **Course total: `r course_total` points**
 
 **Due Dates: **  
 
@@ -141,7 +150,7 @@ https://catalog.ufl.edu/graduate/regulations/#text. **_Let me know as soon as po
 
 *  **Academic Honesty:** As a student at the University of Florida, you have committed yourself to uphold the Honor Code, which includes the following pledge: *“We, the members of the University of Florida community, pledge to hold ourselves and our peers to the highest standards of honesty and integrity.”* You are expected to exhibit behavior consistent with this commitment to the UF academic community, and on all work submitted for credit at the University of Florida, the following pledge is either required or implied: *"On my honor, I have neither given nor received unauthorized aid in doing this assignment".* It is assumed that you will complete all work independently in each course unless the instructor provides explicit permission for you to collaborate on course tasks (e.g. assignments, papers, quizzes, exams). Furthermore, as part of your obligation to uphold the Honor Code, you should report any condition that facilitates academic misconduct to appropriate personnel. It is your individual responsibility to know and comply with all university policies and procedures regarding academic integrity and the Student Honor Code. Violations of the Honor Code at the University of Florida will not be tolerated. Violations will be reported to the Dean of Students Office for consideration of disciplinary action. For more information regarding the Student Honor Code, please see: http://www.dso.ufl.edu/SCCR/honorcodes/honorcode.php.  
 
-*  **Services for Students Requiring Accommodations: ** The Disability Resource Center (0001 Reid Hall, 352-392-8565, www.dso.ufl.edu/drc/) coordinates the needed accommodations of students with disabilities. This includes registering disabilities, recommending academic accommodations within the classroom, accessing special adaptive computer equipment, providing interpretation services and mediating faculty-student disability related issues.  **_I want you to do well in this class and will gladly work with you to implement any neccessary accommodations.**
+*  **Services for Students Requiring Accommodations: ** The Disability Resource Center (0001 Reid Hall, 352-392-8565, www.dso.ufl.edu/drc/) coordinates the needed accommodations of students with disabilities. This includes registering disabilities, recommending academic accommodations within the classroom, accessing special adaptive computer equipment, providing interpretation services and mediating faculty-student disability related issues.  **_I want you to do well in this class and will gladly work with you to implement any neccessary accommodations._**
 
 *  **Course Evaluation: ** Students are expected to provide professional and respectful feedback on the quality of instruction in this course by completing course evaluations online via GatorEvals. Students will be notified when the evaluation period opens, and can complete evaluations through the email they receive from GatorEvals, in their Canvas course menu under GatorEvals, or via www.ufl.bluera.com/ufl/. Summaries of course evaluation results are available to students [here](https://gatorevals.aa.ufl.edu/public-results/).
 
