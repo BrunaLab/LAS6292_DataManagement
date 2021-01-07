@@ -1,6 +1,6 @@
 ---
 title: 'Week 1: Introduction'
-author: "Emilio M. Bruna"
+# author: "Emilio M. Bruna"
 # date: "1/4/2021"
 output:
   pdf_document: default

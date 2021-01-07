@@ -1,0 +1,39 @@
+---
+title: "Week 2: File Formats, Naming Conventions, Data Storage and Security"
+author: "Emilio M. Bruna"
+date: "1/3/2021"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+### Overview 
+
+### Objectives
+
+### Before Class
+
+#### Readings
+
+1.  Jan Čurn. 2014. How a bug in Dropbox permanently deleted my 8000 photos. [[read online]](https://medium.com/@jancurn/how-bug-in-dropbox-permanently-deleted-my-8000-photos-cb7dcf13647b) [download pdf]
+
+2.  PSA: Scrivener, Data Integrity and You. Or, How To Avoid Data Loss Heartbreak.[[read online]](https://www.reddit.com/r/writing/comments/62hr7o/psa_scrivener_data_integrity_and_you_or_how_to/) [download pdf]
+
+3.  DataONE Best Practices Working Group, DataONE  (July 01, 2010) "Best Practice: Ensure integrity and accessibility when making backups of data". Accessed through the Data Management Skillbuilding Hub. [[read online]]( https://dataoneorg.github.io/Education/bestpractices/ensure-integrity-and) [download pdf]
+
+4.  Hart EM et al. (2016) Ten Simple Rules for Digital Data Storage. PLoS Comput Biol 12(10): e1005097. [[read online]](https://doi.org/10.1371/journal.pcbi.1005097) [download pdf]
+
+#### Online Lectures
+
+### Class Materials
+
+#### Data Files
+
+### After class: 
+
+1.  Complete and submit the assignment  
+
+
