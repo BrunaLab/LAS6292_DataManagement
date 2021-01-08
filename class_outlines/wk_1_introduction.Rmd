@@ -23,6 +23,7 @@ knitr::opts_chunk$set(echo = TRUE)
     * Ask if any students need a laptop and arrange for a loan if necessary.
 * Snacks
 * Copies of the syllabus
+* Copy of Course Roster
 * Flip charts and markers
 * Dry write markers
 * Tent cards for student names
@@ -43,64 +44,81 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ## Class Outline
 
-1)  **15 min Breakout: ** Get to know one another! Get in groups and introduce yourselves to each other; gather data on each other to present it back to the group  
+```{r timer, echo=FALSE}
+intro_break <- 20
+intro_break_convo <- 30
+data_cycle_intro <- 15
+snack_break <- 10
+data_break <- 20
+data_break_convo <- 20
+class_overview <- 15
 
-    * **Tell me about yourself**  
-         1. Name
-         2. In what city were you born?
-         3. What you consider your “hometown”?
-         4. Program and Degree?
-         5. Thesis topic in 5 words or less 
-         6. Hobbies or what you do to relax.   
-         
-         
-    * **Share with each other:**  
-        1. Goals for the class
-        2. Concerns / worries / fears about this class (in particular) and this semester (in general)? 
-        3. Record these on flip chart (if in person) or on jamboard   
+total_time <- intro_break + intro_break_convo + 
+  data_cycle_intro + snack_break + class_overview + data_break + 
+  data_break_convo
 
-2) **15 min Instructor Presentation: ** Introduction to the research data life-cycle	
+time_remain <- 180 - total_time
+```
+
+1. Turn on zoom captioning 
+2. Start meeting record.
+3. Introduce yourself
+4. **Block 1: Breakout for Introductions (`r intro_break + intro_break_convo` total): ** Get to know one another! Get in pairs, introduce yourselves, and record responses to the following questions **(`r intro_break` min)**. We will then come back to introduce your partner to the group **(`r intro_break_convo` min)**.  
+
+    * **Tell me about yourself: **  
+        1. Name
+        2. In what city were you born?
+        3. What you consider your “hometown”?
+        4. Program and Degree?
+        5. Thesis topic in 5 words or less 
+        6. Hobbies or what you do to relax.
+        7. What is your motivation for taking this class?
+        8. Any concerns / worries / fears about this class (in particular) and this semester (in general)? 
+        
+    * **Once you are done with the introductions, come up with an answer to the following question: **
+    
+      1. What are 'Data'?
+
+
+
+5. **Block 2: Instructor Presentation (`r data_cycle_intro` min): **
+
+      1. "Data" and the Research Data Life Cycle.
+      2. Prompt for the next breakout (to start after break)
+
 
 <!-- Walk through the 'old' and 'new' research flow. Be sure to point out that in 'old' data were only in the middle, but in new they are at every step.  End with question “what are data?” to be discussed after a quick break.  break.  -->
 
-3) **25 min Breakout: ** 'Data' across disciplines  
+<!-- Breakout into larger groups (n = 4 per group) -->
 
-    * Define 'Data' 
+6. **`r snack_break` min BREAK **
+
+7.  **Block 3: 'Data' across disciplines Breakout (`r data_break + data_break_convo` min)** . Now that data have been defined, group members have **`r data_break` min** to discuss the following questions. We'll come back and  discuss what you came up with for as a group **(`r data_break_convo` min)**.
+
+    * Discussion Questions: 
+        1. Identify different kinds of data collected in different disciplines 
+        2. How are these data gathered (tools, techniques) and recorded (media)? 
+      
+<!-- After each group reports back, discuss the following questions as a group:  -->
+
+<!-- Are data types and data recording methods that are unique (or at least much more common) in the biophysical sciences, social sciences, humanities, or other disciplines?  --> 
+
+<!-- It is likely that across disciplines the issues and types of data being used are often very similar, but there might be some differences (e.g., text corpora from humanities). Also key is to emphasize that a key part of 'data' likely not brought up by the groups is information about how they were recorded, decisions made about how to code them, corrections, etc. -->
+
+<!-- Key point: look to see if the definitions include the word "PLAN": managing data requires a PLAN.  This will let you segway into... -->
+
+8. **Instructor presentation: Wrap-Up and Syllabus Overview (`r class_overview` min) ** Why *I* think this matters
+
+    1. Examples from “real world” about why data management matters: policy fails, data problems in the news, lost data,data lost because of outdated media.
+    2. Review course objectives, topics, and why I take an approach different from many other data manag classes.
+    3. Introduce Assignments and Format of Weekly Sessions. This is a workshop!
+    4.  *This course is driven by student needs and interests! *The syllabus may change as I learn more about those.
     
-    * Breakout: now that data have been defined, please work with your group to: 
-        * Identify different kinds of data collected in different disciplines 
-           <!-- ('disciplines' broadly defined, lets see what groups come up with).  -->
-        * How are these data collected / recorded? 
-        * Define 'Data Management'
-        
-    * Return, Report, Discuss
-        * After each group reprts back, discuss the following questions as a group: 
-            1)  Are data types and data recording methods that are unique (or at least much more common) in the biophysical                sciences, social sciences, humanities, or other disciplines? 
-            <!-- Ot is likely that across disciplines the issues and types of data being used are often very similar, but                    there might be some differences (e.g., text corpora from humanities). Also key is to emphasize that a key part of               'data' likely not brought up by the groups is information about how they were recorded, decisions made about how               to code them, corrections, etc. -->
-                
-            2)  Data Management: what do these definitions have in common?
-            
-                <!-- Key point: look to see if the definitions include the word "PLAN": managing data requires a PLAN.  This                    will let you segway into...-->
-
-4) **10 min BREAK **
-
-5) **10 min Instructor Presentation: ** Why *I* think this matters
-
-    * Slides
     
-      <!-- Examples from “real world” about why data management matters: policy fails, data problems in the news, lost data,         data lost because of outdated media, etc.  -->
 
+9. **Time Remaining: In-class assignment 1 (`r time_remain` min**)
 
-6) **15 min Course Overview: **
-
-    * Review course objectives, topics, and why I take an approach different from many other data manag classes.  
-    * Introduce Assignments and Format of Weekly Sessions. This is a workshop!  
-    * *This course is driven by student needs and interests! *The syllabus may change as I learn more about those.   
-    * In-Class Assignment 1  
-
-7) **Time Remaining: In-class assignment**
-
-    * Please complete the survey in Canvas (under "Assignments: Week 1 Survey")
+    1. Please complete the survey in Canvas (under "Assignments: Week 1 Survey")
 
 ## After class: 
 
