@@ -1,7 +1,11 @@
 
 **INSTRUCTOR:**  Dr. Emilio M. Bruna [website](http://brunalab.org/emilio-m-bruna/) 
 
-**CONTACT INFO:** Phone: (352) 846-0634 | email: embruna@ufl.edu | Twitter: [\@BrunaLab](https://twitter.com/BrunaLab)  
+**Phone:** (352) 846-0634  
+
+**email:** embruna@ufl.edu 
+
+**Twitter:** [@BrunaLab](https://twitter.com/BrunaLab)  
 
 **OBJECTIVES:**  This course is designed for graduate students from any discipline – social sciences, humanities, biophysical sciences – and at all stages of their graduate program. It is an introduction to methods for collecting, organizing, managing, and visualizing both qualitative and quantitative data. Students will gain hands-on experience with best practices and tools. **_At the conclusion of this course students will be able to_**:
 
