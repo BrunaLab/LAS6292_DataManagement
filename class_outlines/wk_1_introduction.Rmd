@@ -11,6 +11,10 @@ output:
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
+
+https://dataoneorg.github.io/Education/lessons/01_management/index 
+
+
 ## Overview 
 
 * Introductions and an overview of the class
