@@ -225,9 +225,12 @@ https://catalog.ufl.edu/graduate/regulations/#text. **_Let me know as soon as po
 
 2.  Lincoln, Matthew D. 2018. "Best Practices for Using Google Sheets in Your Data Project." [[read online]](https://matthewlincoln.net/2018/03/26/best-practices-for-using-google-sheets-in-your-data-project.html) [download pdf]
 
-**Week 6: QA/QC: Data validation & correction 2**
+**Week 6: QA/QC: Data validation & correction 2**  
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;No readings this week.
+
+* Guest Instructor: Dr. Hao Ye, [UF Reproducibility Librarian](https://guides.uflib.ufl.edu/haoye)  
+    
+* *No readings this week.*
 
 **Week 7: Documentation: Metadata, Codebooks**
 

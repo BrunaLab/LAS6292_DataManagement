@@ -3,8 +3,8 @@ title: 'Week 1: Introduction'
 # author: "Emilio M. Bruna"
 # date: "1/4/2021"
 output:
-  pdf_document: default
   html_document: default
+  pdf_document: default
 ---
 
 ```{r setup, include=FALSE}
@@ -14,8 +14,8 @@ knitr::opts_chunk$set(echo = TRUE)
 
 https://dataoneorg.github.io/Education/lessons/01_management/index 
 
-
-## Overview 
+# Week 1: Introduction & The Research Data Life Cycle
+## Overview
 
 * Introductions and an overview of the class
 
@@ -74,7 +74,7 @@ time_remain <- 180 - total_time
         2. In what city were you born?
         3. What you consider your “hometown”?
         4. Program and Degree?
-        5. Thesis topic in 5 words or less 
+        5. Emoji your thesis 
         6. Hobbies or what you do to relax.
         7. What is your motivation for taking this class?
         8. Any concerns / worries / fears about this class (in particular) and this semester (in general)? 
@@ -82,6 +82,9 @@ time_remain <- 180 - total_time
     * **Once you are done with the introductions, come up with an answer to the following question: **
     
       1. What are 'Data'?
+
+
+Links to the groups: https://drive.google.com/drive/u/1/folders/1-U8Ong0TM6TVirpJB98cIBk773PSGgAu 
 
 
 

@@ -1,0 +1,128 @@
+---
+title: "Curating Chaos - Session Outlines"
+author: "Emilio M. Bruna"
+date: "1/7/2021"
+output:
+  pdf_document: default
+  html_document: default
+---
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+https://www.youtube.com/watch?v=N2zK3sAtr-4
+
+### 2. File Formats, naming conventions, data storage, & security  
+
+* **Intro Material (lecture/videos): **
+  * https://dataoneorg.github.io/Education/lessons/06_protect/index  
+  
+    
+    
+* **In-class Exercise:**   
+
+    * Trivia Night-style competition of file types
+    * storage & security plan
+
+
+### 3. Structure & format of Data & Datasets  
+* **Intro Material (lecture/videos): **
+  * https://dataoneorg.github.io/Education/lessons/04_entry/index  open las
+* **In-class Exercise:**  
+    * Data Carpentry Lesson (2:15 h)
+      * https://datacarpentry.org/spreadsheets-socialsci/ or
+      * https://datacarpentry.org/spreadsheet-ecology-lesson/
+
+### 4. Reproducible data (re)organization  
+* **Intro Material (lecture/videos): **
+  * https://dataoneorg.github.io/Education/lessons/09_analysis/index 
+  * https://dataoneorg.github.io/Education/bp_step/analyze/ 
+  * https://dataoneorg.github.io/Education/bp_step/collect/
+  * https://dataoneorg.github.io/Education/bp_step/integrate/
+
+* **In-class Exercise:** build-a-sandwhich reporducibility exercise (they do instructions, i will make on screen trying to follow! don't tell them I'm going to do it, ask them to do it and then spring it on them), Intro to R, Markdown, show / do rearranging of spreadsheets from last week, wide-to-long
+
+    * Data Carpentry R Intros note: *depends on familiarity of students with R*
+    * https://datacarpentry.org/r-socialsci/ 
+    * https://datacarpentry.org/R-ecology-lesson/
+
+
+### 5. Data validation & correction 1
+* **Intro Material (lecture/videos): **
+
+
+* **In-class Exercise:**  
+    * Data Carpentry Lesson (2:15 h)
+    * https://datacarpentry.org/openrefine-socialsci/
+    * https://datacarpentry.org/OpenRefine-ecology-lesson/
+
+### 6. Data validation & correction 2
+* **Intro Material (lecture/videos): **
+  * review of all that needs to be done: https://dataoneorg.github.io/Education/bp_step/assure/
+
+* **In-class Exercise:** 
+  * visualizations to help find errors, working on own datasets
+
+
+### 7. Documentation: Metadata, Codebooks   
+* **Intro Material (lecture/videos): **
+  * https://dataoneorg.github.io/Education/lessons/07_metadata/index 
+  * https://dataoneorg.github.io/Education/bp_step/describe/ 
+
+* **In-class Exercise:**
+    * Begin Drafting Metadata File, Code Books
+
+
+### 8. Data Management Plans   
+* **Intro Material (lecture/videos): **
+  * https://dataoneorg.github.io/Education/lessons/03_planning/index 
+  * https://dataoneorg.github.io/Education/bp_step/integrate/
+
+* **In-class Exercise:**
+  * DMP tool to start buildling their own DMP    
+      
+### 9. Efficient data collection   
+* **Intro Material (lecture/videos): **
+
+
+* **In-class Exercise:**
+    * buld a better form, find error minimization
+
+### 10. Transcription & Translation   
+* **Intro Material (lecture/videos): **
+
+* **In-class Exercise:**
+    * compare different transcription / translation tools
+
+### 11. ‘Paperless’ data collection   
+* **Intro Material (lecture/videos): **
+    
+
+* **In-class Exercise:** 
+    * build epicollect file and collect data withit
+
+### 12. Automated data extraction   
+* **Intro Material (lecture/videos): **
+
+
+* **In-class Exercise:**
+    * Compare OCR tools
+
+### 13. Legal and Ethical Issues   
+* **Intro Material (lecture/videos): **
+  * https://dataoneorg.github.io/Education/lessons/10_policy/index
+
+* **In-class Exercise:**
+
+
+
+### 14. Data Sharing, Reuse, & Archives   
+* **Intro Material (lecture/videos): **
+  * https://dataoneorg.github.io/Education/lessons/02_datasharing/L02_Exercise.pdf
+  * https://dataoneorg.github.io/Education/lessons/08_citation/index
+  * https://dataoneorg.github.io/Education/bp_step/discover/
+
+* **In-class Exercise:**  
+  * Find data, look at data archive and see if they can understand it
