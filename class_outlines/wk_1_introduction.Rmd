@@ -1,10 +1,10 @@
 ---
-title: 'Week 1: Introduction'
+# title: 'Week 1: Introduction'
 # author: "Emilio M. Bruna"
 # date: "1/4/2021"
 output:
-  html_document: default
   pdf_document: default
+  html_document: default
 ---
 
 ```{r setup, include=FALSE}
@@ -12,12 +12,14 @@ knitr::opts_chunk$set(echo = TRUE)
 ```
 
 
-https://dataoneorg.github.io/Education/lessons/01_management/index 
-
 # Week 1: Introduction & The Research Data Life Cycle
-## Overview
+## Objectives
 
-* Introductions and an overview of the class
+* Meet the instructor and students
+* Gain an appreciation for why I think this subject matter is important
+* Understand how different disciplines define and use 'data'
+* Learn the 'Research Data Life-Cycle'
+* Overview of the Course Structure, Syllabus
 
 ## Pre-Class Preparation & Materials Needed (Instructor):
 
@@ -32,42 +34,35 @@ https://dataoneorg.github.io/Education/lessons/01_management/index
 * Dry write markers
 * Tent cards for student names
 
-## Objectives
-
-* Meet the instructor and students
-* Gain an appreciation for why I think this subject matter is important
-* Understand how different disciplines define and use 'data'
-* Learn the 'Research Data Life-Cycle'
-* Overview of the Course Structure, Syllabus
 
 ## Pre-class Preparation (Students):
 
 * Readings: None
-
 * Online Lectures: None
 
 ## Class Outline
 
 ```{r timer, echo=FALSE}
-intro_break <- 20
+intro_break <- 15
 intro_break_convo <- 30
-data_cycle_intro <- 15
+eb_motivation_intro <- 15
 snack_break <- 10
 data_break <- 20
 data_break_convo <- 20
 class_overview <- 15
 
 total_time <- intro_break + intro_break_convo + 
-  data_cycle_intro + snack_break + class_overview + data_break + 
+  eb_motivation_intro + snack_break + class_overview + data_break + 
   data_break_convo
 
 time_remain <- 180 - total_time
 ```
 
-1. Turn on zoom captioning 
-2. Start meeting record.
-3. Introduce yourself
-4. **Block 1: Breakout for Introductions (`r intro_break + intro_break_convo` total): ** Get to know one another! Get in pairs, introduce yourselves, and record responses to the following questions **(`r intro_break` min)**. We will then come back to introduce your partner to the group **(`r intro_break_convo` min)**.  
+1. Turn on Zoom, chill music countdown
+2. Turn on zoom captioning
+3. Start meeting record
+4. Introduce yourself
+5. **Block 1: Breakout for Introductions (`r intro_break + intro_break_convo` total): ** Get to know one another! Get in pairs, introduce yourselves, and record responses to the following questions **(`r intro_break` min)**. We will then come back to introduce your partner to the group **(`r intro_break_convo` min)**.  
 
     * **Tell me about yourself: **  
         1. Name
@@ -82,21 +77,23 @@ time_remain <- 180 - total_time
     * **Once you are done with the introductions, come up with an answer to the following question: **
     
       1. What are 'Data'?
+      2. Links to the groups: https://drive.google.com/drive/u/1/folders/1-U8Ong0TM6TVirpJB98cIBk773PSGgAu 
 
 
-Links to the groups: https://drive.google.com/drive/u/1/folders/1-U8Ong0TM6TVirpJB98cIBk773PSGgAu 
+5. **Block 2: Report Back Intros (`r intro_break_convo` min): **
 
+      1. Students take turns introducing themselves
+      2. Quick summary of the different ways they defined "data"
 
+5. **Block 3: Instructor Presentation - EB Motivation for Teaching Course (`r eb_motivation_intro` min): **
 
-5. **Block 2: Instructor Presentation (`r data_cycle_intro` min): **
-
-      1. "Data" and the Research Data Life Cycle.
-      2. Prompt for the next breakout (to start after break)
-
-
-<!-- Walk through the 'old' and 'new' research flow. Be sure to point out that in 'old' data were only in the middle, but in new they are at every step.  End with question “what are data?” to be discussed after a quick break.  break.  -->
-
-<!-- Breakout into larger groups (n = 4 per group) -->
+      1. The defintion of "Data"
+      2. EB Motivation for teaching the class: 
+          * Reduce Student Stress
+          * Research integrity: identifies fraud, a shield to protect you when you are right
+          * Because it really matters to society, both when we get it wrong and when we get it right
+          * Because your data are a potential gold mine for future researchers...but only if you take a few important steps now.
+      2. Prompt for the next breakout (to start after break); Breakout into larger groups (n = 4)
 
 6. **`r snack_break` min BREAK **
 
@@ -105,21 +102,18 @@ Links to the groups: https://drive.google.com/drive/u/1/folders/1-U8Ong0TM6TVirp
     * Discussion Questions: 
         1. Identify different kinds of data collected in different disciplines 
         2. How are these data gathered (tools, techniques) and recorded (media)? 
-      
-<!-- After each group reports back, discuss the following questions as a group:  -->
+    * After each group reports back, discuss the following questions as a group:
+        1. Are data types and data recording methods that are unique (or at least much more common) in the biophysical sciences, social sciences, humanities, or other disciplines?  
+        2. It is likely that across disciplines the issues and types of data being used are often very similar, but there might be some differences (e.g., text corpora from humanities). 
+        3. One key is to emphasize that an important part of 'data' likely not brought up by the groups is information about how they were recorded, decisions about how to code them, corrections, etc.
+        4. Important: look to see if the definitions include the word "PLAN": managing data requires a PLAN.  This will let you segway into...
 
-<!-- Are data types and data recording methods that are unique (or at least much more common) in the biophysical sciences, social sciences, humanities, or other disciplines?  --> 
+8. **Instructor presentation: Research Data Cycle & Syllabus Overview (`r class_overview` min)**
 
-<!-- It is likely that across disciplines the issues and types of data being used are often very similar, but there might be some differences (e.g., text corpora from humanities). Also key is to emphasize that a key part of 'data' likely not brought up by the groups is information about how they were recorded, decisions made about how to code them, corrections, etc. -->
-
-<!-- Key point: look to see if the definitions include the word "PLAN": managing data requires a PLAN.  This will let you segway into... -->
-
-8. **Instructor presentation: Wrap-Up and Syllabus Overview (`r class_overview` min) ** Why *I* think this matters
-
-    1. Examples from “real world” about why data management matters: policy fails, data problems in the news, lost data,data lost because of outdated media.
-    2. Review course objectives, topics, and why I take an approach different from many other data manag classes.
-    3. Introduce Assignments and Format of Weekly Sessions. This is a workshop!
-    4.  *This course is driven by student needs and interests! *The syllabus may change as I learn more about those.
+    1.Typical vs. New approach to Data
+    2.Most courses start with the most boring part: DMP. I take an approach different from many other data manag classes.
+    3.Introduce Assignments and Format of Weekly Sessions. This is a workshop!
+    4.*This course is driven by student needs and interests! *The syllabus may change as I learn more about those.
     
     
 
@@ -129,7 +123,7 @@ Links to the groups: https://drive.google.com/drive/u/1/folders/1-U8Ong0TM6TVirp
 
 ## After class: 
 
-* Be sure you complete and submit the assignment by 9 am Monday  
+* Be sure you complete and submit the assignment by 9 am Monday
 * Prepare for next session (assigned reading, videos, etc).
 
 
