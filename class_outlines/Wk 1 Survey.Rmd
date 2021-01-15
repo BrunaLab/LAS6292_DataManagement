@@ -1,7 +1,7 @@
 ---
-title: 'LAS 6292: Week 1 - Survey'
-author: "Emilio M. Bruna"
-date: "`r format(Sys.time(), '%Y')`"
+# title: 'LAS 6292: Week 1 - Survey'
+# author: "Emilio M. Bruna"
+# date: "`r format(Sys.time(), '%Y')`"
 output:
   word_document: default
   html_document: default
