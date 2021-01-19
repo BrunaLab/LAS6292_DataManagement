@@ -43,13 +43,13 @@ knitr::opts_chunk$set(echo = TRUE)
 ## Class Outline
 
 ```{r timer, echo=FALSE}
-intro_break <- 15
-intro_break_convo <- 30
-eb_motivation_intro <- 15
+intro_break <- 20
+intro_break_convo <- 25
+eb_motivation_intro <- 20
 snack_break <- 10
-data_break <- 20
+data_break <- 25
 data_break_convo <- 20
-class_overview <- 15
+class_overview <- 20
 
 total_time <- intro_break + intro_break_convo + 
   eb_motivation_intro + snack_break + class_overview + data_break + 
@@ -62,6 +62,9 @@ time_remain <- 180 - total_time
 2. Turn on zoom captioning
 3. Start meeting record
 4. Introduce yourself
+
+<!-- 1-4 will take ~10 minutes, especially since we usually give students a few minutes to roll in late. -->
+
 5. **Block 1: Breakout for Introductions (`r intro_break + intro_break_convo` total): ** Get to know one another! Get in pairs, introduce yourselves, and record responses to the following questions **(`r intro_break` min)**. We will then come back to introduce your partner to the group **(`r intro_break_convo` min)**.  
 
     * **Tell me about yourself: **  
