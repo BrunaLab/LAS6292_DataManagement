@@ -1,0 +1,96 @@
+---
+title: "Week 2"
+author: "Emilio M. Bruna"
+date: "1/13/2021"
+# output: html_document
+output: rmdformats::<template name>
+---
+# Week 2: File Formats, naming conventions, data storage, & security   
+
+## Overview
+
+## Pre-Class Preparation & Materials Needed (Instructor):
+    * email students: 
+    * Confirmation of room and zoom link
+    * Remind students to bring their computers
+    * Make sure you know if everyone has R and instlled; level of R fluency
+    * Snacks
+    * Copies of the syllabus
+    * Copy of Course Roster
+    * Flip charts and markers
+    * Dry write markers
+    * Tent cards for student names
+
+## Objectives
+
+* Learn the difference between proprietary and open formats
+* Learn the importance of open formats to ensure long-term integrity 
+* Learn conventions for proper naming of files 
+* Become aware of data storage options, best way to develop backups
+* develop a plan for data storage and back-up
+* Rules and Policies for data security 
+* Batch renaming of files
+## Pre-class Preparation (Students):
+
+* Readings: 
+
+* Online Lectures: 
+
+## Class Outline
+
+```{r timer, echo=FALSE}
+intro_break <- 20
+intro_break_convo <- 30
+data_cycle_intro <- 15
+snack_break <- 10
+data_break <- 20
+data_break_convo <- 20
+class_overview <- 15
+
+total_time <- intro_break + intro_break_convo + 
+  data_cycle_intro + snack_break + class_overview + data_break + 
+  data_break_convo
+
+time_remain <- 180 - total_time
+```
+
+1. Turn on zoom captioning 
+
+1. **Block 1: (`r intro_break + intro_break_convo` total): ** ----- **(`r intro_break` min)**. We will then come back to ---- **(`r intro_break_convo` min)**.  
+
+
+3. **Block 2: Instructor Presentation (`r data_cycle_intro` min): **
+
+      1. "Data" and the Research Data Life Cycle.
+      2. Prompt for the next breakout (to start after break)
+
+6. **`r snack_break` min BREAK **
+
+7.  **Block 3: 'Data' across disciplines Breakout (`r data_break + data_break_convo` min)** . Now that data have been defined, group members have **`r data_break` min** to discuss the following questions. We'll come back and  discuss what you came up with for as a group **(`r data_break_convo` min)**.
+
+8. **Instructor presentation: Wrap-Up and Syllabus Overview (`r class_overview` min) ** Why *I* think this matters
+
+9. **Time Remaining: In-class assignment 1 (`r time_remain` min**)
+
+ * Sign up for a Dropbox account
+ * Sign up for a UFL Google Account
+ * Write up a data backup plan
+ * Save files in one of these with properly formatted names
+ * Submit a screenshot of the system / name
+ * Submit Data backup plan
+ 
+
+
+## After class: 
+
+* Be sure you complete and submit the assignment by 9 am Monday  
+* Prepare for next session (assigned reading, videos, etc).
+
+
+
+
+
+
+Questions: How might you organize a time series of photos from several remote cameras?  
+Possibility 1: images from each camera are in different folders. These are, in turn, collected in a folder named "images". Each folder would be named with the identifier for the camera. The file names for images might reflect the time the image was taken.
+
