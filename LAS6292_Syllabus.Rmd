@@ -200,6 +200,8 @@ https://catalog.ufl.edu/graduate/regulations/#text. **_Let me know as soon as po
 
 2.  PSA: Scrivener, Data Integrity and You. Or, How To Avoid Data Loss Heartbreak.  
         [[read online]](https://www.reddit.com/r/writing/comments/62hr7o/psa_scrivener_data_integrity_and_you_or_how_to/) [[download pdf]](https://github.com/BrunaLab/LAS6292_DataManagement/blob/master/Assigned_Readings/Scrivener_PSA.pdf)
+        
+3. Panzarino, M. 2012. How Pixar’s Toy Story 2 was deleted twice, once by technology and again for its own good. TNW.  [[read online]](https://thenextweb.com/media/2012/05/21/how-pixars-toy-story-2-was-deleted-twice-once-by-technology-and-again-for-its-own-good/)  [[download pdf]]
 
 4.  Hart EM et al. (2016) Ten Simple Rules for Digital Data Storage. PLoS Comput Biol 12(10): e1005097.  
         [[read online]](https://doi.org/10.1371/journal.pcbi.1005097) [[download pdf]](https://github.com/BrunaLab/LAS6292_DataManagement/blob/master/Assigned_Readings/Hart_etal_2016.PDF)

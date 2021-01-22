@@ -1,40 +1,57 @@
 ---
-title: "Week 2"
-author: "Emilio M. Bruna"
-date: "1/13/2021"
-# output: html_document
-output: rmdformats::<template name>
+title: "Storage & Backup"
+date: "`r Sys.Date()`"
+output:
+  rmdformats::robobook: default
+  pdf_document: default
+  html_document:
+    df_print: paged
 ---
-# Week 2: File Formats, naming conventions, data storage, & security   
 
-## Overview
+# Week 2 Storage & Backup: file formats, naming conventions, & data storage
 
-## Pre-Class Preparation & Materials Needed (Instructor):
-    * email students: 
-    * Confirmation of room and zoom link
-    * Remind students to bring their computers
-    * Make sure you know if everyone has R and instlled; level of R fluency
-    * Snacks
-    * Copies of the syllabus
-    * Copy of Course Roster
-    * Flip charts and markers
-    * Dry write markers
-    * Tent cards for student names
+## Pre-Class Preparation & Materials Needed (Instructor):  
+
+**Send in an email to students:  **
+
+  * Confirmation of room and zoom link  
+  * Remind students to bring their computers  
+  * Make sure you know if everyone has R and instlled; level of R fluency  
+  * Snacks  
+  * Copies of the syllabus  
+  * Copy of Course Roster
+  * Flip charts and markers
+  * Dry write markers
+  * Tent cards for student names
+      
+    
 
 ## Objectives
 
-* Learn the difference between proprietary and open formats
-* Learn the importance of open formats to ensure long-term integrity 
-* Learn conventions for proper naming of files 
-* Become aware of data storage options, best way to develop backups
-* develop a plan for data storage and back-up
-* Rules and Policies for data security 
-* Batch renaming of files
+**Learning Objectives and Competencies for this session:  **
+
+
+  * Describe and implement conventions for proper naming of files 
+  * Explain the difference between proprietary and open formats
+  * Learn how to efficiently organize their research data files
+  * Learn the preferred format for storing and archiving different types of data files  
+  * Become familiar with different options for cloud data storage and backup 
+  * Develop and implement a plan for short- and long-term data storage, back-up, and archiving
+  * Learn rules and policies for data security 
+  * Become familiar with tools for such tasks as batch renaming of files, clud data storage, and automated data backup.
+
+
 ## Pre-class Preparation (Students):
 
-* Readings: 
+* **Readings: **
+    1.  Jan Čurn. 2014. How a bug in Dropbox permanently deleted my 8000 photos.  [[read online]](https://medium.com/@jancurn/how-bug-in-dropbox-permanently-deleted-my-8000-photos-cb7dcf13647b) [[download pdf]](https://github.com/BrunaLab/LAS6292_DataManagement/blob/master/Assigned_Readings/Curn_2014.pdf)
 
-* Online Lectures: 
+    2.  PSA: Scrivener, Data Integrity and You. Or, How To Avoid Data Loss Heartbreak.  [[read online]](https://www.reddit.com/r/writing/comments/62hr7o/psa_scrivener_data_integrity_and_you_or_how_to/) [[download pdf]](https://github.com/BrunaLab/LAS6292_DataManagement/blob/master/Assigned_Readings/Scrivener_PSA.pdf)
+
+    4.  Hart EM et al. (2016) Ten Simple Rules for Digital Data Storage. PLoS Comput Biol 12(10): e1005097. [[read online]](https://doi.org/10.1371/journal.pcbi.1005097) [[download pdf]](https://github.com/BrunaLab/LAS6292_DataManagement/blob/master/Assigned_Readings/Hart_etal_2016.PDF)
+
+* **Online Lectures:** 
+
 
 ## Class Outline
 
@@ -61,26 +78,24 @@ time_remain <- 180 - total_time
 
 3. **Block 2: Instructor Presentation (`r data_cycle_intro` min): **
 
-      1. "Data" and the Research Data Life Cycle.
-      2. Prompt for the next breakout (to start after break)
+      1. item
+      2. item
 
 6. **`r snack_break` min BREAK **
 
-7.  **Block 3: 'Data' across disciplines Breakout (`r data_break + data_break_convo` min)** . Now that data have been defined, group members have **`r data_break` min** to discuss the following questions. We'll come back and  discuss what you came up with for as a group **(`r data_break_convo` min)**.
+7.  **Block 3: Next section/breakout (`r data_break + data_break_convo` min)** . explain, group members have **`r data_break` min** to discuss the following questions. We'll come back and  discuss what you came up with for as a group **(`r data_break_convo` min)**.
 
-8. **Instructor presentation: Wrap-Up and Syllabus Overview (`r class_overview` min) ** Why *I* think this matters
+8. **Instructor presentation: ====== (`r class_overview` min) ** topic or explanation
 
 9. **Time Remaining: In-class assignment 1 (`r time_remain` min**)
 
- * Sign up for a Dropbox account
- * Sign up for a UFL Google Account
- * Write up a data backup plan
- * Save files in one of these with properly formatted names
- * Submit a screenshot of the system / name
- * Submit Data backup plan
+    * Sign up for a Dropbox account 
+    * Sign up for a UFL Google Account
+    * Write up a data backup plan
+    * Save files in one of these with properly formatted names
+    * Submit a screenshot of the system / name
+    * Submit Data backup plan
  
-
-
 ## After class: 
 
 * Be sure you complete and submit the assignment by 9 am Monday  
@@ -91,6 +106,7 @@ time_remain <- 180 - total_time
 
 
 
-Questions: How might you organize a time series of photos from several remote cameras?  
-Possibility 1: images from each camera are in different folders. These are, in turn, collected in a folder named "images". Each folder would be named with the identifier for the camera. The file names for images might reflect the time the image was taken.
+Alternative Questions: 
+
+    * How might you organize a time series of photos from several remote cameras?  Possibility 1: images from each camera are in different folders. These are, in turn, collected in a folder named "images". Each folder would be named with the identifier for the camera. The file names for images might reflect the time the image was taken.
 

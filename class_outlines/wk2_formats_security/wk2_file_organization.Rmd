@@ -3,8 +3,8 @@ title: "File Organization"
 author: "Emilio M. Bruna"
 date: "1/19/2021"
 output:
-  pdf_document: default
   rmdformats::robobook: default
+  pdf_document: default
   html_document:
     df_print: paged
 ---
@@ -47,7 +47,7 @@ You can have one of these for each thesis chapter. Note that some (DMP, plans fo
 
 # Documentation
 
-1. Prepare a file documenting your data organization structure so you can share it with team members (or look at it years later when looking for something). These can be `'readme'` files as needed for each folder. The `'readme'` file might include such things as explanations of naming conventions and how the structure of the directory relates to the structure of the project.
+1. Prepare a file documenting your data organization structure so you can share it with team members (or look at it years later when looking for something). These can be `'README.txt'` files as needed for each folder. The `'README.txt'` file might include such things as explanations of naming conventions and how the structure of the directory relates to the structure of the project.
 2. Use appropriate tools, such as version control tools, to keep track of the history of the data files (more on this later in the semester).
 
 
