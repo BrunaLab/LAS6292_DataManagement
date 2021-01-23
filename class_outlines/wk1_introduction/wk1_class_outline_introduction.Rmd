@@ -1,7 +1,15 @@
 ---
-# title: 'Week 1: Introduction'
+title: 'Week 1: Introduction & The Research Data Life Cycle'
 # author: "Emilio M. Bruna"
-# date: "1/4/2021"
+date: "updated: `r Sys.Date()`"
+header-includes:
+   - \usepackage[default]{sourcesanspro}
+   - \usepackage[T1]{fontenc}
+mainfont: SourceSansPro
+geometry: margin=1in
+fontsize: 12pt
+linkcolor: blue
+urlcolor: blue
 output:
   pdf_document: default
   html_document: default
@@ -11,8 +19,6 @@ output:
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-
-# Week 1: Introduction & The Research Data Life Cycle
 ## Objectives
 
 * Meet the instructor and students
