@@ -1,23 +1,31 @@
 ---
-title: "Naming Conventions"
-author: "Emilio M. Bruna"
-date: "1/19/2021"
+title: "LAS 6292: Naming Conventions"
+# author: "Emilio M. Bruna"
+date: "updated: `r Sys.Date()`"
+header-includes:
+   - \usepackage[default]{sourcesanspro}
+   - \usepackage[T1]{fontenc}
+mainfont: SourceSansPro
+geometry: margin=1in
+fontsize: 12pt
+linkcolor: blue
+urlcolor: blue
 # output: rmdformats::downcute
 output:
-  rmdformats::robobook: default
   pdf_document: default
   html_document:
     df_print: paged
+  rmdformats::robobook: default
 ---
   
 # Introduction
 
 The first (and easiest) way to get started organizing your data is to use a simple, clear, and consistent system for naming your files (also called a "naming convention"). Using a well-thought out naming convention has a number of important benefits:  
 
-* Files will be easier to find  
-* You won't have to open files to see what they are  
-* Files are easier to sort  
-* Files are easier to share with collaborators (and for collaborators to use)  
+* Files will be easier to find
+* You won't have to open files to see what they are
+* Files are easier to sort
+* Files are easier to share with collaborators (and for collaborators to use)
 * It helps prevent accidentally overwriting or deleting files  
 
     
@@ -42,7 +50,7 @@ Simple names also help you avoid problems with "system and software portability"
 1. **Bulk Renaming of files**
     * [Adobe Bridge](https://www.adobe.com/products/bridge.html)
     * [Bulk Rename](http://www.bulkrenameutility.co.uk/Main_Intro.php)
-    * [Renamer 5 (macOS)](https://renamer.com/)
+    * [Renamer 5 (for macOS)](https://renamer.com/)
     * [PSRenamer](http://www.powersurgepub.com/products/psrenamer/index.html)
     * [Batch Renaming of Files in Windows](https://www.howtogeek.com/111859/how-to-batch-rename-files-in-windows-4-ways-to-rename-multiple-files/)
     * [Batch Renaming of Files in MacOS](https://setapp.com/how-to/batch-rename-files)

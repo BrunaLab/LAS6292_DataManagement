@@ -1,10 +1,18 @@
 ---
 title: "File Organization"
-author: "Emilio M. Bruna"
-date: "1/19/2021"
+# author: "Emilio M. Bruna"
+date: "updated: `r Sys.Date()`"
+header-includes:
+   - \usepackage[default]{sourcesanspro}
+   - \usepackage[T1]{fontenc}
+mainfont: SourceSansPro
+geometry: margin=1in
+fontsize: 12pt
+linkcolor: blue
+urlcolor: blue
 output:
-  rmdformats::robobook: default
   pdf_document: default
+  rmdformats::robobook: default
   html_document:
     df_print: paged
 ---
