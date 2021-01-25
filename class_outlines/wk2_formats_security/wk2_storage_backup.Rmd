@@ -195,8 +195,10 @@ Package, Version, Vendor, and native platform):
     * [MacDropAny (macOS)](https://www.macupdate.com/app/mac/37029/macdropany)
     * [MultCloud](https://www.multcloud.com/)
 
-3. **Backup Services**
-    * NY Times *Wirecutter* [Review and recommendations of backup services](https://www.nytimes.com/wirecutter/reviews/best-online-backup-service/); their recommendation was [SpiderOak](https://spideroak.com/).
+3. **Portable HDs and Backup Services**
+    * NY Times *Wirecutter* Reviews & Recommendations:
+        * [portable hard drives](https://www.nytimes.com/wirecutter/reviews/best-portable-hard-drive/)
+        * [automated data backup services](https://www.nytimes.com/wirecutter/reviews/best-online-backup-service/); their recommendation was [SpiderOak](https://spideroak.com/).
   
 4. **Online multimedia repositories and tools**  
 
