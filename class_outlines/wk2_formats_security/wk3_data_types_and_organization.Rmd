@@ -1,5 +1,5 @@
 ---
-title: "LAS 6292: Data Types and Data Organization"
+title: "LAS 6292: Data Organization in Spreadsheets"
 date: "updated: `r Sys.Date()`"
 header-includes:
    - \usepackage[default]{sourcesanspro}
@@ -86,6 +86,7 @@ t1_overview <- 10
 t2_overview <- 10
 breakout1 <- 15
 breakout1_return <-35
+cleaning_demo <-10
 snack_break <- 10
 proj_overview <- 15
 breakout2 <- 45
@@ -94,6 +95,7 @@ total_time <- t1_overview +
   t2_overview + 
   breakout1 + 
   breakout1_return + 
+  cleaning_demo +
   snack_break + 
   proj_overview + 
   breakout2 
@@ -137,8 +139,8 @@ Much of your future as a researcher will be spent cleaning and correcting data, 
 
 **Breakout (`r breakout1` min): **Take a look at these these spreadsheet files and how the data are organized. 
 
-  * SAFI_messy.xlsx
-  * unity-portal-data.xlsx
+  * [`SAFI_messy.xlsx`](https://github.com/BrunaLab/LAS6292_DataManagement/blob/master/class_outlines/wk3_spreadsheets/example_spreadsheets/SAFI_messy.xlsx)
+  * [`unity-portal-data.xlsx`](https://github.com/BrunaLab/LAS6292_DataManagement/blob/master/class_outlines/wk3_spreadsheets/example_spreadsheets/untidy-portal-data.xlsx)
 
 Now write down answers to the following, bearing in mind the `tidy` principles about which you read in Broman and Woo (2018):  
 
@@ -146,7 +148,7 @@ Now write down answers to the following, bearing in mind the `tidy` principles a
     
 2. How would you correct each of these issues? Could these data easily be imported into a programming language or a database in its current form?
 
-3. Dates (or things that look like dates) are especially problematic in Excel. Open the file `dates.xlsx` and do the following:
+3. Dates (or things that look like dates) are especially problematic in Excel. Open the file [`dates.xlsx`](https://github.com/BrunaLab/LAS6292_DataManagement/blob/master/class_outlines/wk3_spreadsheets/example_spreadsheets/dates.xlsx) and do the following:
 
     a. enter the following dates into the column labeled `date_1`. Be sure to type them in exactly as they are written:
     
@@ -156,8 +158,8 @@ Now write down answers to the following, bearing in mind the `tidy` principles a
       * `july 2,2021` [no space between the comma and 2021]
       * `07-02-21`
       * `7/2/21`
-      * Jan 5, 1900
-      * Dec 5, 1899
+      * `Jan 5, 1900`
+      * `Dec 5, 1899`
   
         i) How did these look in the cell?
         ii) Was this the same as what you typed in? 
@@ -171,11 +173,11 @@ Now write down answers to the following, bearing in mind the `tidy` principles a
   
     c. What would you do to enter dates into Excel in a way that avoids the issues observed above? 
 
-4. Export the  as a .csv file (`SAFI_messy.csv) after clicking the "OK" when warning box pops up.  Now reopen it. What happened? You can find a guide to saving your file in .csv format and why that is a good idea [on this website](https://datacarpentry.org/spreadsheet-ecology-lesson/05-exporting-data/index.html).
+4. Export the `SAFI_messy.xlsx` as a .csv file with the name `SAFI_messy.csv`; you'll have to click the "OK" when warning box pops up.  Now reopen it. What happened? You can find a guide to saving your file in .csv format and why that is a good idea [on this website](https://datacarpentry.org/spreadsheet-ecology-lesson/05-exporting-data/index.html).
 
 **Returning results & Take-home message (`r breakout1_return` min)** 
 
-1. Alternating between groups, see if the two groups can come up with these ways to :  
+1. Alternating between groups, see if the two groups can come up with these ways to:  
 
     * Avoid using multiple tables within one spreadsheet.
     * Avoid spreading data across multiple tabs (but do use a new tab to record data cleaning or manipulations).
@@ -193,26 +195,26 @@ Now write down answers to the following, bearing in mind the `tidy` principles a
     * Finally, remember that data format and excel defaults can vary by region. Forexample, depending on the part of the world where a user is based, the default value for the decimal and thousands operator could be a `,` (comma) or a `.` (period); some regions use mm-dd for dates while others use dd-mm. Use either ISO standard dates like `20180702` or better still split month, day, and year into distinct columns.
 
 
-2. **Take-home message:** Make your data `tidy`. 
+2. **Take-home message:** Make your data `tidy`.
 
-    * They should be a rectangle, with only rows and columns. 
+    * They should be a rectangle, with only rows and columns.
     * Each column is a different variable (a thing you’re measuring, like ‘weight’ or ‘temperature’).
-    * One row per observation. Each cell has only one value. 
-    * Use short meaningful column names with no spaces
-    * Use consistent names, abbreviations/codes, and capitalization
-    * Use good null values (not -999, blanks ok, some prefer `NA` or similar but this can be language specific)
-    * Write dates as YYYY-MM-DD. Better still have separate columns for Year, Month, and Day
-    * Use one table for each category of data to avoid duplicated chunks of data and to simplify corrections (e.g., taxonomy). Including all data can lead to errors and takes up more space. It is also faster to enter (no repretitive typing or cut-paste).
+    * One row per observation. Each cell has only one value.
+    * Use short meaningful column names with no spaces.
+    * Use consistent names, abbreviations/codes, and capitalization.
+    * Use good null values (not -999, blanks ok, some prefer `NA` or similar but this can be language specific).
+    * Write dates as YYYY-MM-DD. Better still have separate columns for Year, Month, and Day.
+    * Use one table for each category of data to avoid duplicated chunks of data and to simplify corrections (e.g., taxonomy).
+    * Including all data can lead to errors and takes up more space.
+    * It is also faster to enter (no repretitive typing or cut-paste).
     * Once you are done with data entry, leave the raw data raw - don’t change it! Save it as 'read only' and make corrections using scripting!
-
-
-      **Tidy data are ideally suited to working with computers.** 
-    
-      **Entrering data in tidy format will make it much easier to analyze.**
-    
-      **Collecting data in tidy format makes it easier to enter data in tidy format.** 
+    * **Tidy data are ideally suited to working with computers.** 
+    * **Entrering data in tidy format will make it much easier to analyze.**
+    * **Collecting data in tidy format makes it easier to enter data in tidy format.** 
       
-3. Set up the importance of scripting and reproducibility with a live example of going from dirty to clean data with R.
+### Using R to go from 'dirty' to 'clean' data. (`r cleaning_demo` min)
+
+A live coding example to lay the foundation for what we will be doing moving forward, and how scripting makes it easy to go from dirty to clean data in a reproducible fashion.
     
     
 ### Break (`r snack_break` min)
@@ -222,7 +224,7 @@ Now write down answers to the following, bearing in mind the `tidy` principles a
 Introduce the semester data Project.
 
 
-### Breakout 2 (`r breakout2` min)
+### Breakout 2: In-class Assignment (`r breakout2` min)
 
 **The goal of this breakout** is to learn some ways to minimize the number of mistakes when entering data. **First**, watch the following video (11 min) on ['Data Validation in Excel'](https://www.youtube.com/watch?v=nMxl1_NAcxc). **Second**, open this webpage on ['Quality Assurance and Control in Excel'](https://datacarpentry.org/spreadsheet-ecology-lesson/04-quality-control/). It covers the same material, so it's a handy reference to have open during the exercise.
 
@@ -255,8 +257,6 @@ There are `r time_remain` min remaining that can be used to install R, meet with
 # Tools & Resources
 
 1. Data Validation in Google Sheets: [blog post](https://www.howtogeek.com/428919/how-to-restrict-data-input-in-google-sheets-with-data-validation/) and [video tutorial](https://www.youtube.com/watch?v=VEJMeYroDTM) 
-
-
 
 
 # Sources
