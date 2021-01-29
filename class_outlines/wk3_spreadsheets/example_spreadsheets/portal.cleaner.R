@@ -121,11 +121,18 @@ taxonomy$species<-as.factor(taxonomy$species)
 taxonomy$sp.code<-as.factor(taxonomy$sp.code)
   
 taxonomy
+
+
+
+# add a unique id number for each animal
+data$ID_no<-seq(1:nrow(data))
+data$ID_no<-paste("m",data$ID_no,sep="")
 # Rearrange
 data<-data %>% select(plot,
                       year,
                       month,
                       day,
+                      ID_no,
                       sp.code,
                       weight,
                       sex,
@@ -139,11 +146,14 @@ data$sp.code<-as.factor(data$sp.code)
 data$sex<-as.factor(data$sex)
 data$weight<-as.numeric(data$weight)
 
+
 data<-data %>% arrange(plot,
                        year,
                        month,
                        day,
-                       sp.code)
+                       ID_no)
+
+
 
 
 view(taxonomy)
