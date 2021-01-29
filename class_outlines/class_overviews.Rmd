@@ -14,26 +14,7 @@ knitr::opts_chunk$set(echo = TRUE)
 
 https://www.youtube.com/watch?v=N2zK3sAtr-4
 
-### 2. File Formats, naming conventions, data storage, & security  
 
-* **Intro Material (lecture/videos): **
-  * https://dataoneorg.github.io/Education/lessons/06_protect/index  
-  
-    
-    
-* **In-class Exercise:**   
-
-    * Trivia Night-style competition of file types
-    * storage & security plan
-
-
-### 3. Structure & format of Data & Datasets  
-* **Intro Material (lecture/videos): **
-  * https://dataoneorg.github.io/Education/lessons/04_entry/index  open las
-* **In-class Exercise:**  
-    * Data Carpentry Lesson (2:15 h)
-      * https://datacarpentry.org/spreadsheets-socialsci/ or
-      * https://datacarpentry.org/spreadsheet-ecology-lesson/
 
 ### 4. Reproducible data (re)organization  
 * **Intro Material (lecture/videos): **

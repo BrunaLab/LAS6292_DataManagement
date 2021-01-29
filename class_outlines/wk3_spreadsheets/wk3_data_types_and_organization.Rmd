@@ -253,6 +253,7 @@ There are `r time_remain` min remaining that can be used to install R, meet with
 
 1. Data Validation in Google Sheets: [blog post](https://www.howtogeek.com/428919/how-to-restrict-data-input-in-google-sheets-with-data-validation/) and [video tutorial](https://www.youtube.com/watch?v=VEJMeYroDTM) 
 
+2. Why not bypass Excel and use a csv editor like [Data Curator](https://github.com/qcif/data-curator)?
 
 # Sources
 
