@@ -73,11 +73,8 @@ opts_knit$set(width=75)
         [[read online]](https://www.tandfonline.com/doi/abs/10.3109/10826081003594757?journalCode=isum20) [[download pdf]](https://github.com/BrunaLab/LAS6292_DataManagement/blob/master/Assigned_Readings/Johnson_etal_2010.pdf)
 
 
-### **Online Lectures:**  
+### **Online Lectures:**  None
 
-* None
-
-  
 ## Class Outline
 
 
@@ -219,16 +216,14 @@ A live coding example to lay the foundation for what we will be doing moving for
     
 ### Break (`r snack_break` min)
 
-### Data Project Overview (`r proj_overview` min)
-
-Introduce the semester data Project.
+### Data Project (`r proj_overview` min): Project Hand-Out & Overview 
 
 
 ### Breakout 2: In-class Assignment (`r breakout2` min)
 
 **The goal of this breakout** is to learn some ways to minimize the number of mistakes when entering data. **First**, watch the following video (11 min) on ['Data Validation in Excel'](https://www.youtube.com/watch?v=nMxl1_NAcxc). **Second**, open this webpage on ['Quality Assurance and Control in Excel'](https://datacarpentry.org/spreadsheet-ecology-lesson/04-quality-control/). It covers the same material, so it's a handy reference to have open during the exercise.
 
-Once you have watched the video, set up a tidy data entry sheet for the Portal data used in Breakout 1: 
+Now set up a `tidy` sheet for data entry for the Portal data from Breakout 1: 
 
 1. Create a spreadsheet in Excel for data entry. It should have five columns, in which you will be recording (1) the date of observations,  (2) the site in which the observations were conducted, (3) the species captured, (4) the mass of each animal, and (5) the length of each animal. 
 
@@ -260,8 +255,6 @@ There are `r time_remain` min remaining that can be used to install R, meet with
 
 
 # Sources
-
-The information above is drawn from a number of sources, including:
 
 1. DataONE Community Engagement & Outreach Working Group (2017) "Data Quality Control and Assurance". Accessed through the Data Management Skillbuilding Hub at https://dataoneorg.github.io/Education/lessons/05_qaqc/index on Aug 31, 2020
 
