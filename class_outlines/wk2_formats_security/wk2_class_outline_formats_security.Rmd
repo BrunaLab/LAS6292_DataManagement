@@ -45,6 +45,10 @@ output:
   * Develop and implement a plan for short- and long-term data storage, back-up, and archiving
   * Learn rules and policies for data security 
   * Become familiar with tools for such tasks as batch renaming of files, clud data storage, and automated data backup.
+  * Explain options for a long-term sustainable preservation strategy/policy for your data (e.g., discipline specific, institutional, departmental, individual).
+  * Address the need for conversion to standard formats needed for re-use
+  * Perform basic archival processes: checksum, auditing, format migration, etc.
+  * Understand costs & timelines for data storage, management tools and services
 
 
 ## Pre-class Preparation (Students):

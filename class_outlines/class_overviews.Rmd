@@ -17,13 +17,16 @@ https://www.youtube.com/watch?v=N2zK3sAtr-4
 
 
 ### 4. Reproducible data (re)organization  
+
+count the steps exercise -  make a figure or do an analysis, change a variable, and count the number of steps involved.
+
 * **Intro Material (lecture/videos): **
   * https://dataoneorg.github.io/Education/lessons/09_analysis/index 
   * https://dataoneorg.github.io/Education/bp_step/analyze/ 
   * https://dataoneorg.github.io/Education/bp_step/collect/
   * https://dataoneorg.github.io/Education/bp_step/integrate/
 
-* **In-class Exercise:** build-a-sandwhich reporducibility exercise (they do instructions, i will make on screen trying to follow! don't tell them I'm going to do it, ask them to do it and then spring it on them), Intro to R, Markdown, show / do rearranging of spreadsheets from last week, wide-to-long
+* **In-class Exercise:**  Intro to R, Markdown, show / do rearranging of spreadsheets from last week, wide-to-long
 
     * Data Carpentry R Intros note: *depends on familiarity of students with R*
     * https://datacarpentry.org/r-socialsci/ 
@@ -48,6 +51,11 @@ https://www.youtube.com/watch?v=N2zK3sAtr-4
 
 
 ### 7. Documentation: Metadata, Codebooks   
+it is hard to explain to someone how to do stuff, what things mean
+example exercise of the importance of detailed instructions: definitions
+
+build-a-sandwhich reporducibility exercise (they do instructions, i will make on screen trying to follow! don't tell them I'm going to do it, ask them to do it and then spring it on them),
+
 * **Intro Material (lecture/videos): **
   * https://dataoneorg.github.io/Education/lessons/07_metadata/index 
   * https://dataoneorg.github.io/Education/bp_step/describe/ 
