@@ -24,7 +24,6 @@ Examples:
 
 ### Data Collection, Project Management, & Collaboration
 
-*  [Software Carpentry: Using RStudio for Project Organization & Management](https://swcarpentry.github.io/r-novice-gapminder/02-project-intro/)  
 *  [Open Science Framework](https://osf.io/)  
 *  [Open Science Framework (free)](http://tinyurl.com/yaa8hph4)  
 *  [Asana (monthly charge)](https://asana.com/)  
@@ -44,9 +43,6 @@ Examples:
 * https://www.pinterest.com/ahahistorians/a-digital-tool-box-for-historians/
 
 ### Learning R
-
-*  [Swirl](https://swirlstats.com/)  
-* [how to post good quesitons on SO](https://www.r-bloggers.com/2011/01/three-tips-for-posting-good-questions-to-r-help-and-stack-overflow/)  
 
 
 
