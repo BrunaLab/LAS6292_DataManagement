@@ -117,6 +117,24 @@ time_remain <- 180 - total_time
 ### **Topic 1 Overview: -------** (`r t1_overview` min)
 
 **Make some videos of this so they have as a guide for the next steps.**
+
+Key Points to teach emphasize:
+* to keep track of progress, we will try the following: raise hand = I need help, thumbs up = I'm good.
+* steps to coding: map out what needs to be done. I do it on paper
+* map out on a .R
+* add key info: session info(), name and what for, etc.
+* include "checks"
+* don't forget to version control
+
+Get in advance: 
+* website R resources
+RStudio shortcuts PC or mac
+Cheat Sheets Rstudio base r,tidyverse, etc.
+
+
+
+
+
 Set up R studio project, create 3 new folders: `data_dirty`, `data_clean`, `scripts`
 download data into `dirty_data` folder
 look at data, id mistakes and missing stuff
@@ -125,9 +143,9 @@ add column
 change to lower
 save as csv
 sweep the environment and restart r to make sure it works
-
+Preserve information: Keep raw data raw
 ### **Topic 2 Overview: Topic**  (`r t2_overview` min)
-
+https://dataoneorg.github.io/Education/lessons/09_analysis/09_analysis.pdf
 Now do it on your own, with a new dataset
 Here is the dataset, and here are the instructions.
 can you reproduce the results? don't forget to sweep the environment and restart r

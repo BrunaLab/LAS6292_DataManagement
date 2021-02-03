@@ -32,10 +32,7 @@ output:
       
 
 
-## Objectives
-
-**Learning Objectives and Competencies for this session:  **
-
+## Objectives and Competencies for this session:  
 
   * Describe and implement conventions for proper naming of files 
   * Explain the difference between proprietary and open formats
@@ -99,7 +96,7 @@ time_remain <- 180 - total_time
 
 ## After class: 
 
-* Be sure you complete and submit the assignment by 9 am Monday  
+* Be sure you complete and submit the assignment by 9 am Monday
 * Prepare for next session (assigned reading, videos, etc).
 
 
