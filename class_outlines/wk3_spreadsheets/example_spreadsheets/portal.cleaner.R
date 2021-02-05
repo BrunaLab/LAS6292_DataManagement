@@ -79,8 +79,8 @@ data<-data %>% mutate(species=ifelse(species== "ordii*","ordii",species))
 
 data<-data %>% mutate(notes=ifelse(species== "not_identified","sp not identified",notes))
 
-data<-data %>% mutate(notes=ifelse(species== "sp.","sp not identified",notes))
-data<-data %>% mutate(species=ifelse(species== "sp.","not_identified",species))
+data<-data %>% mutate(notes=ifelse(species== "sp.","new undescribed species",notes))
+data<-data %>% mutate(species=ifelse(species== "sp.","sp nov",species))
 
 # Fix shaded cells
 
