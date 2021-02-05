@@ -123,6 +123,10 @@ https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1005871
 
 
 ## **Week 5: QA/QC: Data validation & correction 1**
+
+https://www.businessinsider.com/how-to-make-google-docs-read-to-you
+
+
 https://dataoneorg.github.io/Education/lessons/05_qaqc/05_qaqc.pdf 
 *  [Assess Whether You Have a Data Quality Problem](https://hbr.org/2016/07/assess-whether-you-have-a-data-quality-problem?ab=at_articlepage_recommendedarticles_bottom1x1)  
 *  [Open Refine](https://openrefine.org/)  
