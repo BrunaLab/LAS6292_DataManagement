@@ -139,20 +139,16 @@ https://dataoneorg.github.io/Education/lessons/05_qaqc/05_qaqc.pdf
 *  [EDI OR lessons](https://environmentaldatainitiative.org/webinars-events/previous-edi-events/how-to-clean-and-format-data-using-r-packages-datamaid-dplyr-openrefine-excel/)  
 *  [Cleaning Data with OpenRefine](https://libjohn.github.io/openrefine/index.html)  
 
+Campbell, J. L., Rustad, L. E., Porter, J. H., Taylor, J. R., Dereszynski, E. W., Shanley, J. B., ... & Boose, E. R. (2013). Quantity is nothing without quality: automated QA/QC for streaming environmental sensor data. BioScience, 63(7), 574-585.
+
+Seth van Hooland, Ruben Verborgh, and Max De Wilde, "Cleaning Data with OpenRefine," The Programming Historian 2 (2013), https://doi.org/10.46430/phen0023.
+
 
 Data Validation: restricting what values can be entered in cells in Excel: Data Menu -> Validation . See also: this link.
 Speech Tools: hear your data read back to you after entering it
 MAC: System Preferences->Accessibility
 PC: https://exceloffthegrid.com/excels-speak-cells-feature/
 
-
-
-
-## **Week 7: Documentation: Metadata, Codebooks**  
-
-*  [Coding - Social Sciences](https://en.wikipedia.org/wiki/Coding_(social_sciences)  
-
-*  [DDI Alliance](https://ddialliance.org/about/about-the-alliance): Established in 2003, the Data Documentation Initiative Alliance (DDI Alliance) is an international collaboration dedicated to establishing metadata standards and semantic products for describing social science data, data covering human activity, and other data based on observational methods.   
 
 ## **Week 8: Data Management Plans**  
 *  [UF Library Guidelines](http://guides.uflib.ufl.edu/datamanagement/dmp)  

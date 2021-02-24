@@ -1,5 +1,5 @@
 ---
-title: "LAS 6292: TOPIC"
+title: "LAS 6292: METADATA"
 date: "updated: `r Sys.Date()`"
 header-includes:
    - \usepackage[default]{sourcesanspro}
