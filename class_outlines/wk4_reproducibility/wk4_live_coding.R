@@ -63,11 +63,6 @@ nrow(class_data)
 # ncol(class_data) - returns the number of columns
 ncol(class_data)
 
-# names(surveys) - returns the column names 
-names(class_data)
-# colnames() does the same thing for dataframes
-colnames(class_data)
-
 # look at the top few rows with 'head'
 head(class_data)
 
@@ -78,6 +73,14 @@ view(class_data)
 glimpse(class_data)
 # or
 str(class_data)
+
+
+# get a list of the column names ------------------------------------------
+
+# names(surveys) - returns the column names 
+names(class_data)
+# colnames() does the same thing for dataframes
+colnames(class_data)
 
 
 # Change 'data type' of a column to `factor`------------------------------------
@@ -191,6 +194,31 @@ class_data$floor<-as.factor(class_data$floor)
 class_data$floor
 
 
+
+# change column names -----------------------------------------------------
+
+# Change column name `floor` to `floor_type`
+
+
+
+# you could do it by identifying the column numerically (this is base-R)
+names(class_data)
+colnames(class_data)[4] <- "floor_type1"
+names(class_data)
+
+# BUT I don't recommend this because if you change the order of columns without
+# realizing it, you will change the name of the wrong column! Use the 
+# tidyverse way of changing columns.
+
+
+names(class_data)
+# dataframe <- rename(dataframe, "new column name" = "old column name")
+class_data <- rename(class_data, "floor_type"="floor_type1")
+names(class_data)
+
+
+
+
 # remove spaces before and after text -------------------------------------
 
 # White space will drive you crazy, especially if around numbers
@@ -199,6 +227,9 @@ class_data$data_collector
 class_data$data_collector<-trimws(class_data$data_collector)
 # read_csv trim_ws is default=TRUE
 # read.csv trim_ws is default=FALSE
+
+
+
 
 
 # save your corrected file as a csv ---------------------------------------
