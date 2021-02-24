@@ -123,11 +123,15 @@ https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1005871
 
 
 ## **Week 5: QA/QC: Data validation & correction 1**
-
+https://onlinelibrary.wiley.com/doi/full/10.1111/j.1365-2702.2012.04353.x
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2656002/
+https://onlinelibrary.wiley.com/doi/full/10.1111/j.1365-2702.2012.04353.x
+https://www.sciencedirect.com/science/article/pii/S0747563211000707?via%3Dihub
+https://support.microsoft.com/en-us/office/converting-text-to-speech-in-excel-3f2ca8c0-90e2-4391-8e69-573832ea7300
+https://support.microsoft.com/en-gb/office/hear-selected-text-read-aloud-ce9fb073-2a4d-44d2-95f7-6a532f0ab112 
 https://www.businessinsider.com/how-to-make-google-docs-read-to-you
-
-
 https://dataoneorg.github.io/Education/lessons/05_qaqc/05_qaqc.pdf 
+
 *  [Assess Whether You Have a Data Quality Problem](https://hbr.org/2016/07/assess-whether-you-have-a-data-quality-problem?ab=at_articlepage_recommendedarticles_bottom1x1)  
 *  [Open Refine](https://openrefine.org/)  
 *  [rrefine package](https://cran.r-project.org/web/packages/rrefine/vignettes/rrefine-vignette.html)  
@@ -140,17 +144,9 @@ Data Validation: restricting what values can be entered in cells in Excel: Data 
 Speech Tools: hear your data read back to you after entering it
 MAC: System Preferences->Accessibility
 PC: https://exceloffthegrid.com/excels-speak-cells-feature/
-Optical Character Recognition (scan data into txt, word, or excel):
-R Tools: https://cran.r-project.org/web/packages/pdftools/index.html
-
-Free online sites for small batches (can upgrade for larger numbers of files)
-https://www.pdftoexcel.com/
-http://www.free-online-ocr.com/
-https://www.newocr.com/
 
 
-## **Week 6: QA/QC: Data validation & correction 2**  
-ADVANCED: https://github.com/rich-iannone/pointblank 
+
 
 ## **Week 7: Documentation: Metadata, Codebooks**  
 
@@ -232,6 +228,15 @@ Readings
 *  https://www.authorea.com/users/260319/articles/436166-research-data-repositories-chosen-by-researchers-across-broad-range-of-disciplines-from-an-analysis-of-145-000-data-availability-statements?commit=05d5052a56e7ac63dd07d17fb88c47430b194874  
 *  https://www.onlineocr.net/ free  
 *  OCR free for a staerter) https://docparser.com/pricing   
+
+
+Optical Character Recognition (scan data into txt, word, or excel):
+R Tools: https://cran.r-project.org/web/packages/pdftools/index.html
+
+Free online sites for small batches (can upgrade for larger numbers of files)
+https://www.pdftoexcel.com/
+http://www.free-online-ocr.com/
+https://www.newocr.com/
 
 ## **Week 13: Legal and Ethical Issues**
 
