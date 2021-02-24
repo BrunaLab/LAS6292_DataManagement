@@ -248,6 +248,9 @@ huge list of archives: https://www.nature.com/sdata/policies/repositories
 *  [Cessda](https://www.cessda.eu/)
 
 ### Reading
+
+* Gregory K, Khalsa SJ, Michener WK, Psomopoulos FE, de Waard A, Wu M (2018) Eleven quick tips for finding research data. PLoS Comput Biol 14(4): e1006038. https://doi.org/10.1371/journal.pcbi.1006038
+
 *  Sielemann K, Hafner A, Pucker B. 2020. The reuse of public datasets in the life sciences: potential risks and rewards. PeerJ 8:e9954 https://doi.org/10.7717/peerj.9954  
 *  Mauthner, N. S., & Parry, O. (2009). Qualitative data preservation and sharing in the social sciences: On whose philosophical terms?. Australian Journal of Social Issues, 44(3), 291-307.  
 *  Baker, K. S., & Duerr, R. E. (2017). Research and the changing nature of data repositories. Curating Research Data, 33.

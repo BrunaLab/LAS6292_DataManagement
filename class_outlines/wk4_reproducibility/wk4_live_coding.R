@@ -40,6 +40,8 @@ library(tidyverse)
 
 # load the data -----------------------------------------------------------
 # load the file with 'read_csv'
+
+# BE SURE TO POINT TO THE RIGHT LOCATION IN YOUR R STUDIO PROJECT
 class_data <- read_csv("./class_outlines/wk4_reproducibility/demo_data.csv")
 
 # When we loaded the data into R, it got stored as an object of class tibble, 
@@ -222,9 +224,14 @@ names(class_data)
 # remove spaces before and after text -------------------------------------
 
 # White space will drive you crazy, especially if around numbers
+
+# BE SURE TO POINT TO THE RIGHT LOCATION IN YOUR R STUDIO PROJECT
+# note I am loading with read.csv instead of read_csv. that is because read_csv()
+# automatically strips away white space
 class_data <- read.csv("./class_outlines/wk4_reproducibility/demo_data.csv")
 class_data$data_collector
 class_data$data_collector<-trimws(class_data$data_collector)
+# REMEMBER: 
 # read_csv trim_ws is default=TRUE
 # read.csv trim_ws is default=FALSE
 
