@@ -1,5 +1,5 @@
 ---
-title: "LAS 6292: In-class work on METADATA"
+title: "LAS 6292: In-class work - Drafting Metadata"
 date: "updated: `r Sys.Date()`"
 header-includes:
    - \usepackage[default]{sourcesanspro}
@@ -33,24 +33,26 @@ opts_chunk$set(echo=FALSE,
 opts_knit$set(width=75)
 ```
 
+Today's session is an opportunity to start drafting the metadata for your project. Although there are links below for metadata tools that will build your metadata in machine-readable XML schema, for this class a .txt file with information on the relevant Class Descriptors (*sensu* Michener 1997) is sufficient. To save you time, I have provided text files with all of the headings/subheadings; you can simply delete any that are not relevant. Note that Table 1 from Michener is much more comprehensive, and provides much more information on how to make sure the metadata are useful.  
 
+## Metadata Templates
+
+To download these template files: Follow the links, which will open the file in a web browser. "Right click" or "Save As" to save the web page to your computer as a .txt file, which you can open in any word processor, in a text editor, or in R.
+
+1. [Required Metadata for Social Sciences](https://raw.githubusercontent.com/BrunaLab/LAS6292_DataManagement/master/class_outlines/wk7_metadata/ICPSR_Metadata.txt) 
+
+2. [Table 1 from Michener et al. 1997](https://raw.githubusercontent.com/BrunaLab/LAS6292_DataManagement/master/class_outlines/wk7_metadata/Michener_Table1.txt)
 
 ## Codebooks
 
+This will help you ensure that including all the relevant information in your codebooks.
+
 1. ICPSR: [What is a Codebook?](https://www.icpsr.umich.edu/icpsrweb/content/shared/ICPSR/faqs/what-is-a-codebook.html)
 
-## Organizations Developing Metadata Standards and Schema 
-
-1. [The Research Data Alliance (RDA) ](https://www.rd-alliance.org/)"has the goal goal of building the social and technical infrastructure to enable open sharing and re-use of data."
-
-2. [DDI Alliance](https://ddialliance.org/about/about-the-alliance): "Established in 2003, the Data Documentation Initiative Alliance (DDI Alliance) is an international collaboration dedicated to establishing metadata standards and semantic products for describing social science data, data covering human activity, and other data based on observational methods." 
-
-3. T[he Dublin Core Metadata Initiative](https://www.dublincore.org/) is "an organization supporting innovation in metadata design and best practices across the metadata ecology". 
-
-4. ["Best Practices in Creating Social Science Metadata."](https://www.icpsr.umich.edu/files/deposit/dataprep.pdf) p.32 in the ICPSR *Guide to Social Science Data Preparation and Archiving: 
-Best Practice Throughout the Data Life Cycle (6th Edition)*.
 
 ## Discipline-Specific Metadata Standards
+
+It is worth looking in these catalogs to see if you can find metadata standards for your discipline. They wwill provide suggestions on not only what to include, but the standard vocabulary for your discipline. 
 
 1. [RDA Catalog of metadata standards for different disciplines](https://rd-alliance.github.io/metadata-directory/subjects/)
 
@@ -62,6 +64,8 @@ Best Practice Throughout the Data Life Cycle (6th Edition)*.
 
 
 ## Tools for Creating machine-readable metadata 
+
+I include these here in case you want to try using them. It's not required, but it could definitely make your life easier if there is a standard tool for your discipline (e.g., MORPHO if you are working with ecological data). 
 
 1. [giant list from the RDA of tools for creating standardized metadata for different disciplines ](https://rd-alliance.github.io/metadata-directory/tools/)
 
@@ -82,3 +86,16 @@ Best Practice Throughout the Data Life Cycle (6th Edition)*.
 3. [USGS Geographic Names](https://www.usgs.gov/core-science-systems/ngp/board-on-geographic-names)
 
 4. [Getty Thesaurus of Gheographic Names](http://www.getty.edu/research/tools/vocabularies/tgn/)
+
+
+## Organizations Developing Metadata Standards and Schema 
+
+1. [The Research Data Alliance (RDA) ](https://www.rd-alliance.org/)"has the goal goal of building the social and technical infrastructure to enable open sharing and re-use of data."
+
+2. [DDI Alliance](https://ddialliance.org/about/about-the-alliance): "Established in 2003, the Data Documentation Initiative Alliance (DDI Alliance) is an international collaboration dedicated to establishing metadata standards and semantic products for describing social science data, data covering human activity, and other data based on observational methods." 
+
+3. T[he Dublin Core Metadata Initiative](https://www.dublincore.org/) is "an organization supporting innovation in metadata design and best practices across the metadata ecology". 
+
+4. ["Best Practices in Creating Social Science Metadata."](https://www.icpsr.umich.edu/files/deposit/dataprep.pdf) p.32 in the ICPSR *Guide to Social Science Data Preparation and Archiving: 
+Best Practice Throughout the Data Life Cycle (6th Edition)*.
+
