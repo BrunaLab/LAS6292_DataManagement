@@ -149,14 +149,6 @@ Speech Tools: hear your data read back to you after entering it
 MAC: System Preferences->Accessibility
 PC: https://exceloffthegrid.com/excels-speak-cells-feature/
 
-
-## **Week 8: Data Management Plans**  
-*  [UF Library Guidelines](http://guides.uflib.ufl.edu/datamanagement/dmp)  
-*  [DMP Tool](https://dmptool.org/help)  
-*  [Sample for the Humanities](https://guides.library.ucla.edu/c.php?g=180580&p=1189056)  
-*  [The Qualitative Data Repository](https://qdr.syr.edu/)  
-*  [Appleford, Simon, and Jennifer Guiliano. “Writing a Data Management Plan.” DevDH.org, 2013.](http://devdh.org/lectures/thinkingdata/datamanagement/)
-
 ## **Week 9: Efficient data collection**
 AEWESOMeBLOG POST http://www.tools4dev.org/resources/how-to-design-surveys-and-forms-for-quick-data-entry/
 
