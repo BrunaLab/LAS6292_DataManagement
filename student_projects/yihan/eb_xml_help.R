@@ -46,23 +46,28 @@ data.as.df$paragraphs
 
 # HTM File ----------------------------------------------------------------
 library(rvest)
+library(XML)
 url <- "./student_projects/yihan/data.html"
 
 webpage <- read_html(url)
 webpage
 
-
+a2 link to definition saved in html ast itx morph and homograp[h]
+it-x morph gls = gloss, meaning say, prs, lsg
+v:any - msa
+itx-gls I'm saying (meanikng of whole word)'
+v lexical cat of whole word itx pos
 # .itx_Words { }
 # .itx_Frame_Number { }
 # .itx_Frame_Word { margin: 10px 5px 10px 5px; }
-# .itx_Homograph { font-size: xx-small; }
+# .itx_Homograph { font-size: xx-small; } -2
 # .itx_VariantTypes { font-variant: small-caps; }
 # .itx_txt { }
 # .itx_gls { }
 # .itx_pos { }
 # .itx_punct { }
-# .itx_morphemes { }
-# .itx_morph { }
+# .itx_morphemes { } u,-k,-u
+# .itx_morph { } a
 # .itx_morph_txt { }
 # .itx_morph_gls { }
 # .itx_morph_cf { }
@@ -75,7 +80,7 @@ webpage
 results <- webpage %>% html_nodes(".itx_Frame_Number")
 results <- webpage %>% html_nodes(".itx_txt")
 results <- webpage %>% html_nodes("p")
-
+results[1]
 
 
 
@@ -90,14 +95,14 @@ results <- webpage %>% html_nodes(".itx_txt") %>% html_nodes(".itx_morphemes")
 # foo<-results[[1]]
 # http://www.cse.chalmers.se/~chrdimi/downloads/web/getting_web_data_r4_parsing_xml_html.pdf
 # results <- webpage %>% html_nodes("span")
-
+a2, -k1 are morphemes
 doc2 = xmlParse("webpage",isHTML = T)
 results <- webpage %>% html_nodes("p")
 library(magrittr)
 results<-webpage %>% 
   html_nodes(".itx_Words") %>% 
   extract2(1)
-
+results
 # movies_xml = xmlParse(results, asText = TRUE)
 
 
@@ -105,15 +110,16 @@ results<-webpage %>%
 
 df<-webpage %>% 
   html_nodes(".itx_Words") %>% 
-  extract2(1) %>% 
-  html_nodes(".itx_Frame_Word") %>% 
-  extract2(1) %>% 
-  html_nodes(".itx_txt")
+  extract2(1) 
+%>% 
+  # html_nodes(".itx_Frame_Word") %>% 
+  # extract2(1) %>% 
+  # html_nodes(".itx_txt")
 
 records <- vector("list", length = length(results))
 i=1
 for (i in seq_along(results)) {
-  words <- results[i] %>% html_text(trim = TRUE)
+  words <- results[1] %>% html_text(trim = TRUE)
   # lie <- str_sub(xml_contents(results[i])[2] %>% html_text(trim = TRUE), 2, -2)
   # explanation <- str_sub(results[i] %>% html_nodes(".short-truth") %>% html_text(trim = TRUE), 2, -2)
   # url <- results[i] %>% html_nodes("a") %>% html_attr("href")
