@@ -1,0 +1,177 @@
+---
+title: "LAS 6292: DATA MANAGEMENT PLANS"
+date: "updated: `r Sys.Date()`"
+header-includes:
+   - \usepackage[default]{sourcesanspro}
+   - \usepackage[T1]{fontenc}
+mainfont: SourceSansPro
+geometry: margin=1in
+fontsize: 12pt
+linkcolor: blue
+urlcolor: blue
+output:
+  pdf_document: default
+  html_document:
+    df_print: paged
+  rmdformats::robobook: default
+---
+
+
+```{r setup, include=FALSE}
+library(knitr)
+library(rmdformats)
+
+## Global options
+options(max.print="75")
+opts_chunk$set(echo=FALSE,
+	             cache=TRUE,
+               prompt=FALSE,
+               tidy=TRUE,
+               comment=NA,
+               message=FALSE,
+               warning=FALSE)
+opts_knit$set(width=75)
+```
+
+## Pre-Class Preparation (Instructor):  
+
+**Send in an email to students:  **  
+
+  * content of any pre-class emails.
+
+**Bring to Class:  **  
+
+  * Snacks
+  * Flip charts and markers
+  * Dry write markers
+  * Tent cards for student names
+
+## Objectives and Competencies:   
+
+* 
+* 
+  
+## Pre-class Preparation (Students):
+
+### **Readings**
+
+
+### **Online Lectures:**  
+
+1. Atul Gawande's TED Talk: [The Importance & Value of the CHECK LIST](https://www.youtube.com/watch?v=55Nc8nccPa0). Follow-up with the details in this good [animated summary](https://www.youtube.com/watch?v=bCDmDzIOZ-g).
+
+2. Jess Stratton (LinkedIn Learning) Video Overview: [Use Google Forms to Create Surveys](https://www.linkedin.com/learning/google-sheets-advanced-tips-and-tricks/use-google-forms-to-create-surveys?u=41282748) (7 min.)
+
+3. OPTIONAL: A more advanced, multi-video [Google Forms Essential Training Course](https://www.linkedin.com/learning/google-forms-essential-training-2/collect-data-easily-with-google-forms?u=41282748) has short (1-3 min) videos explaining each step in more detail. It's great, and only 39 min long from start to finish.
+
+
+## Class Outline
+
+
+```{r timer, echo=FALSE}
+t1_overview <- 10
+t2_overview <- 10
+breakout1 <- 15
+breakout1_return <-35
+cleaning_demo <-10
+snack_break <- 10
+proj_overview <- 15
+breakout2 <- 45
+
+total_time <- t1_overview + 
+  t2_overview + 
+  breakout1 + 
+  breakout1_return + 
+  cleaning_demo +
+  snack_break + 
+  proj_overview + 
+  breakout2 
+
+time_remain <- 180 - total_time
+```
+
+
+
+### **Topic 1 Overview: -------** (`r t1_overview` min)
+
+
+### *Topic 2 Overview: Topic*  (`r t2_overview` min)
+
+
+Intro text
+
+### Breakout & Return Results 
+
+**Breakout (`r breakout1` min): ** topic of breakout 
+
+**Returning results & Take-home message (`r breakout1_return` min)** 
+summary of results
+
+2. **Take-home message:** message.
+
+additional text
+      
+### anything before the break? (`r cleaning_demo` min)
+
+if so, describe here    
+    
+### Break (`r snack_break` min)
+
+### Anything after the break? (`r proj_overview` min)
+
+If so describe here
+
+
+### Breakout 2: In-class Assignment (`r breakout2` min)
+Text about the breakout
+
+look over a paper form<-fix teh form on paper<-build a google form
+
+
+### Free Time
+
+There are `r time_remain` min remaining that can be used to -----
+
+
+# Tools & Resources
+
+1. Forms
+
+    *[make a template for data entry (form) with Excel](https://www.pryor.com/blog/ease-the-pain-of-data-entry-with-an-excel-forms-template/)
+    
+    * Leila Gharani: [Create QR Codes for FREE | Use Anywhere (Excel, Word & PowerPoint)](https://www.youtube.com/watch?v=GadmYWAVnjE)
+    
+    [How to Create a QR Code and Use It Effectively](https://www.youtube.com/watch?v=z22UChzno9Q)
+    
+    * [Mass Generate QR Codes to Prefill Google Forms](https://www.youtube.com/watch?v=RS45HVZrnfg)
+    
+    * [Avery Waterproof labels](https://www.avery.com/category/material/all/?category=waterproof-labels)
+
+    * [How to design survey forms for quick data entry](http://www.tools4dev.org/resources/how-to-design-surveys-and-forms-for-quick-data-entry/). This is a great post with suggestions on designing survey forms for work in an international / multi-language context.
+
+    * [Best Practice for Form Design](https://medium.com/nextux/form-design-best-practices-9525c321d759). These suggestions come from a UX-perspective for online forms, so they might seem most appropriate for online surveys. But the suggetions are really good for paper survey forms as well.
+https://www.pinterest.es/nunile/ux-bad-practices/
+
+2. Lists 
+
+    * Paula Rizzo's LinkedIn Course [The Power of Lists](https://www.linkedin.com/learning-login/share?forceAccount=false&redirect=https%3A%2F%2Fwww.linkedin.com%2Flearning%2Fthe-power-of-lists-to-get-stuff-done%3Ftrk%3Dshare_ent_url%26shareId%3DH2pUj81TTkicWyBeXQHdxw%253D%253D&account=41282748)
+
+
+    * Atul Gawande's [The Checklist Manifesto](http://atulgawande.com/book/the-checklist-manifesto/) 
+    
+    
+3. Apps / Software for Checklists
+    
+    * Clear
+    * Todoist
+    * Evernoite
+  
+  
+  Forms
+  tapforms (can print labels)
+  jotforms
+  
+  
+
+# Sources
+

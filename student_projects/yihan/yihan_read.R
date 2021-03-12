@@ -14,7 +14,7 @@ library(tidyverse)
 library(rvest)
 library(XML)
 library(RCurl)
-url <- "./data_raw/text_gloss_flying fox.htm"
+url <- "./student_projects/yihan/data.html"
 raw_data <- read_html(url) 
 # str(raw_data)
 body_nodes <- raw_data %>%
@@ -35,6 +35,7 @@ numbers<-raw_data %>%
   xml2::xml_find_all("//td[contains(@class, 'itx_txt')]") %>% 
   rvest::html_text()
 numbers[1][1]
+numbers
 # numbers<-gsub("\n","",numbers)
 numbers<-gsub(",","",numbers)
 numbers<-gsub("%","",numbers)
@@ -69,7 +70,7 @@ url %>%
 
 # 
 library(rvest)
-url <- "./data_raw/text_gloss_flying fox.htm"
+url <- "./student_projects/yihan/data.html"
 raw_data <- read_html(url)
 
 head_nodes <- raw_data %>%
@@ -79,7 +80,7 @@ head_nodes <- raw_data %>%
 
 tables<-html_nodes(raw_data, "table") # Here tables contains a list of tables 
 
-table1 <- html_table(tables[1], fill = TRUE)
+table1 <- html_table(tables[2], fill = TRUE)
 foo<-table1[[1]][1]
 foo<-unlist(foo)
 foo<-as.data.frame(foo)

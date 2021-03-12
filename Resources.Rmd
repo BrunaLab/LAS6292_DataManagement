@@ -103,9 +103,6 @@ https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1005871
 
 *  janitor package for cleanup of file names, etc.https://github.com/sfirke/janitor
 
-
-*  [The qualtRics R package by ROpenSci](https://docs.ropensci.org/qualtRics/)  
-
 *  [How to clean messy data in R](https://rfortherestofus.com/2019/12/how-to-clean-messy-data-in-r/)  
 
 *  [The Ultimate Guide to Data Cleaning](https://towardsdatascience.com/the-ultimate-guide-to-data-cleaning-3969843991d4)
@@ -150,16 +147,9 @@ MAC: System Preferences->Accessibility
 PC: https://exceloffthegrid.com/excels-speak-cells-feature/
 
 ## **Week 9: Efficient data collection**
-AEWESOMeBLOG POST http://www.tools4dev.org/resources/how-to-design-surveys-and-forms-for-quick-data-entry/
-
-*  [Best Practice for Form Design](https://medium.com/nextux/form-design-best-practices-9525c321d759)  
+ 
 *  [Methods of diminishing total survey error by eliminating bias](https://www.quirks.com/articles/methods-of-diminishing-total-survey-error-by-eliminating-bias)
 
-Enter data into excel using forms https://www.pryor.com/blog/ease-the-pain-of-data-entry-with-an-excel-forms-template/
-
-for google docs would be survey (form)
-
-*  sometimes hacking is worth it to avoid writing. [calipers-to-excel](https://www.notion.so/Hacking-Digital-Calipers-3ee7726f11ca431694dc70a1977516e4)  
 
 ## **Week 10: Transcription & Translation**
 https://software.sil.org/saymore/
@@ -197,6 +187,10 @@ A*  dobe Premiere: (1) https://digitalanarchy.com/blog/video-editing-tutorial/sp
 *  Translate using google sheets: https://twitter.com/CienciaDelCope/status/1203384707708325889 
 
 ## **Week 11: ‘Paperless’ data collection**  
+https://www.linkedin.com/learning/google-sheets-advanced-tips-and-tricks/use-ifttt-with-google-sheets?u=41282748
+
+
+*  sometimes hacking is worth it to avoid writing. [calipers-to-excel](https://www.notion.so/Hacking-Digital-Calipers-3ee7726f11ca431694dc70a1977516e4)  
 
 *  Mendi Benigni. Using Google Forms, Google Sheets & Excel to Collect and Analyze Data: http://tinyurl.com/ycnm8svv
 *  https://medium.com/google-design/the-evolution-of-material-designs-text-fields-603688b3fe03 
