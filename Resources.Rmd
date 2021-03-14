@@ -92,7 +92,6 @@ Examples:
 
 https://uf-repro.github.io/data-organization/
 
-
 *  Sutton, J., & Austin, Z. (2015). Qualitative Research: Data Collection, Analysis, and Management. The Canadian Journal of Hospital Pharmacy, 68(3), 226-31.  
  
 
@@ -146,9 +145,9 @@ Speech Tools: hear your data read back to you after entering it
 MAC: System Preferences->Accessibility
 PC: https://exceloffthegrid.com/excels-speak-cells-feature/
 
-## **Week 9: Efficient data collection**
- 
-*  [Methods of diminishing total survey error by eliminating bias](https://www.quirks.com/articles/methods-of-diminishing-total-survey-error-by-eliminating-bias)
+
+
+
 
 
 ## **Week 10: Transcription & Translation**
@@ -186,6 +185,9 @@ A*  dobe Premiere: (1) https://digitalanarchy.com/blog/video-editing-tutorial/sp
 *  https://blog.ai-media.tv/blog/best-free-transcription-tools Some Free Transcription Tools  
 *  Translate using google sheets: https://twitter.com/CienciaDelCope/status/1203384707708325889 
 
+
+
+
 ## **Week 11: ‘Paperless’ data collection**  
 https://www.linkedin.com/learning/google-sheets-advanced-tips-and-tricks/use-ifttt-with-google-sheets?u=41282748
 
@@ -204,6 +206,11 @@ Readings
 *  Harari, G. M., Lane, N. D., Wang, R., Crosier, B. S., Campbell, A. T., & Gosling, S. D. (2016). Using Smartphones to Collect Behavioral Data in Psychological Science: Opportunities, Practical Considerations, and Challenges. Perspectives on Psychological Science 11(6), 838-854.  
 *  tropy for photos looks fantastic, can export data as json, csv etc https://tropy.org/  
 
+
+
+
+
+
 ## **Week 12: Automated data extraction**  
 
 *  Tafti A.P., Baghaie A., Assefi M., Arabnia H.R., Yu Z., Peissig P. (2016) OCR as a Service: An Experimental Evaluation of Google Docs OCR, Tesseract, ABBYY FineReader, and Transym. In: Bebis G. et al. (eds) Advances in Visual Computing. ISVC 2016. Lecture Notes in Computer Science, vol 10072. Springer, Cham. https://doi.org/10.1007/978-3-319-50835-1_66  Google docs not bad!    
@@ -220,11 +227,20 @@ https://www.pdftoexcel.com/
 http://www.free-online-ocr.com/
 https://www.newocr.com/
 
+
+
+
+
+
 ## **Week 13: Legal and Ethical Issues**
 
 *  UF Library Guidelines: http://guides.uflib.ufl.edu/c.php?g=147756&p=966842  
 
 https://responsibledata.io/2017/09/22/indigenous-peoples-responsible-data-readings/ 
+
+
+
+
 ## **Week 14: Data Sharing, Reuse, & Archives**  
 
 

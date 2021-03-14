@@ -37,7 +37,7 @@ body_nodes[3]
 
 # this will get you the values for the number of each sentence, the sentnce
 # and then bind together in a dataframe
-sentence_number <- sil_output %>% 
+htm_frame_number <- sil_output %>% 
   rvest::html_nodes('body') %>%  # this tells you that in the "body" of the html
   # (as opposed to the header)...to the look for the 'span class' where the
   # and extract the itx_Frame_number. This is the number of the sentence.
@@ -45,7 +45,7 @@ sentence_number <- sil_output %>%
   rvest::html_text()
 
 # result is a vector with all the table numbers
-sentence_number
+htm_frame_number
 
 # This does the same thing, but looks for the class and code associated with 
 # the translation of the phrase. Note this is a 'div class', not a 'span class'
@@ -59,10 +59,13 @@ sentence <- sil_output %>%
 sentence
 
 # this binds the two of them and puts in a df. 
-sentences_eng <- data.frame(sentence_number, sentence)
-sentences_eng$sentence_number<-as.integer(sentences_eng$sentence_number)
-# view(sentences_eng)
+sentences_eng <- data.frame(htm_frame_number, sentence)
+sentences_eng$htm_frame_number<-as.integer(sentences_eng$htm_frame_number)
+sentences_eng$sentence_number<-seq(1:nrow(sentences_eng))
 
+# view(sentences_eng)
+# colnames(sentences_eng)
+sentences_eng<-sentences_eng %>% select(htm_frame_number, sentence_number, sentence)
 #  You can save this as a csv!
 
 
@@ -221,33 +224,33 @@ head(dictionary)
 head(morph_df)
 dictionary<-full_join(dictionary,morph_df,by=c("sentence_number","word_in_sent"))
 head(dictionary)
-view(dictionary)
+# view(dictionary)
 
 dictionary<-dictionary %>% 
-mutate(gloss.y=ifelse(gloss.y==gloss.x,NA,gloss.y)) %>% 
-  rename("gloss"="gloss.x", 
-         "morph_mng"="gloss.y",
+# mutate(gloss.y=ifelse(gloss.y==gloss.x,gloss.y,gloss.y)) %>% 
+  rename("word_gloss"="gloss.x", 
+         "morph_gloss"="gloss.y",
          "morph_number"="morpheme",
          "morpheme"="morpheme1") 
 
-
-dictionary<-full_join(dictionary,htm_frame_no)
+sentences_eng
+dictionary<-full_join(dictionary,select(sentences_eng,htm_frame_number,sentence_number))
 
 dictionary <- dictionary %>% select(word_number,
-                                    htm_frame_no,
+                                    htm_frame_number,
                                     sentence_number,
                                     word_in_sent,
-                                    gloss,
+                                    word_gloss,
                                     lexical_cat,
                                     word_orig,
                                     morph_number,
                                     morpheme,
                                     dictionary_entry,
-                                    morph_mng)
+                                    morph_gloss)
 
 
 all_together<-full_join(sentences_eng,dictionary)
-view(all_together)
+# view(all_together)
 
 
 
@@ -257,6 +260,10 @@ view(all_together)
 dictionary
 sentences_eng
 
+
+# save files as csv -------------------------------------------------------
+
+write_csv(dictionary, "./student_projects/yihan/dictionary.csv") 
 
 # updating the dictionary -------------------------------------------------
 
