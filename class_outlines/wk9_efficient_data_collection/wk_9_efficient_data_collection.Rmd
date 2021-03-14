@@ -1,5 +1,5 @@
 ---
-title: "LAS 6292: DATA MANAGEMENT PLANS"
+title: "LAS 6292: EFFICIENT DATA COLLECTIONS: FORMS"
 date: "updated: `r Sys.Date()`"
 header-includes:
    - \usepackage[default]{sourcesanspro}
