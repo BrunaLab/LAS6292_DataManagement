@@ -1,0 +1,84 @@
+---
+title: "LAS 6292: Week 10 Translation: Breakout 2"
+date: "updated: `r Sys.Date()`"
+header-includes:
+   - \usepackage[default]{sourcesanspro}
+   - \usepackage[T1]{fontenc}
+mainfont: SourceSansPro
+geometry: margin=1in
+fontsize: 12pt
+linkcolor: blue
+urlcolor: blue
+output:
+  pdf_document: default
+  html_document:
+    df_print: paged
+  rmdformats::robobook: default
+---
+
+
+```{r setup, include=FALSE}
+library(knitr)
+library(rmdformats)
+knitr::opts_chunk$set(echo = TRUE)
+## Global options
+options(max.print="75")
+opts_chunk$set(echo=FALSE,
+	             cache=TRUE,
+               prompt=FALSE,
+               tidy=TRUE,
+               comment=NA,
+               message=FALSE,
+               warning=FALSE)
+opts_knit$set(width=75)
+```
+
+# Breakout 2: TRANSCRIPTION
+
+## **FILES**  
+
+indonesian_audio.mp3
+mandarin1_audio.mp3
+mandarin2_audio.mp3
+portuguese_audio.mp3
+spanish_audio.mp3
+
+## STEP 1. Sign up for an account 
+
+Sign up for accounts with these transcription services. You can cancel the accounts if you think you won't need them afterwards.
+
+* [Otter.ai](https://otter.ai/login).
+
+* [Happy Scribe](https://www.happyscribe.com/)
+
+We will also try this one, which doesn't require a signup for the most basic services
+
+* [Watson](https://speech-to-text-demo.ng.bluemix.net/); note the "detect multiple speakers" option.
+
+
+## TRANSCRIBE 
+
+* Transcribe the audio files `spanish_audio.mp3`, `indonesian_audio.mp3`, `mandarin2_audio.mp3` with both services (if possible; not all services include all languages):  
+    
+* Save the resulting transcriptions files as Google Docs 
+
+* Names: `transcription_[language]_[name of service]`  
+
+
+## TRANSLATE
+
+* translate the files in GoogleDocs 
+
+* File names: `translation_[language]_[name of service]`  
+
+* For Spanish and Indonesian, paste the translations and the original text (from the docx files) into the Text Comparison Website [https://www.diffchecker.com/diff](https://www.diffchecker.com/diff)
+
+* You may have to adjust the spacing in the text files to make the text align.  
+
+## **STEP 4. **Discuss  
+
+* Do the transcriptions appear accurate? 
+
+* What about the translations? 
+
+* Would this be a starting point for research? What would be better - editing the transcription then translating, or transcribing & translating, then correcting? 

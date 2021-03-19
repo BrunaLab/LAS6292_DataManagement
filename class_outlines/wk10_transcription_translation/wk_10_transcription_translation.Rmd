@@ -137,31 +137,38 @@ time_remain <- 180 - total_time
 There are `r time_remain` min remaining that can be used to -----
 
 
-## Translation 
+# TRANSLATION 
 
-### Upload (Free)  
+## Text: Upload or In-File (Free)
         
 1. [Google Translate](https://translate.google.com/) and [help documents](https://support.google.com/docs/answer/4492226?hl=en#zippy=%2Cadd-punctuation).  
-    
+
 2. [DeepL](https://www.deepl.com/translator)  
 
-### Upload (Limited Free + Paid)
+3. Google Docs: [in-doc translation](https://support.google.com/docs/answer/187189?co=GENIE.Platform%3DDesktop&hl=en)
 
-1. [Otter.ai](https://otter.ai/login). English only; free (600 min/mo) and paid plans. Can transcribe zoom meetings (e.g., if you do interviews via zoom) and can [integrate with Dropbox](https://blog.otter.ai/otter-dropbox-integration/). Phone app is available for [iOS](https://play.google.com/store/apps/details?id=com.aisense.otter&hl=en_US&gl=US)
+4. MS Word: [in-doc translation](https://support.microsoft.com/en-us/topic/translate-text-into-a-different-language-287380e4-a56c-48a1-9977-f2dca89ce93f) 
 
-2. [Happy Scribe](https://www.happyscribe.com/). 40+ languages. 30 min. free then paid; [student pricing available](https://www.happyscribe.com/audio-to-text-for-students). Can integrate with Zapier to up/download files from [Google Drive](https://zapier.com/apps/happy-scribe/integrations/google-drive) and [Dropbox](https://zapier.com/apps/happy-scribe/integrations/dropbox)
 
-3. [Temi](https://www.temi.com/). English Only, less accurate than Otter.ai and Happy Scribe.
 
-4. [Spext](https://www.spext.co/). Speech-audio-text editing; free and paid plans.
+## Audio: Upload (Limited Free + Paid)
 
-5. Online demi version of [Watson](https://speech-to-text-demo.ng.bluemix.net/); note the "detect multiple speakers" option.
+### Top-Tier 
+1. [Otter.ai](https://otter.ai/login). English only; free (600 min/mo) and paid plans. Can transcribe zoom meetings (e.g., if you do interviews via zoom) and can [integrate with Dropbox](https://blog.otter.ai/otter-dropbox-integration/). Phone app is available for [iOS](https://play.google.com/store/apps/details?id=com.aisense.otter&hl=en_US&gl=US). **English-only**
 
-6. [Translate Shell](https://www.soimort.org/translate-shell/#translate-shell)
+2. [Happy Scribe](https://www.happyscribe.com/). 40+ languages. 30 min. free then paid; [student pricing available](https://www.happyscribe.com/audio-to-text-for-students). Can integrate with Zapier to up/download files from [Google Drive](https://zapier.com/apps/happy-scribe/integrations/google-drive) and [Dropbox](https://zapier.com/apps/happy-scribe/integrations/dropbox) **Multiple languages**
+
+4. Online (free demo) version of [Watson](https://speech-to-text-demo.ng.bluemix.net/); note the "detect multiple speakers" option.
+
+### Second-Tier
+
+5. [Temi](https://www.temi.com/). English Only, less accurate than Otter.ai and Happy Scribe.
+
+6. [Spext](https://www.spext.co/). Speech-audio-text editing; free and paid plans.
 
 7. [Comparison Video](https://www.youtube.com/watch?v=GAmkIHJl7A0 comparisons)
 
-### via API (free, paid)
+## Text or Audio via API or Command Line (free, paid)
 
 1. [```googleLanguageR```](https://docs.ropensci.org/googleLanguageR/). Uses the Google Cloud machine learning APIs for text and speech tasks. The [Cloud Translation API](https://cloud.google.com/translate/) does detection and translation of text. 
 
@@ -179,8 +186,10 @@ There are `r time_remain` min remaining that can be used to -----
 
 6. [Zoom](https://video.ufl.edu/conferencing/zoom/captions-and-live-transcription/)
 
+8. [Translate Shell](https://www.soimort.org/translate-shell/#translate-shell)
 
-### Manual Transolation with Computer Assisted Technology (CAT) Software
+
+## Manual Transolation with Computer Assisted Technology (CAT) Software
 
 1. [Tools](https://www.youtube.com/watch?v=nbxBV_7QEyk)
 
@@ -191,7 +200,7 @@ There are `r time_remain` min remaining that can be used to -----
 4. [Across.net](https://www.across.net/). Basic version is free 
 
 
-### Translation Resources 
+## Translation Resources 
 
 1. [Linguee](https://www.linguee.com/) Good for slang and expressions;searches different ways in which one word has been translated. Can also enter several words or even a sentence to find different translations.
 
@@ -200,15 +209,15 @@ There are `r time_remain` min remaining that can be used to -----
 3. Side-by-Side [Text Comparison Website](https://www.diffchecker.com/diff)
 
 
-## Audio Transcription
+# TRANSCRIPTION: AUDIO
 
-### Automated via upload (limited free, paid)
+## Automated via upload (limited free, paid)
 
 2. [Otter.ai](https://otter.ai/login) and [online tutorial](https://www.youtube.com/watch?v=SCaBnObVsqI)
 
 3. [Amazon Transcribe](https://aws.amazon.com/transcribe/)
 
-### Automated via API (paid)
+## Automated via API (paid)
 
 1. [```transcribeR```](https://cran.r-project.org/web/packages/transcribeR/index.html) uses HP IDOL OnDemand's Speech Recognition API. You can read a tutorial [here](http://www.micha-dietze.de/pages/r_texts/_book/kaleidoscope.html)
 
@@ -216,7 +225,7 @@ There are `r time_remain` min remaining that can be used to -----
 
 3. [```AWS transcribe```](https://github.com/cloudyr/aws.transcribe) uses the Amazon Web Services to do transcription via API. Has program for NGO/non-profits.
 
-### Manual via software (free, paid)
+## Manual via software (free, paid)
 
 1. [oTranscribe](https://otranscribe.com/)  Incredibly easy, web based, with time stamps, variable speed.
 
@@ -231,14 +240,14 @@ There are `r time_remain` min remaining that can be used to -----
 5. [InScribe](https://www.inqscribe.com/)
 
 
-## Text Transcription (via dictation)
+# TRANSCRIPTION: TEXT (via dictation)
 
 1. [Google Docs](https://www.google.com/docs)
 
 1. [SpeechNotes](https://speechnotes.co/)
 
 
-## Resources & Tools
+# RESOURCES & TOOLS
 
 1. Guide to capturing and processing [images for archiving](https://guides.uflib.ufl.edu/celebratingcuba/digitization#s-lg-box-wrapper-29381548)  
 
