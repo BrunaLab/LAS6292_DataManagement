@@ -6,6 +6,13 @@ output: html_document
 ---
 
 
+
+what is data in the humanities
+https://campus.dariah.eu/resource/ws2019#session-2
+https://escholarship.umassmed.edu/cgi/viewcontent.cgi?referer=http://scholar.google.com/&httpsredir=1&article=1115&context=jeslib 
+https://www.routledge.com/The-Digital-Humanities-Coursebook-An-Introduction-to-Digital-Methods-for/Drucker/p/book/9780367565756
+https://methods.sagepub.com/book/the-sage-handbook-of-qualitative-data-analysis/n32.xml 
+
 GUIDES: 
 Briney KA, Coates H, Goben A (2020) Foundational Practices of Research Data Management. Research Ideas and Outcomes 6: e56508. https://doi.org/10.3897/rio.6.e56508
 
@@ -229,6 +236,8 @@ https://www.newocr.com/
 
 
 
+PHOTO MANAGEMENT 
+https://tropy.org/
 
 
 
@@ -238,7 +247,7 @@ https://www.newocr.com/
 
 https://responsibledata.io/2017/09/22/indigenous-peoples-responsible-data-readings/ 
 
-
+https://www.theringer.com/2017/5/25/16043842/google-photos-data-collection-e8578b3256e0
 
 
 ## **Week 14: Data Sharing, Reuse, & Archives**  
