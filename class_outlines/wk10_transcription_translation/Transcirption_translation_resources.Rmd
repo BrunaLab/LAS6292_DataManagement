@@ -80,7 +80,7 @@ opts_knit$set(width=75)
 
 ### Manual Transolation with Computer Assisted Technology (CAT) Software
 
-1. [Tools](https://www.youtube.com/watch?v=nbxBV_7QEyk)
+1. A video overview of different tools [Tools](https://www.youtube.com/watch?v=nbxBV_7QEyk)
 
 2. [OmegaT CAT Software](https://omegat.org/). Free software
 
@@ -171,7 +171,7 @@ opts_knit$set(width=75)
     * [Google Docs](https://www.howtogeek.com/448511/how-to-use-text-shortcuts-in-google-docs/)
     * [MS Word](https://wordribbon.tips.net/T006829_Inserting_Text_with_a_Shortcut_Key.html#:~:text=Position%20the%20insertion%20point%20in,commands%20currently%20using%20this%20shortcut.)
 
-# Sources
+# Sources and Useful Reading
 
 1. Michael Henry Heim & Andrzej W. Tymowski. [Guidelines for the Translation](https://www.acls.org/uploadedFiles/Publications/Programs/sstp_guidelines.pdf)
 of Social Science Texts. American Council of Learned Societies
