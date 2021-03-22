@@ -8,7 +8,7 @@ library(googledrive)
 # 2. Translate in MS Word Doc
 # 3. https://www.diffchecker.com/diff
 
-
+4/1AY0e-g7c3fmP5aI7RtyOR_qm7QeOxCz0Tcmdy5iyRMfQfuv6YmJs8ctq3SI
 # files in google drive  --------------------------------------------------
 
 # First list up to n_max of the files you see in My Drive. You can expect to be 
@@ -22,15 +22,16 @@ drive_find(n_max = 30)
 # MIME types, file extensions, and a few human-friendly keywords.
 
 
-x <- drive_find(pattern = "translation")
+x <- drive_find(pattern = "port_to_english")
 drive_get(as_id(x$id))
-gdrive_file <- drive_get(id = "1x_9IjhRdve1z4EJqIdzdg8y9t3Yjwhxqs_KJF6G7J_k")
+x$id[1]
+gdrive_file <- drive_get(id = "1h13gmXZpoayW67AL1s6hJHtrkf5VPc7jwHmp68T--fk")
 
-drive_download(gdrive_file,path = "./class_outlines/wk10_transcription_translation/doc1.txt"),
-    overwrite = TRUE)
+drive_download(gdrive_file,path = "./doc1.txt")
+,overwrite = TRUE)
 
 my_translation <- 
-  read.delim("./class_outlines/wk10_transcription_translation/doc1.txt",
+  read.delim("./doc1.txt",
              header=FALSE)
 my_translation
 my_translation_all_together <- paste(unlist(my_translation), collapse =" ")

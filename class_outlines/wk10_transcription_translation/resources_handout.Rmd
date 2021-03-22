@@ -118,7 +118,7 @@ opts_knit$set(width=75)
 
 1. [oTranscribe](https://otranscribe.com/)  Incredibly easy, web based, with time stamps, variable speed.
 
-1. [Express Scribe](Transcription Software https://www.nch.com.au/scribe/index.html) and [a tutorial](https://www.youtube.com/watch?v=kbKRJcd1ueA). There is a free version.
+1. Express Scribe [Transcription Software]https://www.nch.com.au/scribe/index.html) and [a tutorial](https://www.youtube.com/watch?v=kbKRJcd1ueA). There is a free version.
 
 2. [Transcribe](https://transcribe.wreally.com/)
 
