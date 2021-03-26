@@ -1,3 +1,4 @@
+https://www.octoparse.com/blog/30-tools-resources-for-research (for web parsing tools)
 
 digitize package
 https://journal.r-project.org/archive/2011-1/RJournal_2011-1_Poisot.pdf 

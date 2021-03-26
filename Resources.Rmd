@@ -78,6 +78,7 @@ Examples:
 
 
 ### Data Security
+
 *  [UF Library Guidelines for Data Security](http://guides.uflib.ufl.edu/datamanagement/security)  
 *  UF Office of Information Security and Compliance  
 *  [Cyber Safeguards for UF](https://security.ufl.edu/wp-content/uploads/2012/12/data-security-handouts.pdf)  
@@ -196,6 +197,7 @@ A*  dobe Premiere: (1) https://digitalanarchy.com/blog/video-editing-tutorial/sp
 
 
 ## **Week 11: ‘Paperless’ data collection**  
+
 https://www.linkedin.com/learning/google-sheets-advanced-tips-and-tricks/use-ifttt-with-google-sheets?u=41282748
 
 
