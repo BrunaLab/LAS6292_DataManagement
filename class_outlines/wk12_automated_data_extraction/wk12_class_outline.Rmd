@@ -99,6 +99,23 @@ time_remain <- 180 - total_time
 
 4. text analysis
 
+https://cran.r-project.org/web/packages/gutenbergr/vignettes/intro.html
+https://www.tidytextmining.com/
+https://fdc.nal.usda.gov/download-datasets.html
+https://www.computerworld.com/article/3109890/these-r-packages-import-sports-weather-stock-data-and-more.html
+https://www.datanovia.com/en/blog/extract-text-from-pdf-in-r/
+https://vincentarelbundock.github.io/WDI/  https://cengel.github.io/gearup2016/worldbank.html 
+https://themockup.blog/posts/2021-01-18-reading-tables-from-images-with-magick/
+https://data.library.virginia.edu/using-data-gov-apis-in-r/ 
+https://github.com/ipeaGIT/geobr 
+https://datascienceplus.com/extracting-tables-from-pdfs-in-r-using-the-tabulizer-package/ 
+
+library(readr)
+
+read_csv("https://pub.data.gov.bc.ca/datasets/176284/BC_Liquor_Store_Product_Price_list.csv")
+https://www.programmingr.com/content/webscraping-using-readlines-and-rcurl/
+https://www.programmingr.com/examples/read-csv-web/
+
 
 1.Video Primer: [What is OCR?](what is ocr? https://www.youtube.com/watch?v=Q5U_VEmcY-M)
 
