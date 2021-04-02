@@ -1,30 +1,64 @@
-https://www.octoparse.com/blog/30-tools-resources-for-research (for web parsing tools)
+library(rvest)
 
-digitize package
-https://journal.r-project.org/archive/2011-1/RJournal_2011-1_Poisot.pdf 
+webpage <- read_html("https://www.computerworld.com/article/3109890/these-r-packages-import-sports-weather-stock-data-and-more.html")
 
-magick to extact data 
-https://www.r-bloggers.com/2019/06/extracting-the-data-from-static-images-of-graphs-with-magick/
-https://www.r-bloggers.com/2019/06/extracting-the-data-from-static-images-of-graphs-with-magick/
-https://themockup.blog/posts/2021-01-18-reading-tables-from-images-with-magick/
+tbls <- html_nodes(webpage, "table")
+tbls_ls <- webpage %>%
+        html_nodes("table") %>%
+        .[1:1] %>%
+        html_table(fill = FALSE)
 
-https://pdftables.com/
-https://pdftables.com/blog/convert-pdf-to-excel-r
-https://datascienceplus.com/extracting-tables-from-pdfs-in-r-using-the-tabulizer-package/ 
+tbls_ls <- webpage %>%
+        html_nodes("table") %>%
+        .[1:1] %>%
+        html_table(fill = FALSE)
 
 
-ocr google drive
-https://www.youtube.com/watch?v=4lApeCNK6Ic
 
-https://www.datanovia.com/en/blog/extract-text-from-pdf-in-r/
+tbls2_ls <- list()
 
-https://programminghistorian.org/en/lessons/working-with-batches-of-pdf-files
+# scrape Table 2. Nonfarm employment...
+tbls2_ls$Table1 <- webpage %>%
+        html_nodes("#td") %>% 
+        html_table(fill = TRUE) %>%
+        .[[1]]
 
+# Table 3. Net birth/death...
+tbls2_ls$Table2 <- webpage %>%
+        html_nodes("#Table3") %>% 
+        html_table() %>%
+        .[[1]]
+
+
+str(tbls_ls)
+foo<-tbls_ls[[1]][6]
 
 r - pdf tools
 https://www.youtube.com/watch?v=DhY3V4LCdps
 https://www.youtube.com/watch?v=6ItyOgS2noc 
 
+http://methods.sagepub.com/video/automated-data-collection-the-big-picture-and-legal-issues 
+https://www.tandfonline.com/doi/full/10.1080/17530350.2013.772070
 
 
-*  Tafti A.P., Baghaie A., Assefi M., Arabnia H.R., Yu Z., Peissig P. (2016) OCR as a Service: An Experimental Evaluation of Google Docs OCR, Tesseract, ABBYY FineReader, and Transym. In: Bebis G. et al. (eds) Advances in Visual Computing. ISVC 2016. Lecture Notes in Computer Science, vol 10072. Springer, Cham. https://doi.org/10.1007/978-3-319-50835-1_66  Google docs not bad!    
+Di Minin, E., Fink, C., Hausmann, A., Kremer, J. and Kulkarni, R. (2021), How to address data privacy concerns when using social media data in conservation science. Conservation Biology, 35: 437-446. https://doi.org/10.1111/cobi.13708
+
+
+
+https://cran.r-project.org/web/packages/blscrapeR/vignettes/
+http://www.quantmod.com/examples/intro/#data
+https://github.com/us-bea/bea.R
+https://cran.r-project.org/web/packages/edgarWebR/vignettes/edgarWebR.html
+https://github.com/jcizel/FredR
+https://walkerke.github.io/tidycensus/articles/basic-usage.html
+http://www.computerworld.com/article/3120415/data-analytics/how-to-download-new-census-data-with-r.html rel="nofollow noopener" href="https://hrecht.github.io/censusapi/
+<td>See the package vignettes, including the <a href="https://github.com/mnpopcenter/ipumsr/blob/master/vignettes/ipums.Rmd">intro vignette</a>.</td>
+https://github.com/CommerceDataService/eu.us.opendata">project's README file</a> for installation and usage instructions.</td>
+https://github.com/Chicago/RSocrata/">RSocrata GitHub repo</a></td>
+https://github.com/abresler/forbesListR">project GitHub page.</a> You may need to manually load the tidyr package for code to work.</td>
+https://cran.r-project.org/web/packages/pollstR/vignettes/examples.html">example vignette</a></td>
+https://github.com/datadotworld/dwapi-r/blob/master/vignettes/quickstart.Rmd">Quick Start vignette</a></td>
+<td>See this <a href="https://www.fangraphs.com/tht/a-short-ish-introduction-to-using-r-for-baseball-research/">blog post on using R for baseball research</a></td>
+<td>See this <a href="https://ropensci.org/tutorials/rnoaa_tutorial/">rOpenSci tutorial</a>.</td>
+
+https://cran.r-project.org/web/packages/rtweet/vignettes/intro.html">introductory vignette</a>.</td>
