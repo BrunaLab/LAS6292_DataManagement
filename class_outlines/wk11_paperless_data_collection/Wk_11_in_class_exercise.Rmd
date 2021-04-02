@@ -1,5 +1,5 @@
 ---
-title: "LAS 6292: DATA MANAGEMENT PLANS"
+title: "LAS 6292: PAPERLESS DATA COLLECTION (IN-CLASS)"
 date: "updated: `r Sys.Date()`"
 header-includes:
    - \usepackage[default]{sourcesanspro}
@@ -41,9 +41,7 @@ opts_knit$set(width=75)
 
 1. Download the Epicollect5 app and install it on a phone or tablet.
 
-    * [Android](https://play.google.com/store/apps/details?id=uk.ac.imperial.epicollect.five&hl=en_US&gl=US)
-
-    * [Apple](https://apps.apple.com/us/app/epicollect5/id1183858199)
+    * Available for [Android](https://play.google.com/store/apps/details?id=uk.ac.imperial.epicollect.five&hl=en_US&gl=US) and [Apple OS](https://apps.apple.com/us/app/epicollect5/id1183858199)
 
 2. Open the Epicollect5 app and tap  "+ Add Project"
 
@@ -82,12 +80,24 @@ opts_knit$set(width=75)
 
 3. You have a choice - either create a project and data collection form for YOUR data collection OR...
 
-4. ....convert this paper data sheet into an Epicollect online form.
+4. ....convert either of the 'paper' data sheets into an Epicollect online form.
 
-5. As you are building your project and form, here are a couple of things to keeo in mind.
+5. Regardless of which you chose to do (yours or one of these), you must include (at least) the following:
 
-
+    * Date
+    * Time 
+    * Location
+    * A text field for the name of the data collector, subject, etc.
+    * One dropdown menu question
+    * One radio button question
+    * One checkbox question
+    * One set of questions that is "Grouped"
+    * One set of questions requiring "jumps"
+    * A Read_me box with instructions, contact information, IRB information, or similar.
+    * Project Settings: Public, Active, Hidden
+    
 
 5. When done, submit the link to your project as Part 2 of the homework. 
 
-[EpiCollect user's guide](https://docs.epicollect.net/)
+
+6. PS Here is the [EpiCollect user's guide](https://docs.epicollect.net/)
