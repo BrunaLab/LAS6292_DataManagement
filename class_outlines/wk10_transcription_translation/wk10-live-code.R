@@ -55,8 +55,7 @@ nchar(my_translation_MS_WORD_all_together)
 
 
 https://fromthepage.com/
-  
-  https://www.annotationstudio.org/project/
+   https://www.annotationstudio.org/project/
 
 
 

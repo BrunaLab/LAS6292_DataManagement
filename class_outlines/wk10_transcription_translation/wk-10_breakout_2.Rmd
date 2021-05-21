@@ -1,5 +1,5 @@
 ---
-title: "LAS 6292: Week 10 Translation: Breakout 2"
+title: "LAS 6292: Week 10 In-class Breakout 2"
 date: "updated: `r Sys.Date()`"
 header-includes:
    - \usepackage[default]{sourcesanspro}
@@ -33,7 +33,7 @@ opts_chunk$set(echo=FALSE,
 opts_knit$set(width=75)
 ```
 
-# Breakout 2: TRANSCRIPTION
+# Breakout 2: TRANSCRIPTION & TRANSLATION
 
 ## **FILES**  
 

@@ -1,5 +1,5 @@
 ---
-title: "LAS 6292: In-Class Week 10"
+title: "LAS 6292: Week 10: In-Class Breakout 1"
 date: "updated: `r Sys.Date()`"
 header-includes:
    - \usepackage[default]{sourcesanspro}
@@ -32,8 +32,6 @@ opts_chunk$set(echo=FALSE,
                warning=FALSE)
 opts_knit$set(width=75)
 ```
-
-# Breakout 1
 
 ## **GROUPS**  
 
