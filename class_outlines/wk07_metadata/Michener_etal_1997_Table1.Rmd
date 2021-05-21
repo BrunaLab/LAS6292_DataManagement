@@ -1,0 +1,206 @@
+---
+title: "Michener et. al. 1997 (Table1)"
+author: "Emilio M. Bruna"
+date: "`r Sys.Date()`"
+
+---
+TABLE 1. Standard ecological metadata descriptors and examples (based on Michener et al. 1987, 1990, Federal Geographic Data Committee 1994, Kirchner et al. 1995).
+
+**Class I. Data set descriptors**
+
+A. Data set identity: Title or theme of data set
+
+B. Data set identification code: Database accession numbers or site-specific codes used to uniquely identify data set
+
+C. Data set description
+
+1. Originator(s) : Names and addresses of principal investigator(s) associated with data set
+
+2. Abstract: Descriptive abstract summarizing research objectives, data contents (including temporal, spatial, and thematic domain), context and potential uses of data set
+
+D. Key words: Location (spatial scale), time period and sampling frequency (temporal scale), theme or contents (thematic scale)
+
+
+**Class II. Research origin descriptors**
+
+A. ‘‘Overall’’ project description: [Note: this section may be essential if data set represents a component of a larger or more comprehensive database; otherwise, relevant items may be incorporated into II.B.]
+
+1. Identity: Project title or theme
+
+2. Originator(s): Name(s) and address(es) of principal investigator(s) associated with project
+
+3. Period of study: Date commenced, date terminated, or expected duration
+
+4. Objectives: Scope and purpose of research program
+
+5. Abstract: Descriptive abstract summarizing broader scientific scope of ‘‘overall’’ research 
+project
+
+6. Source(s) of funding: Grant and contract numbers, names and addresses of funding sources
+
+B. ‘‘Specific subproject’’ description
+
+1. Site description
+
+a. Site type: Descriptive (e.g., short-grass prairie, blackwater stream, etc.)
+
+b. Geography: Location (e.g., latitude/longitude), size
+
+c. Habitat: Detailed characteristics of habitats sampled
+
+d. Geology, landform: Soils, slope/elevation/aspect, terrain/physiography, geology/lithology
+
+e. Watersheds, hydrology: Size, boundaries, receiving streams, etc.
+
+f. Site history: Site management practices, disturbance history, etc.
+
+g. Climate: Descriptive summary of site climatic characteristics
+
+2. Experimental or sampling design
+
+a. Design characteristics: Description of statistical/sampling design
+
+b. Permanent plots: Dimension, location, general vegetation characteristics (if applicable).
+
+c. Data collection period, frequency, etc.: Information necessary to understand temporal sampling regime
+
+3. Research methods
+
+a. Field/laboratory: Description or reference to standard field/laboratory methods
+
+b. Instrumentation: Description and model/serial numbers
+
+c. Taxonomy and systematics: References for taxonomic keys, identification and location of voucher specimens, etc.
+
+d. Permit history: References to pertinent scientific and collecting permits
+
+e. Legal/organizational requirements: Relevant laws, decision criteria, compliance standards, etc.
+
+4. Project personnel: Principal and associated investigator(s), technicians, supervisors, students
+
+**Class III. Data set status and accessibility**
+
+A. Status
+
+1. Latest update: Date of last modification of data set
+
+2. Latest archive date: Date of last data set archival
+
+3. Metadata status: Date of last metadata update and current status
+
+4. Data verification: Status of data quality assurance checking
+
+B. Accessibility
+
+1. Storage location and medium: Pointers to where data reside (including redundant archival sites)
+
+2. Contact person(s) : Name, address, phone, fax, electronic mail
+
+3. Copyright restrictions: Whether copyright restrictions prohibit use of all or portions of the data set
+
+4. Proprietary restrictions: Any other restrictions that may prevent use of all or portions of data 
+set
+
+a. Release date: Date when proprietary restrictions expire
+
+b. Citation: How data may be appropriately cited
+
+c. Disclaimer(s) : Any disclaimers that should be acknowledged by secondary users
+
+5. Costs: Costs associated with acquiring data (may vary by size of data request, desired medium, etc.)
+
+**Class IV. Data structural descriptors**
+
+A. Data set file
+
+1. Identity: Unique file names or codes
+
+2. Size: Number of records, record length, total number of bytes, etc.
+
+3. Format and storage mode: File type (e.g., ASCII, binary, etc.), compression schemes employed (if any), etc.
+
+4. Header information: Description of any header data or information attached to file [Note: may include elements related to ‘‘variable information’’ (IV.B.); if so, could be linked to appropriate section(s)]
+
+5. Alphanumeric attributes: Mixed, upper, or lower case
+
+6. Special characters/fields: Methods used to denote comments, ‘‘flag’’ modified or questionable data, etc.
+
+7. Authentication procedures: Digital signature, checksum, actual subset(s) of data, and other techniques for assuring accurate transmission of data to secondary users
+
+B. Variable information
+
+1. Variable identity: Unique variable name or code
+
+2. Variable definition: Precise definition of variables in data set
+
+3. Units of measurement: Units of measurement associated with each variable
+
+4. Data type
+
+a. Storage type: Integer, floating point, character, string, etc.
+
+b. List and definition of variable codes: Description of any codes associated with variables
+
+c. Range for numeric values: Minimum, maximum
+
+d. Missing value codes: Description of how missing values are represented in data set
+
+e. Precision: Number of significant digits
+
+5. Data format
+
+a. Fixed, variable length
+
+b. Columns: Start column, end column
+
+c. Optional number of decimal places
+
+C. Data anomalies: Description of missing data, anomalous data, calibration errors, etc.
+
+**Class V. Supplemental descriptors**
+
+A. Data acquisition
+
+1. Data forms or acquisition methods: Description or examples of data forms, automated data loggers, digitizing procedures, etc.
+
+2. Location of completed data forms
+
+3. Data entry verification procedures: Procedures employed to verify that digital data set is error free
+
+B. Quality assurance/quality control procedures: Identification and treatment of outliers, description of quality assessments, calibration of reference standards, equipment performance results, etc.
+
+C. Related materials: References and locations of maps, photographs, videos, GIS data layers, physical specimens, field notebooks, comments, etc.
+
+D. Computer programs and data-processing algorithms: Description or listing of any algorithms used in deriving, processing, or transforming data
+
+E. Archiving
+
+1. Archival procedures: Description of how data are archived for long-term storage and access
+
+2. Redundant archival sites: Locations and procedures followed
+
+F. Publications and results: Electronic reprints, lists of publications resulting from or related to the study, graphical/statistical data representations, etc.
+
+G. History of data set usage
+
+1. Data request history: Log of who requested data, for what purpose, and how data set was 
+actually used 
+
+2. Data set update history: Description of any updates performed on data set
+
+3. Review history: Last entry, last researcher review, etc.
+
+4. Questions and comments from secondary users: Questionable or unusual data discovered by secondary users, limitations or problems encountered in specific applications of data, unresolved questions or comments
+
+**REFERENCES**
+
+Federal Geographic Data Committee. 1994. Content standards for digital geospatial metadata (June 8). Federal Geographic Data Committee, Washington, D.C., USA
+
+Kirchner, T., H. Chinn, D. Henshaw, and J. Porter. 1995. Documentation standards for data exchange. Pages 5–8 in R. Ingersoll and J. Brunt, editors. Proceedings of the 1994 LTER Data ManagementWorkshop. Long-Term Ecological Research Network Office, University ofWashington, Seattle, Washington, USA.
+
+Michener, W. K., R. J. Feller, and D. G. Edwards. 1987. Development, management, and analysis of a long-term ecological research information base: example for marine macrobenthos. Pages 173–188 in T. P. Boyle, editor. New approaches to monitoring aquatic ecosystems. ASTM STP 940, American Society for Testing and Materials, Philadelphia, Pennsylvania, USA.
+
+Michener, W. K., A. B. Miller, and R. Nottrott. 1990. Longterm ecological research core data set catalog. Belle W. Baruch Institute for Marine Biology and Coastal Research, University of South Carolina, Columbia, South Carolina, USA.
+
+
+---
