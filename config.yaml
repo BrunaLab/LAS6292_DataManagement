@@ -4,7 +4,7 @@
 # This file is formatted using YAML syntax - learn more at https://learnxinyminutes.com/docs/yaml/
 
 title: 'LAS 6292: Data Collection & Management' # Website name
-baseurl: 'https://github.com/BrunaLab/LAS6292_DataManagement' # Website URL
+baseurl: 'https://BrunaLab.github.io/' # Website URL
 copyright: '© {year} Emilio M. Bruna' # Footer text, e.g. '© {year} Me'
 logo: "bruna-lab-logo.png"
 
