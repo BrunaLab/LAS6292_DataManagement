@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Course Information | LAS 6292: Data Collection &amp; Management</title>
+    <link>/docs/course-info/</link>
+      <atom:link href="/docs/course-info/index.xml" rel="self" type="application/rss+xml" />
+    <description>Course Information</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2022 Emilio M. Bruna</copyright><lastBuildDate>Sun, 09 Sep 2018 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_3.png</url>
+      <title>Course Information</title>
+      <link>/docs/course-info/</link>
+    </image>
+    
+  </channel>
+</rss>
