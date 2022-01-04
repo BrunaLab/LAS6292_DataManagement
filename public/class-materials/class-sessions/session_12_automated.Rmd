@@ -1,5 +1,0 @@
----
-title: "Session 12:  Automated data extraction"
-weight: 12
-type: book
----

@@ -1,5 +1,0 @@
----
-title: "Session 14: Data Sharing, Reuse, & Archives"
-weight: 14
-type: book
----
