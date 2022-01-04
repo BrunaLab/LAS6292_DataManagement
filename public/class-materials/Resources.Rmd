@@ -1,0 +1,305 @@
+---
+title: "Resources"
+author: "Emilio M. Bruna"
+date: "1/2/2021"
+output: html_document
+---
+
+New since 2021 Session
+CARE and FAIR :l Indigenous data futures
+https://www.nature.com/articles/s41597-021-00892-0
+https://www.gida-global.org/care 
+https://getodk.org/
+https://prolific.co/ 
+
+resources from SAGE: https://study.sagepub.com/corti2e + new edition of book https://us.sagepub.com/en-us/nam/managing-and-sharing-research-data/book262873#resources
+
+
+data colleciton / gender: https://osf.io/preprints/socarxiv/qnc2g/ and https://academic.oup.com/jamia/advance-article/doi/10.1093/jamia/ocab136/6364772 
+
+videos, exercises, etc from Corti book 2nd Edition https://study.sagepub.com/corti2e
+
+what is data in the humanities
+https://campus.dariah.eu/resource/ws2019#session-2
+https://escholarship.umassmed.edu/cgi/viewcontent.cgi?referer=http://scholar.google.com/&httpsredir=1&article=1115&context=jeslib 
+https://www.routledge.com/The-Digital-Humanities-Coursebook-An-Introduction-to-Digital-Methods-for/Drucker/p/book/9780367565756
+https://methods.sagepub.com/book/the-sage-handbook-of-qualitative-data-analysis/n32.xml 
+
+GUIDES: 
+Briney KA, Coates H, Goben A (2020) Foundational Practices of Research Data Management. Research Ideas and Outcomes 6: e56508. https://doi.org/10.3897/rio.6.e56508
+
+Goodman A, Pepe A, Blocker AW, Borgman CL, Cranmer K, Crosas M, et al. (2014) Ten Simple Rules for the Care and Feeding of Scientific Data. PLoS Comput Biol 10(4): e1003542. https://doi.org/10.1371/journal.pcbi.1003542
+
+
+Burley, T.E., and Peine, J.D., 2009, NBII-SAIN Data Management Toolkit, U.S. Geological Survey Open-File Report 2009-1170, 96 p. Available
+from: http://pubs.usgs.gov/of/2009/1170/
+Examples:
+
+*  [Smithsonian Library](https://library.si.edu/sites/default/files/tutorial/pdf/filenamingorganizing20180227.pdf)
+
+*  Borer, E. T., E. W. Seabloom, M. B. Jones, and M. Schildhauer. 2009. Some Simple Guidelines for Effective Data Management. Bulletin of the Ecological Society of America: 205-214. 
+
+## **Tools**  
+
+### Data Collection, Project Management, & Collaboration
+
+*  [Open Science Framework](https://osf.io/)  
+*  [Open Science Framework (free)](http://tinyurl.com/yaa8hph4)  
+*  [Asana (monthly charge)](https://asana.com/)  
+*  [Slack](http://tinyurl.com/y9bz8suj)  
+*  Ellis, S. E., & Leek, J. T. (2018). How to share data for collaboration. The American Statistician, 72(1), 53-57.  
+*  https://www.qsrinternational.com/nvivo-qualitative-data-analysis-software/home  
+*  https://atlasti.com/ (nvivo and atlasti about the same purtpiose)  
+*  https://zapier.com/pricing   
+*  https://www.notion.so/  
+*  https://www.devontechnologies.com/apps/devonthink
+*  aeon visual timeline software https://www.aeontimeline.com/  
+*  IFTT: https://ifttt.com/   
+*  fiji: https://fiji.sc/ image processing anal;ysis  
+*  https://www.taguette.org/ qualitative data research tool, all fields, exportable looks good  
+*  scanning apps:  https://www.nytimes.com/wirecutter/reviews/best-mobile-scanning-apps/  
+*  https://www.literatureandlatte.com/scrivener/overview  
+* https://www.pinterest.com/ahahistorians/a-digital-tool-box-for-historians/
+
+### Learning R
+
+
+
+### Data processing Visualization
+*  [“Ch7 in Exploratory Data Analysis” in Wickham and Grolemund’s “R for Data Science”:](https://r4ds.had.co.nz/exploratory-data-analysis.html)  
+*  Rougier NP, Droettboom M, Bourne PE (2014) Ten Simple Rules for Better Figures. PLoS Comput Biol 10(9): e1003833.
+
+### examples
+
+*  https://viz.wtf/   
+*  https://www.youtube.com/watch?v=5Zg-C8AAIGg&amp%3Bfeature=share
+*  https://twitter.com/cesifoti/status/1325087429049675778?s=12
+*  https://pbs.twimg.com/media/EmOn_HUXEAMHHFY.jpg
+*  https://pbs.twimg.com/media/EmOn_HVXEAAKcwC.jpg
+*  https://pbs.twimg.com/media/EmOn_HSXcAYH6L-.jpg
+*  https://pbs.twimg.com/media/EmJthkyW0AEnztZ.jpg  
+*  https://www.lemonde.fr/international/article/2020/11/04/elections-americaines-2020-suivez-la-carte-des-resultats-en-direct_6058394_3210.html
+*  https://medium.com/matter/the-trouble-with-the-purple-election-map-31e6cb9f1827
+*  [Ugly plots assignment](https://twitter.com/drdrewsteen/status/1172547837046820864?s=12)
+*  grammar ofd graphics video: https://vimeo.com/332290655 
+*  slides: https://www.yan-holtz.com/PDF/Dataviz_Caveats.pdf
+
+
+
+
+
+
+### Data Security
+
+*  [UF Library Guidelines for Data Security](http://guides.uflib.ufl.edu/datamanagement/security)  
+*  UF Office of Information Security and Compliance  
+*  [Cyber Safeguards for UF](https://security.ufl.edu/wp-content/uploads/2012/12/data-security-handouts.pdf)  
+*  [UF IT Information Security](https://security.ufl.edu/learn-information-security/protect-yourself/data/)  
+*  [UF IRB )Data Record Storage and Security](http://irb.ufl.edu/index/data/1981-2.html)   
+*  [UF Data Classification Policy](https://it.ufl.edu/policies/information-security/data-classification-policy/)   
+*  [UF Office of Information Security and Compliance Cyber Safeguards for UF](https://security.ufl.edu/wp-content/uploads/2012/12/data-security-handouts.pdf)  
+*  [data anonymizing is hard](https://onezero.medium.com/why-anonymized-data-isn-t-so-anonymous-535d2db75a2d)   
+
+
+*  [Uploading](http://tinyurl.com/y9bz8suj)  
+
+
+3.  DataONE Best Practices Working Group, DataONE  (July 01, 2010) "Best Practice: Ensure integrity and accessibility when making backups of data". Accessed through the Data Management Skillbuilding Hub. [[read online]]( https://dataoneorg.github.io/Education/bestpractices/ensure-integrity-and) [download pdf]
+
+## **Week 3: Data structure & format of data and datasets **
+
+### Readings
+
+https://uf-repro.github.io/data-organization/
+
+*  Sutton, J., & Austin, Z. (2015). Qualitative Research: Data Collection, Analysis, and Management. The Canadian Journal of Hospital Pharmacy, 68(3), 226-31.  
+ 
+
+## **Week 4: Reproducible data (re)organization**
+
+https://ecorepsci.github.io/reproducible-science/ 
+https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1005871
+
+*  janitor package for cleanup of file names, etc.https://github.com/sfirke/janitor
+
+*  [How to clean messy data in R](https://rfortherestofus.com/2019/12/how-to-clean-messy-data-in-r/)  
+
+*  [The Ultimate Guide to Data Cleaning](https://towardsdatascience.com/the-ultimate-guide-to-data-cleaning-3969843991d4)
+
+### Reading 
+
+*  Lewis, Keith P., Eric Vander Wal, and David A. Fifield. 2018. Wildlife biology, big data, and reproducible research. Wildlife Society Bulletin 42(1): 172-179.  
+
+*  Bryan, J. (2018). Excuse me, do you have a moment to talk about version control? The American Statistician, 72(1), 20-27.
+
+*  Wilson, Greg, Jennifer Bryan, Karen Cranston, Justin Kitzes, Lex Nederbragt, and Tracy K. Teal. Good enough practices in scientific computing. PLoS Computational Biology 13, no. 6 (2017): e1005510.  
+
+*  White EP, Baldridge E, Brym ZT, Locey KJ, McGlinn DJ, Supp SR.  2013.  Nine simple ways to make it easier to (re)use your data. Ideas in Ecology and Evolution. 6(2):1-10.  
+
+
+
+## **Week 5: QA/QC: Data validation & correction 1**
+https://onlinelibrary.wiley.com/doi/full/10.1111/j.1365-2702.2012.04353.x
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2656002/
+https://onlinelibrary.wiley.com/doi/full/10.1111/j.1365-2702.2012.04353.x
+https://www.sciencedirect.com/science/article/pii/S0747563211000707?via%3Dihub
+https://support.microsoft.com/en-us/office/converting-text-to-speech-in-excel-3f2ca8c0-90e2-4391-8e69-573832ea7300
+https://support.microsoft.com/en-gb/office/hear-selected-text-read-aloud-ce9fb073-2a4d-44d2-95f7-6a532f0ab112 
+https://www.businessinsider.com/how-to-make-google-docs-read-to-you
+https://dataoneorg.github.io/Education/lessons/05_qaqc/05_qaqc.pdf 
+
+*  [Assess Whether You Have a Data Quality Problem](https://hbr.org/2016/07/assess-whether-you-have-a-data-quality-problem?ab=at_articlepage_recommendedarticles_bottom1x1)  
+*  [Open Refine](https://openrefine.org/)  
+*  [rrefine package](https://cran.r-project.org/web/packages/rrefine/vignettes/rrefine-vignette.html)  
+*  [Carpentry OR Lesson](https://datacarpentry.org/OpenRefine-ecology-lesson/04-scripts/index.html)  
+*  [EDI OR lessons](https://environmentaldatainitiative.org/webinars-events/previous-edi-events/how-to-clean-and-format-data-using-r-packages-datamaid-dplyr-openrefine-excel/)  
+*  [Cleaning Data with OpenRefine](https://libjohn.github.io/openrefine/index.html)  
+
+Campbell, J. L., Rustad, L. E., Porter, J. H., Taylor, J. R., Dereszynski, E. W., Shanley, J. B., ... & Boose, E. R. (2013). Quantity is nothing without quality: automated QA/QC for streaming environmental sensor data. BioScience, 63(7), 574-585.
+
+Seth van Hooland, Ruben Verborgh, and Max De Wilde, "Cleaning Data with OpenRefine," The Programming Historian 2 (2013), https://doi.org/10.46430/phen0023.
+
+
+Data Validation: restricting what values can be entered in cells in Excel: Data Menu -> Validation . See also: this link.
+Speech Tools: hear your data read back to you after entering it
+MAC: System Preferences->Accessibility
+PC: https://exceloffthegrid.com/excels-speak-cells-feature/
+
+
+
+
+
+
+## **Week 10: Transcription & Translation**
+https://software.sil.org/saymore/
+
+https://digital-historian.com/text-automation/
+
+
+blog post from class on wordpress has lots of stuff: Session 7: Recording &  Transcription Resources
+* voice recorder; https://apps.apple.com/us/app/simple-recorder/id989175722?mt=12
+
+*  [Plan for text extraction and organization](https://towardsdatascience.com/organizing-your-first-text-analytics-project-ce350dea3a4a)  
+*  [Organizing Your First Text Analytics Project](https://towardsdatascience.com/organizing-your-first-text-analytics-project-ce350dea3a4a)  
+*  [The five pitfalls of document labeling - and how to avoid them](https://ocean.sagepub.com/blog/2019/7/24/the-five-pitfalls-of-document-labelling-and-how-to-avoid-them) and https://tag.works/  
+*  [Phone Interviews](https://www.tapeacall.com) (be aware of legal requirements for taping phone calls).  
+*  [Video Interviews](http://brunalab.org/las6291/2018/01/19/video-production/)  
+*  [A methodological guide to using and reporting on interviews in conservation science research](https://besjournals.onlinelibrary.wiley.com/doi/full/10.1111/2041-210X.12828)  
+*  snolen says otter is the best: https://otter.ai/login thay have free ed account from wiorecutter: "Otter offers 600 minutes of free transcription per month (as long as you record directly from the app or Zoom), which makes it an attractive option for anyone who wants to transcribe and sort lots of interviews on a nonexistent budget."  
+*  [wirecutter - transcription services](https://www.nytimes.com/wirecutter/reviews/best-transcription-services/)   
+
+
+editing and anaalyzing audio files: https://www.ocenaudio.com/whatis 
+*  https://smallbusiness.chron.com/install-speech-office-excel-40728.html
+*  https://www.naturalreaders.com/
+*  https://blog.hubspot.com/marketing/voice-to-text 
+*  http://www.usefulfruit.com/pearnote/ PearNote for Mac< (30 day free trial)
+*  https://www.nuance.com/dragon.html Dragon Speech Recognition Software
+A*  dobe Premiere: (1) https://digitalanarchy.com/blog/video-editing-tutorial/speech-to-text-using-speech-analysis-in-premiere-pro-creative-cloud/  how-to video (2)  https://helpx.adobe.com/premiere-pro/using/speech-analysis.html Workaround if you are using a version later than 7.2.2 (3) https://info.apps.ufl.edu/adobeatufapps/ link for use via UF Apps
+*  https://sonix.ai/ Sonix
+*  https://support.apple.com/en-us/HT202584 Apple Dictation and  https://support.apple.com/en-gb/HT203085 Dictation Commands
+*  https://support.microsoft.com/en-us/help/12427/windows-speech-recognition-commands Windows Speech Recognition and  *  *  *  *  https://www.windowscentral.com/how-use-voice-dictation-windows-10 Dictation Commands  
+*  https://support.microsoft.com/en-us/help/12427/windows-speech-recognition-commands  
+*  https://support.google.com/docs/answer/4492226?hl=en Google Docs Voice Recognition and  
+*  https://qz.com/work/1087765/how-to-transcribe-audio-fast-and-for-free-using-google-docs-voice-typing/ helpful how-to blog post 
+*  https://blog.ai-media.tv/blog/best-free-transcription-tools Some Free Transcription Tools  
+*  Translate using google sheets: https://twitter.com/CienciaDelCope/status/1203384707708325889 
+
+
+
+
+## **Week 11: ‘Paperless’ data collection**  
+
+https://www.linkedin.com/learning/google-sheets-advanced-tips-and-tricks/use-ifttt-with-google-sheets?u=41282748
+
+
+*  sometimes hacking is worth it to avoid writing. [calipers-to-excel](https://www.notion.so/Hacking-Digital-Calipers-3ee7726f11ca431694dc70a1977516e4)  
+
+*  Mendi Benigni. Using Google Forms, Google Sheets & Excel to Collect and Analyze Data: http://tinyurl.com/ycnm8svv
+*  https://medium.com/google-design/the-evolution-of-material-designs-text-fields-603688b3fe03 
+Readings
+*  https://www.smashingmagazine.com/2018/08/best-practices-for-mobile-form-design/
+*  http://www.kwantu.net/blog/2016/12/26/best-practices-for-designing-data-collection-forms   
+*  barcode software (cheap or free) https://www.barcodesinc.com/cats/barcode-scanners/apps.htm
+*  Rayhan, R. U., Zheng, Y., Uddin, E., Timbol, C., Adewuyi, O., & Baraniuk, J. N. (2013). Administer and collect medical questionnaires with Google documents: a simple, safe, and free system. Applied Medical Informatics, 33(3), 12-21.  
+*  Moylan, C. A., Derr, A. S., & Lindhorst, T. (2013). Increasingly mobile: How new technologies can enhance qualitative research. Qualitative social work: research and practice, 14(1), 36-47.  
+*  Aanensen DM, Huntley DM, Feil EJ, al-Own F, Spratt BG (2009) EpiCollect: Linking Smartphones to Web Applications for Epidemiology, Ecology and Community Data Collection. PLoS ONE 4(9): e6968.  
+*  Harari, G. M., Lane, N. D., Wang, R., Crosier, B. S., Campbell, A. T., & Gosling, S. D. (2016). Using Smartphones to Collect Behavioral Data in Psychological Science: Opportunities, Practical Considerations, and Challenges. Perspectives on Psychological Science 11(6), 838-854.  
+*  tropy for photos looks fantastic, can export data as json, csv etc https://tropy.org/  
+
+
+
+
+
+**Data Extraction**
+
+*  https://www.onlineocr.net/ free  
+*  OCR free for a staerter) https://docparser.com/pricing   
+
+Optical Character Recognition (scan data into txt, word, or excel):
+R Tools: https://cran.r-project.org/web/packages/pdftools/index.html
+
+Free online sites for small batches (can upgrade for larger numbers of files)
+https://www.pdftoexcel.com/
+http://www.free-online-ocr.com/
+https://www.newocr.com/
+
+
+
+PHOTO MANAGEMENT 
+https://tropy.org/
+
+
+
+## **Week 13: Legal and Ethical Issues**
+
+*  UF Library Guidelines: http://guides.uflib.ufl.edu/c.php?g=147756&p=966842  
+
+https://responsibledata.io/2017/09/22/indigenous-peoples-responsible-data-readings/ 
+
+https://www.theringer.com/2017/5/25/16043842/google-photos-data-collection-e8578b3256e0
+
+
+## **Week 14: Data Sharing, Reuse, & Archives**  
+
+*  https://www.authorea.com/users/260319/articles/436166-research-data-repositories-chosen-by-researchers-across-broad-range-of-disciplines-from-an-analysis-of-145-000-data-availability-statements?commit=05d5052a56e7ac63dd07d17fb88c47430b194874  
+
+
+huge list of archives: https://www.nature.com/sdata/policies/repositories 
+*  [Qualitative Data Repository](https://qdr.syr.edu/)  
+*  [google Dataset Search](https://datasetsearch.research.google.com/) and [explanatory blog post](https://blog.google/products/search/discovering-millions-datasets-web/)
+*  [Cessda](https://www.cessda.eu/)
+
+### Reading
+
+* Gregory K, Khalsa SJ, Michener WK, Psomopoulos FE, de Waard A, Wu M (2018) Eleven quick tips for finding research data. PLoS Comput Biol 14(4): e1006038. https://doi.org/10.1371/journal.pcbi.1006038
+
+*  Sielemann K, Hafner A, Pucker B. 2020. The reuse of public datasets in the life sciences: potential risks and rewards. PeerJ 8:e9954 https://doi.org/10.7717/peerj.9954  
+*  Mauthner, N. S., & Parry, O. (2009). Qualitative data preservation and sharing in the social sciences: On whose philosophical terms?. Australian Journal of Social Issues, 44(3), 291-307.  
+*  Baker, K. S., & Duerr, R. E. (2017). Research and the changing nature of data repositories. Curating Research Data, 33.
+*  Whyte, A. & Wilson, A. (2010). How to Appraise and Select Research Data for Curation. DCC How-to Guides. Edinburgh: Digital Curation Centre. (also available online: http://www.dcc.ac.uk/resources/how-guides)  
+*  UF Library Guide: http://guides.uflib.ufl.edu/datamanagement/sharing
+*  Bruna, E. M. 2010. Journals can advance tropical biology and conservation by requiring data archiving.  Biotropica 42(4): 399–401  
+*  Piwowar, H. A., & Vision, T. J. (2013). Data reuse and the open data citation advantage. PeerJ, 1, e175.    
+*  Michener WK. 2015. Ecological data sharing. Ecological Informatics. 2015 Sep 1;29:33-44.    
+*  Participants _want_ their data shared: https://onlinelibrary.wiley.com/doi/abs/10.1002/eahr.500044   
+
+## Data in the humanities
+
+"In these fields, the concepts of “data” and “evidence” are very nuanced. However, virtually all information you record during your research counts as such. Here are some common (yet not exhaustive) examples of data captured in the arts, humanities and social sciences: 1) Focus group notes 2) Fieldwork notes 3) Finding aids https://en.wikipedia.org/wiki/Finding_aid
+4) Interviews (audio/video) and transcriptions 5) Interview coding 6) Meeting minutes 7) Text corpora https://en.wikipedia.org/wiki/Text_corpus 8) Text with markup https://port.sas.ac.uk/mod/book/view.php?id=568&chapterid=335
+Thematic research collections http://digitalhumanities.org/companion/view?docId=blackwell/9781405103213/9781405103213.xml&chunk.id=ss1-4-5&toc.id=0&brand=9781405103213_brand 9) Digitised books, paintings and other works of art 
+
+sadsd
+## How to guides   
+*  https://www.dcc.ac.uk/guidance
+*  https://wildlife.onlinelibrary.wiley.com/doi/10.1002/wsb.548 
+
+
+### humanities (general)
+*  https://archive.mith.umd.edu/dhcuration-guide/guide.dhcuration.org/legal/policy.html  
+
+### history 
+*  https://www.historians.org/jobs-and-professional-development/professional-life/resources-for-graduate-students/graduate-school-from-start-to-finish/aha-guide-to-archival-research
+*  https://www.historians.org/publications-and-directories/perspectives-on-history/october-2017/data-management-plans-for-historians-how-to-document-and-protect-your-research
+*  https://www.arcgis.com/apps/Cascade/index.html?appid=032048097a7f46f8b3b6859389e18124  

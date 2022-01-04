@@ -1,0 +1,62 @@
+---
+title: "LAS 6292: Naming Conventions"
+# author: "Emilio M. Bruna"
+date: "updated: 2022-01-04"
+header-includes:
+   - \usepackage[default]{sourcesanspro}
+   - \usepackage[T1]{fontenc}
+mainfont: SourceSansPro
+geometry: margin=1in
+fontsize: 12pt
+linkcolor: blue
+urlcolor: blue
+# output: rmdformats::downcute
+output:
+  pdf_document: default
+  html_document:
+    df_print: paged
+  rmdformats::robobook: default
+---
+
+<script src="/rmarkdown-libs/header-attrs/header-attrs.js"></script>
+
+
+<div id="introduction" class="section level1">
+<h1>Introduction</h1>
+<p>The first (and easiest) way to get started organizing your data is to use a simple, clear, and consistent system for naming your files (also called a “naming convention”). Using a well-thought out naming convention has a number of important benefits:</p>
+<ul>
+<li>Files will be easier to find</li>
+<li>You won’t have to open files to see what they are</li>
+<li>Files are easier to sort</li>
+<li>Files are easier to share with collaborators (and for collaborators to use)</li>
+<li>It helps prevent accidentally overwriting or deleting files</li>
+</ul>
+</div>
+<div id="how-to-name-your-files" class="section level1">
+<h1>How to name your files:</h1>
+<p><strong>Your file names should: </strong></p>
+<ol style="list-style-type: decimal">
+<li><strong>Tell you about the contents of the file and allow you to uniquely identify it.</strong> For instance (compare <code>'data 1998'</code> vs <code>'survey data'</code> vs <code>'survey data 1998'</code> vs <code>'small mammal survey data 1998'</code>). You can use things like the an acronym for the project, abbreviation for the study, location where collected, the name of the investigator, the year or month when collected, the type of data type, etc.</li>
+<li><strong>Be as short as possible.</strong> Many database systems (like MS One Drive) have limits on file name length. Use a max of 25 characters, and aim for less than that.</li>
+<li><strong>Avoid using special characters and spaces</strong> Don’t use characters like <code>$ % ^ &amp; # | :</code>. This is really important because software, automated data processing tools, web browsers, and computer operating systems use spaces and special characters for dividing up (parsing) strings of text, as well as other processes.</li>
+<li><strong>Start with letters, never numbers. </strong>. Using numbers at the start of file names can lead to problems when they are read into stats software and other programs. Instead of <code>'2020_survey_responses'</code> use <code>'survey_responses_2020'</code></li>
+<li><strong>Help you quickly sort files chronologically or numerically</strong>. Dates are very useful in file names because they can help identify the most recent files easily. You can <em>not</em> rely on the file date associated with the file on the computer! However, it is really important to use a clear format for dates, especially if collaborating internationally. I learned the hard way that not everyone reads <code>'census_data_3-4-2018'</code> the same way I do, so I switched to <code>'census_data_4march2018'</code>. However, even this isn’t ideal because of how it sorts things in a folder. Now I now use this format: <code>'file_name_yearmonthday'</code> (<code>'census_data_20180403'</code>). You can also use <code>file_name_year_month_day</code>. In addition to the benefit of sorting more easily, you’ll never have to use the the dreaded <code>'_____.final.docx'</code> and <code>'_____.actual_final.docx'</code> in your file names ever again…you’ll always know which is the last one. If the files don’t require a date, but you want to maintain a sequence, use leading zeros to maintain sort order. <code>7</code> and <code>701</code> don’ty sort the way you expect them to, so use <code>007</code> and <code>701</code>.</li>
+<li><strong>Use a consistent method of dealing with spaces and letter case. </strong>. For a the spreadsheet with responses to a survey by 5 different people, don’t use <code>'survey responses maria'</code>. Instead use (i) <code>'survey_responses_maria'</code> or (ii) <code>'SurveyResponsesMaria'</code>. Try to avoid mixing the two (e.g., <code>'survey_responses_Maria'</code>). By the way, (i) is known as <code>pothole</code> and (ii) is known as <code>camel</code>. Personally, I prefer pothole name is better because of it is easier to read and you never to remember what words get capitalized (because none of the do). Use underscore <code>( _ )</code> or dashes <code>( - )</code> to separate meaningful parts of file names.</li>
+</ol>
+<p>Once you have a system, write it down, print it out, and stick it up somewhere. Remember -whenever possible make the names simple, informative, and unique. If you collected survey data and behavioral data in 2017, don’t call them both <code>data_2017</code> even if they are in different folders. Call one <code>'behavior_obs_2017'</code> and the other <code>'survey_responses_2017'</code>).</p>
+<p>Simple names also help you avoid problems with “system and software portability” - you might be working on a Mac but your collaborators are working on Linux or Windows, and the software made for each can read file names in different ways. File names that are simple, lower-case, and have no special characters are less software- and platform-dependent.</p>
+</div>
+<div id="tools-resources" class="section level1">
+<h1>Tools &amp; Resources</h1>
+<ol style="list-style-type: decimal">
+<li><strong>Bulk Renaming of files</strong>
+<ul>
+<li><a href="https://www.adobe.com/products/bridge.html">Adobe Bridge</a></li>
+<li><a href="http://www.bulkrenameutility.co.uk/Main_Intro.php">Bulk Rename</a></li>
+<li><a href="https://renamer.com/">Renamer 5 (for macOS)</a></li>
+<li><a href="http://www.powersurgepub.com/products/psrenamer/index.html">PSRenamer</a></li>
+<li><a href="https://www.howtogeek.com/111859/how-to-batch-rename-files-in-windows-4-ways-to-rename-multiple-files/">Batch Renaming of Files in Windows</a></li>
+<li><a href="https://setapp.com/how-to/batch-rename-files">Batch Renaming of Files in MacOS</a></li>
+</ul></li>
+</ol>
+</div>

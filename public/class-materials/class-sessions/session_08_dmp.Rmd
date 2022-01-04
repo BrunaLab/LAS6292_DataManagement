@@ -1,0 +1,5 @@
+---
+title: "Session 8:  Data Management Plans"
+weight: 8
+type: book
+---

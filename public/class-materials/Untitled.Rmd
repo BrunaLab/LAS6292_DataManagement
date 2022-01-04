@@ -1,0 +1,21 @@
+---
+title: "ms_v2"
+author: "Emilio M. Bruna"
+date: "6/16/2021"
+output: pdf_document
+---
+# METADATA
+
+
+## CLASS I. DATA SET DESCRIPTORS
+
+### A. Data set identity: Population structure and demography of the understory herb _Heliconia acuminata_ (Heliconiaceae) in an experimentally fragmented landscape in the Central Amazon (1997-2009) 
+
+### B. Data set identification code: 	
+
+1. HDP_plot_descriptors.csv 
+2. HDP_data_1997-2009.csv 
+3. HDP_plot_maps.pdf 
+
+
+* C. Data set description

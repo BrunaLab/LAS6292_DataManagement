@@ -1,0 +1,5 @@
+---
+title: "Session 4: Reproducible data (re)organization"
+weight: 4
+type: book
+---

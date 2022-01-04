@@ -1,0 +1,5 @@
+---
+title: "Session 9:  Efficient data collection"
+weight: 9
+type: book
+---
