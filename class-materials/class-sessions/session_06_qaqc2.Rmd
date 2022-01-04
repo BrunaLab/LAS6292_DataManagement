@@ -1,0 +1,5 @@
+---
+title: "Session 6:  QA/QC: Data validation & correction 2"
+weight: 6
+type: book
+---

@@ -1,0 +1,29 @@
+---
+title: "Untitled"
+author: "Emilio M. Bruna"
+date: "3/22/2021"
+output: html_document
+---
+Ő szep. 
+Ő okos. 
+Ő erti a matematikát. 
+Ő kedves.
+Ő egy orvos.
+Ő egy takarító. 
+Ő egy politikus. 
+Ő egy tanár. 
+Ő erős. 
+Ő okos.
+Ő sofőr.
+Ő bevásárol.
+Ő mosogat.
+Ő horgászik. 
+Ő sok pénzt keres. 
+Ő szép. 
+Ő okos. 
+Ő még okosabb. Ő a legokossab. 
+
+
+
+Hungarian has no gender for pronouns. Put these into google translate or 
+mswrod translate and see if you notice anything.

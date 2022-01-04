@@ -1,0 +1,199 @@
+---
+title: "Data Management Project"
+author: "Emilio M. Bruna"
+date: "2022"
+geometry: margin=1in
+fontsize: 12pt
+linkcolor: blue
+urlcolor: blue
+header-includes:
+- \usepackage{fancyhdr}
+- \pagestyle{fancy}
+- \fancyfoot{}
+- \fancyhead[R]{Data Management Project, p. \thepage}
+- \fancyhead[L]{}
+- \usepackage[default]{sourcesanspro}
+- \AtBeginDocument{\let\maketitle\relax}
+- \usepackage{sectsty} \allsectionsfont{\centering}
+- \usepackage{titlesec}
+- \titlespacing{\section}{0pt}{12pt plus 2pt minus 1pt}{0pt plus 1pt minus 1pt}
+- \titlespacing{\subsection}{0pt}{12pt plus 2pt minus 1pt}{0pt plus 1pt minus 1pt}
+- \titlespacing{\subsubsection}{0pt}{12pt plus 2pt minus 1pt}{0pt plus 1pt minus 1pt}
+- \titlespacing{\subsubsubsection}{0pt}{12pt plus 2pt minus 1pt}{0pt plus 1pt minus 1pt}
+output: pdf_document
+  # html_document: default
+---
+
+<script src="/rmarkdown-libs/header-attrs/header-attrs.js"></script>
+
+
+<!-- this next line suppresses the header (line, name,  page number) on 1st page -->
+<div id="data-management-project" class="section level2">
+<h2>DATA MANAGEMENT PROJECT</h2>
+<div id="las-6292-2022" class="section level3">
+<h3>LAS 6292 (2022)</h3>
+<p> </p>
+</div>
+</div>
+<div id="assignment-overview" class="section level2">
+<h2>Assignment overview</h2>
+<p> <br />
+<strong>Your project this semester is to (1)</strong> clean and organize a ‘messy’ data set, <strong>(2)</strong> prepare metadata describing the resulting ‘clean’ data, and <strong>(3)</strong> prepare a data management plant for your thesis research. The assignment is <strong>due is due 30 April 2021</strong> by 5 pm and has a <strong>total value of 800 points.</strong></p>
+<p><strong>The complete project requires the submission of three items via the course Canvas website: </strong></p>
+<ol style="list-style-type: decimal">
+<li><p>R code that imports, cleans, and organizes the ‘messy’ data and then saves the resulting ‘clean’ data. Please make sure I have access to the original (‘messy’) data, either by providing a link or the data themselves. If these data cannot be shared because of privacy / confidentiality concerns please let me know in advance so we can arrange an alternative means for me to review them.</p></li>
+<li><p>A link granting access to a .txt file of Metadata describing these data.</p></li>
+<li><p>A link granting access to a Data Management Plan for your thesis research (acceptable formats for the file include .pdf, .txt, and .docx)</p></li>
+</ol>
+</div>
+<div id="required-content-grading-rubric" class="section level2">
+<h2>Required Content &amp; Grading Rubric</h2>
+<p> <br />
+Each portion of your submission will be evaluated using the point values, minimum standards, and rubric below. The individual components will be evaluated as “Meets required standards”, “Moderate revisions required to meet the minimum standards”, “Major revisions required to meet the minimum standards”, or as “Incomplete / Unacceptable”. In addition, I have noted a series of additional (optional) steps that can be taken to earn a designation of “Exceptional Work” on each section that can result in a bonus of up to 10%.<br />
+ </p>
+<p> </p>
+<p><strong>1a) Code (100 points): </strong>To evaluate this portion I will use your code to process the ‘messy’ data files and then review the resulting ‘clean’ ones. Remember - this not a programming class, and I am aware some of you may be programming for the first time. This is reflected in the relative weight given to the code vs. the resulting clean data set. Your code doesn’t have to be elegant or sophisticated for you to get full credit. My primary concern is the outcome - does it work? It does, however, need to meet some minimum standards to ensure you and others can interpret it in the future.</p>
+<p><strong><em>The following items are the Minimum Standards required for your code:</em></strong></p>
+<ul>
+<li>A header that explains what the code is for, what packages were used, and other relevant information.</li>
+<li>Commenting that allows a new user to understand the steps being taken</li>
+<li>Modularity: complex problems are broken down into smaller, logically discrete steps.</li>
+<li>Use of functions are used instead of repeated code chunks.</li>
+<li>Data are imported, corrected, reorganized, and exported without on/off commenting of code</li>
+<li>data are saved in a proprietary format</li>
+</ul>
+<p><strong><em>An evaluation of “Exceptional” requires the following:</em></strong></p>
+<ul>
+<li>Meets the required minimum standards</li>
+<li>Adherence to an R style guide (e.g., <a href="http://adv-r.had.co.nz/Style.html" class="uri">http://adv-r.had.co.nz/Style.html</a>) and</li>
+<li>Code archived and assigned a DOI</li>
+<li>Data, Code, and Output are organized in an Rstudio project</li>
+</ul>
+<p><strong>1b) Clean Data (275 points): </strong> Once I have processed your ‘messy’ data I will review the results to see the extent to which they meet the standards we discussed in class. The Minimum Standards depend in part on the kind of data with which you are working. That said…</p>
+<p><strong><em>The Minimum Standards for most data sets are as follows:</em></strong></p>
+<ul>
+<li>The data are in ‘tidy’ form</li>
+<li>Subjects have unique identifiers</li>
+<li>Column names are consistent, efficient, and properly formatted</li>
+<li>Dates adhere to a standard format</li>
+<li>Columns contain only a single type of data</li>
+<li>Missing values are identified with a consistent fixed code</li>
+<li>Codes are used when possible to reduce errors</li>
+<li>No data have leading or trailing white spaces</li>
+<li>The file names are informative and properly formatted</li>
+</ul>
+<p><strong><em>An evaluation of “Exceptional” requires the following:</em></strong></p>
+<ul>
+<li>Meets the required minimum standards</li>
+<li>All columns are set to the appropriate data type</li>
+<li>Factors are ordered when appropriate</li>
+<li>Corrections or changes are recorded in a separate log file</li>
+<li>Data integrity verified with checksums or other QA/QC measures</li>
+</ul>
+<p><strong>2) Metadata (275 pts): </strong>: A data set is only as useful as the metadata that accompanies it. This portion of the assignment is the opportunity to prepare the metadata that will accompany your clean data and ensure it is (re)usable in the future by you and others. The metadata that need to be included depend on the project and data set (e.g., if you are interviewing human subjects you obviously don’t have to include taxonomic data on the focal species). Though Michener <em>et al.</em> 1997 was written with geospatial environmental data in mind, it is actually a useful checklist for other disciplines as well. Please organize your Metadata File(s) using the five classes of Data Descriptors in Michener <em>et al.’s</em> Table 1. Include the most relevant Subheadings from each of these Classes, as well as any not listed relevant to your discipline or data. I have posted a text version of the Classes &amp; Subheadings in Table 1 on the <a href="https://github.com/embruna/Michener_etal_Table1">course website</a> so that you don’t have to enter them manually; simply delete any that aren’t relevant.</p>
+<p><strong>The items included in Metadata vary with data set and discipline. However, here are the minimum standards for most Metadata files will include: </strong></p>
+<p><em>Class 1: Data Set Descriptors</em></p>
+<ul>
+<li>data set identity and identification codes</li>
+<li>Names and contact information of the Investigators associated with the data set, including the one to be contacted with questions</li>
+<li>Information on any funders of the data collection</li>
+<li>Brief description of the research objectives and data contents</li>
+<li>Keywords</li>
+</ul>
+<p><em>Class 2: Research Descriptors</em></p>
+<ul>
+<li>Time Frame of Data Collection</li>
+<li>Ecological, socioeconomic, or historical description of the site of data collection (as appropriate)</li>
+<li>Study or Sampling Design:
+<ul>
+<li>Design overview</li>
+<li>Temporal aspects of data collection (e.g., data collected hourly, daily, weekly)</li>
+<li>Spatial aspects of data collection (e.g., specific locations of data collection; spatial structure of sampling within locations)</li>
+</ul></li>
+<li>Research Methods
+<ul>
+<li>instruments used to collect data</li>
+<li>references, archives, or collections used to identify samples</li>
+<li>Personnel involved in Data Collection</li>
+<li>Information on the precision of the sampling instruments and recorded data, if appropriate</li>
+<li>Description of the focal units on which data were collected (e.g., individuals, species, populations, samples, artefacts, etc.)</li>
+<li>Names of individuals that assisted with data collection, data entry, and QA/QC.</li>
+<li>References to pertinent scientific and collecting permits, relevant laws, or institutional policies (e.g., IRB, IACUC)</li>
+</ul></li>
+</ul>
+<p><em>Class 3: Information on data set status an accessibility </em></p>
+<ul>
+<li>Status: Dates of verification, archiving, updating, etc.</li>
+<li>Accessibility: storage location and medium, security, proprietary restriction, etc.</li>
+<li>Contact information for access or questions</li>
+</ul>
+<p><em>Class 4: Information on data set structure, organization, and how values are to be interpreted</em></p>
+<ul>
+<li>File descriptors: name, size, storage mode and format,first and last columns, etc.</li>
+<li>Variable identity: well-defined variables with properly formatted names</li>
+<li>Comprehensive description of each data column, including attributes of the values (units of measurement, range, precision)</li>
+<li>Variable codes are listed and defined.</li>
+</ul>
+<p><em>Class 5: Supplemental Descriptors</em></p>
+<ul>
+<li>Quality assurance/quality control procedures</li>
+<li>Description of data aquiition materials (forms, loggers)</li>
+<li>Information on the locations and archiving procedures of original data forms, relevant maps, photographs, videos, GIS data layers, physical specimens, field notebooks, comments, etc.</li>
+<li>Description of how data are archived for long-term storage and access</li>
+<li>Information on data set usage and attribution</li>
+<li>History of data set usage, including list of publications or other materials</li>
+</ul>
+<p><strong><em>An evaluation of “Exceptional” requires the following:</em></strong></p>
+<ul>
+<li>Meets the required minimum standards for Metadata</li>
+<li>Metadata archived at a permanent, public repository (can be embargoed)</li>
+<li>Metadata file generated with Rmarkdown; file saved to Github to allow for version control</li>
+</ul>
+<p><strong>3) DMP (150 pts): </strong> The Data Management Plan (DMP) is a critical document describing the data to be collected for a research project, how it will be stored and managed, and the investigator with primary responsibility for its management. Many funding agencies, including NSF and NIH, now require a DMP with all grant applications. I <strong><em>strongly</em></strong> recommend you prepare your DMP using the template from the online <a href="https://dmptool.org/help">DMP Tool</a> best suited to your research. Not all DMPs include the same information, and you should refer to the course materials to decide what to include and for examples from different disciplines.</p>
+<p><strong><em>That said, the Minimum Standard for DMPs - regardless of discipline - include the following:</em></strong></p>
+<p><em>Administrative Information</em></p>
+<ul>
+<li>Project title</li>
+<li>Researcher name and contact information</li>
+<li>Details of any relevant institutional policies (e.g., IRB, IP, IAUCUC)</li>
+<li>Names of funders that supported the data collection</li>
+<li>Who is using the data</li>
+<li>Who is responsible for managing the data?</li>
+<li>Who will ensure that the data management plan is carried out?</li>
+</ul>
+<p><em>Information on Data Collection</em></p>
+<ul>
+<li>The purpose of research for which the data are being collected.</li>
+<li>The kind of samples and data that were collected</li>
+<li>How collected and how often</li>
+<li>Format of raw data (paper, digital, image, audio)</li>
+<li>How much data: number of samples, number and size of files, total size of digital archive.</li>
+<li>Reproducibility of collection or analysis and if collection used standard methods</li>
+<li>Metadata files, code books, or other documentation needed by other researchers to use and interpret data, including how archived</li>
+</ul>
+<p><em>Information on data formats and standards, storage, and backup</em></p>
+<ul>
+<li>Data formats and if (a) standard for the field and (b) open or proprietary.</li>
+<li>Repository in which data will be archived</li>
+<li>Short- and long-term data storage and preservation (physical, digital) procedures</li>
+<li>Plans for regular data backup</li>
+<li>Plans to ensure security of private/restricted data</li>
+<li>Dinancial costs related to data archiving or storage (if appropriate)</li>
+<li>Plans to ensure long-term data use (i.e., storage media, file formats, etc.)</li>
+<li>Any tools or software are required to read or view the data</li>
+</ul>
+<p><em>Information on data sharing and access policies</em></p>
+<ul>
+<li>How personal or sensitive information have been removed to ensure privacy protection.</li>
+<li>Who holds intellectual property rights for the data and other information created by the project and if there any patent- or technology-licensing-related restrictions on data sharing.</li>
+<li>Whether re-use, redistribution, or the creation of new tools, services, data sets, or products will be permitted and if commercial use is allowed.</li>
+<li>Any embargoes on the data</li>
+<li>The attribution of credit to individuals and institutions, including funders.</li>
+<li>The length of time the data will be retained (if not permanently archived)</li>
+</ul>
+<p><strong><em>An evaluation of “Exceptional” requires the following:</em></strong></p>
+<ul>
+<li>Meets the required DMP minimum standards</li>
+<li>DMP file generated with Rmarkdown; file saved to Github to allow for version control</li>
+</ul>
+</div>

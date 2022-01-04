@@ -1,0 +1,168 @@
+---
+title: "LAS 6292: QAQC 1"
+date: "updated: `r Sys.Date()`"
+header-includes:
+   - \usepackage[default]{sourcesanspro}
+   - \usepackage[T1]{fontenc}
+mainfont: SourceSansPro
+geometry: margin=1in
+fontsize: 12pt
+linkcolor: blue
+urlcolor: blue
+output:
+  pdf_document: default
+  html_document:
+    df_print: paged
+  rmdformats::robobook: default
+---
+
+
+```{r setup, include=FALSE}
+library(knitr)
+library(rmdformats)
+
+## Global options
+options(max.print="75")
+opts_chunk$set(echo=FALSE,
+	             cache=TRUE,
+               prompt=FALSE,
+               tidy=TRUE,
+               comment=NA,
+               message=FALSE,
+               warning=FALSE)
+opts_knit$set(width=75)
+```
+
+## Pre-Class Preparation (Instructor):  
+
+**Send in an email to students:  **  
+
+  * content of any pre-class emails.
+
+**Bring to Class:  **  
+
+  * Snacks
+  * Flip charts and markers
+  * Dry write markers
+  * Tent cards for student names
+  * website R resources
+  * RStudio shortcuts PC or mac
+  * Cheat Sheets Rstudio base r,tidyverse, etc.
+
+## Objectives and Competencies:   
+
+After completing this lesson, the participant will be able to: 
+Define data quality control and data quality assurance
+Perform quality control and assurance on their data at all stages of the research cycle
+
+
+
+QA/QC: finding and fixing mistakes
+A.	Plotting different ways
+B.	Summary calculations
+C.	Reading back
+D.	Randomly sampling from digital file to verify
+E.	Open Refine.
+F.	MOST IMPORTANT: DO NOT FIX RAW DATA FILE. Txt file with changes that need to be made, then make them with a scripting language
+
+
+2.	Double Data Entry – gold standard for accurrace
+3.	Single Data Entry: how can you verify?
+Speech Tools: hear your data read back to you after entering it
+MAC: System Preferences->Accessibility
+PC: https://exceloffthegrid.com/excels-speak-cells-feature/
+
+  
+
+## Pre-class Preparation (Students):
+
+### **Readings**
+1. Laskowski, 2020. What to do when you don't trust your data anymore.  
+        [[read online]](https://laskowskilab.faculty.ucdavis.edu/2020/01/29/retractions/) [[download pdf]](https://github.com/BrunaLab/LAS6292_DataManagement/blob/master/Assigned_Readings/laskowski_2020.pdf)
+
+2. Pennisi, E. 2020. Spider biologist denies suspicions of widespread data fraud in his animal personality research. Science.  
+        [[read online]](https://www.sciencemag.org/news/2020/01/spider-biologist-denies-suspicions-widespread-data-fraud-his-animal-personality) [[download pdf]](https://github.com/BrunaLab/LAS6292_DataManagement/blob/master/Assigned_Readings/Pennisi_2020.pdf)
+
+3.  Alston, J. M., and Rick, J. A.. 2020. A Beginner's Guide to Conducting Reproducible Research. Bull Ecol Soc Am 00( 00):e01801. 
+        [[read online]](https://doi.org/10.1002/bes2.1801) [[download pdf]](https://github.com/BrunaLab/LAS6292_DataManagement/blob/master/Assigned_Readings/Alston_Rick_2021_BullEcolSocAm.pdf)
+
+4.  Wilson G, Bryan J, Cranston K, Kitzes J, Nederbragt L, Teal TK (2017) Good enough practices in scientific computing. PLoS Comput Biol 13(6): e1005510.  
+        [[read online]](https://doi.org/10.1371/journal.pcbi.1005510)  [[download pdf]](https://github.com/BrunaLab/LAS6292_DataManagement/blob/master/Assigned_Readings/wilson_etal_2017.pdf)
+
+
+### **Online Lectures:**  
+
+These introductions to R and R Studio were made by Professor Ethan White (UF-WEC). They are a good overview of some R basics.  
+
+
+  * [Intro to R and RStudio](https://www.youtube.com/watch?v=zqUQL8OOtMQ).   
+  * [Navigate R and RStudio web page](https://swcarpentry.github.io/r-novice-gapminder/01-rstudio-intro/index.html)    
+  * [Intro to R Packages](https://www.youtube.com/watch?v=NAArCsmztOI)  
+  * [Expressions and Variables in R](https://www.youtube.com/watch?v=BFVX0CKY67g&feature=emb_title)  
+
+**Reminder:** Don't forget to install the `Tidyverse` library; you can read how on [this page](https://tidyverse.tidyverse.org/). And if you want to get ahead to what we will be doing in class, you can read about how to [Set up a Project in R](https://swcarpentry.github.io/r-novice-gapminder/02-project-intro/index.html)
+
+
+Computer programming is challenging to learn and teach, especially remotely. The next few sessions we will be using modified version of a style known as:  
+
+  `(1) I do it`   
+  `(2) We do it`  
+  `(3) You do it`  
+
+This means you first observe me doing something in Rstudio by watching a video (or in this case you'll watch a video of Prof. Ethan White). The in class we will do some tasks together at the same time (aka "live-coding"). This is useful, because you can ask questions as you go. Then, you will work on an assignment based on the tasks we did together, which you will submit as your assignment.
+
+
+## Class Outline
+
+
+```{r timer, echo=FALSE}
+t1_overview <- 15
+breakout1 <- 10
+breakout1_return <-20
+snack_break <- 10
+proj_overview <- 15
+cleaning_demo <- 60
+
+total_time <- 
+  t1_overview + 
+  breakout1 + 
+  breakout1_return + 
+  snack_break + 
+  proj_overview + 
+  cleaning_demo 
+
+time_remain <- 180 - total_time
+```
+
+
+### **Topic 1: Intro to Reproducibility:** (`r t1_overview` min)
+
+
+### **Breakout:** (`r breakout1` min)
+
+### **Returning results:** (`r breakout1_return` min)
+
+### **Break** (`r snack_break` min)
+
+### **Coding Corrections: Intro**  (`r proj_overview` min)
+
+### **Coding Corrections: Implement the Changes**(`r cleaning_demo` min)
+
+  * **Key Points to teach emphasize:**
+      
+
+
+**KEY MESSAGES:** (1) Keep raw data raw (2) annotate. lots.
+
+### **Coding Corrections: Now do it on your own** (`r time_remain` min)
+
+# Tools & Resources
+
+
+
+
+**For Advanced Users:** The R package [pointblank](https://github.com/rich-iannone/pointblank) has some very advanced data validation tools for tidy datasets.
+
+# Sources
+
+DataONE Education Module: Data Quality Control and Assurance. DataONE. Retrieved Nov12, 2012. From http://www.dataone.org/sites/all/documents/L05_DataQualityControlAssurance.pptx 

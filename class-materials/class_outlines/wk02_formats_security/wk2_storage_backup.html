@@ -1,0 +1,267 @@
+---
+title: "LAS 6292: Storage & Backup"
+date: "updated: 2022-01-04"
+header-includes:
+   - \usepackage[default]{sourcesanspro}
+   - \usepackage[T1]{fontenc}
+mainfont: SourceSansPro
+geometry: margin=1in
+fontsize: 12pt
+linkcolor: blue
+urlcolor: blue
+output:
+  pdf_document: default
+  html_document:
+    df_print: paged
+  rmdformats::robobook: default
+---
+
+<script src="/rmarkdown-libs/header-attrs/header-attrs.js"></script>
+
+
+<div id="introduction" class="section level1">
+<h1>Introduction</h1>
+<ol style="list-style-type: decimal">
+<li><p><strong>What is the difference between a backup and an archive?</strong></p>
+<ul>
+<li>Original Data</li>
+<li>Operation Data</li>
+<li>Backup</li>
+<li>Archive</li>
+</ul></li>
+<li><p><strong>Why backup?</strong></p>
+<ul>
+<li>hardware failure</li>
+<li>software or media faults</li>
+<li>virus infection or malicious hacking</li>
+<li>power failure</li>
+<li>human error</li>
+<li>verification of results</li>
+<li>data requests</li>
+<li>FOIA requests</li>
+<li>Legal Obligations; Lawsuits</li>
+<li>Funder Mandates</li>
+<li>Server hardware or software failure</li>
+<li>Format obsolescence</li>
+<li>Loss of financial stability</li>
+</ul></li>
+</ol>
+</div>
+<div id="the-back-up-rule-3-2-1" class="section level1">
+<h1>The Back-up Rule: 3-2-1</h1>
+<p><strong>3-2-1:</strong> A secure backup requires a <em>minimum</em> of <strong>3 copies</strong> of your data on <strong>2 types of storage media</strong> with <strong>one copy off-site</strong>. Having 1 copy off-site protects your data from local risks like theft, lab fires, flooding, or natural disasters. Using 2 storage media improves the likelihood that at least one version will be readable in the future should one media type become obsolete or degrade unexpectedly. Having 3 copies helps ensure that your data will exist somewhere without being overly redundant. <strong><em>Be sure to migrate data from physical storage every 3-5 years</em></strong></p>
+</div>
+<div id="storage-media" class="section level1">
+<h1>Storage Media</h1>
+<p><strong>Successful preservation depends in great part on storage media that are in good physical and operational condition.</strong> There are many different kinds of storage media that can be used to save and back-up digital files; each has pros and cons. They include:</p>
+<ul>
+<li>Desktop and Laptop Computers</li>
+<li>Campus servers</li>
+<li>Commercial Cloud Backup (e.g., Dropbox, Google Drive, Amazon, Carbonite)</li>
+<li>External hard drives (range from disks to USB drives)</li>
+<li>Optical Storage (CD, DVD)</li>
+<li>Paper (e.g., printouts of spreadsheets and text files)</li>
+</ul>
+<p><strong>All storage media, whether hard drives, discs or data tapes, will wear out over time, rendering your data files inaccessible. </strong> To ensure ongoing access to both your active data files and your data archives, it is important to continually monitor the condition of your storage media and track its age. Older storage media and media that show signs of wear should be replaced immediately. <strong>Use the following guidelines to ensure the ongoing integrity and accessibility of your data:</strong></p>
+<ol style="list-style-type: decimal">
+<li><p><strong>Test Your Storage Media Regularly: </strong>It is important to routinely perform test retrievals or restorations of data you are storing for extended periods on hard drives, discs or tapes. It is recommended that storage media that is used infrequently be tested at least once a year to ensure the data is accessible.</p></li>
+<li><p><strong>Beware of Early Hardware Failures: </strong>A certain percentage of storage media will fail early due to manufacturing defects. In particular, hard drives,
+thumb drives and data tapes that have electronic or moving parts can be susceptible to early failure. When putting a new drive or tape into service,
+it is advisable to maintain a redundant copy of your data for 30 days until the new device “settles in.”</p></li>
+<li><p><strong>Determine the Life of Your Hard Drives: </strong>When purchasing a new drive unit, note the Mean Time Between Failure (MTBF) of the device, which should be listed on its specifications sheet (device specifications are usually packaged with the unit, or available online). The MTBF is expressed in the number of hours on average that a device can be used before it is expected to fail. Use the MTBF to calculate how long the device can be used before it needs to be replaced, and note that date on your calendar (For example, if the MTBF of a new hard drive is 2,500 hours and you anticipate having the unit powered on for 8 hours a day during the work week, the device should last about 2 years before it needs to be replaced).</p></li>
+<li><p><strong>Routinely Inspect and Replace Data Discs: </strong>Contemporary CD and DVD discs are generally robust storage media that will fail more often from mishandling and improper storage than from deterioration. However lower quality discs can suffer from delamination (separation of the disc layers) or oxidation. It is advisable to inspect discs every year to detect early signs of wear. Immediately copy the data off of discs that appear to be warping or discolored. Data tapes are susceptible both to physical wear and poor environmental storage conditions. In general, it is advisable to move data stored on discs and tapes to new media every 2-5 years (specific estimates on media longevity are available on the web).</p></li>
+<li><p><strong>Handle and Store Your Media With Care:</strong> All storage media types are susceptible to damage from dust and dirt exposure, temperature extremes,
+exposure to intense light, water penetration (more so for tapes and drives than discs), and physical shock. To help prolong its operational life, store
+your media in a dry environment with a comfortable and stable room temperature. Encapsulate all media in plastic during transportation. Provide cases or plastic sheaths for discs, and avoid handling them excessively.</p></li>
+<li><p><strong>Multimedia (e.g., photo, video, audio) backup and archiving is a bit more challenging, in part because transcriptions and captioning can be important for interpretation, discovery, and accessibility.</strong>Storage of images solely on local hard drives or servers is not recommended. Unaltered images should be preserved at the highest resolution possible. Store original images in separate locations to limit the chance of overwriting and losing the original image.There are a number of options for metadata for multimedia data, including <a href="http://mpeg.chiariglione.org/">MPEG standards</a>, <a href="http://pbcore.org">PBCore</a>, and the US Library of Congress standards for <a href="https://www.loc.gov/preservation/digital/formats/content/still.shtml">still images</a>, <a href="https://www.loc.gov/preservation/digital/formats/content/sound.shtml">sound</a>, and <a href="https://www.loc.gov/preservation/digital/formats/content/video.shtml">moving images</a>.</p></li>
+<li><p><strong>Finally, consider the short- and long-term security of the originals:</strong> specimens, samples, documents and data sheets, photographs, or other physical items. Options include:</p>
+<ul>
+<li>Campus Office</li>
+<li>Lab or Museum/Herbarium</li>
+<li>Departmental Office</li>
+<li>Commercial storage facility</li>
+<li>Home</li>
+<li>Library</li>
+</ul></li>
+</ol>
+</div>
+<div id="backup-procedures" class="section level1">
+<h1>Backup Procedures</h1>
+<p>Backing up requires discipline and care to ensure nothing is missed and the file back-ups are secure. You can make this easier by doing the following:</p>
+<ol style="list-style-type: decimal">
+<li><strong>Plan ahead, and write down your plan.</strong> A written data back-up and security plan includes such information as:
+<ul>
+<li>where backups are located</li>
+<li>who can access backups and how they can be contacted</li>
+<li>how often data should be backed up</li>
+<li>what kind of backups are performed</li>
+<li>who is responsible for performing the backups and their contact information. For large projects or projects with high-volume data streams include a person with secondary responsibility (the back-up back-up) in case the primary person responsible is unavailable</li>
+<li>what hardware and software are used or recommended for performing backups</li>
+<li>how and how often to check if backups have been performed successfully</li>
+<li>the media are used to backup data</li>
+<li>a list of any data that are <em>not</em> archived or backed up</li>
+</ul></li>
+<li><strong>Backup your data at regular frequencies</strong>, with backup strategies (e.g., full, incremental, differential) optimized for the data collection process and data type. For instance, you should (at least):
+<ul>
+<li>Back up when you complete your data collection activity</li>
+<li>Back up after you edit / clean data</li>
+<li>Streaming data (e.g., from data loggers) should be backed up at regularly scheduled points in the collection process</li>
+<li>High-value data should be backed up at much higher frequencies (daily)</li>
+</ul></li>
+<li><strong>Put procedures in place to make sure you follow your plan.</strong>
+<ul>
+<li>set up calendar reminders</li>
+<li>use checklists.</li>
+<li>Ensure backup copies are identical to the original copy (using checksums, file counts, etc.)</li>
+<li>Be sure of one of the regular calendar items is to verify successful recovery from a backup copy.</li>
+<li><strong>Automate as much as possible. </strong> Automation simplifies frequent backups. but be careful with accidental file loss and that back-up copies are actually independent (e.g. Dropbox and a synced folder on your laptop are <em>not</em> independent copies).</li>
+</ul></li>
+<li><strong>Ensure the Security of Restricted Data.</strong>
+<ul>
+<li>All data collected by UF affiliates falls into one of the classifications defined in the <a href="https://it.ufl.edu/policies/information-security/data-classification-policy/">UF Data Policy</a>. Both original and electronic archives must be secured; failure to do so can have serious consequences for both researchers and institutions.</li>
+</ul></li>
+</ol>
+</div>
+<div id="file-formats-for-storage" class="section level1">
+<h1>File formats for storage</h1>
+<p>For long term preservation is it necessary to store data in file formats that will be readable in the future. It is also important to provide descriptive information on these data file types and formats. This will facilitate data retrieval and reuse.</p>
+<ol style="list-style-type: decimal">
+<li>Document and store data using file-types that are open (ie., non-proprietary), uncompressed, unencrypted (if at all possible), and stable:
+<ul>
+<li><code>ASCII</code> formatted files will be readable into the future. For tabular data use comma-separated values, <code>.csv</code>, for text use <code>.txt</code> (alternatively <code>.rtf</code>).</li>
+<li>Images: <code>TIFF</code> (uncompressed)</li>
+<li>Video: MPEG-4 (<code>.mp4</code>) or motion JPEG 2000 (<code>.jp2</code>)</li>
+<li>AudioL Free Lossless Audio Codec (<code>.flac</code>)</li>
+<li>Documentation: <code>.txt</code> (preferred), PDF/A (<code>.pdf</code>)</li>
+<li>Structured, highly coded data: <code>.xml</code></li>
+<li>For geospatial (raster) data the following provide a stable format:
+<ul>
+<li><code>GeoTIFF/TIFF</code></li>
+<li><code>ASCII Grid</code></li>
+<li>Binary image files</li>
+<li><code>NetCDF</code></li>
+<li><code>HDF</code> or <code>HDF-EOS</code></li>
+</ul></li>
+<li>For image (Vector) data use the following file formats (these are mostly proprietary data formats; please be sure to document the Software
+Package, Version, Vendor, and native platform):
+<ul>
+<li>ARCVIEW software: store components of an ArcView shape file (<code>.shp</code>, <code>.sbx</code>, <code>.sbn</code>, <code>.prj</code>, and <code>.dbf</code> files)</li>
+<li>ENVI – <code>.evf</code> (ENVI vector file)</li>
+<li>ESRI Arc/Info export file (<code>.e00</code>)<br />
+</li>
+</ul></li>
+<li><strong><em>Note:</em></strong> Certain file formats, such as shapefiles, can be made up of as many as 7 individual files. If one of those files is absent from the file assembly the shapefile data utility may be lost. Awareness of adherence to a particular file format standard can also be helpful for determining, for example, if a particular software package can read the data file. Awareness of whether that standard or format is open source or proprietary will also influence how and if the data file can be read.<br />
+</li>
+</ul></li>
+<li>If a particular software package required to read and work with the data file, you need to make sure you have a copy, a backup copy, <em>and a computer with the proper operating system to use the software.</em></li>
+<li>For audio and image files, back up with the highest-quality file-type possible (i.e., the ‘lossless’ format rather than the ‘lossy’ format). For example, <code>jpeg</code> is lossy, meaning images saved with this file type will have less detail than images saved with the lossless <code>TIFF</code> format if at all possible back-up</li>
+</ol>
+</div>
+<div id="tools-resources" class="section level1">
+<h1>Tools &amp; Resources</h1>
+<ol style="list-style-type: decimal">
+<li><p><strong>UF Guides:</strong></p>
+<ul>
+<li>UF Library: <a href="https://guides.uflib.ufl.edu/c.php?g=147756&amp;p=966586">Data File Types and Formats</a></li>
+<li>UF Library: <a href="https://guides.uflib.ufl.edu/datamanagement/storage">Data Storage</a></li>
+<li>UF IRB: <a href="http://irb.ufl.edu/index/data/1981-2.html">Data/Record Storage and Security</a></li>
+<li>UF: <a href="https://it.ufl.edu/policies/information-security/data-classification-policy/">Data Classifications for Confidentiality &amp; Security</a></li>
+</ul></li>
+<li><p><strong>Overview of ‘Checksums’ and Checksum Calculators</strong></p>
+<ul>
+<li><a href="https://www.lifewire.com/what-does-checksum-mean-2625825">Fisher, Tim. What Is a Checksum?</a> (updated 15 April 2020).</li>
+</ul></li>
+<li><p><strong>File Formats and Extensions</strong></p>
+<ul>
+<li><a href="https://dh.obdurodon.org/what-is-xml.xhtml">What is XML?</a></li>
+<li><a href="https://it.nmu.edu/docs/common-windows-file-extensions">Common Windows File Extensions (NMU IT)</a></li>
+<li><a href="https://pc.net/extensions/">Common File Extensions (PC Net)</a></li>
+<li><a href="https://en.m.wikipedia.org/wiki/List_of_open_formats">List of Open File Formats (Wikipedia)</a></li>
+</ul></li>
+<li><p><strong>UF-based Storage Options</strong></p>
+<ul>
+<li>Overview of UF Cloud Data Services, aka <a href="https://it.ufl.edu/services/search/gatorcloud">GatorCloud</a></li>
+<li><a href="https://education.ufl.edu/educational-research/9729">Free UF Dropbox for Education</a>, UF Dropbox <a href="https://cloud.it.ufl.edu/uf-dropbox/frequently-asked-questions/">FAQs</a>, and information on how <a href="https://cloud.it.ufl.edu/media/clouditufledu/How-to-Obtain-Access-to-UF-Dropbox-for-Education.pdf">your advisor can submit a request for your UF Dropbox account</a></li>
+<li>Free GSuite <a href="https://cloud.it.ufl.edu/collaboration-tools/g-suite/">(Google Drive)</a></li>
+<li><a href="https://it.ufl.edu/services/gatorcloud-onedrive-uf">Free MS One Drive</a> (but also read why I suggest NOT using this <a href="http://brunalab.org/blog/2015/07/24/onedrive-notes/">here)</a></li>
+<li>for very large data volumes or data data required extra security protection due to privacy restrictions, etc. you can use <a href="https://www.rc.ufl.edu/help/getting-started/storage/">UF Research Computing’s Managed Storage</a></li>
+</ul></li>
+<li><p><strong>Tools for File Syncing</strong></p>
+<ul>
+<li><a href="https://www.macupdate.com/app/mac/37029/macdropany">MacDropAny (macOS)</a></li>
+<li><a href="https://www.multcloud.com/">MultCloud</a></li>
+</ul></li>
+<li><p><strong>Portable HDs and Backup Services</strong></p>
+<ul>
+<li>NY Times <em>Wirecutter</em> Reviews &amp; Recommendations:
+<ul>
+<li><a href="https://www.nytimes.com/wirecutter/reviews/best-portable-hard-drive/">portable hard drives</a></li>
+<li><a href="https://www.nytimes.com/wirecutter/reviews/best-online-backup-service/">automated data backup services</a>; their recommendation was <a href="https://spideroak.com/">SpiderOak</a>.</li>
+</ul></li>
+</ul></li>
+<li><p><strong>Online multimedia repositories and tools</strong></p>
+<ul>
+<li><a href="https://www.youtube.com/">YouTube</a></li>
+<li><a href="https://vimeo.com/">Vimeo</a></li>
+<li><a href="https://www.flickr.com/">Flickr</a></li>
+<li><a href="https://www.google.com/photos">Google Photos</a>.</li>
+</ul>
+<p><strong>These serivces have some advantages:</strong></p>
+<ul>
+<li>are often low-cost or free</li>
+<li>are open to all</li>
+<li>have functions for provide community commenting and tagging</li>
+<li>some provide support for explicit licenses and re-use</li>
+<li>provide some options for valuable metadata such as geolocation</li>
+<li>may allow for large-scale dissemination</li>
+<li>optimize usability and low barrier for participation</li>
+</ul>
+<p><strong>However, they are commercial services, and hence have a number of potential drawbacks: </strong></p>
+<ul>
+<li>models for sustainability is profit-based</li>
+<li>may have limits on file size or resolution</li>
+<li>may have unclear access, backup, and reliability policies, be sure to review them carefully</li>
+</ul>
+<p><strong>There are specialized multimedia repositories (e.g. <a href="https://www.morphbank.net/">MorphBank</a>) designed with researchers in mind. Some advantages of these are:</strong></p>
+<ul>
+<li>domain-specific metadata fields and controlled vocabularies customized for expert users</li>
+<li>highly discoverable for those in the same domain</li>
+<li>they can provide assistance in curating metadata</li>
+<li>they can optimize scientific use cases such as vouchering, image analysis</li>
+<li>may provide APIs for sharing or re-use for other projects</li>
+<li>they are recognized as high-quality, scientific repositories</li>
+</ul>
+<p><strong>But they too have some drawbacks</strong></p>
+<ul>
+<li>rely on research or institutional/federal funding</li>
+<li>may require high-quality multimedia, completeness of metadata, or restrict manipulation</li>
+<li>may not be open to all</li>
+<li>may have restrictions on bandwidth usage</li>
+</ul></li>
+</ol>
+</div>
+<div id="a-step-back-what-needs-to-be-preserved" class="section level1">
+<h1>A step back: what needs to be preserved?</h1>
+<p>To meet multiple goals for preservation, researchers should think broadly about the digital products that their project generates, preserve as many
+as possible, preserve all that they are required to preserve for as long as required or longer, and plan the appropriate preservation methods for each. Consider how long and how to preserve the following, taking into account <strong>(i)</strong> what would be necessary to reconstruct a complete data set if files downstream were lost <strong>(ii)</strong>, how long each needs to be kept, and <strong>(iii)</strong> the cost of and space required for preserving data for different lengths of time:</p>
+<ol style="list-style-type: decimal">
+<li>Raw data (written form, electronic form). <em>Raw data are almost always worth preserving.</em></li>
+<li>Tables, spreadsheets, or databases of raw observation records and measurements</li>
+<li>Tables, spreadsheets, or databases of clean observation records and measurements. <em>If clean data can be easily or automatically re-created from raw data, consider not preserving. If quality control or analysis is time-consuming or expensive, then consider preserving the clean version.</em></li>
+<li>Intermediate products: partly summarized or coded data that are the input to the next step in an analysis</li>
+<li>Documentation of protocols used to clean, summarize, or code data</li>
+<li>Software or algorithms developed to prepare data (cleaning scripts) or perform analyses. <em>Algorithms and software source code cost very little to preserve</em></li>
+<li>Results of an analysis, which can themselves be starting points or ingredients in future analyses, e.g. distribution maps, population trends, mean measurements. <em>These may be particularly valuable for future discovery and also cost very little to preserve.</em></li>
+<li>Any data sets obtained from others that were used in data processing</li>
+</ol>
+</div>
+<div id="sources" class="section level1">
+<h1>Sources</h1>
+<p>The information above is drawn from a number of sources, including:</p>
+<ol style="list-style-type: decimal">
+<li><p>DataONE Community Engagement &amp; Outreach Working Group, DataONE (July 01, 2010) “Best Practice: Plan for effective multimedia management”. Accessed through the Data Management Skillbuilding Hub at <a href="https://dataoneorg.github.io/Education/bestpractices/plan-for-effective" class="uri">https://dataoneorg.github.io/Education/bestpractices/plan-for-effective</a> on Aug 31, 2020</p></li>
+<li><p>DataONE Best Practices Working Group, DataONE (July 01, 2010) “Best Practice: Ensure integrity and accessibility when making backups of data”. Accessed through the Data Management Skillbuilding Hub at <a href="https://dataoneorg.github.io/Education/bestpractices/ensure-integrity-and" class="uri">https://dataoneorg.github.io/Education/bestpractices/ensure-integrity-and</a> on Aug 31, 2020</p></li>
+<li><p>Cindy Parr, Heather Henkel, DataONE (Aug 30, 2011) “Best Practice: Create and document a data backup policy”. Accessed through the Data Management Skillbuilding Hub at <a href="https://dataoneorg.github.io/Education/bestpractices/create-and-document" class="uri">https://dataoneorg.github.io/Education/bestpractices/create-and-document</a> on Aug 31, 2020</p></li>
+<li><p>Cindy Parr, Heather Henkel, Keven Comerford, DataONE (May 11, 2011) “Best Practice: Decide what data to preserve”. Accessed through the Data Management Skillbuilding Hub at <a href="https://dataoneorg.github.io/Education/bestpractices/decide-what-data" class="uri">https://dataoneorg.github.io/Education/bestpractices/decide-what-data</a> on Aug 31, 2020</p></li>
+</ol>
+</div>

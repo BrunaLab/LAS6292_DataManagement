@@ -1,0 +1,158 @@
+---
+title: "LAS 6292: LEGAL AND ETHICAL ISSUES"
+date: "updated: `r Sys.Date()`"
+header-includes:
+   - \usepackage[default]{sourcesanspro}
+   - \usepackage[T1]{fontenc}
+mainfont: SourceSansPro
+geometry: margin=1in
+fontsize: 12pt
+linkcolor: blue
+urlcolor: blue
+output:
+  pdf_document: default
+  html_document:
+    df_print: paged
+  rmdformats::robobook: default
+---
+
+
+```{r setup, include=FALSE}
+library(knitr)
+library(rmdformats)
+
+## Global options
+options(max.print="75")
+opts_chunk$set(echo=FALSE,
+	             cache=TRUE,
+               prompt=FALSE,
+               tidy=TRUE,
+               comment=NA,
+               message=FALSE,
+               warning=FALSE)
+opts_knit$set(width=75)
+```
+
+## Pre-Class Preparation (Instructor):  
+
+**Send in an email to students:  **  
+
+  * content of any pre-class emails.
+
+**Bring to Class:  **  
+
+  * Snacks
+  * Flip charts and markers
+  * Dry write markers
+  * Tent cards for student names
+
+## Objectives and Competencies:   
+
+* Be able to explain the major laws, policies, and ethical guidelines relevant to data collection & management
+* Become familiar with relevant concepts and terminology (copyrights, licenses, and waivers)
+* Explain the difference between Restricted, Sensitive, and open Data
+* Discuss ethical considerations surrounding the use, reuse, and sharing of research data
+* Describe the tools and processes available for anonymizing data. 
+  
+## Pre-class Preparation (Students):
+
+### **Readings**
+
+1.  de Koning M, Meyer B, Moors A, Pels P. 2019. Guidelines for anthropological research: Data management, ethics, and integrity. Ethnography. 20(2):170-174.  [read online](https://journals.sagepub.com/doi/10.1177/1466138119843312)  [download pdf](https://github.com/BrunaLab/LAS6292_DataManagement/blob/master/Assigned_Readings/Koning_etal_2019.pdf)
+
+2.  Katie Fortney, UC Office of Scholarly Communication. 2016. “Who owns your data?”  [read online](https://uc3.cdlib.org/2016/09/08/who-owns-your-data/) [download pdf](https://github.com/BrunaLab/LAS6292_DataManagement/blob/master/Assigned_Readings/Fortney_2016.pdf)
+
+3. Goodluck, K. 2020. Indigenous data sovereignty shakes up research. High Country News.  [read online](https://www.hcn.org/issues/52.11/indigenous-affairs-covid19-indigenous-data-sovereignty-shakes-up-research) 
+
+4. Woodbury, R. B., Beans, J. A., Hiratsuka, V. Y., & Burke, W. (2019). Data Management in Health-Related Research Involving Indigenous Communities in the United States and Canada: A Scoping Review. Frontiers in genetics, 10, 942. [read online](https://www.hcn.org/issues/52.11/indigenous-affairs-covid19-indigenous-data-sovereignty-shakes-up-research)]  [download pdf](https://github.com/BrunaLab/LAS6292_DataManagement/blob/master/Assigned_Readings/Goodluck_2020.pdf)
+
+### **Online Lectures:**  
+
+  * Quick Overview [Video Lecture by EB](https://youtu.be/sBWzs3Ra5fw)
+  * [NIH:  Statistical methods for protecting data confidentiality](https://www.youtube.com/watch?v=3vN-6A2zbsk)
+  * Patricia Jenkinson Video Seminar on [Ethics: Human Subject Research](https://www.youtube.com/watch?v=e0uydNe4cQo)
+   * [U.S. Department of Health and Human Services: Informed COnsent Overview](https://www.youtube.com/watch?v=Y7uI3sM9wtc)
+  * Australian Council for International Development (ACFID): [Principles and Guidelines for Ethical Research and Evaluation in Development](https://www.youtube.com/watch?v=ylkKCgEIMws)
+ * [An Overview of NIH Policies on Human Subjects Research](https://www.youtube.com/watch?v=jPWxPgR-vww) Optional, listen at 1.75 speed!
+  
+## Class Outline
+
+
+```{r timer, echo=FALSE}
+t1_overview <- 10
+t2_overview <- 10
+breakout1 <- 15
+breakout1_return <-35
+cleaning_demo <-10
+snack_break <- 10
+proj_overview <- 15
+breakout2 <- 45
+
+total_time <- t1_overview + 
+  t2_overview + 
+  breakout1 + 
+  breakout1_return + 
+  cleaning_demo +
+  snack_break + 
+  proj_overview + 
+  breakout2 
+
+time_remain <- 180 - total_time
+```
+
+### Before we start: 
+
+1. [example](https://github.com/BrunaLab/BDFFP-precipitation/issues/27) of a real data clean-up situation for which OpenRefine is ideal
+
+
+### **Topic 1 Overview: Anonymization.** (`r t1_overview` min)
+
+1. [Guidelines for Data De-Identification or Anonymization](https://www.educause.edu/focus-areas-and-initiatives/policy-and-security/cybersecurity-program/resources/information-security-guide/toolkits/guidelines-for-data-deidentification-or-anonymization)
+
+### Breakout & Return Results 
+
+**Breakout (`r breakout1` min): ** discussion of case studies
+
+Case study for breakout: [who owns the data?](https://ori.hhs.gov/education/products/columbia_wbt/rcr_data/case/index.html#2)
+
+
+**Returning results & Take-home message (`r breakout1_return` min)** 
+
+1. summary of discussion
+
+2. **Take-home message:** message.
+
+      
+### anything before the break? (`r cleaning_demo` min)
+
+### Break (`r snack_break` min)
+
+### *Topic 2 Overview: MEME-O-RAMA*  (`r t2_overview` min)
+
+*Guidelines: *has to be original, has to illustrate something learned 
+in class, and have to use the meme format more or less properly. Foreign Lang Memes encouraged.
+
+1. examples from a stats class: [link](https://twitter.com/v_matzek/status/1376959852367372288 )
+2. Meme generators: 
+    * [meme generator 1](https://www.iloveimg.com/meme-generator)
+    * [meme generator 2](https://www.kapwing.com/meme-maker) 
+    * [meme generator 3](https://memegenerator.net/create)
+
+
+
+### Free Time
+
+There are `r time_remain` min remaining that can be used to -----
+
+
+# Tools & Resources
+
+1. Anonymizing Tools
+    * [list 1](https://windowsreport.com/data-anonymization-software/)
+    * [list 2](https://aircloak.com/top-5-free-data-anonymization-tools/) 
+    * [Amnesia (data anonymization algorithms)](https://amnesia.openaire.eu/index.html)
+    * De-identification Tools from [NIST](https://www.nist.gov/itl/applied-cybersecurity/privacy-engineering/collaboration-space/focus-areas/de-id/tools)
+    * [3 Types of Data Anonymization Techniques and Tools to Consider](https://www.techfunnel.com/information-technology/3-types-of-data-anonymization-techniques-and-tools-to-consider/)
+ 
+ 2. Guidelines
+    * [Guidelines for Data De-Identification or Anonymization](https://www.educause.edu/focus-areas-and-initiatives/policy-and-security/cybersecurity-program/resources/information-security-guide/toolkits/guidelines-for-data-deidentification-or-anonymization)
