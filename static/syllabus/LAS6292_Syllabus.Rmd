@@ -52,7 +52,6 @@ library(tidyverse)
 ## **TCD RESEARCH METHODS: DATA COLLECTION & MANAGEMENT (LAS 6292)**  
 ### **Spring 2022 | Section 02DD | Class No. 23337**
 
-## COURSE OVERVIEW  
 
 **1. Instructor:**  Dr. Emilio M. Bruna (he/him; http://brunalab.org/emilio-m-bruna/) 
 
@@ -89,7 +88,7 @@ library(tidyverse)
 
 Week  |  Date  |  Topic
 :-----: | ------- | --------
-1  | 1/7  | ‘Data’ across disciplines and the Research Data Lifecycle | 
+1  | 1/7  | ‘Data’ across disciplines and the Research Data Life Cycle | 
 2  | 1/14 | File Formats, Naming Conventions, Data Storage & Security | 
 3  | 1/21 | Structure & Format of Data & Datasets | 
 4  | 1/28 | Reproducible Data (Re)organization | 

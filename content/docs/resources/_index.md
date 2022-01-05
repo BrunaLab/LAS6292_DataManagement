@@ -1,6 +1,6 @@
 ---
 date: "2018-09-09T00:00:00Z"
-icon: info
+icon: tools
 icon_pack: fas
 linktitle: Resources
 summary: Learn how to use Wowchemy's docs layout for publishing online courses, software

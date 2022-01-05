@@ -7,10 +7,10 @@ main:
   # - name: Home Page
   #   url: /
   #   weight: 10
-  - name: Syllabus & Course Info
+  - name: Instructor Info
     url: docs/course-info
     weight: 10
-  - name: Course Content & Schedule
+  - name: Syllabus & Schedule
     url: docs/class-sessions
     weight: 20
   - name: Assignments
