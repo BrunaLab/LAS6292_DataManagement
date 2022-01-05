@@ -81,7 +81,70 @@ Using Checksums to verify data integrity
 [PSRenamer](http://www.powersurgepub.com/products/psrenamer/index.html)   
 
 
-## R packages & Tools
+## R Programming
+
+### Essential
+
+1. Hadley Wickham wrote a book on using the tidyverse and the [online version is FREE](https://r4ds.had.co.nz/). This is a phenomenal resource on using R to import, tidy, and visualize data. 
+
+2. [RStudio Cheat Sheets](https://rstudio.com/resources/cheatsheets/): help with commands for using the different `tidyverse` packages, RStudio shortcuts and tricks, help with R commands, and more. You definitely want the ones for Data Import, Work with Strings, Factors, Data Transformation, and Base R.
+
+3. Where and How to ask for help  
+
+    * Hadley Wickham's advice on [how to write a good reproducible  
+    example]((http://adv-r.had.co.nz/Reproducibility.html)) for getting help with R  
+    * [how to post good questions on StackOverflow](https://www.r-bloggers.com/2011/01/three-tips-for-posting-good-questions-to-r-help-and-stack-overflow/)  
+    * The UF [R-users listserv](http://www.r-gators.com/listserv/) is *very* user friendly and a great place to post requests for help. 
+
+
+
+### Tutorials and Books
+
+1. [R Essential Training: Wrangling and Visualizing Data](https://www.linkedin.com/learning/r-essential-training-wrangling-and-visualizing-data/navigating-the-rstudio-environment?u=41282748)
+
+2. [Software Carpentry: Using RStudio for Project Organization & Management](https://swcarpentry.github.io/r-novice-gapminder/02-project-intro/)
+
+3. [Swirl](https://swirlstats.com/)
+
+4. [R Bootcamp](https://r-bootcamp.netlify.app/)
+
+5. Kieran Healy's [*Data Visualization: a practical introduction*](https://socviz.co/) is my favorite introductory (yet super-comprehensive) book on data visualization with R. If you scroll down to the bottom of the page yu can download the datasets and code used to make the figures in the book, which makes life much easier.
+
+6. [So. Many. Resources.](https://paulvanderlaken.com/2017/08/10/r-resources-cheatsheets-tutorials-books/)
+
+7. [ROpenSci](https://ropensci.org/): tools for accessing, manipulating, and visualizing open data
+
+# Specific Problems in Data Cleaning and Managemnt
+
+1. [Handling dates and times in R](https://course.naturecast.org/docs/r-time-series-data/r_tutorial/)
+
+2. Text Mining: [`tidytext`](https://juliasilge.github.io/tidytext/) package
+
+3. Working with Qualtrics survey data with the [`qualtRics`](https://docs.ropensci.org/qualtRics/) package
+
+4. Optical Character Recognition (OCR): extract text from images: [`tesseract`](https://docs.ropensci.org/tesseract/) package
+
+5. Extract text & metadata from pdf files: [`pdftools`](https://docs.ropensci.org/pdftools/) package
+
+6. Image processing in R: the [`magick`](https://cran.r-project.org/web/packages/magick/vignettes/intro.html) package
+
+
+### Discipline-specific Resources
+
+1. [`historydata`](https://github.com/ropensci/historydata) package: Sample data sets for historians learning R. They include population, institutional, religious, military, and prosopographical data suitable for mapping, quantitative analysis, and network analysis.
+
+2. [*The Programming Historian*](https://programminghistorian.org/) Website: wide range of topics, from text analysis to OpenRefine
+
+
+### Advanced R Topics
+
+1. [`DataCurator`](https://github.com/qcif/data-curator) package: 'a simple desktop data editor to help describe, validate and share usable open data'.
+
+2. [RegExr](https://regexr.com/): online tool to learn, build, & test Regular Expressions (RegEx / RegExp) 
+
+2. [`knitr`](https://kbroman.org/knitr_knutshell/pages/overview.html) overview: reproducible documents witg R
+
+3. Make [slide presentations with R](https://rmarkdown.rstudio.com/lesson-11.html)
 
 [The qualtRics R package by ROpenSci](https://docs.ropensci.org/qualtRics/)   
 [How to clean messy data in R](https://rfortherestofus.com/2019/12/how-to-clean-messy-data-in-r/)  
@@ -91,6 +154,9 @@ Using Checksums to verify data integrity
 [Open Refine](https://openrefine.org/)  
 [the Carpentry Open Refine Lesson](https://datacarpentry.org/OpenRefine-ecology-lesson/04-scripts/index.html)   
 [EDI Open Refine lessons](https://environmentaldatainitiative.org/webinars-events/previous-edi-events/how-to-clean-and-format-data-using-r-packages-datamaid-dplyr-openrefine-excel/)  
+
+
+
 
 ## Data Archives
 

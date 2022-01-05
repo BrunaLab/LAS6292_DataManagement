@@ -1,0 +1,879 @@
+% Options for packages loaded elsewhere
+\PassOptionsToPackage{unicode}{hyperref}
+\PassOptionsToPackage{hyphens}{url}
+\PassOptionsToPackage{dvipsnames,svgnames*,x11names*}{xcolor}
+%
+\documentclass[
+  12pt,
+]{article}
+\usepackage{amsmath,amssymb}
+\usepackage{lmodern}
+\usepackage{ifxetex,ifluatex}
+\ifnum 0\ifxetex 1\fi\ifluatex 1\fi=0 % if pdftex
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+  \usepackage{textcomp} % provide euro and other symbols
+\else % if luatex or xetex
+  \usepackage{unicode-math}
+  \defaultfontfeatures{Scale=MatchLowercase}
+  \defaultfontfeatures[\rmfamily]{Ligatures=TeX,Scale=1}
+\fi
+% Use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+\IfFileExists{microtype.sty}{% use microtype if available
+  \usepackage[]{microtype}
+  \UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+}{}
+\makeatletter
+\@ifundefined{KOMAClassName}{% if non-KOMA class
+  \IfFileExists{parskip.sty}{%
+    \usepackage{parskip}
+  }{% else
+    \setlength{\parindent}{0pt}
+    \setlength{\parskip}{6pt plus 2pt minus 1pt}}
+}{% if KOMA class
+  \KOMAoptions{parskip=half}}
+\makeatother
+\usepackage{xcolor}
+\IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
+\IfFileExists{bookmark.sty}{\usepackage{bookmark}}{\usepackage{hyperref}}
+\hypersetup{
+  pdftitle={LAS 6292: Data Collection \& Management},
+  pdfauthor={Emilio M. Bruna},
+  colorlinks=true,
+  linkcolor=blue,
+  filecolor=Maroon,
+  citecolor=Blue,
+  urlcolor=blue,
+  pdfcreator={LaTeX via pandoc}}
+\urlstyle{same} % disable monospaced font for URLs
+\usepackage[margin=1in]{geometry}
+\usepackage{longtable,booktabs,array}
+\usepackage{calc} % for calculating minipage widths
+% Correct order of tables after \paragraph or \subparagraph
+\usepackage{etoolbox}
+\makeatletter
+\patchcmd\longtable{\par}{\if@noskipsec\mbox{}\fi\par}{}{}
+\makeatother
+% Allow footnotes in longtable head/foot
+\IfFileExists{footnotehyper.sty}{\usepackage{footnotehyper}}{\usepackage{footnote}}
+\makesavenoteenv{longtable}
+\usepackage{graphicx}
+\makeatletter
+\def\maxwidth{\ifdim\Gin@nat@width>\linewidth\linewidth\else\Gin@nat@width\fi}
+\def\maxheight{\ifdim\Gin@nat@height>\textheight\textheight\else\Gin@nat@height\fi}
+\makeatother
+% Scale images if necessary, so that they will not overflow the page
+% margins by default, and it is still possible to overwrite the defaults
+% using explicit options in \includegraphics[width, height, ...]{}
+\setkeys{Gin}{width=\maxwidth,height=\maxheight,keepaspectratio}
+% Set default figure placement to htbp
+\makeatletter
+\def\fps@figure{htbp}
+\makeatother
+\setlength{\emergencystretch}{3em} % prevent overfull lines
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\setcounter{secnumdepth}{-\maxdimen} % remove section numbering
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyfoot{}
+\fancyhead[R]{Syllabus, p. \thepage}
+\fancyhead[L]{LAS 6292 (2022)}
+\usepackage[default]{sourcesanspro}
+\usepackage{parskip}
+\usepackage{xcolor}
+\AtBeginDocument{\let\maketitle\relax}
+\usepackage[document]{ragged2e}
+\raggedright
+\usepackage{sectsty} \allsectionsfont{\centering}
+\usepackage{titlesec}
+\titlespacing{\section}{0pt}{12pt plus 2pt minus 1pt}{0pt plus 1pt minus 1pt}
+\titlespacing{\subsection}{0pt}{12pt plus 2pt minus 1pt}{0pt plus 1pt minus 1pt}
+\titlespacing{\subsubsection}{0pt}{12pt plus 2pt minus 1pt}{0pt plus 1pt minus 1pt}
+\hyphenpenalty=10000
+\usepackage{booktabs}
+\usepackage{longtable}
+\usepackage{array}
+\usepackage{multirow}
+\usepackage{wrapfig}
+\usepackage{float}
+\usepackage{colortbl}
+\usepackage{pdflscape}
+\usepackage{tabu}
+\usepackage{threeparttable}
+\usepackage{threeparttablex}
+\usepackage[normalem]{ulem}
+\usepackage{makecell}
+\usepackage{xcolor}
+\ifluatex
+  \usepackage{selnolig}  % disable illegal ligatures
+\fi
+
+\title{LAS 6292: Data Collection \& Management}
+\author{Emilio M. Bruna}
+\date{2022}
+
+\begin{document}
+\maketitle
+
+\thispagestyle{empty}
+
+\hypertarget{tcd-research-methods-data-collection-management-las-6292}{%
+\subsection{\texorpdfstring{\textbf{TCD RESEARCH METHODS: DATA
+COLLECTION \& MANAGEMENT (LAS
+6292)}}{TCD RESEARCH METHODS: DATA COLLECTION \& MANAGEMENT (LAS 6292)}}\label{tcd-research-methods-data-collection-management-las-6292}}
+
+\hypertarget{spring-2022-section-02dd-class-no.-23337}{%
+\subsubsection{\texorpdfstring{\textbf{Spring 2022 \textbar{} Section
+02DD \textbar{} Class
+No.~23337}}{Spring 2022 \textbar{} Section 02DD \textbar{} Class No.~23337}}\label{spring-2022-section-02dd-class-no.-23337}}
+
+\hypertarget{course-overview}{%
+\subsection{COURSE OVERVIEW}\label{course-overview}}
+
+\textbf{1. Instructor:} Dr.~Emilio M. Bruna (he/him;
+\url{http://brunalab.org/emilio-m-bruna/})
+
+\textbf{2. Contact Information:} Phone: (352) 846-0634 \textbar{} email:
+\href{mailto:embruna@ufl.edu}{\nolinkurl{embruna@ufl.edu}}
+
+\textbf{3. Class sessions:} Friday, Periods 6-8 (12:50-3:50) in 376
+Grinter Hall
+
+\textbf{4. Office Hours:} Tuesday and Thursday 10:30 am -12:00 pm in the
+Tropical Ecology \& Conservation Lab (directions at
+\url{http://brunalab.org/contact-find-us/}) or via Zoom (the link is on
+class canvas page). You can sign up for an appointment in advance here:
+\url{http://brunalab.org/teaching/office-hours/}); you don't have to do
+so, but it guarantees a specific time slot so you don't have to wait in
+line.
+
+\textbf{5. Course Objectives:} This course is a practical introduction
+to methods, tools, and best practices for collecting, organizing,
+managing, and visualizing qualitative and quantitative data. It is
+designed for graduate students from all disciplines at any stage of
+their program. \textbf{\emph{At the conclusion of the course students
+will be able to}:}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  Describe the different types of research data;
+\item
+  Explain the need for and benefits of data management and sharing;
+\item
+  Describe and implement best practices for the collection, storage,
+  management, archiving, and sharing of research data;
+\item
+  Find, download, and analyze publicly available data from repositories;
+\item
+  Carry out simple and reproducible data corrections and data set
+  organization;
+\item
+  Describe public policies and agency requirements for data management
+  and sharing;
+\item
+  Articulate the major legal and ethical considerations regarding data
+  collection, use, and storage (e.g., privacy/human subjects,
+  intellectual property, international law);
+\item
+  Create and Implement Data Management Plan in funder-specific formats;
+\item
+  Identify and properly use tools for more efficient and secure data
+  collection in the field.
+\end{enumerate}
+
+\textbf{6. Course Format:} This course is taught (mostly) as an
+active-learning workshop. Students are expected to complete reading or
+watch some short video lectures prior class. The in-class session will
+typically include an opportunity to ask questions about the pre-class
+materials and for me to demonstrate challenging concepts; occasionally
+there will be a class discussion about the reading. Most of the session,
+however, will be spent working - sometimes in groups, sometimes
+individually - on exercises that reinforce the session's concepts and
+techniques. During class I will be circulating between groups to assist
+with the assignment, work though mistakes, and discuss how the
+techniques can be applied to your research.
+
+\textbf{7. Course Materials:}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\item
+  \emph{Required Textbook:} \emph{None}. All readings will be provided
+  online.
+\item
+  \emph{Course Web Page:} Course materials, communication, and
+  assignment submission will be via Canvas
+  (\url{https://elearning.ufl.edu}) and the class website
+  (\url{https://las6292.netlify.app/}).
+\end{enumerate}
+
+\newpage
+
+\hypertarget{course-outline-critical-dates}{%
+\subsection{COURSE OUTLINE \& CRITICAL
+DATES}\label{course-outline-critical-dates}}
+
+\begin{longtable}[]{@{}cll@{}}
+\toprule
+Week & Date & Topic \\
+\midrule
+\endhead
+1 & 1/7 & `Data' across disciplines and the Research Data Lifecycle \\
+2 & 1/14 & File Formats, Naming Conventions, Data Storage \& Security \\
+3 & 1/21 & Structure \& Format of Data \& Datasets \\
+4 & 1/28 & Reproducible Data (Re)organization \\
+5 & 2/4 & Data Validation \& Correction 1 \\
+6 & 2/11 & Data Validation \& Correction 2 \\
+7 & 2/18 & Documentation: Metadata, Codebooks \\
+8 & 2/25 & Data Management Plans \\
+9 & 3/4 & Efficient Data Collection \\
+10 & 3/11 & Spring Break (no class) \\
+11 & 3/18 & Transcription \& Translation \\
+12 & 3/25 & Paperless' Data Collection \\
+13 & 4/1 & Automated Data Extraction \\
+14 & 4/8 & Legal \& Ethical Issues \\
+15 & 4/15 & Data Sharing, Reuse, \& Archives \\
+Finals Week & 4/29 & Submission of Final Projects by 5 pm \\
+\bottomrule
+\end{longtable}
+
+\hypertarget{assignments-evaluation}{%
+\subsection{ASSIGNMENTS \& EVALUATION}\label{assignments-evaluation}}
+
+~\\
+\textbf{The course grade is based on the completion of the following
+assignments:}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\item
+  \emph{Weekly in-class exercises (700 points total}): 14 exercises x 50
+  points each. Most of the in-class assignments involve hands-on
+  practice with data collection or manipulation. In some weeks, however,
+  assignment will be the submission of questions for group discussion or
+  brief reflection on the issues from the readings. Most in-class
+  assignments are designed to be completed during the class session, but
+  to ensure students master the concepts rather than rush through them
+  \emph{they can be submitted anytime until 9 am the following Monday}.
+\item
+  \emph{Data Management Plan (200 points)}: due no later than 5 pm on 1
+  April 2022
+\item
+  \emph{Individual Data Cleanup Project (600 points)}: due no later than
+  5 pm on 29 April 2022 (scheduled date of the final exam).
+\end{enumerate}
+
+\textbf{Final Grades:} Course grades will be based on the percentage of
+1300 total points earned and will be assigned with the following scale:
+A: \textgreater93\% A-: 92-90\% B+: 89-87\% B: 86-83\% B-: 82-80\% C+:
+79-77\% C: 76-73\% C-: 72-70\% D+: 69-67\% D-: 62-60\% E: 59\% and
+below.
+
+\textbf{Regrades: } Requests for re-evaluation of any quizzes, exams, or
+assignments will only be considered if accompanied by a letter
+explaining why you think you deserve additional credit and the number of
+additional points you think you deserve. The deadline for submitting
+these requests is one week after the work has been returned.
+
+\hypertarget{class-attendance-participation-policies}{%
+\subsection{CLASS ATTENDANCE \& PARTICIPATION
+POLICIES}\label{class-attendance-participation-policies}}
+
+\hypertarget{attendance}{%
+\subsubsection{\texorpdfstring{\textbf{Attendance}}{Attendance}}\label{attendance}}
+
+Requirements for class attendance and make-up exams, assignments, and
+other work in this course are consistent with university policies that
+can be found at
+\url{https://catalog.ufl.edu/UGRD/academic-regulations/attendance-policies/}.
+Though attendance is not required, most of the required assignments are
+completed in class. They are designed so that one could complete them
+independently, but by doing them in class you will benefit from working
+collaboratively with the other students.
+
+\hypertarget{participation}{%
+\subsubsection{\texorpdfstring{\textbf{Participation}}{Participation}}\label{participation}}
+
+Consistent informed, thoughtful, and considerate class participation is
+encouraged. If you have personal issues that prohibit you from joining
+freely in class discussion, e.g., shyness, language barriers, etc., that
+is no problem! Let me know me as soon as possible and we will discuss
+alternative modes of participation. \textbf{\emph{If you need to miss an
+upcoming class for whatever reason (e.g., conference, illness, family
+emergency), please let me know as soon as possible.}} We will make
+arrangements for you to complete any assignments and go over any
+material you will be missing. I would much rather you focus on your
+health or supporting friends and family in need than struggle to turn in
+assignments.
+
+\hypertarget{absences-and-make-up-work}{%
+\subsubsection{\texorpdfstring{\textbf{Absences and Make-Up
+Work}}{Absences and Make-Up Work}}\label{absences-and-make-up-work}}
+
+Requirements for class attendance and coursework are consistent with
+university policies found at:
+\url{https://catalog.ufl.edu/graduate/regulations/\#text}. \emph{Let me
+know as soon as possible if you need to miss an assignment due date for
+any reason (e.g., conference, illness, family emergency).}
+
+\hypertarget{uf-academic-policies-support-services}{%
+\subsection{UF ACADEMIC POLICIES \& SUPPORT
+SERVICES}\label{uf-academic-policies-support-services}}
+
+\hypertarget{students-requiring-accommodation}{%
+\subsubsection{\texorpdfstring{\textbf{Students Requiring
+Accommodation}}{Students Requiring Accommodation}}\label{students-requiring-accommodation}}
+
+Students with disabilities who experience learning barriers and would
+like to request academic accommodations should connect with the
+Disability Resource Center by visiting
+\url{https://disability.ufl.edu/students/get-started/}. It is important
+for students to share their accommodation letter with their instructor
+and discuss their access needs, as early as possible in the semester.
+\emph{I want you to do well in this class and will gladly work with you
+to implement any necessary accommodations.}
+
+\hypertarget{grade-points}{%
+\subsubsection{Grade Points}\label{grade-points}}
+
+For information on how UF assigns grade points, visit:
+\url{https://catalog.ufl.edu/UGRD/academic-regulations/grades-grading-policies/}
+
+\hypertarget{uf-evaluations-process}{%
+\subsubsection{\texorpdfstring{\textbf{UF Evaluations
+Process}}{UF Evaluations Process}}\label{uf-evaluations-process}}
+
+Students are expected to provide professional and respectful feedback on
+the quality of instruction in this course by completing course
+evaluations online via GatorEvals. Guidance on how to give feedback in a
+professional and respectful manner is available at
+\url{https://gatorevals.aa.ufl.edu/students/}. Students will be notified
+when the evaluation period opens, and can complete evaluations through
+the email they receive from GatorEvals, in their Canvas course menu
+under GatorEvals, or via \url{https://ufl.bluera.com/ufl/}. Summaries of
+course evaluation results are available to students at
+\url{https://gatorevals.aa.ufl.edu/public-results/}.
+
+\hypertarget{university-honesty-policy}{%
+\subsubsection{\texorpdfstring{\textbf{University Honesty
+Policy}}{University Honesty Policy}}\label{university-honesty-policy}}
+
+UF students are bound by The Honor Pledge which states, ``We, the
+members of the University of Florida community, pledge to hold ourselves
+and our peers to the highest standards of honor and integrity by abiding
+by the Honor Code. On all work submitted for credit by students at the
+University of Florida, the following pledge is either required or
+implied: ``On my honor, I have neither given nor received unauthorized
+aid in doing this assignment.'' The Honor Code
+(\url{https://www.dso.ufl.edu/sccr/process/student-conduct-honor-code/})
+specifies a number of behaviors that are in violation of this code and
+the possible sanctions. Furthermore, you are obligated to report any
+condition that facilitates academic misconduct to appropriate personnel.
+If you have any questions or concerns, please consult with the
+instructor or TAs in this class.
+
+\hypertarget{counseling-and-wellness-center}{%
+\subsubsection{\texorpdfstring{\textbf{Counseling and Wellness
+Center}}{Counseling and Wellness Center}}\label{counseling-and-wellness-center}}
+
+\emph{U Matter, We Care:} If you or someone you know is in distress,
+please contact
+\href{mailto:umatter@ufl.edu}{\nolinkurl{umatter@ufl.edu}},
+352-392-1575, or visit \href{https://umatter.ufl.edu/}{U Matter, We Care
+website} to refer or report a concern and a team member will reach out
+to the student in distress.
+
+\emph{Counseling and Wellness Center:} Visit the
+\href{https://counseling.ufl.edu/}{Counseling and Wellness Center
+website} or call 352-392-1575 for information on crisis services as well
+as non-crisis services.
+
+\emph{Student Health Care Center:} Call 352-392-1161 for 24/7
+information to help you find the care you need, or visit the
+\href{https://shcc.ufl.edu/}{Student Health Care Center website}.
+
+\emph{University Police Department:} Visit
+\href{https://police.ufl.edu/}{UF Police Department website} or call
+352-392-1111 (or 9-1-1 for emergencies).
+
+\emph{UF Health Shands Emergency Room / Trauma Center:} For immediate
+medical care call 352-733-0111 or go to the emergency room at 1515 SW
+Archer Road, Gainesville, FL 32608; Visit the
+\href{https://ufhealth.org/emergency-room-trauma-center}{UF Health
+Emergency Room and Trauma Center website}.
+
+\hypertarget{the-writing-studio}{%
+\subsubsection{\texorpdfstring{\textbf{The Writing
+Studio}}{The Writing Studio}}\label{the-writing-studio}}
+
+The writing studio is committed to helping University of Florida
+students meet their academic and professional goals by becoming better
+writers. Visit the writing studio online at
+\url{http://writing.ufl.edu/writing-studio/} or in 2215 Turlington Hall
+for one-on-one consultations and workshops.
+
+\hypertarget{in-class-recording}{%
+\subsubsection{\texorpdfstring{\textbf{In-Class
+Recording}}{In-Class Recording}}\label{in-class-recording}}
+
+\textbf{Students are allowed to record video or audio of class lectures.
+However, the purposes for which these recordings may be used are
+strictly controlled.} The only allowable purposes are (1) for personal
+educational use, (2) in connection with a complaint to the university,
+or (3) as evidence in, or in preparation for, a criminal or civil
+proceeding. All other purposes are prohibited. Specifically, students
+may not publish recorded lectures without the written consent of the
+instructor.
+
+\textbf{\emph{A ``class lecture'' is:}} an educational presentation
+intended to inform or teach enrolled students about a particular
+subject, including any instructor-led discussions that form part of the
+presentation, and delivered by any instructor hired or appointed by the
+University, or by a guest instructor, as part of a University of Florida
+course. A class lecture does not include lab sessions, student
+presentations, clinical presentations such as patient history, academic
+exercises involving solely student participation, assessments (quizzes,
+tests, exams), field trips, private conversations between students in
+the class or between a student and the faculty or lecturer during a
+class session.
+
+\textbf{\emph{Publication without permission of the instructor is
+prohibited.}}To ``publish'' means to share, transmit, circulate,
+distribute, or provide access to a recording, regardless of format or
+medium, to another person (or persons), including but not limited to
+another student within the same class section. Additionally, a
+recording, or transcript of a recording, is considered published if it
+is posted on or uploaded to, in whole or in part, any media platform,
+including but not limited to social media, book, magazine, newspaper,
+leaflet, or third-party note/tutoring services. A student who publishes
+a recording without written consent may be subject to a civil cause of
+action instituted by a person injured by the publication and/or
+discipline under UF Regulation 4.040 Student Honor Code and Student
+Conduct Code
+
+\hypertarget{course-evaluation}{%
+\subsubsection{\texorpdfstring{\textbf{Course
+Evaluation}}{Course Evaluation}}\label{course-evaluation}}
+
+Students are expected to provide professional and respectful feedback on
+the quality of instruction in this course by completing course
+evaluations online via GatorEvals. Students will be notified when the
+evaluation period opens, and can complete evaluations through the email
+they receive from GatorEvals, in their Canvas course menu under
+GatorEvals, or via www.ufl.bluera.com/ufl/. Summaries of course
+evaluation results are available to students
+\href{https://gatorevals.aa.ufl.edu/public-results/}{here}.
+
+\hypertarget{student-privacy}{%
+\subsubsection{\texorpdfstring{\textbf{Student
+Privacy}}{Student Privacy}}\label{student-privacy}}
+
+There are federal laws protecting your privacy with regards to grades
+earned in courses and on individual assignments. For more information,
+please see the Notification to Students of FERPA Rights.
+
+\hypertarget{campus-helping-resources}{%
+\subsubsection{\texorpdfstring{\textbf{Campus Helping
+Resources}}{Campus Helping Resources}}\label{campus-helping-resources}}
+
+Students experiencing crises or personal problems that interfere with
+their general well-being are encouraged to utilize the university's
+counseling resources. The Counseling \& Wellness Center provides
+confidential counseling services at no cost for currently enrolled
+students. Resources are available on campus for students having personal
+problems or lacking clear career or academic goals, which interfere with
+their academic performance.
+
+\hypertarget{food-insecurity}{%
+\subsubsection{\texorpdfstring{\textbf{Food
+insecurity}}{Food insecurity}}\label{food-insecurity}}
+
+The Pantry is a resource on the University of Florida campus committed
+to eradicate food insecurity
+(\url{https://pantry.fieldandfork.ufl.edu/}). Food insecurity is not
+having a reliable access to nutritious foods for yourself on a regular
+basis. If you, or anyone you know is experiencing food insecurity, the
+Pantry is a resource to visit.
+
+\hypertarget{software-use}{%
+\subsubsection{\texorpdfstring{\textbf{Software
+Use}}{Software Use}}\label{software-use}}
+
+All faculty, staff, and students of the university are required and
+expected to obey the laws and legal agreements governing software use.
+Failure to do so can lead to monetary damages and/or criminal penalties
+for the individual violator. Because such violations are also against
+university policies and rules, disciplinary action will be taken as
+appropriate.
+
+\hypertarget{sexual-harrasment}{%
+\subsubsection{Sexual Harrasment}\label{sexual-harrasment}}
+
+\textbf{\emph{Sexual harassment of any kind will not be tolerated in
+this course:}} UF provides an educational and working environment for
+its students, faculty, and staff that is free from sex discrimination
+and sexual harassment. For more about UF policies regarding harassment:
+\url{http://www.dso.ufl.edu/studentguide/studentconductcode.php\#s4041}
+
+\hypertarget{academic-resources}{%
+\subsubsection{\texorpdfstring{\textbf{Academic
+Resources}}{Academic Resources}}\label{academic-resources}}
+
+\emph{E-learning technical support: }352-392-4357 (select option 2) or
+e-mail to
+\href{mailto:Learning-support@ufl.edu}{\nolinkurl{Learning-support@ufl.edu}}.
+
+\emph{Career Connections Center:} Reitz Union, 352-392-1601.
+\url{https://career.ufl.edu/}. Career assistance and counseling.
+
+\emph{Library Support:} \url{https://uflib.ufl.edu/find/ask/} Various
+ways to receive assistance with respect to using the libraries or
+finding resources.
+
+\emph{Teaching Center:} Broward Hall, 392-2010 or 392-6420.
+\url{https://teachingcenter.ufl.edu/} General study skills and tutoring.
+
+\emph{Writing Studio:} 302 Tigert Hall, 846-1138.
+\url{https://writing.ufl.edu/writing-studio/} Help brainstorming,
+formatting, and writing papers.
+
+\newpage
+
+\hypertarget{weekly-reading-assignments}{%
+\subsection{WEEKLY READING
+ASSIGNMENTS}\label{weekly-reading-assignments}}
+
+\hypertarget{subject-to-change-based-on-the-research-interests-of-students-enrolled-in-the-course}{%
+\subsubsection{\texorpdfstring{\emph{subject to change based on the
+research interests of students enrolled in the
+course}}{subject to change based on the research interests of students enrolled in the course}}\label{subject-to-change-based-on-the-research-interests-of-students-enrolled-in-the-course}}
+
+~
+
+\textbf{Week 2: File Formats, Naming Conventions, Data Storage, and Data
+Security}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\item
+  Jan Čurn. 2014. How a bug in Dropbox permanently deleted my 8000
+  photos.\\
+  \href{https://medium.com/@jancurn/how-bug-in-dropbox-permanently-deleted-my-8000-photos-cb7dcf13647b}{{[}read
+  online{]}}
+  \href{https://github.com/BrunaLab/LAS6292_DataManagement/blob/master/Assigned_Readings/Curn_2014.pdf}{{[}download
+  pdf{]}}
+\item
+  PSA: Scrivener, Data Integrity and You. Or, How To Avoid Data Loss
+  Heartbreak.\\
+  \href{https://www.reddit.com/r/writing/comments/62hr7o/psa_scrivener_data_integrity_and_you_or_how_to/}{{[}read
+  online{]}}
+  \href{https://github.com/BrunaLab/LAS6292_DataManagement/blob/master/Assigned_Readings/Scrivener_PSA.pdf}{{[}download
+  pdf{]}}
+\item
+  Panzarino, M. 2012. How Pixar's Toy Story 2 was deleted twice, once by
+  technology and again for its own good. TNW.
+  \href{https://thenextweb.com/media/2012/05/21/how-pixars-toy-story-2-was-deleted-twice-once-by-technology-and-again-for-its-own-good/}{{[}read
+  online{]}} {[}{[}download pdf{]}{]}
+\item
+  Hart EM et al.~(2016) Ten Simple Rules for Digital Data Storage. PLoS
+  Comput Biol 12(10): e1005097.
+  \href{https://doi.org/10.1371/journal.pcbi.1005097}{{[}read online{]}}
+  \href{https://github.com/BrunaLab/LAS6292_DataManagement/blob/master/Assigned_Readings/Hart_etal_2016.PDF}{{[}download
+  pdf{]}}
+\end{enumerate}
+
+\textbf{Week 3: Data structure \& format of data and datasets }
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\item
+  Tesi, W. 2020. An Outdated Version of Excel Led the U.K. to Undercount
+  COVID-19 Cases. Slate.
+  \href{https://slate.com/technology/2020/10/u-k-covid-19-spike-caused-by-microsoft-excel-error.html}{{[}read
+  online{]}}
+  \href{https://github.com/BrunaLab/LAS6292_DataManagement/blob/master/Assigned_Readings/Tesi_2020.pdf}{{[}download
+  pdf{]}}
+\item
+  Stolberg et al.~2020. CDC Test Counting Error Leaves Epidemiologists
+  `Really Baffled'. NY Times.
+  \href{https://www.nytimes.com/2020/05/22/us/politics/coronavirus-tests-cdc.html?referringSource=articleShare}{{[}read
+  online{]}}
+  \href{https://github.com/BrunaLab/LAS6292_DataManagement/blob/master/Assigned_Readings/Stolberg_2020_NYT.pdf}{{[}download
+  pdf{]}}
+\item
+  Broman, K. W., \& Woo, K. H. (2018). Data organization in
+  spreadsheets. The American Statistician, 72(1), 2-10.
+  \href{https://www.tandfonline.com/doi/full/10.1080/00031305.2017.1375989}{{[}read
+  online{]}}
+  \href{https://github.com/BrunaLab/LAS6292_DataManagement/blob/master/Assigned_Readings/Broman\%26Woo_2018.pdf}{{[}download
+  pdf{]}}
+\item
+  Johnson, B. D., Dunlap, E., \& Benoit, E. (2010). Organizing
+  ``mountains of words'' for data analysis, both qualitative and
+  quantitative. Substance Use \& Misuse, 45(5), 648-70.
+  \href{https://www.tandfonline.com/doi/abs/10.3109/10826081003594757?journalCode=isum20}{{[}read
+  online{]}}
+  \href{https://github.com/BrunaLab/LAS6292_DataManagement/blob/master/Assigned_Readings/Johnson_etal_2010.pdf}{{[}download
+  pdf{]}}
+\end{enumerate}
+
+\textbf{Week 4: Reproducible data (re)organization}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\item
+  Laskowski, 2020. What to do when you don't trust your data anymore.
+  \href{https://laskowskilab.faculty.ucdavis.edu/2020/01/29/retractions/}{{[}read
+  online{]}}
+  \href{https://github.com/BrunaLab/LAS6292_DataManagement/blob/master/Assigned_Readings/laskowski_2020.pdf}{{[}download
+  pdf{]}}
+\item
+  Pennisi, E. 2020. Spider biologist denies suspicions of widespread
+  data fraud in his animal personality research. Science.
+  \href{https://www.sciencemag.org/news/2020/01/spider-biologist-denies-suspicions-widespread-data-fraud-his-animal-personality}{{[}read
+  online{]}}
+  \href{https://github.com/BrunaLab/LAS6292_DataManagement/blob/master/Assigned_Readings/Pennisi_2020.pdf}{{[}download
+  pdf{]}}
+\item
+  Alston, J. M., and Rick, J. A.. 2020. A Beginner's Guide to Conducting
+  Reproducible Research. Bull Ecol Soc Am 00( 00):e01801.
+  \href{https://doi.org/10.1002/bes2.1801}{{[}read online{]}}
+  \href{https://github.com/BrunaLab/LAS6292_DataManagement/blob/master/Assigned_Readings/Alston_Rick_2021_BullEcolSocAm.pdf}{{[}download
+  pdf{]}}
+\item
+  Wilson G, Bryan J, Cranston K, Kitzes J, Nederbragt L, Teal TK (2017)
+  Good enough practices in scientific computing. PLoS Comput Biol 13(6):
+  e1005510. \href{https://doi.org/10.1371/journal.pcbi.1005510}{{[}read
+  online{]}}
+  \href{https://github.com/BrunaLab/LAS6292_DataManagement/blob/master/Assigned_Readings/wilson_etal_2017.pdf}{{[}download
+  pdf{]}}
+\end{enumerate}
+
+\textbf{Week 5: QA/QC: Data validation \& correction 1}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\item
+  Kamentez, A. 2018. The School Shootings that weren't.NPR
+  \href{http://tinyurl.com/y77p3o36}{{[}read online{]}}
+  \href{https://github.com/BrunaLab/LAS6292_DataManagement/blob/master/Assigned_Readings/Kamenetz_2018.pdf}{{[}download
+  pdf{]}}
+\item
+  Lincoln, Matthew D. 2018. ``Best Practices for Using Google Sheets in
+  Your Data Project.''
+  \href{https://matthewlincoln.net/2018/03/26/best-practices-for-using-google-sheets-in-your-data-project.html}{{[}read
+  online{]}}
+  \href{https://github.com/BrunaLab/LAS6292_DataManagement/blob/master/Assigned_Readings/Lincoln_2018.pdf}{{[}download
+  pdf{]}}
+\end{enumerate}
+
+\textbf{Week 6: QA/QC: Data validation \& correction 2}
+
+\begin{itemize}
+\item
+  Guest Instructor: Dr.~Hao Ye,
+  \href{https://guides.uflib.ufl.edu/haoye}{UF Reproducibility
+  Librarian}
+\item
+  \emph{No readings this week.}
+\end{itemize}
+
+\textbf{Week 7: Documentation: Metadata, Codebooks}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\item
+  Michener, W.K., et al . 1997. Non-geospatial metadata for the
+  ecological sciences. Ecological Applications 7: 330--342.
+  \href{https://esajournals.onlinelibrary.wiley.com/doi/abs/10.1890/1051-0761\%281997\%29007\%5B0330\%3ANMFTES\%5D2.0.CO\%3B2}{{[}read
+  online{]}}
+  \href{https://github.com/BrunaLab/LAS6292_DataManagement/blob/master/Assigned_Readings/Michener_etal_1997_EcolApplications.pdf}{{[}download
+  pdf{]}}
+\item
+  Pp 446-450 in Bernard, H.R. and Bernard, H.R., 2013. Social research
+  methods: Qualitative and quantitative approaches. Sage. {[}{[}download
+  pdf{]}{]}
+\end{enumerate}
+
+\textbf{Week 8: Data Management Plans}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\item
+  Michener, W. K. (2015). Ten simple rules for creating a good data
+  management plan. PLoS computational biology, 11(10), e1004525.
+  \href{https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1004525}{{[}read
+  online{]}}
+  \href{https://github.com/BrunaLab/LAS6292_DataManagement/blob/master/Assigned_Readings/Michener_2015_PloSBio.PDF}{{[}download
+  pdf{]}}
+\item
+  Goodman A, et al.~(2014) Ten Simple Rules for the Care and Feeding of
+  Scientific Data. PLoS Comput Biol 10(4): e1003542. \emph{\emph{this
+  paper connects what we've done with what's next}}
+  \href{https://doi.org/10.1371/journal.pcbi.1003542}{{[}read online{]}}
+  \href{https://github.com/BrunaLab/LAS6292_DataManagement/blob/master/Assigned_Readings/Goodman_etal_2014.pdf}{{[}download
+  pdf{]}}
+\end{enumerate}
+
+\textbf{Week 9: Efficient data collection}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  Redman, T. 2016. Bad Data Costs the U.S. \$3 Trillion Per Year.
+  Harvard Business Review.
+  \href{https://hbr.org/2016/09/bad-data-costs-the-u-s-3-trillion-per-year\#:~:text=How\%20much\%20is\%20it\%20costing\%20you\%3F\&text=Consider\%20this\%20figure\%3A\%20\%24136\%20billion\%20per\%20year.\&text=But\%20here's\%20another\%20number\%3A\%20\%243.1,the\%20US\%20alone\%2C\%20in\%202016.}{{[}read
+  online{]}}
+  \href{https://github.com/BrunaLab/LAS6292_DataManagement/blob/master/Assigned_Readings/Redman_2016.pdf}{{[}download
+  pdf{]}}
+\end{enumerate}
+
+\textbf{Week 11: Transcription \& Translation}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\item
+  Bakker, Rebecca. ``Transcription Tools and Software'' (2017). Works of
+  the FIU Libraries. 62.
+  \href{https://digitalcommons.fiu.edu/glworks/62}{{[}read online{]}}
+  \href{https://github.com/BrunaLab/LAS6292_DataManagement/blob/master/Assigned_Readings/Bakker_transcription_tools_slides.pdf}{{[}download
+  pdf{]}}
+\item
+  Watch ``The Text Wash team discusses text anonymization''
+  \href{https://youtu.be/5fFO4ROg4Vw}{{[}link{]}}; related blog post
+  \href{https://ocean.sagepub.com/blog/making-sensitive-text-data-accessible-for-computational-social-science}{{[}link{]}}
+\end{enumerate}
+
+\textbf{Week 12: `Paperless' data collection}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\item
+  Aanensen DM, Huntley DM, Feil EJ, al-Own F, Spratt BG (2009)
+  EpiCollect: Linking Smartphones to Web Applications for Epidemiology,
+  Ecology and Community Data Collection. PLoS ONE 4(9): e6968.
+  \href{https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0006968}{{[}read
+  online{]}}
+  \href{https://github.com/BrunaLab/LAS6292_DataManagement/blob/master/Assigned_Readings/Aanensen_etal_2009.PDF}{{[}download
+  pdf{]}}
+\item
+  Moylan, CA et al.~2013. Increasingly mobile: How new technologies can
+  enhance qualitative research. Qualitative social work: research and
+  practice, 14(1):36-47.
+  \href{https://journals.sagepub.com/doi/10.1177/1473325013516988}{{[}read
+  online{]}}
+  \href{https://github.com/BrunaLab/LAS6292_DataManagement/blob/master/Assigned_Readings/Moylan_etal_2015.pdf}{{[}download
+  pdf{]}}
+\item
+  Teacher, Amber G. F. et al.~Smartphones in ecology and evolution: a
+  guide for the app‐rehensive. Ecology and Evolution 3(16):5268-- 5278
+  \href{https://onlinelibrary.wiley.com/doi/full/10.1002/ece3.888}{{[}read
+  online{]}}
+  \href{https://github.com/BrunaLab/LAS6292_DataManagement/blob/master/Assigned_Readings/Teacher_etal_2013.pdf}{{[}download
+  pdf{]}}
+\end{enumerate}
+
+\textbf{Week 13: Automated data extraction}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\item
+  Drinkwater, R. E., Cubey, R. W., \& Haston, E. M. (2014). The use of
+  Optical Character Recognition (OCR) in the digitization of herbarium
+  specimen labels. PhytoKeys, (38), 15-30.
+  \href{doi:10.3897/phytokeys.38.7168}{{[}read online{]}}
+  \href{https://github.com/BrunaLab/LAS6292_DataManagement/blob/master/Assigned_Readings/Drinkwater_etal_2014.pdf}{{[}download
+  pdf{]}}
+\item
+  Joo, Jungseock and Zachary C. Steinert-Threlkeld. 2019. Image as data:
+  Automated visual content analysis for social science.
+  \href{https://ocean.sagepub.com/blog/image-as-data-automated-visual-content-analysis-for-social-science}{{[}read
+  online{]}}
+  \href{https://github.com/BrunaLab/LAS6292_DataManagement/blob/master/Assigned_Readings/Joo_and_Steinert-Threlkeld_2019.pdf}{{[}download
+  pdf{]}}
+\end{enumerate}
+
+\textbf{Week 14: Legal and Ethical Issues}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\item
+  de Koning M, Meyer B, Moors A, Pels P. 2019. Guidelines for
+  anthropological research: Data management, ethics, and integrity.
+  Ethnography. 20(2):170-174.
+  \href{https://journals.sagepub.com/doi/10.1177/1466138119843312}{{[}read
+  online{]}}
+  \href{https://github.com/BrunaLab/LAS6292_DataManagement/blob/master/Assigned_Readings/Koning_etal_2019.pdf}{{[}download
+  pdf{]}}
+\item
+  Katie Fortney, UC Office of Scholarly Communication. 2016. ``Who owns
+  your data?''
+  \href{https://uc3.cdlib.org/2016/09/08/who-owns-your-data/}{{[}read
+  online{]}}
+  \href{https://github.com/BrunaLab/LAS6292_DataManagement/blob/master/Assigned_Readings/Fortney_2016.pdf}{{[}download
+  pdf{]}}
+\item
+  Goodluck, K. 2020. Indigenous data sovereignty shakes up research.
+  High Country News.
+  \href{https://www.hcn.org/issues/52.11/indigenous-affairs-covid19-indigenous-data-sovereignty-shakes-up-research}{{[}read
+  online{]}} {[}{[}download pdf{]}{]}
+\item
+  Woodbury, R. B., Beans, J. A., Hiratsuka, V. Y., \& Burke, W. (2019).
+  Data Management in Health-Related Research Involving Indigenous
+  Communities in the United States and Canada: A Scoping Review.
+  Frontiers in genetics, 10, 942.
+  \href{https://doi.org/10.3389/fgene.2019.00942}{{[}read online{]}}
+  \href{https://github.com/BrunaLab/LAS6292_DataManagement/blob/master/Assigned_Readings/Goodluck_2020.pdf}{{[}download
+  pdf{]}}
+\end{enumerate}
+
+\textbf{Week 15: Data Sharing, Reuse, \& Archives}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\item
+  Alexander, S.M., Jones, K., Bennett, N.J. et al.~Qualitative data
+  sharing and synthesis for sustainability science. Nat Sustain 3,
+  81--88 (2020).
+  \href{https://doi.org/10.1038/s41893-019-0434-8}{{[}read online{]}}
+  \href{https://github.com/BrunaLab/LAS6292_DataManagement/blob/master/Assigned_Readings/Alexander_etal_2019_NatureSustainability.pdf}{{[}download
+  pdf{]}}
+\item
+  Renaut, S. et al.~2018. Management, Archiving, and Sharing for
+  Biologists and the Role of Research Institutions in the
+  Technology-Oriented Age. \emph{BioScience} 68(6)400--411
+  \href{https://academic.oup.com/bioscience/article/68/6/400/4983937}{{[}read
+  online{]}}
+  \href{https://github.com/BrunaLab/LAS6292_DataManagement/blob/master/Assigned_Readings/Renaut_etal_2018_Bioscience.pdf}{{[}download
+  pdf{]}}
+\item
+  Duke, Clifford S., and John H. Porter. 2013. ``The ethics of data
+  sharing and reuse in biology.'' BioScience 63(6): 483-489.
+  \href{https://academic.oup.com/bioscience/article/63/6/483/226339}{{[}read
+  online{]}}
+  \href{https://github.com/BrunaLab/LAS6292_DataManagement/blob/master/Assigned_Readings/Duke\%26Porter_2013.pdf}{{[}download
+  pdf{]}}
+\item
+  Tenopir, C., et al.~(2015). Changes in data sharing and data reuse
+  practices and perceptions among scientists worldwide. PloS one, 10(8),
+  e0134826.
+  \href{https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0134826}{{[}read
+  online{]}}
+  \href{https://github.com/BrunaLab/LAS6292_DataManagement/blob/master/Assigned_Readings/Tenopir_etal_2015.PDF}{{[}download
+  pdf{]}}
+\item
+  Mauthner, NS, \& O. Parry O. 2009. Qualitative data preservation and
+  sharing in the social sciences: On whose philosophical terms?.
+  Australian J of Social Issues 44(3):291-307.
+  \href{https://onlinelibrary.wiley.com/doi/abs/10.1002/j.1839-4655.2009.tb00147.x}{{[}read
+  online{]}}
+  \href{https://github.com/BrunaLab/LAS6292_DataManagement/blob/master/Assigned_Readings/Mauthner_et_al-2009-Australian_Journal_of_Social_Issues.pdf}{{[}download
+  pdf{]}}
+\end{enumerate}
+
+\end{document}

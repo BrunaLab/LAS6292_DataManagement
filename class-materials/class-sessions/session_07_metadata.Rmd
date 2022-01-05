@@ -1,5 +1,0 @@
----
-title: "Session 7:  Documentation: Metadata, Codebooks"
-weight: 7
-type: book
----

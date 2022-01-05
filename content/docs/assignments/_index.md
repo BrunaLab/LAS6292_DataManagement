@@ -15,9 +15,9 @@ Grades in the course will be based on the following assignments:
 
 ## 1. Weekly In-class activities
 
-- Most of the in-class assignments involve hands-on practice with data collection or manipulation. In some weeks, however, assignment will be the submission of questions for group discussion or brief reflection on the issues from the readings. Most in-class assignments are designed to be completed during the class session, but to ensure students master the concepts rather than rush through them *they can be submitted anytime until 9 am the following Monday*.
+- **Overview**: Most of the in-class assignments involve hands-on practice with data collection or manipulation. In some weeks, however, assignment will be the submission of questions for group discussion or brief reflection on the issues from the readings. Most in-class assignments are designed to be completed during the class session, but to ensure students master the concepts rather than rush through them *they can be submitted anytime until 9 am the following Monday*.
 
-## 2. Data Cleaning Project
+## 2. Reproducible Data Correction and Organization Project
 
 - **Overview:** This project is an opportunity to put some of the lessons learned into practice with a data set of your own. Your assignment is to **(1)** clean and organize a 'messy' data set and prepare metadata describing the resulting 'clean' data. The complete project requires the submission of these three items via the course Canvas website:  
 
@@ -27,9 +27,11 @@ Grades in the course will be based on the following assignments:
     
     (3) Metadata describing the corrected data set
 
-- **Due Date & Point Value:** The assignment is due **30 April 2021** by 5 pm and is worth **650 points** The complete assignment, deadline, and evaluation rubric can be found [here](https://docs.google.com/viewer?url=https://github.com/BrunaLab/EmilioMBruna_CV/raw/main/EmilioMBruna_CV.pdf). 
+The complete assignment, deadline, and evaluation rubric can be found {{% staticref "course_projects/las6292_data_cleanup_project.pdf" "newtab" %}}here{{% /staticref %}}.
 
 
-## 3. DMP for Thesis Project
+## 3. Thesis Research DMP
 
-- **Overview:** The Data Management Plan (DMP) is a critical document describing the data to be collected for a research project, how it will be stored and managed, and the investigator with primary responsibility for its management. Many funding agencies, including NSF and NIH, now require a DMP with all grant applications. Each student will prepare a Data Management Plan (DMP) for their thesis research. The complete assignment, deadline, and evaluation rubric can be found [here]().
+- **Overview:** The Data Management Plan (DMP) is a critical document describing the data to be collected for a research project, how it will be stored and managed, and the investigator with primary responsibility for its management. Many funding agencies, including NSF and NIH, now require a DMP with all grant applications. Each student will prepare a Data Management Plan (DMP) for their thesis research.  
+
+The complete assignment, deadline, and evaluation rubric can be found {{% staticref "course_projects/las6292_dmp_project.pdf" "newtab" %}}here{{% /staticref %}}.

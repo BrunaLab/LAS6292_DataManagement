@@ -1,5 +1,0 @@
----
-title: "Session 13: Legal and Ethical Issues"
-weight: 13
-type: book
----

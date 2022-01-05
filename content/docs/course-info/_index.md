@@ -22,4 +22,5 @@ Friday, Periods 6-8 (12:50-3:50) in Grinter 376
 Tuesday and Thursday 10:30 am -12:00 pm in the [Tropical Ecology & Conservation Lab](http://brunalab.org/contact-find-us/) or via Zoom (link on class canvas page). You can [_sign up for an appointment in advance_](http://brunalab.org/teaching/office-hours/); you don't have to sign up for an appointment, but signing up guarantees a specific time slot so you don't have to wait in line.
 
 ## Syllabus  
-The complete and updated course syllabus can be downloaded [here](link).
+ 
+ The complete and updated course syllabus can be downloaded {{% staticref "syllabus/LAS6292_Syllabus.pdf" "newtab" %}}here{{% /staticref %}}.
