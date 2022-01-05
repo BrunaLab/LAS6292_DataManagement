@@ -11,7 +11,7 @@ header-includes:
 - \pagestyle{fancy}
 - \fancyfoot{}
 - \fancyhead[R]{Reproducible Data Correction, p. \thepage}
-- \fancyhead[L]{LAS6262, Data Collection and Management}
+- \fancyhead[L]{LAS 6292 (`r format(Sys.time(), '%Y')`)}
 - \usepackage[default]{sourcesanspro}
 - \AtBeginDocument{\let\maketitle\relax}
 - \usepackage{sectsty} \allsectionsfont{\centering}
@@ -21,7 +21,9 @@ header-includes:
 - \titlespacing{\subsubsection}{0pt}{12pt plus 2pt minus 1pt}{0pt plus 1pt minus 1pt}
 - \titlespacing{\subsubsubsection}{0pt}{12pt plus 2pt minus 1pt}{0pt plus 1pt minus 1pt}
 output: pdf_document
-  # html_document: default
+  html_document:
+    df_print: paged
+  rmdformats::robobook: default
 ---
 
 ```{r setup, include=FALSE,echo=FALSE,message = FALSE,warning=FALSE}
@@ -33,8 +35,8 @@ library(kableExtra)
 
 ```{r assignment_points,echo=FALSE}
 code <- 100
-clean_data <- 275
-metadata <- 275
+clean_data <- 250
+metadata <- 250
 total_points <- code + clean_data + metadata
 ```
 <!-- this next line suppresses the header (line, name,  page number) on 1st page -->
@@ -53,7 +55,7 @@ This project is an opportunity to put some of the lessons we've learned into pra
 (2) The resulting 'clean' (i.e., corrected and organized) data in an appropriate format (e.g., .csv, .txt)
 (3) Metadata describing the corrected data set (This can either be in the form of the link to a github repository or the submissio of a file in .txt or .pdf format)
 
-**Due Date & Point Value:** The assignment is due **30 April 2021** by 5 pm and is worth **`r total_points` points.**  
+**Due Date & Point Value:** The assignment is due **29 April 2022** by 5 pm and is worth **`r total_points` points.**  
 
 **Grading Rubric: **Each portion of your submission will be evaluated using the point values, minimum standards, and rubric below. The individual components will be evaluated as "Meets required standards", "Moderate revisions required to meet the minimum standards", "Major revisions required to meet the minimum standards", or as "Incomplete / Unacceptable". In addition, I have noted a series of additional (optional) steps that can be taken to earn a designation of "Exceptional Work" on each section that can result in a bonus of up to 10%.  
 &nbsp;   
