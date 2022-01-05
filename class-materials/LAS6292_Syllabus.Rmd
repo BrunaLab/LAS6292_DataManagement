@@ -34,9 +34,9 @@ header-includes:
 
 output:
   pdf_document: default
-  word_document: default
   html_document:
     df_print: paged
+  rmdformats::robobook: default
 ---
 
 ```{r setup, include=FALSE}
@@ -51,13 +51,13 @@ library(tidyverse)
 ### **Spring 2022 | Section 02DD | Class No. 23337**
 &nbsp;  
 
-**I. INSTRUCTOR:**  Dr. Emilio M. Bruna (he/him) [[website]](http://brunalab.org/emilio-m-bruna/) 
+**I. INSTRUCTOR:**  Dr. Emilio M. Bruna (he/him; http://brunalab.org/emilio-m-bruna/) 
 
 **II. CONTACT INFORMATION:** Phone: (352) 846-0634 | email: embruna@ufl.edu
 
-**III. CLASS SESSIONS:** Friday, Periods 6-8 (12:50-3:50) in Grinter 376
+**III. CLASS SESSIONS:** Friday, Periods 6-8 (12:50-3:50) in 376 Grinter Hall 
 
-**IV. OFFICE HOURS:** Tuesday and Thursday 10:30 am -12:00 pm in the [Tropical Ecology & Conservation Lab](http://brunalab.org/contact-find-us/) or via Zoom (link on class canvas page). You can [_sign up for an appointment in advance_](http://brunalab.org/teaching/office-hours/); you don't have to sign up for an appointment, but signing up guarantees a specific time slot so you don't have to wait in line.
+**IV. OFFICE HOURS:** Tuesday and Thursday 10:30 am -12:00 pm in the Tropical Ecology & Conservation Lab (directions at http://brunalab.org/contact-find-us/) or via Zoom (the link is on class canvas page). You can sign up for an appointment in advance here: http://brunalab.org/teaching/office-hours/); you don't have to do so, but it guarantees a specific time slot so you don't have to wait in line.
 
 **V. OBJECTIVES:**  This course is a practical introduction to methods, tools, and best practices for collecting, organizing, managing, and visualizing qualitative and quantitative data. It is designed for graduate students from all disciplines at any stage of their program. _At the conclusion of the course students will be able to_:
 
@@ -65,21 +65,21 @@ library(tidyverse)
 2.	Explain the need for and benefits of data management and sharing;
 3.	Describe and implement best practices for the collection, storage, management, archiving, and sharing of research data;
 4.	Find, download, and analyze publicly available data from repositories;
-5.	Carry out simple and reproducible data corrections and dataset organization;
+5.	Carry out simple and reproducible data corrections and data set organization;
 6.	Describe public policies and agency requirements for data management and sharing; 
 7.	Articulate the major legal and ethical considerations regarding data collection, use, and storage (e.g., privacy/human subjects, intellectual property, international law);
-8.	Create and Implement a Data Management Plan;
+8.	Create and Implement Data Management Plan in funder-specific formats;
 9.	Identify and properly use tools for more efficient and secure data collection in the field.
 
 
-**VI. COURSE FORMAT:** This course is taught (mostly) as an active-learning workshop. Students are expected to complete reading and watch some short video lectures prior class. The class session will typically include an opportunity to ask questions about the pre-class materials and for me to briefly summarize material or demonstrate challenging concepts; occasionally there will be a class discussion about the reading. However, most of the session will be spent working in small groups on exercises that reinforce that week’s concepts and techniques. Throughout the session I will be circulating between groups to assist with the assignment, work though mistakes, and discuss how the techniques can be applied to each student’s research. 
+**VI. COURSE FORMAT:** This course is taught (mostly) as an active-learning workshop. Students are expected to complete reading or watch some short video lectures prior class. The in-class session will typically include an opportunity to ask questions about the pre-class materials and for me to demonstrate challenging concepts; occasionally there will be a class discussion about the reading. Most of the session, however, will be spent working - sometimes in groups, sometimes individually - on exercises that reinforce the session's concepts and techniques. During class I will be circulating between groups to assist with the assignment, work though mistakes, and discuss how the techniques can be applied to your research. 
 
 
 **VII. COURSE MATERIALS:**
 
-1.	**Required Textbook:** *None*. All readings will be provided on the course [web page](https://elearning.ufl.edu).
+1.	**Required Textbook:** *None*. All readings will be provided online.
 
-2.	**Course Web Page:** All course materials, communication, and assignment submission will be via Canvas [https://elearning.ufl.edu].   
+2.	**Course Web Page:** All course materials, communication, and assignment submission will be via Canvas (https://elearning.ufl.edu) and the course web page (https://las6292.netlify.app/).
 
 \newpage
 **VIII. COURSE OUTLINE & CRITICAL DATES**
@@ -123,7 +123,7 @@ in_class <- 50
 no_classes <- 14
 in_class_total <- no_classes * in_class
 dmp <- 200
-project <- 600
+project <- 600 
 course_total <- in_class_total + project
 ```
 
@@ -136,14 +136,14 @@ course_total <- in_class_total + project
 
 * **Weekly in-class exercises (`r in_class_total` points total**): `r no_classes` exercises x `r in_class` points each. Most of the in-class assignments involve hands-on practice with data collection or manipulation. In some weeks, however, assignment will be the submission of questions for group discussion or brief reflection on the issues from the readings. Most in-class assignments are designed to be completed during the class session, but to ensure students master the concepts rather than rush through them *they can be submitted anytime until 9 am the following Monday*.
 
-* **Data Management Plan (`r dmp` points)**: due no later than 5 pm on **DATE**
+* **Data Management Plan (`r dmp` points)**: due no later than 5 pm on **1 April 2022**
 
-* **Individual Data Cleanup Project (`r project` points)**: due no later than 5 pm on the scheduled date of the final exam.
+* **Individual Data Cleanup Project (`r project` points)**: due no later than 5 pm on **29 April 2022** (scheduled date of the final exam).
 
 **Final Grades will be assigned on the following scale (based on percentage of `r course_total` total points):** 
 A: >93% A-: 92-90%	B+: 89-87%	B: 86-83%	B-: 82-80% C+: 79-77% C: 76-73% 	C-: 72-70%  D+: 69-67%	D-: 62-60%		E: 59% and below.  
 
-**X. CLASS ATTENDANCE, PARTICIPATION, & EVALUATION POLICIES**  
+## X. CLASS ATTENDANCE, PARTICIPATION, & EVALUATION POLICIES**  
 
 ### **Attendance**  
 Requirements for class attendance and make-up exams, assignments, and other work in this course are consistent with university policies that can be found at https://catalog.ufl.edu/UGRD/academic-regulations/attendance-policies/.  Though attendance is not required, most of the required assignments are completed in class. They are designed so that one could complete them independently, but by doing them in class you will benefit from working collaboratively with the other students. 
@@ -255,7 +255,6 @@ All faculty, staff, and students of the university are required and expected to 
 3.  Broman, K. W., & Woo, K. H. (2018). Data organization in spreadsheets. The American Statistician, 72(1), 2-10.  [[read online]](https://www.tandfonline.com/doi/full/10.1080/00031305.2017.1375989) [[download pdf]](https://github.com/BrunaLab/LAS6292_DataManagement/blob/master/Assigned_Readings/Broman%26Woo_2018.pdf)
 
 4.  Johnson, B. D., Dunlap, E., & Benoit, E. (2010). Organizing "mountains of words" for data analysis, both qualitative and quantitative. Substance Use & Misuse, 45(5), 648-70.  [[read online]](https://www.tandfonline.com/doi/abs/10.3109/10826081003594757?journalCode=isum20) [[download pdf]](https://github.com/BrunaLab/LAS6292_DataManagement/blob/master/Assigned_Readings/Johnson_etal_2010.pdf)
-
 
 
 **Week 4: Reproducible data (re)organization**
