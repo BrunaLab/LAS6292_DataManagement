@@ -10,7 +10,6 @@ weight: 3
 ---
 
 # Assignments  
-&nbsp;  
 
 Grades in the course will be based on the following assignments:
 
@@ -20,17 +19,17 @@ Grades in the course will be based on the following assignments:
 
 ## 2. Data Cleaning Project
 
-- This project is an opportunity to put some of the lessons learned into practice with a data set of your own. Your assignment is to **(1)** clean and organize a 'messy' data set and prepare metadata describing the resulting 'clean' data. The complete project requires the submission of these three items via the course Canvas website:  
+- **Overview:** This project is an opportunity to put some of the lessons learned into practice with a data set of your own. Your assignment is to **(1)** clean and organize a 'messy' data set and prepare metadata describing the resulting 'clean' data. The complete project requires the submission of these three items via the course Canvas website:  
 
     (1) R code that imports, cleans, and organizes, and saves 'messy' data 
     
-    (2) The resulting corrected and organized data in an appropriate format (e.g., .csv, .txt).   
+    (2) The resulting corrected and organized data in an appropriate format  
     
     (3) Metadata describing the corrected data set
 
-- **Due Date & Point Value:** The assignment is due **30 April 2021** by 5 pm and is worth **650 points** Complete details regarding the project - including deadlines and grading rubrics - can be found [here](https://docs.google.com/viewer?url=https://github.com/BrunaLab/EmilioMBruna_CV/raw/main/EmilioMBruna_CV.pdf). 
+- **Due Date & Point Value:** The assignment is due **30 April 2021** by 5 pm and is worth **650 points** The complete assignment, deadline, and evaluation rubric can be found [here](https://docs.google.com/viewer?url=https://github.com/BrunaLab/EmilioMBruna_CV/raw/main/EmilioMBruna_CV.pdf). 
 
 
 ## 3. DMP for Thesis Project
 
-- The Data Management Plan (DMP) is a critical document describing the data to be collected for a research project, how it will be stored and managed, and the investigator with primary responsibility for its management. Many funding agencies, including NSF and NIH, now require a DMP with all grant applications. Each student will prepare a Data Management Plan (DMP) for their thesis research. The assignment, deadline, and evaluation rubric are available [here]().
+- **Overview:** The Data Management Plan (DMP) is a critical document describing the data to be collected for a research project, how it will be stored and managed, and the investigator with primary responsibility for its management. Many funding agencies, including NSF and NIH, now require a DMP with all grant applications. Each student will prepare a Data Management Plan (DMP) for their thesis research. The complete assignment, deadline, and evaluation rubric can be found [here]().
