@@ -11,7 +11,7 @@ design:
     text_color_light: false
 cta:
   url: docs/
-  label: Course Materials
+  label: Course Introduction
   icon_pack: fas
   icon: clipboard
 # cta_alt:

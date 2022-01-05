@@ -37,7 +37,7 @@ feature:
   - icon: folder-open
     icon_pack: far
     name: 
-    description: Create and Implement a Data Management Plan
+    description: Create and Implement Data Management Plans in funder-specific formats
   - icon: tools
     icon_pack: fas
     name: 

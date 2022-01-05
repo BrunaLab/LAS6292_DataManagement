@@ -1,5 +1,5 @@
 ---
-date: "2018-09-09T00:00:00Z"
+date: "`r format(Sys.time(), %B, %Y')`"
 icon: calendar-alt
 icon_pack: fas
 linktitle: Class Sessions  
