@@ -13,7 +13,7 @@ weight: 2
 
 ## Syllabus  
  
- The complete and updated course syllabus can be downloaded {{% staticref "syllabus/LAS6292_Syllabus.pdf" "newtab" %}}here{{% /staticref %}}.
+ The complete and updated course syllabus can be downloaded {{% staticref "course-materials/syllabus/LAS6292_Syllabus.pdf" "newtab" %}}here{{% /staticref %}}.
  
 ## Course Schedule  
 

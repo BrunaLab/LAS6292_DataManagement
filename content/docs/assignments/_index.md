@@ -27,11 +27,11 @@ Grades in the course will be based on the following assignments:
     
     (3) Metadata describing the corrected data set
 
-The complete assignment, deadline, and evaluation rubric can be found {{% staticref "course_projects/las6292_data_cleanup_project.pdf" "newtab" %}}here{{% /staticref %}}.
+The complete assignment, deadline, and evaluation rubric can be found {{% staticref "course-materials/projects/las6292_data_cleanup_project.pdf" "newtab" %}}here{{% /staticref %}}.
 
 
 ## 3. Thesis Research DMP
 
 - **Overview:** The Data Management Plan (DMP) is a critical document describing the data to be collected for a research project, how it will be stored and managed, and the investigator with primary responsibility for its management. Many funding agencies, including NSF and NIH, now require a DMP with all grant applications. Each student will prepare a Data Management Plan (DMP) for their thesis research.  
 
-The complete assignment, deadline, and evaluation rubric can be found {{% staticref "course_projects/las6292_dmp_project.pdf" "newtab" %}}here{{% /staticref %}}.
+The complete assignment, deadline, and evaluation rubric can be found {{% staticref "course-materials/projects/las6292_dmp_project.pdf" "newtab" %}}here{{% /staticref %}}.

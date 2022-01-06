@@ -11,8 +11,8 @@ The course is designed to work primarily as a 'flipped' or 'active-learning' wor
 3. The top menu is edited in the menus.yaml file (`config`->`_default`) 
 4. The home page is multiple widgets that are in `content`->`home`
 5. The page is organized as a book, with each chapter (page) set up as a folder in `content`->`home`. 
-6. Each week's reading assignment and in-class materials are set up as blog posts, with each week in a different folder (`content`->`post`). The 'correct' way might have been to set them up as child pages under `course content`, but that made the left-side menu too busy and I wanted a more streamlined page. 
-7. Readings, assignment descriptions, the syllabus, and other pdf files meant to be downloaded -- along with the RMarkdown documents used to render them -- are grouped in folders in the `static` folder. (as per the template documentation).
+6. Each week's reading assignment and in-class materials are set up as blog posts, with each week in a different folder (`content`->`post`). The 'correct' way might have been to set them up as child pages under `course content`, but that made the left-side menu too busy and I wanted a more streamlined page. The down side to that is that it doesn't keep all the materials for each session in the same place, because...
+7. ...the notes for each class, outlines, Readings, assignment descriptions, the syllabus, and other pdf files meant to be downloaded -- along with the RMarkdown documents used to render them -- are in the `static` folder (as per the template documentation). They are organized in subfolders (`syllabus`, `readings`, etc., e.g., `static`->`class-materials`->`readings`.
 8. Be sure to name files and folders with dashes, not underscores (e.g., `class-sessions`, not `class_sessions`).
 
 ### How to contribute to the course or suggest corrections 
@@ -24,7 +24,7 @@ The course is designed to work primarily as a 'flipped' or 'active-learning' wor
 ### Up next:
 1. As per the [README for EW's Carpentry course](https://github.com/datacarpentry/semester-biology), I will soon be reviewing all materials for accessibility and scanning new pull requests with pa11y and pa11y-ci to ensure that additions to the site follow accessibility best practices. If you discover any accessibility issues with the site please open an issue and I'll address them.
 
-2) Add instructions (or at least links) for how to use this and Jekyll to build your own course website.
+2) Add instructions (or at least links) for how to use this and Jekyll to build your own course website. 9e.g., [this was useful](https://matteocourthoud.github.io/post/website/) but note I found it much easier to deploy with netlify than github pages). 
 
 ### Acknowledgements
 This course was taught and developed with support from the UF Center for Latin American Studies and relies on the outstanding resources developed by [The Carpentries](https://carpentries.org/), the [Environmental Data Initiative](https://environmentaldatainitiative.org/), [DataONE](https://dataoneorg.github.io/Education/), and the courses taught by the [Weecology Group](https://www.weecology.org/). 
