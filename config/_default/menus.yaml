@@ -7,7 +7,7 @@ main:
   # - name: Home Page
   #   url: /
   #   weight: 10
-  - name: Instructor Info
+  - name: Instructor
     url: docs/course-info
     weight: 10
   - name: Syllabus & Schedule
