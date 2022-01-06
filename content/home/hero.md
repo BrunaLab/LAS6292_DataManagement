@@ -2,8 +2,9 @@
 widget: hero
 headless: true
 weight: 10
-title: LAS 6292 Data Collection & Management
+title: Data Collection & Management
 hero_media: latam-ridges.png
+logo: uf-logo.png
 design:
   background:
     gradient_end: '#ffffff'

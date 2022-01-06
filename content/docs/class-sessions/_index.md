@@ -35,5 +35,5 @@ weight: 2
 |13|4/1|Automated Data Extraction|<i class="fas fa-book-open"></i>|<i class="fas fa-tasks"></i>|<i class="fas fa-photo-video"></i>|
 |14|4/8|Legal & Ethical Issues|<i class="fas fa-book-open"></i>|<i class="fas fa-tasks"></i>|<i class="fas fa-photo-video"></i>|
 |15|4/15|Data Sharing, Reuse, & Archives|<i class="fas fa-book-open"></i>|<i class="fas fa-tasks"></i>|<i class="fas fa-photo-video"></i>|
-|Finals |4/29|Submission of Final Projects by 5 pm|<i class="fas fa-photo-video"></i>|
+|Finals |4/29|Submission of Final Project|<i class="fas fa-photo-video"></i>|
   
