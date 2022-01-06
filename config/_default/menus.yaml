@@ -8,10 +8,10 @@ main:
   #   url: /
   #   weight: 10
   - name: Instructor
-    url: docs/course-info
+    url: docs/instructor-info
     weight: 10
   - name: Syllabus & Schedule
-    url: docs/class-sessions
+    url: docs/course-schedule
     weight: 20
   - name: Assignments
     url: docs/assignments
