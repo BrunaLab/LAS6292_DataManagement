@@ -1,0 +1,91 @@
+---
+title: "Data Collection & Management"
+subtitle: "LAS 6292"
+author: "Emilio M. Bruna"
+date: "Spring Semester `r format(Sys.time(), '%Y')`"
+output: ioslides_presentation
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+## “Typical”  <font size="5">(old-school)</font>  Research Flow
+
+<center>
+<img src="./slide-images/old-rsrch-flow.png" width=100%/ >
+</center>
+
+## Today: “The Research Data Life-Cycle”
+
+<center>
+<img src="./slide-images/new-rsrch-flow.png" width=100%/ >
+</center>
+
+## Course Outline
+
+<center>
+<img src="./slide-images/course-schedule.png" width=100%/ >
+</center>
+
+## Course Outline
+
+<center>
+<img src="./slide-images/course-schedule2.png" width=100%/ >
+</center>
+
+
+##  {.columns-2}
+
+<center>
+<img src="./slide-images/chase-moyer-wRcwv-z6RDY-unsplash.png" width=100%/ >
+</center>
+
+<h2  style="color:#000066;">Before Class</h2>
+Read, Watch, Reflect  
+
+<h2  style="color:#000066;">During Class</h2> 
+Exercises to Reinforce  
+Discuss Readings  
+Work on Individual Projects  
+
+   
+   
+   
+
+
+##  {.columns-2}
+
+<center>
+<img src="./slide-images/chase-moyer-wRcwv-z6RDY-unsplash.png" width=100%/ >
+</center>
+
+<h2  style="color:#000066;">Before Class</h2>
+Read, Watch, Reflect  
+
+<h2  style="color:#000066;">During Class</h2> 
+Exercises to Reinforce  
+Discuss Readings  
+Work on Individual Projects  
+
+   
+   
+   
+<font size="3">This Class is...Flipped</font>   
+<font size="3">_(see what I did there?)_</font>
+
+
+## This class is an excuse to do what you have to do anyway.
+
+
+```{r echo=FALSE, out.width='100%'}
+knitr::include_graphics('./slide-images/flow.png')
+```
+
+
+## Let’s find out a little more…
+
+<h2  style="color:#000066;">In-Class Exercise Wk. 1</h2> 
+
+
+
