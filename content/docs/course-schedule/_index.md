@@ -20,13 +20,10 @@ The complete and updated course syllabus can be downloaded {{% staticref "course
 Friday, Periods 6-8 (12:50-3:50) in Grinter 376
 
 ## Course Schedule  
-<!---
-course-materials/class-sessions/01-intro/01_slides_2022.pdf
- -->
- 
+
 |Week |Date|Topic|Pre-Class Preparation|In-Class Exercise|Presentation Slides
 |:-----:|:--------:|--------|:--------:|:--------:|:--------:|
-|1|1/7|‘Data’ across disciplines; Data Life-cycle |{{% staticref "post/week-1/01_readings/" "newtab" %}}<i class="fas fa-book-open"></i>{{% /staticref %}}|{{% staticref "post/week-1/01_class/" "newtab" %}}<i class="fas fa-tasks"></i>{{% /staticref %}}|{{% staticref "LINK TO SLIDES" "newtab" %}}<i class="fas fa-photo-video"></i>{{% /staticref %}}|
+|1|1/7|‘Data’ across disciplines; Data Life-cycle |{{% staticref "post/week-1/01_readings/" "newtab" %}}<i class="fas fa-book-open"></i>{{% /staticref %}}|{{% staticref "post/week-1/01_class/" "newtab" %}}<i class="fas fa-tasks"></i>{{% /staticref %}}|{{% staticref "course-materials/class-sessions/01-intro/01_slides_2022.pdf" "newtab" %}}<i class="fas fa-photo-video"></i>{{% /staticref %}}|
 |2|1/14|File Formats, Naming Conventions, Data Storage & Security |<i class="fas fa-book-open"></i>|<i class="fas fa-tasks"></i>|<i class="fas fa-photo-video"></i>|
 |3|1/21|Structure & Format of Data & Datasets|<i class="fas fa-book-open"></i>|<i class="fas fa-tasks"></i>|<i class="fas fa-photo-video"></i>|
 |4|1/28|Reproducible Data (Re)organization|<i class="fas fa-book-open"></i>|<i class="fas fa-tasks"></i>|<i class="fas fa-photo-video"></i>|
