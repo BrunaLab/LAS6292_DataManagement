@@ -21,11 +21,15 @@ Friday, Periods 6-8 (12:50-3:50) in Grinter 376
 
 ## Course Schedule  
 
+
+<!-- code for readings link: [<i class="fas fa-book-open"></i>]({{< relref "/post/class-sessions/02_readings" >}}) ---> 
+<!-- code for slides link: [<i class="fas fa-book-open"></i>]({{< relref "/post/class-sessions/01_class" >}}) ---> 
+
+
 |Week |Date|Topic|Pre-Class Preparation|In-Class Exercise|Presentation Slides
 |:-----:|:--------:|--------|:--------:|:--------:|:--------:|
-|1|1/7|‘Data’ across disciplines; Data Life-cycle |{{% staticref "post/week-1/01_readings/" "newtab" %}}<i class="fas fa-book-open"></i>{{% /staticref %}}|{{% staticref "post/week-1/01_class/" "newtab" %}}<i class="fas fa-tasks"></i>{{% /staticref %}}|{{% staticref "course-materials/class-sessions/01-intro/01_slides_2022.pdf" "newtab" %}}<i class="fas fa-photo-video"></i>{{% /staticref %}}|
-|2|1/14|File Formats, Naming Conventions, Data Storage & Security |<i class="fas fa-book-open"></i>|<i class="fas fa-tasks"></i>|<i class="fas fa-photo-video"></i>|
-|3|1/21|Structure & Format of Data & Datasets|<i class="fas fa-book-open"></i>|<i class="fas fa-tasks"></i>|<i class="fas fa-photo-video"></i>|
+|1|1/7|‘Data’ across disciplines; Data Life-cycle |[<i class="fas fa-book-open"></i>]({{< relref "/post/class-sessions/01_readings" >}})|[<i class="fas fa-book-open"></i>]({{< relref "/post/class-sessions/01_class" >}})|{{% staticref "course-materials/class-sessions/01-intro/01_slides_2022.pdf" "newtab" %}}<i class="fas fa-photo-video"></i>{{% /staticref %}}|
+|2|1/14|File Formats, Naming Conventions, Data Storage & Security |[<i class="fas fa-book-open"></i>]({{< relref "/post/class-sessions/02_readings" >}})|<i class="fas fa-tasks"></i>|<i class="fas fa-photo-video"></i>|
 |4|1/28|Reproducible Data (Re)organization|<i class="fas fa-book-open"></i>|<i class="fas fa-tasks"></i>|<i class="fas fa-photo-video"></i>|
 |5|2/4|Data Validation & Correction 1|<i class="fas fa-book-open"></i>|<i class="fas fa-tasks"></i>|<i class="fas fa-photo-video"></i>|
 |6|2/11|Data Validation & Correction 2|<i class="fas fa-book-open"></i>|<i class="fas fa-tasks"></i>|<i class="fas fa-photo-video"></i>|
@@ -38,5 +42,5 @@ Friday, Periods 6-8 (12:50-3:50) in Grinter 376
 |13|4/1|Automated Data Extraction|<i class="fas fa-book-open"></i>|<i class="fas fa-tasks"></i>|<i class="fas fa-photo-video"></i>|
 |14|4/8|Legal & Ethical Issues|<i class="fas fa-book-open"></i>|<i class="fas fa-tasks"></i>|<i class="fas fa-photo-video"></i>|
 |15|4/15|Data Sharing, Reuse, & Archives|<i class="fas fa-book-open"></i>|<i class="fas fa-tasks"></i>|<i class="fas fa-photo-video"></i>|
-|Finals |4/29|Submission of Final Project|<i class="fas fa-photo-video"></i>|
+|Finals |4/29|Submission of Final Project||
   

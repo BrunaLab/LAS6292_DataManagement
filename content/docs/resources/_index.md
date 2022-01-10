@@ -16,9 +16,9 @@ weight: 5
 
 ## UF Data Storage Solutions
 
-[GatorCloud](https://it.ufl.edu/services/gatorcloud-onedrive-uf)   
-Read why I suggest NOT using MS One Drive [here](http://brunalab.org/blog/2015/07/24/onedrive-notes/)  
-[UF Dropbox for Education](https://education.ufl.edu/educational-research/9729): [FAQ](https://cloud.it.ufl.edu/uf-dropbox/frequently-asked-questions/), and [signup information](https://cloud.it.ufl.edu/wp-content/uploads/2017/07/How-to-Obtain-Access-to-UF-Dropbox-for-Education.pdf), including How advisors can submit request for students to get a Dropbox account.
+* [UF Dropbox for Education](https://education.ufl.edu/educational-research/9729): [FAQ](https://cloud.it.ufl.edu/uf-dropbox/frequently-asked-questions/), and [information on how advisors can request an allocation for students](https://cloud.it.ufl.edu/wp-content/uploads/2017/07/How-to-Obtain-Access-to-UF-Dropbox-for-Education.pdf).
+* [GStuite Allocation for UF personnel](https://cloud.it.ufl.edu/collaboration-tools/g-suite/)
+* [GatorCloud](https://it.ufl.edu/services/gatorcloud-onedrive-uf) (you can read why I decidsed _not_ to use MS One Drive [here](http://brunalab.org/blog/2015/07/24/onedrive-notes/)).  
 
 
 ## File Types / Extensions / Formats
