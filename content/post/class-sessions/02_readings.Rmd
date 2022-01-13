@@ -52,7 +52,7 @@ projects: []
 4.  Hart EM et al. (2016) Ten Simple Rules for Digital Data Storage. PLoS Comput Biol 12(10): e1005097. [[read online]](https://doi.org/10.1371/journal.pcbi.1005097)
 
 
-* **Online Lectures:** _FYI_: these are last year's versions and I am editing them + adding subtitles. They should be ready by 11 Jan 2021.
+* **Videos:** _FYI_: these are last year's versions and I am editing them + adding subtitles. They should be ready by 11 Jan 2021.
 
 **Data Storage and Backup**
 
@@ -60,19 +60,11 @@ projects: []
 
 
 
-**File Names**  
-NEW, SHORTER VERSION: No voice over, but some weird and kinda depressing depressing music.
+**How to Name Your Files**  
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/YdjPyZx4rFY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-
-OLD VERSION: LONGER
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/IYSjRV6dCTs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/BMwI7ubvTnE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
+**How to organize Your Files**  
 
-**Project Organization**  
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/CN-dWS1FDow" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
+<iframe width="560" height="315" src="https://www.youtube.com/embed/h1hIKNC64ac" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
