@@ -54,17 +54,19 @@ projects: []
 
 * **Videos:** _FYI_: these are last year's versions and I am editing them + adding subtitles. They should be ready by 11 Jan 2021.
 
-**Data Storage and Backup**
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/H06GSL66Mec" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-
-
-**How to Name Your Files**  
+**Lesson 1: How to Name Your Files**  
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/BMwI7ubvTnE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
-**How to organize Your Files**  
+**Lesson 2: How to organize Your Files**  
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/h1hIKNC64ac" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+
+**Lesson 3: Data Storage and Backup**
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/H06GSL66Mec" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
