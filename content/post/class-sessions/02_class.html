@@ -1,0 +1,111 @@
+---
+title: 'Week 2: In-Class Assignment'
+# author: "Emilio M. Bruna"
+# date: "last update: 14 January 2022"
+# header-includes:
+#    - \usepackage[default]{sourcesanspro}
+#    - \usepackage[T1]{fontenc}
+mainfont: SourceSansPro
+geometry: margin=1in
+fontsize: 12pt
+linkcolor: blue
+urlcolor: blue
+output:
+  pdf_document: default
+  # html_document:
+  #   df_print: paged
+  # rmdformats::robobook: default
+header-includes:
+- \AtBeginDocument{\let\maketitle\relax} # this removes default title section
+- \usepackage[default]{sourcesanspro}
+- \usepackage{fancyhdr} # modify header into left, center, right
+- \pagestyle{fancy} # cues the use of fancy headers
+- \fancyfoot{} # cues the use of fancy footer
+# month & year on header left
+- \fancyhead[L]{January 2022} 
+# name and page on header right
+- \fancyhead[R]{LAS 6292 Assignment, p. \thepage} 
+# - \usepackage{setspace}{singlespace} # manipulate line spacing 
+- \usepackage{parskip} # manipulate indents and spacing before/after paragraphs 
+- \usepackage{xcolor} # changes colors of text
+# to center to top level (#) headings (my name) and change color of font
+# more info # https://www.ctan.org/pkg/sectsty
+- \usepackage{sectsty} \sectionfont{\centering\color{darkmidnightblue}}
+# to center to sub-sub-headings (###) and change color of font
+- \usepackage{sectsty} \subsectionfont{\color{darkmidnightblue}}
+# http://latexcolor.com/ to choose colors
+# define the colors used above with rgb codes
+- \definecolor{darkcerulean}{rgb}{0.03, 0.27, 0.49}
+- \definecolor{darkmidnightblue}{rgb}{0.0, 0.2, 0.4}
+# - \usepackage{ragged2e}
+# - \setlength\RaggedRightParindent{15pt}
+# - \RaggedRight - # make the right margin ragged
+# https://tex.stackexchange.com/questions/258714/prevent-hyphenation-across-lines-enforce-right-margin
+# - \hyphenpenalty=10000 #to suppress ordinary hyphenation
+# - \exhyphenpenalty=10000 #to prohibit line breaks at explicit hyphens.
+# - \setstretch{1.0}
+
+# https://babichmorrowc.github.io/post/changing-fonts-in-rmarkdown-pdfs/
+
+---
+
+<script src="/rmarkdown-libs/header-attrs/header-attrs.js"></script>
+
+
+<!-- Note: to rendr as pdf delete the \newline -->
+<!-- # **LAS 6292 WEEK 2 ASSIGNMENT: Data Storage and Backup**  -->
+<div id="data-storage-backup" class="section level2">
+<h2>Data Storage &amp; Backup</h2>
+<div id="objectives-and-competencies-for-this-session" class="section level3">
+<h3>Objectives and Competencies for this session:</h3>
+<ul>
+<li>Describe and implement conventions for proper naming of files</li>
+<li>Explain the difference between proprietary and open formats</li>
+<li>Learn how to efficiently organize their research data files</li>
+<li>Learn the preferred format for storing and archiving different types of data files</li>
+<li>Become familiar with different options for cloud data storage and backup</li>
+<li>Develop and implement a plan for short- and long-term data storage, back-up, and archiving</li>
+<li>Learn rules and policies for data security</li>
+<li>Become familiar with tools for such tasks as batch renaming of files, cloud data storage, and automated data backup.</li>
+<li>Explain options for a long-term sustainable preservation strategy/policy for your data (e.g., discipline specific, institutional, departmental, individual).</li>
+<li>Address the need for conversion to standard formats needed for re-use</li>
+<li>Perform basic archival processes: checksum, auditing, format migration, etc.</li>
+<li>Understand costs &amp; time lines for data storage, management tools and services</li>
+</ul>
+</div>
+<div id="in-class-assignmenthomework" class="section level3">
+<h3>In-class assignment/Homework</h3>
+<p><strong>This week’s assignment is designed to:</strong> <strong>(A)</strong> get you thinking critically about your own data backup and security procedures, and based on that reflection <strong>(B)</strong> prepare a data backup plan (if you already have one you can answer the questions below based on that plan). <strong>The assignment comes in four parts:</strong></p>
+<ol style="list-style-type: decimal">
+<li><p>Sign up for a UF Dropbox allocation: <a href="https://cloud.it.ufl.edu/collaboration-tools/dropbox/" class="uri">https://cloud.it.ufl.edu/collaboration-tools/dropbox/</a>. If you are not automatically eligible to sign up, your advisor can request that you be granted an allocation: <a href="https://cloud.it.ufl.edu/media/clouditufledu/How-to-Obtain-Access-to-UF-Dropbox-for-Education.pdf" class="uri">https://cloud.it.ufl.edu/media/clouditufledu/How-to-Obtain-Access-to-UF-Dropbox-for-Education.pdf</a>.</p></li>
+<li><p>Sign up for a UF Google Suite Allocation: <a href="https://cloud.it.ufl.edu/collaboration-tools/g-suite/" class="uri">https://cloud.it.ufl.edu/collaboration-tools/g-suite/</a></p></li>
+<li><p>Briefly describe how you are adhering to the 3-2-1 backup rule for data related to your thesis. If you are not, describe how you will do so moving forward.</p></li>
+<li><p>Prepare a brief (~1 page max) Data Backup Plan for your thesis research. Include the following information; you can respond with bullet points unless more detailed answers are needed:</p>
+<ol style="list-style-type: lower-alpha">
+<li><p>what needs to be prepared and for how long;</p></li>
+<li><p>where backups are located;</p></li>
+<li><p>who can access backups and how contacted;</p></li>
+<li><p>how often data should be backed up;</p></li>
+<li><p>what kind of backups are performed;</p></li>
+<li><p>who is responsible for performing the backups;</p></li>
+<li><p>hardware and software used for performing backups;</p></li>
+<li><p>how / how often to check if backups is successful;</p></li>
+<li><p>the media are used to backup data;</p></li>
+<li><p>a list of any data that are not archived or backed up.</p></li>
+</ol></li>
+</ol>
+</div>
+<div id="submission-and-grading-rubric" class="section level3">
+<h3>Submission and Grading Rubric</h3>
+<ol style="list-style-type: decimal">
+<li><p>Submit the Data Backup Plan document (in either <code>.txt</code> or <code>.pdf</code> format) via <a href="https://elearning.ufl.edu/">Canvas</a>. Because of the MLK Holiday, this deadline fopr submission is extended to Wed. 19 Jan at 9 am.</p></li>
+<li><p>Grading Rubric</p>
+<ul>
+<li>Assignment completed with thorough answers: 50</li>
+<li>Most questions answered completely; some require instructor follow-up: 40</li>
+<li>Many questions missing answers or answers are cursory: 30</li>
+<li>Instructor follow-up required for homework submission: 20</li>
+</ul></li>
+</ol>
+</div>
+</div>

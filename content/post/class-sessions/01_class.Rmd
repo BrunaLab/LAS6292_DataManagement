@@ -21,7 +21,6 @@ output:
 * Learn the 'Research Data Life-Cycle'
 * Overview of the Course Structure, review the Syllabus
 
-## ‘Data’ across disciplines & the Data Life Cycle  
 
 ```{r timer, echo=FALSE}
 intro_breakout1 <- 5
@@ -46,49 +45,7 @@ total_time <-
 time_remain <- 180 - total_time
 ```
 
-
-### **Breakout 1: Introductions (`r intro_breakout1 + breakout1` total): ** 
-Get to know one another! Get in pairs, introduce yourselves, and record responses to the following questions. We will then come back to introduce your partner to the group.
-
-**A. Tell me about yourself (`r breakout1`)**  
-
-   1. Name
-   2. In what city were you born?
-   3. What you consider your “hometown”?
-   4. Program and Degree?
-   <!-- 5. Emoji your thesis   --> 
-   6. Hobbies or what you do to relax / have fun.
-   7. What is your motivation for taking this class?
-   8. Any concerns / worries / fears about this class (in particular) and this semester (in general)?
-   9. Now discuss with your partner the following question: **_What are 'Data_?** 
-   
-   Be prepared to share your answers with the class.
-
-  &nbsp;**B. Report Back (`r breakout1_discussion` min)**
-
-1. What are Data?
-
-### **Intro to Breakout 2: Motivation for Teaching This Course & Data Across Disciplines (`r intro_breakout2` min)**
-
-
-### **BREAK: `r snack_break` min **
-
-### **Breakout 2 Groups: 'Data' across disciplines ** (`r breakout2` min total)
-
-Now that data have been defined, we will break into small groups to discuss the following questions (**`r breakout2` min**). We'll come back and discuss what you came up with for as a group **(`r breakout2_discussion` min)**.
-
-1. Identify different kinds of data collected in different disciplines 
-2. How are these data gathered (tools, techniques) and recorded (media)? 
-
-### **Breakout 2 Discussion: `r breakout2_discussion` min **
-
-So what do you think? 
-1. What are the different kinds of data collected in different disciplines ?
-2. How are these data gathered (tools, techniques) and recorded (media)? 
-
-### **Wrap-up & In-class Assignment: Instructor presentation: Research Data Cycle & Syllabus Overview (`r wrap` min)**
-
-### **In-class Assignment: Survey (`r time_remain` min**)
+## In-Class Exercise/Assignment: Survey: Student Research and Data Management Interests 
 
   1. Please complete the survey: [link](https://forms.gle/vRQA9zu84Gf4xU2M9) or in Canvas under "Assignments".
 
