@@ -28,13 +28,13 @@ projects: []
   * Be able to describe the metadata required for transcription files
  
   
-### Please read / watch these before class:
+### Pre-class Preparation
         
 **Readings:** 
 
 
 1.  Bakker, Rebecca. "Transcription Tools and Software" (2017). Works of the FIU Libraries. 62.   [[read online]](https://digitalcommons.fiu.edu/glworks/62) or {{% staticref "course-materials/readings/Bakker_transcription_tools_slides.pdf" "newtab" %}}[download pdf]{{% /staticref %}}
 
-2. Watch "The Text Wash team discusses text anonymization" [[link]](https://youtu.be/5fFO4ROg4Vw); related blog post [[link]](https://ocean.sagepub.com/blog/making-sensitive-text-data-accessible-for-computational-social-science)
+**Videos**
 
-* **Videos:** None
+1. Watch "The Text Wash team discusses text anonymization" [[link]](https://youtu.be/5fFO4ROg4Vw); related blog post [[link]](https://ocean.sagepub.com/blog/making-sensitive-text-data-accessible-for-computational-social-science)

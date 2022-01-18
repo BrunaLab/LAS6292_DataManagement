@@ -28,7 +28,7 @@ projects: []
   
   
 
-### Please read / watch these before class:
+### Pre-class preparation:
         
 **Readings:** 
 
@@ -38,4 +38,9 @@ projects: []
 2. Goodman A, et al. (2014) Ten Simple Rules for the Care and Feeding of Scientific Data. PLoS Comput Biol 10(4): e1003542. *_this paper connects what we've done with what's next_*  [[read online]](https://doi.org/10.1371/journal.pcbi.1003542) or {{% staticref "course-materials/readings/Goodman_etal_2014.pdf" "newtab" %}}[download pdf]{{% /staticref %}}
   
 
-* **Videos:** None
+* **Videos** 
+
+"Content of a DMP" by RWTH Aachen University (~12 min). 
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/fcCj6sNvoOw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+

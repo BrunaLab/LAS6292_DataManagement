@@ -37,4 +37,6 @@ projects: []
 
 2.  Pp 446-450 in Bernard, H.R. and Bernard, H.R., 2013. Social research methods: Qualitative and quantitative approaches. Sage. [[download pdf]]
 
-* **Videos:** None
+* **Videos:**
+
+1. Metadata
