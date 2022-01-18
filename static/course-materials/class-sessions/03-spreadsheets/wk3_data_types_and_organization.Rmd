@@ -2,8 +2,38 @@
 title: "LAS 6292: Data Organization in Spreadsheets"
 date: "updated: `r Sys.Date()`"
 header-includes:
-   - \usepackage[default]{sourcesanspro}
-   - \usepackage[T1]{fontenc}
+- \AtBeginDocument{\let\maketitle\relax} # this removes default title section
+- \usepackage[default]{sourcesanspro}
+- \usepackage{fancyhdr} # modify header into left, center, right
+- \pagestyle{fancy} # cues the use of fancy headers
+- \fancyfoot{} # cues the use of fancy footer
+# month & year on header left
+- \fancyhead[L]{LAS 6292 Spring `r format(Sys.time(), '%Y')`, EM Bruna} 
+# name and page on header right
+- \fancyhead[R]{Data Organization - Spreadsheets, p. \thepage} 
+- \fancyfoot[R]{Last update `r format(Sys.time(), '%d %B %Y')`}
+# - \usepackage{setspace}{singlespace} # manipulate line spacing 
+- \usepackage{parskip} # manipulate indents and spacing before/after paragra phs 
+- \usepackage{xcolor} # changes colors of text
+# to center to top level (#) headings (my name) and change color of font
+# more info # https://www.ctan.org/pkg/sectsty
+- \usepackage{sectsty} \sectionfont{\centering\color{darkmidnightblue}}
+# to center to sub-sub-headings (###) and change color of font
+- \usepackage{sectsty} \subsectionfont{\color{darkmidnightblue}}
+# http://latexcolor.com/ to choose colors
+# define the colors used above with rgb codes
+- \definecolor{darkcerulean}{rgb}{0.03, 0.27, 0.49}
+- \definecolor{darkmidnightblue}{rgb}{0.0, 0.2, 0.4}
+# - \usepackage{ragged2e}
+# - \setlength\RaggedRightParindent{15pt}
+# - \RaggedRight - # make the right margin ragged
+# https://tex.stackexchange.com/questions/258714/prevent-hyphenation-across-lines-enforce-right-margin
+# - \hyphenpenalty=10000 #to suppress ordinary hyphenation
+# - \exhyphenpenalty=10000 #to prohibit line breaks at explicit hyphens.
+# - \setstretch{1.0}
+
+# https://babichmorrowc.github.io/post/changing-fonts-in-rmarkdown-pdfs/
+
 mainfont: SourceSansPro
 geometry: margin=1in
 fontsize: 12pt
@@ -33,6 +63,18 @@ opts_chunk$set(echo=FALSE,
 opts_knit$set(width=75)
 ```
 
+# Class Outline: Data Organization in Spreadsheets
+
+## Objectives and Competencies:   
+
+  * Be able to identify different categories of data 
+  * Learn best practices for data entry
+  * Recognize and avoid common problems with data entry and formatting in spreadsheets
+  * Learn and be able to implement 'Tidy' format for data tables in spreadsheets
+  * Identify problems with and approaches for proper handling of dates in spreadsheets
+  * Learn how to export data from spreadsheets in open format
+
+
 ## Pre-Class Preparation (Instructor):  
 
 **Send in an email to students:  **  
@@ -46,17 +88,10 @@ opts_knit$set(width=75)
   * Dry write markers
   * Tent cards for student names
 
-## Objectives and Competencies:   
-
-  * Be able to identify different categories of data 
-  * Learn best practices for data entry
-  * Recognize and avoid common problems with data entry and formatting in spreadsheets
-  * Learn and be able to implement 'Tidy' format for data tables in spreadsheets
-  * Identify problems with and approaches for proper handling of dates in spreadsheets
-  * Learn how to export data from spreadsheets in open format
-
 
 ## Pre-class Preparation (Students):
+
+### **Online Lectures:**  None
 
 ### **Readings**
 
@@ -95,17 +130,14 @@ opts_knit$set(width=75)
     (iii) **Verify the installations** worked by opening RStudio to see if it opens properly. If you are really motivated, you can also install the `Tidyverse` library by starting RStudio and at the console typing `install.packages("tidyverse")`.
 
 
-### **Online Lectures:**  None
-
-## Class Outline
 
 
 ```{r timer, echo=FALSE}
-t1_overview <- 10
-t2_overview <- 0
+t1_overview <- 15
+t2_overview <- 10
 breakout1 <- 30
 breakout1_return <-40
-cleaning_demo <-10
+cleaning_demo <-0
 snack_break <- 10
 proj_overview <- 0
 breakout2 <- 45
@@ -123,8 +155,9 @@ time_remain <- 180 - total_time
 ```
 
 
+## Session Introduction
 
-### **Topic 1 Overview: Types of Data** (`r t1_overview` min)
+### **Types of Data** (`r t1_overview` min)
 
 Down the road when doing data correction, organizing data, and doing analyses it will be essential to classify data according to their 'type'. It can also help with data entry, which is why we will introduce some of these types here:
 
@@ -138,7 +171,7 @@ Down the road when doing data correction, organizing data, and doing analyses it
 8. Interesting case: what category are [`red`, `orange`, `green`, `blue`]? We usually treat it as Nominal, but it is actually Ordinal - the colors represent wavelengths on the visible light spectrum (650, 600, 550, and 450 nm respectively). If you were recording the wavelength itself, it would be Numeric. 
 9. *For more on different categories of data you can [watch this video on LinkedIn Learning](https://www.linkedin.com/learning/introduction-to-data-science-2/statistical-data-types?u=41282748)*. More information on how to log on to LinkedIn Learning as a UF Affiliate is found [here](https://training.it.ufl.edu/linkedin/)
 
-### **Topic 2 Overview: Spreadsheets**  (`r t2_overview` min)
+### **Spreadsheets**  (`r t2_overview` min)
 
 Spreadsheets are ok for data entry, but they have some features that make it easy to do terrible, terrible things. People often use spreadsheets for much more, including calculations, statistical analyses, and creating tables or figures for publications and presentations. 
 
@@ -151,12 +184,10 @@ Spreadsheets are ok for data entry, but they have some features that make it eas
 There are several reasons why. **(A)** The 'drag-and-drop', menu-driven nature of spreadsheet programs makes it very difficult (or impossible) to replicate your steps, much less those of another person. This means you can't easily find where mistakes were made, and if you have to reconstruct an analysis or figure you have to start from from the very beginnng. This is extremely tedious. **(B)** Furthermore, when doing calculations in a spreadsheet it is easy to accidentally apply a slightly different formula to multiple adjacent cells. It is easy to introduce mistakes. **(C)** Finally, at some point during your data correction or analyses - probably without even realizing it - you will make a mistake either 'sorting' or trying to fill in cells with 'copy-drag-drop-paste'. This will potentially ruin several days of your life (or more) while you try to fix it (assuming you realize you made this mistake, which people often don't).
     
 
-### Breakouts
+## **Breakout 1: Group Discussion (`r breakout1` min) **
 
 Much of your future as a researcher will be spent cleaning and correcting data, but you can reduce the time spent on this task (and the associated stress) considerably by implementing some good practices from the start. To start developing these good habits we will to take a look at some spreadsheets, identify the things that people should **_not_** be doing with them, and then determining what they should be doing instead.
 
-
-## **Breakout 1 (`r breakout1` min) **
 
 1. Download the following three spreadsheets. To download the files, click the links and then the `download` button (shown below) on the right-hand side.  
 
@@ -175,34 +206,31 @@ b. How would you correct each of these issues? Could these data easily be import
 
 3. Do the same with `unity-portal-data.xlsx`: review the data and discuss questions a & b.
 
-4. Dates, or things that look like dates, are especially problematic in Excel. Open the file `dates.xlsx` and do the following:
-
-    a. enter the following dates into the column labeled `date_1`. Be sure to type them in exactly as they are written:
+4. Dates, or things that look like dates, are especially problematic in Excel. Open the file `dates.xlsx` and enter the following dates into the column labeled `date_1`. Be sure to type them in exactly as they are written:
     
-      * `7-2-21`
-      * `2 july 2021`
-      * `july 2, 2021`
-      * `july 2,2021` [no space between the comma and 2021]
-      * `07-02-21`
-      * `7/2/21`
-      * `Jan 5, 1900`
-      * `Dec 5, 1899`
+    * `7-2-21`
+    * `2 july 2021`
+    * `july 2, 2021`
+    * `july 2,2021` [no space between the comma and 2021]
+    * `07-02-21`
+    * `7/2/21`
+    * `Jan 5, 1900`
+    * `Dec 5, 1899`
   
-        i) How did these look in the cell?
-        ii) Was this the same as what you typed in? 
-        iii) Why would these issues be a problem for data organization and analysis? 
+    a. Is the value in the cell the same as what you typed in?
+    b. Why would these issues be a problem for data organization and analysis? 
     
-    b. Next enter the dates above into the column labeled `date_2`. Again, be sure to type them in exactly as they are written.
+5. Next enter the dates above into the column labeled `date_2`. Again, be sure to type them in exactly as they are written.
     
-        i) what was different about the way the data are recorded? 
-        ii) can you figure out why?
+    a. what was different about the way the data are recorded? 
+    b. can you figure out why?
   
   
-    c. What would you do to enter dates into Excel in a way that avoids the issues observed above? 
+6. What would you do to enter dates into Excel in a way that avoids the issues observed above? 
 
-5. Export the `SAFI_messy.xlsx` as a .csv file with the name `SAFI_messy.csv`; you'll have to click the "OK" when warning box pops up.  Now reopen it. What happened? You can find a guide to saving your file in .csv format and why that is a good idea [on this website](https://datacarpentry.org/spreadsheet-ecology-lesson/05-exporting-data/index.html).
+7. Export the `SAFI_messy.xlsx` as a .csv file with the name `SAFI_messy.csv`; you'll have to click the "OK" when warning box pops up.  Now reopen it. What happened? You can find a guide to saving your file in .csv format and why that is a good idea [on this website](https://datacarpentry.org/spreadsheet-ecology-lesson/05-exporting-data/index.html).
 
-## **Returning results (`r breakout1_return` min)** 
+## **Breakout 1: Returning results (`r breakout1_return` min)** 
 
 1. Alternating between groups, see if the two groups can come up with these ways to:  
 
@@ -218,41 +246,37 @@ b. How would you correct each of these issues? Could these data easily be import
     * Avoid spaces, numbers and special characters in column headers.
     * Avoid special characters in your data.
     * Dates
-      * The reason dates in Excel are so weird is that it is accounting software. It counts the days from a default of December 31, 1899, and thus stores July 2, 2014 as the serial number 41822. This is so one can can easily calclulate "days from a given date" for accounting purposes (like invoicing) by adding "date+XX days".       * Furthermore, Excel is unable to parse dates from before 1899-12-31. Be careful if your data include a mix of pre/post….you’ll have mixed data types.
+    * The reason dates in Excel are so weird is that it is _accounting software_. It counts the days from a default of December 31, 1899, and thus stores July 2, 2014 as the serial number 41822. This is so one can can easily calclulate "days from a given date" for accounting purposes (like invoicing) by adding "date+XX days".         * Furthermore, Excel is unable to parse dates from before 1899-12-31. Be careful if your data include a mix of pre/post….you’ll have mixed data types.
     * Finally, remember that data format and excel defaults can vary by region. Forexample, depending on the part of the world where a user is based, the default value for the decimal and thousands operator could be a `,` (comma) or a `.` (period); some regions use mm-dd for dates while others use dd-mm. Use either ISO standard dates like `20180702` or better still split month, day, and year into distinct columns.
 
 
 ## **Take-home message from the breakout:** Make your data `tidy`.
 
-    * They should be a rectangle, with only rows and columns.
-    * Each column is a different variable (a thing you’re measuring, like ‘weight’ or ‘temperature’).
-    * One row per observation. Each cell has only one value.
-    * Use short meaningful column names with no spaces.
-    * Use consistent names, abbreviations/codes, and capitalization.
-    * Use good null values (not -999, blanks ok, some prefer `NA` or similar but this can be language specific).
-    * Write dates as YYYY-MM-DD. Better still have separate columns for Year, Month, and Day.
-    * Use one table for each category of data to avoid duplicated chunks of data and to simplify corrections (e.g., taxonomy).
-    * Including all data can lead to errors and takes up more space.
-    * It is also faster to enter (no repretitive typing or cut-paste).
-    * Once you are done with data entry, leave the raw data raw - don’t change it! Save it as 'read only' and make corrections using scripting!
-    * **Tidy data are ideally suited to working with computers.** 
-    * **Entrering data in tidy format will make it much easier to analyze.**
-    * **Collecting data in tidy format makes it easier to enter data in tidy format.** 
+   1) They should be a rectangle, with only rows and columns.
+   1) Each column is a different variable (a thing you’re measuring, like ‘weight’ or ‘temperature’).
+   1) One row per observation. Each cell has only one value.
+   1) Use short meaningful column names with no spaces.
+   1) Use consistent names, abbreviations/codes, and capitalization.
+   1) Use good null values (not -999, blanks ok, some prefer `NA` or similar but this can be language specific).
+   1) Write dates as YYYY-MM-DD. Better still have separate columns for Year, Month, and Day.
+   1) Use one table for each category of data to avoid duplicated chunks of data and to simplify corrections (e.g., taxonomy).
+   1) Including all data can lead to errors and takes up more space.
+   1) It is also faster to enter (no repretitive typing or cut-paste).
+   1) Once you are done with data entry, leave the raw data raw - don’t change it! Save it as 'read only' and make corrections using scripting!
+   1) **Tidy data are ideally suited to working with computers.**  
+   1) **Entrering data in tidy format will make it much easier to analyze.**  
+   1) **Collecting data in tidy format makes it easier to enter data in tidy format.**   
      
       
     
-### Break (`r snack_break` min)
+## Break (`r snack_break` min)
 
-# Using R to go from 'dirty' to 'clean' data. (`r cleaning_demo` min)
 
-A live coding example to lay the foundation for what we will be doing moving forward, and how scripting makes it easy to go from dirty to clean data in a reproducible fashion.
-    
-    
-### **Breakout 2: In-class Assignment (`r breakout2` min)**
+## **In-class Group Assignment (`r breakout2` min)**
 
-**The goal of this breakout** is to learn some ways to minimize the number of mistakes when entering data. **First**, watch the following video (11 min) on ['Data Validation in Excel'](https://www.youtube.com/watch?v=nMxl1_NAcxc). **Second**, open this web page on ['Quality Assurance and Control in Excel'](https://datacarpentry.org/spreadsheet-ecology-lesson/04-quality-control/). It covers the same material, so it's a handy reference to have open during the exercise.
+### **The goal of this breakout** is to learn some ways to minimize the number of mistakes when entering data. **First**, watch the following video (11 min) on ['Data Validation in Excel'](https://www.youtube.com/watch?v=nMxl1_NAcxc). **Second**, open this web page on ['Quality Assurance and Control in Excel'](https://datacarpentry.org/spreadsheet-ecology-lesson/04-quality-control/). It covers the same material, so it's a handy reference to have open during the exercise. (*Note: while we are using Excel for this exercise, see "Tools" below for how to do the same in Google Sheets*).   
 
-Now set up a `tidy` sheet for data entry for the Portal data from Breakout 1: 
+### **Exercise: ** Set up a `tidy` sheet for data entry for the Portal data from Breakout 1 
 
 1. Create a spreadsheet in Excel for data entry. It should have five columns, in which you will be recording (1) the date of observations,  (2) the site in which the observations were conducted, (3) the species captured, (4) the mass of each animal, and (5) the length of each animal. 
 
@@ -272,16 +296,28 @@ Now set up a `tidy` sheet for data entry for the Portal data from Breakout 1:
 
 4. Save this file as `data_entry_form.csv` and submit it via the Canvas website as 'homework-wk3'.
 
-### Data Project (`r proj_overview` min): Project Hand-Out & Overview 
+### Grading Rubric: 
 
-### Free Time
+Assignment completed with data validation correctly programmed with useful error messages: 50
+Most data validation properly programmed; some require instructor follow-up: 40
+Many of the validation parameters need corrections, error messages not useful: 30
+Incorrect data are able to be entered in all categories; Instructor follow-up required: 20
 
-There are `r time_remain` min remaining that can be used to install R, meet with students about their data sets for the semester projects, etc. 
+## TIME REMAINING: `r time_remain` min 
+
+Any time remaining can be used for:
+1. Data Project Hand-out and overview (`r proj_overview` min)
+
+2. Using R to go from 'dirty' to 'clean' data. (`r cleaning_demo` min)
+
+A live coding example to lay the foundation for what we will be doing moving forward, and how scripting makes it easy to go from dirty to clean data in a reproducible fashion.
+
+3. going over R installations, meeting with students about their data sets for the semester projects, etc. 
 
 
 # Tools & Resources
 
-1. Data Validation in Google Sheets: [blog post](https://www.howtogeek.com/428919/how-to-restrict-data-input-in-google-sheets-with-data-validation/) and [video tutorial](https://www.youtube.com/watch?v=VEJMeYroDTM) 
+1. Data Validation in Google Sheets: [blog post](https://www.howtogeek.com/428919/how-to-restrict-data-input-in-google-sheets-with-data-validation/) and [video tutorial](https://www.youtube.com/watch?v=VEJMeYroDTM). A pdf version is available for download [here](https://github.com/BrunaLab/LAS6292_DataManagement/blob/57becfed53e93c81492f8ba426a5b198b83769e6/static/course-materials/class-sessions/03-spreadsheets/data-validation-google-sheets.pdf).
 
 2. Why not bypass Excel and use a csv editor like [Data Curator](https://github.com/qcif/data-curator)?
 
