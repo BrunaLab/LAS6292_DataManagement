@@ -50,7 +50,7 @@ Friday, Periods 6-8 (12:50-3:50) in Grinter 376
     <td>2</td>
     <td>1/14</td>
     <td>File Formats, Naming Conventions, Data Storage & Security</td>
-    <td>{{% staticref "/post/class-sessions/02_readings" "newtab" %}}<i class="fas fa-book-open"></i>{{% /staticref %}}</td> 
+    <td>{{% staticref "/post/class-sessions/readings_wk_2" "newtab" %}}<i class="fas fa-book-open"></i>{{% /staticref %}}</td> 
     <td>{{% staticref "/post/class-sessions/02_class" %}}<i class="fas fa-clipboard-list"></i>{{% /staticref %}}</td>
     <td>{{% staticref "course-materials/class-sessions/02-formats-security/wk2_naming_conventions.pdf" "newtab" %}}<i class="fas fa-photo-video"></i>: Naming Conventions{{% /staticref %}}<br>{{% staticref "course-materials/class-sessions/02-formats-security/wk2_file_organization.pdf" "newtab" %}}<i class="fas fa-photo-video"></i>: File Organization{{% /staticref %}}<br>{{% staticref "course-materials/class-sessions/02-formats-security/wk2_storage_backup.pdf" "newtab" %}}<i class="fas fa-photo-video"></i>: Storage & Backup{{% /staticref %}}</br> </td>
   </tr>
