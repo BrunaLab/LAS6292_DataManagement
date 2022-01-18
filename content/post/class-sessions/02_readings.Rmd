@@ -53,7 +53,7 @@ projects: []
 
 
 * **Videos:** _FYI_: these are last year's versions and I am editing them + adding subtitles. They should be ready by 11 Jan 2021.
-
+ 
 
 **Lesson 1: How to Name Your Files**  
 
