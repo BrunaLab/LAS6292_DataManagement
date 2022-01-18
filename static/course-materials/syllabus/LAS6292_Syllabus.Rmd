@@ -292,9 +292,6 @@ All faculty, staff, and students of the university are required and expected to 
 
 **Week 6: QA/QC: Data validation & correction 2**  
 
-
-* Guest Instructor: Dr. Hao Ye, [UF Reproducibility Librarian](https://guides.uflib.ufl.edu/haoye)  
-    
 * *No readings this week.*
 
 **Week 7: Documentation: Metadata, Codebooks**
