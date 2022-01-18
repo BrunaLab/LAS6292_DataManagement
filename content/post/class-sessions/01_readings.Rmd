@@ -6,7 +6,7 @@ categories: ["Readings"]
 tags: ["data life cycle"]
 ---
 
-## ???Data??? across disciplines and the Research Data Life Cycle 
+## 'Data' across disciplines and the Research Data Life Cycle 
 
 ### Objectives
 
