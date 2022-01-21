@@ -1,0 +1,139 @@
+---
+title: 'Week 2: In-Class Assignment'
+# author: "Emilio M. Bruna"
+# date: "last update: 21 January 2022"
+# header-includes:
+#    - \usepackage[default]{sourcesanspro}
+#    - \usepackage[T1]{fontenc}
+mainfont: SourceSansPro
+geometry: margin=1in
+fontsize: 12pt
+linkcolor: blue
+urlcolor: blue
+output:
+  pdf_document: default
+  # html_document:
+  #   df_print: paged
+  # rmdformats::robobook: default
+header-includes:
+- \AtBeginDocument{\let\maketitle\relax} # this removes default title section
+- \usepackage[default]{sourcesanspro}
+- \usepackage{fancyhdr} # modify header into left, center, right
+- \pagestyle{fancy} # cues the use of fancy headers
+- \fancyfoot{} # cues the use of fancy footer
+# month & year on header left
+- \fancyhead[L]{January 2022} 
+# name and page on header right
+- \fancyhead[R]{LAS 6292 Assignment, p. \thepage} 
+# - \usepackage{setspace}{singlespace} # manipulate line spacing 
+- \usepackage{parskip} # manipulate indents and spacing before/after paragraphs 
+- \usepackage{xcolor} # changes colors of text
+# to center to top level (#) headings (my name) and change color of font
+# more info # https://www.ctan.org/pkg/sectsty
+- \usepackage{sectsty} \sectionfont{\centering\color{darkmidnightblue}}
+# to center to sub-sub-headings (###) and change color of font
+- \usepackage{sectsty} \subsectionfont{\color{darkmidnightblue}}
+# http://latexcolor.com/ to choose colors
+# define the colors used above with rgb codes
+- \definecolor{darkcerulean}{rgb}{0.03, 0.27, 0.49}
+- \definecolor{darkmidnightblue}{rgb}{0.0, 0.2, 0.4}
+# - \usepackage{ragged2e}
+# - \setlength\RaggedRightParindent{15pt}
+# - \RaggedRight - # make the right margin ragged
+# https://tex.stackexchange.com/questions/258714/prevent-hyphenation-across-lines-enforce-right-margin
+# - \hyphenpenalty=10000 #to suppress ordinary hyphenation
+# - \exhyphenpenalty=10000 #to prohibit line breaks at explicit hyphens.
+# - \setstretch{1.0}
+
+# https://babichmorrowc.github.io/post/changing-fonts-in-rmarkdown-pdfs/
+
+---
+
+<script src="/rmarkdown-libs/header-attrs/header-attrs.js"></script>
+
+
+<!-- Note: to rendr as pdf delete the \newline -->
+<div id="section" class="section level2">
+<h2><!-- # **LAS 6292 WEEK 2 ASSIGNMENT: Data Storage and Backup**  --></h2>
+</div>
+<div id="breakout-1-group-discussion" class="section level2">
+<h2><strong>Breakout 1: Group Discussion</strong></h2>
+<p>Much of your future as a researcher will be spent cleaning and correcting data, but you can reduce the time spent on this task (and the associated stress) considerably by implementing some good practices from the start. To start developing these good habits we will to take a look at some spreadsheets, identify the things that people should <strong><em>not</em></strong> be doing with them, and then determining what they should be doing instead.</p>
+<ol style="list-style-type: decimal">
+<li>Download the following three spreadsheets. To download the files, click the links and then the <code>download</code> button (shown below) on the right-hand side.</li>
+</ol>
+<div class="figure">
+<img src="download_button.png" style="width:50.0%" alt="" />
+<p class="caption">Download Files by following the link and clicking this button.</p>
+</div>
+<ul>
+<li><code>SAFI_messy.xlsx</code>: <a href="https://github.com/BrunaLab/LAS6292_DataManagement/blob/03dd47f3b52a9bf32be643cf34bafcce6566e555/static/course-materials/class-sessions/03-spreadsheets/examples/SAFI_messy.xlsx">download link</a>.</li>
+<li><code>unity-portal-data.xlsx</code>: <a href="https://github.com/BrunaLab/LAS6292_DataManagement/blob/03dd47f3b52a9bf32be643cf34bafcce6566e555/static/course-materials/class-sessions/03-spreadsheets/examples/untidy-portal-data.xlsx">download link</a>.</li>
+<li><code>dates.xlsx</code>: <a href="https://github.com/BrunaLab/LAS6292_DataManagement/blob/03dd47f3b52a9bf32be643cf34bafcce6566e555/static/course-materials/class-sessions/03-spreadsheets/examples/dates.xlsx">download link</a></li>
+</ul>
+<ol start="2" style="list-style-type: decimal">
+<li><p>Open <code>SAFI_messy.xlsx</code> and look at how the data are have been entered and organized. Now discuss the following questions. Keep in mind the <code>tidy</code> principles about which you read in Broman and Woo (2018).</p>
+<ol style="list-style-type: lower-alpha">
+<li><p>What problems can you identify with the way these data are entered/organized?</p></li>
+<li><p>How would you correct each of these issues? Could these data easily be imported into a programming language or a database in its current form?</p></li>
+</ol></li>
+<li><p>Do the same with <code>unity-portal-data.xlsx</code>: review the data and discuss questions a &amp; b.</p></li>
+<li><p>Dates, or things that look like dates, are especially problematic in Excel. Open the file <code>dates.xlsx</code> and enter the following dates into the column labeled <code>date_1</code>. Be sure to type them in exactly as they are written:</p>
+<ul>
+<li><code>7-2-21</code></li>
+<li><code>2 july 2021</code></li>
+<li><code>july 2, 2021</code></li>
+<li><code>july 2,2021</code> [no space between the comma and 2021]</li>
+<li><code>07-02-21</code></li>
+<li><code>7/2/21</code></li>
+<li><code>Jan 5, 1900</code></li>
+<li><code>Dec 5, 1899</code></li>
+</ul>
+<ol style="list-style-type: lower-alpha">
+<li>Is the value in the cell the same as what you typed in?</li>
+<li>Why would these issues be a problem for data organization and analysis?</li>
+</ol></li>
+<li><p>Next enter the dates above into the column labeled <code>date_2</code>. Again, be sure to type them in exactly as they are written.</p>
+<ol style="list-style-type: lower-alpha">
+<li>what was different about the way the data are recorded?</li>
+<li>can you figure out why?</li>
+</ol></li>
+<li><p>What would you do to enter dates into Excel in a way that avoids the issues observed above?</p></li>
+<li><p>Export the <code>SAFI_messy.xlsx</code> as a .csv file with the name <code>SAFI_messy.csv</code>; you’ll have to click the “OK” when warning box pops up. Now reopen it. What happened? You can find a guide to saving your file in .csv format and why that is a good idea <a href="https://datacarpentry.org/spreadsheet-ecology-lesson/05-exporting-data/index.html">on this website</a>.</p></li>
+</ol>
+</div>
+<div id="breakout-1-returning-results" class="section level2">
+<h2><strong>Breakout 1: Returning results</strong></h2>
+</div>
+<div id="break" class="section level2">
+<h2><strong>Break</strong></h2>
+</div>
+<div id="in-class-exercise-can-work-on-this-in-groups-but-each-person-submits-their-own" class="section level2">
+<h2><strong>In-class Exercise</strong> (can work on this in groups but each person submits their own)</h2>
+<p><strong>The goal of this breakout</strong> is to learn some ways to minimize the number of mistakes when entering data. <strong>First</strong>, watch the following video (11 min) on <a href="https://www.youtube.com/watch?v=nMxl1_NAcxc">‘Data Validation in Excel’</a>. <strong>Second</strong>, open this web page on <a href="https://datacarpentry.org/spreadsheet-ecology-lesson/04-quality-control/">‘Quality Assurance and Control in Excel’</a>. It covers the same material, so it’s a handy reference to have open during the exercise. (<em>Note: while we are using Excel for this exercise, see “Tools” below for how to do the same in Google Sheets</em>).</p>
+<p><strong>Exercise: </strong> Set up a <code>tidy</code> sheet for entering the Portal Data we reviewed in Breakout 1</p>
+<ol style="list-style-type: decimal">
+<li><p>Create a spreadsheet in Excel for data entry. It should have five columns, in which you will be recording (1) the date of observations, (2) the site in which the observations were conducted, (3) the species captured, (4) the mass of each animal, and (5) the length of each animal.</p></li>
+<li><p>Set the following data validation criteria to prevent invalid data from getting entered:</p>
+<ol style="list-style-type: lower-alpha">
+<li>The Date column should be set so that it does <em>not</em> convert dates to other formats.</li>
+<li>Use data validation so that Site can only be one of the following A1, A2, B1, B2.</li>
+<li>Set the error message on this validation criteria to provide information on what the valid values are.</li>
+<li>Use data validation so that Species can only be one of the following: <em>Dipodomys spectabilis</em>, <em>Dipodomys ordii</em>, <em>Dipodomys merriami</em>.</li>
+<li>Set the error message on this validation criteria to provide information on what the valid values are.</li>
+<li>Use data validation so that Mass can only be a decimal greater than or equal to zero but less than or equal to 500.</li>
+<li>Set the error message on this validation criteria to provide information on what the valid values are.</li>
+<li>Length should be an integer (i.e., a whole number) between 1 and 10.</li>
+<li>Set the error message on this validation criteria to provide information on what the valid values are.</li>
+</ol></li>
+<li><p>Check that the validation rules and data formatting are working by entering some data in the cells</p></li>
+<li><p>Save this file as <code>data_entry_form.csv</code> and submit it via the Canvas website as ‘homework-wk3’.</p></li>
+</ol>
+<div id="grading-rubric" class="section level3">
+<h3>Grading Rubric:</h3>
+<p><strong>50: </strong>Assignment completed with data validation correctly programmed with useful error messages<br />
+<strong>40: </strong>Most data validation properly programmed; some require instructor follow-up<br />
+<strong>30:</strong> Many of the validation parameters need corrections, error messages not useful<br />
+<strong>20: </strong>Incorrect data are able to be entered in all categories; Instructor follow-up required</p>
+</div>
+</div>

@@ -1,20 +1,22 @@
 ---
 title: 'Readings: Week 3'
 author: R package build
-date: '2022-01-17'
+date: "updated `r format(Sys.time(), %B, %Y')`"
 slug: readings-week-3
 categories: []
 tags: []
 subtitle: ''
 summary: ''
 authors: []
-lastmod: '2022-01-17T18:15:49-05:00'
 featured: no
 image:
   caption: ''
   focal_point: ''
   preview_only: no
 projects: []
+type: book
+---
+
 ---
 
 ## **Objectives and Competencies for this session:**
