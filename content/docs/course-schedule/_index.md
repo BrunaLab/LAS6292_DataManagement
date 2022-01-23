@@ -59,7 +59,7 @@ Friday, Periods 6-8 (12:50-3:50) in Grinter 376
     <td>1/21</td>
     <td>Data structure & format of data and datasets</td>
     <td>{{% staticref "/post/class-sessions/readings-week-3" "newtab" %}}<i class="fas fa-book-open"></i>{{% /staticref %}}</td> 
-    <td>{{% staticref "/post/class-sessions/in-class-week-03" %}}<i class="fas fa-book-open"></i>{{% /staticref %}}</td>
+    <td>{{% staticref "/post/class-sessions/class-week-3" %}}<i class="fas fa-book-open"></i>{{% /staticref %}}</td>
     <td>{{% staticref "course-materials/class-sessions/03-spreadsheets/wk3_spreadsheets.pdf" "newtab" %}}<i class="fas fa-photo-video"></i>{{% /staticref %}} </td>
   </tr>
   <tr>

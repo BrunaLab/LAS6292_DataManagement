@@ -2,7 +2,7 @@
 title: 'In-class Activities: Week 3'
 author: R package build
 date: '2022-01-17'
-slug: in-class-week-3
+slug: class-week-3
 categories: []
 tags: []
 subtitle: ''
