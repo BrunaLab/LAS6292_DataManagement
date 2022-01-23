@@ -29,8 +29,9 @@ type: book
   * Learn how to export data from spreadsheets in open format
 
 
-## **Pre-Class Preparation:**
 
+## **Pre-Class Preparation:**
+ 
 ### **Readings**
 
 1.  Tesi, W. 2020. An Outdated Version of Excel Led the U.K. to Undercount COVID-19 Cases. Slate. [[read online]](https://slate.com/technology/2020/10/u-k-covid-19-spike-caused-by-microsoft-excel-error.html) or {{% staticref "course-materials/readings/tesi2020.pdf" "newtab" %}}[download pdf]{{% /staticref %}}

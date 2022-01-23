@@ -1,52 +1,21 @@
 ---
-title: 'Week 2: In-Class Assignment'
-# author: "Emilio M. Bruna"
-# date: "last update: `r format(Sys.time(), '%d %B %Y')`"
-# header-includes:
-#    - \usepackage[default]{sourcesanspro}
-#    - \usepackage[T1]{fontenc}
-mainfont: SourceSansPro
-geometry: margin=1in
-fontsize: 12pt
-linkcolor: blue
-urlcolor: blue
-output:
-  pdf_document: default
-  # html_document:
-  #   df_print: paged
-  # rmdformats::robobook: default
-header-includes:
-- \AtBeginDocument{\let\maketitle\relax} # this removes default title section
-- \usepackage[default]{sourcesanspro}
-- \usepackage{fancyhdr} # modify header into left, center, right
-- \pagestyle{fancy} # cues the use of fancy headers
-- \fancyfoot{} # cues the use of fancy footer
-# month & year on header left
-- \fancyhead[L]{`r format(Sys.time(), '%B %Y')`} 
-# name and page on header right
-- \fancyhead[R]{LAS 6292 Assignment, p. \thepage} 
-# - \usepackage{setspace}{singlespace} # manipulate line spacing 
-- \usepackage{parskip} # manipulate indents and spacing before/after paragraphs 
-- \usepackage{xcolor} # changes colors of text
-# to center to top level (#) headings (my name) and change color of font
-# more info # https://www.ctan.org/pkg/sectsty
-- \usepackage{sectsty} \sectionfont{\centering\color{darkmidnightblue}}
-# to center to sub-sub-headings (###) and change color of font
-- \usepackage{sectsty} \subsectionfont{\color{darkmidnightblue}}
-# http://latexcolor.com/ to choose colors
-# define the colors used above with rgb codes
-- \definecolor{darkcerulean}{rgb}{0.03, 0.27, 0.49}
-- \definecolor{darkmidnightblue}{rgb}{0.0, 0.2, 0.4}
-# - \usepackage{ragged2e}
-# - \setlength\RaggedRightParindent{15pt}
-# - \RaggedRight - # make the right margin ragged
-# https://tex.stackexchange.com/questions/258714/prevent-hyphenation-across-lines-enforce-right-margin
-# - \hyphenpenalty=10000 #to suppress ordinary hyphenation
-# - \exhyphenpenalty=10000 #to prohibit line breaks at explicit hyphens.
-# - \setstretch{1.0}
-
-# https://babichmorrowc.github.io/post/changing-fonts-in-rmarkdown-pdfs/
-
+title: 'In-class Activities: Week 3'
+author: R package build
+date: '2022-01-17'
+slug: in-class-week-3
+categories: []
+tags: []
+subtitle: ''
+summary: ''
+authors: []
+lastmod: '2022-01-17T18:15:49-05:00'
+featured: no
+image:
+  caption: ''
+  focal_point: ''
+  preview_only: no
+projects: []
+type: book
 ---
 
 <!-- Note: to rendr as pdf delete the \newline -->
@@ -59,7 +28,9 @@ Much of your future as a researcher will be spent cleaning and correcting data, 
 
 1. Download the following three spreadsheets. To download the files, click the links and then the `download` button (shown below) on the right-hand side.  
 
-![Download Files by following the link and clicking this button.](download_button.png){width=50%}
+{{< figure src="download_button.png" caption=" " numbered="false" >}}
+
+
 
   * `SAFI_messy.xlsx`: [download link](https://github.com/BrunaLab/LAS6292_DataManagement/blob/03dd47f3b52a9bf32be643cf34bafcce6566e555/static/course-materials/class-sessions/03-spreadsheets/examples/SAFI_messy.xlsx).
   * `unity-portal-data.xlsx`: [download link](https://github.com/BrunaLab/LAS6292_DataManagement/blob/03dd47f3b52a9bf32be643cf34bafcce6566e555/static/course-materials/class-sessions/03-spreadsheets/examples/untidy-portal-data.xlsx).
@@ -106,7 +77,7 @@ Much of your future as a researcher will be spent cleaning and correcting data, 
 
 **The goal of this breakout** is to learn some ways to minimize the number of mistakes when entering data. **First**, watch the following video (11 min) on ['Data Validation in Excel'](https://www.youtube.com/watch?v=nMxl1_NAcxc). **Second**, open this web page on ['Quality Assurance and Control in Excel'](https://datacarpentry.org/spreadsheet-ecology-lesson/04-quality-control/). It covers the same material, so it's a handy reference to have open during the exercise. (*Note: while we are using Excel for this exercise, see "Tools" below for how to do the same in Google Sheets*).   
 
-**Exercise: ** Set up a `tidy` sheet for entering the Portal Data we reviewed in Breakout 1 
+**Exercise:** Set up a `tidy` sheet for entering the Portal Data we reviewed in Breakout 1 
 
 1. Create a spreadsheet in Excel for data entry. It should have five columns, in which you will be recording (1) the date of observations,  (2) the site in which the observations were conducted, (3) the species captured, (4) the mass of each animal, and (5) the length of each animal. 
 
@@ -124,11 +95,11 @@ Much of your future as a researcher will be spent cleaning and correcting data, 
 
 3. Check that the validation rules and data formatting are working by entering some data in the cells
 
-4. Save this file as `data_entry_form.csv` and submit it via the Canvas website as 'homework-wk3'.
+4. Save this file as `data_entry_form.xlsx` and submit it via the Canvas website as 'homework-wk3'.
 
 ### Grading Rubric: 
 
-**50: **Assignment completed with data validation correctly programmed with useful error messages  
-**40: **Most data validation properly programmed; some require instructor follow-up  
+**50:** Assignment completed with data validation correctly programmed with useful error messages  
+**40:** Most data validation properly programmed; some require instructor follow-up  
 **30:** Many of the validation parameters need corrections, error messages not useful  
-**20: **Incorrect data are able to be entered in all categories; Instructor follow-up required  
+**20:** Incorrect data are able to be entered in all categories; Instructor follow-up required  

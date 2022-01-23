@@ -53,7 +53,7 @@ type: book
 **Reminder:** Don't forget to install the `Tidyverse` library; you can read how on [this page](https://tidyverse.tidyverse.org/). And if you want to get ahead to what we will be doing in class, you can read about how to [Set up a Project in R](https://swcarpentry.github.io/r-novice-gapminder/02-project-intro/index.html)
 
 
-**Note: **Computer programming can be challenging (or frustrating) to learn and teach. The next few sessions we will be using modified version of a style known as:  
+**Note:** Computer programming can be challenging (or frustrating) to learn and teach. The next few sessions we will be using modified version of a style known as:  
 
         (1) I do it   
     

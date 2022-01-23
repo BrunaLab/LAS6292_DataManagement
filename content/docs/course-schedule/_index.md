@@ -1,5 +1,5 @@
 ---
-date: "`r format(Sys.time(), %B, %Y')`"
+date: "updated: `r format(%d, %B, %Y')`"
 icon: calendar-alt
 icon_pack: fas
 linktitle: Course Schedule & Syllabus  
