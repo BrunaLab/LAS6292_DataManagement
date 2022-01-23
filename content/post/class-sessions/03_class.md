@@ -28,6 +28,7 @@ Much of your future as a researcher will be spent cleaning and correcting data, 
 
 1. Download the following three spreadsheets. To download the files, click the links and then the `download` button (shown below) on the right-hand side.  
 
+
 {{< figure src="download_button.png" caption=" " numbered="false" >}}
 
 
