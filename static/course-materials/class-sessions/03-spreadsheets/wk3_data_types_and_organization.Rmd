@@ -290,7 +290,7 @@ b. How would you correct each of these issues? Could these data easily be import
 
 3. Check that the validation rules and data formatting are working by entering some data in the cells
 
-4. Save this file as `data_entry_form.csv` and submit it via the Canvas website as 'homework-wk3'.
+4. Save this file as `data_entry_form.xlsx` and submit it via the Canvas website as 'homework-wk3'.
 
 ### Grading Rubric: 
 
