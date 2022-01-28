@@ -96,8 +96,6 @@ Using Checksums to verify data integrity
     * [how to post good questions on StackOverflow](https://www.r-bloggers.com/2011/01/three-tips-for-posting-good-questions-to-r-help-and-stack-overflow/)  
     * The UF [R-users listserv](http://www.r-gators.com/listserv/) is *very* user friendly and a great place to post requests for help. 
 
-
-
 ### Tutorials and Books
 
 1. [R Essential Training: Wrangling and Visualizing Data](https://www.linkedin.com/learning/r-essential-training-wrangling-and-visualizing-data/navigating-the-rstudio-environment?u=41282748)
@@ -108,11 +106,16 @@ Using Checksums to verify data integrity
 
 4. [R Bootcamp](https://r-bootcamp.netlify.app/)
 
-5. Kieran Healy's [*Data Visualization: a practical introduction*](https://socviz.co/) is my favorite introductory (yet super-comprehensive) book on data visualization with R. If you scroll down to the bottom of the page yu can download the datasets and code used to make the figures in the book, which makes life much easier.
+5. Kieran Healy's [*Data Visualization: a practical introduction*](https://socviz.co/) is my favorite introductory (yet super-comprehensive) book on data visualization with R. If you scroll down to the bottom of the page you can download the datasets and code used to make the figures in the book, which makes life much easier.
 
 6. [So. Many. Resources.](https://paulvanderlaken.com/2017/08/10/r-resources-cheatsheets-tutorials-books/)
 
 7. [ROpenSci](https://ropensci.org/): tools for accessing, manipulating, and visualizing open data
+
+1. [How to clean messy data in R](https://rfortherestofus.com/2019/12/how-to-clean-messy-data-in-r/) 
+
+1  [The Ultimate Guide to Data Cleaning](https://towardsdatascience.com/the-ultimate-guide-to-data-cleaning-3969843991d4)
+
 
 # Specific Problems in Data Cleaning and Managemnt
 
@@ -136,19 +139,23 @@ Using Checksums to verify data integrity
 2. [*The Programming Historian*](https://programminghistorian.org/) Website: wide range of topics, from text analysis to OpenRefine
 
 
-### Advanced R Topics
+### Advanced R Packages 
 
 1. [`DataCurator`](https://github.com/qcif/data-curator) package: 'a simple desktop data editor to help describe, validate and share usable open data'.
 
 2. [RegExr](https://regexr.com/): online tool to learn, build, & test Regular Expressions (RegEx / RegExp) 
 
-2. [`knitr`](https://kbroman.org/knitr_knutshell/pages/overview.html) overview: reproducible documents witg R
+1. [janitor](https://github.com/sfirke/janitor) (cleanup of file names, etc.) 
 
-3. Make [slide presentations with R](https://rmarkdown.rstudio.com/lesson-11.html)
+2. [`knitr`](https://kbroman.org/knitr_knutshell/pages/overview.html) overview: reproducible documents with R
 
-[The qualtRics R package by ROpenSci](https://docs.ropensci.org/qualtRics/)   
-[How to clean messy data in R](https://rfortherestofus.com/2019/12/how-to-clean-messy-data-in-r/)  
-[rrefine package](https://cran.r-project.org/web/packages/rrefine/vignettes/rrefine-vignette.html)  
+1. [rrefine](https://cran.r-project.org/web/packages/rrefine/vignettes/rrefine-vignette.html)  
+
+1. [qualtRics](https://docs.ropensci.org/qualtRics/)   
+
+### Slide Presentations in R
+
+1. Make [slide presentations with R](https://rmarkdown.rstudio.com/lesson-11.html)
 
 ## Open Refine
 [Open Refine](https://openrefine.org/)  
