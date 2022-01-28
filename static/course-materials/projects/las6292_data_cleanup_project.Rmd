@@ -217,3 +217,20 @@ kable(totals,
 * Metadata file generated with Rmarkdown; file saved to Github to allow for version control
 
 
+## Potential Datasets 
+
+The following sites have lots of data available for download that would be suitable for this project. If you find something you are interested in using, please be sure to run it by me first.
+
+1. UNDP: http://hdr.undp.org/en/content/download-data
+
+2. UNICEF: https://data.unicef.org/resources/resource-type/datasets/ 
+
+3. UNEP: https://www.unep.org/data-resources
+
+4. US Census Bureau American Community Survey: https://www.census.gov/programs-surveys/acs/data.html 
+
+5. Global Forest Watch: https://www.globalforestwatch.org/
+
+
+
+
