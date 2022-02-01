@@ -68,7 +68,7 @@ Friday, Periods 6-8 (12:50-3:50) in Grinter 376
     <td>Reproducible Data (Re)organization</td>
     <td>{{% staticref "/post/class-sessions/readings-week-4" "newtab" %}}<i class="fas fa-book-open"></i>{{% /staticref %}}</td> 
     <td>{{% staticref "/post/class-sessions/class-week-4" %}}<i class="fas fa-book-open"></i>{{% /staticref %}}</td>
-    <td>{{% staticref "course-materials/class-sessions/04-reproducibility/wk_4_slides.pdf" "newtab" %}}<i class="fas fa-photo-video"></i>{{% /staticref %}} </td>
+    <td>{{% staticref "course-materials/class-sessions/04-reproducibility/wk_4_slides.pdf" "newtab" %}}<i class="fas fa-photo-video"></i>: Intro Slides{{% /staticref %}}<br>{{% staticref "course-materials/class-sessions/04-reproducibility/wk4_live_coding.R" "newtab" %}}<i class="far fa-file-code"></i>: Demo R Code{{% /staticref %}}</br></td>
   </tr><tr>
     <td>5</td>
     <td>2/4</td>
