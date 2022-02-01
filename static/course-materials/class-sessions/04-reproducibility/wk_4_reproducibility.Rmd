@@ -1,5 +1,5 @@
 ---
-title: "LAS 6292: Data Organization in Spreadsheets"
+title: "LAS 6292: Reproducibility"
 date: "updated: `r Sys.Date()`"
 header-includes:
 - \AtBeginDocument{\let\maketitle\relax} # this removes default title section
@@ -10,7 +10,7 @@ header-includes:
 # month & year on header left
 - \fancyhead[L]{LAS 6292 Spring `r format(Sys.time(), '%Y')`, EM Bruna} 
 # name and page on header right
-- \fancyhead[R]{Data Organization - Spreadsheets, p. \thepage} 
+- \fancyhead[R]{Reproducibility, p. \thepage} 
 - \fancyfoot[R]{Last update `r format(Sys.time(), '%d %B %Y')`}
 # - \usepackage{setspace}{singlespace} # manipulate line spacing 
 - \usepackage{parskip} # manipulate indents and spacing before/after paragra phs 

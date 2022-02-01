@@ -2,6 +2,7 @@
 ## script name:
 ## Author: Emilio Bruna (embruna@ufl.edu)
 ## Date Created: 2021-02-02
+## Date Updated: 2022-01-25
 ## script description: Some examples of how to use the Tidyverse and BaseR 
 ## for data clean-up
 
@@ -10,7 +11,8 @@
 # 1. Look at data set and make a list of the things you want to change
 # 2. After that, make an outline of how you will do this with code.
 #    There are often multiple ways to do the same thing, so an outline 
-#    will help figure out whihc is best.
+#    will help figure out which is best.
+
 #    For instance: 
 #     1. Import table 1
 #     2. Correct column headings in Table 1
@@ -26,23 +28,46 @@
 #     
 #     BUT there might be situations where you have to do them separately.
 
-# 3. Reminder: # allows comments in the script that won't be read as commands 
+# 3. Reminder: this symbol: # (hash tag) allows comments in the script 
+#    that won't be read as commands 
 # 3. Reminder: Set up a project with folders, put raw data in folders
 # 4. Create a new .R file
 # 5. Add key info to the .R file 
-# 6. Add the "Steps" to the .R as Sections with shift-opt-R
+# 6. Add the "Steps" to the .R as Sections with shift-cmd-r (Mac) or shift-alt-r (PC)
 # 7. the command `sessionInfo()` will tell you the verison of R you are using,
 #    all the packages you have loaded, and other useful information.
+
+
+# set up an RStudio Project -----------------------------------------------
+
+# Save it in your preferred location with any name you like.
+# Create new folders: `raw_data`, `clean_data`, and `r_scripts`
+# You can create these in the folder using your operating systems "create folder" option
+# OR
+# you can create within R studio using the `files` tab
+
+
+# Installing packages using the RStudio packages tab ----------------------
+
+# Use the tab to install package `dadjokeapi`
+# You could also do the following: `install.packages("dadjokesapi")`
+
+# this is how you load a library aka 'package': 
+library(dadjokeapi)
+# now run this command
+groan()
 
 # -------------------------------------------------------------------------
 # load Packages:  (un-comment as required)
 library(tidyverse)
 
 # load the data -----------------------------------------------------------
+
 # load the file with 'read_csv'
 
-# BE SURE TO POINT TO THE RIGHT LOCATION IN YOUR R STUDIO PROJECT
-class_data <- read_csv("./class_outlines/wk4_reproducibility/demo_data.csv")
+# BE SURE TO POINT TO THE RIGHT LOCATION IN YOUR R STUDIO PROJECT 
+# ./ is the "root folder" where your .Rproj file is located
+demo <- read_csv("./class_outlines/wk4_reproducibility/demo_data.csv")
 
 # When we loaded the data into R, it got stored as an object of class tibble, 
 # which is a special kind of data frame. A data frame is the representation of
@@ -55,60 +80,89 @@ class_data <- read_csv("./class_outlines/wk4_reproducibility/demo_data.csv")
 
 # you can see the size of the df
 
-# `dim(class_data)` returns a vector with the number of rows in the 1st element,
+# `dim(demo)` returns a vector with the number of rows in the 1st element,
 # and the number of columns as the 2nd element (the dimensions of the object)
-dim(class_data)
+dim(demo)
 
-# nrow(class_data) - returns the number of rows
-nrow(class_data)
+# nrow(demo) - returns the number of rows
+nrow(demo)
 
-# ncol(class_data) - returns the number of columns
-ncol(class_data)
+# ncol(demo) - returns the number of columns
+ncol(demo)
 
 # look at the top few rows with 'head'
-head(class_data)
+head(demo)
 
-# open it an look at it with 'view' or 2x click
-view(class_data)
+# open it an look at it with 'view' or 2x click the name in 
+view(demo)
 
-# Inspect the data with 'glimpse'
-glimpse(class_data)
+# Overview of the data (columns and their data types, dimensions, etc): 
+glimpse(demo)
 # or
-str(class_data)
+str(demo)
 
+# You'll note the `tidyverse` version is usually easier to read
 
 # get a list of the column names ------------------------------------------
 
 # names(surveys) - returns the column names 
-names(class_data)
+names(demo)
 # colnames() does the same thing for dataframes
-colnames(class_data)
+colnames(demo)
 
 
 # Change 'data type' of a column to `factor`------------------------------------
 
 
 # as.factor() or factor()
-as.factor(class_data$roof)
-factor(class_data$roof)
+as.factor(demo$roof)
+factor(demo$roof)
 # Why didn't these work? Because you need to assign the change to the variable 
 # remember <- is the way we say "assign X to Y", in this case "Assign format
-# `factor` to `class_data$roof`
-class_data$roof <- as.factor(class_data$roof)
+# `factor` to `demo$roof`
+demo$roof <- as.factor(demo$roof)
 
-# Change column data types - ordered factors
-class_data$size
-as.factor(class_data$size)
-ordered(class_data$size, levels = c("small", "large"))
+# Change column data types to ordered factor
+demo$size
+as.factor(demo$size)
+ordered(demo$size, levels = c("small", "large"))
 # same thing...need to assign the change.
-class_data$size <- ordered(class_data$size, levels = c("small", "large"))
-levels(class_data$size)
+demo$size <- ordered(demo$size, levels = c("small", "large"))
+levels(demo$size)
 
 # converting numbers from factor to numeric can get complicated
 year_fct <- factor(c(1990, 1983, 1977, 1998, 1990))
-as.numeric(year_fct)               # Wrong! And there is no warning...
-as.numeric(as.character(year_fct)) # Works...
+as.numeric(year_fct)                  # Wrong! And there is no warning...
+as.numeric(as.character(year_fct))     # Works...
 as.numeric(levels(year_fct))[year_fct] # Preferred
+
+
+
+# what is the range of values in a column? --------------------------------
+
+# How long a period does the dataset cover?
+range(demo$year)
+
+
+# how to correct a factor level (e.g., if misspelled?) --------------------
+
+# What about correcting a factor level?
+demo$floor<-as.character(demo$floor)
+demo$floor[demo$floor=="errth"] <- "earth"
+demo$floor<-as.factor(demo$floor)
+levels(demo$floor)
+
+demo$floor<-as.factor(demo$floor)
+levels(demo$floor)
+
+# OR the tidyverse way
+demo$floor<-recode(demo$floor, earth = "EARTH")
+demo$floor<-recode(demo$floor, earth = "EARTH", cement = "CEMENT")
+
+# You can use recode() directly with factors; it will preserve the existing 
+# order of levels while changing the values. Alternatively, you can 
+# use recode_factor() , which will change the order of levels to match the 
+# order of replacements.
 
 
 
@@ -118,67 +172,37 @@ as.numeric(levels(year_fct))[year_fct] # Preferred
 # can do these things `the Base R way` and `the tidyverse way`
 
 # How many different roof types are there?
-levels(class_data$floor)
+levels(demo$floor)
 # why null? hadn't converted yet
-class_data$floor<-as.factor(class_data$floor)
-levels(class_data$floor)
+demo$floor<-as.factor(demo$floor)
+levels(demo$floor)
 # the tidyverse way
-distinct(class_data,floor)
+distinct(demo,floor)
 
 # how many categories are there?
-nlevels(class_data$floor)
+nlevels(demo$floor)
 # The tidyverse way.  Notice a difference in the output?
-distinct(class_data,floor) %>% count()
+distinct(demo,floor) %>% count()
 
 # How many in each category?
-summary(class_data$floor)
+summary(demo$floor)
 # the tidyverse way
-class_data %>% group_by(floor) %>% summarise(n())
-
-
-# what is the range of values in a column? --------------------------------
-
-# How long a period does the dataset cover?
-range(class_data$year)
-
-
+demo %>% group_by(floor) %>% summarise(n())
 
 
 # How to convert NA to `missing` ------------------------------------------
-class_data$floor[is.na(class_data$floor)] <- "missing"
+demo$floor[is.na(demo$floor)] <- "missing"
 # throws error. this is because NA is not a factor right now.
 # two approaches. Add 'missing' as a factor, then change NAs to missing
 # OR
 # change to character, replace, and the convert backs
-class_data$floor<-as.character(class_data$floor)
-class_data$floor[is.na(class_data$floor)] <- "missing"
-class_data$floor<-as.factor(class_data$floor)
-levels(class_data$floor)
+demo$floor<-as.character(demo$floor)
+demo$floor[is.na(demo$floor)] <- "missing"
+demo$floor<-as.factor(demo$floor)
+levels(demo$floor)
 
 # OR the tidyverse way 
-class_data$floor<-fct_explicit_na(class_data$floor, 'missing')
-
-
-
-# how to correct a factor level (e.g., if misspelled?) --------------------
-
-# What about correcting a factor level?
-class_data$floor<-as.character(class_data$floor)
-class_data$floor[class_data$floor=="errth"] <- "earth"
-class_data$floor<-as.factor(class_data$floor)
-levels(class_data$floor)
-
-class_data$floor<-as.factor(class_data$floor)
-levels(class_data$floor)
-
-# OR the tidyverse way
-class_data$floor<-recode(class_data$floor, earth = "EARTH")
-class_data$floor<-recode(class_data$floor, earth = "EARTH", cement = "CEMENT")
-
-# You can use recode() directly with factors; it will preserve the existing 
-# order of levels while changing the values. Alternatively, you can 
-# use recode_factor() , which will change the order of levels to match the 
-# order of replacements.
+demo$floor<-fct_explicit_na(demo$floor, 'missing')
 
 
 # other useful commands ---------------------------------------------------
@@ -186,14 +210,13 @@ class_data$floor<-recode(class_data$floor, earth = "EARTH", cement = "CEMENT")
 # finally, a few others I find very useful when data cleaning. 
 # I usually do these first on all columns to make life easier
 
-
 # convert to lower case ---------------------------------------------------
 
-class_data$floor
-class_data$floor<-tolower(class_data$floor)
+demo$floor
+demo$floor<-tolower(demo$floor)
 # note that this converts to character, so have to change back to factor
-class_data$floor<-as.factor(class_data$floor)
-class_data$floor
+demo$floor<-as.factor(demo$floor)
+demo$floor
 
 
 
@@ -204,19 +227,19 @@ class_data$floor
 
 
 # you could do it by identifying the column numerically (this is base-R)
-names(class_data)
-colnames(class_data)[4] <- "floor_type1"
-names(class_data)
+names(demo)
+colnames(demo)[4] <- "floor_type1"
+names(demo)
 
 # BUT I don't recommend this because if you change the order of columns without
 # realizing it, you will change the name of the wrong column! Use the 
 # tidyverse way of changing columns.
 
 
-names(class_data)
+names(demo)
 # dataframe <- rename(dataframe, "new column name" = "old column name")
-class_data <- rename(class_data, "floor_type"="floor_type1")
-names(class_data)
+demo <- rename(demo, "floor_type"="floor_type1")
+names(demo)
 
 
 
@@ -228,21 +251,17 @@ names(class_data)
 # BE SURE TO POINT TO THE RIGHT LOCATION IN YOUR R STUDIO PROJECT
 # note I am loading with read.csv instead of read_csv. that is because read_csv()
 # automatically strips away white space
-class_data <- read.csv("./class_outlines/wk4_reproducibility/demo_data.csv")
-class_data$data_collector
-class_data$data_collector<-trimws(class_data$data_collector)
+demo <- read.csv("./class_outlines/wk4_reproducibility/demo_data.csv")
+demo$data_collector
+demo$data_collector<-trimws(demo$data_collector)
 # REMEMBER: 
 # read_csv trim_ws is default=TRUE
 # read.csv trim_ws is default=FALSE
 
-
-
-
-
 # save your corrected file as a csv ---------------------------------------
 
 # Now save the clean file as a csv
-write_csv(class_data,"./data_clean/clean_data_20210205")
+write_csv(demo,"./data_clean/clean_data_20210205")
 
 
 # load your clean file for more analyses ----------------------------------
@@ -266,10 +285,5 @@ data_clean <- read_csv("./data_clean/clean_data_20210204")
 # save as a csv
 
 # 5 submit your r code as homework 4
-
-
-  
-
-
 
 
