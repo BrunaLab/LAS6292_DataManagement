@@ -99,6 +99,6 @@ In-Class Assignment:
 **_When you are done you can submit the brief answers to these questions via canvas as HW 5_**
 
 
-# FOR NEXT YEAR
+<!-- # FOR NEXT YEAR -->
 
-what works what doesnt? why doesnt mac read numbers in columns>?
+<!-- what works what doesnt? why doesnt mac read numbers in columns>? -->
