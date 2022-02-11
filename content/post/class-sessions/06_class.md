@@ -30,21 +30,21 @@ OpenRefine is a powerful, free, and open source tool that is used to work with a
 
 
 
-### **1. Intro to OR**
+#### **1. Intro to OR**
 
-### **2. Working with OR**
+#### **2. Working with OR**
 
-### **3. Filtering and Sorting**
+#### **3. Filtering and Sorting**
      
-### **4. Break**
+### **Break**
 
-### **5. Examining Numbers**
+#### **5. Examining Numbers**
 
-### **6. Using Scripts, Exporting, and Saving**
+#### **6. Using Scripts, Exporting, and Saving**
 
-### **7. Wrap-up, Questions**  
+#### **7. Wrap-up, Questions**  
 
-## **8. Assignment**
+## **Assignment**
 
 Now it's your turn. [Download this csv file](https://raw.githubusercontent.com/BrunaLab/LAS6292_DataManagement/5005ea1551fc12eb5bcc561beef0bf4d9c3a066e/static/course-materials/class-sessions/06-QAQC2/portal_rodents_or_short.csv) and use OpenRefine to clean it up. After you create a Project, edit the data as follows:
 
