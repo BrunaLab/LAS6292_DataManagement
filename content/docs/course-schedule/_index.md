@@ -80,8 +80,8 @@ Friday, Periods 6-8 (12:50-3:50) in Grinter 376
     <td>2/11</td>
     <td>Data Validation & Correction 2</td>
     <td>{{% staticref "/post/class-sessions/readings-week-6" "newtab" %}}<i class="fas fa-book-open"></i>{{% /staticref %}}</td> 
-    <td><i class="fas fa-clipboard-list"></i></td>
-    <td><i class="fas fa-photo-video"></i></td>
+    <td>{{% staticref "/post/class-sessions/class-week-6" %}}<i class="fas fa-clipboard-list"></i>{{% /staticref %}}</td>
+    <td> none </td>
   </tr><tr>
     <td>7</td>
     <td>2/18</td>

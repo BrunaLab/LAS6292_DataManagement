@@ -24,7 +24,7 @@ OpenRefine is a powerful, free, and open source tool that is used to work with a
 
 **_Notes:_**
 
-1. This is the url for accessing OpenRefine if a new tab/window doesn't open: http://127.0.0.1:3333/
+1. This is the url for accessing OpenRefine if a new tab/window doesn't open: [http://127.0.0.1:3333/](http://127.0.0.1:3333/)
 
 2. To download the data file for the tutorial to your computer [click this link](https://ndownloader.figshare.com/files/11502815). (url: https://ndownloader.figshare.com/files/11502815)
 
