@@ -201,78 +201,105 @@ Backing up requires discipline and care to ensure nothing is missed and the file
 
 # Tools & Resources
 
-1. **UF Library Guides:** 
+## UF Library Guides
 
-    * UF Library: [Data File Types and Formats](https://guides.uflib.ufl.edu/c.php?g=147756&p=966586)
-    * UF Library: [Data Storage](https://guides.uflib.ufl.edu/datamanagement/storage)
-    * UF IRB: [Data/Record Storage and Security](http://irb.ufl.edu/index/data/1981-2.html)
-    * UF IT: [Data Classifications for Confidentiality & Security](https://it.ufl.edu/policies/information-security/data-classification-policy/)
-    
-2. **Overview of 'Checksums' and Checksum Calculators**
+* UF Library: [Data File Types and Formats](https://guides.uflib.ufl.edu/c.php?g=147756&p=966586)
+* UF Library: [Data Storage](https://guides.uflib.ufl.edu/datamanagement/storage)
+* UF IRB: [Data/Record Storage and Security](http://irb.ufl.edu/index/data/1981-2.html)
+* UF IT: [Data Classifications for Confidentiality & Security](https://it.ufl.edu/policies/information-security/data-classification-policy/)
 
-    * [Fisher, Tim. What Is a Checksum?](https://www.lifewire.com/what-does-checksum-mean-2625825)  (updated 15 April 2020).
+<!-- ## Other Library Guides -->
 
-4. **File Formats and Extensions**  
-    * [What is XML?](https://www.w3schools.com/xml/xml_whatis.asp)
-    * [Common Windows File Extensions (NMU IT)](https://it.nmu.edu/docs/common-windows-file-extensions)
-    * [Common File Extensions (PC Net)](https://pc.net/extensions/)
-    * [List of Open File Formats (Wikipedia)](https://en.m.wikipedia.org/wiki/List_of_open_formats)
+<!-- * [Penn Library](https://guides.library.upenn.edu/datamgmt/storage) -->
+<!-- * [Stanford Library Guidelines](https://library.stanford.edu/research/data-management-services/storage-and-backup) -->
+ 
 
-5. **UF-based Storage Options**
-    * Overview of UF Cloud Data Services, aka [GatorCloud](https://it.ufl.edu/services/search/gatorcloud)
-    * [Free UF Dropbox for Education](https://education.ufl.edu/educational-research/9729), UF Dropbox [FAQs](https://cloud.it.ufl.edu/uf-dropbox/frequently-asked-questions/), and information on how [your advisor can submit a request for your UF Dropbox account](https://cloud.it.ufl.edu/media/clouditufledu/How-to-Obtain-Access-to-UF-Dropbox-for-Education.pdf)
-    * Free GSuite [(Google Drive)](https://cloud.it.ufl.edu/collaboration-tools/g-suite/)
-    * [Free MS One Drive](https://it.ufl.edu/services/gatorcloud-onedrive-uf) (but also read why I suggest NOT using this [here)](http://brunalab.org/blog/2015/07/24/onedrive-notes/)
-    * for very large data volumes or data data required extra security protection due to privacy restrictions, etc. seek the asistance of [UF Research Computing](https://www.rc.ufl.edu/about/our-services/storage-resources/)
+## Overview of 'Checksums' and Checksum Calculators
 
-1. **Tools for File Syncing**
-    * [MacDropAny (macOS)](https://www.macupdate.com/app/mac/37029/macdropany)
-    * [MultCloud](https://www.multcloud.com/)
+* [Fisher, Tim. What Is a Checksum?](https://www.lifewire.com/what-does-checksum-mean-2625825)  (updated 15 April 2020).
 
-3. **Portable HDs and Backup Services**
-    * **Again: Dropbox and Google drive are not true backups if set up as a file syncing tool.**
-    * NY Times *Wirecutter* Reviews & Recommendations:
-        * [portable hard drives](https://www.nytimes.com/wirecutter/reviews/best-portable-hard-drive/)
-        * [automated data backup services](https://www.nytimes.com/wirecutter/reviews/best-online-backup-service/); their recommendation was [SpiderOak](https://spideroak.com/).
+## File Formats and Extensions
+* [What is XML?](https://www.w3schools.com/xml/xml_whatis.asp)
+* [Common Windows File Extensions (NMU IT)](https://it.nmu.edu/docs/common-windows-file-extensions)
+* [Common File Extensions (PC Net)](https://pc.net/extensions/)
+* [List of Open File Formats (Wikipedia)](https://en.m.wikipedia.org/wiki/List_of_open_formats)
+* [Common Windows File Extensions (NMU IT)](https://it.nmu.edu/docs/common-windows-file-extensions )
+* [Common File Extensions (PC Net)](https://pc.net/extensions/)  
+* [List of Open File Formats (Wikipedia)](https://en.m.wikipedia.org/wiki/List_of_open_formats)  
+* [File formats-Best Practices (Stanford Library)](https://library.stanford.edu/research/data-management-services/data-best-practices/best-practices-file-formats)  
+* [Library of Congress](http://www.loc.gov/preservation/resources/rfs/data.html)  
+
+
+## UF-based Storage Options
+
+* Overview of UF Cloud Data Services, aka [GatorCloud](https://it.ufl.edu/services/search/gatorcloud)
+* [Free UF Dropbox for Education](https://education.ufl.edu/educational-research/9729), UF Dropbox [FAQs](https://cloud.it.ufl.edu/uf-dropbox/frequently-asked-questions/), and information on how [your advisor can submit a request for your UF Dropbox account](https://cloud.it.ufl.edu/media/clouditufledu/How-to-Obtain-Access-to-UF-Dropbox-for-Education.pdf)
+* [GStuite Allocation for UF personnel](https://cloud.it.ufl.edu/collaboration-tools/g-suite/)
+* [Free MS One Drive](https://it.ufl.edu/services/gatorcloud-onedrive-uf) (but also read why I suggest NOT using this [here)](http://brunalab.org/blog/2015/07/24/onedrive-notes/)
+* for very large data volumes or data data required extra security protection due to privacy restrictions, etc. seek the asistance of [UF Research Computing](https://www.rc.ufl.edu/about/our-services/storage-resources/)
+
+
+## Tools for File Syncing
+* [MacDropAny (macOS)](https://www.macupdate.com/app/mac/37029/macdropany)
+* [MultCloud](https://www.multcloud.com/)
+* Dropbox (use [via UF](https://it.ufl.edu/services/dropbox-for-education) for research, teaching)
+* Google Drive (use [via UF](https://cloud.it.ufl.edu/collaboration-tools/g-suite/) for research, teaching)
+
+## Portable HDs and Backup Services
+* **Remember:** Dropbox and Google drive are not true backups if set up as a file syncing tool.
+* NY Times *Wirecutter* Reviews & Recommendations:
+* [portable hard drives](https://www.nytimes.com/wirecutter/reviews/best-portable-hard-drive/)
+* [automated data backup services](https://www.nytimes.com/wirecutter/reviews/best-online-backup-service/); their recommendation was [SpiderOak](https://spideroak.com/).
+
+## Tools for Automating Data Uploading During Data Collection: 
+* [IFTTT and others](http://tinyurl.com/y9bz8suj)
   
-4. **Online multimedia repositories and tools**  
+## Online multimedia repositories and tools
 
-    * [YouTube](https://www.youtube.com/)
-    * [Vimeo](https://vimeo.com/)
-    * [Flickr](https://www.flickr.com/)
-    * [Google Photos](https://www.google.com/photos). 
-    * [Tropy](https://tropy.org/)
+* [YouTube](https://www.youtube.com/)
+* [Vimeo](https://vimeo.com/)
+* [Flickr](https://www.flickr.com/)
+* [Google Photos](https://www.google.com/photos)
 
-    **These serivces have some advantages:**
-      * are often low-cost or free
-      * are open to all
-      * have functions for provide community commenting and tagging
-      * some provide support for explicit licenses and re-use
-      * provide some options for valuable metadata such as geolocation
-      * may allow for large-scale dissemination
-      * optimize usability and low barrier for participation  
+**_These services have some advantages:_**  
 
-    **However, they are commercial services, and hence have a number of potential drawbacks: ** 
-    
-      * models for sustainability is profit-based
-      * may have limits on file size or resolution
-      * may have unclear access, backup, and reliability policies, be sure to review them carefully  
+* are often low-cost or free
+* are open to all
+* have functions for provide community commenting and tagging
+* some provide support for explicit licenses and re-use
+* provide some options for valuable metadata such as geolocation
+* may allow for large-scale dissemination
+* optimize usability and low barrier for participation 
+
+**_However, they are commercial services, and hence have a number of potential drawbacks: _** 
+
+* models for sustainability is profit-based
+* may have limits on file size or resolution
+* may have unclear access, backup, and reliability policies, be sure to review them carefully 
+
+**There are specialized photo repositories designed with researchers in mind.** 
+
+* [Tropy](https://tropy.org/)
+* [MorphBank](https://www.morphbank.net/)
+
+**_Some advantages of these are:_**
+
+* often open-source, free, developed and maintained by academic institutions
+* domain-specific metadata fields and controlled vocabularies customized for expert users
+* highly discoverable for those in the same domain
+* they can provide assistance in curating metadata
+* they can optimize scientific use cases such as vouchering, image analysis
+* may provide APIs for sharing or re-use for other projects
+* they are recognized as high-quality, scientific repositories  
       
-    **There are specialized multimedia repositories (e.g. [MorphBank](https://www.morphbank.net/)) designed with researchers in mind. Some advantages of these are:**
-      * domain-specific metadata fields and controlled vocabularies customized for expert users
-      * highly discoverable for those in the same domain
-      * they can provide assistance in curating metadata
-      * they can optimize scientific use cases such as vouchering, image analysis
-      * may provide APIs for sharing or re-use for other projects
-      * they are recognized as high-quality, scientific repositories
-      
-    **But they too have some drawbacks**
-      * rely on research or institutional/federal funding
-      * may require high-quality multimedia, completeness of metadata, or restrict manipulation
-      * may not be open to all
-      * may have restrictions on bandwidth usage
+**_But they too have some drawbacks_**  
 
-# A step back: what needs to be preserved?
+* rely on research or institutional/federal funding
+* may require high-quality multimedia, completeness of metadata, or restrict manipulation
+* may not be open to all
+* may have restrictions on bandwidth usage
+
+## A step back: what needs to be preserved?
 
 To meet multiple goals for preservation, researchers should think broadly about the digital products that their project generates, preserve as many as possible, preserve all that they are required to preserve for as long as required or longer, and plan the appropriate preservation methods for each. Consider how long and how to preserve the following, taking into account **(1)** what would be necessary to reconstruct a complete data set if files downstream were lost **(2)**, how long each needs to be kept, and **(3)** the cost of and space required for preserving data for different lengths of time:
 

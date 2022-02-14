@@ -235,6 +235,7 @@ Now we're going to start doing it on our own, with your data sets.
     * [R for Social Scientists](https://datacarpentry.org/r-socialsci/)
     * [Data Analysis and Visualization in R for Ecologists](https://datacarpentry.org/R-ecology-lesson/)
 
+1. Software Carpentry lesson on [Project Management with R Studio](https://swcarpentry.github.io/r-novice-gapminder/02-project-intro/) 
 
 1. Hadley Wickham wrote a book on using the tidyverse and the [online version is FREE](https://r4ds.had.co.nz/). This is a phenomenal resource on using R to import, tidy, and visualize data. 
 
