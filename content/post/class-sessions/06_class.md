@@ -69,33 +69,31 @@ Instructor follow-up required to implement most changes: 20
 
 # Sources for this lesson 
 
-1. Data Carpentry: [Data Cleaning with OpenRefine for Social Scientists	](https://datacarpentry.org/openrefine-socialsci/). 
-
-<!-- Peter Smyth, Geoff LaFlair, Lachlan Deer, Tracy Teal, Karen Word, François Michonneau, & Erin Becker. (2018, May 20). datacarpentry/openrefine-socialsci: OpenRefine Social Sciences Release, May 2018 (v3). Zenodo. https://doi.org/10.5281/zenodo.1250074 -->
-<!-- 2. The repository with the data and metadata used in the lesson:  [SAFI_Survey](https://figshare.com/articles/dataset/SAFI_Survey_Results/6262019) -->
-
-2. Data Carpentry: [Data Cleaning with OpenRefine for Ecologists](https://datacarpentry.org/OpenRefine-ecology-lesson/04-scripts/index.html)
-
-
-# Additional Tools and Resources
+## OpenRefine Home
 
 *  [Open Refine](https://openrefine.org/) Homepage. Includes the [user's manual](https://docs.openrefine.org/) and links to [more tutorials](https://openrefine.org/documentation.html).
 
-*  [Environmental Data Initiative OpenRefine Tutorial](https://environmentaldatainitiative.org/webinars-events/previous-edi-events/how-to-clean-and-format-data-using-r-packages-datamaid-dplyr-openrefine-excel/)
+## UF Library Workshops
 
-* Video Tutorials: Cleaning Data with OpenRefine [Video Tutorial No. 1](https://www.youtube.com/watch?v=nORS7STbLyk) and [Video Tutorial No. 2](https://www.youtube.com/watch?v=xZlz4ISgNBc)
+* The UF Library teaches a number of excellent workshops, including one on using OpenRefine taught by Dr. Hao Ye. You can see the schedule (or request one) [here](https://ufl.libcal.com/calendar/workshops/?cid=11693&t=d&d=0000-00-00&cal=11693,5125,8858&inc=0).
 
-*  [JHU Library Cleaning Data with OpenRefine](https://libjohn.github.io/openrefine/index.html)
+## Tutorials
 
-* The Programming Historian Website: [Cleaning Data with OpenRefine](https://doi.org/10.46430/phen0023) (by Seth van Hooland, Ruben Verborgh, and Max De Wilde).
+*  Environmental Data Initiative [OpenRefine Tutorial](https://environmentaldatainitiative.org/webinars-events/previous-edi-events/how-to-clean-and-format-data-using-r-packages-datamaid-dplyr-openrefine-excel/)
+* Cleaning Data with OpenRefine Video Tutorials: 
+    * [Video Tutorial No. 1](https://www.youtube.com/watch?v=nORS7STbLyk)
+    * [Video Tutorial No. 2](https://www.youtube.com/watch?v=xZlz4ISgNBc)
+*  JHU Library: [Cleaning Data with OpenRefine](https://libjohn.github.io/openrefine/index.html)
+* The Programming Historian Website: [Cleaning Data with OpenRefine](https://doi.org/10.46430/phen0023).
 
-* Guides for writing OpenRefine commands with General Refine Expression Language
-    
-    * [OpenRefine GREL](https://docs.openrefine.org/manual/expressions/#grel-general-refine-expression-language)
-    * a really good [GREL Guide](https://guides.library.illinois.edu/openrefine/grel) from the Univ Illinois
-    * Even better: [OpenRefine cheatsheets](https://code4libtoronto.github.io/2018-10-12-access/GoogleRefineCheatSheets.pdf), including for GREL commands.
+## GREL Cheatsheets
+
+* Belinda Weaver's [GREL Cheatsheet with examples](https://github.com/weaverbel/teachingfiles/blob/master/grel_value_replace.md) 
+* [OpenRefine GREL Manual](https://docs.openrefine.org/manual/expressions/#grel-general-refine-expression-language)
+* A really good [GREL Guide](https://guides.library.illinois.edu/openrefine/grel) from the Univ Illinois
+* Even better: code4lib Toronoto's [OpenRefine cheatsheets](https://code4libtoronto.github.io/2018-10-12-access/GoogleRefineCheatSheets.pdf), including for GREL commands.
+* Datenschule's [OR Cheatsheets](https://datenschule.de/files/downloads/workshops/CheatSheet-Open-Refine.pdf)
+
+## R Tools
 
 *  The [rrefine package](https://cran.r-project.org/web/packages/rrefine/vignettes/rrefine-vignette.html) allows you to do some OpenRefine tasks from within R. 
-
-* The UF Library teaches a number of excellent workshops, including one on using OpenRefine. You can check when the next one will be held (or request one) [here](https://ufl.libcal.com/calendar/workshops/?cid=11693&t=d&d=0000-00-00&cal=11693,5125,8858&inc=0)
-
