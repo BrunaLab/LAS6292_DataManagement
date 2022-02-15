@@ -28,10 +28,7 @@ Much of your future as a researcher will be spent cleaning and correcting data, 
 
 1. Download the following three spreadsheets. To download the files, click the links and then the `download` button (shown below) on the right-hand side.  
 
-
-{{< figure src="download_button.png" caption=" " numbered="false" >}}
-
-
+{{< figure src="download_button.png" id="download">}}.
 
   * `SAFI_messy.xlsx`: [download link](https://github.com/BrunaLab/LAS6292_DataManagement/blob/03dd47f3b52a9bf32be643cf34bafcce6566e555/static/course-materials/class-sessions/03-spreadsheets/examples/SAFI_messy.xlsx).
   * `unity-portal-data.xlsx`: [download link](https://github.com/BrunaLab/LAS6292_DataManagement/blob/03dd47f3b52a9bf32be643cf34bafcce6566e555/static/course-materials/class-sessions/03-spreadsheets/examples/untidy-portal-data.xlsx).

@@ -20,19 +20,17 @@ projects: []
 
 ## QA/QC 2: Using OpenRefine to clean data
 
+{{< figure src="noam_tweet.png" id="noam" caption="How many ways can you spell the word..." height="30%">}}.
+
+
 OpenRefine is a powerful, free, and open source tool that is used to work with and clean messy data.  We will be working through some of OpenRefine's basic features, after which you will trying them onm your own on a new data set.
 
-**_Notes:_**
-
-1. This is the url for accessing OpenRefine if a new tab/window doesn't open: [http://127.0.0.1:3333/](http://127.0.0.1:3333/)
-
-2. To download the data file for the tutorial to your computer [click this link](https://ndownloader.figshare.com/files/11502815). (url: https://ndownloader.figshare.com/files/11502815)
-
-
+**_Note:_** This is the url for accessing OpenRefine if a new tab/window doesn't open: [http://127.0.0.1:3333/](http://127.0.0.1:3333/)
 
 #### **1. Intro to OR**
 
 #### **2. Working with OR**
+1. Download the data file for the tutorial to your computer [click this link](https://ndownloader.figshare.com/files/11502815). 
 
 #### **3. Filtering and Sorting**
      

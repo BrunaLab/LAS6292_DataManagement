@@ -83,10 +83,7 @@ By the end of this lesson students will:
 **Bring to Class:  **  
 
   * Snacks
-  * Flip charts and markers
-  * Dry write markers
   * Tent cards for student names
-
 
 ## Pre-class Preparation (Students):
 
@@ -98,9 +95,8 @@ By the end of this lesson students will:
 
 1. Install OpenRefine on your computer and verify it works by following the [instructions here](https://datacarpentry.org/openrefine-socialsci/setup.html).
 
-2. Scan the [basic workflow](https://hackmd.io/WnKT7eiMQde7jCF5teVHBQ#Setup) for what we will be doing.
-
-3. Read about OpenRefine and see some quick videos of [how it works here](https://openrefine.org/)
+2. 
+2. _Optional:_ Read and watch about [how OpenRefine works here](https://openrefine.org/). You can also review the [basic workflow](https://hackmd.io/WnKT7eiMQde7jCF5teVHBQ#Setup) we will learn.
 
 
 ```{r timer, echo=FALSE}
@@ -124,18 +120,14 @@ total_time <-
 time_remain <- 180 - total_time
 ```
 
-
 ## In-Class: Using Open Refine to clean data
+
+![How many ways can you spell....](noam_tweet.png){width=30%}
+
 
 OpenRefine is a powerful, free, and open source tool that is used to work with and clean messy data.  We will be working through some of OpenRefine's basic features, after which you will trying them onm your own on a new data set.
 
-**_Notes: _**
-
-1. This is the url for accessing OpenRefine if a new tab/window doesn't open: http://127.0.0.1:3333/
-
-2. To download the data file for the tutorial to your computer [click this link](https://ndownloader.figshare.com/files/11502815). (url: https://ndownloader.figshare.com/files/11502815)
-
-
+<!-- **_Note: _** This is the url for accessing OpenRefine if a new tab/window doesn't open: http://127.0.0.1:3333/ -->
 
 ### **Intro to OR** (`r part_1` min)
 
