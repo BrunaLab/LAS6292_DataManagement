@@ -48,6 +48,15 @@ To download these template files: Follow the links, which will open the file in 
 <!-- {{% staticref "course-materials/class-sessions/07-metadata/Michener_Table1.txt" "newtab" %}}[Download in .txt format]{{% /staticref %}} | {{% staticref "course-materials/class-sessions/07-metadata/Michener_etal_1997_Table1.Rmd" "newtab" %}}[Download in .Rmd format]{{% /staticref %}} -->
 
 
+# Sources for Today's Session
+
+1. ICPSR [*Guide to Social Science Data Preparation and Archiving: 
+Best Practice Throughout the Data Life Cycle (6th Edition)*](https://www.icpsr.umich.edu/web/pages/deposit/guide/)
+
+2. DataONE Community Engagement & Outreach Working Group (2017) "Metadata Management". Accessed through the Data Management Skillbuilding Hub at https://dataoneorg.github.io/Education/lessons/07_metadata/index on Aug 31, 2020
+
+# Resources
+
 ## Codebooks
 
 This will help you ensure that including all the relevant information in your codebooks.
@@ -69,7 +78,8 @@ It is worth looking in these catalogs to see if you can find metadata standards 
 
 4. Geography Markup Language ([GML](http://www.opengeospatial.org/standards/gml)): Emphasis on geographic features (roads, highways, bridges)
 
-Humanities: UF Digital Collections (UFDC) [key metadata fields](https://guides.uflib.ufl.edu/ufdcmetadata) used for non-published items such as posters, archival materials, artists' files, field notebooks, etc 
+5. Humanities: UF Digital Collections (UFDC) [key metadata fields](https://guides.uflib.ufl.edu/ufdcmetadata) used for non-published items such as posters, archival materials, artists' files, field notebooks, etc 
+
 ## Tools for Creating machine-readable metadata 
 
 I include these here in case you want to try using them. It's not required, but it could definitely make your life easier if there is a standard tool for your discipline (e.g., MORPHO if you are working with ecological data). 
@@ -92,7 +102,7 @@ I include these here in case you want to try using them. It's not required, but 
 
 3. [USGS Geographic Names](https://www.usgs.gov/core-science-systems/ngp/board-on-geographic-names)
 
-4. [Getty Thesaurus of Gheographic Names](http://www.getty.edu/research/tools/vocabularies/tgn/)
+4. [Getty Thesaurus of Geographic Names](http://www.getty.edu/research/tools/vocabularies/tgn/)
 
 
 ## Organizations Developing Metadata Standards and Schema 
@@ -103,6 +113,5 @@ I include these here in case you want to try using them. It's not required, but 
 
 3. [The Dublin Core Metadata Initiative](https://www.dublincore.org/) is "an organization supporting innovation in metadata design and best practices across the metadata ecology". 
 
-4. ["Best Practices in Creating Social Science Metadata."](https://www.icpsr.umich.edu/files/deposit/dataprep.pdf) p.32 in the ICPSR *Guide to Social Science Data Preparation and Archiving: 
-Best Practice Throughout the Data Life Cycle (6th Edition)*.
+4. ["Best Practices in Creating Social Science Metadata."](https://www.icpsr.umich.edu/files/deposit/dataprep.pdf) p.32 in the ICPSR *Guide to Social Science Data Preparation and Archiving: Best Practice Throughout the Data Life Cycle (6th Edition)*.
 

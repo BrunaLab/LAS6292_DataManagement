@@ -21,43 +21,30 @@ projects: []
 ## Metadata & Codebooks
 
 
-{{% staticref "course-materials/class-sessions/07-metadata/Michener_etal_1997_Table1.Rmd" "newtab" %}}Download in .Rmd{{% /staticref %}}
 
-#### **1. Intro to OR**
-
-#### **2. Working with OR**
-
-#### **3. Filtering and Sorting**
+#### **1. Review of Other Researchers' Metadata**
      
 ### **Break**
 
-#### **5. Examining Numbers**
-
-#### **6. Using Scripts, Exporting, and Saving**
-
-#### **7. Wrap-up, Questions**  
-
-## **Assignment**
+#### **2. Getting Started on your own Metadata**
 
 ### Metadata Templates
 
 To download these template files: Follow the links, which will open the file in a web browser. "Right click" or "Save As" to save the web page to your computer as a .txt file, which you can open in any word processor, in a text editor, or in R.
 
-1. [Required Metadata for Social Sciences] {{% staticref "course-materials/class-sessions/07-metadata/ICPSR_Metadata.txt" "newtab" %}}[Download in .txt format]{{% /staticref %}} | {{% staticref "course-materials/class-sessions/07-metadata/ICPSR_Metadata.Rmd" "newtab" %}}[Download in .Rmd format]{{% /staticref %}}
+1. Required Metadata for Social Sciences: {{% staticref "course-materials/class-sessions/07-metadata/ICPSR_Metadata.txt" "newtab" %}}[.txt format]{{% /staticref %}} or {{% staticref "course-materials/class-sessions/07-metadata/ICPSR_Metadata.Rmd" "newtab" %}}[.Rmd format]{{% /staticref %}}
 
-2. Table 1 from Michener et al. 1997 {{% staticref "course-materials/class-sessions/07-metadata/ICPSR_Metadata.txt" "newtab" %}}[Download in .txt format]{{% /staticref %}} | {{% staticref "course-materials/class-sessions/07-metadata/ICPSR_Metadata.Rmd" "newtab" %}}[Download in .Rmd format]{{% /staticref %}}
+2. Table 1 from Michener et al. 1997: {{% staticref "course-materials/class-sessions/07-metadata/ICPSR_Metadata.txt" "newtab" %}}[.txt format]{{% /staticref %}} or {{% staticref "course-materials/class-sessions/07-metadata/ICPSR_Metadata.Rmd" "newtab" %}}[.Rmd format]{{% /staticref %}}
 
-6. **Submission:** Submit your clean .csv and the JSON text file as `week6_hw` on Canvas.  
+6. **Submission:** NONE. This is a component of the final project.  
 
-### Grading Rubric: 
 
-Data corrected and JSON file can be used on another data set: 50  
-Most data correction properly programmed; some require instructor follow-up: 40  
-Many of the corrections missing, JSON file unable to process new data : 30  
-Instructor follow-up required to implement most changes: 20  
+# Sources for Today's Session
 
-# Sources for this lesson 
+1. ICPSR [*Guide to Social Science Data Preparation and Archiving: 
+Best Practice Throughout the Data Life Cycle (6th Edition)*](https://www.icpsr.umich.edu/web/pages/deposit/guide/)
 
+2. DataONE Community Engagement & Outreach Working Group (2017) "Metadata Management". Accessed through the Data Management Skillbuilding Hub at https://dataoneorg.github.io/Education/lessons/07_metadata/index on Aug 31, 2020
 
 # Resources
 
@@ -82,7 +69,8 @@ It is worth looking in these catalogs to see if you can find metadata standards 
 
 4. Geography Markup Language ([GML](http://www.opengeospatial.org/standards/gml)): Emphasis on geographic features (roads, highways, bridges)
 
-Humanities: UF Digital Collections (UFDC) [key metadata fields](https://guides.uflib.ufl.edu/ufdcmetadata) used for non-published items such as posters, archival materials, artists' files, field notebooks, etc 
+5. Humanities: UF Digital Collections (UFDC) [key metadata fields](https://guides.uflib.ufl.edu/ufdcmetadata) used for non-published items such as posters, archival materials, artists' files, field notebooks, etc 
+
 ## Tools for Creating machine-readable metadata 
 
 I include these here in case you want to try using them. It's not required, but it could definitely make your life easier if there is a standard tool for your discipline (e.g., MORPHO if you are working with ecological data). 
