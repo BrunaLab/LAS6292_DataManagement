@@ -101,7 +101,7 @@ I include these here in case you want to try using them. It's not required, but 
 
 2. [DDI Alliance](https://ddialliance.org/about/about-the-alliance): "Established in 2003, the Data Documentation Initiative Alliance (DDI Alliance) is an international collaboration dedicated to establishing metadata standards and semantic products for describing social science data, data covering human activity, and other data based on observational methods." 
 
-3. T[he Dublin Core Metadata Initiative](https://www.dublincore.org/) is "an organization supporting innovation in metadata design and best practices across the metadata ecology". 
+3. [The Dublin Core Metadata Initiative](https://www.dublincore.org/) is "an organization supporting innovation in metadata design and best practices across the metadata ecology". 
 
 4. ["Best Practices in Creating Social Science Metadata."](https://www.icpsr.umich.edu/files/deposit/dataprep.pdf) p.32 in the ICPSR *Guide to Social Science Data Preparation and Archiving: 
 Best Practice Throughout the Data Life Cycle (6th Edition)*.

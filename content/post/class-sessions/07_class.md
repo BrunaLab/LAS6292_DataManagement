@@ -60,3 +60,61 @@ Instructor follow-up required to implement most changes: 20
 
 
 # Resources
+
+## Codebooks
+
+This will help you ensure that including all the relevant information in your codebooks.
+
+1. ICPSR: [What is a Codebook?](https://www.icpsr.umich.edu/icpsrweb/content/shared/ICPSR/faqs/what-is-a-codebook.html)
+
+
+## Discipline-Specific Metadata Standards
+
+It is worth looking in these catalogs to see if you can find metadata standards for your discipline. They will provide suggestions on not only what to include, but the standard vocabulary for your discipline. 
+
+1. RDA [Catalog of metadata standards for different disciplines](https://rd-alliance.github.io/metadata-directory/subjects/)
+
+1. UK Digital Curation Center [Directory of metadata standards for different disciplines](https://www.dcc.ac.uk/guidance/standards/metadata)
+
+2. Ecological data: [Ecological Metadata Language](http://knb.ecoinformatics.org/eml_metadata_guide.html)
+
+3. Museum Specimens: [Darwin Core](http://rs.tdwg.org/dwc/index.htm)
+
+4. Geography Markup Language ([GML](http://www.opengeospatial.org/standards/gml)): Emphasis on geographic features (roads, highways, bridges)
+
+Humanities: UF Digital Collections (UFDC) [key metadata fields](https://guides.uflib.ufl.edu/ufdcmetadata) used for non-published items such as posters, archival materials, artists' files, field notebooks, etc 
+## Tools for Creating machine-readable metadata 
+
+I include these here in case you want to try using them. It's not required, but it could definitely make your life easier if there is a standard tool for your discipline (e.g., MORPHO if you are working with ecological data). 
+
+1. [giant list from the RDA of tools for creating standardized metadata for different disciplines ](https://rd-alliance.github.io/metadata-directory/tools/)
+
+2. [USGS Metadata Wizard](https://www.sciencebase.gov/catalog/item/50ed7aa4e4b0438b00db080a)
+
+3. [TKME](https://geology.usgs.gov/tools/metadata/tools/doc/tkme.html)
+
+4. [CatMDEdit](http://catmdedit.sourceforge.net/)
+
+5. [GRIIDC](https://data.gulfresearchinitiative.org/metadata-editor-start)
+
+## Metadata Dictionaries
+
+1. [USGS](https://apps.usgs.gov/thesaurus/)
+
+2. [Global Change Master Dictionary](https://idn.ceos.org/)
+
+3. [USGS Geographic Names](https://www.usgs.gov/core-science-systems/ngp/board-on-geographic-names)
+
+4. [Getty Thesaurus of Gheographic Names](http://www.getty.edu/research/tools/vocabularies/tgn/)
+
+
+## Organizations Developing Metadata Standards and Schema 
+
+1. [The Research Data Alliance (RDA) ](https://www.rd-alliance.org/)"has the goal goal of building the social and technical infrastructure to enable open sharing and re-use of data."
+
+2. [DDI Alliance](https://ddialliance.org/about/about-the-alliance): "Established in 2003, the Data Documentation Initiative Alliance (DDI Alliance) is an international collaboration dedicated to establishing metadata standards and semantic products for describing social science data, data covering human activity, and other data based on observational methods." 
+
+3. [The Dublin Core Metadata Initiative](https://www.dublincore.org/) is "an organization supporting innovation in metadata design and best practices across the metadata ecology". 
+
+4. ["Best Practices in Creating Social Science Metadata."](https://www.icpsr.umich.edu/files/deposit/dataprep.pdf) p.32 in the ICPSR *Guide to Social Science Data Preparation and Archiving: 
+Best Practice Throughout the Data Life Cycle (6th Edition)*.
