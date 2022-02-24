@@ -94,7 +94,7 @@ Friday, Periods 6-8 (12:50-3:50) in Grinter 376
     <td>2/25</td>
     <td>Data Management Plans</td>
     <td>{{% staticref "/post/class-sessions/readings-week-8" "newtab" %}}<i class="fas fa-book-open"></i>{{% /staticref %}}</td> 
-   <td><i class="fas fa-clipboard-list"></i></td>
+   <td>{{% staticref "/post/class-sessions/class-week-8" %}}<i class="fas fa-clipboard-list"></i>{{% /staticref %}}</td>
     <td><i class="fas fa-photo-video"></i></td>
   </tr><tr>
     <td>9</td>
