@@ -35,11 +35,20 @@ Today's in class we will start drafting the DMP assigned as part of your semeste
 
 5. ...I have created txt versions of the questions for the NEH and NSF DMPs, as well as a Generic DMP. You can download these below and work on them off-line.
 
-**a. NEH DMP:** {{% staticref "course-materials/class-sessions/08-DMP/neh_dmp_headings.txt" "newtab" %}}[Download in .txt format]{{% /staticref %}} | {{% staticref "course-materials/class-sessions/08-DMP/neh_dmp_headings.Rmd" "newtab" %}}[Download in .Rmd format]{{% /staticref %}}
+**a. NEH DMP:** {{% staticref "course-materials/class-sessions/08-DMP/neh_dmp_headings.txt" "newtab" %}}[Download in .txt format]{{% /staticref %}} 
 
-**b. NSF DMP:** {% staticref "course-materials/class-sessions/08-DMP/nsf_dmp_headings.txt" "newtab" %}}[Download in .txt format]{{% /staticref %}} | {{% staticref "course-materials/class-sessions/08-DMP/nsf_dmp_headings.Rmd" "newtab" %}}[Download in .Rmd format]{{% /staticref %}}
 
-**c. Generic DMP**: {{% staticref "course-materials/class-sessions/08-DMP/generic_dmp_headings.txt" "newtab" %}}[Download in .txt format]{{% /staticref %}} | {{% staticref "course-materials/class-sessions/08-DMP/generic_dmp_headings.Rmd" "newtab" %}}[Download in .Rmd format]{{% /staticref %}}
+<!-- | {{% staticref "course-materials/class-sessions/08-DMP/neh_dmp_headings.Rmd" "newtab" %}}[Download in .Rmd format]{{% /staticref %}}-->
+
+**b. NSF DMP:** 
+
+{{% staticref "course-materials/class-sessions/08-DMP/nsf_dmp_headings.txt" "newtab" %}}[Download in .txt format]{{% /staticref %}}
+
+<!-- | {{% staticref "course-materials/class-sessions/08-DMP/nsf_dmp_headings.Rmd" "newtab" %}}[Download in .Rmd format]{{% /staticref %}}-->
+
+**c. Generic DMP**: {{% staticref "course-materials/class-sessions/08-DMP/generic_dmp_headings.txt" "newtab" %}}[Download in .txt format]{{% /staticref %}} 
+
+<!-- | {{% staticref "course-materials/class-sessions/08-DMP/generic_dmp_headings.Rmd" "newtab" %}}[Download in .Rmd format]{{% /staticref %}}-->
 
 
 # Sample DMPs
