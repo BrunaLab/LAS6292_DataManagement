@@ -39,11 +39,14 @@ Today's session is an opportunity to start drafting the metadata for your projec
 
 To download these template files: Follow the links, which will open the file in a web browser. "Right click" or "Save As" to save the web page to your computer as a .txt file, which you can open in any word processor, in a text editor, or in R.
 
-1. [Required Metadata for Social Sciences](https://raw.githubusercontent.com/BrunaLab/LAS6292_DataManagement/master/class_outlines/wk7_metadata/ICPSR_Metadata.txt) 
+1. [Required Metadata for Social Sciences] (available on course github repo in .txt or .Rmd format) 
 
-{{% staticref "course-materials/class-sessions/07-metadata/Michener_etal_1997_Table1.Rmd" "newtab" %}}Download in .Rmd{{% /staticref %}}
+<!-- {{% staticref "course-materials/class-sessions/07-metadata/ICPSR_Metadata.txt" "newtab" %}}[Download in .txt format]{{% /staticref %}} | {{% staticref "course-materials/class-sessions/07-metadata/ICPSR_Metadata.Rmd" "newtab" %}}[Download in .Rmd format]{{% /staticref %}} -->
 
-2. Table 1 from Michener et al. 1997: [link: .txt format](https://raw.githubusercontent.com/BrunaLab/LAS6292_DataManagement/master/static/course-materials/class-sessions/07-metadata/Michener_Table1.txt)  [link: .Rmd format](
+2. Table 1 from Michener et al. 1997 (available on course github repo in .txt or .Rmd format) 
+
+<!-- {{% staticref "course-materials/class-sessions/07-metadata/Michener_Table1.txt" "newtab" %}}[Download in .txt format]{{% /staticref %}} | {{% staticref "course-materials/class-sessions/07-metadata/Michener_etal_1997_Table1.Rmd" "newtab" %}}[Download in .Rmd format]{{% /staticref %}} -->
+
 
 ## Codebooks
 

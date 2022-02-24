@@ -1,7 +1,45 @@
+---
+title: "Metadata Descriptors for Ecological Data (Table 1 in Michener et al. 1997)"
+date: "updated: `r Sys.Date()`"
+header-includes:
+- \AtBeginDocument{\let\maketitle\relax} # this removes default title section
+- \usepackage[default]{sourcesanspro}
+- \usepackage{fancyhdr} # modify header into left, center, right
+- \pagestyle{fancy} # cues the use of fancy headers
+- \fancyfoot{} # cues the use of fancy footer
+# header left
+- \fancyhead[L]{Ecological Metadata} 
+# header right
+- \fancyhead[R]{p. \thepage} 
+- \fancyfoot[R]{Last update `r format(Sys.time(), '%d %B %Y')`}
+# - \usepackage{setspace}{singlespace} # manipulate line spacing 
+- \usepackage{parskip} # manipulate indents and spacing before/after paragra phs 
+- \usepackage{xcolor} # changes colors of text
+# to center to top level (#) headings (my name) and change color of font
+# more info # https://www.ctan.org/pkg/sectsty
+- \usepackage{sectsty} \sectionfont{\centering\color{darkmidnightblue}}
+# to center to sub-sub-headings (###) and change color of font
+- \usepackage{sectsty} \subsectionfont{\color{darkmidnightblue}}
+# http://latexcolor.com/ to choose colors
+# define the colors used above with rgb codes
+- \definecolor{darkcerulean}{rgb}{0.03, 0.27, 0.49}
+- \definecolor{darkmidnightblue}{rgb}{0.0, 0.2, 0.4}
+mainfont: SourceSansPro
+geometry: margin=1in
+fontsize: 12pt
+linkcolor: blue
+urlcolor: blue
+output:
+  pdf_document: default
+  # html_document:
+  #   df_print: paged
+  # rmdformats::robobook: default
+---
+
 "Important Metadata Elements" (Source: p. 32 of "ICPSR Guide to Social Science Data Preparation and Archiving: Best Practice Throughout the Data Life Cycle (6th Edition)". [download link](https://www.icpsr.umich.edu/web/pages/deposit/guide/)
 
 
-A. Data Collection and File Creation: 
+**A. Data Collection and File Creation:** 
 
 A list of the most important items to include in social science metadata is presented below. Note that many of the high-level elements have counterparts in the Dublin Core Metadata Initiative (DCMI) element set. The DCMI is a standard aimed at making it easier to describe and to find resources using the Internet. For more information on the DCMI, please view their website at www.dublincore.org.
 
@@ -68,7 +106,7 @@ Interviewer guide. Details on how interviews were administered, including probes
 18. Coding information. A document that details the rules and definitions used for coding the data. This is particularly useful when open-ended responses are coded into quantitative data and the codes are not provided on the original data collection instrument, or for variables that are derived or constructed using the data that were originally collected. 
 
 
-B. Readme.txt Files. 
+**B. Readme.txt Files.** 
 
 Technical documentation is important to facilitate data archiving, curation, and re-use, but sometimes researchers need more information than a codebook provides. README files supplement codebooks and DDI metadata by providing nonstandard documentation to researchers. A README file is a plain-text document that makes research data easier to navigate and use, and is stored alongside data. README files originated in computer science where software developers frequently create and navigate complex directory structures with hundreds or thousands of files.  
 
