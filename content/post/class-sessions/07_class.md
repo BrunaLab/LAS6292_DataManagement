@@ -39,6 +39,13 @@ projects: []
 
 ## **Assignment**
 
+### Metadata Templates
+
+To download these template files: Follow the links, which will open the file in a web browser. "Right click" or "Save As" to save the web page to your computer as a .txt file, which you can open in any word processor, in a text editor, or in R.
+
+1. [Required Metadata for Social Sciences] {{% staticref "course-materials/class-sessions/07-metadata/ICPSR_Metadata.txt" "newtab" %}}[Download in .txt format]{{% /staticref %}} | {{% staticref "course-materials/class-sessions/07-metadata/ICPSR_Metadata.Rmd" "newtab" %}}[Download in .Rmd format]{{% /staticref %}}
+
+2. Table 1 from Michener et al. 1997 {{% staticref "course-materials/class-sessions/07-metadata/ICPSR_Metadata.txt" "newtab" %}}[Download in .txt format]{{% /staticref %}} | {{% staticref "course-materials/class-sessions/07-metadata/ICPSR_Metadata.Rmd" "newtab" %}}[Download in .Rmd format]{{% /staticref %}}
 
 6. **Submission:** Submit your clean .csv and the JSON text file as `week6_hw` on Canvas.  
 
