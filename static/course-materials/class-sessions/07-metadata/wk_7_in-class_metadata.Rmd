@@ -41,7 +41,7 @@ To download these template files: Follow the links, which will open the file in 
 
 1. [Required Metadata for Social Sciences](https://raw.githubusercontent.com/BrunaLab/LAS6292_DataManagement/master/class_outlines/wk7_metadata/ICPSR_Metadata.txt) 
 
-2. [Table 1 from Michener et al. 1997](https://raw.githubusercontent.com/BrunaLab/LAS6292_DataManagement/master/class_outlines/wk7_metadata/Michener_Table1.txt)
+2. Table 1 from Michener et al. 1997: [link: .txt format](https://raw.githubusercontent.com/BrunaLab/LAS6292_DataManagement/master/static/course-materials/class-sessions/07-metadata/Michener_Table1.txt)  [link: .Rmd format](
 
 ## Codebooks
 
