@@ -43,7 +43,7 @@ Today's session is an opportunity to start drafting the metadata for your projec
 
 1. Download the following templates: Click the link for your preferred format (.xtx or .Rmd) and save the file in the RStudio project you've created for your Course Project. The .txt version can be opened and edited in any word processor, a text editor, or in R. The .Rmd file is an R Markdown Document.  
 
-    a. **Metadata Template - Social Sciences:** {{% staticref "course-materials/class-sessions/07-metadata/ICPSR_Metadata.txt" "newtab" %}}[.txt format]{{% /staticref %}} or {{% staticref "course-materials/class-sessions/07-metadata/ICPSR_Metadata.Rmd" "newtab" %}}[.Rmd format]{{% /staticref %}} (from ICSPR; see note below for additional info on Qualitative Data).
+    a. **Metadata Template - Social Sciences:** {{% staticref "course-materials/class-sessions/07-metadata/ICPSR_Metadata.txt" "newtab" %}}[.txt format]{{% /staticref %}} or {{% staticref "course-materials/class-sessions/07-metadata/ICPSR_Metadata.Rmd" "newtab" %}}[.Rmd format]{{% /staticref %}} (from ICPSR; see note below for additional info on Qualitative Data).
     
       b. **Metadata template for Biophysical Sciences**: {{% staticref "course-materials/class-sessions/07-metadata/Michener_etal_1997_Table1.txt" "newtab" %}}[.txt format]{{% /staticref %}} or {{% staticref "course-materials/class-sessions/07-metadata/Michener_etal_1997_Table1.Rmd" "newtab" %}}[.Rmd format]{{% /staticref %}}(Table 1 from Michener et al. 1997).
       
