@@ -20,10 +20,17 @@ projects: []
 
 ## Metadata & Codebooks
 
-
-
 #### **1. Review of Other Researchers' Metadata**
      
+
+Data repositories such as [Dryad](https://datadryad.org) and [ICPSR](https://www.icpsr.umich.edu/web/pages/) are designed to permanently store the data thatused in research so it is available to future scholars. To use the data, it is important to have good metadata....but how good are the metadata, really?
+
+Go to either Dryad or ICPSR and download 2-3 datasets. Now review the data and metadata. Based on the information provided, could you explain what the abbreviations are? How the data were collected? What the values represent? Could you recreate the analysis? Is there anything missing or that stands out?
+
+* Here is an example from Dryad: The Page ["Data from: Resilient networks of ant-plant mutualists in Amazonian forest fragments"](https://datadryad.org/stash/dataset/doi:10.5061/dryad.pf2r0) includes an overview of the project and dataset, along with some other information. If you click "Download Dataset" you will get a zip file with {{% staticref "course-materials/class-sessions/07-metadata/sample_metadata/Ant.Plant.Mutualists.Fragmentation.csv" "newtab" %}}[the data in .csv format]{{% /staticref %}} and {{% staticref "course-materials/class-sessions/07-metadata//sample_metadata/Passmore_etat_README.txt" "newtab" %}}[the Metadata in .txt format]{{% /staticref %}}.
+    
+
+
 ### **Break**
 
 #### **2. Getting Started on your own Metadata**

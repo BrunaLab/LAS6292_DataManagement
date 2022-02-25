@@ -33,6 +33,13 @@ opts_chunk$set(echo=FALSE,
 opts_knit$set(width=75)
 ```
 
+# Metadata Review
+
+Data repositories such as [Dryad](https://datadryad.org) and [ICPSR](https://www.icpsr.umich.edu/web/pages/) are designed to permanently store the data thatused in research so it is available to future scholars. To use the data, it is important to have good metadata....but how good are the metadata, really?
+
+Go to either Dryad or ICPSR and download 2-3 datasets. Now review the data and metadata. Based on the information provided, could you explain what the abbreviations are? How the data were collected? What the values represent? Could you recreate the analysis? Is there anything missing or that stands out?
+
+
 ### Metadata Templates
 
 Today's session is an opportunity to start drafting the metadata for your project. Although there are links in the notes for today's sesssion to tools that will build your metadata in machine-readable XML schema, for this class (and maybe even in most cases) a .txt or .Rmd file with information on the relevant Class Descriptors (*sensu* Michener _et al._ 1997) is all you need sufficient. To save you time, I have created metadata templates based on information from ICSPR (for social sciences) and Michener _et al._ (for biophysical sciences) that you can download and edit; you can add more fields or delete any that are not relevant. Note that Table 1 in Michener _et al._ is much more comprehensive and provides additional guidance on how to make sure the metadata are useful.  
