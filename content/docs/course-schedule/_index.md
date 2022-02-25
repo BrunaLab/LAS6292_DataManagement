@@ -88,7 +88,7 @@ Friday, Periods 6-8 (12:50-3:50) in Grinter 376
     <td>Documentation: Metadata, Codebooks</td>
     <td>{{% staticref "/post/class-sessions/readings-week-7" "newtab" %}}<i class="fas fa-book-open"></i>{{% /staticref %}}</td> 
     <td>{{% staticref "/post/class-sessions/class-week-7" %}}<i class="fas fa-clipboard-list"></i>{{% /staticref %}}</td>
-    <td>{{% staticref "course-materials/class-sessions/07-metadata/wk7_Qmetadata_notes.pdf" "newtab" %}}<i class="fas fa-photo-video"></i>: Notes{{% /staticref %}}</td>
+    <td>{{% staticref "course-materials/class-sessions/07-metadata/wk7_metadata_notes.pdf" "newtab" %}}<i class="fas fa-photo-video"></i>: Notes{{% /staticref %}}</td>
   </tr><tr>
     <td>8</td>
     <td>2/25</td>
