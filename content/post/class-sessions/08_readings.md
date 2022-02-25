@@ -42,5 +42,7 @@ projects: []
 
 "Content of a DMP" by RWTH Aachen University (~12 min). 
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/fcCj6sNvoOw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+{{< youtube fcCj6sNvoOw >}}
+
+<!---n <iframe width="560" height="315" src="https://www.youtube.com/embed/fcCj6sNvoOw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> --->
 

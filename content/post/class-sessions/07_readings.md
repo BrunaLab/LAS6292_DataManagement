@@ -41,7 +41,7 @@ type: book
 
 * **Videos:**
 
-1. Metadata [link to video](https://youtu.be/wrt-3l71DJ4)
+1. Metadata [[link to video on Youtube]](https://youtu.be/wrt-3l71DJ4)
 
 {{< youtube wrt-3l71DJ4 >}}
 
