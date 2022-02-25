@@ -44,7 +44,7 @@ Friday, Periods 6-8 (12:50-3:50) in Grinter 376
     <td>‘Data’ across disciplines; Data Life-cycle </td>
     <td>{{% staticref "/post/class-sessions/01_readings" "newtab" %}}<i class="fas fa-book-open"></i>{{% /staticref %}}</td> 
     <td>{{% staticref "/post/class-sessions/01_class" %}}<i class="fas fa-clipboard-list"></i>{{% /staticref %}}</td>
-    <td>{{% staticref "course-materials/class-sessions/01-intro/01_slides_2022.pdf" "newtab" %}}<i class="fas fa-photo-video"></i>{{% /staticref %}} </td>
+    <td>{{% staticref "course-materials/class-sessions/01-intro/01_slides_2022.pdf" "newtab" %}}<i class="fas fa-photo-video"></i>: Slides{{% /staticref %}} </td>
   </tr>
   <tr>
     <td>2</td>
@@ -52,7 +52,7 @@ Friday, Periods 6-8 (12:50-3:50) in Grinter 376
     <td>File Formats, Naming Conventions, Data Storage & Security</td>
     <td>{{% staticref "/post/class-sessions/readings_wk_2" "newtab" %}}<i class="fas fa-book-open"></i>{{% /staticref %}}</td> 
     <td>{{% staticref "/post/class-sessions/02_class" %}}<i class="fas fa-clipboard-list"></i>{{% /staticref %}}</td>
-    <td>{{% staticref "course-materials/class-sessions/02-formats-security/wk2_naming_conventions.pdf" "newtab" %}}<i class="fas fa-photo-video"></i>: Naming Conventions{{% /staticref %}}<br>{{% staticref "course-materials/class-sessions/02-formats-security/wk2_file_organization.pdf" "newtab" %}}<i class="fas fa-photo-video"></i>: File Organization{{% /staticref %}}<br>{{% staticref "course-materials/class-sessions/02-formats-security/wk2_storage_backup.pdf" "newtab" %}}<i class="fas fa-photo-video"></i>: Storage & Backup{{% /staticref %}}</br> </td>
+    <td>{{% staticref "course-materials/class-sessions/02-formats-security/wk2_naming_conventions.pdf" "newtab" %}}<i class="fas fa-photo-video"></i>: Naming Conventions Notes{{% /staticref %}}<br>{{% staticref "course-materials/class-sessions/02-formats-security/wk2_file_organization.pdf" "newtab" %}}<i class="fas fa-photo-video"></i>: File Organization Notes{{% /staticref %}}<br>{{% staticref "course-materials/class-sessions/02-formats-security/wk2_storage_backup.pdf" "newtab" %}}<i class="fas fa-photo-video"></i>: Storage & Backup Notes{{% /staticref %}}</br> </td>
   </tr>
   <tr>
     <td>3</td>
@@ -88,7 +88,7 @@ Friday, Periods 6-8 (12:50-3:50) in Grinter 376
     <td>Documentation: Metadata, Codebooks</td>
     <td>{{% staticref "/post/class-sessions/readings-week-7" "newtab" %}}<i class="fas fa-book-open"></i>{{% /staticref %}}</td> 
     <td>{{% staticref "/post/class-sessions/class-week-7" %}}<i class="fas fa-clipboard-list"></i>{{% /staticref %}}</td>
-    <td><i class="fas fa-photo-video"></i></td>
+    <td>{{% staticref "course-materials/class-sessions/07-metadata/wk7_Qmetadata_notes.pdf" "newtab" %}}<i class="fas fa-photo-video"></i>: Notes{{% /staticref %}}</td>
   </tr><tr>
     <td>8</td>
     <td>2/25</td>
