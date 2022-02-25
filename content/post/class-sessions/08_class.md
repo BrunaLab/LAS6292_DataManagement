@@ -33,12 +33,14 @@ Today in class we will start drafting the DMP assigned as part of your semester 
 
 5. ...I have created txt versions of the questions for the NEH and NSF DMPs, as well as a Generic DMP. You can download these below and work on them off-line.
 
-    **a. NEH DMP:** {{% staticref "course-materials/class-sessions/08-DMP/neh_dmp_template.txt" "newtab" %}}[Download in .txt format]{{% /staticref %}} | {{% staticref "course-materials/class-sessions/08-DMP/neh_dmp_template.Rmd" "newtab" %}}[Download in .Rmd format]{{% /staticref %}}
 
-    **b. NSF DMP:** {% staticref "course-materials/class-sessions/08-DMP/nsf_dmp_template.txt" "newtab" %}}[Download in .txt format]{{% /staticref %}} | {{% staticref "course-materials/class-sessions/08-DMP/nsf_dmp_template.Rmd" "newtab" %}}[Download in .Rmd format]{{% /staticref %}}
+    **a. NEH DMP:** {{% staticref "course-materials/class-sessions/08-DMP/neh_dmp_template.txt" "newtab" %}}[.txt format]{{% /staticref %}} or {{% staticref "course-materials/class-sessions/08-DMP/neh_dmp_template.Rmd" "newtab" %}}[.Rmd format]{{% /staticref %}}
 
-    **c. Generic DMP**: {{% staticref "course-materials/class-sessions/08-DMP/generic_dmp_template.txt" "newtab" %}}[Download in .txt format]{{% /staticref %}} | {{% staticref "course-materials/class-sessions/08-DMP/generic_dmp_template.Rmd" "newtab" %}}[Download in .Rmd format]{{% /staticref %}}
 
+    **b. NSF DMP:** {{% staticref "course-materials/class-sessions/08-DMP/nsf_dmp_template.txt" "newtab" %}}[.txt format]{{% /staticref %}} or {{% staticref "course-materials/class-sessions/08-DMP/nsf_dmp_template.Rmd" "newtab" %}}[.Rmd format]{{% /staticref %}}
+
+    **c. Generic DMP**: {{% staticref "course-materials/class-sessions/08-DMP/generic_dmp_template.txt" "newtab" %}}[.txt format]{{% /staticref %}} or {{% staticref "course-materials/class-sessions/08-DMP/generic_dmp_template.Rmd" "newtab" %}}[.Rmd format]{{% /staticref %}}
+    
 # Sample DMPs
 
 The Notes for this session have sample DMPs from different disciplines you can use as models for your projects, as well as many other resources for preparing DMPs.
