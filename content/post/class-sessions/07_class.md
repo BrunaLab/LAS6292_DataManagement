@@ -30,14 +30,21 @@ projects: []
 
 ### Metadata Templates
 
-To download these template files: Follow the links, which will open the file in a web browser. "Right click" or "Save As" to save the web page to your computer as a .txt file, which you can open in any word processor, in a text editor, or in R.
+Today's session is an opportunity to start drafting the metadata for your project. Although there are links in the notes for today's sesssion to tools that will build your metadata in machine-readable XML schema, for this class (and maybe even in most cases) a .txt or .Rmd file with information on the relevant Class Descriptors (*sensu* Michener _et al._ 1997) is all you need sufficient. To save you time, I have created metadata templates based on information from ICSPR (for social sciences) and Michener _et al._ (for biophysical sciences) that you can download and edit; you can add more fields or delete any that are not relevant. Note that Table 1 in Michener _et al._ is much more comprehensive and provides additional guidance on how to make sure the metadata are useful.  
 
-1. Required Metadata for Social Sciences: {{% staticref "course-materials/class-sessions/07-metadata/ICPSR_Metadata.txt" "newtab" %}}[.txt format]{{% /staticref %}} or {{% staticref "course-materials/class-sessions/07-metadata/ICPSR_Metadata.Rmd" "newtab" %}}[.Rmd format]{{% /staticref %}}
+**1. Download the following templates: ** Click the link for your preferred format (.xtx or .Rmd) and save the file in the RStudio project you've created for your Course Project. The .txt version can be opened and edited in any word processor, a text editor, or in R. The .Rmd file is an R Markdown Document.
 
-2. Table 1 from Michener et al. 1997: {{% staticref "course-materials/class-sessions/07-metadata/ICPSR_Metadata.txt" "newtab" %}}[.txt format]{{% /staticref %}} or {{% staticref "course-materials/class-sessions/07-metadata/ICPSR_Metadata.Rmd" "newtab" %}}[.Rmd format]{{% /staticref %}}
+a. **Metadata Template for Social Sciences:** {{% staticref "course-materials/class-sessions/07-metadata/ICPSR_Metadata.txt" "newtab" %}}[.txt format]{{% /staticref %}} or {{% staticref "course-materials/class-sessions/07-metadata/ICPSR_Metadata.Rmd" "newtab" %}}[.Rmd format]{{% /staticref %}} (from ICSPR).
 
-6. **Submission:** NONE. This is a component of the final project.  
+b. **Metadata template for Biophysical Sciences**: {{% staticref "course-materials/class-sessions/07-metadata/ICPSR_Metadata.txt" "newtab" %}}[.txt format]{{% /staticref %}} or {{% staticref "course-materials/class-sessions/07-metadata/ICPSR_Metadata.Rmd" "newtab" %}}[.Rmd format]{{% /staticref %}}(Table 1 from Michener et al. 1997).
 
+2. Choose the template that is most appropriate for your discipline, then review both templates.  Is there metadata from the other one would be useful to include in yours? If so, copy the items over and save the revised file with a new (correctly styled) name.
+
+3. Start filling out the metadata requested in the template. You might want to begin by making notations on the ones for which you will have to present the range of possible values, units, the names / brands / models of equipment used to make or record measurments, etc.
+
+4. **Submission:** NONE. This is a component of the final project, so the goal for today is to jump-start your work and to realize that preparing a good metadata file takes longer than anyone anticipates. 
+
+**_Note:_**Be sure to check the Notes for todays topic - they include excellent resources for preparing metadata.
 
 # Sources for Today's Session
 
@@ -46,63 +53,4 @@ Best Practice Throughout the Data Life Cycle (6th Edition)*](https://www.icpsr.u
 
 2. DataONE Community Engagement & Outreach Working Group (2017) "Metadata Management". Accessed through the Data Management Skillbuilding Hub at https://dataoneorg.github.io/Education/lessons/07_metadata/index on Aug 31, 2020
 
-# Resources
 
-## Codebooks
-
-This will help you ensure that including all the relevant information in your codebooks.
-
-1. ICPSR: [What is a Codebook?](https://www.icpsr.umich.edu/icpsrweb/content/shared/ICPSR/faqs/what-is-a-codebook.html)
-
-
-## Discipline-Specific Metadata Standards
-
-It is worth looking in these catalogs to see if you can find metadata standards for your discipline. They will provide suggestions on not only what to include, but the standard vocabulary for your discipline. 
-
-1. RDA [Catalog of metadata standards for different disciplines](https://rd-alliance.github.io/metadata-directory/subjects/)
-
-1. UK Digital Curation Center [Directory of metadata standards for different disciplines](https://www.dcc.ac.uk/guidance/standards/metadata)
-
-2. Ecological data: [Ecological Metadata Language](http://knb.ecoinformatics.org/eml_metadata_guide.html)
-
-3. Museum Specimens: [Darwin Core](http://rs.tdwg.org/dwc/index.htm)
-
-4. Geography Markup Language ([GML](http://www.opengeospatial.org/standards/gml)): Emphasis on geographic features (roads, highways, bridges)
-
-5. Humanities: UF Digital Collections (UFDC) [key metadata fields](https://guides.uflib.ufl.edu/ufdcmetadata) used for non-published items such as posters, archival materials, artists' files, field notebooks, etc 
-
-## Tools for Creating machine-readable metadata 
-
-I include these here in case you want to try using them. It's not required, but it could definitely make your life easier if there is a standard tool for your discipline (e.g., MORPHO if you are working with ecological data). 
-
-1. [giant list from the RDA of tools for creating standardized metadata for different disciplines ](https://rd-alliance.github.io/metadata-directory/tools/)
-
-2. [USGS Metadata Wizard](https://www.sciencebase.gov/catalog/item/50ed7aa4e4b0438b00db080a)
-
-3. [TKME](https://geology.usgs.gov/tools/metadata/tools/doc/tkme.html)
-
-4. [CatMDEdit](http://catmdedit.sourceforge.net/)
-
-5. [GRIIDC](https://data.gulfresearchinitiative.org/metadata-editor-start)
-
-## Metadata Dictionaries
-
-1. [USGS](https://apps.usgs.gov/thesaurus/)
-
-2. [Global Change Master Dictionary](https://idn.ceos.org/)
-
-3. [USGS Geographic Names](https://www.usgs.gov/core-science-systems/ngp/board-on-geographic-names)
-
-4. [Getty Thesaurus of Gheographic Names](http://www.getty.edu/research/tools/vocabularies/tgn/)
-
-
-## Organizations Developing Metadata Standards and Schema 
-
-1. [The Research Data Alliance (RDA) ](https://www.rd-alliance.org/)"has the goal goal of building the social and technical infrastructure to enable open sharing and re-use of data."
-
-2. [DDI Alliance](https://ddialliance.org/about/about-the-alliance): "Established in 2003, the Data Documentation Initiative Alliance (DDI Alliance) is an international collaboration dedicated to establishing metadata standards and semantic products for describing social science data, data covering human activity, and other data based on observational methods." 
-
-3. [The Dublin Core Metadata Initiative](https://www.dublincore.org/) is "an organization supporting innovation in metadata design and best practices across the metadata ecology". 
-
-4. ["Best Practices in Creating Social Science Metadata."](https://www.icpsr.umich.edu/files/deposit/dataprep.pdf) p.32 in the ICPSR *Guide to Social Science Data Preparation and Archiving: 
-Best Practice Throughout the Data Life Cycle (6th Edition)*.
