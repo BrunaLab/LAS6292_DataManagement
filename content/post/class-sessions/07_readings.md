@@ -36,7 +36,8 @@ type: book
 
 1.  Michener, W.K., et al . 1997. Non-geospatial metadata for the ecological sciences. Ecological Applications 7: 330–342. [[read online]](https://esajournals.onlinelibrary.wiley.com/doi/abs/10.1890/1051-0761%281997%29007%5B0330%3ANMFTES%5D2.0.CO%3B2) or {{% staticref "course-materials/readings/Michener_etal_1997_EcolApplications.pdf" "newtab" %}}[download pdf]{{% /staticref %}}
 
-2.  Pp 446-450 in Bernard, H.R. and Bernard, H.R., 2013. Social research methods: Qualitative and quantitative approaches. Sage. [[download pdf]]
+
+<!-- 2.  Pp 446-450 in Bernard, H.R. and Bernard, H.R., 2013. Social research methods: Qualitative and quantitative approaches. Sage. [[download pdf]] --->
 
 * **Videos:**
 
