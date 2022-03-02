@@ -40,20 +40,18 @@ type: book
 * **Videos:** 
 
 1. Atul Gawande's TED Talk: The Importance & Value of the CHECK LIST.
-<iframe width="560" height="315" src="https://www.youtube.com/embed/55Nc8nccPa0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+{{< youtube 55Nc8nccPa0 >}}
 
+<!---- <iframe width="560" height="315" src="https://www.youtube.com/embed/55Nc8nccPa0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> ---->
 
 2. Follow-up with the details in this good animated summary of *The Checklist Manifesto*.
-<iframe width="560" height="315" src="https://www.youtube.com/embed/bCDmDzIOZ-g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+{{< youtube bCDmDzIOZ-g >}}
 
-3. Jess Stratton's LinkedIn Learning Video Overview: Use Google Forms to Create Surveys (7 min.). 
+<!---- <iframe width="560" height="315" src="https://www.youtube.com/embed/bCDmDzIOZ-g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> ---->
 
-  * Watch [here](https://www.linkedin.com/learning/google-sheets-advanced-tips-and-tricks/use-google-forms-to-create-surveys?autoAdvance=true&autoSkip=false&autoplay=true&resume=true&u=41282748); must be on UF computer or use UF proxy.  
+3. Jess Stratton's LinkedIn Learning Video Overview: "Use Google Forms to Create Surveys" (7 min.). Watch it [here](https://www.linkedin.com/learning/google-sheets-advanced-tips-and-tricks/use-google-forms-to-create-surveys?autoAdvance=true&autoSkip=false&autoplay=true&resume=true&u=41282748); must be on UF computer or use UF proxy.  
 
-
-4. OPTIONAL: A more advanced, multi-video Google Forms Essential Training Course.
-
-  * short (1-3 min) videos explaining each step in more detail. It's great, and only 39 min long from start to finish. Watch [here](https://www.linkedin.com/learning/google-forms-essential-training-2/collect-data-easily-with-google-forms?autoAdvance=true&autoSkip=false&autoplay=true&resume=true&u=41282748); must be on UF computer or use UF proxy.
+4. OPTIONAL: The more advanced, multi-video "Google Forms Essential Training Course". These short (1-3 min) videos explain each step in more detail. It's great, and only 39 min long from start to finish. Watch [here](https://www.linkedin.com/learning/google-forms-essential-training-2/collect-data-easily-with-google-forms?autoAdvance=true&autoSkip=false&autoplay=true&resume=true&u=41282748); must be on UF computer or use UF proxy.
   
