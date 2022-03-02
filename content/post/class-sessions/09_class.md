@@ -30,11 +30,10 @@ projects: []
 
 ### Assignment: Data Sheet UX
 
-Now lets implement some of the things we've learned. 
-1. Conduct a Process Audit of your personal data collection sheet. (If you do not have one of your own, you can do the assignment with the "Line Transect Sheet” used in class)
-2. Redo your paper data sheet based on your process audit
+1. Conduct a Process Audit of your personal data collection sheet (If you do not have one of your own, you can do the assignment with the "Line Transect Sheet” used in class)
+2. Redesign your paper data sheet based on your process audit
 3. Create an electronic version of the data sheet using Google Forms
-4. When done, submit the following via canvas:
+4. When done, submit the following via Canvas:
 
     * the original form
     * the revised form
@@ -44,14 +43,7 @@ Now lets implement some of the things we've learned.
 
 ### Grading Rubric: 
 
-**50:** Ways errors can get incorporated have been identified; revised form and google doc use UI/UX principles to reduce most data recording errors. 
-**35:** Some (but not all) ways that errors can get incorporated have been identified; revised form and google doc use UI/UX principles to reduce some of the potential data recording errors. 
-**20:** Few of the ways errors can be included are identified; data collection still likely to be error-prone and inefficient.
+**50:** Ways errors can get incorporated have been identified; revised form and google doc use UI/UX principles to reduce most data recording errors.  
+**35:** Some (but not all) ways that errors can get incorporated have been identified; revised form and google doc use UI/UX principles to reduce some of the potential data recording errors.   
+**20:** Few of the ways errors can be included are identified; data collection still likely to be error-prone and inefficient.  
 
-
-# Sources for Today's Session
-
-1. ICPSR [*Guide to Social Science Data Preparation and Archiving: 
-Best Practice Throughout the Data Life Cycle (6th Edition)*](https://www.icpsr.umich.edu/web/pages/deposit/guide/)
-
-2. DataONE Community Engagement & Outreach Working Group (2017) "Metadata Management". Accessed through the Data Management Skillbuilding Hub at https://dataoneorg.github.io/Education/lessons/07_metadata/index on Aug 31, 2020
