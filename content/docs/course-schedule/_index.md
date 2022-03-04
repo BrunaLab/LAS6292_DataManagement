@@ -102,8 +102,7 @@ Friday, Periods 6-8 (12:50-3:50) in Grinter 376
     <td>Efficient Data Collection</td>
     <td>{{% staticref "/post/class-sessions/readings-week-9" "newtab" %}}<i class="fas fa-book-open"></i>{{% /staticref %}}</td> 
     <td>{{% staticref "/post/class-sessions/class-week-9" %}}<i class="fas fa-clipboard-list"></i>{{% /staticref %}}</td>
-    <td>{{% staticref "course-materials/class-sessions/09-efficient-data-collection/09_notes.pdf" "newtab" %}}<i class="fas fa-photo-video"></i>: Notes{{% /staticref %}}</td>
-    <td>{{% staticref "course-materials/class-sessions/09-efficient-data-collection/Wk9_efficient_data_collection.pdf" "newtab" %}}<i class="fas fa-photo-video"></i>: Slides{{% /staticref %}}</td>
+    <td>{{% staticref "course-materials/class-sessions/09-efficient-data-collection/09_notes.pdf" "newtab" %}}<i class="fas fa-photo-video"></i>: Notes{{% /staticref %}}<br>{{% staticref "course-materials/class-sessions/09-efficient-data-collection/Wk9_efficient_data_collection.pdf" "newtab" %}}<i class="fas fa-photo-video"></i>: Slides{{% /staticref %}}</br></td>
   </tr><tr>
     <td>10</td>
     <td>3/11</td>
