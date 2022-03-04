@@ -1,20 +1,50 @@
 ---
-title: "LAS 6292: EFFICIENT DATA COLLECTIONS: FORMS"
+title: "LAS 6292: Efficient Data Collection"
 date: "updated: `r Sys.Date()`"
 header-includes:
-   - \usepackage[default]{sourcesanspro}
-   - \usepackage[T1]{fontenc}
+- \AtBeginDocument{\let\maketitle\relax} # this removes default title section
+- \usepackage[default]{sourcesanspro}
+- \usepackage{fancyhdr} # modify header into left, center, right
+- \pagestyle{fancy} # cues the use of fancy headers
+- \fancyfoot{} # cues the use of fancy footer
+# month & year on header left
+- \fancyhead[L]{LAS 6292 Spring `r format(Sys.time(), '%Y')`, EM Bruna} 
+# name and page on header right
+- \fancyhead[R]{Efficient Data Collection, p. \thepage} 
+- \fancyfoot[R]{Last update `r format(Sys.time(), '%d %B %Y')`}
+# - \usepackage{setspace}{singlespace} # manipulate line spacing 
+- \usepackage{parskip} # manipulate indents and spacing before/after paragra phs 
+- \usepackage{xcolor} # changes colors of text
+# to center to top level (#) headings (my name) and change color of font
+# more info # https://www.ctan.org/pkg/sectsty
+- \usepackage{sectsty} \sectionfont{\centering\color{darkmidnightblue}}
+# to center to sub-sub-headings (###) and change color of font
+- \usepackage{sectsty} \subsectionfont{\color{darkmidnightblue}}
+# http://latexcolor.com/ to choose colors
+# define the colors used above with rgb codes
+- \definecolor{darkcerulean}{rgb}{0.03, 0.27, 0.49}
+- \definecolor{darkmidnightblue}{rgb}{0.0, 0.2, 0.4}
+# - \usepackage{ragged2e}
+# - \setlength\RaggedRightParindent{15pt}
+# - \RaggedRight - # make the right margin ragged
+# https://tex.stackexchange.com/questions/258714/prevent-hyphenation-across-lines-enforce-right-margin
+# - \hyphenpenalty=10000 #to suppress ordinary hyphenation
+# - \exhyphenpenalty=10000 #to prohibit line breaks at explicit hyphens.
+# - \setstretch{1.0}
+
+# https://babichmorrowc.github.io/post/changing-fonts-in-rmarkdown-pdfs/
+
 mainfont: SourceSansPro
 geometry: margin=1in
 fontsize: 12pt
 linkcolor: blue
 urlcolor: blue
-output:
-  pdf_document: default
-  html_document:
-    df_print: paged
-  rmdformats::robobook: default
+output: pdf_document
+# html_document:
+# df_print: paged
+# rmdformats::robobook: default
 ---
+
 
 
 ```{r setup, include=FALSE}
@@ -101,6 +131,7 @@ time_remain <- 180 - total_time
 
 3. **Most people, whether they know it or not, collect data on some kind of form**. Sometimes these forms are paper, sometimes electronic. Notes scribbled on a piece of paper or MS Word document? Both simple forms. To design better forms - forms that reduce the number of errors at both the collecitonand entry phases - we will use some ideas from manufacturing, shipping, and design industries, along with loads of research on forms themselves.
 
+    * **Lists**: We forget things we need, and we forget things we need to do. Lists prevent that.
     * **Automation**: When collected repeated measurements on a single thing, or the same measurement on many things, attempt to invest in automation. 
     * **Asset Management**: There is no need to have people (data collectors or study subjects) write down information you know in advance. Use things like labels & Bar/QR codes to simplify things as much as possible. 
     * **UX/UI**: The arrangement of things on a page, and the cues used to guide input, can help reduce errors and increase form completion rates. We know this thanks to websites that depend on you filling out information to get your business; they have done lots of testing to come up with forms that ensure you don't leave the site without giving them the information they need. And so with that in mind.... 
@@ -147,15 +178,15 @@ Now lets implement some of the things we've learned.
 3. Create an electronic version of the data sheet using Google Forms
 4. When done, submit the following via canvas:
 
-    * the original form
-    * the revised form
-    * A link to the google form
+   * the original form
+   * the revised form
+   * A link to the google form
     
 
 **OR**
 
 
-Let's make a checklist for a research trip 
+Let's make a checklist for a research trip. 
 
 
 ### Grading Rubric: 
