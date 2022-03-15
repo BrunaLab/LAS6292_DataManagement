@@ -41,6 +41,9 @@ type: book
 
 Watch: 
 
+1.  "The Text Wash team discusses text anonymization" [[link]](https://youtu.be/5fFO4ROg4Vw); related blog post [[link]](https://ocean.sagepub.com/blog/making-sensitive-text-data-accessible-for-computational-social-science)
+
+
 Quick Overview Lecture by EB (Links to an external site.)
 
 NIH:Statistical methods for protecting data confidentiality
