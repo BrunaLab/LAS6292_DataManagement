@@ -115,7 +115,7 @@ Friday, Periods 6-8 (12:50-3:50) in Grinter 376
     <td>3/18</td>
     <td>Transcription & Translation</td>
     <td>{{% staticref "/post/class-sessions/readings-week-11" "newtab" %}}<i class="fas fa-book-open"></i>{{% /staticref %}}</td> 
-    <td><i class="fas fa-clipboard-list"></i></td>
+    <td>{{% staticref "/post/class-sessions/11_class" %}}<i class="fas fa-clipboard-list"></i>{{% /staticref %}}</td>
     <td><i class="fas fa-photo-video"></i></td>
   </tr><tr>
     <td>12</td>
