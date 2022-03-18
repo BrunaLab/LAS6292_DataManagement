@@ -70,7 +70,7 @@ header-includes:
 
     * [`turkish_text.txt`](https://raw.githubusercontent.com/BrunaLab/LAS6292_DataManagement/master/static/course-materials/class-sessions/11-transcription-translation/translation_text/turkish_text.txt)
 
-    * [`spanish_text_interview.txt`](https://raw.githubusercontent.com/BrunaLab/LAS6292_DataManagement/master/static/course-materials/class-sessions/11-transcription-translation/translation_text/spanish_text_1voice.txt)
+    * [`spanish_text_interview.txt`](https://raw.githubusercontent.com/BrunaLab/LAS6292_DataManagement/master/static/course-materials/class-sessions/11-transcription-translation/translation_text/spanish_text_interview.txt)
 
 <!-- [`spanish_text_interview.txt`] -->
 
