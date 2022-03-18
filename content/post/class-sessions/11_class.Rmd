@@ -62,20 +62,19 @@ header-includes:
   * Understand the strengths and weaknesses of automated translation 
   * Be able to describe the metadata required for transcription files
   
-## Breakout 1: Translation of Texts into English
-
+## **Breakout 1:** Translation of Texts into English
 
 1. Download the following .txt files. Note that the link takes you to a page on your browsewr; use "save this page as" to download it to your computer. 
 
-[`spanish_text_1voice.txt`](https://raw.githubusercontent.com/BrunaLab/LAS6292_DataManagement/master/static/course-materials/class-sessions/11-transcription-translation/translation_text/spanish_text_1voice.txt)
+    * [`spanish_text_1voice.txt`](https://raw.githubusercontent.com/BrunaLab/LAS6292_DataManagement/master/static/course-materials/class-sessions/11-transcription-translation/translation_text/spanish_text_1voice.txt)
 
-[`turkish_text.txt`](https://raw.githubusercontent.com/BrunaLab/LAS6292_DataManagement/master/static/course-materials/class-sessions/11-transcription-translation/translation_text/turkish_text.txt)
+    * [`turkish_text.txt`](https://raw.githubusercontent.com/BrunaLab/LAS6292_DataManagement/master/static/course-materials/class-sessions/11-transcription-translation/translation_text/turkish_text.txt)
 
-[`spanish_text_interview.txt`](https://raw.githubusercontent.com/BrunaLab/LAS6292_DataManagement/master/static/course-materials/class-sessions/11-transcription-translation/translation_text/spanish_text_1voice.txt)
+    * [`spanish_text_interview.txt`](https://raw.githubusercontent.com/BrunaLab/LAS6292_DataManagement/master/static/course-materials/class-sessions/11-transcription-translation/translation_text/spanish_text_1voice.txt)
 
 <!-- [`spanish_text_interview.txt`] -->
 
-## STEP 1: Text Translations
+### STEP 1: Text Translations
 
 Translate the text files with MS Word and Google Docs  
 
@@ -84,7 +83,7 @@ Translate the text files with MS Word and Google Docs
 2. MS Word: [in-doc translation](https://support.microsoft.com/en-us/topic/translate-text-into-a-different-language-287380e4-a56c-48a1-9977-f2dca89ce93f) 
 
 
-## STEP 2: Save
+### STEP 2: Save
 
 Save the translations in your Google Drive in a folder called "class_translations" with the following file names and formats:
 
@@ -92,11 +91,11 @@ Save the translations in your Google Drive in a folder called "class_translation
 
 1. Google: new GoogleDoc: `google_[original language]_to_english`
 
-## STEP 3: Compare
+### STEP 3: Compare
 
 1. Paste the translations into the [Text Comparison Website](https://www.diffchecker.com/diff). Note that you may have to adjust the spacing in the text files to make the text align.  
 
-## STEP 4: Discuss  
+### STEP 4: Discuss  
 
 1. Are there are any differences in the way key words or concepts were translated? 
 
@@ -104,10 +103,8 @@ Save the translations in your Google Drive in a folder called "class_translation
 
 3. Do any of them seem "better" or "more accurate"? 
 
- 
-## Part 2
 
-# Breakout 2: TRANSCRIPTION 
+# **Breakout 2:** TRANSCRIPTION 
 
 We will try transcribing audio recorded in different languages using different online services; note that not all languages will be available in all services. 
 
@@ -115,13 +112,12 @@ We will try transcribing audio recorded in different languages using different o
 
 Sign up for accounts with the following transcription services. You can cancel the accounts if you think you won't need them afterwards. Additional details and links to tutorials are available on the _Resources_ page.
 
-1. [Otter.ai](https://otter.ai/login).
-
-2. [Happy Scribe](https://www.happyscribe.com/)
-
-3. [Watson](https://speech-to-text-demo.ng.bluemix.net/); note the "detect multiple speakers" option.
-
-
+    * [Otter.ai](https://otter.ai/login)
+    
+    * [Happy Scribe](https://www.happyscribe.com/)
+    
+    * [Watson](https://speech-to-text-demo.ng.bluemix.net/); note the "detect multiple speakers" option. 
+    
 ## STEP 2: Transcribe 
 
 1. Download the following audio files. Note that the link takes you to the page where the file is archived; click the 'download' button to save it to your computer.
