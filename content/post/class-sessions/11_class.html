@@ -1,7 +1,7 @@
 ---
 title: 'Week 11: In-Class Work'
 # author: "Emilio M. Bruna"
-# date: "last update: 15 March 2022"
+# date: "last update: 18 March 2022"
 # header-includes:
 #    - \usepackage[default]{sourcesanspro}
 #    - \usepackage[T1]{fontenc}
@@ -10,8 +10,8 @@ geometry: margin=1in
 fontsize: 12pt
 linkcolor: blue
 urlcolor: blue
-output:
-  pdf_document: default
+output: html_document
+  # pdf_document: default
   # html_document:
   #   df_print: paged
   # rmdformats::robobook: default
@@ -54,6 +54,118 @@ header-includes:
 
 <!-- Note: to rendr as pdf delete the \newline -->
 <!-- # **LAS 6292 WEEK 2 ASSIGNMENT: Data Storage and Backup**  -->
-<p># Transcription &amp; Translation</p>
-<p>## Part 1</p>
-<p>## Part 2</p>
+<div id="transcription-translation" class="section level1">
+<h1>Transcription &amp; Translation</h1>
+<div id="objectives-and-competencies" class="section level2">
+<h2>Objectives and Competencies:</h2>
+<ul>
+<li>Understand the different approaches to translation and the research questions for which each is most appropriate</li>
+<li>Become familiar with software for automated translation via direct upload and api</li>
+<li>Learn to use the different types of automated and manual transcription tools</li>
+<li>Understand the strengths and weaknesses of automated translation</li>
+<li>Be able to describe the metadata required for transcription files</li>
+</ul>
+</div>
+<div id="breakout-1-translation-of-texts-into-english" class="section level2">
+<h2>Breakout 1: Translation of Texts into English</h2>
+<ol style="list-style-type: decimal">
+<li>Download the following .txt files. Note that the link takes you to a page on your browsewr; use “save this page as” to download it to your computer.</li>
+</ol>
+<p><a href="https://raw.githubusercontent.com/BrunaLab/LAS6292_DataManagement/master/static/course-materials/class-sessions/11-transcription-translation/translation_text/spanish_text_1voice.txt"><code>spanish_text_1voice.txt</code></a></p>
+<p><a href="https://raw.githubusercontent.com/BrunaLab/LAS6292_DataManagement/master/static/course-materials/class-sessions/11-transcription-translation/translation_text/turkish_text.txt"><code>turkish_text.txt</code></a></p>
+<p><a href="https://raw.githubusercontent.com/BrunaLab/LAS6292_DataManagement/master/static/course-materials/class-sessions/11-transcription-translation/translation_text/spanish_text_1voice.txt"><code>spanish_text_interview.txt</code></a></p>
+<!-- [`spanish_text_interview.txt`] -->
+</div>
+<div id="step-1-text-translations" class="section level2">
+<h2>STEP 1: Text Translations</h2>
+<p>Translate the text files with MS Word and Google Docs</p>
+<ol style="list-style-type: decimal">
+<li><p>Google Docs: <a href="https://support.google.com/docs/answer/187189?co=GENIE.Platform%3DDesktop&amp;hl=en">in-doc translation</a> (create a new google doc, cut-and-paste the text into the Google Doc, save it, and translate)</p></li>
+<li><p>MS Word: <a href="https://support.microsoft.com/en-us/topic/translate-text-into-a-different-language-287380e4-a56c-48a1-9977-f2dca89ce93f">in-doc translation</a></p></li>
+</ol>
+</div>
+<div id="step-2-save" class="section level2">
+<h2>STEP 2: Save</h2>
+<p>Save the translations in your Google Drive in a folder called “class_translations” with the following file names and formats:</p>
+<ol style="list-style-type: decimal">
+<li><p>MS Word: .txt file: <code>MSWord_[original language]_to_english.txt</code></p></li>
+<li><p>Google: new GoogleDoc: <code>google_[original language]_to_english</code></p></li>
+</ol>
+</div>
+<div id="step-3-compare" class="section level2">
+<h2>STEP 3: Compare</h2>
+<ol style="list-style-type: decimal">
+<li>Paste the translations into the <a href="https://www.diffchecker.com/diff">Text Comparison Website</a>. Note that you may have to adjust the spacing in the text files to make the text align.</li>
+</ol>
+</div>
+<div id="step-4-discuss" class="section level2">
+<h2>STEP 4: Discuss</h2>
+<ol style="list-style-type: decimal">
+<li><p>Are there are any differences in the way key words or concepts were translated?</p></li>
+<li><p>Are there circumstances under which these could influence the interpretation of the writer’s intent? Subtleties of language like formality of tense, tone, or meaning?</p></li>
+<li><p>Do any of them seem “better” or “more accurate”?</p></li>
+</ol>
+</div>
+<div id="part-2" class="section level2">
+<h2>Part 2</h2>
+</div>
+</div>
+<div id="breakout-2-transcription" class="section level1">
+<h1>Breakout 2: TRANSCRIPTION</h1>
+<p>We will try transcribing audio recorded in different languages using different online services; note that not all languages will be available in all services.</p>
+<div id="step-1.-sign-up-for-an-account" class="section level2">
+<h2>STEP 1. Sign up for an account</h2>
+<p>Sign up for accounts with the following transcription services. You can cancel the accounts if you think you won’t need them afterwards. Additional details and links to tutorials are available on the <em>Resources</em> page.</p>
+<ol style="list-style-type: decimal">
+<li><p><a href="https://otter.ai/login">Otter.ai</a>.</p></li>
+<li><p><a href="https://www.happyscribe.com/">Happy Scribe</a></p></li>
+<li><p><a href="https://speech-to-text-demo.ng.bluemix.net/">Watson</a>; note the “detect multiple speakers” option.</p></li>
+</ol>
+</div>
+<div id="step-2-transcribe" class="section level2">
+<h2>STEP 2: Transcribe</h2>
+<ol style="list-style-type: decimal">
+<li><p>Download the following audio files. Note that the link takes you to the page where the file is archived; click the ‘download’ button to save it to your computer.</p>
+<ul>
+<li><p><a href="https://github.com/BrunaLab/LAS6292_DataManagement/blob/37ebab30eb5744a2a501572cd3b7fc2772009a34/static/course-materials/class-sessions/11-transcription-translation/translation_audio/turkish_audio.mp3"><code>turkish_audio.mp3</code></a></p></li>
+<li><p><a href="https://github.com/BrunaLab/LAS6292_DataManagement/blob/master/static/course-materials/class-sessions/11-transcription-translation/translation_audio/spanish_audio_1voice.mp3"><code>spanish_audio1_voice.mp3</code></a></p></li>
+</ul></li>
+</ol>
+<!-- 1. `portuguese_audio.mp3`  -->
+<!-- indonesian_audio.mp3 -->
+<!-- mandarin1_audio.mp3 -->
+<!-- mandarin2_audio.mp3 -->
+<!-- english_audio.mp3   -->
+<ol start="2" style="list-style-type: decimal">
+<li><p>Now transcribe these audio files with each of the different services (note that not all services will transcribe all languages).</p></li>
+<li><p>Save the resulting transcriptions files as Google Docs or .txt files. Use the following naming convention: <code>transcription_[language]_[name of service]</code></p></li>
+</ol>
+</div>
+<div id="step-3-translate" class="section level2">
+<h2>STEP 3: Translate</h2>
+<ol style="list-style-type: decimal">
+<li><p>Translating these transcriptions to English with Google Docs</p></li>
+<li><p>Save with the following file names: <code>translation_[language]_[name of transcription service]</code> (e.g., <code>translation_spanish_happyscribe</code>)</p></li>
+<li><p>Paste the <em>translations from transcription</em> and the <em>translaiton from the original .txt files</em> (used in the translation breakout) into the <a href="https://www.diffchecker.com/diff">Text Comparison Website</a>. You may have to adjust the spacing in the text files to make the text align.</p></li>
+</ol>
+</div>
+<div id="step-4-discuss-1" class="section level2">
+<h2>STEP 4: Discuss</h2>
+<ol style="list-style-type: decimal">
+<li><p>Do the transcriptions appear accurate?</p></li>
+<li><p>What about the translations from transcriptions? Is there a loss in quality when going from audio-to-text-to-English when compared with text-to-English</p></li>
+<li><p>What would be the best approach for research:</p>
+<ol style="list-style-type: lower-alpha">
+<li>transcribing, editing the transcription, then translating, or</li>
+<li>transcribing, translating, then correcting?</li>
+</ol></li>
+</ol>
+</div>
+<div id="submission" class="section level2">
+<h2>Submission</h2>
+<p>When done please submit via Canvas:
+1) the translations from part 1 (N=12 files),
+2) the transcriptions from part 2 (N=2 files), and
+3) your responses to the discussion questions</p>
+</div>
+</div>
