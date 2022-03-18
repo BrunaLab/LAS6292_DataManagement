@@ -104,21 +104,21 @@ Save the translations in your Google Drive in a folder called "class_translation
 3. Do any of them seem "better" or "more accurate"? 
 
 
-# **Breakout 2:** TRANSCRIPTION 
+## **Breakout 2:** TRANSCRIPTION 
 
 We will try transcribing audio recorded in different languages using different online services; note that not all languages will be available in all services. 
 
-## STEP 1. Sign up for an account 
+### STEP 1. Sign up for an account 
 
 Sign up for accounts with the following transcription services. You can cancel the accounts if you think you won't need them afterwards. Additional details and links to tutorials are available on the _Resources_ page.
 
-    * [Otter.ai](https://otter.ai/login)
+  * [Otter.ai](https://otter.ai/login)
     
-    * [Happy Scribe](https://www.happyscribe.com/)
+  * [Happy Scribe](https://www.happyscribe.com/)
     
-    * [Watson](https://speech-to-text-demo.ng.bluemix.net/); note the "detect multiple speakers" option. 
+  * [Watson](https://speech-to-text-demo.ng.bluemix.net/); note the "detect multiple speakers" option. 
     
-## STEP 2: Transcribe 
+### STEP 2: Transcribe 
 
 1. Download the following audio files. Note that the link takes you to the page where the file is archived; click the 'download' button to save it to your computer.
 
@@ -139,7 +139,7 @@ Sign up for accounts with the following transcription services. You can cancel t
 3. Save the resulting transcriptions files as Google Docs or .txt files. Use the following naming convention: `transcription_[language]_[name of service]`  
 
 
-## STEP 3: Translate
+### STEP 3: Translate
 
 1. Translating these transcriptions to English with Google Docs 
 
@@ -147,7 +147,7 @@ Sign up for accounts with the following transcription services. You can cancel t
 
 3. Paste the *translations from transcription* and the *translaiton from the original .txt files* (used in the translation breakout) into the [Text Comparison Website](https://www.diffchecker.com/diff). You may have to adjust the spacing in the text files to make the text align. 
 
-## STEP 4: Discuss
+### STEP 4: Discuss
 
 1. Do the transcriptions appear accurate? 
 
