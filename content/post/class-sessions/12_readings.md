@@ -47,12 +47,13 @@ type: book
 
 2. **Videos:** 
 
-* [Paperless Data Collection]
+* **Paperless Data Collection**  
 
   {{< youtube j5GWpDx_Ytw >}}  
 
 
-* Great tutorials by UConn's David Dickson  
+* **Great tutorials by UConn's David Dickson**  
+
 
     * [Intro to EpiCollect 5](https://kaltura.uconn.edu/playlist/dedicated/1_14lpwsw0/1_fmj06huc)  
             
