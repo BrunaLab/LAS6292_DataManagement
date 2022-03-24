@@ -47,7 +47,10 @@ type: book
 
 2. **Videos:** 
 
-* [Paperless Data Collection](https://youtu.be/n8aoe3pXCGU). _Note: this is last year's, I'm editing it to make it a bit more efficient   _
+* [Paperless Data Collection]
+
+  {{< youtube j5GWpDx_Ytw >}}  
+
 
 * Great tutorials by UConn's David Dickson  
 
