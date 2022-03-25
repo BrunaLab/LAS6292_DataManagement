@@ -20,7 +20,9 @@ projects: []
 
 ## Paperless Data Collection
 
-### Part 1a: Using EpiCollect5 to gather data.
+### Part 1: Using EpiCollect5 to gather data.
+
+#### Part 1a: Collecting and Uploading Data
 
 1. Download the Epicollect5 app and install it on a phone or tablet.
 
@@ -40,7 +42,7 @@ projects: []
 
 7. Keep collecting data until you have data for three squirrels or 20 minutes have passed. 
 
-### Part 1b: Reviewing and downloading the data
+#### Part 1b: Reviewing and downloading the data
 
 1. Open the [EpiCollect5 website](https://five.epicollect.net/) and login with your Google account
 
@@ -52,8 +54,7 @@ projects: []
 
 5. After verifying your data have been added, submit the csv file as Part 1 of the homework via Canvas.
 
-
-# Part 2: Create a form using EpiCollect
+### Part 2: Create a form using EpiCollect
 
 1. After logging into the website, select "My Projects" in the upper right  
 
