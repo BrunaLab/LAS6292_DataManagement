@@ -18,7 +18,7 @@ image:
 projects: []
 ---
 
-## Paperless Data Collection
+# Paperless Data Collection
 
 ### Part 1: Using EpiCollect5 to gather data.
 
