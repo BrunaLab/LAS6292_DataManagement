@@ -122,8 +122,8 @@ Friday, Periods 6-8 (12:50-3:50) in Grinter 376
     <td>3/25</td>
     <td>‘Paperless’ Data Collection</td>
     <td>{{% staticref "/post/class-sessions/readings-week-12" "newtab" %}}<i class="fas fa-book-open"></i>{{% /staticref %}}</td> 
-   <td><i class="fas fa-clipboard-list"></i></td>
-    <td><i class="fas fa-photo-video"></i></td>
+    <td>{{% staticref "/post/class-sessions/class-week-12" %}}<i class="fas fa-clipboard-list"></i>{{% /staticref %}}</td>
+    <td>{{% staticref "course-materials/class-sessions/12-paperless-data-collection/wk12_notes.pdf" "newtab" %}}<i class="fas fa-photo-video"></i>: Notes{{% /staticref %}}</td>
   </tr><tr>
     <td>13</td>
     <td>4/1</td>
