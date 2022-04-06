@@ -14,20 +14,20 @@
 # pdf_file <- "./IMG_0074_export.pdf"
 # txt <- pdf_text(pdf_file)
 # cat(txt[1])
-# 
+#~/Dropbox (UFL)/Teaching/LAS 6292 - Data Collection & Management/LAS6292_DataManagement/static/course-materials/class-sessions/13-automated-data-extraction/austin_example_text_extract_r
 library(tesseract) #do all in one
 tesseract_info() # what languages do you have installed?
 tesseract_download("por") # install portuguese
-text <- tesseract::ocr("./student_projects/austin/IMG_0074.JPG", engine = "por")
+text <- tesseract::ocr("./static/course-materials/class-sessions/13-automated-data-extraction/austin_example_text_extract_r/IMG_0074.JPG", engine = "por")
 cat(text)
 # you can see requires some cleanup 
 # (note the \n and \a etc indicate line breaks, etc) but not much
 # and can be done via coding)
 
 
-files <- list.files(path = "./austin", pattern = "*.JPG", full.names = T)
+files <- list.files(path = "./static/course-materials/class-sessions/13-automated-data-extraction/austin_example_text_extract_r/austin", pattern = "*.JPG", full.names = T)
 austin <- sapply(files, tesseract::ocr, simplify=FALSE) %>% 
   bind_rows(.id = "id")
-austin <- pivot_longer(austin,cols = starts_with("./austin"),names_to="file")
+austin <- pivot_longer(austin,cols = starts_with("./static"),names_to="file")
 
 

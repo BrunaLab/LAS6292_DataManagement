@@ -13,8 +13,8 @@ library(gutenbergr)
 
 
 # list of books -----------------------------------------------------------
-
-gutenberg_metadata
+gm<-gutenberg_metadata
+gm
 
 
 
@@ -43,6 +43,11 @@ words <- lw %>%
   unnest_tokens(word, text)
 
 # install.packages("stopwords")
+
+# stopwords<-stopwords()
+# > stopwords<-as.data.frame(stopwords)
+
+
 library(stopwords)
 words <- words %>% 
   anti_join(get_stopwords())
