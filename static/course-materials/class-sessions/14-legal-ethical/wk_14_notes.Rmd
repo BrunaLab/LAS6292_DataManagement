@@ -1,0 +1,137 @@
+---
+title: "LAS 6292: Data, Ethics, and the Law"
+date: "updated: `r Sys.Date()`"
+header-includes:
+- \AtBeginDocument{\let\maketitle\relax} # this removes default title section
+- \usepackage[default]{sourcesanspro}
+- \usepackage{fancyhdr} # modify header into left, center, right
+- \pagestyle{fancy} # cues the use of fancy headers
+- \fancyfoot{} # cues the use of fancy footer
+# month & year on header left
+- \fancyhead[L]{LAS 6292 Spring `r format(Sys.time(), '%Y')`, EM Bruna} 
+# name and page on header right
+- \fancyhead[R]{Data Ethics, and the Law, p. \thepage} 
+- \fancyfoot[R]{Last update `r format(Sys.time(), '%d %B %Y')`}
+# - \usepackage{setspace}{singlespace} # manipulate line spacing 
+- \usepackage{parskip} # manipulate indents and spacing before/after paragra phs 
+- \usepackage{xcolor} # changes colors of text
+# to center to top level (#) headings (my name) and change color of font
+# more info # https://www.ctan.org/pkg/sectsty
+- \usepackage{sectsty} \sectionfont{\centering\color{darkmidnightblue}}
+# to center to sub-sub-headings (###) and change color of font
+- \usepackage{sectsty} \subsectionfont{\color{darkmidnightblue}}
+# http://latexcolor.com/ to choose colors
+# define the colors used above with rgb codes
+- \definecolor{darkcerulean}{rgb}{0.03, 0.27, 0.49}
+- \definecolor{darkmidnightblue}{rgb}{0.0, 0.2, 0.4}
+# - \usepackage{ragged2e}
+# - \setlength\RaggedRightParindent{15pt}
+# - \RaggedRight - # make the right margin ragged
+# https://tex.stackexchange.com/questions/258714/prevent-hyphenation-across-lines-enforce-right-margin
+# - \hyphenpenalty=10000 #to suppress ordinary hyphenation
+# - \exhyphenpenalty=10000 #to prohibit line breaks at explicit hyphens.
+# - \setstretch{1.0}
+
+# https://babichmorrowc.github.io/post/changing-fonts-in-rmarkdown-pdfs/
+
+mainfont: SourceSansPro
+geometry: margin=1in
+fontsize: 12pt
+linkcolor: blue
+urlcolor: blue
+output:
+  pdf_document: default
+  # html_document:
+  #   df_print: paged
+  # rmdformats::robobook: default
+---
+
+
+```{r setup, include=FALSE}
+library(knitr)
+library(rmdformats)
+knitr::opts_chunk$set(echo = TRUE)
+## Global options
+options(max.print="75")
+opts_chunk$set(echo=FALSE,
+	             cache=TRUE,
+               prompt=FALSE,
+               tidy=TRUE,
+               comment=NA,
+               message=FALSE,
+               warning=FALSE)
+opts_knit$set(width=75)
+```
+
+# Tools & Resources: Ethics & Legal Compliance
+
+## Data / Research Ethics & Compliance for UF Researchers
+
+1. [UF Research Misconduct Homepage](https://research.ufl.edu/compliance/research-integrity.html): Policy, Training, Reporting, and Best Practices
+1. [UF Office of Research Integrity and Compliance](https://compliance.ufl.edu/) (Research Integrity & Compliance)
+1. Info for UF Researchers regarding [Risk Assesment for International Collaborations and Export Control](https://research.ufl.edu/compliance.html)
+1. [UF IACUC](https://iacuc.ufl.edu/)
+1. [UF IRB](https://irb.ufl.edu/)
+1. [UF Privacy Office](https://privacy.ufl.edu/)
+
+
+## Intro: Privacy
+
+1. NIH: [what is HIPPA?](https://www.cdc.gov/phlp/publications/topic/hipaa.html#:~:text=The%20Health%20Insurance%20Portability%20and,the%20patient's%20consent%20or%20knowledge.)
+1. What is the EU General Data Protection Regulation (GDPR)? [(link 1)](https://www.ukri.org/wp-content/uploads/2020/10/UKRI-020920-GDPR-FAQs.pdf), [(link 2)](https://www.wired.co.uk/article/what-is-gdpr-uk-eu-legislation-compliance-summary-fines-2018), [(link 3 - UF)](https://privacy.ufl.edu/european-union-general-data-protection-regulation-eu-gdpr/)
+1. What is [FERPA?](https://registrar.ufl.edu/ferpa/) 
+
+## Anonymizing Data: Introduction
+
+1. [Intro to Anonymization](https://en.wikipedia.org/wiki/Data_anonymization)
+1. [Overview by Martin Monkman](https://bookdown.org/martin_monkman/DataScienceResources_book/anonymity-and-confidentiality.html)
+1. [EDUCASE Guidelines for Data De-Identification or Anonymization](https://www.educause.edu/focus-areas-and-initiatives/policy-and-security/cybersecurity-program/resources/information-security-guide/toolkits/guidelines-for-data-deidentification-or-anonymization)
+
+## Tools for Anonymizing Data
+1. With R
+    * Martin Monkman's link to [R packages for Anonymizing Data](https://bookdown.org/martin_monkman/DataScienceResources_book/anonymity-and-confidentiality.html)
+
+1. With other tools, including stand-alone software and online tools
+    * [list of free tools](https://windowsreport.com/data-anonymization-software/)
+    * [ARX (open source, free)](https://arx.deidentifier.org/)
+    * [Amnesia (open source, free)](https://amnesia.openaire.eu/index.html)
+    * De-identification Tools from [NIST](https://www.nist.gov/itl/applied-cybersecurity/privacy-engineering/collaboration-space/focus-areas/de-id/tools)
+    * [AirCloak (paid)](https://www.techfunnel.com/information-technology/3-types-of-data-anonymization-techniques-and-tools-to-consider/)
+
+
+## Data Protocols for Working with Indigenous Communities
+
+1. [Indigenous peoples and responsible data: an introductory reading list](https://responsibledata.io/2017/09/22/indigenous-peoples-responsible-data-readings/)
+1. [CARE Principles for Indigenous Data Governance](https://www.gida-global.org/care ) 
+1. Carroll, S.R., Herczog, E., Hudson, M. et al. Operationalizing the CARE and FAIR Principles for Indigenous data futures. Sci Data 8, 108 (2021). https://doi.org/10.1038/s41597-021-00892-0
+
+## Data Collection, Privacy, and Gender
+
+1. [How to Ethically and Responsibly Identify Gender in Large Datasets](http://mediashift.org/2014/11/how-to-ethically-and-responsibly-identify-gender-in-large-datasets/)
+1. Clair A Kronk et al. 2022. Transgender data collection in the electronic health record: Current concepts and issues. _Journal of the American Medical Informatics Association_ 29(2):271–284 [https://doi.org/10.1093/jamia/ocab136](https://doi.org/10.1093/jamia/ocab136)
+1. Heidari, S. et al. 2016. Sex and Gender Equity in Research: rationale for the SAGER guidelines and recommended use. _Res Integr Peer Rev_ 1,2 (2016). [https://doi.org/10.1186/s41073-016-0007-6](https://doi.org/10.1186/s41073-016-0007-6)
+
+## Emerging Issues resulting from Technological Advancements
+
+1. [Automated Data Collection: The Big Picture and Legal Issues](http://methods.sagepub.com/video/automated-data-collection-the-big-picture-and-legal-issues)
+1. [Are transcription services HIPPA compliant?](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6450678/) 
+1. Di Minin, E. et al. 2021. How to address data privacy concerns when using social media data in conservation science. _Conservation Biology_, 35:437-446. [https://doi.org/10.1111/cobi.13708](https://doi.org/10.1111/cobi.13708)
+
+
+## Text Mining, Copyright, and the Law
+
+1. [Text and Data Mining of In-Copyright Works: Is It Legal?](https://cacm.acm.org/magazines/2021/11/256379-text-and-data-mining-of-in-copyright-works/fulltext)
+1. [The plan to mine the world’s research papers](https://www.nature.com/articles/d41586-019-02142-1)
+1. [Copyright and the Progress of Science: Why Text and Data Mining Is Lawful](https://lawreview.law.ucdavis.edu/issues/53/2/articles/files/53-2_Carroll.pdf)
+1. [Copyright's impact on data mining in academic research](https://digitalcommons.schulichlaw.dal.ca/cgi/viewcontent.cgi?article=1730&context=scholarly_works)
+1. [Text and Data Mining at Springer Nature](https://www.springernature.com/gp/researchers/text-and-data-mining)
+1. UF Library Guide: [Copyright on Campus: Essentials](https://guides.uflib.ufl.edu/copyright)
+1. UF Library Guide: [Data Sharing & Copyright](http://guides.uflib.ufl.edu/c.php?g=147756&p=966842)  
+  
+## Ethics of Data Sharing
+
+1. [Commit to transparent COVID data until the WHO declares the pandemic is over](https://www.nature.com/articles/d41586-022-00424-9?WT.ec_id=NATURE-20220224&utm_source=nature_etoc&utm_medium=email&utm_campaign=20220224&sap-outbound-id=DB87975629A301CCF242D0DE9D803B1486710C9C)
+1. [NIH issues a seismic mandate: share data publicly](https://www.nature.com/articles/d41586-022-00402-1?WT.ec_id=NATURE-20220224&utm_source=nature_etoc&utm_medium=email&utm_campaign=20220224&sap-outbound-id=DB87975629A301CCF242D0DE9D803B1486710C9C)
+
+
+

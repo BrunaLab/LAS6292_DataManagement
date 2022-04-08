@@ -137,7 +137,7 @@ Friday, Periods 6-8 (12:50-3:50) in Grinter 376
     <td>Legal & Ethical Issues</td>
     <td>{{% staticref "/post/class-sessions/readings-week-14" "newtab" %}}<i class="fas fa-book-open"></i>{{% /staticref %}}</td> 
     <td><i class="fas fa-clipboard-list"></i></td>
-    <td><i class="fas fa-photo-video"></i></td>
+    <td>{{% staticref "course-materials/class-sessions/14-legal-ethical/wk_14_notes.pdf" "newtab" %}}<i class="fas fa-photo-video"></i>: Notes{{% /staticref %}}</td>
   </tr><tr>
     <td>15</td>
     <td>4/15</td>
