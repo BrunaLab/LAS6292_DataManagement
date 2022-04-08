@@ -41,7 +41,7 @@ linkcolor: blue
 urlcolor: blue
 output:
   # pdf_document: default
-  html_document: default
+  html_document: defauilt
   #   df_print: paged
   # rmdformats::robobook: default
 ---
