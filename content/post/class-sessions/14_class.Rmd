@@ -50,6 +50,11 @@ header-includes:
 ---
 
 
+```{r packages, echo=FALSE, message=FALSE, warning=FALSE}
+library(knitr)
+library(kableExtra)
+library(tidyverse)
+```
 
 ## In-Class Exercise: Data, Ethics, & the Law
 
@@ -58,10 +63,7 @@ header-includes:
 1. Exercise 1: Finalize this "anonymization log' for one of your interviews. How would you anonymize each entry? 
 
 
-```{r anon_log, echo=FALSE, messages=FALSE, warnings=FALSE}
-library(knitr)
-library(kableExtra)
-library(tidyverse)
+```{r anon_log, echo=FALSE, message=FALSE, warning=FALSE}
 
 col1<-c(
 "Int1 p1",
