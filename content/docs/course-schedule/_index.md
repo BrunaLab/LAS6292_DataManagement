@@ -141,10 +141,10 @@ Friday, Periods 6-8 (12:50-3:50) in Grinter 376
   </tr><tr>
     <td>15</td>
     <td>4/15</td>
-    <td>Data Sharing, Reuse, & Archives</td>
+    <td>Data Sharing, Reuse, & Archives (Edit: DataViz upon request of students)</td>
     <td>{{% staticref "/post/class-sessions/readings-week-15" "newtab" %}}<i class="fas fa-book-open"></i>{{% /staticref %}} </td> 
    <td>{{% staticref "/post/class-sessions/15_class" %}}<i class="fas fa-clipboard-list"></i>{{% /staticref %}}</td>
-    <td><i class="fas fa-photo-video"></i></td>
+    <td>{{% staticref "course-materials/class-sessions/15-dataviz/dataviz_slides.pdf" "newtab" %}}<i class="fas fa-photo-video"></i>: Slides{{% /staticref %}}</td>
   </tr><tr>
     <td>Finals</td>
     <td>4/29</td>
