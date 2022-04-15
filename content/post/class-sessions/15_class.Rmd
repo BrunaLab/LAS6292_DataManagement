@@ -10,9 +10,8 @@ geometry: margin=1in
 fontsize: 12pt
 linkcolor: blue
 urlcolor: blue
-output: html_document
-  
-  # pdf_document: default
+output:
+  pdf_document: default
   # html_document:
   #   df_print: paged
   # rmdformats::robobook: default
@@ -51,6 +50,7 @@ header-includes:
 ---
 
 
+
 ```{r packages, echo=FALSE, message=FALSE, warning=FALSE}
 library(knitr)
 library(kableExtra)
@@ -63,24 +63,24 @@ library(tidyverse)
 
 1) First, you're going to need to download some datasets. Here are three we will be working with in class: 
 
-- [cereal.csv](https://raw.githubusercontent.com/BrunaLab/LAS6292_DataManagement/65fb8a791f18b7181fc6554f3bd7b206f5e71456/static/course-materials/class-sessions/15-dataviz/demo_datasets/cereal.csv) - data on the nutitional content of different brreakfast cereals.
+- [cereal.csv](https://raw.githubusercontent.com/BrunaLab/LAS6292_DataManagement/65fb8a791f18b7181fc6554f3bd7b206f5e71456/static/course-materials/class-sessions/15-dataviz/demo_datasets/cereal.csv) - data on the nutritional content of different breakfast cereals.
 
 - [bites.csv](https://raw.githubusercontent.com/BrunaLab/LAS6292_DataManagement/65fb8a791f18b7181fc6554f3bd7b206f5e71456/static/course-materials/class-sessions/15-dataviz/demo_datasets/bites_summary.csv). Which dogs bite the most?
 
 - [bigfoot.csv](https://raw.githubusercontent.com/BrunaLab/LAS6292_DataManagement/65fb8a791f18b7181fc6554f3bd7b206f5e71456/static/course-materials/class-sessions/15-dataviz/demo_datasets/annual_bigfoot.csv). Number of bigfoot sightings per year in North America
 
 
-2) We're going to make a bar plot, then a scatter plot. Firs you read in the data using `read_csv()`
+2) We're going to make a bar plot, then a scatter plot. First you read in the data using `read_csv()`:
 
-`bites<-read_csv("./-------")`
-`bigfoot<-read_csv("./-------")`
+      - `bites<-read_csv("./-------")`  
+      - `bigfoot<-read_csv("./-------")`
 
-Then we will walk through this code - you can download it later:   [viz_code.class.R](https://github.com/BrunaLab/LAS6292_DataManagement/blob/master/static/course-materials/class-sessions/15-dataviz/viz_code_class.R)
-
-
-3) After we lear to make the basic figures, your job is to make a figure as ugly as possible. If you need some inspiration, [check out these examples!](https://twitter.com/drdrewsteen/status/1172547837046820864?s=12)
+3) Then we will walk through this code (you can download it later):   [viz_code.class.R](https://github.com/BrunaLab/LAS6292_DataManagement/blob/master/static/course-materials/class-sessions/15-dataviz/viz_code_class.R)
 
 
+4) After we lear to make the basic figures, your job is to make a figure as ugly as possible. If you need some inspiration, [check out these examples!](https://twitter.com/drdrewsteen/status/1172547837046820864?s=12)
+
+5) Submit them via canvas, and we will vote on the best (=worst) one next week!
 PS Here are some resources that will really help today: 
 
 - [The R Graph Gallery](https://r-graph-gallery.com/index.html)
