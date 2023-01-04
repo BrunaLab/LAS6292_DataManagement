@@ -25,7 +25,11 @@ Tuesday, Periods 3-5 (9:35 am - 12:35 pm) in 376 Grinter Hall
 
 ## Course Schedule  
 
-**_This is the schedule for 2023 but the linked materials are from 2022_**
+{{% callout warning %}}
+
+This is the schedule for 2023 but the linked materials are from 2022
+
+{{% /callout %}}
 
 <!-- code for readings link: <td>{{% staticref "/post/class-sessions/readings-week-5" "newtab" %}}<i class="fas fa-book-open"></i>{{% /staticref %}}</td>  ---> 
 
