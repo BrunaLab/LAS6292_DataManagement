@@ -11,16 +11,21 @@ weight: 2
 ---
 
 
-## Syllabus  
- 
-The complete and updated course syllabus can be downloaded {{% staticref "course-materials/syllabus/LAS6292_Syllabus.pdf" "newtab" %}}here{{% /staticref %}}.
- 
+## Syllabus   
+
+{{% callout note %}}
+
+The complete and updated course syllabus with all dates, assignments, and course policies can be downloaded {{% staticref "static/uploads/LAS6292_Syllabus.pdf" "newtab" %}}here{{% /staticref %}}.
+
+{{% /callout %}}
+
 ## Class Sessions  
 
-Friday, Periods 6-8 (12:50-3:50) in Grinter 376
+Tuesday, Periods 3-5 (9:35 am - 12:35 pm) in 376 Grinter Hall 
 
 ## Course Schedule  
 
+**_Coming Soon_**
 
 <!-- code for readings link: <td>{{% staticref "/post/class-sessions/readings-week-5" "newtab" %}}<i class="fas fa-book-open"></i>{{% /staticref %}}</td>  ---> 
 
@@ -29,6 +34,7 @@ Friday, Periods 6-8 (12:50-3:50) in Grinter 376
 <!-- code for slides link: <td>{{% staticref "course-materials/class-sessions/01-intro/01_slides_2022.pdf" "newtab" %}}<i class="fas fa-photo-video"></i>{{% /staticref %}} </td> ---> 
 
 
+<!-- 
 <table>
   <tr>
     <th>Week</th>
@@ -154,5 +160,7 @@ Friday, Periods 6-8 (12:50-3:50) in Grinter 376
     <td> </td>
   </tr><tr>
 </table>
+
+---> 
 
 

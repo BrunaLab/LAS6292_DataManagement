@@ -16,4 +16,4 @@ Dr. Emilio M. Bruna (he/him) [[website]](http://brunalab.org/emilio-m-bruna/)
 Phone: (352) 846-0634 | email: embruna@ufl.edu
 
 ## Office Hours  
-Tuesday and Thursday 10:30 am -12:00 pm in the [Tropical Ecology & Conservation Lab](https://tropicos.netlify.app/#hero) or via Zoom (link on class canvas page). You can [sign up for an appointment in advance](https://embruna.youcanbook.me/); you don't have to sign up for an appointment, but signing up guarantees a specific time slot so you don't have to wait in line.
+Wednesday and Thursday 10:00-11:40 pm in the Tropical Ecology & Conservation Lab (directions at http://brunalab.org/contact-find-us/) or via Zoom (the link is on class canvas page). You can sign up for an appointment in advance here: https://embruna.youcanbook.me/); you don't have to do so, but it guarantees a specific time slot so you don't have to wait in line.
