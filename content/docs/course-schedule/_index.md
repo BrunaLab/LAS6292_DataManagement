@@ -99,11 +99,12 @@ This is the schedule for 2023 but the linked materials are from 2022
   --->
   <tr>
     <td>6</td>
-    <td>2/14</td>
+ <!--   <td>2/14</td>
     <td>Data Validation & Correction 2</td>
     <td>{{% staticref "/post/class-sessions/readings-week-6" "newtab" %}}<i class="fas fa-book-open"></i>{{% /staticref %}}</td> 
     <td>{{% staticref "/post/class-sessions/class-week-6" %}}<i class="fas fa-clipboard-list"></i>{{% /staticref %}}</td>
     <td> none </td>
+    --->
   </tr>
   
   <tr>
