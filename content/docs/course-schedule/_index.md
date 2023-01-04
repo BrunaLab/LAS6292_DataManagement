@@ -129,7 +129,7 @@ This is the schedule for 2023 but the linked materials are from 2022
     <td>9</td>
     <td>3/7</td>
     <td>Data Visualization</td>
-    <td>{{% staticref "/post/class-sessions/readings-week-15" "newtab" %}}<i class="fas fa-book-open"></i>{{% /staticref %}} </td> 
+ <!--   <td>{{% staticref "/post/class-sessions/readings-week-15" "newtab" %}}<i class="fas fa-book-open"></i>{{% /staticref %}} </td> 
  <!--  <td>{{% staticref "/post/class-sessions/15_class" %}}<i class="fas fa-clipboard-list"></i>{{% /staticref %}}</td>
     <td>{{% staticref "course-materials/class-sessions/15-dataviz/dataviz_slides.pdf" "newtab" %}}<i class="fas fa-photo-video"></i>: Slides{{% /staticref %}}</td>
   </tr>
