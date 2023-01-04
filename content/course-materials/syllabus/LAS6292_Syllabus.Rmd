@@ -128,14 +128,14 @@ Topic <- c(
   "Data Validation & Correction 2",
   "Documentation: Metadata, Codebooks",
   "Data Management Plans",
-  "Efficient Data Collection",
+  "Data Visualization",
   "No Class - Spring Break ",
+  "Efficient Data Collection",
   "Transcription & Translation",
   "Paperless Data Collection",
   "Automated Data Extraction",
   "Legal & Ethical Issues",
-  "Data Sharing, Reuse, & Archives 1",
-  "Data Sharing, Reuse, & Archives 2",
+  "Data Sharing, Reuse, & Archives",
   "Submission of Final Projects by 5 pm"
 )
 
@@ -326,22 +326,29 @@ kable(assignments,
 
 **Week 8: Data Management Plans**
 
+
+
+**Week 9: Spring Break**. 
+
+
+**Week 10: Data Visualization**. 
+
 1.  Michener, W. K. (2015). Ten simple rules for creating a good data management plan. PLoS computational biology, 11(10), e1004525.  [[read online]](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1004525) [[download pdf]](https://github.com/BrunaLab/LAS6292_DataManagement/blob/master/Assigned_Readings/Michener_2015_PloSBio.PDF)
 
 2. Goodman A, et al. (2014) Ten Simple Rules for the Care and Feeding of Scientific Data. PLoS Comput Biol 10(4): e1003542. *_this paper connects what we've done with what's next_*  [[read online]](https://doi.org/10.1371/journal.pcbi.1003542) [[download pdf]](https://github.com/BrunaLab/LAS6292_DataManagement/blob/master/Assigned_Readings/Goodman_etal_2014.pdf)  
 
-**Week 9: Efficient data collection**
+**Week 11: Efficient data collection**
 
 <!-- 1.  Redman, T. 2016. Bad Data Costs the U.S. $3 Trillion Per Year. Harvard Business Review.    [[read online]](https://hbr.org/2016/09/bad-data-costs-the-u-s-3-trillion-per-year#:~:text=How%20much%20is%20it%20costing%20you%3F&text=Consider%20this%20figure%3A%20%24136%20billion%20per%20year.&text=But%20here's%20another%20number%3A%20%243.1,the%20US%20alone%2C%20in%202016.) [[download pdf]](https://github.com/BrunaLab/LAS6292_DataManagement/blob/master/Assigned_Readings/Redman_2016.pdf) -->
 
 
-**Week 11: Transcription & Translation**
+**Week 12: Transcription & Translation**
 
 1.  Bakker, Rebecca. "Transcription Tools and Software" (2017). Works of the FIU Libraries. 62.   [[read online]](https://digitalcommons.fiu.edu/glworks/62) [[download pdf]](https://github.com/BrunaLab/LAS6292_DataManagement/blob/master/Assigned_Readings/Bakker_transcription_tools_slides.pdf)  
 
 2. Watch "The Text Wash team discusses text anonymization" [[link]](https://youtu.be/5fFO4ROg4Vw); related blog post [[link]](https://ocean.sagepub.com/blog/making-sensitive-text-data-accessible-for-computational-social-science)
 
-**Week 12: ‘Paperless’ data collection**
+**Week 13: ‘Paperless’ data collection**
 
 1.  Aanensen DM, Huntley DM, Feil EJ, al-Own F, Spratt BG (2009) EpiCollect: Linking Smartphones to Web Applications for Epidemiology, Ecology and Community Data Collection. PLoS ONE 4(9): e6968.  [[read online]](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0006968) [[download pdf]](https://github.com/BrunaLab/LAS6292_DataManagement/blob/master/Assigned_Readings/Aanensen_etal_2009.PDF)
 
@@ -349,13 +356,13 @@ kable(assignments,
 
 3.  Teacher, Amber G. F. et al. Smartphones in ecology and evolution: a guide for the app‐rehensive. Ecology and Evolution 3(16):5268– 5278  [[read online]](https://onlinelibrary.wiley.com/doi/full/10.1002/ece3.888)  [[download pdf]](https://github.com/BrunaLab/LAS6292_DataManagement/blob/master/Assigned_Readings/Teacher_etal_2013.pdf)
 
-**Week 13: Automated data extraction**
+**Week 14: Automated data extraction**
 
 1.  Drinkwater, R. E., Cubey, R. W., & Haston, E. M. (2014). The use of Optical Character Recognition (OCR) in the digitization of herbarium specimen labels. PhytoKeys, (38), 15-30.  [[read online]](doi:10.3897/phytokeys.38.7168) [[download pdf]](https://github.com/BrunaLab/LAS6292_DataManagement/blob/master/Assigned_Readings/Drinkwater_etal_2014.pdf)
 
 2.  Joo, Jungseock and Zachary C. Steinert-Threlkeld. 2019. Image as data: Automated visual content analysis for social science. [[read online]](https://ocean.sagepub.com/blog/image-as-data-automated-visual-content-analysis-for-social-science)  [[download pdf]](https://github.com/BrunaLab/LAS6292_DataManagement/blob/master/Assigned_Readings/Joo_and_Steinert-Threlkeld_2019.pdf)
 
-**Week 14: Legal and Ethical Issues**
+**Week 15: Legal and Ethical Issues**
 
 1.  de Koning M, Meyer B, Moors A, Pels P. 2019. Guidelines for anthropological research: Data management, ethics, and integrity. Ethnography. 20(2):170-174.  [[read online]](https://journals.sagepub.com/doi/10.1177/1466138119843312)  [[download pdf]](https://github.com/BrunaLab/LAS6292_DataManagement/blob/master/Assigned_Readings/Koning_etal_2019.pdf)
 
@@ -365,7 +372,7 @@ kable(assignments,
 
 4. Woodbury, R. B., Beans, J. A., Hiratsuka, V. Y., & Burke, W. (2019). Data Management in Health-Related Research Involving Indigenous Communities in the United States and Canada: A Scoping Review. Frontiers in genetics, 10, 942.  [[read online]](https://doi.org/10.3389/fgene.2019.00942)  [[download pdf]](https://github.com/BrunaLab/LAS6292_DataManagement/blob/master/Assigned_Readings/Goodluck_2020.pdf)
 
-**Week 15: Data Sharing, Reuse, & Archives**
+**Week 16: Data Sharing, Reuse, & Archives**
 
 1.  Alexander, S.M., Jones, K., Bennett, N.J. et al. Qualitative data sharing and synthesis for sustainability science. Nat Sustain 3, 81–88 (2020).  [[read online]](https://doi.org/10.1038/s41893-019-0434-8 )  [[download pdf]](https://github.com/BrunaLab/LAS6292_DataManagement/blob/master/Assigned_Readings/Alexander_etal_2019_NatureSustainability.pdf)
 
@@ -376,3 +383,7 @@ kable(assignments,
 3.  Tenopir, C., et al.  (2015). Changes in data sharing and data reuse practices and perceptions among scientists worldwide. PloS one, 10(8), e0134826.  [[read online]](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0134826) [[download pdf]](https://github.com/BrunaLab/LAS6292_DataManagement/blob/master/Assigned_Readings/Tenopir_etal_2015.PDF)
 
 4.  Mauthner, NS, & O. Parry O. 2009. Qualitative data preservation and sharing in the social sciences: On whose philosophical terms?. Australian J of Social Issues 44(3):291-307.  [[read online]](https://onlinelibrary.wiley.com/doi/abs/10.1002/j.1839-4655.2009.tb00147.x)  [[download pdf]](https://github.com/BrunaLab/LAS6292_DataManagement/blob/master/Assigned_Readings/Mauthner_et_al-2009-Australian_Journal_of_Social_Issues.pdf)
+
+
+
+
