@@ -44,7 +44,7 @@ OpenRefine is a powerful, free, and open source tool that is used to work with a
 
 ## **Assignment**
 
-Now it's your turn. [Download this csv file](https://raw.githubusercontent.com/BrunaLab/LAS6292_DataManagement/5005ea1551fc12eb5bcc561beef0bf4d9c3a066e/static/course-materials/class-sessions/06-QAQC2/portal_rodents_or_short.csv) and use OpenRefine to clean it up. After you create a Project, edit the data as follows:
+Now it's your turn. [Download this csv file](https://raw.githubusercontent.com/BrunaLab/LAS6292_DataManagement/5005ea1551fc12eb5bcc561beef0bf4d9c3a066e/content/course-materials/class-sessions/06-QAQC2/portal_rodents_or_short.csv) and use OpenRefine to clean it up. After you create a Project, edit the data as follows:
 
 1. Correct and standardize the names of the countries in which the rodents were captured. 
 

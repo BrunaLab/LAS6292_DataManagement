@@ -113,7 +113,7 @@ log %>%
 ```
 
 
-2. Exercise 2: [Download this interview file](https://github.com/BrunaLab/LAS6292_DataManagement/blob/70a15b1b37357f7dabc4a3c77787cca308d2ba18/static/course-materials/class-sessions/14-legal-ethical/in-class_resources/corti_03_exercise_8.1_original_answer.docx) by clicking the 'download" button and saving to your computer. Try anonymizing this text - was it harder or easier than the more abstract list above? Why or why not?
+2. Exercise 2: [Download this interview file](https://github.com/BrunaLab/LAS6292_DataManagement/blob/70a15b1b37357f7dabc4a3c77787cca308d2ba18/content/course-materials/class-sessions/14-legal-ethical/in-class_resources/corti_03_exercise_8.1_original_answer.docx) by clicking the 'download" button and saving to your computer. Try anonymizing this text - was it harder or easier than the more abstract list above? Why or why not?
 
 
 ### PART 2: Research misconduct related to data

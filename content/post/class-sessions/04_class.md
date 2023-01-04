@@ -52,7 +52,7 @@ type: book
     `clean_data`  
     `r_scripts`  
 
-3. Open the messy data file `demo_data.csv`: by following [this link](https://github.com/BrunaLab/LAS6292_DataManagement/blob/05dd4970756f635a41bdefbff4ef0e18183639ae/static/course-materials/class-sessions/04-reproducibility/examples/demo_data.csv) and clicking the **"Raw"** button on the right hand side above the data.
+3. Open the messy data file `demo_data.csv`: by following [this link](https://github.com/BrunaLab/LAS6292_DataManagement/blob/05dd4970756f635a41bdefbff4ef0e18183639ae/content/course-materials/class-sessions/04-reproducibility/examples/demo_data.csv) and clicking the **"Raw"** button on the right hand side above the data.
 
 ![the 'raw' button.](raw_button.png){width=50%}
 

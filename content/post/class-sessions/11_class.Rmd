@@ -66,11 +66,11 @@ header-includes:
 
 1. Download the following .txt files. Note that the link takes you to a page on your browsewr; use "save this page as" to download it to your computer. 
 
-    * [`spanish_text_1voice.txt`](https://raw.githubusercontent.com/BrunaLab/LAS6292_DataManagement/master/static/course-materials/class-sessions/11-transcription-translation/translation_text/spanish_text_1voice.txt)
+    * [`spanish_text_1voice.txt`](https://raw.githubusercontent.com/BrunaLab/LAS6292_DataManagement/master/content/course-materials/class-sessions/11-transcription-translation/translation_text/spanish_text_1voice.txt)
 
-    * [`turkish_text.txt`](https://raw.githubusercontent.com/BrunaLab/LAS6292_DataManagement/master/static/course-materials/class-sessions/11-transcription-translation/translation_text/turkish_text.txt)
+    * [`turkish_text.txt`](https://raw.githubusercontent.com/BrunaLab/LAS6292_DataManagement/master/content/course-materials/class-sessions/11-transcription-translation/translation_text/turkish_text.txt)
 
-    * [`spanish_text_interview.txt`](https://raw.githubusercontent.com/BrunaLab/LAS6292_DataManagement/master/static/course-materials/class-sessions/11-transcription-translation/translation_text/spanish_text_interview.txt)
+    * [`spanish_text_interview.txt`](https://raw.githubusercontent.com/BrunaLab/LAS6292_DataManagement/master/content/course-materials/class-sessions/11-transcription-translation/translation_text/spanish_text_interview.txt)
 
 <!-- [`spanish_text_interview.txt`] -->
 
@@ -122,9 +122,9 @@ Sign up for accounts with the following transcription services. You can cancel t
 
 1. Download the following audio files. Note that the link takes you to the page where the file is archived; click the 'download' button to save it to your computer.
 
-    * [`turkish_audio.mp3`](https://github.com/BrunaLab/LAS6292_DataManagement/blob/37ebab30eb5744a2a501572cd3b7fc2772009a34/static/course-materials/class-sessions/11-transcription-translation/translation_audio/turkish_audio.mp3)  
+    * [`turkish_audio.mp3`](https://github.com/BrunaLab/LAS6292_DataManagement/blob/37ebab30eb5744a2a501572cd3b7fc2772009a34/content/course-materials/class-sessions/11-transcription-translation/translation_audio/turkish_audio.mp3)  
 
-    * [`spanish_audio1_voice.mp3`](https://github.com/BrunaLab/LAS6292_DataManagement/blob/master/static/course-materials/class-sessions/11-transcription-translation/translation_audio/spanish_audio_1voice.mp3)  
+    * [`spanish_audio1_voice.mp3`](https://github.com/BrunaLab/LAS6292_DataManagement/blob/master/content/course-materials/class-sessions/11-transcription-translation/translation_audio/spanish_audio_1voice.mp3)  
 
 <!-- 1. `portuguese_audio.mp3`  -->
 
