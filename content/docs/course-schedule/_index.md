@@ -8,7 +8,6 @@ summary: Learn how to use Academic's docs layout for publishing online courses, 
 title: Course Syllabus & Schedule 
 type: book
 weight: 2
-url_pdf = "http://link.springer.com/10.1007/s11258-013-0268-9"
 ---
 
 
