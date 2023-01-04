@@ -50,8 +50,10 @@ Tuesday, Periods 3-5 (9:35 am - 12:35 pm) in 376 Grinter Hall
     <td>1/10</td>
     <td>‘Data’ across disciplines; Data Life-cycle </td>
     <td>{{% staticref "/post/class-sessions/01_readings" "newtab" %}}<i class="fas fa-book-open"></i>{{% /staticref %}}</td> 
+    <!--
     <td>{{% staticref "/post/class-sessions/01_class" %}}<i class="fas fa-clipboard-list"></i>{{% /staticref %}}</td>
     <td>{{% staticref "course-materials/class-sessions/01-intro/01_slides_2022.pdf" "newtab" %}}<i class="fas fa-photo-video"></i>: Slides{{% /staticref %}} </td>
+    --->
   </tr>
   
   <tr>
