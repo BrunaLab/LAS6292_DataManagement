@@ -1,7 +1,6 @@
 ---
 title: 'Readings: Week 3'
 author: R package build
-date: "updated `r format(Sys.time(), %B, %Y')`"
 slug: readings-week-03
 categories: []
 tags: []
@@ -70,5 +69,8 @@ type: book
       * **If you need help**: watch [this video tutorial](https://www.linkedin.com/learning/learning-r-2/installing-rstudio?u=41282748) or contact me. _Note that the tutorial requires you be a UF affiliate and either on campus or logged to the UF network via VPN_. 
     
     (iii) **Verify the installations** worked by opening RStudio to see if it opens properly. If you are really motivated, you can also install the `Tidyverse` library by starting RStudio and at the console typing `install.packages("tidyverse")`.
+
+
+updated `r format(Sys.time(), %B, %Y')`
 
 
