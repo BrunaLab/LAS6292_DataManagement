@@ -107,7 +107,6 @@ This is the schedule for 2023 but the linked materials are from 2022
     <td>{{% staticref "/post/class-sessions/readings-week-06" "newtab" %}}<i class="fas fa-book-open"></i>{{% /staticref %}}</td> 
     <td>{{% staticref "/post/class-sessions/class-week-06" %}}<i class="fas fa-clipboard-list"></i>{{% /staticref %}}</td>
     <td> none </td>
-    --->
   </tr>
   
   <tr>
