@@ -16,6 +16,7 @@ image:
   focal_point: ''
   preview_only: no
 projects: []
+type: book
 ---
 
 ## QA/QC 2: Using OpenRefine to clean data

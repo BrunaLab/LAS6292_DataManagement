@@ -20,12 +20,14 @@ projects: []
 
 ## Documentation: Metadata, Codebooks
 
+{{% callout note %}}
 ### Objectives and Competencies for this session:
 
  * Define a DMP and understand the importance of preparing one
   * Identify the key sections of a DMP and how they vary by discipline
   * Understand how to find and use online tools for creating DMPs
-  
+
+{{% /callout %}}
   
 
 ### Pre-class preparation:

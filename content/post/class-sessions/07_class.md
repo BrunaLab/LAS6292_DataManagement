@@ -16,6 +16,7 @@ image:
   focal_point: ''
   preview_only: no
 projects: []
+type: book
 ---
 
 ## Metadata & Codebooks

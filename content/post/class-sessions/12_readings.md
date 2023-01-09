@@ -20,13 +20,15 @@ type: book
 
 
 ## ‘Paperless’ data collection
- 
+{{% callout note %}} 
 ### Objectives and Competencies for this session:
 
 * Be able to explain the advantages of paperless data collection
 * Identify means of preventing data loss when collecting data electronically
 * Learn how to build a form, and collect, upload, and download data using EpiCollect
- 
+
+{{% /callout %}} 
+
   
 ### Pre-class Preparation
 

@@ -20,7 +20,7 @@ type: book
 
 
 ## Documentation: Metadata, Codebooks
-
+{{% callout note %}}
 ### Objectives and Competencies for this session:
 
   * understand the different approaches to translation and the research questions for which each is most appropriate
@@ -28,7 +28,8 @@ type: book
   * Learn to use the different types of automated and manual transcription tools
   * Understand the strengths and weaknesses of automated translation 
   * Be able to describe the metadata required for transcription files
- 
+  
+{{% /callout %}}
   
 ### Pre-class Preparation
 

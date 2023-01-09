@@ -20,7 +20,7 @@ type: book
 
 
 ## Documentation: Metadata, Codebooks
-
+{{% callout note %}}
 ### Objectives and Competencies for this session:
 
   * Be able to explain what metadata are and why they are important
@@ -28,7 +28,8 @@ type: book
   * Identify reasons metadata is of value to data users, creators, and organizations
   * Be able to identify metadata standards relevant to different disciplines
   * Explain the elements of good metadata
-  
+
+{{% /callout %}} 
 
 ### Please read / watch these before class:
         

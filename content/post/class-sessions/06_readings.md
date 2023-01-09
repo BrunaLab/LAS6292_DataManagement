@@ -20,12 +20,13 @@ type: book
 
 
 ## Week 6: QA/QC: Data validation & correction 2**
-
+{{% callout note %}}
 ### Objectives and Competencies for this session:   
 
 * Be able to import a dataset into OpenRefine, make changes to the dataset and its structure, and export the revised Dataset.  
 * Learn how to automatically track changes made and export the record of changes
-  
+
+{{% /callout %}}  
 
 ### Please read / watch these before class:
         

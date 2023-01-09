@@ -20,13 +20,14 @@ type: book
 
 
 ## Efficient Data Collection
-
+{{% callout note %}}
 ### Objectives and Competencies for this session:
 
 * Learn to evaluate data collection procedures to identify steps at which errors are likely to enter and propagate 
 * Critique and improve data collection forms
 * Learn to prepare and use checklists for complex procedures such as data collection
- 
+
+{{% /callout %}}
  
 ### Please read / watch these before class:
         

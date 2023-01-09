@@ -20,12 +20,13 @@ type: book
 
 
 ## Week 5: QA/QC: Data validation & correction 1**
-
+{{% callout note %}}
 ### Objectives and Competencies for this session:   
 
 * Be able to define data quality control and data quality assurance
 * Be able to perform quality control and assurance on data at all stages of the research cycle
-  
+
+{{% /callout %}}  
 
 ### Pre-class Preparation:
         
