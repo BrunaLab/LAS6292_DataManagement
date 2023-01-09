@@ -60,7 +60,6 @@ This is the schedule for 2023 but the linked materials are from 2022
     <td>{{% staticref "/post/class-sessions/readings-week-01" "newtab" %}}<i class="fas fa-book-open"></i>{{% /staticref %}}</td> 
     <td>{{% staticref "/post/class-sessions/class-week-01" %}}<i class="fas fa-clipboard-list"></i>{{% /staticref %}}</td>
       <!-- <td>{{% staticref "course-materials/class-sessions/01-intro/01_slides_2022.pdf" "newtab" %}}<i class="fas fa-photo-video"></i>: Slides{{% /staticref %}} </td> --->
-      
   </tr>
   
   <tr>
@@ -70,7 +69,6 @@ This is the schedule for 2023 but the linked materials are from 2022
     <td>{{% staticref "/post/class-sessions/readings-week-02" "newtab" %}}<i class="fas fa-book-open"></i>{{% /staticref %}}</td> 
     <td>{{% staticref "/post/class-sessions/class-week-02" %}}<i class="fas fa-clipboard-list"></i>{{% /staticref %}}</td>
   <!--  <td>{{% staticref "course-materials/class-sessions/02-formats-security/wk2_naming_conventions.pdf" "newtab" %}}<i class="fas fa-photo-video"></i>: Naming Conventions Notes{{% /staticref %}}<br>{{% staticref "course-materials/class-sessions/02-formats-security/wk2_file_organization.pdf" "newtab" %}}<i class="fas fa-photo-video"></i>: File Organization Notes{{% /staticref %}}<br>{{% staticref "course-materials/class-sessions/02-formats-security/wk2_storage_backup.pdf" "newtab" %}}<i class="fas fa-photo-video"></i>: Storage & Backup Notes{{% /staticref %}}</br> </td>--->
-    
   </tr>
   
   <tr>
