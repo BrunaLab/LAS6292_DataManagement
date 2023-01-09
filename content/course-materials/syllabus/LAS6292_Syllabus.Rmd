@@ -86,6 +86,8 @@ library(tidyverse)
 **Course Format:** This course is taught (mostly) as an active-learning workshop. Students are expected to complete reading or watch some short video lectures prior class. The in-class session will typically include an opportunity to ask questions about the pre-class materials and for me to demonstrate challenging concepts; occasionally there will be a class discussion about the reading. Most of the session, however, will be spent working - sometimes in groups, sometimes individually - on exercises that reinforce the session's concepts and techniques. During class I will be circulating between groups to assist with the assignment, work though mistakes, and discuss how the techniques can be applied to your research. 
 
 
+<!-- TODO: ADD COURSE FAQ -->
+
 **Course Materials:**
 
 1.	*Required Textbook:* *None*. All readings will be provided online.
@@ -124,11 +126,11 @@ Topic <- c(
   "File Formats, Naming Conventions, Data Storage & Security",
   "Structure & Format of Data & Datasets",
   "Reproducible Data (Re)organization",
-  "Data Validation & Correction 1",
-  "Data Validation & Correction 2",
-  "Documentation: Metadata, Codebooks",
+  "QA/AC 1: Data Entry & Validation",
+  "QA/QC 2: Correction & Synthesis with Open Refine",
+  "QA/QC 3: Visualizing Data (to Find Mistakes)",
+  "Documentation: Metadata & Codebooks",
   "Data Management Plans",
-  "Data Visualization",
   "No Class - Spring Break ",
   "Efficient Data Collection",
   "Transcription & Translation",
@@ -235,6 +237,42 @@ kable(assignments,
 
 **Sexual Harrasment:** UF provides an educational and working environment for its students, faculty, and staff that is free from sex discrimination and sexual harassment. For more about UF policies regarding harassment: http://www.dso.ufl.edu/studentguide/studentconductcode.php#s4041. **_Sexual harassment will not be tolerated.**
 
+<!-- ```{r policies, echo=FALSE} -->
+
+<!-- topic <- c( -->
+<!--   "Students Requiring Accommodation", -->
+<!--   "Students in Crisis", -->
+<!--   "U Matter, We Care", -->
+<!--   "Counseling and Wellness Center", -->
+<!--   "Student Health Care Center" -->
+<!-- ) -->
+
+
+<!-- policy<- c( -->
+<!--   "Students with disabilities who experience learning barriers and would like to request academic accommodations should connect with the Disability Resource Center by visiting https://disability.ufl.edu/students/get-started/. It is important for students to share their accommodation letter with their instructor and discuss their access needs, as early as possible in the semester. _I want you to do well in this class and will gladly work with you to implement any necessary accommodations._", -->
+<!--   "Students experiencing crises or personal problems that interfere with their general well-being are encouraged to utilize the university’s counseling resources. The Counseling & Wellness Center provides confidential counseling services at no cost for currently enrolled students. Resources are available on campus for students having personal problems or lacking clear career or academic goals, which interfere with their academic performance", -->
+<!--   "If you or someone you know is in distress, please contact umatter@ufl.edu, 352-392-1575, or visit [U Matter, We Care website](https://umatter.ufl.edu/) to refer or report a concern and a team member will reach out to the student in distress", -->
+<!--   "Visit the [Counseling and Wellness Center website](https://counseling.ufl.edu/) or call 352-392-1575 for information on crisis services as well as non-crisis services.  -->
+<!-- ", -->
+<!--   "Call 352-392-1161 for 24/7 information to help you find the care you need, or visit the [Student Health Care Center website](https://shcc.ufl.edu/)" -->
+<!-- ) -->
+
+<!-- assignments <- data.frame(topic, policy) -->
+<!-- # outline<-bind_cols(Week,Dates,Topic) -->
+<!-- kable(assignments, -->
+<!--   align = "ll", -->
+<!--   format = "latex", -->
+<!--   row.names = FALSE, -->
+<!--   booktabs = T, -->
+<!--   linesep = "") %>%  -->
+<!--   # removes the blank line after every 5 lines) %>% -->
+<!--   kable_styling(position = "center",latex_options = "HOLD_position")  -->
+<!-- # %>%  -->
+<!-- #   row_spec(4,hline_after=T) %>%  -->
+<!-- #   add_indent(c(5)) %>%  -->
+<!-- #   row_spec(5, bold=T) -->
+
+<!-- ``` -->
 
 ## UF SUPPORT SERVICES
 &nbsp;  
@@ -274,115 +312,204 @@ kable(assignments,
 &nbsp;
 
 
-**Week 2: File Formats, Naming Conventions, Data Storage, and Data Security**
+**Week 2: File Formats, Naming Conventions, Data Storage, and Data Security**. 
 
-1.  Jan Čurn. 2014. How a bug in Dropbox permanently deleted my 8000 photos.  
+>**Read:**
+
+>1.  Jan Čurn. 2014. How a bug in Dropbox permanently deleted my 8000 photos.  
         [[read online]](https://medium.com/@jancurn/how-bug-in-dropbox-permanently-deleted-my-8000-photos-cb7dcf13647b) [[download pdf]](https://github.com/BrunaLab/LAS6292_DataManagement/blob/master/Assigned_Readings/Curn_2014.pdf)
 
-2.  PSA: Scrivener, Data Integrity and You. Or, How To Avoid Data Loss Heartbreak.  
-        [[read online]](https://www.reddit.com/r/writing/comments/62hr7o/psa_scrivener_data_integrity_and_you_or_how_to/) [[download pdf]](https://github.com/BrunaLab/LAS6292_DataManagement/blob/master/Assigned_Readings/Scrivener_PSA.pdf)
+<!-- 2.  PSA: Scrivener, Data Integrity and You. Or, How To Avoid Data Loss Heartbreak.   -->
+<!--         [[read online]](https://www.reddit.com/r/writing/comments/62hr7o/psa_scrivener_data_integrity_and_you_or_how_to/) [[download pdf]](https://github.com/BrunaLab/LAS6292_DataManagement/blob/master/Assigned_Readings/Scrivener_PSA.pdf) -->
         
-3. Panzarino, M. 2012. How Pixar’s Toy Story 2 was deleted twice, once by technology and again for its own good. TNW.  [[read online]](https://thenextweb.com/media/2012/05/21/how-pixars-toy-story-2-was-deleted-twice-once-by-technology-and-again-for-its-own-good/)  [[download pdf]]
+>2. Panzarino, M. 2012. How Pixar’s Toy Story 2 was deleted twice, once by technology and again for its own good. TNW.  [[read online]](https://thenextweb.com/media/2012/05/21/how-pixars-toy-story-2-was-deleted-twice-once-by-technology-and-again-for-its-own-good/)  [[download pdf]]
 
-4.  Hart EM et al. (2016) Ten Simple Rules for Digital Data Storage. PLoS Comput Biol 12(10): e1005097. [[read online]](https://doi.org/10.1371/journal.pcbi.1005097) [[download pdf]](https://github.com/BrunaLab/LAS6292_DataManagement/blob/master/Assigned_Readings/Hart_etal_2016.PDF)
+>3.  Hart EM et al. (2016) Ten Simple Rules for Digital Data Storage. PLoS Comput Biol 12(10): e1005097. [[read online]](https://doi.org/10.1371/journal.pcbi.1005097) [[download pdf]](https://github.com/BrunaLab/LAS6292_DataManagement/blob/master/Assigned_Readings/Hart_etal_2016.PDF)
+
+>**Watch:**
+
+>1. E. Bruna: [How To Name Your Files](https://www.youtube.com/watch?v=BMwI7ubvTnE)
+
+>2. E. Bruna: [How to Organize Your Files](https://www.youtube.com/watch?v=h1hIKNC64ac)
+
+>3. E. Bruna: [How to Store and Backup Your Files](https://www.youtube.com/watch?v=H06GSL66Mec&list=PL5YVP-qXy1H-_3EeuyK_MYQR9UCnuHvAJ&index=1&t=9s)
 
 **Week 3: Data structure & format of data and datasets **
 
-1.  Tesi, W. 2020. An Outdated Version of Excel Led the U.K. to Undercount COVID-19 Cases. Slate. 
+>**Read**
+
+>1.  Tesi, W. 2020. An Outdated Version of Excel Led the U.K. to Undercount COVID-19 Cases. Slate. 
         [[read online]](https://slate.com/technology/2020/10/u-k-covid-19-spike-caused-by-microsoft-excel-error.html)  [[download pdf]](https://github.com/BrunaLab/LAS6292_DataManagement/blob/master/Assigned_Readings/Tesi_2020.pdf)
 
-2. Stolberg et al. 2020. CDC Test Counting Error Leaves Epidemiologists ‘Really Baffled’. NY Times.  [[read online]](https://www.nytimes.com/2020/05/22/us/politics/coronavirus-tests-cdc.html?referringSource=articleShare)  [[download pdf]](https://github.com/BrunaLab/LAS6292_DataManagement/blob/master/Assigned_Readings/Stolberg_2020_NYT.pdf)
+>2. Stolberg et al. 2020. CDC Test Counting Error Leaves Epidemiologists ‘Really Baffled’. NY Times.  [[read online]](https://www.nytimes.com/2020/05/22/us/politics/coronavirus-tests-cdc.html?referringSource=articleShare)  [[download pdf]](https://github.com/BrunaLab/LAS6292_DataManagement/blob/master/Assigned_Readings/Stolberg_2020_NYT.pdf)
 
-3.  Broman, K. W., & Woo, K. H. (2018). Data organization in spreadsheets. The American Statistician, 72(1), 2-10.  [[read online]](https://www.tandfonline.com/doi/full/10.1080/00031305.2017.1375989) [[download pdf]](https://github.com/BrunaLab/LAS6292_DataManagement/blob/master/Assigned_Readings/Broman%26Woo_2018.pdf)
+>3.  Broman, K. W., & Woo, K. H. (2018). Data organization in spreadsheets. The American Statistician, 72(1), 2-10.  [[read online]](https://www.tandfonline.com/doi/full/10.1080/00031305.2017.1375989) [[download pdf]](https://github.com/BrunaLab/LAS6292_DataManagement/blob/master/Assigned_Readings/Broman%26Woo_2018.pdf)
 
-4.  Johnson, B. D., Dunlap, E., & Benoit, E. (2010). Organizing "mountains of words" for data analysis, both qualitative and quantitative. Substance Use & Misuse, 45(5), 648-70.  [[read online]](https://www.tandfonline.com/doi/abs/10.3109/10826081003594757?journalCode=isum20) [[download pdf]](https://github.com/BrunaLab/LAS6292_DataManagement/blob/master/Assigned_Readings/Johnson_etal_2010.pdf)
-
-
-**Week 4: Reproducible data (re)organization**
-
-1. Laskowski, 2020. What to do when you don't trust your data anymore.  [[read online]](https://laskowskilab.faculty.ucdavis.edu/2020/01/29/retractions/) [[download pdf]](https://github.com/BrunaLab/LAS6292_DataManagement/blob/master/Assigned_Readings/laskowski_2020.pdf)
-
-1. Pennisi, E. 2020. Spider biologist denies suspicions of widespread data fraud in his animal personality research. Science. [[read online]](https://www.sciencemag.org/news/2020/01/spider-biologist-denies-suspicions-widespread-data-fraud-his-animal-personality) [[download pdf]](https://github.com/BrunaLab/LAS6292_DataManagement/blob/master/Assigned_Readings/Pennisi_2020.pdf)
-
-1.  Alston, J. M., and Rick, J. A.. 2020. A Beginner's Guide to Conducting Reproducible Research. Bull Ecol Soc Am 00( 00):e01801.   [[read online]](https://doi.org/10.1002/bes2.1801)    [[download pdf]](https://github.com/BrunaLab/LAS6292_DataManagement/blob/master/Assigned_Readings/Alston_Rick_2021_BullEcolSocAm.pdf)
-
-2.  Wilson G, Bryan J, Cranston K, Kitzes J, Nederbragt L, Teal TK (2017) Good enough practices in scientific computing. PLoS Comput Biol 13(6): e1005510.  [[read online]](https://doi.org/10.1371/journal.pcbi.1005510)  [[download pdf]](https://github.com/BrunaLab/LAS6292_DataManagement/blob/master/Assigned_Readings/wilson_etal_2017.pdf)
-
-**Week 5: QA/QC: Data validation & correction 1**
-
-1.  Kamentez, A. 2018. The School Shootings that weren’t.NPR  [[read online]](http://tinyurl.com/y77p3o36)  [[download pdf]](https://github.com/BrunaLab/LAS6292_DataManagement/blob/master/Assigned_Readings/Kamenetz_2018.pdf)
-
-2.  Lincoln, Matthew D. 2018. "Best Practices for Using Google Sheets in Your Data Project."  [[read online]](https://matthewlincoln.net/2018/03/26/best-practices-for-using-google-sheets-in-your-data-project.html) [[download pdf]](https://github.com/BrunaLab/LAS6292_DataManagement/blob/master/Assigned_Readings/Lincoln_2018.pdf)
-
-**Week 6: QA/QC: Data validation & correction 2**  
-
-* *No readings this week.*
-
-**Week 7: Documentation: Metadata, Codebooks**
-
-1.  Michener, W.K., et al . 1997. Non-geospatial metadata for the ecological sciences. Ecological Applications 7: 330–342. [[read online]](https://esajournals.onlinelibrary.wiley.com/doi/abs/10.1890/1051-0761%281997%29007%5B0330%3ANMFTES%5D2.0.CO%3B2) [[download pdf]](https://github.com/BrunaLab/LAS6292_DataManagement/blob/master/Assigned_Readings/Michener_etal_1997_EcolApplications.pdf)
-
-2.  Pp 446-450 in Bernard, H.R. and Bernard, H.R., 2013. Social research methods: Qualitative and quantitative approaches. Sage. [[download pdf]]
-
-**Week 8: Data Management Plans**
+>4.  Johnson, B. D., Dunlap, E., & Benoit, E. (2010). Organizing "mountains of words" for data analysis, both qualitative and quantitative. Substance Use & Misuse, 45(5), 648-70.  [[read online]](https://www.tandfonline.com/doi/abs/10.3109/10826081003594757?journalCode=isum20) [[download pdf]](https://github.com/BrunaLab/LAS6292_DataManagement/blob/master/Assigned_Readings/Johnson_etal_2010.pdf)
 
 
+**Week 4: Reproducible data (re)organization** 
 
-**Week 9: Spring Break**. 
+>**Read:**
+
+>1. Laskowski, 2020. What to do when you don't trust your data anymore.  [[read online]](https://laskowskilab.faculty.ucdavis.edu/2020/01/29/retractions/) [[download pdf]](https://github.com/BrunaLab/LAS6292_DataManagement/blob/master/Assigned_Readings/laskowski_2020.pdf)
+
+>2. Pennisi, E. 2020. Spider biologist denies suspicions of widespread data fraud in his animal personality research. Science. [[read online]](https://www.sciencemag.org/news/2020/01/spider-biologist-denies-suspicions-widespread-data-fraud-his-animal-personality) [[download pdf]](https://github.com/BrunaLab/LAS6292_DataManagement/blob/master/Assigned_Readings/Pennisi_2020.pdf)
+
+>3.  Alston, J. M., and Rick, J. A.. 2020. A Beginner's Guide to Conducting Reproducible Research. Bull Ecol Soc Am 00( 00):e01801.   [[read online]](https://doi.org/10.1002/bes2.1801)    [[download pdf]](https://github.com/BrunaLab/LAS6292_DataManagement/blob/master/Assigned_Readings/Alston_Rick_2021_BullEcolSocAm.pdf)
+
+>4.  Wilson G, Bryan J, Cranston K, Kitzes J, Nederbragt L, Teal TK (2017) Good enough practices in scientific computing. PLoS Comput Biol 13(6): e1005510.  [[read online]](https://doi.org/10.1371/journal.pcbi.1005510)  [[download pdf]](https://github.com/BrunaLab/LAS6292_DataManagement/blob/master/Assigned_Readings/wilson_etal_2017.pdf)
+
+>**Watch:**
+
+>1. [A Data Sharing and Management Snafu in 3 Short Acts, by the NYU Health Sciences Library](https://www.youtube.com/watch?v=66oNv_DJuPc)
+
+**Week 5: QA/QC 1: Data Entry & Validation**
+
+>**Read:**
+
+>1.  Kamentez, A. 2018. The School Shootings that weren’t.NPR  [[read online]](http://tinyurl.com/y77p3o36)  [[download pdf]](https://github.com/BrunaLab/LAS6292_DataManagement/blob/master/Assigned_Readings/Kamenetz_2018.pdf)
+
+>2.  Lincoln, Matthew D. 2018. "Best Practices for Using Google Sheets in Your Data Project."  [[read online]](https://matthewlincoln.net/2018/03/26/best-practices-for-using-google-sheets-in-your-data-project.html) [[download pdf]](https://github.com/BrunaLab/LAS6292_DataManagement/blob/master/Assigned_Readings/Lincoln_2018.pdf)
+
+**Week 6: QA/QC 2: Correction & Synthesis with Open Refine**  
+
+>**Read:** *No readings this week.*
+
+**Week 7: QA/QC 3: Finding Errors with Data Visualization**. 
+
+>**Read:**
+
+>1. Rougier NP, Droettboom M, Bourne PE (2014) Ten Simple Rules for Better Figures. PLoS Comput Biol 10(9): e1003833. [[read online]](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1003833) or [[download pdf]](https://journals.plos.org/ploscompbiol/article/file?id=10.1371/journal.pcbi.1003833&type=printable)
+
+>**Watch:**  
+
+>1. Tommy McCall: [The simple genius of a good graphic](https://www.ted.com/talks/tommy_mccall_the_simple_genius_of_a_good_graphic?language=en)
+    
+>2. R. Luke DuBois: [Insightful human portraits made from data](https://www.ted.com/talks/r_luke_dubois_insightful_human_portraits_made_from_data?language=en)
 
 
-**Week 10: Data Visualization**. 
+**Week 8: Documentation: Metadata, Codebooks**
 
-1.  Michener, W. K. (2015). Ten simple rules for creating a good data management plan. PLoS computational biology, 11(10), e1004525.  [[read online]](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1004525) [[download pdf]](https://github.com/BrunaLab/LAS6292_DataManagement/blob/master/Assigned_Readings/Michener_2015_PloSBio.PDF)
+>**Read:**
 
-2. Goodman A, et al. (2014) Ten Simple Rules for the Care and Feeding of Scientific Data. PLoS Comput Biol 10(4): e1003542. *_this paper connects what we've done with what's next_*  [[read online]](https://doi.org/10.1371/journal.pcbi.1003542) [[download pdf]](https://github.com/BrunaLab/LAS6292_DataManagement/blob/master/Assigned_Readings/Goodman_etal_2014.pdf)  
+>1.  Michener, W.K., et al . 1997. Non-geospatial metadata for the ecological sciences. Ecological Applications 7: 330–342. [[read online]](https://esajournals.onlinelibrary.wiley.com/doi/abs/10.1890/1051-0761%281997%29007%5B0330%3ANMFTES%5D2.0.CO%3B2) [[download pdf]](https://github.com/BrunaLab/LAS6292_DataManagement/blob/master/Assigned_Readings/Michener_etal_1997_EcolApplications.pdf)
+
+>2.  Pp 446-450 in Bernard, H.R. and Bernard, H.R., 2013. Social research methods: Qualitative and quantitative approaches. Sage. [[download pdf]]
+
+
+
+**Week 9: Data Management Plans**
+
+>**Read**
+
+>1. Michener, W. K. (2015). Ten simple rules for creating a good data management plan. PLoS Computational Biology, 11(10), e1004525. [[read online]](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1004525) or [[download pdf]](https://journals.plos.org/ploscompbiol/article/file?id=10.1371/journal.pcbi.1004525&type=printable)
+
+>2. Goodman A, et al. (2014) Ten Simple Rules for the Care and Feeding of Scientific Data. PLoS Comput Biol 10(4): e1003542. [[read online]](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1003542) or [[download pdf]](https://journals.plos.org/ploscompbiol/article/file?id=10.1371/journal.pcbi.1003542&type=printable).  *_this paper connects what we've done with what's coming up next_*
+
+
+>**Watch**
+
+>1. [Content of a DMP” (by RWTH Aachen University)](https://www.youtube.com/watch?v=fcCj6sNvoOw&embeds_euri=https%3A%2F%2Flas6292.netlify.app%2F&feature=emb_imp_woyt)
+
+**Week 10: Spring Break**
+
 
 **Week 11: Efficient data collection**
 
-<!-- 1.  Redman, T. 2016. Bad Data Costs the U.S. $3 Trillion Per Year. Harvard Business Review.    [[read online]](https://hbr.org/2016/09/bad-data-costs-the-u-s-3-trillion-per-year#:~:text=How%20much%20is%20it%20costing%20you%3F&text=Consider%20this%20figure%3A%20%24136%20billion%20per%20year.&text=But%20here's%20another%20number%3A%20%243.1,the%20US%20alone%2C%20in%202016.) [[download pdf]](https://github.com/BrunaLab/LAS6292_DataManagement/blob/master/Assigned_Readings/Redman_2016.pdf) -->
+>**Read:**
+
+>1.  Redman, T. 2016. Bad Data Costs the U.S. $3 Trillion Per Year. Harvard Business Review. [[read online]](https://hbr.org/2016/09/bad-data-costs-the-u-s-3-trillion-per-year) [[download pdf]](https://github.com/BrunaLab/LAS6292_DataManagement/blob/master/Assigned_Readings/Redman_2016.pdf)
+
+>**Watch**
+
+>1. Atul Gawande’s TED Talk: [The Importance & Value of the CHECK LIST.](https://www.youtube.com/watch?v=55Nc8nccPa0)
+
+>2. Animated summary of [The Checklist Manifesto](https://www.youtube.com/watch?v=bCDmDzIOZ-g).
+
+>3. Jess Stratton’s LinkedIn Learning Video Overview: “Use Google Forms to Create Surveys” (7 min.). Watch it [here](https://www.linkedin.com/learning/google-drive-essential-training-2021); must be on UF computer or use UF proxy.
+
+>4. OPTIONAL: The more advanced, multi-video “Google Forms Essential Training Course”. These short (1-3 min) videos explain each step in more detail. It’s great, and only 39 min long from start to finish. Watch [here](https://www.linkedin.com/learning/google-forms-essential-training-2022/collect-data-easily-with-google-forms); must be on UF computer or use UF proxy.
 
 
 **Week 12: Transcription & Translation**
 
-1.  Bakker, Rebecca. "Transcription Tools and Software" (2017). Works of the FIU Libraries. 62.   [[read online]](https://digitalcommons.fiu.edu/glworks/62) [[download pdf]](https://github.com/BrunaLab/LAS6292_DataManagement/blob/master/Assigned_Readings/Bakker_transcription_tools_slides.pdf)  
+>**Read:**
 
-2. Watch "The Text Wash team discusses text anonymization" [[link]](https://youtu.be/5fFO4ROg4Vw); related blog post [[link]](https://ocean.sagepub.com/blog/making-sensitive-text-data-accessible-for-computational-social-science)
+>1.  Bakker, Rebecca. "Transcription Tools and Software" (2017). Works of the FIU Libraries. 62.   [[read online]](https://digitalcommons.fiu.edu/glworks/62) [[download pdf]](https://github.com/BrunaLab/LAS6292_DataManagement/blob/master/Assigned_Readings/Bakker_transcription_tools_slides.pdf)  
+
+>2. Watch "The Text Wash team discusses text anonymization" [[link]](https://youtu.be/5fFO4ROg4Vw); related blog post [[link]](https://ocean.sagepub.com/blog/making-sensitive-text-data-accessible-for-computational-social-science)
+
+
+>**Watch**
+
+>1. Dr. Jarek Kriukow: How to transcribe interviews - [Part 1: “naturalism” and “denaturalism”](https://www.youtube.com/watch?v=NzVjlKR4HQQ)
+
+>2. Dr. Jarek Kriukow: How to transcribe interviews - Part 2: [Which approach to use?](https://www.youtube.com/watch?v=69T8aVf5Nj0)
 
 **Week 13: ‘Paperless’ data collection**
 
-1.  Aanensen DM, Huntley DM, Feil EJ, al-Own F, Spratt BG (2009) EpiCollect: Linking Smartphones to Web Applications for Epidemiology, Ecology and Community Data Collection. PLoS ONE 4(9): e6968.  [[read online]](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0006968) [[download pdf]](https://github.com/BrunaLab/LAS6292_DataManagement/blob/master/Assigned_Readings/Aanensen_etal_2009.PDF)
+>**Read:**
 
-2.  Moylan, CA et al. 2013. Increasingly mobile: How new technologies can enhance qualitative research. Qualitative social work: research and practice, 14(1):36-47.  [[read online]](https://journals.sagepub.com/doi/10.1177/1473325013516988) [[download pdf]](https://github.com/BrunaLab/LAS6292_DataManagement/blob/master/Assigned_Readings/Moylan_etal_2015.pdf)
+>1.  Aanensen DM, Huntley DM, Feil EJ, al-Own F, Spratt BG (2009) EpiCollect: Linking Smartphones to Web Applications for Epidemiology, Ecology and Community Data Collection. PLoS ONE 4(9): e6968.  [[read online]](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0006968) [[download pdf]](https://github.com/BrunaLab/LAS6292_DataManagement/blob/master/Assigned_Readings/Aanensen_etal_2009.PDF)
 
-3.  Teacher, Amber G. F. et al. Smartphones in ecology and evolution: a guide for the app‐rehensive. Ecology and Evolution 3(16):5268– 5278  [[read online]](https://onlinelibrary.wiley.com/doi/full/10.1002/ece3.888)  [[download pdf]](https://github.com/BrunaLab/LAS6292_DataManagement/blob/master/Assigned_Readings/Teacher_etal_2013.pdf)
+>2.  Moylan, CA et al. 2013. Increasingly mobile: How new technologies can enhance qualitative research. Qualitative social work: research and practice, 14(1):36-47.  [[read online]](https://journals.sagepub.com/doi/10.1177/1473325013516988) [[download pdf]](https://github.com/BrunaLab/LAS6292_DataManagement/blob/master/Assigned_Readings/Moylan_etal_2015.pdf)
+
+>3.  Teacher, Amber G. F. et al. Smartphones in ecology and evolution: a guide for the app‐rehensive. Ecology and Evolution 3(16):5268– 5278  [[read online]](https://onlinelibrary.wiley.com/doi/full/10.1002/ece3.888)  [[download pdf]](https://github.com/BrunaLab/LAS6292_DataManagement/blob/master/Assigned_Readings/Teacher_etal_2013.pdf)
+
+>**Watch**
+
+>1. E. Bruna: [Paperless Data Collection](https://youtu.be/j5GWpDx_Ytw)
+
+>Great EpiCollect tutorials by UConn’s David Dickson
+
+>1. [Intro to EpiCollect 5](https://kaltura.uconn.edu/playlist/dedicated/1_14lpwsw0/1_fmj06huc)
+>2. [Creating an EpiCollect PROJECT](https://kaltura.uconn.edu/media/Creating+an+Epicollect+5+Project/1_853ybdbf)
+>3. [Creating a FORM for your Epicollect Project](https://kaltura.uconn.edu/media/Creating+a+Form+in+Epicollect+5/1_inr7wxq8)
+>4. [Collecting data in EpiCollect with your phone or tablet](https://kaltura.uconn.edu/media/Collecting+Data+With+Epicollect+5/1_kgzfddtp)
 
 **Week 14: Automated data extraction**
 
-1.  Drinkwater, R. E., Cubey, R. W., & Haston, E. M. (2014). The use of Optical Character Recognition (OCR) in the digitization of herbarium specimen labels. PhytoKeys, (38), 15-30.  [[read online]](doi:10.3897/phytokeys.38.7168) [[download pdf]](https://github.com/BrunaLab/LAS6292_DataManagement/blob/master/Assigned_Readings/Drinkwater_etal_2014.pdf)
+>**Read:**
 
-2.  Joo, Jungseock and Zachary C. Steinert-Threlkeld. 2019. Image as data: Automated visual content analysis for social science. [[read online]](https://ocean.sagepub.com/blog/image-as-data-automated-visual-content-analysis-for-social-science)  [[download pdf]](https://github.com/BrunaLab/LAS6292_DataManagement/blob/master/Assigned_Readings/Joo_and_Steinert-Threlkeld_2019.pdf)
+>1.  Drinkwater, R. E., Cubey, R. W., & Haston, E. M. (2014). The use of Optical Character Recognition (OCR) in the digitization of herbarium specimen labels. PhytoKeys, (38), 15-30.  [[read online]](doi:10.3897/phytokeys.38.7168) [[download pdf]](https://github.com/BrunaLab/LAS6292_DataManagement/blob/master/Assigned_Readings/Drinkwater_etal_2014.pdf)
+
+>2.  Joo, Jungseock and Zachary C. Steinert-Threlkeld. 2019. Image as data: Automated visual content analysis for social science. [[read online]](https://ocean.sagepub.com/blog/image-as-data-automated-visual-content-analysis-for-social-science)  [[download pdf]](https://github.com/BrunaLab/LAS6292_DataManagement/blob/master/Assigned_Readings/Joo_and_Steinert-Threlkeld_2019.pdf)
+
 
 **Week 15: Legal and Ethical Issues**
+>**Read:**
 
-1.  de Koning M, Meyer B, Moors A, Pels P. 2019. Guidelines for anthropological research: Data management, ethics, and integrity. Ethnography. 20(2):170-174.  [[read online]](https://journals.sagepub.com/doi/10.1177/1466138119843312)  [[download pdf]](https://github.com/BrunaLab/LAS6292_DataManagement/blob/master/Assigned_Readings/Koning_etal_2019.pdf)
+>1.  de Koning M, Meyer B, Moors A, Pels P. 2019. Guidelines for anthropological research: Data management, ethics, and integrity. Ethnography. 20(2):170-174.  [[read online]](https://journals.sagepub.com/doi/10.1177/1466138119843312)  [[download pdf]](https://github.com/BrunaLab/LAS6292_DataManagement/blob/master/Assigned_Readings/Koning_etal_2019.pdf)
 
-2.  Katie Fortney, UC Office of Scholarly Communication. 2016. “Who owns your data?”  [[read online]](https://uc3.cdlib.org/2016/09/08/who-owns-your-data/)  [[download pdf]](https://github.com/BrunaLab/LAS6292_DataManagement/blob/master/Assigned_Readings/Fortney_2016.pdf)
+>2.  Katie Fortney, UC Office of Scholarly Communication. 2016. “Who owns your data?”  [[read online]](https://uc3.cdlib.org/2016/09/08/who-owns-your-data/)  [[download pdf]](https://github.com/BrunaLab/LAS6292_DataManagement/blob/master/Assigned_Readings/Fortney_2016.pdf)
 
-3. Goodluck, K. 2020. Indigenous data sovereignty shakes up research. High Country News.  [[read online]](https://www.hcn.org/issues/52.11/indigenous-affairs-covid19-indigenous-data-sovereignty-shakes-up-research)  [[download pdf]]
+>3. Goodluck, K. 2020. Indigenous data sovereignty shakes up research. High Country News.  [[read online]](https://www.hcn.org/issues/52.11/indigenous-affairs-covid19-indigenous-data-sovereignty-shakes-up-research)  [[download pdf]]
 
-4. Woodbury, R. B., Beans, J. A., Hiratsuka, V. Y., & Burke, W. (2019). Data Management in Health-Related Research Involving Indigenous Communities in the United States and Canada: A Scoping Review. Frontiers in genetics, 10, 942.  [[read online]](https://doi.org/10.3389/fgene.2019.00942)  [[download pdf]](https://github.com/BrunaLab/LAS6292_DataManagement/blob/master/Assigned_Readings/Goodluck_2020.pdf)
+>4. Woodbury, R. B., Beans, J. A., Hiratsuka, V. Y., & Burke, W. (2019). Data Management in Health-Related Research Involving Indigenous Communities in the United States and Canada: A Scoping Review. Frontiers in genetics, 10, 942.  [[read online]](https://doi.org/10.3389/fgene.2019.00942)  [[download pdf]](https://github.com/BrunaLab/LAS6292_DataManagement/blob/master/Assigned_Readings/Goodluck_2020.pdf)
+
+
+>**Watch**
+
+>1. NIH:[Statistical methods for protecting data confidentiality](https://youtu.be/3vN-6A2zbsk)
+>2. Patricia Jenkinson Video Seminar: [Ethics in Human Subject Research](https://youtu.be/e0uydNe4cQo)
+>3. US Department of Health & Human Services: [Informed Consent Overview](https://youtu.be/Y7uI3sM9wtc)
+>4. Australian Council for International Development (ACFID): [Principles and Guidelines for Ethical Research and Evaluation in Development](https://youtu.be/ylkKCgEIMws)
 
 **Week 16: Data Sharing, Reuse, & Archives**
 
-1.  Alexander, S.M., Jones, K., Bennett, N.J. et al. Qualitative data sharing and synthesis for sustainability science. Nat Sustain 3, 81–88 (2020).  [[read online]](https://doi.org/10.1038/s41893-019-0434-8 )  [[download pdf]](https://github.com/BrunaLab/LAS6292_DataManagement/blob/master/Assigned_Readings/Alexander_etal_2019_NatureSustainability.pdf)
+>**Read:**
 
-2. Renaut, S. et al. 2018. Management, Archiving, and Sharing for Biologists and the Role of Research Institutions in the Technology-Oriented Age. *BioScience* 68(6)400–411  [[read online]](https://academic.oup.com/bioscience/article/68/6/400/4983937) [[download pdf]](https://github.com/BrunaLab/LAS6292_DataManagement/blob/master/Assigned_Readings/Renaut_etal_2018_Bioscience.pdf)  
+>1.  Alexander, S.M., Jones, K., Bennett, N.J. et al. Qualitative data sharing and synthesis for sustainability science. Nat Sustain 3, 81–88 (2020).  [[read online]](https://doi.org/10.1038/s41893-019-0434-8 )  [[download pdf]](https://github.com/BrunaLab/LAS6292_DataManagement/blob/master/Assigned_Readings/Alexander_etal_2019_NatureSustainability.pdf)
 
-2.  Duke, Clifford S., and John H. Porter. 2013. "The ethics of data sharing and reuse in biology." BioScience 63(6): 483-489.    [[read online]](https://academic.oup.com/bioscience/article/63/6/483/226339) [[download pdf]](https://github.com/BrunaLab/LAS6292_DataManagement/blob/master/Assigned_Readings/Duke%26Porter_2013.pdf)
+>2. Renaut, S. et al. 2018. Management, Archiving, and Sharing for Biologists and the Role of Research Institutions in the Technology-Oriented Age. *BioScience* 68(6)400–411  [[read online]](https://academic.oup.com/bioscience/article/68/6/400/4983937) [[download pdf]](https://github.com/BrunaLab/LAS6292_DataManagement/blob/master/Assigned_Readings/Renaut_etal_2018_Bioscience.pdf)  
 
-3.  Tenopir, C., et al.  (2015). Changes in data sharing and data reuse practices and perceptions among scientists worldwide. PloS one, 10(8), e0134826.  [[read online]](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0134826) [[download pdf]](https://github.com/BrunaLab/LAS6292_DataManagement/blob/master/Assigned_Readings/Tenopir_etal_2015.PDF)
+>3.  Duke, Clifford S., and John H. Porter. 2013. "The ethics of data sharing and reuse in biology." BioScience 63(6): 483-489.    [[read online]](https://academic.oup.com/bioscience/article/63/6/483/226339) [[download pdf]](https://github.com/BrunaLab/LAS6292_DataManagement/blob/master/Assigned_Readings/Duke%26Porter_2013.pdf)
 
-4.  Mauthner, NS, & O. Parry O. 2009. Qualitative data preservation and sharing in the social sciences: On whose philosophical terms?. Australian J of Social Issues 44(3):291-307.  [[read online]](https://onlinelibrary.wiley.com/doi/abs/10.1002/j.1839-4655.2009.tb00147.x)  [[download pdf]](https://github.com/BrunaLab/LAS6292_DataManagement/blob/master/Assigned_Readings/Mauthner_et_al-2009-Australian_Journal_of_Social_Issues.pdf)
+>4.  Tenopir, C., et al.  (2015). Changes in data sharing and data reuse practices and perceptions among scientists worldwide. PloS one, 10(8), e0134826.  [[read online]](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0134826) [[download pdf]](https://github.com/BrunaLab/LAS6292_DataManagement/blob/master/Assigned_Readings/Tenopir_etal_2015.PDF)
+
+>5.  Mauthner, NS, & O. Parry O. 2009. Qualitative data preservation and sharing in the social sciences: On whose philosophical terms?. Australian J of Social Issues 44(3):291-307.  [[read online]](https://onlinelibrary.wiley.com/doi/abs/10.1002/j.1839-4655.2009.tb00147.x)  [[download pdf]](https://github.com/BrunaLab/LAS6292_DataManagement/blob/master/Assigned_Readings/Mauthner_et_al-2009-Australian_Journal_of_Social_Issues.pdf)
+
 
 
 
