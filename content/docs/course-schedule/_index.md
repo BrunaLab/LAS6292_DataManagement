@@ -25,11 +25,12 @@ Tuesday, Periods 3-5 (9:35 am - 12:35 pm) in 376 Grinter Hall
 
 ## Course Schedule  
 
-{{% callout warning %}}
+<!--{{% callout warning %}}
 
 This is the schedule for 2023 but the linked materials are from 2022
 
-{{% /callout %}}
+{{% /callout %}} ) --->
+
 
 <!-- code for readings link: <td>{{% staticref "/post/class-sessions/readings-week-5" "newtab" %}}<i class="fas fa-book-open"></i>{{% /staticref %}}</td>  ---> 
 
@@ -53,8 +54,8 @@ This is the schedule for 2023 but the linked materials are from 2022
     <td>1</td>
     <td>1/10</td>
     <td>‘Data’ across disciplines; Data Life-cycle </td>
-    <td>{{% staticref "/post/class-sessions/readings-week-1" "newtab" %}}<i class="fas fa-book-open"></i>{{% /staticref %}}</td> 
-    <td>{{% staticref "/post/class-sessions/class-week-1" %}}<i class="fas fa-clipboard-list"></i>{{% /staticref %}}</td>
+    <td>{{% staticref "/post/class-sessions/readings-week-01" "newtab" %}}<i class="fas fa-book-open"></i>{{% /staticref %}}</td> 
+    <td>{{% staticref "/post/class-sessions/class-week-01" %}}<i class="fas fa-clipboard-list"></i>{{% /staticref %}}</td>
       <!-- <td>{{% staticref "course-materials/class-sessions/01-intro/01_slides_2022.pdf" "newtab" %}}<i class="fas fa-photo-video"></i>: Slides{{% /staticref %}} </td> --->
       
   </tr>
@@ -63,8 +64,8 @@ This is the schedule for 2023 but the linked materials are from 2022
     <td>2</td>
     <td>1/17</td>
     <td>File Formats, Naming Conventions, Data Storage & Security</td>
-    <td>{{% staticref "/post/class-sessions/readings-week-2" "newtab" %}}<i class="fas fa-book-open"></i>{{% /staticref %}}</td> 
-    <td>{{% staticref "/post/class-sessions/class-week-2" %}}<i class="fas fa-clipboard-list"></i>{{% /staticref %}}</td>
+    <td>{{% staticref "/post/class-sessions/readings-week-02" "newtab" %}}<i class="fas fa-book-open"></i>{{% /staticref %}}</td> 
+    <td>{{% staticref "/post/class-sessions/class-week-02" %}}<i class="fas fa-clipboard-list"></i>{{% /staticref %}}</td>
   <!--  <td>{{% staticref "course-materials/class-sessions/02-formats-security/wk2_naming_conventions.pdf" "newtab" %}}<i class="fas fa-photo-video"></i>: Naming Conventions Notes{{% /staticref %}}<br>{{% staticref "course-materials/class-sessions/02-formats-security/wk2_file_organization.pdf" "newtab" %}}<i class="fas fa-photo-video"></i>: File Organization Notes{{% /staticref %}}<br>{{% staticref "course-materials/class-sessions/02-formats-security/wk2_storage_backup.pdf" "newtab" %}}<i class="fas fa-photo-video"></i>: Storage & Backup Notes{{% /staticref %}}</br> </td>--->
     
   </tr>
@@ -73,8 +74,8 @@ This is the schedule for 2023 but the linked materials are from 2022
     <td>3</td>
     <td>1/24</td>
     <td>Data structure & format of data and datasets</td>
-    <td>{{% staticref "/post/class-sessions/readings-week-3" "newtab" %}}<i class="fas fa-book-open"></i>{{% /staticref %}}</td> 
-  <td>{{% staticref "/post/class-sessions/class-week-3" %}}<i class="fas fa-clipboard-list"></i>{{% /staticref %}}</td>
+    <td>{{% staticref "/post/class-sessions/readings-week-03" "newtab" %}}<i class="fas fa-book-open"></i>{{% /staticref %}}</td> 
+  <td>{{% staticref "/post/class-sessions/class-week-03" %}}<i class="fas fa-clipboard-list"></i>{{% /staticref %}}</td>
     <!--  <td>{{% staticref "course-materials/class-sessions/03-spreadsheets/wk3_spreadsheets_notes.pdf" "newtab" %}}<i class="fas fa-photo-video"></i>: Notes{{% /staticref %}}</td>
   </tr>
   --->
@@ -82,8 +83,8 @@ This is the schedule for 2023 but the linked materials are from 2022
     <td>4</td>
     <td>1/31</td>
     <td>Reproducible Data (Re)organization</td>
-    <td>{{% staticref "/post/class-sessions/readings-week-4" "newtab" %}}<i class="fas fa-book-open"></i>{{% /staticref %}}</td> 
-   <td>{{% staticref "/post/class-sessions/class-week-4" %}}<i class="fas fa-clipboard-list"></i>{{% /staticref %}}</td>
+    <td>{{% staticref "/post/class-sessions/readings-week-04" "newtab" %}}<i class="fas fa-book-open"></i>{{% /staticref %}}</td> 
+   <td>{{% staticref "/post/class-sessions/class-week-04" %}}<i class="fas fa-clipboard-list"></i>{{% /staticref %}}</td>
    <!--  <td>{{% staticref "course-materials/class-sessions/04-reproducibility/wk4_slides.pdf" "newtab" %}}<i class="fas fa-photo-video"></i>: Intro Slides{{% /staticref %}}<br>{{% staticref "course-materials/class-sessions/04-reproducibility/wk4_live_coding.R" "newtab" %}}<i class="far fa-file-code"></i>: Demo R Code{{% /staticref %}}</br></td>
   </tr>
   --->
@@ -91,17 +92,17 @@ This is the schedule for 2023 but the linked materials are from 2022
     <td>5</td>
     <td>2/7</td>
     <td>Data Validation & Correction 1</td>
-    <td>{{% staticref "/post/class-sessions/readings-week-5" "newtab" %}}<i class="fas fa-book-open"></i>{{% /staticref %}}</td> 
-    <td>{{% staticref "/post/class-sessions/class-week-5" %}}<i class="fas fa-clipboard-list"></i>{{% /staticref %}}</td>
+    <td>{{% staticref "/post/class-sessions/readings-week-05" "newtab" %}}<i class="fas fa-book-open"></i>{{% /staticref %}}</td> 
+    <td>{{% staticref "/post/class-sessions/class-week-05" %}}<i class="fas fa-clipboard-list"></i>{{% /staticref %}}</td>
     <!-- <td>{{% staticref "course-materials/class-sessions/05-QAQC1/wk5_QAQC_slides.pdf" "newtab" %}}<i class="fas fa-photo-video"></i>: Slides{{% /staticref %}}</td>
   </tr>
   --->
   <tr>
     <td>6</td>
- <!--   <td>2/14</td>
+    <td>2/14</td>
     <td>Data Validation & Correction 2</td>
-    <td>{{% staticref "/post/class-sessions/readings-week-6" "newtab" %}}<i class="fas fa-book-open"></i>{{% /staticref %}}</td> 
-    <td>{{% staticref "/post/class-sessions/class-week-6" %}}<i class="fas fa-clipboard-list"></i>{{% /staticref %}}</td>
+    <td>{{% staticref "/post/class-sessions/readings-week-06" "newtab" %}}<i class="fas fa-book-open"></i>{{% /staticref %}}</td> 
+    <td>{{% staticref "/post/class-sessions/class-week-06" %}}<i class="fas fa-clipboard-list"></i>{{% /staticref %}}</td>
     <td> none </td>
     --->
   </tr>
@@ -110,17 +111,17 @@ This is the schedule for 2023 but the linked materials are from 2022
     <td>7</td>
     <td>2/21</td>
     <td>Documentation: Metadata, Codebooks</td>
-    <td>{{% staticref "/post/class-sessions/readings-week-7" "newtab" %}}<i class="fas fa-book-open"></i>{{% /staticref %}}</td> 
-  <!-- <td>{{% staticref "/post/class-sessions/class-week-7" %}}<i class="fas fa-clipboard-list"></i>{{% /staticref %}}</td>
-    <td>{{% staticref "course-materials/class-sessions/07-metadata/wk7_metadata_notes.pdf" "newtab" %}}<i class="fas fa-photo-video"></i>: Notes{{% /staticref %}}</td>
+    <td>{{% staticref "/post/class-sessions/readings-week-07" "newtab" %}}<i class="fas fa-book-open"></i>{{% /staticref %}}</td> 
+  <td>{{% staticref "/post/class-sessions/class-week-07" %}}<i class="fas fa-clipboard-list"></i>{{% /staticref %}}</td>
+  <!--   <td>{{% staticref "course-materials/class-sessions/07-metadata/wk7_metadata_notes.pdf" "newtab" %}}<i class="fas fa-photo-video"></i>: Notes{{% /staticref %}}</td>
   </tr>
   --->
   <tr>
     <td>8</td>
     <td>2/28</td>
     <td>Data Management Plans</td>
-    <td>{{% staticref "/post/class-sessions/readings-week-8" "newtab" %}}<i class="fas fa-book-open"></i>{{% /staticref %}}</td> 
-<td>{{% staticref "/post/class-sessions/class-week-8" %}}<i class="fas fa-clipboard-list"></i>{{% /staticref %}}</td>
+    <td>{{% staticref "/post/class-sessions/readings-week-08" "newtab" %}}<i class="fas fa-book-open"></i>{{% /staticref %}}</td> 
+<td>{{% staticref "/post/class-sessions/class-week-08" %}}<i class="fas fa-clipboard-list"></i>{{% /staticref %}}</td>
   <!--    <td>{{% staticref "course-materials/class-sessions/08-DMP/wk8_dmp_notes.pdf" "newtab" %}}<i class="fas fa-photo-video"></i>: Notes{{% /staticref %}}</td>
   </tr>
   --->
@@ -146,8 +147,8 @@ This is the schedule for 2023 but the linked materials are from 2022
     <td>11</td>
     <td>3/21</td>
     <td>Efficient Data Collection</td>
-    <td>{{% staticref "/post/class-sessions/readings-week-9" "newtab" %}}<i class="fas fa-book-open"></i>{{% /staticref %}}</td> 
-   <!-- <td>{{% staticref "/post/class-sessions/class-week-9" %}}<i class="fas fa-clipboard-list"></i>{{% /staticref %}}</td>
+    <td>{{% staticref "/post/class-sessions/readings-week-09" "newtab" %}}<i class="fas fa-book-open"></i>{{% /staticref %}}</td> 
+   <!-- <td>{{% staticref "/post/class-sessions/class-week-09" %}}<i class="fas fa-clipboard-list"></i>{{% /staticref %}}</td>
     <td>{{% staticref "course-materials/class-sessions/09-efficient-data-collection/09_notes.pdf" "newtab" %}}<i class="fas fa-photo-video"></i>: Notes{{% /staticref %}}<br>{{% staticref "course-materials/class-sessions/09-efficient-data-collection/Wk9_efficient_data_collection.pdf" "newtab" %}}<i class="fas fa-photo-video"></i>: Slides{{% /staticref %}}</br></td>
   </tr>
   --->

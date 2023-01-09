@@ -2,7 +2,7 @@
 title: 'Readings: Week 3'
 author: R package build
 date: "updated `r format(Sys.time(), %B, %Y')`"
-slug: readings-week-3
+slug: readings-week-03
 categories: []
 tags: []
 subtitle: ''

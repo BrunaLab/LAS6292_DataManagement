@@ -2,7 +2,7 @@
 title: 'Readings: Week 1'
 author: R package build
 date: '2022-01-17'
-slug: readings-week-1
+slug: readings-week-01
 categories: []
 tags: []
 subtitle: ''
