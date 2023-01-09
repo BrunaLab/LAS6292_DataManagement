@@ -1,8 +1,8 @@
 ---
-title: 'In-class Activities - Week 9'
+title: 'In-class Activities - Week 8'
 author: R package build
 date: '2022-02-11'
-slug: class-week-09
+slug: class-week-08
 categories:
   - In-Class Assignment
 tags: []
@@ -19,32 +19,29 @@ projects: []
 type: book
 ---
 
-## Efficient Data Collection
 
-### Breakout: Process Audit of Data Forms
+# Introduction - DMPs
 
-  1. Look over the forms handed out in class and conduct a process audit. 
-  2. _Where_ and _why_ do you think errors are most likely to sneak in? 
-  3. Summarize your conclusions and prepare to present them to the class.
+Today in class we will start drafting the DMP assigned as part of your semester project. To do so we will use the DMP tool, to which we have access as UF Researchers. If you are unfamiliar with DMPs, why they are important, and the information that typically goes into them, be sure to review the [General Guidance on DMPs](https://dmptool.org/general_guidance) before starting today's exercise.
 
-### Break
+1. Sign in to the [DMP Tool](https://dmptool.org) using Option 1 ("If your institution is affiliated with DMPTool"). If you have trouble refer to the  [DMP Quick	Start	Guide](https://dmptool.org/help). 
 
-### Assignment: Data Sheet UX
+2. Click the Link or Button for "Create a Plan". 
 
-1. Conduct a Process Audit of your personal data collection sheet (If you do not have one of your own, you can do the assignment with the "Line Transect Sheet” used in class)
-2. Redesign your paper data sheet based on your process audit
-3. Create an electronic version of the data sheet using Google Forms
-4. When done, submit the following via Canvas:
+3. Start filling in the three boxes. (It's that easy). _For today's exercise be sure to check the box for "mock project for testing, practice, or educational purposes"_
 
-    * the original form
-    * the revised form
-    * A link to the google form
+4. The hard work is thinking through **all** of the data you will be collecting during your thesis, how you will collect it, how much of it there will be, what format it will be in, how you will store it...It's best to start by making a list off-line rather than expecting to remember it all at this moment, so...
 
-<!--- Alt Option: Research Checklist Generation ---->
+5. ...I have created txt versions of the questions for the NEH and NSF DMPs, as well as a Generic DMP. You can download these below and work on them off-line.
 
-### Grading Rubric: 
 
-**50:** Ways errors can get incorporated have been identified; revised form and google doc use UI/UX principles to reduce most data recording errors.  
-**35:** Some (but not all) ways that errors can get incorporated have been identified; revised form and google doc use UI/UX principles to reduce some of the potential data recording errors.   
-**20:** Few of the ways errors can be included are identified; data collection still likely to be error-prone and inefficient.  
+    **a. NEH DMP:** {{% staticref "course-materials/class-sessions/08-DMP/neh_dmp_template.txt" "newtab" %}}[.txt format]{{% /staticref %}} or {{% staticref "course-materials/class-sessions/08-DMP/neh_dmp_template.Rmd" "newtab" %}}[.Rmd format]{{% /staticref %}}
 
+
+    **b. NSF DMP:** {{% staticref "course-materials/class-sessions/08-DMP/nsf_dmp_template.txt" "newtab" %}}[.txt format]{{% /staticref %}} or {{% staticref "course-materials/class-sessions/08-DMP/nsf_dmp_template.Rmd" "newtab" %}}[.Rmd format]{{% /staticref %}}
+
+    **c. Generic DMP**: {{% staticref "course-materials/class-sessions/08-DMP/generic_dmp_template.txt" "newtab" %}}[.txt format]{{% /staticref %}} or {{% staticref "course-materials/class-sessions/08-DMP/generic_dmp_template.Rmd" "newtab" %}}[.Rmd format]{{% /staticref %}}
+    
+# Sample DMPs
+
+The Notes for this session have sample DMPs from different disciplines you can use as models for your projects, as well as many other resources for preparing DMPs.

@@ -160,8 +160,8 @@ This is the schedule for 2023 but the linked materials are from 2022
     <td>3/28</td>
     <td>Transcription & Translation</td>
     <td>{{% staticref "/post/class-sessions/readings-week-12" "newtab" %}}<i class="fas fa-book-open"></i>{{% /staticref %}}</td> 
-  <!-- <td>{{% staticref "/post/class-sessions/11_class" %}}<i class="fas fa-clipboard-list"></i>{{% /staticref %}}</td>
-     <td>{{% staticref "course-materials/class-sessions/11-transcription-translation/T_T_Resources.pdf" "newtab" %}}<i class="fas fa-photo-video"></i>: Notes{{% /staticref %}}</td>
+  <td>{{% staticref "/post/class-sessions/12_class" %}}<i class="fas fa-clipboard-list"></i>{{% /staticref %}}</td>
+  <!--    <td>{{% staticref "course-materials/class-sessions/11-transcription-translation/T_T_Resources.pdf" "newtab" %}}<i class="fas fa-photo-video"></i>: Notes{{% /staticref %}}</td>
   </tr>
   --->
   <tr>
@@ -178,8 +178,8 @@ This is the schedule for 2023 but the linked materials are from 2022
     <td>4/11</td>
     <td>Automated Data Extraction</td>
     <td>{{% staticref "/post/class-sessions/readings-week-14" "newtab" %}}<i class="fas fa-book-open"></i>{{% /staticref %}}</td> 
-  <!--  <td><i class="fas fa-clipboard-list"></i></td>
-    <td>{{% staticref "course-materials/class-sessions/13-automated-data-extraction/wk_13_notes.pdf" "newtab" %}}<i class="fas fa-photo-video"></i>: Notes{{% /staticref %}}</td>
+  <td><i class="fas fa-clipboard-list"></i></td>
+  <!--    <td>{{% staticref "course-materials/class-sessions/13-automated-data-extraction/wk_13_notes.pdf" "newtab" %}}<i class="fas fa-photo-video"></i>: Notes{{% /staticref %}}</td>
   </tr>
   --->
   <tr>
@@ -187,8 +187,8 @@ This is the schedule for 2023 but the linked materials are from 2022
     <td>4/18</td>
     <td>Legal & Ethical Issues</td>
     <td>{{% staticref "/post/class-sessions/readings-week-15" "newtab" %}}<i class="fas fa-book-open"></i>{{% /staticref %}}</td> 
-   <!-- <td>{{% staticref "/post/class-sessions/15_class" %}}<i class="fas fa-clipboard-list"></i>{{% /staticref %}}</td>
-    <td>{{% staticref "course-materials/class-sessions/14-legal-ethical/wk_14_notes.pdf" "newtab" %}}<i class="fas fa-photo-video"></i>: Notes{{% /staticref %}}</td>
+   <td>{{% staticref "/post/class-sessions/15_class" %}}<i class="fas fa-clipboard-list"></i>{{% /staticref %}}</td>
+   <!--  <td>{{% staticref "course-materials/class-sessions/14-legal-ethical/wk_14_notes.pdf" "newtab" %}}<i class="fas fa-photo-video"></i>: Notes{{% /staticref %}}</td>
   </tr>
   --->
   <tr>
@@ -196,8 +196,8 @@ This is the schedule for 2023 but the linked materials are from 2022
     <td>4/25</td>
     <td>Data Sharing, Reuse, & Archives</td>
     <td>{{% staticref "/post/class-sessions/readings-week-16" "newtab" %}}<i class="fas fa-book-open"></i>{{% /staticref %}} </td> 
-   <!--<td>{{% staticref "/post/class-sessions/16_class" %}}<i class="fas fa-clipboard-list"></i>{{% /staticref %}}</td>
-    <td>{{% staticref "course-materials/class-sessions/15-dataviz/dataviz_slides.pdf" "newtab" %}}<i class="fas fa-photo-video"></i>: Slides{{% /staticref %}}</td>
+   <td>{{% staticref "/post/class-sessions/16_class" %}}<i class="fas fa-clipboard-list"></i>{{% /staticref %}}</td>
+   <!-- <td>{{% staticref "course-materials/class-sessions/15-dataviz/dataviz_slides.pdf" "newtab" %}}<i class="fas fa-photo-video"></i>: Slides{{% /staticref %}}</td>
   </tr>
   --->
   <tr>

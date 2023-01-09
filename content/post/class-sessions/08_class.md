@@ -1,8 +1,8 @@
 ---
-title: 'In-class Activities - Week 8'
+title: 'In-class Activities - Week 7'
 author: R package build
 date: '2022-02-11'
-slug: class-week-08
+slug: class-week-07
 categories:
   - In-Class Assignment
 tags: []
@@ -19,29 +19,50 @@ projects: []
 type: book
 ---
 
+## Metadata & Codebooks
 
-# Introduction - DMPs
+#### **1. Review of Other Researchers' Metadata**
+     
 
-Today in class we will start drafting the DMP assigned as part of your semester project. To do so we will use the DMP tool, to which we have access as UF Researchers. If you are unfamiliar with DMPs, why they are important, and the information that typically goes into them, be sure to review the [General Guidance on DMPs](https://dmptool.org/general_guidance) before starting today's exercise.
+Data repositories such as [Dryad](https://datadryad.org) and [ICPSR](https://www.icpsr.umich.edu/web/pages/) are designed to permanently store the data thatused in research so it is available to future scholars. To use the data, it is important to have good metadata....but how good are the metadata, really?
 
-1. Sign in to the [DMP Tool](https://dmptool.org) using Option 1 ("If your institution is affiliated with DMPTool"). If you have trouble refer to the  [DMP Quick	Start	Guide](https://dmptool.org/help). 
+Go to either Dryad or ICPSR and download 2-3 datasets. Now review the data and metadata. Based on the information provided, could you explain what the abbreviations are? How the data were collected? What the values represent? Could you recreate the analysis? Is there anything missing or that stands out?
 
-2. Click the Link or Button for "Create a Plan". 
-
-3. Start filling in the three boxes. (It's that easy). _For today's exercise be sure to check the box for "mock project for testing, practice, or educational purposes"_
-
-4. The hard work is thinking through **all** of the data you will be collecting during your thesis, how you will collect it, how much of it there will be, what format it will be in, how you will store it...It's best to start by making a list off-line rather than expecting to remember it all at this moment, so...
-
-5. ...I have created txt versions of the questions for the NEH and NSF DMPs, as well as a Generic DMP. You can download these below and work on them off-line.
-
-
-    **a. NEH DMP:** {{% staticref "course-materials/class-sessions/08-DMP/neh_dmp_template.txt" "newtab" %}}[.txt format]{{% /staticref %}} or {{% staticref "course-materials/class-sessions/08-DMP/neh_dmp_template.Rmd" "newtab" %}}[.Rmd format]{{% /staticref %}}
-
-
-    **b. NSF DMP:** {{% staticref "course-materials/class-sessions/08-DMP/nsf_dmp_template.txt" "newtab" %}}[.txt format]{{% /staticref %}} or {{% staticref "course-materials/class-sessions/08-DMP/nsf_dmp_template.Rmd" "newtab" %}}[.Rmd format]{{% /staticref %}}
-
-    **c. Generic DMP**: {{% staticref "course-materials/class-sessions/08-DMP/generic_dmp_template.txt" "newtab" %}}[.txt format]{{% /staticref %}} or {{% staticref "course-materials/class-sessions/08-DMP/generic_dmp_template.Rmd" "newtab" %}}[.Rmd format]{{% /staticref %}}
+* Here is an example from Dryad: The Page ["Data from: Resilient networks of ant-plant mutualists in Amazonian forest fragments"](https://datadryad.org/stash/dataset/doi:10.5061/dryad.pf2r0) includes an overview of the project and dataset, along with some other information. If you click "Download Dataset" you will get a zip file with {{% staticref "course-materials/class-sessions/07-metadata/sample_metadata/Ant.Plant.Mutualists.Fragmentation.csv" "newtab" %}}[the data in .csv format]{{% /staticref %}} and {{% staticref "course-materials/class-sessions/07-metadata//sample_metadata/Passmore_etat_README.txt" "newtab" %}}[the Metadata in .txt format]{{% /staticref %}}.
     
-# Sample DMPs
 
-The Notes for this session have sample DMPs from different disciplines you can use as models for your projects, as well as many other resources for preparing DMPs.
+
+### **Break**
+
+#### **2. Getting Started on your own Metadata**
+
+### Metadata Templates
+
+Today's session is an opportunity to start drafting the metadata for your project. Although there are links in the notes for today's sesssion to tools that will build your metadata in machine-readable XML schema, for this class (and maybe even in most cases) a .txt or .Rmd file with information on the relevant Class Descriptors (*sensu* Michener _et al._ 1997) is all you need sufficient. To save you time, I have created metadata templates based on information from ICSPR (for social sciences) and Michener _et al._ (for biophysical sciences) that you can download and edit; you can add more fields or delete any that are not relevant. Note that Table 1 in Michener _et al._ is much more comprehensive and provides additional guidance on how to make sure the metadata are useful.  
+
+### Workflow: 
+
+1. Download the following templates: Click the link for your preferred format (.xtx or .Rmd) and save the file in the RStudio project you've created for your Course Project. The .txt version can be opened and edited in any word processor, a text editor, or in R. The .Rmd file is an R Markdown Document.  
+
+    a. **Metadata Template - Social Sciences:** {{% staticref "course-materials/class-sessions/07-metadata/ICPSR_Metadata.txt" "newtab" %}}[.txt format]{{% /staticref %}} or {{% staticref "course-materials/class-sessions/07-metadata/ICPSR_Metadata.Rmd" "newtab" %}}[.Rmd format]{{% /staticref %}} (from ICPSR; see note below for additional info on Qualitative Data).
+    
+      b. **Metadata template for Biophysical Sciences**: {{% staticref "course-materials/class-sessions/07-metadata/Michener_etal_1997_Table1.txt" "newtab" %}}[.txt format]{{% /staticref %}} or {{% staticref "course-materials/class-sessions/07-metadata/Michener_etal_1997_Table1.Rmd" "newtab" %}}[.Rmd format]{{% /staticref %}}(Table 1 from Michener et al. 1997).
+      
+      c. **_Note for researchers in the Humanities or those working with Qualitative Data:_** The metadata required often depend on the type of material with which you work (e.g., oral history, photos, digital, printed). If your data is in this domain, you can download templates here: [Template No.1](https://docs.google.com/spreadsheets/d/1x98TWee85Gq9oas90JJYtB5DyPBkMSNEs29Mb1qyAeQ/edit#gid=0) is from UF's Samuel Proctor Oral History Project, [Template #2](https://docs.google.com/spreadsheets/d/1K9RRNWrWbK0ikQai4_baBmxobqsX6jwEsiAHVjEJRDE/edit#gid=1745662283) is a more general one from the UF Humanities Archives. You can also review the [metadata required by the Qualitative Data Repository](https://qdr.syr.edu/content/qdr-metadata-application-profile).
+
+2. Choose the template that is most appropriate for your discipline, then review both templates.  Is there metadata from the other one would be useful to include in yours? If so, copy the items over and save the revised file with a new (correctly styled) name.
+
+3. Start filling out the metadata requested in the template. You might want to begin by making notations on the ones for which you will have to present the range of possible values, units, the names / brands / models of equipment used to make or record measurments, etc.
+
+4. **Submission:** NONE. This is a component of the final project, so the goal for today is to jump-start your work and to realize that preparing a good metadata file takes longer than anyone anticipates. 
+
+**_Note:_** Be sure to check the Notes for today's topic - they include excellent resources for preparing metadata.
+
+# Sources for Today's Session
+
+1. ICPSR [*Guide to Social Science Data Preparation and Archiving: 
+Best Practice Throughout the Data Life Cycle (6th Edition)*](https://www.icpsr.umich.edu/web/pages/deposit/guide/)
+
+2. DataONE Community Engagement & Outreach Working Group (2017) "Metadata Management". Accessed through the Data Management Skillbuilding Hub at https://dataoneorg.github.io/Education/lessons/07_metadata/index on Aug 31, 2020
+
+

@@ -1,5 +1,5 @@
 ---
-title: 'Week 15: In-Class Assignment'
+title: 'Week 14: In-Class Assignment'
 # author: "Emilio M. Bruna"
 # date: "last update: `r format(Sys.time(), '%d %B %Y')`"
 # header-includes:
@@ -50,57 +50,77 @@ header-includes:
 ---
 
 
-
 ```{r packages, echo=FALSE, message=FALSE, warning=FALSE}
 library(knitr)
 library(kableExtra)
 library(tidyverse)
 ```
 
-## In-Class Exercise: Data Viz
+## In-Class Exercise: Data, Ethics, & the Law
 
-### DATA VISUALIZATION - HOW TO MAKE UGLY PLOTS 
+### PART 1: Anonymizing is hard
 
-1) First, you're going to need to download some datasets. Here are three we will be working with in class: 
-
-- [cereal.csv](https://raw.githubusercontent.com/BrunaLab/LAS6292_DataManagement/65fb8a791f18b7181fc6554f3bd7b206f5e71456/content/course-materials/class-sessions/15-dataviz/demo_datasets/cereal.csv) - data on the nutritional content of different breakfast cereals.
-
-- [bites.csv](https://raw.githubusercontent.com/BrunaLab/LAS6292_DataManagement/65fb8a791f18b7181fc6554f3bd7b206f5e71456/content/course-materials/class-sessions/15-dataviz/demo_datasets/bites_summary.csv). Which dogs bite the most?
-
-- [bigfoot.csv](https://raw.githubusercontent.com/BrunaLab/LAS6292_DataManagement/65fb8a791f18b7181fc6554f3bd7b206f5e71456/content/course-materials/class-sessions/15-dataviz/demo_datasets/annual_bigfoot.csv). Number of bigfoot sightings per year in North America
+1. Exercise 1: Finalize this "anonymization log' for one of your interviews. How would you anonymize each entry? 
 
 
-2) We're going to make a bar plot, then a scatter plot. First you read in the data using `read_csv()`:
+```{r anon_log, echo=FALSE, message=FALSE, warning=FALSE}
 
-      - `bites<-read_csv("./-------")`  
-      - `bigfoot<-read_csv("./-------")`
+col1<-c(
+"Int1 p1",
+"Int1 p1",
+"Int1 p2",
+"Int1 p2",
+"Int1 p3",
+"Int1 p4",
+"Int2 p1",
+"Int2 p8",
+"Int2 p10",
+"Int2 p11"
+)
 
-3) Then we will walk through this code (you can download it later):   [viz_code.class.R](https://github.com/BrunaLab/LAS6292_DataManagement/blob/master/content/course-materials/class-sessions/15-dataviz/viz_code_class.R)
+col2<-c(
+"Age: 27",
+"Born in Venezeula",
+"Born on 20 June",
+"Name: Miguel",
+"Lives in Atlanta",
+"Known as 'Tio Miguelito'",
+"his friend Maria",
+"attended Talbot Elementary School",
+"Director, Southern Region, Quantum Vehicles",
+"lives in Grant Park"
+)
+
+col3<-c(
+" ",
+" ",
+" ",
+" ",
+" ",
+" ",
+" ",
+" ",
+" ",
+" "
+)
+
+log<-data_frame(col1,col2,col3)
+names(log)<-c("Interview-Page","Original Info", "Changed to")
+
+log %>%
+  kbl() %>%
+  kable_styling(latex_options = "HOLD_position")
+```
 
 
-4) After we lear to make the basic figures, your job is to make a figure as ugly as possible. If you need some inspiration, [check out these examples!](https://twitter.com/drdrewsteen/status/1172547837046820864?s=12)
-
-5) Submit them via canvas, and we will vote on the best (=worst) one next week!
-PS Here are some resources that will really help today: 
-
-- [The R Graph Gallery](https://r-graph-gallery.com/index.html)
-- [ggplot manual from R Studio](https://ggplot2.tidyverse.org/index.html)
-- [R Charts with code](https://r-charts.com/)
-- [R Graphics Book](https://r-graphics.org/)
-- [A Cheat Sheet of all the colors in Base R](http://www.stat.columbia.edu/~tzheng/files/Rcolor.pdf)
-- [all the shapes of aesthetics (lines, points, etc)](https://ggplot2.tidyverse.org/articles/ggplot2-specs.html)
-
-**_And if you really want to go wild: _**
-
-- Want to add background images to your plots? [Here's how.](https://guangchuangyu.github.io/2018/04/setting-ggplot2-background-with-ggbackground/)
-
-- [Why use points when you can use emojis?](https://www.emilhvitfeldt.com/post/2020-01-02-real-emojis-in-ggplot2/)
+2. Exercise 2: [Download this interview file](https://github.com/BrunaLab/LAS6292_DataManagement/blob/70a15b1b37357f7dabc4a3c77787cca308d2ba18/content/course-materials/class-sessions/14-legal-ethical/in-class_resources/corti_03_exercise_8.1_original_answer.docx) by clicking the 'download" button and saving to your computer. Try anonymizing this text - was it harder or easier than the more abstract list above? Why or why not?
 
 
-BTW, I'll be posting these to the RESOURCES page for the session later, along with some other things. 
+### PART 2: Research misconduct related to data
 
-1. [“Ch7 in Exploratory Data Analysis” in Wickham and Grolemund’s “R for Data Science”:](https://r4ds.had.co.nz/exploratory-data-analysis.html)  
+1. Take 15 minutes to read this article: Martinson, B., Anderson, M. & de Vries, R. 2005. Scientists behaving badly. Nature 435:737–738. [link](https://doi.org/10.1038/435737a). ~~We'll come back and discuss it as a group after the break.~~ Go to the class Canvas page and tell the class what you thought of the paper. In particular: 
 
-2. Rougier NP, Droettboom M, Bourne PE (2014) Ten Simple Rules for Better Figures. PLoS Comput Biol 10(9): e1003833. [read online](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1003833)
+  * Did the % of scientists engaging in the different behaviors surprise you, and 
+  * Are all the behaviors equally 'bad'? Are there cases (or disciplinary norms) in which they might be acceptable?
 
-
+We will discuss your responses for a few minutes at the start of Friday's class.

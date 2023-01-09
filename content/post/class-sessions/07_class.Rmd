@@ -1,0 +1,106 @@
+---
+title: 'Week 7: In-Class Assignment'
+# author: "Emilio M. Bruna"
+# date: "last update: `r format(Sys.time(), '%d %B %Y')`"
+# header-includes:
+#    - \usepackage[default]{sourcesanspro}
+#    - \usepackage[T1]{fontenc}
+mainfont: SourceSansPro
+geometry: margin=1in
+fontsize: 12pt
+linkcolor: blue
+urlcolor: blue
+output:
+  pdf_document: default
+  # html_document:
+  #   df_print: paged
+  # rmdformats::robobook: default
+header-includes:
+- \AtBeginDocument{\let\maketitle\relax} # this removes default title section
+- \usepackage[default]{sourcesanspro}
+- \usepackage{fancyhdr} # modify header into left, center, right
+- \pagestyle{fancy} # cues the use of fancy headers
+- \fancyfoot{} # cues the use of fancy footer
+# month & year on header left
+- \fancyhead[L]{`r format(Sys.time(), '%B %Y')`} 
+# name and page on header right
+- \fancyhead[R]{LAS 6292 Assignment, p. \thepage} 
+# - \usepackage{setspace}{singlespace} # manipulate line spacing 
+- \usepackage{parskip} # manipulate indents and spacing before/after paragraphs 
+- \usepackage{xcolor} # changes colors of text
+# to center to top level (#) headings (my name) and change color of font
+# more info # https://www.ctan.org/pkg/sectsty
+- \usepackage{sectsty} \sectionfont{\centering\color{darkmidnightblue}}
+# to center to sub-sub-headings (###) and change color of font
+- \usepackage{sectsty} \subsectionfont{\color{darkmidnightblue}}
+# http://latexcolor.com/ to choose colors
+# define the colors used above with rgb codes
+- \definecolor{darkcerulean}{rgb}{0.03, 0.27, 0.49}
+- \definecolor{darkmidnightblue}{rgb}{0.0, 0.2, 0.4}
+# - \usepackage{ragged2e}
+# - \setlength\RaggedRightParindent{15pt}
+# - \RaggedRight - # make the right margin ragged
+# https://tex.stackexchange.com/questions/258714/prevent-hyphenation-across-lines-enforce-right-margin
+# - \hyphenpenalty=10000 #to suppress ordinary hyphenation
+# - \exhyphenpenalty=10000 #to prohibit line breaks at explicit hyphens.
+# - \setstretch{1.0}
+
+# https://babichmorrowc.github.io/post/changing-fonts-in-rmarkdown-pdfs/
+
+---
+
+
+
+```{r packages, echo=FALSE, message=FALSE, warning=FALSE}
+library(knitr)
+library(kableExtra)
+library(tidyverse)
+```
+
+## In-Class Exercise: Data Viz
+
+### DATA VISUALIZATION - HOW TO MAKE UGLY PLOTS 
+
+1) First, you're going to need to download some datasets. Here are three we will be working with in class: 
+
+- [cereal.csv](https://raw.githubusercontent.com/BrunaLab/LAS6292_DataManagement/65fb8a791f18b7181fc6554f3bd7b206f5e71456/content/course-materials/class-sessions/15-dataviz/demo_datasets/cereal.csv) - data on the nutritional content of different breakfast cereals.
+
+- [bites.csv](https://raw.githubusercontent.com/BrunaLab/LAS6292_DataManagement/65fb8a791f18b7181fc6554f3bd7b206f5e71456/content/course-materials/class-sessions/15-dataviz/demo_datasets/bites_summary.csv). Which dogs bite the most?
+
+- [bigfoot.csv](https://raw.githubusercontent.com/BrunaLab/LAS6292_DataManagement/65fb8a791f18b7181fc6554f3bd7b206f5e71456/content/course-materials/class-sessions/15-dataviz/demo_datasets/annual_bigfoot.csv). Number of bigfoot sightings per year in North America
+
+
+2) We're going to make a bar plot, then a scatter plot. First you read in the data using `read_csv()`:
+
+      - `bites<-read_csv("./-------")`  
+      - `bigfoot<-read_csv("./-------")`
+
+3) Then we will walk through this code (you can download it later):   [viz_code.class.R](https://github.com/BrunaLab/LAS6292_DataManagement/blob/master/content/course-materials/class-sessions/15-dataviz/viz_code_class.R)
+
+
+4) After we lear to make the basic figures, your job is to make a figure as ugly as possible. If you need some inspiration, [check out these examples!](https://twitter.com/drdrewsteen/status/1172547837046820864?s=12)
+
+5) Submit them via canvas, and we will vote on the best (=worst) one next week!
+PS Here are some resources that will really help today: 
+
+- [The R Graph Gallery](https://r-graph-gallery.com/index.html)
+- [ggplot manual from R Studio](https://ggplot2.tidyverse.org/index.html)
+- [R Charts with code](https://r-charts.com/)
+- [R Graphics Book](https://r-graphics.org/)
+- [A Cheat Sheet of all the colors in Base R](http://www.stat.columbia.edu/~tzheng/files/Rcolor.pdf)
+- [all the shapes of aesthetics (lines, points, etc)](https://ggplot2.tidyverse.org/articles/ggplot2-specs.html)
+
+**_And if you really want to go wild: _**
+
+- Want to add background images to your plots? [Here's how.](https://guangchuangyu.github.io/2018/04/setting-ggplot2-background-with-ggbackground/)
+
+- [Why use points when you can use emojis?](https://www.emilhvitfeldt.com/post/2020-01-02-real-emojis-in-ggplot2/)
+
+
+BTW, I'll be posting these to the RESOURCES page for the session later, along with some other things. 
+
+1. [“Ch7 in Exploratory Data Analysis” in Wickham and Grolemund’s “R for Data Science”:](https://r4ds.had.co.nz/exploratory-data-analysis.html)  
+
+2. Rougier NP, Droettboom M, Bourne PE (2014) Ten Simple Rules for Better Figures. PLoS Comput Biol 10(9): e1003833. [read online](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1003833)
+
+
