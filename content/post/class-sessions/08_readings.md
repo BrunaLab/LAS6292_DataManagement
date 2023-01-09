@@ -1,5 +1,5 @@
 ---
-title: 'Readings: Week 8
+title: 'Readings: Week 8'
 author: R package build
 date: '2022-01-17'
 slug: readings-week-08
@@ -20,6 +20,7 @@ type: book
 
 
 ## Documentation: Metadata, Codebooks
+
 {{% callout note %}}
 ### Objectives and Competencies for this session:
 
