@@ -42,8 +42,7 @@ type: book
 
 ### Please read / watch these before class:
 
-
-#### **Readings: **
+#### **Readings:**
 
 1.  Jan Čurn. 2014. How a bug in Dropbox permanently deleted my 8000 photos.  [[Read Online]](https://medium.com/@jancurn/how-bug-in-dropbox-permanently-deleted-my-8000-photos-cb7dcf13647b) 
 
