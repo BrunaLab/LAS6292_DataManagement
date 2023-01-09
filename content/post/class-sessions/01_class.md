@@ -16,6 +16,7 @@ image:
   focal_point: ''
   preview_only: no
 projects: []
+type: book
 ---
 
 ## In-Class Exercise/Assignment: Survey: Student Research and Data Management Interests 
