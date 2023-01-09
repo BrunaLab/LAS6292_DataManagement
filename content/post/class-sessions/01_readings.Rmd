@@ -8,6 +8,8 @@ tags: ["data life cycle"]
 
 ## 'Data' across disciplines and the Research Data Life Cycle 
 
+{{% callout note %}}
+
 ### Objectives
 
 * Meet the instructor and other students
@@ -15,6 +17,8 @@ tags: ["data life cycle"]
 * Understand how different disciplines define and use 'data'
 * Learn the 'Research Data Life-Cycle'
 * Overview of the Course Structure, review the Syllabus
+
+{{% /callout %}}
 
 ### Please read / watch these before class:
 
