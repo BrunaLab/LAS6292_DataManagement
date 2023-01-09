@@ -54,10 +54,9 @@ This is the schedule for 2023 but the linked materials are from 2022
     <td>1/10</td>
     <td>‘Data’ across disciplines; Data Life-cycle </td>
     <td>{{% staticref "/post/class-sessions/readings-week-1" "newtab" %}}<i class="fas fa-book-open"></i>{{% /staticref %}}</td> 
-    <!--
-    <td>{{% staticref "/post/class-sessions/01_class" %}}<i class="fas fa-clipboard-list"></i>{{% /staticref %}}</td>
-    <td>{{% staticref "course-materials/class-sessions/01-intro/01_slides_2022.pdf" "newtab" %}}<i class="fas fa-photo-video"></i>: Slides{{% /staticref %}} </td>
-    --->
+    <td>{{% staticref "/post/class-sessions/class-week-1" %}}<i class="fas fa-clipboard-list"></i>{{% /staticref %}}</td>
+      <!-- <td>{{% staticref "course-materials/class-sessions/01-intro/01_slides_2022.pdf" "newtab" %}}<i class="fas fa-photo-video"></i>: Slides{{% /staticref %}} </td> --->
+      
   </tr>
   
   <tr>
