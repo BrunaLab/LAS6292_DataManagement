@@ -112,7 +112,7 @@ This is the schedule for 2023 but the linked materials are from 2022
     <td>2/21</td>
     <td>QA/QC 3: Visualizing Data to find Mistakes</td>
     <td>{{% staticref "/post/class-sessions/readings-week-07" "newtab" %}}<i class="fas fa-book-open"></i>{{% /staticref %}}</td> 
-  <td>{{% staticref "/post/class-sessions/class-week-07" %}}<i class="fas fa-clipboard-list"></i>{{% /staticref %}}</td>
+  <td>{{% staticref "/post/class-sessions/07_class" %}}<i class="fas fa-clipboard-list"></i>{{% /staticref %}}</td>
   <!--   <td>{{% staticref "course-materials/class-sessions/07-metadata/wk7_metadata_notes.pdf" "newtab" %}}<i class="fas fa-photo-video"></i>: Notes{{% /staticref %}}</td>
   </tr>
   --->

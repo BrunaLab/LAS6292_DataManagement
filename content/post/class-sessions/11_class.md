@@ -1,8 +1,8 @@
 ---
-title: 'In-class Activities - Week 9'
+title: 'In-class Activities - Week 11'
 author: R package build
 date: '2022-02-11'
-slug: class-week-09
+slug: class-week-11
 categories:
   - In-Class Assignment
 tags: []
