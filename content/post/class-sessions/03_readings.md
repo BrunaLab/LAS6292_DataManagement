@@ -19,6 +19,8 @@ type: book
 
 ---
 
+{{% callout note %}}
+
 ## **Objectives and Competencies for this session:**
 
   * Be able to identify different categories of data   
@@ -28,7 +30,7 @@ type: book
   * Identify problems with and approaches for proper handling of dates in spreadsheets
   * Learn how to export data from spreadsheets in open format
 
-
+{{% /callout %}}
 
 ## **Pre-Class Preparation:**
  

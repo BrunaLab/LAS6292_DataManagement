@@ -19,13 +19,14 @@ type: book
 ---
 
 ## Week 4: Reproducible data (re)organization
-
+{{% callout note %}}
 ### Objectives and Competencies for this session:   
 
 * Understand and be able to explain the importance of a well-documented, reproducible workflow
 * Be able to outline a logical workflow for data importing and correction
 * Be able to load a file as a dataframe in RStudio, edit the data frame, and save the corrected version as a csv file
   
+{{% /callout %}}
 
 ### Pre-Class Preparation:
         
