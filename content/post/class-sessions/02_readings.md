@@ -43,7 +43,7 @@ type: book
 ### Please read / watch these before class:
 
 
-* **Readings: **
+#### **Readings: **
 
 1.  Jan Čurn. 2014. How a bug in Dropbox permanently deleted my 8000 photos.  [[Read Online]](https://medium.com/@jancurn/how-bug-in-dropbox-permanently-deleted-my-8000-photos-cb7dcf13647b) 
 
@@ -54,19 +54,15 @@ type: book
 4.  Hart EM et al. (2016) Ten Simple Rules for Digital Data Storage. PLoS Comput Biol 12(10): e1005097. [[read online]](https://doi.org/10.1371/journal.pcbi.1005097)
 
 
-* **Videos:** _FYI_: these are last year's versions and I am editing them + adding subtitles. They should be ready by 11 Jan 2021.
- 
+#### **Videos:** 
 
 **Lesson 1: How to Name Your Files**  
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/BMwI7ubvTnE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-
 **Lesson 2: How to organize Your Files**  
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/h1hIKNC64ac" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-
 
 **Lesson 3: Data Storage and Backup**
 
