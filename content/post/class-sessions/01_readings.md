@@ -1,10 +1,23 @@
 ---
-title: "Week 1: Readings"
-author: "Emilio M. Bruna"
-date: "`r format(Sys.time(), '%Y')`"
-categories: ["Readings"]
-tags: ["data life cycle"]
+title: 'Readings: Week 11'
+author: R package build
+date: '2022-01-17'
+slug: readings-week-1
+categories: []
+tags: []
+subtitle: ''
+summary: ''
+authors: []
+lastmod: '2022-01-17T18:15:49-05:00'
+featured: no
+image:
+  caption: ''
+  focal_point: ''
+  preview_only: no
+projects: []
+type: book
 ---
+
 
 ## 'Data' across disciplines & the Research Data Life Cycle 
 
