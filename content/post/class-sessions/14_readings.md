@@ -19,52 +19,18 @@ type: book
 ---
 
 
-## Legal and Ethical Issues
+## Automated data extraction
  
 ### Objectives and Competencies for this session:
 
 
   
-### Pre-class Preparation:
+### Please read / watch these before class:
         
 **Readings:** 
 
-1.  de Koning M, Meyer B, Moors A, Pels P. 2019. Guidelines for anthropological research: Data management, ethics, and integrity. Ethnography. 20(2):170-174.  [[read online]](https://journals.sagepub.com/doi/10.1177/1466138119843312) or {{% staticref "course-materials/readings/Koning_etal_2019.pdf" "newtab" %}}[download pdf]{{% /staticref %}}
+1.  Drinkwater, R. E., Cubey, R. W., & Haston, E. M. (2014). The use of Optical Character Recognition (OCR) in the digitization of herbarium specimen labels. PhytoKeys, (38), 15-30.  [[read online]](doi:10.3897/phytokeys.38.7168) or {{% staticref "course-materials/readings/Drinkwater_etal_2014.pdf" "newtab" %}}[download pdf]{{% /staticref %}}
 
-2.  Katie Fortney, UC Office of Scholarly Communication. 2016. “Who owns your data?”  [[read online]](https://uc3.cdlib.org/2016/09/08/who-owns-your-data/) or {{% staticref "course-materials/readings/Fortney_2016.pdf" "newtab" %}}[download pdf]{{% /staticref %}}
+2.  Joo, Jungseock and Zachary C. Steinert-Threlkeld. 2019. Image as data: Automated visual content analysis for social science. [[read online]](https://ocean.sagepub.com/blog/image-as-data-automated-visual-content-analysis-for-social-science)  or {{% staticref "course-materials/readings/Joo_and_Steinert-Threlkeld_2019.pdf" "newtab" %}}[download pdf]{{% /staticref %}}
 
-3. Goodluck, K. 2020. Indigenous data sovereignty shakes up research. High Country News. [[read online]](https://www.hcn.org/issues/52.11/indigenous-affairs-covid19-indigenous-data-sovereignty-shakes-up-research) or {{% staticref "course-materials/readings/Goodluck_2020.pdf" "newtab" %}}[download pdf]{{% /staticref %}}
-
-4. Woodbury, R. B., Beans, J. A., Hiratsuka, V. Y., & Burke, W. (2019). Data Management in Health-Related Research Involving Indigenous Communities in the United States and Canada: A Scoping Review. Frontiers in genetics, 10, 942.  [[read online]](https://doi.org/10.3389/fgene.2019.00942) or {{% staticref "course-materials/readings/Woodbury_etal_2019.pdf" "newtab" %}}[download pdf]{{% /staticref %}}
-
-* **Videos:** 
-
-Watch: 
-
-1.  "The Text Wash team discusses text anonymization" [[link]](https://youtu.be/5fFO4ROg4Vw); related blog post [[link]](https://ocean.sagepub.com/blog/making-sensitive-text-data-accessible-for-computational-social-science)
-
-
-Quick Overview Lecture by EB (Links to an external site.)
-
-NIH:Statistical methods for protecting data confidentiality
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/3vN-6A2zbsk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-
-Patricia Jenkinson Video Seminar: Ethics in Human Subject Research
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/e0uydNe4cQo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
- U.S. Department of Health and Human Services: Informed Consent Overview
- 
- <iframe width="560" height="315" src="https://www.youtube.com/embed/Y7uI3sM9wtc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
- 
- 
-Australian Council for International Development (ACFID): Principles and Guidelines for Ethical Research and Evaluation in Development
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/ylkKCgEIMws" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-
-OPTIONAL: An Overview of NIH Policies on Human Subjects Research (I recommend you listen at 1.75x speed).
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/jPWxPgR-vww" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+* **Videos:** None

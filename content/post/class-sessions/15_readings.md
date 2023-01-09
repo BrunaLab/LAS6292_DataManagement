@@ -19,26 +19,52 @@ type: book
 ---
 
 
-## Data Sharing, Reuse, and Archives
+## Legal and Ethical Issues
  
 ### Objectives and Competencies for this session:
 
 
   
-### Please read / watch these before class:
+### Pre-class Preparation:
         
 **Readings:** 
 
-1.  Alexander, S.M., Jones, K., Bennett, N.J. et al. Qualitative data sharing and synthesis for sustainability science. Nat Sustain 3, 81–88 (2020).  [[read online]](https://doi.org/10.1038/s41893-019-0434-8 ) or {{% staticref "course-materials/readings/Alexander_etal_2019_NatureSustainability.pdf" "newtab" %}}[download pdf]{{% /staticref %}}
+1.  de Koning M, Meyer B, Moors A, Pels P. 2019. Guidelines for anthropological research: Data management, ethics, and integrity. Ethnography. 20(2):170-174.  [[read online]](https://journals.sagepub.com/doi/10.1177/1466138119843312) or {{% staticref "course-materials/readings/Koning_etal_2019.pdf" "newtab" %}}[download pdf]{{% /staticref %}}
 
-2. Renaut, S. et al. 2018. Management, Archiving, and Sharing for Biologists and the Role of Research Institutions in the Technology-Oriented Age. *BioScience* 68(6)400–411  [[read online]](https://academic.oup.com/bioscience/article/68/6/400/4983937) or {{% staticref "course-materials/readings/Renaut_etal_2018_Bioscience.pdf" "newtab" %}}[download pdf]{{% /staticref %}}
-  
+2.  Katie Fortney, UC Office of Scholarly Communication. 2016. “Who owns your data?”  [[read online]](https://uc3.cdlib.org/2016/09/08/who-owns-your-data/) or {{% staticref "course-materials/readings/Fortney_2016.pdf" "newtab" %}}[download pdf]{{% /staticref %}}
 
-2.  Duke, Clifford S., and John H. Porter. 2013. "The ethics of data sharing and reuse in biology." BioScience 63(6): 483-489. [[read online]](https://academic.oup.com/bioscience/article/63/6/483/226339) or {{% staticref "course-materials/readings/Duke_and_Porter_2013.pdf" "newtab" %}}[download pdf]{{% /staticref %}} 
+3. Goodluck, K. 2020. Indigenous data sovereignty shakes up research. High Country News. [[read online]](https://www.hcn.org/issues/52.11/indigenous-affairs-covid19-indigenous-data-sovereignty-shakes-up-research) or {{% staticref "course-materials/readings/Goodluck_2020.pdf" "newtab" %}}[download pdf]{{% /staticref %}}
 
-3.  Tenopir, C., et al.  (2015). Changes in data sharing and data reuse practices and perceptions among scientists worldwide. PloS one, 10(8), e0134826.  [[read online]](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0134826) or {{% staticref "course-materials/readings/Tenopir_etal_2015.PDF" "newtab" %}}[download pdf]{{% /staticref %}}
+4. Woodbury, R. B., Beans, J. A., Hiratsuka, V. Y., & Burke, W. (2019). Data Management in Health-Related Research Involving Indigenous Communities in the United States and Canada: A Scoping Review. Frontiers in genetics, 10, 942.  [[read online]](https://doi.org/10.3389/fgene.2019.00942) or {{% staticref "course-materials/readings/Woodbury_etal_2019.pdf" "newtab" %}}[download pdf]{{% /staticref %}}
 
-4.  Mauthner, NS, & O. Parry O. 2009. Qualitative data preservation and sharing in the social sciences: On whose philosophical terms?. Australian J of Social Issues 44(3):291-307.  [[read online]](https://onlinelibrary.wiley.com/doi/abs/10.1002/j.1839-4655.2009.tb00147.x) or {{% staticref "course-materials/readings/Mauthner_et_al-2009-Australian_Journal_of_Social_Issues.pdf" "newtab" %}}[download pdf]{{% /staticref %}}
+* **Videos:** 
+
+Watch: 
+
+1.  "The Text Wash team discusses text anonymization" [[link]](https://youtu.be/5fFO4ROg4Vw); related blog post [[link]](https://ocean.sagepub.com/blog/making-sensitive-text-data-accessible-for-computational-social-science)
 
 
-* **Videos:** None
+Quick Overview Lecture by EB (Links to an external site.)
+
+NIH:Statistical methods for protecting data confidentiality
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/3vN-6A2zbsk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+Patricia Jenkinson Video Seminar: Ethics in Human Subject Research
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/e0uydNe4cQo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+ U.S. Department of Health and Human Services: Informed Consent Overview
+ 
+ <iframe width="560" height="315" src="https://www.youtube.com/embed/Y7uI3sM9wtc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+ 
+ 
+Australian Council for International Development (ACFID): Principles and Guidelines for Ethical Research and Evaluation in Development
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ylkKCgEIMws" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+OPTIONAL: An Overview of NIH Policies on Human Subjects Research (I recommend you listen at 1.75x speed).
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/jPWxPgR-vww" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

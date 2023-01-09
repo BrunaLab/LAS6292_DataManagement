@@ -19,41 +19,39 @@ type: book
 ---
 
 
-## Documentation: Metadata, Codebooks
+## Efficient Data Collection
 {{% callout note %}}
 ### Objectives and Competencies for this session:
 
-  * understand the different approaches to translation and the research questions for which each is most appropriate
-  * Become familiar with software for automated translation via direct upload and api
-  * Learn to use the different types of automated and manual transcription tools
-  * Understand the strengths and weaknesses of automated translation 
-  * Be able to describe the metadata required for transcription files
-  
+* Learn to evaluate data collection procedures to identify steps at which errors are likely to enter and propagate 
+* Critique and improve data collection forms
+* Learn to prepare and use checklists for complex procedures such as data collection
+
 {{% /callout %}}
-  
-### Pre-class Preparation
-
-
-**Readings**
-1.  Bakker, Rebecca. "Transcription Tools and Software" (2017). Works of the FIU Libraries. 62.  
-        [[read online]](https://digitalcommons.fiu.edu/glworks/62) 
+ 
+### Please read / watch these before class:
         
-<!---        [download pdf](https://github.com/BrunaLab/LAS6292_DataManagement/blob/master/Assigned_Readings/Bakker_transcription_tools_slides.pdf)  --->
+#### **Readings:** 
 
-2. McMullin, C. 2021, Transcription and Qualitative Methods: Implications for Third Sector Research. Voluntas. [link](https://doi.org/10.1007/s11266-021-00400-3)
+  1.  Redman, T. 2016. Bad Data Costs the U.S. $3 Trillion Per Year. Harvard Business Review.    [[read online]](https://hbr.org/2016/09/bad-data-costs-the-u-s-3-trillion-per-year#:~:text=How%20much%20is%20it%20costing%20you%3F&text=Consider%20this%20figure%3A%20%24136%20billion%20per%20year.&text=But%20here's%20another%20number%3A%20%243.1,the%20US%20alone%2C%20in%202016.) or {{% staticref "course-materials/readings/Redman_2016.pdf" "newtab" %}}[download pdf]{{% /staticref %}}
 
-_Optional (but very, very useful)_
+#### **Videos:** 
 
-1. Daniel G. Oliver, Julianne M. Serovich, Tina L. Mason, Constraints and Opportunities with Interview Transcription: Towards Reflection in Qualitative Research, Social Forces, Volume 84, Issue 2, December 2005, Pages 1273–1289 [link](https://doi.org/10.1353/sof.2006.0023)
+  1. **Atul Gawande's TED Talk:** The Importance & Value of the CHECK LIST.  
 
-1. Julia Bailey, First steps in qualitative data analysis: transcribing, Family Practice, Volume 25, Issue 2, April 2008, Pages 127–131 [link](https://doi.org/10.1093/fampra/cmn003)
+  {{< youtube 55Nc8nccPa0 >}}  
 
-**Videos:**  
 
-1. Dr. Jarek Kriukow
+<!---- <iframe width="560" height="315" src="https://www.youtube.com/embed/55Nc8nccPa0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> ---->
+
+  2. **Animated summary of *The Checklist Manifesto*.**  
+
+  {{< youtube bCDmDzIOZ-g >}}  
+
+<!---- <iframe width="560" height="315" src="https://www.youtube.com/embed/bCDmDzIOZ-g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> ---->
+
+  3. **Jess Stratton's LinkedIn Learning Video Overview:** "Use Google Forms to Create Surveys" (7 min.). Watch it [here](https://www.linkedin.com/learning/google-sheets-advanced-tips-and-tricks/use-google-forms-to-create-surveys?autoAdvance=true&autoSkip=false&autoplay=true&resume=true&u=41282748); must be on UF computer or use UF proxy.    
+
+  4. **OPTIONAL:** The more advanced, multi-video "Google Forms Essential Training Course". These short (1-3 min) videos explain each step in more detail. It's great, and only 39 min long from start to finish. Watch [here](https://www.linkedin.com/learning/google-forms-essential-training-2/collect-data-easily-with-google-forms?autoAdvance=true&autoSkip=false&autoplay=true&resume=true&u=41282748); must be on UF computer or use UF proxy.
+ 
   
-    * [How to transcribe interviews - Part 1: "naturalism" and "denaturalism"](https://www.youtube.com/watch?v=NzVjlKR4HQQ) 
-    * [How to transcribe interviews - Part 2: Which approach to use?](https://www.youtube.com/watch?v=69T8aVf5Nj0)
-
-_Note: we will discuss anonymization during the session on legal and ethical Issues_
-

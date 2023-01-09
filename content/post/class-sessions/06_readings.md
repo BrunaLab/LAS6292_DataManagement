@@ -19,7 +19,8 @@ type: book
 ---
 
 
-## Week 6: QA/QC: Data validation & correction 2**
+## Week 6: QA/QC 1: Data correction & synthesis with Open Refine**
+
 {{% callout note %}}
 ### Objectives and Competencies for this session:   
 

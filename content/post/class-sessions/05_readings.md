@@ -19,7 +19,7 @@ type: book
 ---
 
 
-## Week 5: QA/QC: Data validation & correction 1**
+## Week 5: QA/QC 1: Data entry and validation
 {{% callout note %}}
 ### Objectives and Competencies for this session:   
 

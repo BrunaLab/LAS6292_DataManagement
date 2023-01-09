@@ -19,49 +19,41 @@ type: book
 ---
 
 
-## ‘Paperless’ data collection
-{{% callout note %}} 
+## Transcription & Translation
+{{% callout note %}}
 ### Objectives and Competencies for this session:
 
-* Be able to explain the advantages of paperless data collection
-* Identify means of preventing data loss when collecting data electronically
-* Learn how to build a form, and collect, upload, and download data using EpiCollect
-
-{{% /callout %}} 
-
+  * understand the different approaches to translation and the research questions for which each is most appropriate
+  * Become familiar with software for automated translation via direct upload and api
+  * Learn to use the different types of automated and manual transcription tools
+  * Understand the strengths and weaknesses of automated translation 
+  * Be able to describe the metadata required for transcription files
+  
+{{% /callout %}}
   
 ### Pre-class Preparation
 
-1. **Download**: Epicollect app to a phone or tablet _(if you need to borrow a phone or tablet let me know)._
 
-* [Android](https://play.google.com/store/apps/details?id=uk.ac.imperial.epicollect.five&hl=en_US&gl=US)
-
-* [Apple](https://apps.apple.com/us/app/epicollect5/id1183858199)
-
-1. **Readings:** 
-
-* Aanensen DM, Huntley DM, Feil EJ, al-Own F, Spratt BG (2009) EpiCollect: Linking Smartphones to Web Applications for Epidemiology, Ecology and Community Data Collection. PLoS ONE 4(9): e6968.  [[read online]](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0006968) or {{% staticref "course-materials/readings/Aanensen_etal_2009.PDF" "newtab" %}}[download pdf]{{% /staticref %}}
-
-* Moylan, CA et al. 2013. Increasingly mobile: How new technologies can enhance qualitative research. Qualitative social work: research and practice, 14(1):36-47.  [[read online]](https://journals.sagepub.com/doi/10.1177/1473325013516988) or {{% staticref "course-materials/readings/Moylan_etal_2015.pdf" "newtab" %}}[download pdf]{{% /staticref %}}
-
-* Teacher, Amber G. F. et al. Smartphones in ecology and evolution: a guide for the app‐rehensive. Ecology and Evolution 3(16):5268– 5278  [[read online]](https://onlinelibrary.wiley.com/doi/full/10.1002/ece3.888) or {{% staticref "course-materials/readings/Teacher_etal_2013.pdf" "newtab" %}}[download pdf]{{% /staticref %}}
-
-
-2. **Videos:** 
-
-* **Paperless Data Collection**  
-
-  {{< youtube j5GWpDx_Ytw >}}  
-
-
-* **Great tutorials by UConn's David Dickson**  
-
-
-    * [Intro to EpiCollect 5](https://kaltura.uconn.edu/playlist/dedicated/1_14lpwsw0/1_fmj06huc)  
-            
-    * [Creating an EpiCollect PROJECT](https://kaltura.uconn.edu/media/Creating+an+Epicollect+5+Project/1_853ybdbf)  
+**Readings**
+1.  Bakker, Rebecca. "Transcription Tools and Software" (2017). Works of the FIU Libraries. 62.  
+        [[read online]](https://digitalcommons.fiu.edu/glworks/62) 
         
-    * [Creating a FORM for your Epicollect Project](https://kaltura.uconn.edu/media/Creating+a+Form+in+Epicollect+5/1_inr7wxq8)  
-        
-    * [Collecting data in EpiCollect with your phone or tablet](https://kaltura.uconn.edu/media/Collecting+Data+With+Epicollect+5/1_kgzfddtp)  
+<!---        [download pdf](https://github.com/BrunaLab/LAS6292_DataManagement/blob/master/Assigned_Readings/Bakker_transcription_tools_slides.pdf)  --->
+
+2. McMullin, C. 2021, Transcription and Qualitative Methods: Implications for Third Sector Research. Voluntas. [link](https://doi.org/10.1007/s11266-021-00400-3)
+
+_Optional (but very, very useful)_
+
+1. Daniel G. Oliver, Julianne M. Serovich, Tina L. Mason, Constraints and Opportunities with Interview Transcription: Towards Reflection in Qualitative Research, Social Forces, Volume 84, Issue 2, December 2005, Pages 1273–1289 [link](https://doi.org/10.1353/sof.2006.0023)
+
+1. Julia Bailey, First steps in qualitative data analysis: transcribing, Family Practice, Volume 25, Issue 2, April 2008, Pages 127–131 [link](https://doi.org/10.1093/fampra/cmn003)
+
+**Videos:**  
+
+1. Dr. Jarek Kriukow
   
+    * [How to transcribe interviews - Part 1: "naturalism" and "denaturalism"](https://www.youtube.com/watch?v=NzVjlKR4HQQ) 
+    * [How to transcribe interviews - Part 2: Which approach to use?](https://www.youtube.com/watch?v=69T8aVf5Nj0)
+
+_Note: we will discuss anonymization during the session on legal and ethical Issues_
+

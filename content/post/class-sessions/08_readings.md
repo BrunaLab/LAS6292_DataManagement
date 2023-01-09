@@ -1,5 +1,5 @@
 ---
-title: 'Readings: Week 8'
+title: 'Readings: Week 8
 author: R package build
 date: '2022-01-17'
 slug: readings-week-08
@@ -15,36 +15,36 @@ image:
   focal_point: ''
   preview_only: no
 projects: []
+type: book
 ---
 
 
 ## Documentation: Metadata, Codebooks
-
 {{% callout note %}}
 ### Objectives and Competencies for this session:
 
- * Define a DMP and understand the importance of preparing one
-  * Identify the key sections of a DMP and how they vary by discipline
-  * Understand how to find and use online tools for creating DMPs
+  * Be able to explain what metadata are and why they are important
+  * Identify & list the types of information typically included in metadata records
+  * Identify reasons metadata is of value to data users, creators, and organizations
+  * Be able to identify metadata standards relevant to different disciplines
+  * Explain the elements of good metadata
 
-{{% /callout %}}
-  
+{{% /callout %}} 
 
-### Pre-class preparation:
+### Please read / watch these before class:
         
-**Readings:** 
+**Readings:** None this week
+
+1.  Michener, W.K., et al . 1997. Non-geospatial metadata for the ecological sciences. Ecological Applications 7: 330–342. [[read online]](https://esajournals.onlinelibrary.wiley.com/doi/abs/10.1890/1051-0761%281997%29007%5B0330%3ANMFTES%5D2.0.CO%3B2) or {{% staticref "course-materials/readings/Michener_etal_1997_EcolApplications.pdf" "newtab" %}}[download pdf]{{% /staticref %}}
 
 
-1.  Michener, W. K. (2015). Ten simple rules for creating a good data management plan. PLoS computational biology, 11(10), e1004525.  [[read online]](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1004525) or {{% staticref "course-materials/readings/Michener_2015_PloSBio.PDF" "newtab" %}}[download pdf]{{% /staticref %}}
+<!-- 2.  Pp 446-450 in Bernard, H.R. and Bernard, H.R., 2013. Social research methods: Qualitative and quantitative approaches. Sage. [[download pdf]] --->
 
-2. Goodman A, et al. (2014) Ten Simple Rules for the Care and Feeding of Scientific Data. PLoS Comput Biol 10(4): e1003542. *_this paper connects what we've done with what's next_*  [[read online]](https://doi.org/10.1371/journal.pcbi.1003542) or {{% staticref "course-materials/readings/Goodman_etal_2014.pdf" "newtab" %}}[download pdf]{{% /staticref %}}
-  
+* **Videos:**
 
-* **Videos** 
+1. Metadata [[link to video on Youtube]](https://youtu.be/wrt-3l71DJ4)
 
-"Content of a DMP" by RWTH Aachen University (~12 min). 
+{{< youtube wrt-3l71DJ4 >}}
 
-{{< youtube fcCj6sNvoOw >}}
-
-<!---n <iframe width="560" height="315" src="https://www.youtube.com/embed/fcCj6sNvoOw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> --->
+<!---- <iframe width="560" height="315" src="https://youtu.be/wrt-3l71DJ4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> --->
 

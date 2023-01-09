@@ -19,32 +19,20 @@ type: book
 ---
 
 
-## Documentation: Metadata, Codebooks
+### QA/QC 3: Finding Errors with Data Visualization
+
 {{% callout note %}}
 ### Objectives and Competencies for this session:
-
-  * Be able to explain what metadata are and why they are important
-  * Identify & list the types of information typically included in metadata records
-  * Identify reasons metadata is of value to data users, creators, and organizations
-  * Be able to identify metadata standards relevant to different disciplines
-  * Explain the elements of good metadata
-
+  * Explain the elements of good figures
 {{% /callout %}} 
 
-### Please read / watch these before class:
-        
-**Readings:** None this week
+**Read:**
 
-1.  Michener, W.K., et al . 1997. Non-geospatial metadata for the ecological sciences. Ecological Applications 7: 330–342. [[read online]](https://esajournals.onlinelibrary.wiley.com/doi/abs/10.1890/1051-0761%281997%29007%5B0330%3ANMFTES%5D2.0.CO%3B2) or {{% staticref "course-materials/readings/Michener_etal_1997_EcolApplications.pdf" "newtab" %}}[download pdf]{{% /staticref %}}
+1. Rougier NP, Droettboom M, Bourne PE (2014) Ten Simple Rules for Better Figures. PLoS Comput Biol 10(9): e1003833. [[read online]](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1003833) or [[download pdf]](https://journals.plos.org/ploscompbiol/article/file?id=10.1371/journal.pcbi.1003833&type=printable)
 
+**Watch:**  
 
-<!-- 2.  Pp 446-450 in Bernard, H.R. and Bernard, H.R., 2013. Social research methods: Qualitative and quantitative approaches. Sage. [[download pdf]] --->
-
-* **Videos:**
-
-1. Metadata [[link to video on Youtube]](https://youtu.be/wrt-3l71DJ4)
-
-{{< youtube wrt-3l71DJ4 >}}
-
-<!---- <iframe width="560" height="315" src="https://youtu.be/wrt-3l71DJ4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> --->
+1. Tommy McCall: [The simple genius of a good graphic](https://www.ted.com/talks/tommy_mccall_the_simple_genius_of_a_good_graphic?language=en)
+    
+2. R. Luke DuBois: [Insightful human portraits made from data](https://www.ted.com/talks/r_luke_dubois_insightful_human_portraits_made_from_data?language=en)
 
