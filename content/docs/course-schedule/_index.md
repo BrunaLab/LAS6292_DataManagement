@@ -63,8 +63,8 @@ This is the schedule for 2023 but the linked materials are from 2022
     <td>2</td>
     <td>1/17</td>
     <td>File Formats, Naming Conventions, Data Storage & Security</td>
-    <td>{{% staticref "/post/class-sessions/readings_wk_2" "newtab" %}}<i class="fas fa-book-open"></i>{{% /staticref %}}</td> 
-    <!--<td>{{% staticref "/post/class-sessions/02_class" %}}<i class="fas fa-clipboard-list"></i>{{% /staticref %}}</td>
+    <td>{{% staticref "/post/class-sessions/readings-week-2" "newtab" %}}<i class="fas fa-book-open"></i>{{% /staticref %}}</td> 
+    <!--<td>{{% staticref "/post/class-sessions/class-week-2" %}}<i class="fas fa-clipboard-list"></i>{{% /staticref %}}</td>
     <td>{{% staticref "course-materials/class-sessions/02-formats-security/wk2_naming_conventions.pdf" "newtab" %}}<i class="fas fa-photo-video"></i>: Naming Conventions Notes{{% /staticref %}}<br>{{% staticref "course-materials/class-sessions/02-formats-security/wk2_file_organization.pdf" "newtab" %}}<i class="fas fa-photo-video"></i>: File Organization Notes{{% /staticref %}}<br>{{% staticref "course-materials/class-sessions/02-formats-security/wk2_storage_backup.pdf" "newtab" %}}<i class="fas fa-photo-video"></i>: Storage & Backup Notes{{% /staticref %}}</br> </td>
     --->
   </tr>
