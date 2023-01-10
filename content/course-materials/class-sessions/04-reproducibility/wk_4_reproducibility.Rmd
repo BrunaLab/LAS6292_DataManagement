@@ -35,7 +35,6 @@ output:
   #   df_print: paged
   # rmdformats::robobook: default
 ---
-
 ```{r setup, include=FALSE}
 library(knitr)
 library(rmdformats)
@@ -51,7 +50,6 @@ opts_chunk$set(echo=FALSE,
                warning=FALSE)
 opts_knit$set(width=75)
 ```
-
 ## Pre-Class Preparation (Instructor):  
 
 **Send in an email to students:  **  
@@ -84,13 +82,16 @@ Read 1-3 before class. #4 goes into more more detail than is necessary before cl
 
 <!-- {{% staticref "course-materials/readings/Laskowski_2020.pdf" "newtab" %}}[download pdf]{{% /staticref %}} -->
 
-2. Pennisi, E. 2020. Spider biologist denies suspicions of widespread data fraud in his animal personality research. Science. [[read online]](https://www.sciencemag.org/news/2020/01/spider-biologist-denies-suspicions-widespread-data-fraud-his-animal-personality) or {{% staticref "course-materials/readings/Pennisi_2020.pdf" "newtab" %}}[download pdf]{{% /staticref %}}
+2. Pennisi, E. 2020. Spider biologist denies suspicions of widespread data fraud in his animal personality research. Science. [[read online]](https://www.sciencemag.org/news/2020/01/spider-biologist-denies-suspicions-widespread-data-fraud-his-animal-personality) 
+<!-- or {{% staticref "course-materials/readings/Pennisi_2020.pdf" "newtab" %}}[download pdf]{{% /staticref %}} -->
 
-3. Alston, J. M., and Rick, J. A.. 2020. A Beginner's Guide to Conducting Reproducible Research. Bull Ecol Soc Am 00( 00):e01801.   [[read online]](https://doi.org/10.1002/bes2.1801) or {{% staticref "course-materials/readings/Alston_Rick_2021_BullEcolSocAm.pdf" "newtab" %}}[download pdf]{{% /staticref %}}
+3. Alston, J. M., and Rick, J. A.. 2020. A Beginner's Guide to Conducting Reproducible Research. Bull Ecol Soc Am 00( 00):e01801.   [[read online]](https://doi.org/10.1002/bes2.1801) 
+<!-- or {{% staticref "course-materials/readings/Alston_Rick_2021_BullEcolSocAm.pdf" "newtab" %}}[download pdf]{{% /staticref %}} -->
 
 This is goes into more more detail and will be more useful after class:
 
-4.  Wilson G, Bryan J, Cranston K, Kitzes J, Nederbragt L, Teal TK (2017) Good enough practices in scientific computing. PLoS Comput Biol 13(6): e1005510.  [[read online]](https://doi.org/10.1371/journal.pcbi.1005510) or {{% staticref "course-materials/readings/Wilson_etal_2017.pdf" "newtab" %}}[download pdf]{{% /staticref %}}
+4.  Wilson G, Bryan J, Cranston K, Kitzes J, Nederbragt L, Teal TK (2017) Good enough practices in scientific computing. PLoS Comput Biol 13(6): e1005510.  [[read online]](https://doi.org/10.1371/journal.pcbi.1005510) 
+<!-- or {{% staticref "course-materials/readings/Wilson_etal_2017.pdf" "newtab" %}}[download pdf]{{% /staticref %}} -->
 
 
 ### **Online Lectures:**  
