@@ -1,53 +1,40 @@
 ---
 title: 'Week 1: Introduction & The Research Data Life Cycle'
-# author: "Emilio M. Bruna"
-date: "last update: `r format(Sys.time(), '%d %B %Y')`"
-# header-includes:
-#    - \usepackage[default]{sourcesanspro}
-#    - \usepackage[T1]{fontenc}
+author: "Emilio M. Bruna"
+date: "`r format(Sys.time(), '%Y')`"
+# draft: true # Prevents this from being published if in the posts or pages folder
 mainfont: SourceSansPro
 geometry: margin=1in
 fontsize: 12pt
-linkcolor: blue
-urlcolor: blue
-output:
-  pdf_document: default
-  # html_document:
-  #   df_print: paged
-  # rmdformats::robobook: default
-
+linkcolor: darkmidnightblue
+urlcolor: darkmidnightblue
 header-includes:
-- \usepackage{etaremune} # for reverse-numbered list of publications etc
+- \usepackage{fancyhdr}
+- \pagestyle{fancy}
+- \fancyfoot{}
+- \fancyhead[R]{Week 1 Survey, p. \thepage}
+- \fancyhead[L]{LAS6292 (`r format(Sys.time(), '%Y')`)}
 - \usepackage[default]{sourcesanspro}
-- \usepackage{fancyhdr} # modify header into left, center, right
-- \pagestyle{fancy} # cues the use of fancy headers
-- \fancyfoot{} # cues the use of fancy footer
-- \fancyfoot[R]{`r format(Sys.time(), '%B %Y')`} # month & year on footer right
-- \fancyhead[R]{LAS 6292 Class Notes, p. \thepage} # name and page on header right
-# - \usepackage{setspace}{singlespace} # manipulate line spacing 
-- \usepackage{parskip} # manipulate indents and spacing before/after paragraphs 
-- \usepackage{xcolor} # changes colors of text
-# - \AtBeginDocument{\let\maketitle\relax} # this removes default title section
-  # to center to top level (#) headings (my name) and change color of font
-  # more info # https://www.ctan.org/pkg/sectsty
-# - \usepackage{sectsty} \sectionfont{\centering\color{darkmidnightblue}}
-# # to center to sub-sub-headings (###) and change color of font
-# - \usepackage{sectsty} \subsubsectionfont{\color{darkmidnightblue}}
-# http://latexcolor.com/ to choose colors
-# define the colors used above with rgb codes
+- \usepackage{parskip}
+- \usepackage{xcolor}
+- \AtBeginDocument{\let\maketitle\relax}
+- \usepackage{sectsty} \sectionfont{\centering}
+- \usepackage{titlesec}
+- \usepackage{sectsty} \sectionfont{\centering\color{darkmidnightblue}}
+- \usepackage{sectsty} \subsectionfont{\color{darkmidnightblue}}
+- \titlespacing{\section}{0pt}{12pt plus 2pt minus 1pt}{0pt plus 1pt minus 1pt}
+- \titlespacing{\subsection}{0pt}{12pt plus 2pt minus 1pt}{0pt plus 1pt minus 1pt}
+- \titlespacing{\subsubsection}{0pt}{12pt plus 2pt minus 1pt}{0pt plus 1pt minus 1pt}
 - \definecolor{darkcerulean}{rgb}{0.03, 0.27, 0.49}
 - \definecolor{darkmidnightblue}{rgb}{0.0, 0.2, 0.4}
-# - \usepackage{ragged2e}
-# # - \setlength\RaggedRightParindent{15pt}
-# - \RaggedRight - # make the right margin ragged
-# https://tex.stackexchange.com/questions/258714/prevent-hyphenation-across-lines-enforce-right-margin
-# - \hyphenpenalty=10000 #to suppress ordinary hyphenation
-# - \exhyphenpenalty=10000 #to prohibit line breaks at explicit hyphens.
-# - \setstretch{1.0}
-
-# https://babichmorrowc.github.io/post/changing-fonts-in-rmarkdown-pdfs/
-
+output: pdf_document
+knit: (function(inputFile, encoding) {
+  rmarkdown::render(inputFile, 
+  encoding = encoding, 
+  output_dir = "./content/course-materials/class-sessions/01-intro")
+  })
 ---
+# LAS 6292: WEEK 1 OUTLINE
 
 
 ## Objectives
