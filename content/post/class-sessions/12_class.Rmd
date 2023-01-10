@@ -1,5 +1,5 @@
 ---
-title: 'Week 11: In-Class Work'
+title: 'Week 12: In-Class Work'
 # author: "Emilio M. Bruna"
 # date: "last update: `r format(Sys.time(), '%d %B %Y')`"
 # header-includes:
