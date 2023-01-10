@@ -16,6 +16,7 @@ image:
   preview_only: no
 projects: []
 type: book
+weight: 8
 ---
 
 <!-- Note: to rendr as pdf delete the \newline -->

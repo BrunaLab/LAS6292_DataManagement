@@ -17,6 +17,7 @@ image:
   preview_only: no
 projects: []
 type: book
+weight: 12
 ---
 
 ## QA/QC 2: Using OpenRefine to clean data

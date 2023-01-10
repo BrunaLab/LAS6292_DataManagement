@@ -16,6 +16,7 @@ image:
   preview_only: no
 projects: []
 type: book
+weight: 10
 ---
 
 ## QA/QC 1: Data Entry

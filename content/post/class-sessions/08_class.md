@@ -17,6 +17,7 @@ image:
   preview_only: no
 projects: []
 type: book
+weight: 16
 ---
 
 ## Metadata & Codebooks

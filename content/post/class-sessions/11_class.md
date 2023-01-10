@@ -17,6 +17,7 @@ image:
   preview_only: no
 projects: []
 type: book
+weight: 20
 ---
 
 ## Efficient Data Collection

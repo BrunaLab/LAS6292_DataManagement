@@ -16,6 +16,7 @@ image:
   preview_only: no
 projects: []
 type: book
+weight: 7
 ---
 
 ## Week 4: Reproducible data (re)organization
