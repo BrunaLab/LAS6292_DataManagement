@@ -17,6 +17,7 @@ image:
   preview_only: no
 projects: []
 type: book
+weight: 4
 ---
 
 ## BREAKOUT EXERCISE: FIELD DATA STORAGE AND BACKUP
@@ -65,7 +66,7 @@ Please ask each other these questions and then briefly discuss and summarize the
 
 1. Sign up for a UF Dropbox allocation: https://cloud.it.ufl.edu/collaboration-tools/dropbox/. If you are not automatically eligible to sign up, your advisor can request that you be granted an allocation: https://cloud.it.ufl.edu/media/clouditufledu/How-to-Obtain-Access-to-UF-Dropbox-for-Education.pdf. 
 
-2. Sign up for a UF Google Suite Allocation: https://cloud.it.ufl.edu/collaboration-tools/g-suite/   
+2. Sign up for a UF Google Suite Allocation: https://cloud.it.ufl.edu/collaboration-tools/g-suite/  *(Note: there are new storage limits for UF Google Drive allocations!)*
 
 3. Briefly describe how you are adhering to the 3-2-1 backup rule for data related to your thesis. If you are not, describe how you will do so moving forward.  
 

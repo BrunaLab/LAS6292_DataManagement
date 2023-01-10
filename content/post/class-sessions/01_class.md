@@ -17,6 +17,7 @@ image:
   preview_only: no
 projects: []
 type: book
+weight: 2
 ---
 
 ## In-Class Exercise/Assignment: Survey: Student Research and Data Management Interests 

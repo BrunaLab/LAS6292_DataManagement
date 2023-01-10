@@ -16,6 +16,7 @@ image:
   preview_only: no
 projects: []
 type: book
+weight: 3
 ---
 
 ## File Formats, Naming Conventions, Data Storage & Security
@@ -46,7 +47,6 @@ type: book
 
 1.  Jan Čurn. 2014. How a bug in Dropbox permanently deleted my 8000 photos.  [[Read Online]](https://medium.com/@jancurn/how-bug-in-dropbox-permanently-deleted-my-8000-photos-cb7dcf13647b) 
 
-2.  PSA: Scrivener, Data Integrity and You. Or, How To Avoid Data Loss Heartbreak.  [[read online]](https://www.reddit.com/r/writing/comments/62hr7o/psa_scrivener_data_integrity_and_you_or_how_to/) 
 
 3. Panzarino, M. 2012. How Pixar’s Toy Story 2 was deleted twice, once by technology and again for its own good. TNW.  [[read online]](https://thenextweb.com/media/2012/05/21/how-pixars-toy-story-2-was-deleted-twice-once-by-technology-and-again-for-its-own-good/)
 
