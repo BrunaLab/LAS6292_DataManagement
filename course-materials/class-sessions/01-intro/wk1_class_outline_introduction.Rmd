@@ -1,0 +1,172 @@
+---
+title: 'Week 1: Introduction & The Research Data Life Cycle'
+author: "Emilio M. Bruna"
+date: "`r format(Sys.time(), '%Y')`"
+# draft: true # Prevents this from being published if in the posts or pages folder
+mainfont: SourceSansPro
+geometry: margin=1in
+fontsize: 12pt
+linkcolor: darkmidnightblue
+urlcolor: darkmidnightblue
+header-includes:
+- \usepackage{fancyhdr}
+- \pagestyle{fancy}
+- \fancyfoot{}
+- \fancyhead[R]{Week 1 Survey, p. \thepage}
+- \fancyhead[L]{LAS6292 (`r format(Sys.time(), '%Y')`)}
+- \usepackage[default]{sourcesanspro}
+- \usepackage{parskip}
+- \usepackage{xcolor}
+- \AtBeginDocument{\let\maketitle\relax}
+- \usepackage{sectsty} \sectionfont{\centering}
+- \usepackage{titlesec}
+- \usepackage{sectsty} \sectionfont{\centering\color{darkmidnightblue}}
+- \usepackage{sectsty} \subsectionfont{\color{darkmidnightblue}}
+- \titlespacing{\section}{0pt}{12pt plus 2pt minus 1pt}{0pt plus 1pt minus 1pt}
+- \titlespacing{\subsection}{0pt}{12pt plus 2pt minus 1pt}{0pt plus 1pt minus 1pt}
+- \titlespacing{\subsubsection}{0pt}{12pt plus 2pt minus 1pt}{0pt plus 1pt minus 1pt}
+- \definecolor{darkcerulean}{rgb}{0.03, 0.27, 0.49}
+- \definecolor{darkmidnightblue}{rgb}{0.0, 0.2, 0.4}
+output: pdf_document
+knit: (function(inputFile, encoding) {
+  rmarkdown::render(inputFile, 
+  encoding = encoding, 
+  output_dir = "./content/course-materials/class-sessions/01-intro")
+  })
+---
+# LAS 6292: WEEK 1 OUTLINE
+
+
+## Objectives
+
+* Meet the instructor and students
+* Gain an appreciation for why I think this subject matter is important
+* Understand how different disciplines define and use 'data'
+* Learn the 'Research Data Life-Cycle'
+* Overview of the Course Structure, Syllabus
+
+## Pre-Class Preparation & Materials Needed (Instructor):
+
+* email students: 
+* Confirmation of room and zoom link
+* Pls bring own mug or water bottle, welcome to bring food / snacks
+* Ask if any students need a laptop and arrange for a loan if necessary.
+* Snacks
+* Copies of the syllabus
+* Copy of Course Roster
+* Flip charts and markers
+* Dry write markers
+* Tent cards for student names
+
+
+## Pre-class Preparation (Students):
+
+* Readings: None
+* Online Lectures: None
+
+## ‘Data’ across disciplines & the Data Life Cycle  
+
+```{r timer, echo=FALSE}
+intro_breakout1 <- 5
+breakout1 <- 20
+breakout1_discussion <- 45
+snack_break <- 10
+intro_breakout2 <- 20
+breakout2 <- 15
+breakout2_discussion <- 30
+wrap <- 10
+
+total_time <- 
+  intro_breakout1 + 
+  breakout1 + 
+  breakout1_discussion + 
+  snack_break + 
+  intro_breakout2 + 
+  breakout2 +
+  breakout2_discussion + 
+  wrap
+
+time_remain <- 180 - total_time
+```
+<!-- FOR ONLINE -->
+<!-- 1. Turn on Zoom, chill music countdown -->
+<!-- 2. Turn on zoom captioning -->
+<!-- 3. Start meeting record -->
+<!-- 4. Introduce yourself -->
+<!-- 1-4 will take ~10 minutes, especially since we usually give students a few minutes to roll in late. -->
+
+### **Breakout 1: Introductions (`r intro_breakout1 + breakout1` total): ** 
+Get to know one another! Get in pairs, introduce yourselves, and record responses to the following questions. We will then come back to introduce your partner to the group.
+
+**A. Tell me about yourself (`r breakout1`)**  
+
+   1. Name
+   2. In what city were you born?
+   3. What you consider your “hometown”?
+   4. Program and Degree?
+   <!-- 5. Emoji your thesis   --> 
+   6. Hobbies or what you do to relax / have fun.
+   7. What is your motivation for taking this class?
+   8. Any concerns / worries / fears about this class (in particular) and this semester (in general)?
+   9. Now discuss with your partner the following question: **_What are 'Data_?** 
+   
+   Be prepared to share your answers with the class.
+
+  &nbsp;**B. Report Back (`r breakout1_discussion` min)**
+
+1. What are Data?
+    1. Students take turns introducing themselves_
+    2. Quick summary of the different ways they defined "data"
+
+### **Intro to Breakout 2: Motivation for Teaching This Course & Data Across Disciplines (`r intro_breakout2` min): **
+
+  1. The defintion of "Data"  
+  2. EB Motivation for teaching the class:  
+    * Reduce Student Stress  
+    * Research integrity: identifies fraud, a shield to protect you when you are right  
+    * Because it really matters to society, both when we get it wrong and when we get it right  
+    * Because your data are a potential gold mine for future researchers...but only if you take a few important steps now.  
+   2. Prompt for the next breakout (to start after break); Breakout into larger groups (n = 4)  
+
+### **BREAK: `r snack_break` min **
+
+### **Breakout 2 Groups: 'Data' across disciplines ** (`r breakout2` min total)
+
+Now that data have been defined, we will break into small groups to discuss the following questions (**`r breakout2` min**). We'll come back and discuss what you came up with for as a group **(`r breakout2_discussion` min)**.
+
+1. Identify different kinds of data collected in different disciplines 
+2. How are these data gathered (tools, techniques) and recorded (media)? 
+
+### **Breakout 2 Discussion: `r breakout2_discussion` min **
+
+So what do you think?   
+
+1. What are the different kinds of data collected in different disciplines?
+2. How are these data gathered (tools, techniques) and recorded (media)? 
+
+**After each group reports back, discuss the following questions as a group:**  
+
+1. Are data types and data recording methods that are unique (or at least much more common) in the biophysical sciences, social sciences, humanities, or other disciplines?   
+
+2. It is likely that across disciplines the issues and types of data being used are often very similar, but there might be some differences (e.g., text corpora from humanities).  
+
+3. One key is to emphasize that an important part of 'data' likely not brought up by the groups is information about how they were recorded, decisions about how to code them, corrections, etc.  
+
+4. **Important: **look to see if the definitions include the word "PLAN": managing data requires a PLAN.  This will let you segway into...  
+
+### **Wrap-up & In-class Assignment: Instructor presentation: Research Data Cycle & Syllabus Overview (`r wrap` min)**
+
+1. Typical vs. New approach to Data
+2. Most courses start with the most boring part: DMP. I take an approach different from many other data manag classes.
+3. Introduce Assignments and Format of Weekly Sessions. This is a workshop!
+4. *This course is driven by student needs and interests! *The syllabus may change as I learn more about those.  
+
+### **In-class Assignment: Survey (`r time_remain` min**)
+
+  1. Please complete the survey: [link](https://forms.gle/vRQA9zu84Gf4xU2M9) or in Canvas under "Assignments".
+
+## After class: 
+
+* Be sure you complete and submit the assignment by 9 am Monday
+* Prepare for next session (assigned reading, videos, etc).
+
