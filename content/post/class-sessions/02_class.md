@@ -20,7 +20,7 @@ type: book
 weight: 4
 ---
 
-## BREAKOUT EXERCISE: FIELD DATA STORAGE AND BACKUP
+## BREAKOUT EXCERCISE: FIELD DATA STORAGE AND BACKUP
 
 Robin is a graduate student studying Malaria in Tanzania. The research project requires visiting communities, collecting mosquitoes from different sources of standing water (for later identification at the FLMNH and statistical analyses of mosquito diversity and abundance) and conducting semi--structured interviews in the community, where people are asked such things as their age, family income, their access to health care, if they have ever had malaria, their family income, use of mosquito nets. Answers are recorded on data sheets, but the interviews are also recorded with the cell phone for later transcription. Robin also takes pictures of houses to document standing water sources. Throughout the day Robin records observations in a notebook.  
 
@@ -28,11 +28,14 @@ Robin is staying in a house where there is electricity for a laptop. Once every 
 
 What steps should Robin take in the field to safeguard the data collected in the field? 
 
-## In-class assignment/Homework
+## IN-CLASS ASSIGNMENT
 
-###  Data Protection & Backup Interview
 
-Please ask each other these questions and then briefly discuss and summarize the responses. Keep the answers anonymous. The goal is to document the range of answers to these questions, so you can summarize or give more detailed answers about individuals as needed.
+**This week’s assignment is designed to:** **(A)** get you thinking critically about your own data backup and security procedures, and based on that reflection **(B)** prepare a data backup plan (if you already have one you can answer the questions below based on that plan).  **The assignment comes in three parts:**   
+
+###  Part 1
+
+**Data Protection & Backup Interview:** Please ask your partner these questions, then briefly discuss and summarize the responses. Keep the answers anonymous. The goal is to document the range of answers to these questions, so you can summarize or give more detailed answers about individuals as needed.
 
 1.	Does your advisor / lab / research group have formal policies that govern your data storage, protection, and backup?
 
@@ -60,42 +63,44 @@ Please ask each other these questions and then briefly discuss and summarize the
 
 13.	Where and how are your original data collection instruments or samples stored/protected?
 
-###  Data Protection & Backup Plan 
+###  Part 2
 
-**This week’s assignment is designed to:** **(A)** get you thinking critically about your own data backup and security procedures, and based on that reflection **(B)** prepare a data backup plan (if you already have one you can answer the questions below based on that plan).  **The assignment comes in four parts:**   
+**Cloud Storage Allocations:** 
 
-1. Sign up for a UF Dropbox allocation: https://cloud.it.ufl.edu/collaboration-tools/dropbox/. If you are not automatically eligible to sign up, your advisor can request that you be granted an allocation: https://cloud.it.ufl.edu/media/clouditufledu/How-to-Obtain-Access-to-UF-Dropbox-for-Education.pdf. 
+Sign up for:
 
-2. Sign up for a UF Google Suite Allocation: https://cloud.it.ufl.edu/collaboration-tools/g-suite/  *(Note: there are new storage limits for UF Google Drive allocations!)*
+  * a UF Dropbox allocation: https://cloud.it.ufl.edu/collaboration-tools/dropbox/. If you are not automatically eligible to sign up, your advisor can request that you be granted an allocation: https://cloud.it.ufl.edu/media/clouditufledu/How-to-Obtain-Access-to-UF-Dropbox-for-Education.pdf   
 
-3. Briefly describe how you are adhering to the 3-2-1 backup rule for data related to your thesis. If you are not, describe how you will do so moving forward.  
+  * a UF Google Suite Allocation: https://cloud.it.ufl.edu/collaboration-tools/g-suite/  *(Note: there are new storage limits for UF Google Drive allocations!)*
 
-4.	Using the questions above as a guide, prepare a brief (~1 page max) Data Backup Plan for your thesis research. Include the following information; you can respond with bullet points unless more detailed answers are needed:   
+###  Part 3
 
-    a.	what needs to be prepared and for how long;
+Using the questions above as a guide, prepare a brief (~1 page max) Data Backup Plan for your thesis research describing how you are adhering to the 3-2-1 backup rule. If you are not yet doing so, write a plan describing how you will do so moving forward.  Include the following information; you can respond with bullet points unless more detailed answers are needed:   
+
+   1.	what needs to be prepared and for how long;
   
-    b.	where backups are located;  
-    
-    c.	who can access backups and how contacted;  
+   1.	where backups are located;  
+   
+   1.	who can access backups and how contacted;  
   
-    d.	how often data should be backed up;  
-    
-    e.	what kind of backups are performed;  
+   1.	how often data should be backed up;  
+   
+   1.	what kind of backups are performed;  
   
-    f.	who is responsible for performing the backups;  
+   1.	who is responsible for performing the backups;  
   
-    g.	hardware and software used for performing backups;  
+   1.	hardware and software used for performing backups;  
   
-    h.	how / how often to check if backups is successful;  
+   1.	how / how often to check if backups is successful;  
   
-    i.	the media are used to backup data;  
+   1.	the media are used to backup data;  
   
-    j.	a list of any data that are not archived or backed up.
+   1.	a list of any data that are not archived or backed up.
   
 
 ### Submission and Grading Rubric
 
-1) Submit the Data Backup Plan document (in either `.txt` or `.pdf` format) via [Canvas](https://elearning.ufl.edu/).  Because of the MLK Holiday, this deadline fopr submission is extended to Wed. 19 Jan at 9 am.
+1) Submit (1) your partner's annonymized answers to Part 1 and (2) you Data Backup Plan (in either `.txt` or `.pdf` format) via [Canvas](https://elearning.ufl.edu/).  
 
 2) Grading Rubric 
     * Assignment completed with thorough answers: 50
