@@ -6,7 +6,6 @@ geometry: margin=1in
 fontsize: 12pt
 linkcolor: blue
 urlcolor: blue
-output: pdf_document
 # : default
   # html_document:
   #   df_print: paged
@@ -43,10 +42,15 @@ header-includes:
 # - \setstretch{1.0}
 
 # https://babichmorrowc.github.io/post/changing-fonts-in-rmarkdown-pdfs/
-
+output: pdf_document
+knit: (function(inputFile, encoding) {
+  rmarkdown::render(inputFile,
+  encoding = encoding,
+  output_dir = "./static/uploads")
+  })
 ---
 
-# File Organization - Electronic
+# File Organization (Electronic)
 
 There aren't really "rules" about how to organize your files, but I think the best way to organize is to think in terms of "projects". Of course, how you define a "project" is sometimes tough...is the PhD the 'Project' or is each chapter of the dissertation a 'Project'? You'll have to give this some thought and think of  a system that works for you. That said...
 

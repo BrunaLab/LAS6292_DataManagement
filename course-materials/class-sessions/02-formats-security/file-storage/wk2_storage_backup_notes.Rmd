@@ -6,8 +6,6 @@ geometry: margin=1in
 fontsize: 12pt
 linkcolor: blue
 urlcolor: blue
-output: 
-  default: pdf_document
   # html_document:
   #   df_print: paged
   # rmdformats::robobook: default
@@ -20,7 +18,7 @@ header-includes:
 # month & year on header left
 - \fancyhead[L]{LAS 6292 Spring `r format(Sys.time(), '%Y')`, EM Bruna} 
 # name and page on header right
-- \fancyhead[R]{Data Storage Notes, p. \thepage} 
+- \fancyhead[R]{Data Storage and Backup Notes, p. \thepage} 
 - \fancyfoot[R]{Last update `r format(Sys.time(), '%d %B %Y')`}
 # - \usepackage{setspace}{singlespace} # manipulate line spacing 
 - \usepackage{parskip} # manipulate indents and spacing before/after paragraphs 
@@ -43,7 +41,12 @@ header-includes:
 # - \setstretch{1.0}
 
 # https://babichmorrowc.github.io/post/changing-fonts-in-rmarkdown-pdfs/
-
+output: pdf_document
+knit: (function(inputFile, encoding) {
+  rmarkdown::render(inputFile,
+  encoding = encoding,
+  output_dir = "./static/uploads")
+  })
 ---
 
 
@@ -63,7 +66,9 @@ opts_chunk$set(echo=FALSE,
 opts_knit$set(width=75)
 ```
 
-# Introduction
+
+
+# Data Storage & Backup
 
 1. **What is the difference between a backup and an archive?**   
 
