@@ -77,7 +77,7 @@ Sign up for:
 
 Using the questions above as a guide, prepare a brief (~1 page max) Data Backup Plan for your thesis research describing how you are adhering to the 3-2-1 backup rule. If you are not yet doing so, write a plan describing how you will do so moving forward.  Include the following information; you can respond with bullet points unless more detailed answers are needed:   
 
-   1.	what needs to be prepared and for how long;
+   1.	what needs to be prepared and for how long (i.e., original samples or data sheets, code, "clean" data);
   
    1.	where backups are located;  
    
@@ -85,7 +85,7 @@ Using the questions above as a guide, prepare a brief (~1 page max) Data Backup 
   
    1.	how often data should be backed up;  
    
-   1.	what kind of backups are performed;  
+   1.	what kind of backups are performed (e.g., manual, automated);  
   
    1.	who is responsible for performing the backups;  
   
@@ -93,14 +93,14 @@ Using the questions above as a guide, prepare a brief (~1 page max) Data Backup 
   
    1.	how / how often to check if backups is successful;  
   
-   1.	the media are used to backup data;  
+   1.	the media that are used to backup data (e.g., DVD, paper, hard drives);  
   
-   1.	a list of any data that are not archived or backed up.
+   1.	a list of any data that are not archived or backed up (e.g., intermediate steps, "B" samples once the analyses have been done on the "A" samples).
   
 
 ### Submission and Grading Rubric
 
-1) Submit (1) your partner's annonymized answers to Part 1 and (2) you Data Backup Plan (in either `.txt` or `.pdf` format) via [Canvas](https://elearning.ufl.edu/).  
+1) Submit (1) your partner's anonymized answers to Part 1 and (2) you Data Backup Plan (in either `.txt` or `.pdf` format) via [Canvas](https://elearning.ufl.edu/).  
 
 2) Grading Rubric 
     * Assignment completed with thorough answers: 50
