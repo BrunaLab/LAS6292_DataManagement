@@ -241,8 +241,16 @@ Backing up requires discipline and care to ensure nothing is missed and the file
 * [Free UF Dropbox for Education](https://education.ufl.edu/educational-research/9729), UF Dropbox [FAQs](https://cloud.it.ufl.edu/uf-dropbox/frequently-asked-questions/), and information on how [your advisor can submit a request for your UF Dropbox account](https://cloud.it.ufl.edu/media/clouditufledu/How-to-Obtain-Access-to-UF-Dropbox-for-Education.pdf)
 * [GStuite Allocation for UF personnel](https://cloud.it.ufl.edu/collaboration-tools/g-suite/)
 * [Free MS One Drive](https://it.ufl.edu/services/gatorcloud-onedrive-uf) (but also read why I suggest NOT using this [here)](http://brunalab.org/blog/2015/07/24/onedrive-notes/)
-* for very large data volumes or data data required extra security protection due to privacy restrictions, etc. seek the asistance of [UF Research Computing](https://www.rc.ufl.edu/about/our-services/storage-resources/)
+* for very large data volumes or data data required extra security protection due to privacy restrictions, etc. seek the assistance of [UF Research Computing](https://www.rc.ufl.edu/about/our-services/storage-resources/)
 
+## Storage and backup for very large volumes of data (multiple TB)
+
+* [Cyverse](cyverse.org/about)
+* [Amazon Web Services (AWS) S3](https://docs.aws.amazon.com/AmazonS3/latest/userguide/UsingBucket.html)
+* [UF Research Computing](https://www.rc.ufl.edu/about/our-services/storage-resources/)
+* [Open Storage Network](https://www.openstoragenetwork.org/)   
+* [Argonne Leadership Computing Facility](https://alcf.anl.gov/)
+* [Globus](https://www.globus.org/)
 
 ## Tools for File Syncing
 * [MacDropAny (macOS)](https://www.macupdate.com/app/mac/37029/macdropany)
