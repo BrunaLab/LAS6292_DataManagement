@@ -72,24 +72,4 @@ weight: 5
     (iii) **Verify the installations** worked by opening RStudio to see if it opens properly. If you are really motivated, you can also install the `Tidyverse` library by starting RStudio and at the console typing `install.packages("tidyverse")`.
 
 
-<!-- Created Date -->
-{{- $pubdate := .PublishDate.Format "02.01.2006" }}
-Created: 
-<time datetime="{{ .PublishDate }}" title="{{ .PublishDate }}">
-    {{ $pubdate }}
-</time>
-
-<!-- Last Updated Date -->
-{{- if .Lastmod }}
-    {{- $lastmod := .Lastmod.Format "02.01.2006" }}
-    {{- if ne $lastmod $pubdate }}
-        <div class="post-info-last-mod">
-            (Updated: 
-            <time datetime="{{ .Lastmod }}" title="{{ .Lastmod }}">
-                {{ $lastmod }}
-            </time>)
-        </div>
-    {{- end }}
-{{- end }}
-
 
