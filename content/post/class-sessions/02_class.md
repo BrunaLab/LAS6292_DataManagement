@@ -9,7 +9,7 @@ tags: []
 subtitle: ''
 summary: ''
 authors: []
-lastmod: '2022-02-11T11:00:42-05:00'
+lastmod: format(Sys.time(), %B, %Y')
 featured: no
 image:
   caption: ''

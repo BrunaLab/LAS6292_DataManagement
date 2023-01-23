@@ -19,3 +19,5 @@
   package = "netlify-plugin-hugo-cache-resources"
   [plugins.inputs]
     debug = true
+
+enableGitInfo = true
