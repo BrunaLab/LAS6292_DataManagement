@@ -251,6 +251,7 @@ Backing up requires discipline and care to ensure nothing is missed and the file
 * [Open Storage Network](https://www.openstoragenetwork.org/)   
 * [Argonne Leadership Computing Facility](https://alcf.anl.gov/)
 * [Globus](https://www.globus.org/)
+* Uploading large files to Google drive: [tutorial blog post](https://massive.io/how-to/upload-large-files-google-drive-quickly/)
 
 ## Tools for File Syncing
 * [MacDropAny (macOS)](https://www.macupdate.com/app/mac/37029/macdropany)
