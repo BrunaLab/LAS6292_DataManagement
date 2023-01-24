@@ -80,7 +80,7 @@ This is the schedule for 2023 but the linked materials are from 2022
     <td>Data structure & format of data and datasets</td>
     <td>{{% staticref "/post/class-sessions/readings-week-03" "newtab" %}}<i class="fas fa-book-open"></i>{{% /staticref %}}</td> 
   <td>{{% staticref "/post/class-sessions/class-week-03" %}}<i class="fas fa-clipboard-list"></i>{{% /staticref %}}</td>
-    <!--  <td>{{% staticref "uploads/wk3_spreadsheets_notes.pdf" "newtab" %}}<i class="fas fa-photo-video"></i>: Notes{{% /staticref %}}</td>
+    <td>{{% staticref "uploads/wk3_spreadsheets_notes.pdf" "newtab" %}}<i class="fas fa-photo-video"></i>: Notes{{% /staticref %}}</td>
   </tr>
   
   <tr>

@@ -65,31 +65,30 @@ opts_knit$set(width=75)
 
 # Data Organization in Spreadsheets
 
-## Take-home messages
+## 1. **Make your data `tidy`**  
 
-   * Make your data `tidy`
-      * Spreadsheets should be a rectangle, with only rows and columns.
-      * Each column is a different variable (a thing you are measuring, like ‘weight’ or ‘temperature’).
-      * One row per observation. Each cell has only one value.
-   * Column headers: Use short meaningful column names with no spaces or special characters. Don't start column names with numbers. Record units in column headers.
-   * Use consistent names, abbreviations/codes, and capitalization.
-   * Use good null values (not -999, blanks ok, some prefer `NA` or similar but this can be language specific).
-   * Write dates as YYYYMMDD. Better still have separate columns for Year, Month, and Day.
-   * don't enter the same data on multiple spreadsheets: Use one for each category of data to avoid duplicated data and to simplify corrections (e.g., taxonomy).
-  * Avoid using multiple tables within one spreadsheet.
-  * Avoid spreading data across multiple tabs (but do use a new tab to record data cleaning or manipulations).
-  * Record zeros as zeros.
-  * Use an appropriate null value to record missing data.
+  * Spreadsheets should be a rectangle, with only rows and columns.
+  * Each column is a different variable (a thing you are measuring, like ‘weight’ or ‘temperature’).
+  * One row per observation. Each cell has only one value.
+  * Column headers: Use short meaningful column names with no spaces or special characters. Don't start column names with numbers. Record units in column headers.
+  * Don't enter the same data on multiple spreadsheets: Use one for each category of data to avoid duplicated data and to simplify corrections (e.g., taxonomy).
+  * Never put multiple tables in a single spreadsheet.
+  * Avoid spreading data across multiple sheets
+  * _Collecting_ data in tidy format makes it easier to _enter_ data in tidy format.   
+
+## 2. **Use consistent names, abbreviations/codes, and capitalization.**
+
+  * Write dates as YYYYMMDD. Better still have separate columns for Year, Month, and Day.
+  * Excel is unable to parse dates from before 1899-12-31. Be careful if your data include a mix of dates before and after this date, then you’ll have mixed data types in one column. ^[The reason dates in Excel are so weird is that it is _accounting software_. It counts the days from a default of December 31, 1899, and thus stores July 2, 2014 as the serial number 41822. This is so one can can easily calculate "days from a given date" for accounting purposes (like invoicing) by adding "date+XX days".]
+  * Record zeros with a numeral ( `0`), not a blank cells. For missing data use an appropriate null value indicator (e.g., `NA`).
   * Don’t use formatting to convey information or to make your spreadsheet look pretty.
-  * Excel is unable to parse dates from before 1899-12-31. Be careful if your data include a mix of pre/post….you’ll have mixed data types.
-  * Remember that data format and excel defaults can vary by region. For example, depending on the part of the world where a user is based, the default value for the decimal and thousands operator could be a `,` (comma) or a `.` (period); some regions use mm-dd for dates while others use dd-mm. 
- * The reason dates in Excel are so weird is that it is _accounting software_. It counts the days from a default of December 31, 1899, and thus stores July 2, 2014 as the serial number 41822. This is so one can can easily calculate "days from a given date" for accounting purposes (like invoicing) by adding "date+XX days". Furthermore, Excel is unable to parse dates from before 1899-12-31. Be careful if your data include a mix of pre/post….you’ll have mixed data types.
+  * _Remember that data format and excel defaults can vary by region._ For example, depending on the part of the world where a user is based, the default value for the decimal and thousands operator could be a `,` (comma) or a `.` (period); some regions use mm-dd for dates while others use dd-mm. 
 
-* **Once you are done with data entry, save it as 'read only' and make _all_ corrections using scripting!**
+## 3. **DO NOT EDIT OR CORRECT RAW DATA FILES!**   
 
-* **Entering data in tidy format will make it much easier to analyze.**  
+  * Once you are done with data entry, save your file in 'read only' format and make _all_ corrections using scripting.
+  * Do _not_ edit raw data after you have entered it in your spreadsheet!*
 
-* **Collecting data in tidy format makes it easier to enter data in tidy format.**   
   
 # Readings, Tools, & Resources
 
