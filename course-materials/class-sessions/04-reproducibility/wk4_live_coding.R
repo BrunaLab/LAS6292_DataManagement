@@ -6,6 +6,15 @@
 ## script description: Some examples of how to use the Tidyverse and BaseR 
 ## for data clean-up
 
+
+# link to posit cloud project: https://posit.cloud/content/5320635
+# remind students to make a permanet copy ( [+] save a permanent copy)
+## New Project
+
+# create folder for data_raw
+# create folder for data_clean
+# create folder for code
+
 # step-by-step -----------------------------------------------
 # FIRST THING: STEP AWAY FROM THE COMPUTER
 # 1. Look at data set and make a list of the things you want to change
@@ -67,7 +76,7 @@ library(tidyverse)
 
 # BE SURE TO POINT TO THE RIGHT LOCATION IN YOUR R STUDIO PROJECT 
 # ./ is the "root folder" where your .Rproj file is located
-demo <- read_csv("./class_outlines/wk4_reproducibility/demo_data.csv")
+demo <- read_csv("./course-materials/class-sessions/04-reproducibility/examples/demo_data.csv")
 
 # When we loaded the data into R, it got stored as an object of class tibble, 
 # which is a special kind of data frame. A data frame is the representation of
@@ -99,7 +108,7 @@ view(demo)
 # Overview of the data (columns and their data types, dimensions, etc): 
 glimpse(demo)
 # or
-str(demo)
+# str(demo)
 
 # You'll note the `tidyverse` version is usually easier to read
 
@@ -120,7 +129,13 @@ factor(demo$roof)
 # Why didn't these work? Because you need to assign the change to the variable 
 # remember <- is the way we say "assign X to Y", in this case "Assign format
 # `factor` to `demo$roof`
+
+# base R
 demo$roof <- as.factor(demo$roof)
+
+# tidyverse
+demo <- demo %>% 
+  mutate(roof=as.factor(roof))
 
 # Change column data types to ordered factor
 demo$size
@@ -136,13 +151,17 @@ as.numeric(year_fct)                  # Wrong! And there is no warning...
 as.numeric(as.character(year_fct))     # Works...
 as.numeric(levels(year_fct))[year_fct] # Preferred
 
-
-
 # what is the range of values in a column? --------------------------------
 
 # How long a period does the dataset cover?
 range(demo$year)
 
+
+
+# correct spelling --------------------------------------------------------
+
+
+demo$floor<-gsub("errth", "earth", demo$floor)
 
 # how to correct a factor level (e.g., if misspelled?) --------------------
 
@@ -156,8 +175,8 @@ demo$floor<-as.factor(demo$floor)
 levels(demo$floor)
 
 # OR the tidyverse way
-demo$floor<-recode(demo$floor, earth = "EARTH")
-demo$floor<-recode(demo$floor, earth = "EARTH", cement = "CEMENT")
+demo$floor<-recode(demo$floor, earth = "earth")
+demo$floor<-recode(demo$floor, earth = "earth", cement = "cement")
 
 # You can use recode() directly with factors; it will preserve the existing 
 # order of levels while changing the values. Alternatively, you can 
@@ -219,6 +238,11 @@ demo$floor<-as.factor(demo$floor)
 demo$floor
 
 
+# trim ws -----------------------------------------------------------------
+# loading with tidy_verse automatically trims WS
+# demo <- read_csv("./course-materials/class-sessions/04-reproducibility/examples/demo_data.csv", trim_ws = FALSE)
+# distinct(demo,data_collector)
+# demo$floor<-trimws(demo$floor)
 
 # change column names -----------------------------------------------------
 
@@ -268,22 +292,4 @@ write_csv(demo,"./data_clean/clean_data_20210205")
 
 # Which we can reload for subsequent analyses
 data_clean <- read_csv("./data_clean/clean_data_20210204")
-
-
-# follow-up exercises -----------------------------------------------------
-
-
-# 1. Take the raw_data, find any thing that needs to be corrected
-# (spelling mistakes, etc)
-
-# 2. convert any "NA" to "missing"
-
-# 3. convert factor levels in 'roof' and 'wall' to codes to make easier to read
-
-# 4 convert 'rooms' to factor, then back to numeric
-
-# save as a csv
-
-# 5 submit your r code as homework 4
-
 
