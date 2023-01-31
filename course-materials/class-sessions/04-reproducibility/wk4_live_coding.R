@@ -8,134 +8,82 @@
 
 
 # link to posit cloud project: https://posit.cloud/content/5320635
-# remind students to make a permanet copy ( [+] save a permanent copy)
-## New Project
+# remind students to make a permanent copy ( [+] save a permanent copy)
 
-# create folder for data_raw
-# create folder for data_clean
-# create folder for code
-
-# step-by-step -----------------------------------------------
-# FIRST THING: STEP AWAY FROM THE COMPUTER
-# 1. Look at data set and make a list of the things you want to change
-# 2. After that, make an outline of how you will do this with code.
-#    There are often multiple ways to do the same thing, so an outline 
-#    will help figure out which is best.
-
-#    For instance: 
-#     1. Import table 1
-#     2. Correct column headings in Table 1
-#     3. Import table 2
-#     4. Correct column headings in Table 2
-#     5. bind Table 1 and Table 2 Together
-#     
-#     is less efficient than 
-#     1. Import table 1
-#     2. Import table 2
-#     3. Bind Table 1 and Table 2 Together
-#     4. Correct the column headings in the Table 
-#     
-#     BUT there might be situations where you have to do them separately.
-
-# 3. Reminder: this symbol: # (hash tag) allows comments in the script 
-#    that won't be read as commands 
-# 3. Reminder: Set up a project with folders, put raw data in folders
-# 4. Create a new .R file
-# 5. Add key info to the .R file 
-# 6. Add the "Steps" to the .R as Sections with shift-cmd-r (Mac) or shift-alt-r (PC)
-# 7. the command `sessionInfo()` will tell you the verison of R you are using,
-#    all the packages you have loaded, and other useful information.
-
-
-# set up an RStudio Project -----------------------------------------------
-
-# Save it in your preferred location with any name you like.
-# Create new folders: `raw_data`, `clean_data`, and `r_scripts`
-# You can create these in the folder using your operating systems "create folder" option
-# OR
-# you can create within R studio using the `files` tab
-
-
-# Installing packages using the RStudio packages tab ----------------------
-
-# Use the tab to install package `dadjokeapi`
-# You could also do the following: `install.packages("dadjokesapi")`
-
-# this is how you load a library aka 'package': 
-library(dadjokeapi)
-# now run this command
-groan()
-
-# -------------------------------------------------------------------------
-# load Packages:  (un-comment as required)
 library(tidyverse)
-
-# load the data -----------------------------------------------------------
-
-# load the file with 'read_csv'
-
+# load the file with `read_csv`. 
 # BE SURE TO POINT TO THE RIGHT LOCATION IN YOUR R STUDIO PROJECT 
 # ./ is the "root folder" where your .Rproj file is located
 demo <- read_csv("./course-materials/class-sessions/04-reproducibility/examples/demo_data.csv")
 
-# When we loaded the data into R, it got stored as an object of class tibble, 
-# which is a special kind of data frame. A data frame is the representation of
-# data in the format of a table where the columns are vectors that all have the
-# same length. Because columns are vectors, each column must contain a single 
-# type of data (e.g., characters, integers, factors).
+# This is a good time to go over the difference between `base R` and `Tidyverse`
+glimpse(demo)
+str(demo)
 
-
-# overview of the dataframe -----------------------------------------------
-
-# you can see the size of the df
-
+# You can also get an idea of the size of the df / tibble
 # `dim(demo)` returns a vector with the number of rows in the 1st element,
 # and the number of columns as the 2nd element (the dimensions of the object)
 dim(demo)
-
 # nrow(demo) - returns the number of rows
 nrow(demo)
-
 # ncol(demo) - returns the number of columns
 ncol(demo)
-
 # look at the top few rows with 'head'
 head(demo)
+# You'll note the `tidyverse` version is usually easier to read
 
 # open it an look at it with 'view' or 2x click the name in 
 view(demo)
 
-# Overview of the data (columns and their data types, dimensions, etc): 
-glimpse(demo)
-# or
-# str(demo)
-
-# You'll note the `tidyverse` version is usually easier to read
-
 # get a list of the column names ------------------------------------------
-
-# names(surveys) - returns the column names 
 names(demo)
-# colnames() does the same thing for dataframes
-colnames(demo)
+# or 
+colnames(demo)  #for dataframes
 
 
-# Change 'data type' of a column to `factor`------------------------------------
+# how do you look at individual columns? 
+demo$year
+# what is the range of values in a column `year`? --------------------------
+range(demo$year)
 
 
-# as.factor() or factor()
-as.factor(demo$roof)
-factor(demo$roof)
-# Why didn't these work? Because you need to assign the change to the variable 
-# remember <- is the way we say "assign X to Y", in this case "Assign format
-# `factor` to `demo$roof`
+### 3. Make changes
 
-# base R
-demo$roof <- as.factor(demo$roof)
+# 1. read and edit column names
 
-# tidyverse
-demo <- demo %>% 
-  mutate(roof=as.factor(roof))
+names(demo)
+# dataframe <- rename(dataframe, "new column name" = "old column name")
+# `survey_year`: shorten to `year`
+demo <- rename(demo, "year"="survey_year")
+names(demo)
+# `type_of_house_roof`: shorten to `roof`
+demo <- rename(demo, "roof"="type_of_house_roof")
+# `2020_kids`: change to `kids_2020`
+demo <- rename(demo, "kids_2020"="2020_kids")
+names(demo)
+
+# 2. how many levels in factor?
+levels(demo$roof)
+unique(demo$roof)
+demo$roof<-as.factor(demo$roof)
+levels(demo$roof)
+
+# 3. Correct the roof types
+
+# by correcting spelling with gsub 
+demo$roof<-gsub("mabati_sloping", "mabatisloping", demo$roof)
+
+# The tidyverse way 
+demo$roof<-recode(demo$roof, Grass = "grass")
+
+# note that this would simpler if you just converted everything to lower case!
+demo$roof<-tolower(demo$roof)
+
+# 4. correct the data type of roof
+
+demo$floor<-as.factor(demo$floor)
+
+# 5. make `size` an ordered factor
 
 # Change column data types to ordered factor
 demo$size
@@ -145,68 +93,45 @@ ordered(demo$size, levels = c("small", "large"))
 demo$size <- ordered(demo$size, levels = c("small", "large"))
 levels(demo$size)
 
-# converting numbers from factor to numeric can get complicated
-year_fct <- factor(c(1990, 1983, 1977, 1998, 1990))
-as.numeric(year_fct)                  # Wrong! And there is no warning...
-as.numeric(as.character(year_fct))     # Works...
-as.numeric(levels(year_fct))[year_fct] # Preferred
+# 6. convert to roof to codes: `GR`, `MB`  
+demo$roof
 
-# what is the range of values in a column? --------------------------------
+demo<- demo %>% mutate(roof = case_when(roof == "grass" ~ 'g',
+                                        roof == "mabatisloping" ~ 'm',
+                                        TRUE ~ roof))
 
-# How long a period does the dataset cover?
-range(demo$year)
+# throws an error becauise there is an NA. two ways to deal with this: 
 
+# a. replace the NAs:
 
+demo <- demo %>% replace_na(list(roof = "missing"))
 
-# correct spelling --------------------------------------------------------
+# b. change the cvvalue of what to repalce the NAs with 
 
+demo<- demo %>% mutate(roof = case_when(roof == "grass" ~ 'g',
+                                        roof == "mabatisloping" ~ 'm',
+                                        TRUE ~ "missing"))
 
-demo$floor<-gsub("errth", "earth", demo$floor)
+# 7. Add a column
 
-# how to correct a factor level (e.g., if misspelled?) --------------------
+demo$country<- "kenya"
 
-# What about correcting a factor level?
-demo$floor<-as.character(demo$floor)
-demo$floor[demo$floor=="errth"] <- "earth"
-demo$floor<-as.factor(demo$floor)
-levels(demo$floor)
-
-demo$floor<-as.factor(demo$floor)
-levels(demo$floor)
-
-# OR the tidyverse way
-demo$floor<-recode(demo$floor, earth = "earth")
-demo$floor<-recode(demo$floor, earth = "earth", cement = "cement")
-
-# You can use recode() directly with factors; it will preserve the existing 
-# order of levels while changing the values. Alternatively, you can 
-# use recode_factor() , which will change the order of levels to match the 
-# order of replacements.
+# or 
+demo<- demo %>% mutate(country = "kenya")
 
 
+### 4. Export & verify clean data
 
-# How many levels of a factor are there? ----------------------------------
+# 1. save as a `.csv` file in the `data_clean` folder
 
-# R uses NA to represent missing values
-# can do these things `the Base R way` and `the tidyverse way`
 
-# How many different roof types are there?
-levels(demo$floor)
-# why null? hadn't converted yet
-demo$floor<-as.factor(demo$floor)
-levels(demo$floor)
-# the tidyverse way
-distinct(demo,floor)
+write_csv(demo, "./data_clean/demo_clean.csv")
 
-# how many categories are there?
-nlevels(demo$floor)
-# The tidyverse way.  Notice a difference in the output?
-distinct(demo,floor) %>% count()
+# Opening the clean `.csv` with excel to verify the changes are there
 
-# How many in each category?
-summary(demo$floor)
-# the tidyverse way
-demo %>% group_by(floor) %>% summarise(n())
+demo_clean<-read_csv("./data_clean/demo_clean.csv")
+
+
 
 
 # How to convert NA to `missing` ------------------------------------------
@@ -222,74 +147,4 @@ levels(demo$floor)
 
 # OR the tidyverse way 
 demo$floor<-fct_explicit_na(demo$floor, 'missing')
-
-
-# other useful commands ---------------------------------------------------
-
-# finally, a few others I find very useful when data cleaning. 
-# I usually do these first on all columns to make life easier
-
-# convert to lower case ---------------------------------------------------
-
-demo$floor
-demo$floor<-tolower(demo$floor)
-# note that this converts to character, so have to change back to factor
-demo$floor<-as.factor(demo$floor)
-demo$floor
-
-
-# trim ws -----------------------------------------------------------------
-# loading with tidy_verse automatically trims WS
-# demo <- read_csv("./course-materials/class-sessions/04-reproducibility/examples/demo_data.csv", trim_ws = FALSE)
-# distinct(demo,data_collector)
-# demo$floor<-trimws(demo$floor)
-
-# change column names -----------------------------------------------------
-
-# Change column name `floor` to `floor_type`
-
-
-
-# you could do it by identifying the column numerically (this is base-R)
-names(demo)
-colnames(demo)[4] <- "floor_type1"
-names(demo)
-
-# BUT I don't recommend this because if you change the order of columns without
-# realizing it, you will change the name of the wrong column! Use the 
-# tidyverse way of changing columns.
-
-
-names(demo)
-# dataframe <- rename(dataframe, "new column name" = "old column name")
-demo <- rename(demo, "floor_type"="floor_type1")
-names(demo)
-
-
-
-
-# remove spaces before and after text -------------------------------------
-
-# White space will drive you crazy, especially if around numbers
-
-# BE SURE TO POINT TO THE RIGHT LOCATION IN YOUR R STUDIO PROJECT
-# note I am loading with read.csv instead of read_csv. that is because read_csv()
-# automatically strips away white space
-demo <- read.csv("./class_outlines/wk4_reproducibility/demo_data.csv")
-demo$data_collector
-demo$data_collector<-trimws(demo$data_collector)
-# REMEMBER: 
-# read_csv trim_ws is default=TRUE
-# read.csv trim_ws is default=FALSE
-
-# save your corrected file as a csv ---------------------------------------
-
-# Now save the clean file as a csv
-write_csv(demo,"./data_clean/clean_data_20210205")
-
-
-# load your clean file for more analyses ----------------------------------
-
-# Which we can reload for subsequent analyses
-data_clean <- read_csv("./data_clean/clean_data_20210204")
 

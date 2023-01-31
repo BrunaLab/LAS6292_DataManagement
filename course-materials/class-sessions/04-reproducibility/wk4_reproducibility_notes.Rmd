@@ -55,7 +55,7 @@ opts_knit$set(width=75)
 
 # Intro to Reproducibile Data Cleanup in R
 
-## 1. Set up an RStudio Project
+## 1. Set up an RStudio Project and download the relevant packages
 
 1. File -> New Project
 1. Name the Project as follows: `las_demo`
@@ -64,13 +64,29 @@ opts_knit$set(width=75)
    `data_raw`  
    `data_clean`  
    `code`  
-  
+
+    You can create these in the folder using your operating systems "create folder" option **_or_** you can create within R studio using the `files` tab
+
+1. Install libraries, load libraries, and run commands 
+
+```{r echo = T, results = 'hide', eval=FALSE}
+# Use the tab to install package `dadjokeapi`. 
+# You could also do the following:
+install.packages("dadjokesapi")
+install.packages("tidyverse")
+# load the library
+library(dadjokeapi)
+# run a command
+groan()
+```
+
 ## 2. Download the data we will be using in class
 
-1. Open the messy data file `demo_data.csv` by following [this link](https://github.com/BrunaLab/LAS6292_DataManagement/blob/05dd4970756f635a41bdefbff4ef0e18183639ae/content/course-materials/class-sessions/04-reproducibility/examples/demo_data.csv)
-1. click the **`[Raw]`** button on the right hand side above the data; 
-1. the data will open as a tab in your web browser in `*.csv` format; save them to the `data_raw` folder by going to 'File' on the menu bar of your web browser and selecting 'Save page as' from the drop-down menu.
+1. Open the messy data file `demo_data.csv` by following [this link](https://raw.githubusercontent.com/BrunaLab/LAS6292_DataManagement/master/course-materials/class-sessions/04-reproducibility/examples/demo_data.csv)
+1. the data will open as a tab in your web browser in `.csv` format; save them to the `data_raw` folder by going to 'File' on the menu bar of your web browser and selecting 'Save page as' from the drop-down menu.
 1. save the file to the `data_raw` folder. 
+
+<!-- ![Download Files by following the link and clicking this button.](raw_download.png){width=50%} -->
 
 ## 3. Data Cleaning: Overview
 
@@ -107,66 +123,213 @@ opts_knit$set(width=75)
     * Zeros instead of null values
     * Special characters (e.g. commas in numeric values instead of decimals)
     * column headings with spaces between words or that start with numerals 
+    
+4. It is often useful to make an outline of the different steps. Note that there might be differetn ways to do the same thing, so an outline will help figure out which is best. For instance: 
+
+  >**_Option 1_**   
+    1. Import table 1   
+    2. Correct column headings in Table 1  
+    3. Import table 2  
+    4. Correct column headings in Table 2  
+    5. Bind Table 1 and Table 2 Together  
+
+  >**_is less efficient than_** 
+
+  >**_Option 2_**  
+    1. Import table 1  
+    2. Import table 2   
+    3. Bind Table 1 and Table 2 Together   
+    4. Correct the column headings in the Table    
+
       
 ### 2. Import
 
 1. Create a new `.r` file and save it as `cleanup_code` in your `code` folder
-2. Annotate your code and key info: session info(), name and what for, etc.
-3. Load `tidyverse` library
-4. [quick step back]: load file into R and go over 2 ways to look it over: (a) in the viewer and (b) using commands `str` and `glimpse`
-5. This is a good time to go over the difference between `base R` and `Tidyverse`
+2. Annotate your code and key info: session info(), name and what for, etc. Add the "Steps" to the .R as Sections with shift-cmd-r (Mac) or shift-alt-r (PC).
+3. Load `tidyverse` library and import the data
+
+
+```{r echo = T, results = 'hide', eval=FALSE}
+
+library(tidyverse)
+# load the file with `read_csv`. 
+# BE SURE TO POINT TO THE RIGHT LOCATION IN YOUR R STUDIO PROJECT 
+# ./ is the "root folder" where your .Rproj file is located
+demo <- 
+  read_csv("./course-materials/class-sessions/04-reproducibility/examples/demo_data.csv")
+
+```
+
+>When we loaded the data into R, it got stored as an object of class tibble,  which is a special kind of data frame. A data frame is the representation of data in the format of a table where the columns are vectors that all have the same length. Because columns are vectors, each column must contain a single type of data (e.g., characters, integers, factors).
+
+4. A quick step back: load file into R and go over 2 ways to look it over: (a) in the viewer and (b) using commands `str` and `glimpse`. 
+
+```{r echo = T, results = 'hide', eval=FALSE}
+
+# This is a good time to go over the difference 
+# between `base R` and `Tidyverse`
+glimpse(demo)
+str(demo)
+
+# You can also get an idea of the size of the df / tibble
+
+# `dim(demo)` returns a vector with the number of rows in the 1st element,
+# and the number of columns as the 2nd element
+# (the dimensions of the object)
+dim(demo)
+# nrow(demo) - returns the number of rows
+nrow(demo)
+# ncol(demo) - returns the number of columns
+ncol(demo)
+# look at the top few rows with 'head'
+head(demo)
+# You'll note the `tidyverse` version is usually easier to read
+
+# open it an look at it with 'view' or 2x click the name in 
+view(demo)
+
+# get a list of the column names 
+names(demo)
+# or 
+colnames(demo)  #for dataframes
+
+# how do you look at individual columns? 
+demo$year
+# what is the range of values in a column `year`? 
+range(demo$year)
+
+```
 
 ### 3. Make changes
-
 1. read and edit column names
-1. change Data Types
-1. change values in a column `tolower` or `toupper` 
-1. Correct a spelling mistake # Point out that these sometimes go away with `tolower`
-1. order factor
+1. no. of levels in a factor
+1. correct roof types
+1. ordered factors
+1. convert roof names to codes
+1. replace NAs
 1. add a column
-1. add a calculation
-1. group (`case_when`)
+1. export csv
+1. reimport csv and verify
 
-### 4. Export clean data
+
+```{r echo = T, results = 'hide', eval=FALSE}
+
+# 1. read and edit column names
+names(demo)
+# dataframe <- rename(dataframe, "new column name" = "old column name")
+# `survey_year`: shorten to `year`
+demo <- rename(demo, "year"="survey_year")
+names(demo)
+# `type_of_house_roof`: shorten to `roof`
+demo <- rename(demo, "roof"="type_of_house_roof")
+# `2020_kids`: change to `kids_2020`
+demo <- rename(demo, "kids_2020"="2020_kids")
+names(demo)
+
+# 2. how many levels in factor?
+levels(demo$roof)
+unique(demo$roof)
+demo$roof<-as.factor(demo$roof)
+levels(demo$roof)
+
+# 3. Correct the roof types
+
+# by correcting spelling with gsub 
+demo$roof<-gsub("mabati_sloping", "mabatisloping", demo$roof)
+
+# The tidyverse way 
+demo$roof<-recode(demo$roof, Grass = "grass")
+
+# note that this would simpler if you just 
+# converted everything to lower case!
+demo$roof<-tolower(demo$roof)
+
+# 4. correct the data type of roof
+demo$floor<-as.factor(demo$floor)
+
+# 5. make `size` an ordered factor
+# Change column data types to ordered factor
+demo$size
+as.factor(demo$size)
+ordered(demo$size, levels = c("small", "large"))
+# same thing...need to assign the change.
+demo$size <- ordered(demo$size, levels = c("small", "large"))
+levels(demo$size)
+
+# 6. convert to roof to codes: `GR`, `MB`  
+demo$roof
+
+demo<- demo %>% mutate(roof = case_when(roof == "grass" ~ 'g',
+                                 roof == "mabatisloping" ~ 'm',
+                                 TRUE ~ roof))
+
+# throws an error becauise there is an NA. two ways to deal with this: 
+  
+# a. replace the NAs:
+  demo <- demo %>% replace_na(list(roof = "missing"))
+
+# b. change the cvvalue of what to repalce the NAs with 
+  demo<- demo %>% mutate(roof = case_when(roof == "grass" ~ 'g',
+                                 roof == "mabatisloping" ~ 'm',
+                                 TRUE ~ "missing"))
+
+# 7. Add a column
+  demo$country<- "kenya"
+  # or 
+  demo<- demo %>% mutate(country = "kenya")
+
+```
+
+
+### 4. Export & verify clean data
 
 1. save as a `.csv` file in the `data_clean` folder
+
+```{r echo = T, results = 'hide', eval=FALSE}
+  write_csv(demo, "./data_clean/demo_clean.csv")
+```
+
 2. Opening the clean `.csv` with excel to verify the changes are there
+
+```{r echo = T, results = 'hide', eval=FALSE}
+demo_clean<-read_csv("./data_clean/demo_clean.csv")
+```
+
+Remember! 
+
+`read_csv`: `trim_ws` is `default=TRUE`
+`read.csv`: `trim_ws` is `default=FALSE`
 
 ### 5. Reproduce your results
 
 1. Sweep the environment
-2. restart r
+2. restart R
 3. rerun your code to make sure it works
       
 ## 5. KEY MESSAGES
 
 1. Keep raw data raw. Always.
-2. Annotate. Lots.
+2. Remember: the # symbol (hash tag) allows you to make comments in the script. Be sure to Annotate. Lots. 
 
 ## In-Class Exercise
 
 <!-- https://dataoneorg.github.io/Education/lessons/09_analysis/09_analysis.pdf -->
 <!-- https://www.dataquest.io/blog/load-clean-data-r-tidyverse/  -->
 
-### 1. Load and Review
+### Repeat with some new corrections
 
-Start the process of identifying the corrections and  rearranging that needs to be done with your data. No need to code it yet, but make a list of it a .r file. We will look this over and divide it into logical blocks of steps.
+1. read and edit the remaining column names
+1. no. of levels in a factor
+1. correct other variables
+1. convert other variables to codes
+1. replace NAs in other columns
+1. add a column with your name
+1. export csv
+1. re-import csv and verify
 
-### 2. Make Corrections
+>When done, submit your .R script via canvas.
 
-1. Standardize the titles
-1. Take the raw_data, find any thing that needs to be corrected
-(spelling mistakes, etc)
-2. convert any "NA" to "missing"
-3. convert factor levels in 'roof' and 'wall' to codes to make easier to read
-4. convert 'rooms' to factor, then back to numeric
-5. save as a csv
-
-### 3. Save the data
-
-### 4. Submit
-
-1. When done, you submit a screen shot of the Rstudio project. If you have any r scripts submit them as well. 
+PS The code for this demo is [here](https://gist.github.com/embruna/ca8a3b251103c76e34ceeaedb029eb9b)
 
 # Tools & Resources
 
