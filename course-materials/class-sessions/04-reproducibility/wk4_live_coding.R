@@ -34,9 +34,6 @@ library(tidyverse)
 # `data_raw`, then the command should look like this:
 demo <- read_csv("./data_raw/demo_data.csv")
 
-# demo <- read_csv("./course-materials/class-sessions/04-reproducibility/examples/demo_data.csv")
-
-
 # the data are now an 'object' with the name `demo`. This particular type of 
 # object is called a 'tibble' (technically a tibble is a type of 'dataframe'. 
 # People often use these terms interchangablty, or use the abbreviation `df`).
@@ -222,7 +219,7 @@ demo<- demo %>% mutate(floor = case_when(floor == "earth" ~ 'er',
 # value in that cell from the column 'floor'
 
 # Note: if you do this with a column in which there are NAs, you will get 
-# an error message. So to repalce the NAs, do the following: 
+# an error message. So to replace the NAs, do the following: 
 
 
 # replacing NA values -----------------------------------------------------
