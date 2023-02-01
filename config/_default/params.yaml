@@ -89,3 +89,9 @@ cms:
 icon:
   pack:
     ai: false
+
+syntax_highlighter:
+  enable: true
+  extra_languages:
+    - r
+  # theme: "nord"
