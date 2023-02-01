@@ -26,21 +26,18 @@ Tuesday, Periods 3-5 (9:35 am - 12:35 pm) in 376 Grinter Hall
 ## Course Schedule
 
 
-<!--{{% callout warning %}}
+<!--{{% callout warning %}}---> 
 
-This is the schedule for 2023 but the linked materials are from 2022
+<!--This is the schedule for 2023 but the linked materials are from 2022---> 
 
-{{% /callout %}} )
+<!--{{% /callout %}} )---> 
 
 
 <!-- code for readings link: <td>{{% staticref "/post/class-sessions/readings-week-5" "newtab" %}}<i class="fas fa-book-open"></i>{{% /staticref %}}</td>  ---> 
 
-<!-- code for in-class link: <td>{{% staticref "/post/class-sessions/02_class" %}}<i class="fas fa-book-open"></i>{{% /staticref %}}</td>
+<!-- code for in-class link: <td>{{% staticref "/post/class-sessions/02_class" %}}<i class="fas fa-book-open"></i>{{% /staticref %}}</td>---> 
 
-<!-- code for slides link: <td>{{% staticref "course-materials/class-sessions/01-intro/01_slides_2022.pdf" "newtab" %}}<i class="fas fa-image"></i>{{% /staticref %}} </td> 
-
----> 
-
+<!-- code for slides link: <td>{{% staticref "course-materials/class-sessions/01-intro/01_slides_2022.pdf" "newtab" %}}<i class="fas fa-image"></i>{{% /staticref %}} </td> ---> 
 
  
 <table>
@@ -89,10 +86,11 @@ This is the schedule for 2023 but the linked materials are from 2022
     <td>Reproducible Data (Re)organization</td>
     <td>{{% staticref "/post/class-sessions/readings-week-04" "newtab" %}}<i class="fas fa-book-open"></i>{{% /staticref %}}</td> 
    <td>{{% staticref "/post/class-sessions/class-week-04" %}}<i class="fas fa-laptop-code"></i>{{% /staticref %}}</td>
-   <!--  <td>{{% staticref "uploads/wk4_slides.pdf" "newtab" %}}<i class="fas fa-image"></i>  Intro Slides{{% /staticref %}}<br>
-   {{% staticref "uploads/wk4_live_coding.R" "newtab" %}}<i class="far fa-file-code"></i>  Demo R Code{{% /staticref %}}</br></td>
+   <td>{{% staticref "uploads/wk4_reproducibility_slides.pdf" "newtab" %}}<i class="fas fa-image"></i>  Intro Slides{{% /staticref %}}
+   <br>{{% staticref "uploads/wk4_reproducibility_notes.pdf" "newtab" %}}<i class="fas fa-pen"></i> Notes{{% /staticref %}}
+   <br>{{% staticref "uploads/wk4_live_coding.R" "newtab" %}}<i class="far fa-file-code"></i>  Demo R Code{{% /staticref %}}</td>
   </tr>
-  --->
+  
   <tr>
     <td>5</td>
     <td>2/7</td>

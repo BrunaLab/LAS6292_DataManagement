@@ -115,4 +115,4 @@ The code below is for {{< icon name="r-project" pack="fab" >}}. You may use any 
 
 ### 3. Code
 
-1. The R code we used in class can be downloaded here: [`wk4_live_coding.R`](https://github.com/BrunaLab/LAS6292_DataManagement/blob/f97081e0e6934562ea02471ea257d129936a6d42/course-materials/class-sessions/04-reproducibility/wk4_live_coding.R). You can either copy the contents into your own R script or you can click "raw" and then download the file.
+1. The R code we used in class can be downloaded here:  {{% staticref "uploads/wk4_live_coding.R" "newtab" %}}Demo R Code{{% /staticref %}} You can copy and paste it into your own R script. 
