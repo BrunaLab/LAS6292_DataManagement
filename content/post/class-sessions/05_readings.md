@@ -24,9 +24,16 @@ weight: 9
 {{% callout note %}}
 ### Objectives and Competencies for this session:   
 
-* Be able to define data quality control and data quality assurance
-* Be able to perform quality control and assurance on data at all stages of the research cycle
 
+1. Be able to define quality control and quality assurance as it relates to data collection, entry, and management.
+1. Be able to explain the 1-10-100 rule.
+1. Define different data entry methods (e.g., single-entry, double-entry, visual-checking) and evaluate their efficacy.
+1. Understand, Apply, and Evaluate QA Tools, i.e., tools that minimize errors at data-entry stage   
+
+    a. Restricted data entry
+    b. Atomized data entry
+    c. Codes
+    d. Audio data entry and validation
 {{% /callout %}}  
 
 ### Pre-class Preparation:
@@ -37,9 +44,14 @@ weight: 9
 
 2.  Lincoln, Matthew D. 2018. "Best Practices for Using Google Sheets in Your Data Project."  [[read online]](https://matthewlincoln.net/2018/03/26/best-practices-for-using-google-sheets-in-your-data-project.html) [[download pdf]](https://github.com/BrunaLab/LAS6292_DataManagement/blob/master/Assigned_Readings/Lincoln_2018.pdf) or {{% staticref "course-materials/readings/Lincoln_2018.pdf" "newtab" %}}[download pdf]{{% /staticref %}}
 
+_Skim and consider what Box 1, Table 1, Figure 2, and Box 3 would look like for Humanities and Social Sciences._
 
-**Videos:** 
+3. Campbell, J. L. _et al._ 2013. Quantity is nothing without quality: automated QA/QC for streaming environmental sensor data. BioScience, 63(7): 574-585. [link](https://www.nrs.fs.usda.gov/pubs/jrnl/2013/nrs_2013_campbell-j_002.pdf)
+
+
+
+<!--- **Videos:** 
 
   * Intro to QA/QC (Links to an external site.)
   * QA/QC: During data entry (Links to an external site.)
-  * QA/QC: After data entry
+  * QA/QC: After data entry --->

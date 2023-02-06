@@ -34,6 +34,19 @@ knit: (function(inputFile, encoding) {
   output_dir = "./content/course-materials/class-sessions/01-intro")
   })
 ---
+
+
+<!-- # For Intro Lecture: What is "Data" in different dfisciplines?  -->
+<!-- humanities -->
+<!-- https://campus.dariah.eu/resource/ws2019#session-2 -->
+<!-- https://escholarship.umassmed.edu/cgi/viewcontent.cgi?referer=http://scholar.google.com/&httpsredir=1&article=1115&context=jeslib  -->
+<!-- https://www.routledge.com/The-Digital-Humanities-Coursebook-An-Introduction-to-Digital-Methods-for/Drucker/p/book/9780367565756 -->
+<!-- https://methods.sagepub.com/book/the-sage-handbook-of-qualitative-data-analysis/n32.xml  -->
+
+<!-- "In these fields, the concepts of “data” and “evidence” are very nuanced. However, virtually all information you record during your research counts as such. Here are some common (yet not exhaustive) examples of data captured in the arts, humanities and social sciences: 1) Focus group notes 2) Fieldwork notes 3) Finding aids https://en.wikipedia.org/wiki/Finding_aid -->
+<!-- 4) Interviews (audio/video) and transcriptions 5) Interview coding 6) Meeting minutes 7) Text corpora https://en.wikipedia.org/wiki/Text_corpus 8) Text with markup https://port.sas.ac.uk/mod/book/view.php?id=568&chapterid=335 -->
+<!-- Thematic research collections http://digitalhumanities.org/companion/view?docId=blackwell/9781405103213/9781405103213.xml&chunk.id=ss1-4-5&toc.id=0&brand=9781405103213_brand 9) Digitised books, paintings and other works of art  -->
+
 # LAS 6292: WEEK 1 OUTLINE
 
 

@@ -91,11 +91,17 @@ By the end of this lesson students will:
 
 ### **Readings**: None
 
+
+
+<!-- * **In-class Exercise:**   -->
+<!--     * Data Carpentry Lesson (2:15 h) -->
+<!--     * https://datacarpentry.org/openrefine-socialsci/ -->
+<!--     * https://datacarpentry.org/OpenRefine-ecology-lesson/ -->
+
 ### Computer Resources
 
 1. Install OpenRefine on your computer and verify it works by following the [instructions here](https://datacarpentry.org/openrefine-socialsci/setup.html).
 
-2. 
 2. _Optional:_ Read and watch about [how OpenRefine works here](https://openrefine.org/). You can also review the [basic workflow](https://hackmd.io/WnKT7eiMQde7jCF5teVHBQ#Setup) we will learn.
 
 

@@ -1,0 +1,33 @@
+---
+title: "data archiving"
+author: "Emilio M. Bruna"
+date: "2023-02-06"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+### 14. Data Sharing, Reuse, & Archives   
+*understand advantages of data sharing and archiving
+*discuss concerns and and obstacles related to data sharing
+*understand restrictions on reuse of data, software, and instrumentation, including different CCO and Public Domain licences)
+*adress reuse / sgharing requiorements from granting aqgencies or sponsors
+
+*understand options for maximizing data reuse
+*understand data identifiers and what they are for
+* underrstand benefits of using unique researcher id in metadata
+
+*	Identify types of available repositories/archives (discipline-based, institutional, etc.)
+*	Chooses appropriate option for long-term storage of data
+*	Understand process issues for depositing data in repository
+
+
+* **Intro Material (lecture/videos): **
+  * https://dataoneorg.github.io/Education/lessons/02_datasharing/L02_Exercise.pdf
+  * https://dataoneorg.github.io/Education/lessons/08_citation/index
+  * https://dataoneorg.github.io/Education/bp_step/discover/
+
+* **In-class Exercise:**  Find data, look at data archive and see if they can understand it

@@ -33,6 +33,35 @@ opts_chunk$set(echo=FALSE,
 opts_knit$set(width=75)
 ```
 
+
+
+
+
+<!-- ### 7. Documentation: Metadata, Codebooks    -->
+
+<!-- https://www.youtube.com/watch?v=N2zK3sAtr-4 -->
+
+
+<!-- * 	Understands the concept of, and rationale for, metadata -->
+<!-- * 	Identify and list the types of information typically included in metadata records -->
+<!-- * 	Identify applicable standards for documenting and capturing metadata in your discipline -->
+<!-- * 	Familiar with tools for creating metadata appropriate for your discipline and data type -->
+<!-- * 	Formulate an approach to creating metadata for a project -->
+<!-- * 	Develops an ability to read and interpret metadata from external disciplinary sources -->
+
+
+
+<!-- it is hard to explain to someone how to do stuff, what things mean -->
+<!-- example exercise of the importance of detailed instructions: definitions -->
+
+
+<!-- * **Intro Material (lecture/videos): ** -->
+<!--   * https://dataoneorg.github.io/Education/lessons/07_metadata/index  -->
+<!--   * https://dataoneorg.github.io/Education/bp_step/describe/  -->
+
+<!-- * **In-class Exercise:** Begin Drafting Metadata File, Code Books -->
+
+
 ## Pre-Class Preparation (Instructor):  
 
 **Send in an email to students:  **  

@@ -115,4 +115,10 @@ The code below is for {{< icon name="r-project" pack="fab" >}}. You may use any 
 
 ### 3. Code
 
-1. The R code we used in class can be downloaded here:  {{% staticref "uploads/wk4_live_coding.R" "newtab" %}}Demo R Code{{% /staticref %}} You can copy and paste it into your own R script. 
+1. The R code we used in class can be downloaded here:  {{% staticref "uploads/wk4_live_coding.R" "newtab" %}}Demo R Code{{% /staticref %}} You can copy and paste it into your own R script.
+
+
+### 4. Assignment
+
+1. There is no assignment to submnit this week, but I expect you to run the code and be able to answer the questions at the end.
+
