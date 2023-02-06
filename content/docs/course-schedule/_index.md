@@ -97,9 +97,9 @@ Tuesday, Periods 3-5 (9:35 am - 12:35 pm) in 376 Grinter Hall
     <td>QA/QC 1: Data Entry & Validation</td>
     <td>{{% staticref "/post/class-sessions/readings-week-05" "newtab" %}}<i class="fas fa-book-open"></i>{{% /staticref %}}</td> 
     <td>{{% staticref "/post/class-sessions/class-week-05" %}}<i class="fas fa-laptop-code"></i>{{% /staticref %}}</td>
-    <!-- <td>{{% staticref "uploads/wk5_QAQC_slides.pdf" "newtab" %}}<i class="fas fa-image"></i>  Slides{{% /staticref %}}</td>
+    <td>{{% staticref "uploads/wk5_QAQC_slides.pdf" "newtab" %}}<i class="fas fa-image"></i>  Slides{{% /staticref %}}</td>
   </tr>
-  --->
+  
   <tr>
     <td>6</td>
     <td>2/14</td>
