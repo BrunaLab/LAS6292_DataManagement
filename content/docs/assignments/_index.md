@@ -28,7 +28,7 @@ Grades in the course will be based on the following assignments:
     (3) Metadata describing the corrected data set
 
 
-- **The assignment, deadline, and evaluation rubric can be found {{% staticref "las6292_data_cleanup_project.pdf" "newtab" %}}here{{% /staticref %}}.**
+- **The assignment, deadline, and evaluation rubric can be found {{% staticref "uploads/las6292_data_cleanup_project.pdf" "newtab" %}}here{{% /staticref %}}.**
 
 
 ## 3. Thesis Research DMP
