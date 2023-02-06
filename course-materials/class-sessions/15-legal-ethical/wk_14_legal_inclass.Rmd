@@ -1,0 +1,132 @@
+---
+title: "LAS 6292: Data, Ethics, and the Law"
+date: "updated: `r Sys.Date()`"
+header-includes:
+- \AtBeginDocument{\let\maketitle\relax} # this removes default title section
+- \usepackage[default]{sourcesanspro}
+- \usepackage{fancyhdr} # modify header into left, center, right
+- \pagestyle{fancy} # cues the use of fancy headers
+- \fancyfoot{} # cues the use of fancy footer
+# month & year on header left
+- \fancyhead[L]{LAS 6292 Spring `r format(Sys.time(), '%Y')`, EM Bruna} 
+# name and page on header right
+- \fancyhead[R]{Data Ethics, and the Law, p. \thepage} 
+- \fancyfoot[R]{Last update `r format(Sys.time(), '%d %B %Y')`}
+# - \usepackage{setspace}{singlespace} # manipulate line spacing 
+- \usepackage{parskip} # manipulate indents and spacing before/after paragra phs 
+- \usepackage{xcolor} # changes colors of text
+# to center to top level (#) headings (my name) and change color of font
+# more info # https://www.ctan.org/pkg/sectsty
+- \usepackage{sectsty} \sectionfont{\centering\color{darkmidnightblue}}
+# to center to sub-sub-headings (###) and change color of font
+- \usepackage{sectsty} \subsectionfont{\color{darkmidnightblue}}
+# http://latexcolor.com/ to choose colors
+# define the colors used above with rgb codes
+- \definecolor{darkcerulean}{rgb}{0.03, 0.27, 0.49}
+- \definecolor{darkmidnightblue}{rgb}{0.0, 0.2, 0.4}
+# - \usepackage{ragged2e}
+# - \setlength\RaggedRightParindent{15pt}
+# - \RaggedRight - # make the right margin ragged
+# https://tex.stackexchange.com/questions/258714/prevent-hyphenation-across-lines-enforce-right-margin
+# - \hyphenpenalty=10000 #to suppress ordinary hyphenation
+# - \exhyphenpenalty=10000 #to prohibit line breaks at explicit hyphens.
+# - \setstretch{1.0}
+
+# https://babichmorrowc.github.io/post/changing-fonts-in-rmarkdown-pdfs/
+
+mainfont: SourceSansPro
+geometry: margin=1in
+fontsize: 12pt
+linkcolor: blue
+urlcolor: blue
+output:
+  # pdf_document: default
+  html_document: defauilt
+  #   df_print: paged
+  # rmdformats::robobook: default
+---
+
+
+```{r setup, include=FALSE}
+library(knitr)
+library(rmdformats)
+knitr::opts_chunk$set(echo = TRUE)
+## Global options
+options(max.print="75")
+opts_chunk$set(echo=FALSE,
+	             cache=TRUE,
+               prompt=FALSE,
+               tidy=TRUE,
+               comment=NA,
+               message=FALSE,
+               warning=FALSE)
+opts_knit$set(width=75)
+```
+
+## In-Class Exercise: Data, Ethics, & the Law
+
+### PART 1: Anonymizing is hard
+
+1. Exercise 1: Finalize this "anonymization log' for one of your interviews. How would you anonymiuze each entry? 
+
+
+```{r anon_log, echo=FALSE}
+library(knitr)
+library(kableExtra)
+library(tidyverse)
+
+col1<-c(
+"Int1 p1",
+"Int1 p1",
+"Int1 p2",
+"Int1 p2",
+"Int1 p3",
+"Int1 p4",
+"Int2 p1",
+"Int2 p8",
+"Int2 p10",
+"Int2 p11"
+)
+
+col2<-c(
+"Age: 27",
+"Born in Venezeula",
+"Born on 20 June",
+"Name: Miguel",
+"Lives in Atlanta",
+"Known as 'Tio Miguelito'",
+"his friend Maria",
+"attended Talbot Elementary School",
+"Director, Southern Region, Quantum Vehicles",
+"lives in Grant Park"
+)
+
+col3<-c(
+" ",
+" ",
+" ",
+" ",
+" ",
+" ",
+" ",
+" ",
+" ",
+" "
+)
+
+log<-data_frame(col1,col2,col3)
+names(log)<-c("Interview-Page","Original Info", "Changed to")
+
+log %>%
+  kbl() %>%
+  kable_styling(latex_options = "HOLD_position")
+```
+
+
+2. Exercise 2: [Download this interview file](https://github.com/BrunaLab/LAS6292_DataManagement/blob/70a15b1b37357f7dabc4a3c77787cca308d2ba18/content/course-materials/class-sessions/14-legal-ethical/in-class_resources/corti_03_exercise_8.1_original_answer.docx) by clicking the 'download" button and saving to your computer. Try anonymizing this text - was it harder or easier than the more abstract list above? Why or why not?
+
+
+### PART 2: Research misconduct related to data
+
+1. Take 15 minutes to read this article: Martinson, B., Anderson, M. & de Vries, R. 2005. Scientists behaving badly. Nature 435:737–738. [link](https://doi.org/10.1038/435737a). We'll come back and discuss it as a group aftyer the break.
+

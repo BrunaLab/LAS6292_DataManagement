@@ -31,9 +31,9 @@ weight: 9
 1. Understand, Apply, and Evaluate QA Tools, i.e., tools that minimize errors at data-entry stage   
 
     a. Restricted data entry  
-    b. Atomized data entry. 
-    c. Codes. 
-    d. Audio data entry and validation. 
+    b. Atomized data entry   
+    c. Codes   
+    d. Audio data entry and validation     
     
 {{% /callout %}}  
 

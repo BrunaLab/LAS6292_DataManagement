@@ -3,3 +3,8 @@
 .RData
 .Ruserdata
 .DS_Store
+checklist_template.log
+checklist_template.pdf
+.httr-oauth
+demo_clean.csv
+sasse.csv
