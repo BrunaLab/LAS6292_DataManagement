@@ -43,7 +43,7 @@ weight: 9
 
 1.  Kamentez, A. 2018. The School Shootings that weren’t.NPR  [[read online]](http://tinyurl.com/y77p3o36) or {{% staticref "course-materials/readings/Kamenetz_2018.pdf" "newtab" %}}[download pdf]{{% /staticref %}}
 
-2.  Lincoln, Matthew D. 2018. "Best Practices for Using Google Sheets in Your Data Project."  [[read online]](https://matthewlincoln.net/2018/03/26/best-practices-for-using-google-sheets-in-your-data-project.html) [[download pdf]](https://github.com/BrunaLab/LAS6292_DataManagement/blob/master/Assigned_Readings/Lincoln_2018.pdf) or {{% staticref "course-materials/readings/Lincoln_2018.pdf" "newtab" %}}[download pdf]{{% /staticref %}}
+2.  Lincoln, Matthew D. 2018. "Best Practices for Using Google Sheets in Your Data Project."  [[read online]](https://matthewlincoln.net/2018/03/26/best-practices-for-using-google-sheets-in-your-data-project.html) [[download pdf]](https://github.com/BrunaLab/LAS6292_DataManagement/blob/master/Assigned_Readings/Lincoln_2018.pdf) or {{% staticref "/readings/Lincoln_2018.pdf" "newtab" %}}[download pdf]{{% /staticref %}}
 
 _Skim and consider what Box 1, Table 1, Figure 2, and Box 3 would look like for Humanities and Social Sciences._
 
