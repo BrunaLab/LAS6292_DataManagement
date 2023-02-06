@@ -17,7 +17,7 @@ Grades in the course will be based on the following assignments:
 
 - **Overview**: Most of the in-class assignments involve hands-on practice with data collection or manipulation. In some weeks, however, assignment will be the submission of questions for group discussion or brief reflection on the issues from the readings. Most in-class assignments are designed to be completed during the class session, but to ensure students master the concepts rather than rush through them *they can be submitted anytime until 9 am the following Friday*.
 
-## 2. Reproducible Data Correction and Organization Project
+## 2. Reproducible Data Organization Project
 
 - **Overview:** This project is an opportunity to put some of the lessons learned into practice with a data set of your own. Your assignment is to **(1)** clean and organize a 'messy' data set and prepare metadata describing the resulting 'clean' data. The complete project requires the submission of these three items via the course Canvas website:  
 
@@ -27,11 +27,8 @@ Grades in the course will be based on the following assignments:
     
     (3) Metadata describing the corrected data set
 
-<!--
 
-The complete assignment, deadline, and evaluation rubric can be found {{% staticref "course-materials/projects/las6292_data_cleanup_project.pdf" "newtab" %}}here{{% /staticref %}}.
-
---->
+The assignment, deadline, and evaluation rubric can be found {{% staticref "course-materials/projects/las6292_data_cleanup_project.pdf" "newtab" %}}here{{% /staticref %}}.
 
 
 ## 3. Thesis Research DMP

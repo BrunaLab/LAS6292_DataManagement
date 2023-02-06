@@ -2,28 +2,51 @@
 title: "Assignment - Reproducible Data Correction & Organization"
 author: "Emilio M. Bruna"
 date: format(Sys.time(), "%Y")
+header-includes:
+- \AtBeginDocument{\let\maketitle\relax} # this removes default title section
+- \usepackage[default]{sourcesanspro}
+- \usepackage{fancyhdr} # modify header into left, center, right
+- \pagestyle{fancy} # cues the use of fancy headers
+- \fancyfoot{} # cues the use of fancy footer
+# month & year on header left
+- \fancyhead[L]{LAS 6292 Spring `r format(Sys.time(), '%Y')`, EM Bruna} 
+# name and page on header right
+- \fancyhead[R]{Data Cleanup Project, p. \thepage} 
+- \fancyfoot[R]{Last update `r format(Sys.time(), '%d %B %Y')`}
+# - \usepackage{setspace}{singlespace} # manipulate line spacing 
+- \usepackage{parskip} # manipulate indents and spacing before/after paragra phs 
+- \usepackage{xcolor} # changes colors of text
+# to center to top level (#) headings (my name) and change color of font
+# more info # https://www.ctan.org/pkg/sectsty
+- \usepackage{sectsty} \allsectionsfont{\centering}
+- \usepackage{sectsty} \sectionfont{\centering\color{darkmidnightblue}}
+- \usepackage{sectsty} \subsubsectionfont{\centering\color{darkmidnightblue}}
+- \usepackage{sectsty} \subsectionfont{\centering\color{darkmidnightblue}}
+# http://latexcolor.com/ to choose colors
+# define the colors used above with rgb codes
+- \definecolor{darkcerulean}{rgb}{0.03, 0.27, 0.49}
+- \definecolor{darkmidnightblue}{rgb}{0.0, 0.2, 0.4}
+# - \usepackage{ragged2e}
+# - \setlength\RaggedRightParindent{15pt}
+# - \RaggedRight - # make the right margin ragged
+# # https://tex.stackexchange.com/questions/258714/prevent-hyphenation-across-lines-enforce-right-margin
+# - \hyphenpenalty=10000 #to suppress ordinary hyphenation
+# - \exhyphenpenalty=10000 #to prohibit line breaks at explicit hyphens.
+# - \setstretch{1.0}
+
+# https://babichmorrowc.github.io/post/changing-fonts-in-rmarkdown-pdfs/
+
+mainfont: SourceSansPro
 geometry: margin=1in
 fontsize: 12pt
 linkcolor: blue
 urlcolor: blue
-header-includes:
-- \usepackage{fancyhdr}
-- \pagestyle{fancy}
-- \fancyfoot{}
-- \fancyhead[R]{Reproducible Data Correction, p. \thepage}
-- \fancyhead[L]{LAS 6292 (`r format(Sys.time(), '%Y')`)}
-- \usepackage[default]{sourcesanspro}
-- \AtBeginDocument{\let\maketitle\relax}
-- \usepackage{sectsty} \allsectionsfont{\centering}
-- \usepackage{titlesec}
-- \titlespacing{\section}{0pt}{12pt plus 2pt minus 1pt}{0pt plus 1pt minus 1pt}
-- \titlespacing{\subsection}{0pt}{12pt plus 2pt minus 1pt}{0pt plus 1pt minus 1pt}
-- \titlespacing{\subsubsection}{0pt}{12pt plus 2pt minus 1pt}{0pt plus 1pt minus 1pt}
-- \titlespacing{\subsubsubsection}{0pt}{12pt plus 2pt minus 1pt}{0pt plus 1pt minus 1pt}
 output: pdf_document
-  # html_document:
-  #   df_print: paged
-  # rmdformats::robobook: default
+knit: (function(inputFile, encoding) {
+  rmarkdown::render(inputFile,
+  encoding = encoding,
+  output_dir = "./static/uploads")
+  })
 ---
 
 ```{r setup, include=FALSE,echo=FALSE,message = FALSE,warning=FALSE}
@@ -40,13 +63,10 @@ metadata <- 250
 total_points <- code + clean_data + metadata
 ```
 <!-- this next line suppresses the header (line, name,  page number) on 1st page -->
-\thispagestyle{empty}  
-
-## Assignment - Reproducible Data Correction & Organization
-### LAS 6292 (`r format(Sys.time(), '%Y')`)  
-
-&nbsp;   
-
+<!-- \thispagestyle{empty}   -->
+# Individual Project: Reproducible Data Organization
+<!-- ## LAS 6292 (`r format(Sys.time(), '%Y')`)    -->
+<!-- &nbsp;   -->
 ## Assignment overview  
 
 This project is an opportunity to put some of the lessons we've learned into practice with a data set of your own. Your assignment is to **(1)** clean and organize a 'messy' data set and prepare metadata describing the resulting 'clean' data. The complete project requires the submission of these three items via the course Canvas website: 
@@ -55,9 +75,11 @@ This project is an opportunity to put some of the lessons we've learned into pra
 (2) The resulting 'clean' (i.e., corrected and organized) data in an appropriate format (e.g., .csv, .txt)
 (3) Metadata describing the corrected data set (This can either be in the form of the link to a github repository or the submissio of a file in .txt or .pdf format)
 
-**Due Date & Point Value:** The assignment is due **29 April 2022** by 5 pm and is worth **`r total_points` points.**  
+**Due Date & Point Value:** The assignment is due **1 May 2023** by 5 pm and is worth **`r total_points` points.**  
 
-**Grading Rubric: **Each portion of your submission will be evaluated using the point values, minimum standards, and rubric below. The individual components will be evaluated as "Meets required standards", "Moderate revisions required to meet the minimum standards", "Major revisions required to meet the minimum standards", or as "Incomplete / Unacceptable". In addition, I have noted a series of additional (optional) steps that can be taken to earn a designation of "Exceptional Work" on each section that can result in a bonus of up to 10%.  
+## Evaluation & Grading Rubric
+
+Each portion of your submission will be evaluated using the point values, minimum standards, and rubric below. The individual components will be evaluated as "Meets required standards", "Moderate revisions required to meet the minimum standards", "Major revisions required to meet the minimum standards", or as "Incomplete / Unacceptable". In addition, I have noted a series of additional (optional) steps that can be taken to earn a designation of "Exceptional Work" on each section that can result in a bonus of up to 10%.  
 &nbsp;   
 
 ```{r rubric, echo=FALSE,message = FALSE,warning=FALSE}

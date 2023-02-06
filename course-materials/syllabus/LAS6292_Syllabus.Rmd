@@ -159,30 +159,34 @@ kable(outline,
 **Final Course Grades:** Course grades will be based on the percentage of total points earned and will be assigned with the following scale:  **A:** >93%   **A-:** 92-90%   **B+:** 89-87%    **B:** 86-83%   **B-:** 82-80%  **C+:** 79-77%    **C:** 76-73%   **C-:** 72-70%.  **D+:** 69-67%    **D-:** 62-60%    **E:** 59% and below.  **The final course grade is based on the following assignments:**
 
 ```{r points, echo=FALSE}
-in_class <- 50
-no_classes <- 16
+in_class <- 40
+no_classes <- 15
 in_class_total <- no_classes * in_class
+peer_dmp_review <-50
 dmp <- 200
 peer_code_review <-100
-project <- 500
+project <- 600
 course_total <- in_class_total + project + dmp + peer_code_review
 
+dmp_peer_due<-c("16 March 2023")
 dmp_due<-c("28 March 2023")
 peer_code_review_due<-c("28 March 2023")
 project_due<-c("28 March 2023")
 
 Assignment <- c(
   "Weekly in-class exercises",
+  "DMP Peer Review",
   "Data Management Plan",
   "Peer Code Review",
   "Individual Data Cleanup Project",
   "TOTAL"
 )
 
-Points<- c(in_class_total,dmp,peer_code_review,project,course_total)
+Points<- c(in_class_total,peer_dmp_review,dmp,peer_code_review,project,course_total)
 
 Due<- c(
   "Friday 9 am",
+  "16 March",
   "21 March",
   "4 April",
   "1 May",
@@ -199,9 +203,9 @@ kable(assignments,
   linesep = "") %>% 
   # removes the blank line after every 5 lines) %>%
   kable_styling(position = "center",latex_options = "HOLD_position") %>% 
-  row_spec(4,hline_after=T) %>% 
-  add_indent(c(5)) %>% 
-  row_spec(5, bold=T)
+  row_spec(5,hline_after=T) %>% 
+  add_indent(c(6)) %>% 
+  row_spec(6, bold=T)
 
 ```
 
