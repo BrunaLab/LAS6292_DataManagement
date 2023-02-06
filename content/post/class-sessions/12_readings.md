@@ -39,7 +39,7 @@ weight: 21
 1.  Bakker, Rebecca. "Transcription Tools and Software" (2017). Works of the FIU Libraries. 62.  
         [[read online]](https://digitalcommons.fiu.edu/glworks/62) 
         
-<!---        [download pdf](https://github.com/BrunaLab/LAS6292_DataManagement/blob/master/Assigned_Readings/Bakker_transcription_tools_slides.pdf)  --->
+<!---        [download pdf](https://github.com/BrunaLab/LAS6292_DataManagement/blob/master/course-materials/readings/Bakker_transcription_tools_slides.pdf)  --->
 
 2. McMullin, C. 2021, Transcription and Qualitative Methods: Implications for Third Sector Research. Voluntas. [link](https://doi.org/10.1007/s11266-021-00400-3)
 
