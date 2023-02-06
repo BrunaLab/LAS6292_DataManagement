@@ -30,10 +30,11 @@ weight: 9
 1. Define different data entry methods (e.g., single-entry, double-entry, visual-checking) and evaluate their efficacy.
 1. Understand, Apply, and Evaluate QA Tools, i.e., tools that minimize errors at data-entry stage   
 
-    a. Restricted data entry
-    b. Atomized data entry
-    c. Codes
-    d. Audio data entry and validation
+    a. Restricted data entry  
+    b. Atomized data entry. 
+    c. Codes. 
+    d. Audio data entry and validation. 
+    
 {{% /callout %}}  
 
 ### Pre-class Preparation:
