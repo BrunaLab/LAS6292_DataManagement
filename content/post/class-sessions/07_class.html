@@ -1,7 +1,7 @@
 ---
 title: 'Week 7: In-Class Assignment'
 # author: "Emilio M. Bruna"
-# date: "last update: 10 January 2023"
+# date: "last update: 21 February 2023"
 # header-includes:
 #    - \usepackage[default]{sourcesanspro}
 #    - \usepackage[T1]{fontenc}
@@ -22,7 +22,7 @@ header-includes:
 - \pagestyle{fancy} # cues the use of fancy headers
 - \fancyfoot{} # cues the use of fancy footer
 # month & year on header left
-- \fancyhead[L]{January 2023} 
+- \fancyhead[L]{February 2023} 
 # name and page on header right
 - \fancyhead[R]{LAS 6292 Assignment, p. \thepage} 
 # - \usepackage{setspace}{singlespace} # manipulate line spacing 
@@ -66,15 +66,21 @@ weight: 14
 
 <div id="in-class-exercise-data-viz" class="section level2">
 <h2>In-Class Exercise: Data Viz</h2>
-<div id="data-visualization---how-to-make-ugly-plots" class="section level3">
-<h3>DATA VISUALIZATION - HOW TO MAKE UGLY PLOTS</h3>
+<div id="data-visualization-part-1-dataviz-to-find-errors" class="section level3">
+<h3>DATA VISUALIZATION PART 1: DataViz to find errors</h3>
 <ol style="list-style-type: decimal">
-<li>First, you’re going to need to download some datasets. Here are three we will be working with in class:</li>
+<li>Dataset for part 1: <a href="https://raw.githubusercontent.com/BrunaLab/LAS6292_DataManagement/master/course-materials/class-sessions/07-QAQC3/demo_datasets/las_data_viz.csv">las_data_viz.csv</a></li>
+</ol>
+</div>
+<div id="data-visualization-part-2-how-to-make-ugly-plots" class="section level3">
+<h3>DATA VISUALIZATION PART 2: How to make ugly plots</h3>
+<ol style="list-style-type: decimal">
+<li>Here are three datasets to download for this part of the session. Save to your RStudio Project.</li>
 </ol>
 <ul>
-<li><p><a href="https://raw.githubusercontent.com/BrunaLab/LAS6292_DataManagement/65fb8a791f18b7181fc6554f3bd7b206f5e71456/content/course-materials/class-sessions/15-dataviz/demo_datasets/cereal.csv">cereal.csv</a> - data on the nutritional content of different breakfast cereals.</p></li>
-<li><p><a href="https://raw.githubusercontent.com/BrunaLab/LAS6292_DataManagement/65fb8a791f18b7181fc6554f3bd7b206f5e71456/content/course-materials/class-sessions/15-dataviz/demo_datasets/bites_summary.csv">bites.csv</a>. Which dogs bite the most?</p></li>
-<li><p><a href="https://raw.githubusercontent.com/BrunaLab/LAS6292_DataManagement/65fb8a791f18b7181fc6554f3bd7b206f5e71456/content/course-materials/class-sessions/15-dataviz/demo_datasets/annual_bigfoot.csv">bigfoot.csv</a>. Number of bigfoot sightings per year in North America</p></li>
+<li><p><a href="https://raw.githubusercontent.com/BrunaLab/LAS6292_DataManagement/master/course-materials/class-sessions/07-QAQC3/demo_datasets/cereal.csv">cereal.csv</a>: data on the nutritional content of different breakfast cereals.</p></li>
+<li><p><a href="https://raw.githubusercontent.com/BrunaLab/LAS6292_DataManagement/master/course-materials/class-sessions/07-QAQC3/demo_datasets/bites_summary.csv">bites.csv</a>: Data on dogs bites by breed.</p></li>
+<li><p><a href="https://raw.githubusercontent.com/BrunaLab/LAS6292_DataManagement/master/course-materials/class-sessions/07-QAQC3/demo_datasets/annual_bigfoot.csv">bigfoot.csv</a>: Number of Bigfoot sightings per year in North America</p></li>
 </ul>
 <ol start="2" style="list-style-type: decimal">
 <li><p>We’re going to make a bar plot, then a scatter plot. First you read in the data using <code>read_csv()</code>:</p>
@@ -83,11 +89,13 @@ weight: 14
 </li>
 <li><code>bigfoot&lt;-read_csv("./-------")</code></li>
 </ul></li>
-<li><p>Then we will walk through this code (you can download it later): <a href="https://github.com/BrunaLab/LAS6292_DataManagement/blob/master/content/course-materials/class-sessions/15-dataviz/viz_code_class.R">viz_code.class.R</a></p></li>
-<li><p>After we lear to make the basic figures, your job is to make a figure as ugly as possible. If you need some inspiration, <a href="https://twitter.com/drdrewsteen/status/1172547837046820864?s=12">check out these examples!</a></p></li>
-<li><p>Submit them via canvas, and we will vote on the best (=worst) one next week!
-PS Here are some resources that will really help today:</p></li>
+<li><p>Now that we’ve learned about making basic figures, your job is to make a figure that is as ugly as possible. If you need some inspiration, <a href="https://twitter.com/drdrewsteen/status/1172547837046820864?s=12">check out these examples!</a></p></li>
+<li><p>Submit them via canvas, and we will vote on the best (=worst) one next week!</p></li>
 </ol>
+</div>
+</div>
+<div id="here-are-some-resources-that-will-really-help-today" class="section level2">
+<h2>Here are some resources that will really help today:</h2>
 <ul>
 <li><a href="https://r-graph-gallery.com/index.html">The R Graph Gallery</a></li>
 <li><a href="https://ggplot2.tidyverse.org/index.html">ggplot manual from R Studio</a></li>
@@ -106,5 +114,4 @@ PS Here are some resources that will really help today:</p></li>
 <li><p><a href="https://r4ds.had.co.nz/exploratory-data-analysis.html">“Ch7 in Exploratory Data Analysis” in Wickham and Grolemund’s “R for Data Science”:</a></p></li>
 <li><p>Rougier NP, Droettboom M, Bourne PE (2014) Ten Simple Rules for Better Figures. PLoS Comput Biol 10(9): e1003833. <a href="https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1003833">read online</a></p></li>
 </ol>
-</div>
 </div>
