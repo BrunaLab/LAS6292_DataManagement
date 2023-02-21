@@ -59,15 +59,20 @@ library(tidyverse)
 
 ## In-Class Exercise: Data Viz
 
-### DATA VISUALIZATION - HOW TO MAKE UGLY PLOTS 
+### DATA VISUALIZATION PART 1: DataViz to find errors
 
-1) First, you're going to need to download some datasets. Here are three we will be working with in class: 
+1) Dataset for part 1: [las_data_viz.csv](https://raw.githubusercontent.com/BrunaLab/LAS6292_DataManagement/master/course-materials/class-sessions/07-QAQC3/demo_datasets/las_data_viz.csv)
 
-- [cereal.csv](https://raw.githubusercontent.com/BrunaLab/LAS6292_DataManagement/65fb8a791f18b7181fc6554f3bd7b206f5e71456/content/course-materials/class-sessions/15-dataviz/demo_datasets/cereal.csv) - data on the nutritional content of different breakfast cereals.
 
-- [bites.csv](https://raw.githubusercontent.com/BrunaLab/LAS6292_DataManagement/65fb8a791f18b7181fc6554f3bd7b206f5e71456/content/course-materials/class-sessions/15-dataviz/demo_datasets/bites_summary.csv). Which dogs bite the most?
+### DATA VISUALIZATION PART 2: How to make ugly plots
 
-- [bigfoot.csv](https://raw.githubusercontent.com/BrunaLab/LAS6292_DataManagement/65fb8a791f18b7181fc6554f3bd7b206f5e71456/content/course-materials/class-sessions/15-dataviz/demo_datasets/annual_bigfoot.csv). Number of bigfoot sightings per year in North America
+1) Here are three datasets to download for this part of the session. Save to your RStudio Project.
+
+- [cereal.csv](https://raw.githubusercontent.com/BrunaLab/LAS6292_DataManagement/master/course-materials/class-sessions/07-QAQC3/demo_datasets/cereal.csv): data on the nutritional content of different breakfast cereals.
+
+- [bites.csv](https://raw.githubusercontent.com/BrunaLab/LAS6292_DataManagement/master/course-materials/class-sessions/07-QAQC3/demo_datasets/bites_summary.csv): Data on dogs bites by breed.
+
+- [bigfoot.csv](https://raw.githubusercontent.com/BrunaLab/LAS6292_DataManagement/master/course-materials/class-sessions/07-QAQC3/demo_datasets/annual_bigfoot.csv): Number of Bigfoot sightings per year in North America
 
 
 2) We're going to make a bar plot, then a scatter plot. First you read in the data using `read_csv()`:
@@ -75,13 +80,11 @@ library(tidyverse)
       - `bites<-read_csv("./-------")`  
       - `bigfoot<-read_csv("./-------")`
 
-3) Then we will walk through this code (you can download it later):   [viz_code.class.R](https://github.com/BrunaLab/LAS6292_DataManagement/blob/master/content/course-materials/class-sessions/15-dataviz/viz_code_class.R)
+3) Now that we've learned about making basic figures, your job is to make a figure that is as ugly as possible. If you need some inspiration, [check out these examples!](https://twitter.com/drdrewsteen/status/1172547837046820864?s=12)
 
+4) Submit them via canvas, and we will vote on the best (=worst) one next week!
 
-4) After we lear to make the basic figures, your job is to make a figure as ugly as possible. If you need some inspiration, [check out these examples!](https://twitter.com/drdrewsteen/status/1172547837046820864?s=12)
-
-5) Submit them via canvas, and we will vote on the best (=worst) one next week!
-PS Here are some resources that will really help today: 
+## Here are some resources that will really help today: 
 
 - [The R Graph Gallery](https://r-graph-gallery.com/index.html)
 - [ggplot manual from R Studio](https://ggplot2.tidyverse.org/index.html)
