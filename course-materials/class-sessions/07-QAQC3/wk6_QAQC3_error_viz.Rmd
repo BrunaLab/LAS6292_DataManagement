@@ -1,0 +1,358 @@
+---
+title: "LAS 6292: Data Organization in Spreadsheets"
+date: "updated: `r Sys.Date()`"
+header-includes:
+- \AtBeginDocument{\let\maketitle\relax} # this removes default title section
+- \usepackage[default]{sourcesanspro}
+- \usepackage{fancyhdr} # modify header into left, center, right
+- \pagestyle{fancy} # cues the use of fancy headers
+- \fancyfoot{} # cues the use of fancy footer
+# month & year on header left
+- \fancyhead[L]{LAS 6292 Spring `r format(Sys.time(), '%Y')`, EM Bruna} 
+# name and page on header right
+- \fancyhead[R]{QA/QC 2 - OpenRefine, p. \thepage} 
+- \fancyfoot[R]{Last update `r format(Sys.time(), '%d %B %Y')`}
+# - \usepackage{setspace}{singlespace} # manipulate line spacing 
+- \usepackage{parskip} # manipulate indents and spacing before/after paragra phs 
+- \usepackage{xcolor} # changes colors of text
+# to center to top level (#) headings (my name) and change color of font
+# more info # https://www.ctan.org/pkg/sectsty
+- \usepackage{sectsty} \sectionfont{\centering\color{darkmidnightblue}}
+# to center to sub-sub-headings (###) and change color of font
+- \usepackage{sectsty} \subsectionfont{\color{darkmidnightblue}}
+# http://latexcolor.com/ to choose colors
+# define the colors used above with rgb codes
+- \definecolor{darkcerulean}{rgb}{0.03, 0.27, 0.49}
+- \definecolor{darkmidnightblue}{rgb}{0.0, 0.2, 0.4}
+# - \usepackage{ragged2e}
+# - \setlength\RaggedRightParindent{15pt}
+# - \RaggedRight - # make the right margin ragged
+# https://tex.stackexchange.com/questions/258714/prevent-hyphenation-across-lines-enforce-right-margin
+# - \hyphenpenalty=10000 #to suppress ordinary hyphenation
+# - \exhyphenpenalty=10000 #to prohibit line breaks at explicit hyphens.
+# - \setstretch{1.0}
+
+# https://babichmorrowc.github.io/post/changing-fonts-in-rmarkdown-pdfs/
+
+mainfont: SourceSansPro
+geometry: margin=1in
+fontsize: 12pt
+linkcolor: blue
+urlcolor: blue
+output:
+  pdf_document: default
+  # html_document:
+  #   df_print: paged
+  # rmdformats::robobook: default
+---
+
+
+```{r setup, include=FALSE}
+library(knitr)
+library(rmdformats)
+
+## Global options
+options(max.print="75")
+opts_chunk$set(echo=FALSE,
+	             cache=TRUE,
+               prompt=FALSE,
+               tidy=TRUE,
+               comment=NA,
+               message=FALSE,
+               warning=FALSE)
+opts_knit$set(width=75)
+```
+
+# Class Outline: QA/QC 2 - Open Refine
+
+## Objectives and Competencies:   
+
+By the end of this lesson students will:
+
+## Pre-Class Preparation (Instructor):  
+
+**Bring to Class:  **  
+
+  * Snacks
+  * Tent cards for student names
+
+## Pre-class Preparation (Students):
+
+### **Online Lectures:**  None
+
+### **Readings**: 
+
+1. [“Ch7 in Exploratory Data Analysis” in Wickham and Grolemund’s “R for Data Science”:](https://r4ds.had.co.nz/exploratory-data-analysis.html)  
+
+2. Rougier NP, Droettboom M, Bourne PE (2014) Ten Simple Rules for Better Figures. PLoS Comput Biol 10(9): e1003833. [read online](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1003833)
+
+### **Online Lectures:**  
+
+1. Tommy McCall: [The simple genius of a good graphic](https://www.ted.com/talks/tommy_mccall_the_simple_genius_of_a_good_graphic?language=en)
+    
+2. R. Luke DuBois: [Insightful human portraits made from data](https://www.ted.com/talks/r_luke_dubois_insightful_human_portraits_made_from_data?language=en)
+
+3. Mike Chapple: [Data Visualization in R with ggplot2](https://www.linkedin.com/learning/data-visualization-in-r-with-ggplot2/the-grammar-of-graphics?resume=false&u=41282748). Watch the "Introducing ggplot2" (4:43) and "Grammar of Graphics" (4:54)
+
+
+
+
+### Computer Resources
+
+
+```{r timer, echo=FALSE}
+part_1 <- 10
+part_2 <- 10
+part_3 <- 45
+snack_break <- 10
+part_4 <-30
+part_5 <-45
+part_6 <-10
+
+total_time <- 
+  part_1 + 
+  part_2 + 
+  part_3 + 
+  part_4 +
+  part_5 +
+  part_6 +
+  snack_break 
+
+time_remain <- 180 - total_time
+```
+
+## In-Class: Using Open Refine to clean data
+
+
+1. Intro slides
+
+2. Load CSV file of df
+
+
+summary(df)
+summary(df$x)
+mean$x
+median$x
+range$x
+
+
+by groups
+
+df %>% group_by(y) %>% 
+summary(mean(x))
+
+(text, factor, character)
+
+iris<-iris
+iris$Species<-as.character(iris$Species)
+iris$Species<-as.factor(iris$Species)
+summary(iris)
+summary(iris$Sepal.Length)
+mean(iris$Sepal.Length)
+median(iris$Sepal.Length)
+summary(iris$Species)
+mode(iris$Sepal.Length)
+range(iris$Sepal.Length)
+iris %>% summarize(mean(Sepal.Length))
+
+mean_sl<-iris %>% summarize(mean(Sepal.Length))
+
+mean_sl<-iris %>% summarize(mean_sl=mean(Sepal.Length))
+
+mean_lengths <- iris %>% 
+summarize(mean_sl=mean(Sepal.Length),
+mean_pl=mean(Petal.Length))
+
+mean_sl<-iris %>% 
+group_by(Species) %>% 
+summarize(mean_sl=mean(Sepal.Length))
+
+<!-- (incredibly valuable, because this is the start of a table) -->
+
+mean_sl<-iris %>% 
+group_by(Species) %>%
+summarize(mean_sl=mean(Sepal.Length),
+sd_sl=sd(Sepal.Length),
+range_sl=range(Sepal.Length)) 
+<!-- huh? it adds a row to each group with the min and max
+this isn't very tidy, is there a better way to do this?  -->
+
+mean_sl<-iris %>% 
+group_by(Species) %>% 
+summarize(mean_sl=mean(Sepal.Length),
+sd_sl=sd(Sepal.Length),
+min_sl=min(Sepal.Length),
+max_sl=max(Sepal.Length)
+) 
+
+hist(iris$Sepal.Length)
+hist(iris$Petal.Length)
+
+boxplot(iris$Sepal.Length)
+boxplot(iris$Petal.Length)
+
+
+
+BUT THERE IS AN ISSUE WITH JUST LOOKING AT SUMMARIES
+
+1) you can get the same box plot or bar chart with very different values
+set.seed=5
+eb_data<-rnorm(5000,50,10) %>% as_tibble() %>% 
+rename(n=value) %>% 
+arrange(n)
+
+hist(eb_data$n)
+
+eb_data1<-eb_data %>% sample_n(1000) 
+hist(eb_data1$n)
+
+
+eb_data2<-eb_data %>% slice(1:500)
+eb_data3<-eb_data %>% slice(4500:5000)
+eb_data2<-eb_data2 %>% bind_rows(eb_data3)
+eb_data1$species<-"1"
+eb_data2$species<-"2"
+
+eb_data4<-bind_rows(eb_data1,eb_data2)
+mean(eb_data1$n)
+mean(eb_data2$n)
+mean(eb_data4$n)
+
+hist(eb_data1$n)
+hist(eb_data2$n)
+hist(eb_data4$n)
+
+eb_data4 %>% 
+  ggplot(
+  aes(x=species, y=n, fill=species)) +
+    geom_boxplot() +
+    theme_bw()
+
+BUT
+
+eb_data4 %>%
+  ggplot( aes(x=species, y=n, fill=species)) +
+    geom_boxplot() +
+    geom_jitter(color="black", size=0.4, alpha=0.9) +
+    theme_bw()
+
+
+
+
+
+
+
+p <- ggplot(data, 
+aes(x=value)) + 
+geom_histogram()
+<!-- https://r-graph-gallery.com/220-basic-ggplot2-histogram.html -->
+plot <- ggplot(iris, 
+aes(x=Petal.Length)) + 
+geom_histogram()
+plot
+
+<!-- easy to customize -->
+plot <- ggplot(iris, 
+aes(x=Petal.Length)) + 
+geom_histogram()+
+theme_classic()
+plot
+
+<!-- start customizing -->
+plot <- ggplot(iris, 
+aes(x=Petal.Length)) + 
+geom_histogram( binwidth=0.5, fill="red", color="black") +
+theme_classic()
+plot
+
+
+<!-- by groups -->
+
+  ggplot(aes(x=value, fill=type)) +
+
+plot <- ggplot(iris, 
+aes(x=Petal.Length, fill=Species)) + 
+geom_histogram() +
+theme_classic()
+plot
+
+<!-- BOOM. DFinally see why that weird value set at end -->
+
+ 
+ 
+plot <- ggplot(iris, 
+aes(x=Petal.Length, fill=Species)) + 
+geom_histogram(color="black") +
+<!-- geom_histogram(color="black", alpha=0.6, position = 'identity') + -->
+theme_classic()
+plot
+ 
+ 
+<!-- NOW BOX PLOTS -->
+<!-- https://r-graph-gallery.com/boxplot.html -->
+
+iris %>% 
+  ggplot(
+  aes(x=Species, y=Sepal.Length, fill=Species)) +
+    geom_boxplot() +
+    theme_bw()
+    
+
+<!-- point CHART -->
+
+las_cars<-cars
+las_cars[nrow(las_cars) + 1,] = c(40,20)
+
+las_cars1 %>% 
+  ggplot(
+  aes(x=speed, y=dist)) +
+    geom_point() +
+    theme_bw()
+    
+cars
+
+ 
+### **Intro to OR** (`r part_1` min)
+
+### **Working with OR**  (`r part_2` min)  
+
+### **Filtering and Sorting** (`r part_3` min)
+     
+### Break (`r snack_break` min)
+
+### **Examining Numbers** (`r part_4` min)
+
+### **Using Scripts, Exporting, and Saving**  (`r part_5` min)  
+
+### **Wrap-up, Questions**  (`r part_6` min)  
+
+## **Assignment** (`r time_remain` min)
+
+
+6. **Submission:** Submit a pdf of your image as `week7_hw` on Canvas.  
+
+### Grading Rubric: 
+
+Data corrected and JSON file can be used on another data set: 50  
+Most data correction properly programmed; some require instructor follow-up: 40  
+Many of the corrections missing, JSON file unable to process new data : 30  
+Instructor follow-up required to implement most changes: 20  
+
+# Sources for this lesson 
+
+
+# Additional Tools and Resources
+
+## Tutorials
+
+
+## R Tools
+
+https://rich-iannone.github.io/pointblank/
+
+package validate
+
+https://www.yan-holtz.com/PDF/Dataviz_Caveats.pdf
+
+
+Weissgerber TL, Milic NM, Winham SJ, Garovic VD (2015) Beyond Bar and Line Graphs: Time for a New Data Presentation Paradigm. PLoS Biol 13(4): e1002128. https://doi.org/10.1371/journal.pbio.1002128
