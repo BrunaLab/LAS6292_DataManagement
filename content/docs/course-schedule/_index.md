@@ -116,9 +116,11 @@ Tuesday, Periods 3-5 (9:35 am - 12:35 pm) in 376 Grinter Hall
     <td>QA/QC 3: Visualizing Data to find Mistakes</td>
     <td>{{% staticref "/post/class-sessions/readings-week-07" "newtab" %}}<i class="fas fa-book-open"></i>{{% /staticref %}}</td> 
   <td>{{% staticref "/post/class-sessions/07_class" %}}<i class="fas fa-laptop-code"></i>{{% /staticref %}}</td>
-  <!--   <td>{{% staticref "uploads/wk7_metadata_notes.pdf" "newtab" %}}<i class="fas fa-pem"></i>  Notes{{% /staticref %}}</td>
+   <td>{{% staticref "uploads/wk_7_qaqc3_dataviz_slides.pdf" "newtab" %}}<i class="fas fa-image"></i>  Intro Slides{{% /staticref %}}
+   <br>{{% staticref "/uploads/wk_7_qaqc3_dataviz_notes.pdf" "newtab" %}}<i class="fas fa-pen"></i> Notes{{% /staticref %}}
+   <br>{{% staticref "uploads/wk7_live_coding.R" "newtab" %}}<i class="far fa-file-code"></i>  Demo R Code{{% /staticref %}}</td>
   </tr>
-  --->
+  
   <tr>
     <td>8</td>
     <td>2/28</td>
