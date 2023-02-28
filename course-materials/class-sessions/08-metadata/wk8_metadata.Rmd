@@ -77,10 +77,10 @@ opts_knit$set(width=75)
 
 ## Objectives and Competencies:   
 
-  *Be able to explain what metadata are and why they are important
-  *Identify & list the types of information typically included in metadata records
-  *Identify reasons metadata is of value to data users, creators, and organizations
-  *Be able to identify metadata standards relevant to different disciplines
+  * Be able to explain what metadata are and why they are important
+  * Identify & list the types of information typically included in metadata records
+  * Identify reasons metadata is of value to data users, creators, and organizations
+  * Be able to identify metadata standards relevant to different disciplines
   * Explain the elements of good metadata
 
 
@@ -142,15 +142,13 @@ Go to either Dryad or ICPSR and download 2-3 datasets. Now review the data and m
 
 ### Breakout & Return Results 
 
-**Breakout (`r breakout1` min): ** topic of breakout 
+**Breakout (`r breakout1` min): ** 
 
-Review the Metadata of Others. Did they include the 5 metadata descriptors?
+1. Review the Metadata of Others. Did they include the 5 metadata descriptors?
 
 **Returning results & Take-home message (`r breakout1_return` min)** 
 
-2. **Take-home message:** message.
-
-Metadata are hard to write but invaluable
+1. _Take-home message:_ Metadata are hard to write but invaluable
       
 ### anything before the break? (`r cleaning_demo` min)
 

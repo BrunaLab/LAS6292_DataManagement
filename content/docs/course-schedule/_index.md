@@ -126,10 +126,10 @@ Tuesday, Periods 3-5 (9:35 am - 12:35 pm) in 376 Grinter Hall
     <td>2/28</td>
     <td>Documentation: Metadata, Codebooks</td>
     <td>{{% staticref "/post/class-sessions/readings-week-08" "newtab" %}}<i class="fas fa-book-open"></i>{{% /staticref %}}</td> 
-<td>{{% staticref "/post/class-sessions/class-week-08" %}}<i class="fas fa-laptop-code"></i>{{% /staticref %}}</td>
-  <!--    <td>{{% staticref "uploads/wk8_dmp_notes.pdf" "newtab" %}}<i class="fas fa-pem"></i>  Notes{{% /staticref %}}</td>
+    <td>{{% staticref "/post/class-sessions/class-week-08" %}}<i class="fas fa-laptop-code"></i>{{% /staticref %}}</td>
+    <td>{{% staticref "uploads/wk8_metadara_notes.pdf" "newtab" %}}<i class="fas fa-pem"></i>  Notes{{% /staticref %}}</td>
   </tr>
-  --->
+  
   <tr>
     <td>9</td>
     <td>3/7</td>
