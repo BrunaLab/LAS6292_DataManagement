@@ -35,4 +35,4 @@ Grades in the course will be based on the following assignments:
 
 - **Overview:** The Data Management Plan (DMP) is a critical document describing the data to be collected for a research project, how it will be stored and managed, and the investigator with primary responsibility for its management. Many funding agencies, including NSF and NIH, now require a DMP with all grant applications. Each student will prepare a Data Management Plan (DMP) for their thesis research.  
 
-The complete assignment, deadline, and evaluation rubric can be found {{% staticref "course-materials/projects/las6292_dmp_project.pdf" "newtab" %}}here{{% /staticref %}}.
+The complete assignment, deadline, and evaluation rubric can be found {{% staticref "uploads/las6292_dmp_project.pdf" "newtab" %}}here{{% /staticref %}}.
