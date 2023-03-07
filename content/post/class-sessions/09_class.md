@@ -36,12 +36,12 @@ Today in class we will start drafting the DMP assigned as part of your semester 
 5. ...I have created txt versions of the questions for the NEH and NSF DMPs, as well as a Generic DMP. You can download these below and work on them off-line.
 
 
-    **a. NEH DMP:** {{% staticref "course-materials/class-sessions/08-DMP/neh_dmp_template.txt" "newtab" %}}[.txt format]{{% /staticref %}} or {{% staticref "course-materials/class-sessions/08-DMP/neh_dmp_template.Rmd" "newtab" %}}[.Rmd format]{{% /staticref %}}
+    **a. NEH DMP:** [.txt format](https://raw.githubusercontent.com/BrunaLab/LAS6292_DataManagement/master/course-materials/class-sessions/09-DMP/neh_dmp_template.txt) or [.Rmd format](https://github.com/BrunaLab/LAS6292_DataManagement/blob/561ead6bc2a8361e447753c6ab741d7456a5b38d/course-materials/class-sessions/09-DMP/neh_dmp_template.Rmd)
 
 
-    **b. NSF DMP:** {{% staticref "course-materials/class-sessions/08-DMP/nsf_dmp_template.txt" "newtab" %}}[.txt format]{{% /staticref %}} or {{% staticref "course-materials/class-sessions/08-DMP/nsf_dmp_template.Rmd" "newtab" %}}[.Rmd format]{{% /staticref %}}
+    **b. NSF DMP:** [.txt format](https://raw.githubusercontent.com/BrunaLab/LAS6292_DataManagement/master/course-materials/class-sessions/09-DMP/nsf_dmp_template.txt) or [.Rmd format](https://github.com/BrunaLab/LAS6292_DataManagement/blob/master/course-materials/class-sessions/09-DMP/nsf_dmp_template.Rmd)
 
-    **c. Generic DMP**: {{% staticref "course-materials/class-sessions/08-DMP/generic_dmp_template.txt" "newtab" %}}[.txt format]{{% /staticref %}} or {{% staticref "course-materials/class-sessions/08-DMP/generic_dmp_template.Rmd" "newtab" %}}[.Rmd format]{{% /staticref %}}
+    **c. Generic DMP**: [.txt format](https://raw.githubusercontent.com/BrunaLab/LAS6292_DataManagement/master/course-materials/class-sessions/09-DMP/generic_dmp_template.txt) or [.Rmd format](https://github.com/BrunaLab/LAS6292_DataManagement/blob/master/course-materials/class-sessions/09-DMP/generic_dmp_template.Rmd)
     
 # Sample DMPs
 
