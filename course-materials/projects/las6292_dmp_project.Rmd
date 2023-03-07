@@ -21,9 +21,12 @@ header-includes:
 - \titlespacing{\subsubsection}{0pt}{12pt plus 2pt minus 1pt}{0pt plus 1pt minus 1pt}
 - \titlespacing{\subsubsubsection}{0pt}{12pt plus 2pt minus 1pt}{0pt plus 1pt minus 1pt}
 output: pdf_document
-  # html_document:
-  #   df_print: paged
-  # rmdformats::robobook: default
+knit: (function(inputFile, encoding) {
+  rmarkdown::render(inputFile, 
+  encoding = encoding, 
+  output_dir = "./static/uploads")
+  })
+
 ---
 
 ```{r setup, include=FALSE,echo=FALSE,message = FALSE,warning=FALSE}
@@ -44,7 +47,9 @@ dmp <- 200
 ## Assignment overview  
 The Data Management Plan (DMP) is a critical document describing the data to be collected for a research project, how it will be stored and managed, and the investigator with primary responsibility for its management. Many funding agencies, including NSF and NIH, now require a DMP with all grant applications. _Your assignment is to prepare a Data Management Plan (DMP) for your thesis research_. I **_strongly_** recommend that you prepare your DMP using the template from the online [DMP Tool](https://dmptool.org/help) best suited to your research. 
 
-**Due Date & Point Value:** The assignment is due **1 April 2022** by 5 pm and is worth **`r dmp` points.**  Please submit the assignment via Canvas; you may submit either (a) a link granting access to your plan on the DMP Planner website _or_ (b) a link to the github archive where I can review the file _or_ (c) a copy of the file in either .pdf or .txt format. 
+**Due Date & Point Value:** The assignment is due **28 March 2023** by 5 pm and is worth **`r dmp` points.**  Please submit the assignment via Canvas; you may submit either (a) a link granting access to your plan on the DMP Planner website _or_ (b) a link to the github archive where I can review the file _or_ (c) a copy of the file in either .pdf or .txt format. 
+
+**DMP Peer review:** There is a peer review (worth 50 pts) of a colleague's draft DMP due March 21. 
 
 **Required Content & Grading Rubric: **Your submission will be evaluated using the point values, minimum standards, and rubric below. The individual components will be evaluated as "Meets required standards", "Moderate revisions required to meet the minimum standards", "Major revisions required to meet the minimum standards", or as "Incomplete / Unacceptable". In addition, I have noted a series of additional (optional) steps that can be taken to earn a designation of "Exceptional Work" on each section that can result in a bonus of up to 10%.  
 &nbsp;   

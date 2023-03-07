@@ -186,8 +186,8 @@ Points<- c(in_class_total,peer_dmp_review,dmp,peer_code_review,project,course_to
 
 Due<- c(
   "Friday 9 am",
-  "16 March",
   "21 March",
+  "28 March",
   "4 April",
   "1 May",
   ""
