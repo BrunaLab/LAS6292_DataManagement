@@ -1,0 +1,190 @@
+---
+title: "Bruna Lab Fieldwork Checklist"
+date: "updated: `r Sys.Date()`"
+header-includes:
+- \AtBeginDocument{\let\maketitle\relax} # this removes default title section
+- \usepackage[default]{sourcesanspro}
+- \usepackage{fancyhdr} # modify header into left, center, right
+- \pagestyle{fancy} # cues the use of fancy headers
+- \fancyfoot{} # cues the use of fancy footer
+# month & year on header left
+- \fancyhead[L]{Bruna Lab Fieldwork Checklist} 
+# name and page on header right
+- \fancyhead[R]{p. \thepage} 
+- \fancyfoot[R]{Last update `r format(Sys.time(), '%d %B %Y')`}
+# - \usepackage{setspace}{singlespace} # manipulate line spacing 
+- \usepackage{parskip} # manipulate indents and spacing before/after paragra phs 
+- \usepackage{xcolor} # changes colors of text
+# to center to top level (#) headings (my name) and change color of font
+# more info # https://www.ctan.org/pkg/sectsty
+- \usepackage{sectsty} \sectionfont{\centering\color{darkmidnightblue}}
+# to center to sub-sub-headings (###) and change color of font
+- \usepackage{sectsty} \subsectionfont{\color{darkmidnightblue}}
+# http://latexcolor.com/ to choose colors
+# define the colors used above with rgb codes
+- \definecolor{darkcerulean}{rgb}{0.03, 0.27, 0.49}
+- \definecolor{darkmidnightblue}{rgb}{0.0, 0.2, 0.4}
+
+mainfont: SourceSansPro
+geometry: margin=1in
+fontsize: 12pt
+linkcolor: blue
+urlcolor: blue
+output: pdf_document
+# html_document:
+# df_print: paged
+# rmdformats::robobook: default
+---
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+<!-- - [ ] Item -->
+<!-- - [x] Item -->
+
+# Travel 
+
+## Prior to Departure
+
+- [ ] Inform bank & credit cards of travel dates
+- [ ] Update emergency contact information 
+- [ ] Provide trip details and contact info to emergency contacts
+
+
+## Documents
+
+- [ ] driver's license / international drivers license
+- [ ] Immunization Records
+- [ ] copies of IACUC approval
+- [ ] copies of IRB approval
+- [ ] research and collection permits
+- [ ] passport valid for duration of trip
+- [ ] Prescriptions - Glasses
+- [ ] Prescriptions - Medications
+- [ ] printout of tickets & boarding passes
+- [ ] visa(s)
+- [ ] Emergency Contact List
+
+## Carry-on Items
+
+- [ ] day pack 
+- [ ] airplane pillow 
+- [ ] book
+- [ ] cash, debit / credit cards
+- [ ] change of socks, underwear, t-shirt
+- [ ] e-reader & charger
+- [ ] universal adapter plug
+- [ ] glasses / spare glasses
+- [ ] glasses case
+- [ ] gum 
+- [ ] headphones
+- [ ] KN95 masks
+- [ ] laptop
+- [ ] laptop case
+- [ ] laptop charger 
+- [ ] snacks
+- [ ] phone 
+- [ ] phone charger
+- [ ] powerbank / portable battery
+- [ ] Prescription medications (for the length of your stay)
+- [ ] toothbrush
+- [ ] toothpaste
+- [ ] translation app
+- [ ] wallet
+- [ ] watch 
+- [ ] water bottle
+- [ ] sleep mask
+
+## Toiletries
+
+- [ ] birth control / protection
+- [ ] contact lenses 
+- [ ] contact solution
+- [ ] deodorant 
+- [ ] dramamine
+- [ ] epipen
+- [ ] hair products 
+- [ ] Ibuprofen 
+- [ ] female hygiene products
+- [ ] shampoo / conditioner
+- [ ] skincare products
+- [ ] makeup
+- [ ] soap / body wash
+- [ ] sunscreen
+- [ ] hair ties
+
+
+## Clothing
+
+- [ ] bandannas
+- [ ] bathing suit
+- [ ] clothing for town, social events
+- [ ] pants
+- [ ] rain jacket or poncho
+- [ ] sandals / flip-flops
+- [ ] shirts - lightweight, long-sleeved for the field
+- [ ] shorts
+- [ ] socks
+- [ ] sunglasses
+- [ ] sweater/jacket
+- [ ] swim goggles 
+- [ ] swimsuit
+- [ ] t-shirts
+- [ ] tennis shoes
+- [ ] towel
+- [ ] underwear
+
+
+## Travel with kids
+
+- [ ] prepare required documents: passports, birth certificates, marriage certificates, immunization records, etc.
+
+
+# Fieldwork
+
+- [ ] backpack
+- [ ] batteries (AA, AAA)
+- [ ] binoculars
+- [ ] books
+- [ ] camera
+- [ ] camera charger or batteries
+- [ ] checklist (for field work)
+- [ ] checklist (for interviews)
+- [ ] clipboard
+- [ ] compass 
+- [ ] data sheets
+- [ ] field guides
+- [ ] field notebooks
+- [ ] first aid kit
+- [ ] forceps
+- [ ] games / playing cards
+- [ ] GPS 
+- [ ] hat (wide-brimmed or baseball cap)
+- [ ] headlamp / flashlight
+- [ ] heat pad / muscle cream
+- [ ] hiking boots
+- [ ] Insect repellent (Deet, Permethrin for pre-treating clothes)
+- [ ] IRB consent forms for interviews
+- [ ] latex gloves
+- [ ] laundry bags
+- [ ] Letter from host institutions
+- [ ] maps 
+- [ ] memory cards
+- [ ] mosquito net
+- [ ] pens / pencils
+- [ ] permits 
+- [ ] pocket knife
+- [ ] portable hard drive 
+- [ ] questionnaires 
+- [ ] rain cover for pack
+- [ ] recorder
+- [ ] safety whistle
+- [ ] snacks for field (granola, protein bars, sunflower seeds, almonds, etc)
+- [ ] tall rubber boots
+- [ ] treats for participants, kids
+- [ ] Ziploc bags
+
+
+
+

@@ -1,0 +1,146 @@
+---
+title: "LAS 6292: Efficient Data Collection"
+date: "updated: `r Sys.Date()`"
+header-includes:
+- \AtBeginDocument{\let\maketitle\relax} # this removes default title section
+- \usepackage[default]{sourcesanspro}
+- \usepackage{fancyhdr} # modify header into left, center, right
+- \pagestyle{fancy} # cues the use of fancy headers
+- \fancyfoot{} # cues the use of fancy footer
+# month & year on header left
+- \fancyhead[L]{LAS 6292 Spring `r format(Sys.time(), '%Y')`, EM Bruna} 
+# name and page on header right
+- \fancyhead[R]{Efficient Data Collection, p. \thepage} 
+- \fancyfoot[R]{Last update `r format(Sys.time(), '%d %B %Y')`}
+# - \usepackage{setspace}{singlespace} # manipulate line spacing 
+- \usepackage{parskip} # manipulate indents and spacing before/after paragra phs 
+- \usepackage{xcolor} # changes colors of text
+# to center to top level (#) headings (my name) and change color of font
+# more info # https://www.ctan.org/pkg/sectsty
+- \usepackage{sectsty} \sectionfont{\centering\color{darkmidnightblue}}
+# to center to sub-sub-headings (###) and change color of font
+- \usepackage{sectsty} \subsectionfont{\color{darkmidnightblue}}
+# http://latexcolor.com/ to choose colors
+# define the colors used above with rgb codes
+- \definecolor{darkcerulean}{rgb}{0.03, 0.27, 0.49}
+- \definecolor{darkmidnightblue}{rgb}{0.0, 0.2, 0.4}
+# - \usepackage{ragged2e}
+# - \setlength\RaggedRightParindent{15pt}
+# - \RaggedRight - # make the right margin ragged
+# https://tex.stackexchange.com/questions/258714/prevent-hyphenation-across-lines-enforce-right-margin
+# - \hyphenpenalty=10000 #to suppress ordinary hyphenation
+# - \exhyphenpenalty=10000 #to prohibit line breaks at explicit hyphens.
+# - \setstretch{1.0}
+
+# https://babichmorrowc.github.io/post/changing-fonts-in-rmarkdown-pdfs/
+
+mainfont: SourceSansPro
+geometry: margin=1in
+fontsize: 12pt
+linkcolor: blue
+urlcolor: blue
+output: pdf_document
+knit: (function(inputFile, encoding) {
+  rmarkdown::render(inputFile, 
+  encoding = encoding, 
+  output_dir = "./static/uploads")
+  })
+---
+
+
+
+```{r setup, include=FALSE}
+library(knitr)
+library(rmdformats)
+
+## Global options
+options(max.print="75")
+opts_chunk$set(echo=FALSE,
+	             cache=TRUE,
+               prompt=FALSE,
+               tidy=TRUE,
+               comment=NA,
+               message=FALSE,
+               warning=FALSE)
+opts_knit$set(width=75)
+```
+
+# Efficient Data Collection
+
+## Introduction
+
+1. **Goal: **Error reduction
+
+    * At the time of data collection 
+    * When transferring to electronic format
+
+2. **Process Audits** : A tool borrowed from industrial engineering - - can help identify where errors are likely to sneak in.
+
+3. **Most people, whether they know it or not, collect data on some kind of form**. Sometimes these forms are paper, sometimes electronic. Notes scribbled on a piece of paper or MS Word document? Both simple forms. To design better forms - forms that reduce the number of errors at both the collecitonand entry phases - we will use some ideas from manufacturing, shipping, and design industries, along with loads of research on forms themselves.
+
+    * **Lists**: We forget things we need, and we forget things we need to do. Lists prevent that.
+    * **Automation**: When collected repeated measurements on a single thing, or the same measurement on many things, attempt to invest in automation. 
+    * **Asset Management**: There is no need to have people (data collectors or study subjects) write down information you know in advance. Use things like labels & Bar/QR codes to simplify things as much as possible. 
+    * **UX/UI**: The arrangement of things on a page, and the cues used to guide input, can help reduce errors and increase form completion rates. We know this thanks to websites that depend on you filling out information to get your business; they have done lots of testing to come up with forms that ensure you don't leave the site without giving them the information they need. And so with that in mind.... 
+
+
+## **Lessons from UI/UX** 
+
+1. Reduce Cognitive Overload (aka keep it simple) 
+2. Write as little as possible
+
+    * Use labels & keep them short…
+    * …and pay attention to where you put the labels
+    * Use the appropriate input type and tag…
+    * …and format them in helpful ways
+    * Forms should be one column…
+    * …Except when multi-column makes sense 
+    * Group related fields
+    * AVOID ALL CAPS
+    * For online forms: Show all options if < 6 (unless space is limited)
+    * Number questions and responses
+    * Use Formatting to guide the data collectors
+    * Avoid 2x-sided forms
+    * Give each sheet a unique ID number
+    * Add collector info
+
+
+# Sources, Tools, & Resources
+
+## Forms
+
+1. Schiavo, F. [The bad design of everyday things #3 — Paper Forms.](https://design-nation.icons8.com/the-bad-design-of-everyday-things-3-paper-forms-bbb20ffc3c9)
+1. Maloney, S. [Best Practices for PaperBased Form Design](https://pyramidsolutions.com/wp-content/uploads/2017/09/Best-Practices-for-Paper-Based-Form-Design.pdf)
+1. [How to design survey forms for quick data entry](http://www.tools4dev.org/resources/how-to-design-surveys-and-forms-for-quick-data-entry/). This is a great post with suggestions on designing survey forms for work in an international / multi-language context.
+1. Best Practice for Form Design: [one](https://medium.com/nextux/form-design-best-practices-9525c321d759) and [two](https://www.ventureharbour.com/form-design-best-practices/). These suggestions come from a UX-perspective for online forms, so they might seem most appropriate for online surveys. But the suggestions are really good for paper survey forms as well.
+1. [make a template for data entry (form) with Excel](https://www.pryor.com/blog/ease-the-pain-of-data-entry-with-an-excel-forms-template/)
+1. ['Using Google Forms, Google Sheets & Excel to Collect and Analyze Data'](https://blogs.cofc.edu/tlttutorials/2017/09/15/using-google-forms-google-sheets-excel-to-collect-and-analyze-data/)
+1. [Interesting examples of poor UX practices](https://www.pinterest.es/nunile/ux-bad-practices/)
+1. ['Form Design: 13 Empirically Backed Best Practices'](https://cxl.com/blog/form-design-best-practices/)
+1. ['Best Practices For Mobile Form Design'](https://www.smashingmagazine.com/2018/08/best-practices-for-mobile-form-design/)
+1. Software: [TapForms](https://www.tapforms.com/)
+1. Software: [Jotform](https://www.jotform.com/)
+
+## Checklists
+
+1. Atul Gawande's [The Checklist Manifesto](http://atulgawande.com/book/the-checklist-manifesto/) 
+1. Paula Rizzo's LinkedIn Course [The Power of Lists](https://www.linkedin.com/learning-login/share?forceAccount=false&redirect=https%3A%2F%2Fwww.linkedin.com%2Flearning%2Fthe-power-of-lists-to-get-stuff-done%3Ftrk%3Dshare_ent_url%26shareId%3DH2pUj81TTkicWyBeXQHdxw%253D%253D&account=41282748)
+1. Clear for [iOS](https://apps.apple.com/us/app/clear-todos/id493136154) and for [Android](https://play.google.com/store/apps/details?id=com.cleartask.tasktodo.todo&hl=en_US&gl=US) 
+1. [ToDoist](https://todoist.com/) especially powerful; lists can be shared with team members and sync across devices
+1. [Evernote](https://evernote.com/) really more of a note-teaking app, but good for lists too
+1. Lifewire Review of [8 Best To-Do List Apps](https://www.lifewire.com/best-to-do-list-apps-2377984)
+  
+
+## Creating and Printing Labels
+
+1. [Avery Waterproof labels](https://www.avery.com/category/material/all/?category=waterproof-labels)
+  
+## QR Codes
+
+1. Leila Gharani: [Create QR Codes for FREE | Use Anywhere (Excel, Word & PowerPoint)](https://www.youtube.com/watch?v=GadmYWAVnjE)
+1. [How to Create a QR Code and Use It Effectively](https://www.youtube.com/watch?v=z22UChzno9Q)
+1. [Mass Generate QR Codes to Prefill Google Forms](https://www.youtube.com/watch?v=RS45HVZrnfg)
+1. ['Top 10 Barcode Scanner AppsFor iPhone and Android'](https://www.barcodesinc.com/cats/barcode-scanners/apps.htm)
+
+
+
