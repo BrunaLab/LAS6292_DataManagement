@@ -115,7 +115,7 @@ Tuesday, Periods 3-5 (9:35 am - 12:35 pm) in 376 Grinter Hall
     <td>QA/QC 3: Visualizing Data to find Mistakes</td>
     <td>{{% staticref "/post/class-sessions/readings-week-07" "newtab" %}}<i class="fas fa-book-open"></i>{{% /staticref %}}</td> 
   <td>{{% staticref "/post/class-sessions/07_class" %}}<i class="fas fa-laptop-code"></i>{{% /staticref %}}</td>
-   <td>{{% staticref "uploads/wk_7_qaqc3_dataviz_slides.pdf" "newtab" %}}<i class="fas fa-image"></i>  Intro Slides{{% /staticref %}}
+   <td>{{% staticref "uploads/wk7_qaqc3_dataviz_slides.pdf" "newtab" %}}<i class="fas fa-image"></i>  Intro Slides{{% /staticref %}}
   <!-- <br>{{% staticref "/uploads/wk_7_qaqc3_dataviz_notes.pdf" "newtab" %}}<i class="fas fa-pen"></i> Notes{{% /staticref %}}
    <br>{{% staticref "uploads/wk7_live_coding.R" "newtab" %}}<i class="far fa-file-code"></i>  Demo R Code{{% /staticref %}}--->
    </td>
@@ -154,7 +154,7 @@ Tuesday, Periods 3-5 (9:35 am - 12:35 pm) in 376 Grinter Hall
     <td>Efficient Data Collection</td>
     <td>{{% staticref "/post/class-sessions/readings-week-11" "newtab" %}}<i class="fas fa-book-open"></i>{{% /staticref %}}</td> 
    <td>{{% staticref "/post/class-sessions/class-week-11" %}}<i class="fas fa-laptop-code"></i>{{% /staticref %}}</td>
-   <td>{{% staticref "uploads/11_notes.pdf" "newtab" %}}<i class="fas fa-pem"></i>  Notes{{% /staticref %}}<br>
+   <td>{{% staticref "uploads/wk11_notes.pdf" "newtab" %}}<i class="fas fa-pem"></i>  Notes{{% /staticref %}}<br>
    {{% staticref "uploads/Wk11_efficient_data_collection.pdf" "newtab" %}}<i class="fas fa-image"></i>  Slides{{% /staticref %}}</br></td>
   </tr>
   
@@ -164,9 +164,9 @@ Tuesday, Periods 3-5 (9:35 am - 12:35 pm) in 376 Grinter Hall
     <td>Transcription & Translation</td>
     <td>{{% staticref "/post/class-sessions/readings-week-12" "newtab" %}}<i class="fas fa-book-open"></i>{{% /staticref %}}</td> 
   <td>{{% staticref "/post/class-sessions/12_class" %}}<i class="fas fa-laptop-code"></i>{{% /staticref %}}</td>
-  <!--    <td>{{% staticref "uploads/T_T_Resources.pdf" "newtab" %}}<i class="fas fa-pen"></i>  Notes{{% /staticref %}}</td>
+  <td>{{% staticref "uploads/wk12_transcription_translation_notes.pdf" "newtab" %}}<i class="fas fa-pen"></i>  Notes{{% /staticref %}}</td>
   </tr>
-  --->
+
   <tr>
     <td>13</td>
     <td>4/4</td>

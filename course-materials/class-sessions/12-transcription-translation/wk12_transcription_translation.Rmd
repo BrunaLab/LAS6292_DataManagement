@@ -1,0 +1,173 @@
+---
+title: "LAS 6292: TRANSCIRPTION & TRANSLATION"
+date: "updated: `r Sys.Date()`"
+header-includes:
+- \AtBeginDocument{\let\maketitle\relax} # this removes default title section
+- \usepackage[default]{sourcesanspro}
+- \usepackage{fancyhdr} # modify header into left, center, right
+- \pagestyle{fancy} # cues the use of fancy headers
+- \fancyfoot{} # cues the use of fancy footer
+# month & year on header left
+- \fancyhead[L]{LAS 6292 Spring `r format(Sys.time(), '%Y')`, EM Bruna} 
+# name and page on header right
+- \fancyhead[R]{Transcription and Translation, p. \thepage} 
+- \fancyfoot[R]{Last update `r format(Sys.time(), '%d %B %Y')`}
+# - \usepackage{setspace}{singlespace} # manipulate line spacing 
+- \usepackage{parskip} # manipulate indents and spacing before/after paragra phs 
+- \usepackage{xcolor} # changes colors of text
+# to center to top level (#) headings (my name) and change color of font
+# more info # https://www.ctan.org/pkg/sectsty
+- \usepackage{sectsty} \sectionfont{\centering\color{darkmidnightblue}}
+# to center to sub-sub-headings (###) and change color of font
+- \usepackage{sectsty} \subsectionfont{\color{darkmidnightblue}}
+# http://latexcolor.com/ to choose colors
+# define the colors used above with rgb codes
+- \definecolor{darkcerulean}{rgb}{0.03, 0.27, 0.49}
+- \definecolor{darkmidnightblue}{rgb}{0.0, 0.2, 0.4}
+# - \usepackage{ragged2e}
+# - \setlength\RaggedRightParindent{15pt}
+# - \RaggedRight - # make the right margin ragged
+# https://tex.stackexchange.com/questions/258714/prevent-hyphenation-across-lines-enforce-right-margin
+# - \hyphenpenalty=10000 #to suppress ordinary hyphenation
+# - \exhyphenpenalty=10000 #to prohibit line breaks at explicit hyphens.
+# - \setstretch{1.0}
+
+# https://babichmorrowc.github.io/post/changing-fonts-in-rmarkdown-pdfs/
+
+mainfont: SourceSansPro
+geometry: margin=1in
+fontsize: 12pt
+linkcolor: blue
+urlcolor: blue
+output:
+  pdf_document: default
+  # html_document:
+  #   df_print: paged
+  # rmdformats::robobook: default
+---
+
+
+
+```{r setup, include=FALSE}
+library(knitr)
+library(rmdformats)
+knitr::opts_chunk$set(echo = TRUE)
+## Global options
+options(max.print="75")
+opts_chunk$set(echo=FALSE,
+	             cache=TRUE,
+               prompt=FALSE,
+               tidy=TRUE,
+               comment=NA,
+               message=FALSE,
+               warning=FALSE)
+opts_knit$set(width=75)
+```
+
+<!-- **FOR NEXT SESSION OF CLASS: ** -->
+<!-- 1) Get a group Otter AI Acocunt for the class -->
+<!-- 2) Have people record a zoom conversation or group conversation and then compare the transcriptions with done with zoom vs. otter.ai -->
+
+
+## Pre-Class Preparation (Instructor):  
+
+**Send in an email to students:  **  
+
+  * Ask for volunteers to record text in new languages.
+
+**Bring to Class:  **  
+
+  * Snacks
+  * Flip charts and markers
+  * Dry write markers
+  * Tent cards for student names
+
+## Objectives and Competencies:   
+
+  * Understand the different approaches to translation and the research questions for which each is most appropriate
+  * Become familiar with software for automated translation via direct upload and api
+  * Learn to use the different types of automated and manual transcription tools
+  * Understand the strengths and weaknesses of automated translation 
+  * Be able to describe the metadata required for transcription files
+
+## Pre-class Preparation (Students):
+
+### **Readings**
+
+
+1.  Bakker, Rebecca. "Transcription Tools and Software" (2017). Works of the FIU Libraries. 62. [[read online]](https://digitalcommons.fiu.edu/glworks/62) [download pdf](https://github.com/BrunaLab/LAS6292_DataManagement/blob/master/course-materials/readings/Bakker_transcription_tools_slides.pdf)  
+
+2. McMullin, C. 2021, Transcription and Qualitative Methods: Implications for Third Sector Research. _Voluntas._ [link](https://doi.org/10.1007/s11266-021-00400-3)
+
+
+    _OPTIONAL (but very, very useful)_
+
+1. Daniel G. Oliver, Julianne M. Serovich, Tina L. Mason. 2005. Constraints and Opportunities with Interview Transcription: Towards Reflection in Qualitative Research, _Social Forces_ 84(2): 1273–1289 [link](https://doi.org/10.1353/sof.2006.0023)
+
+1. Bailey, J. 2008. First steps in qualitative data analysis: transcribing. _Family Practice_ 25(2):127–131 [link](https://doi.org/10.1093/fampra/cmn003)
+
+### **Online Lectures:**  
+
+1. Dr. Jarek Kriukow: [How to transcribe interviews - Part 1: "naturalism" and "denaturalism"](https://www.youtube.com/watch?v=NzVjlKR4HQQ) and [How to transcribe interviews - Part 2: Which approach to use?](https://www.youtube.com/watch?v=69T8aVf5Nj0)
+
+    _Note: we will discuss anonymization during the session on legal and ethical Issues_
+
+## Class Outline
+
+```{r timer, echo=FALSE}
+t1_overview <- 20
+breakout1 <- 15
+breakout1_return <-15
+breakout2 <- 15
+breakout2_return <-15
+t2_overview <- 30
+snack_break <- 10
+breakout2 <- 45
+
+total_time <- 
+  t1_overview + 
+  t2_overview + 
+  breakout1 + 
+  breakout1_return + 
+  breakout2 + 
+  breakout2_return + 
+  snack_break + 
+  breakout2 
+
+time_remain <- 180 - total_time
+```
+
+
+### **Overview: Transcription / Translation** (`r t1_overview` min)
+
+### **Breakout 1: Translation** (`r breakout1` min)
+
+### **Returning results 1** (`r breakout1_return` min)
+
+### Break (`r snack_break` min)
+
+### **Breakout 2: Transcription** (`r breakout2` min)
+
+### **Returning results 2** (`r breakout2_return` min)
+
+
+### Free Time
+
+There are `r time_remain` min remaining that can be used to -----
+
+
+
+<!-- *  [Video Interviews](http://brunalab.org/las6291/2018/01/19/video-production/)   -->
+
+<!-- *  snolen says otter is the best: https://otter.ai/login thay have free ed account from wiorecutter: "Otter offers 600 minutes of free transcription per month (as long as you record directly from the app or Zoom), which makes it an attractive option for anyone who wants to transcribe and sort lots of interviews on a nonexistent budget."   -->
+
+<!-- For other types of Recorded Audio:  -->
+<!-- Editing and analyzing audio files: https://www.ocenaudio.com/whatis  -->
+<!-- *  https://smallbusiness.chron.com/install-speech-office-excel-40728.html -->
+<!-- *  https://www.naturalreaders.com/ -->
+<!-- # Other Voice to Text -->
+
+<!-- * https://blog.hubspot.com/marketing/voice-to-text  -->
+
+<!-- Guide to capturing and processing [images for archiving](https://guides.uflib.ufl.edu/celebratingcuba/digitization#s-lg-box-wrapper-29381548)   -->
+
