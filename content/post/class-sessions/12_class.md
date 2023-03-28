@@ -88,8 +88,8 @@ Sign up for accounts with the following transcription services. You can cancel t
     
   * [Happy Scribe](https://www.happyscribe.com/)
     
-  * [Watson](https://speech-to-text-demo.ng.bluemix.net/); note the "detect multiple speakers" option. 
-    
+    * To explore: [Google Text-to-Speech](https://cloud.google.com/speech-to-text) and [Watson](https://cloud.ibm.com/catalog/services/speech-to-text); note the "detect multiple speakers" option. 
+  
 ### STEP 2: Transcribe 
 
 1. Download the following audio files. Click the blue 'view raw' text to save it to your computer.
