@@ -47,9 +47,9 @@ header-includes:
 
 # https://babichmorrowc.github.io/post/changing-fonts-in-rmarkdown-pdfs/
 weight: 22
----
 <!-- Note: to rendr as pdf delete the \newline -->
 <!-- # **LAS 6292 WEEK 2 ASSIGNMENT: Data Storage and Backup**  -->
+---
 # Transcription & Translation
 
 ## Objectives and Competencies:   
