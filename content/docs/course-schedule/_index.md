@@ -173,16 +173,16 @@ Tuesday, Periods 3-5 (9:35 am - 12:35 pm) in 376 Grinter Hall
     <td>‘Paperless’ Data Collection</td>
     <td>{{% staticref "/post/class-sessions/readings-week-13" "newtab" %}}<i class="fas fa-book-open"></i>{{% /staticref %}}</td> 
    <td>{{% staticref "/post/class-sessions/class-week-13" %}}<i class="fas fa-laptop-code"></i>{{% /staticref %}}</td>
-   <!--  <td>{{% staticref "uploads/wk12_notes.pdf" "newtab" %}}<i class="fas fa-pen"></i>  Notes{{% /staticref %}}</td>
+   <td>{{% staticref "uploads/wk13_paperless_notes.pdf" "newtab" %}}<i class="fas fa-pen"></i>  Notes{{% /staticref %}}</td>
   </tr>
-  --->
+  
   <tr>
     <td>14</td>
     <td>4/11</td>
     <td>Automated Data Extraction</td>
     <td>{{% staticref "/post/class-sessions/readings-week-14" "newtab" %}}<i class="fas fa-book-open"></i>{{% /staticref %}}</td> 
   <td><i class="fas fa-laptop-code"></i></td>
-  <!--    <td>{{% staticref "uploads/wk_13_notes.pdf" "newtab" %}}<i class="fas fa-pen"></i>  Notes{{% /staticref %}}</td>
+  <!--    <td>{{% staticref "uploads/wk14_automated_notes.pdf" "newtab" %}}<i class="fas fa-pen"></i>  Notes{{% /staticref %}}</td>
   </tr>
   --->
   <tr>
