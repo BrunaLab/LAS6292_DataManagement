@@ -181,10 +181,9 @@ Tuesday, Periods 3-5 (9:35 am - 12:35 pm) in 376 Grinter Hall
     <td>4/11</td>
     <td>Automated Data Extraction</td>
     <td>{{% staticref "/post/class-sessions/readings-week-14" "newtab" %}}<i class="fas fa-book-open"></i>{{% /staticref %}}</td> 
-  <td><i class="fas fa-laptop-code"></i></td>
-  <!--    <td>{{% staticref "uploads/wk14_automated_notes.pdf" "newtab" %}}<i class="fas fa-pen"></i>  Notes{{% /staticref %}}</td>
+  <td>{{% staticref "/post/class-sessions/class-week-14" %}}<i class="fas fa-laptop-code"></i>{{% /staticref %}}</td>
+  <td>{{% staticref "uploads/wk14_automated_notes.pdf" "newtab" %}}<i class="fas fa-pen"></i>  Notes{{% /staticref %}}</td>
   </tr>
-  --->
   <tr>
     <td>15</td>
     <td>4/18</td>
