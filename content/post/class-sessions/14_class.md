@@ -19,17 +19,20 @@ projects: []
 weight: 24
 ---
 
-# Part 1: Automated Data Extraction
+# Part 1: Automated Data Extraction - Live Coding
 
-1. Text Analysis, including downloading from Project Gutenberg, Sentiment Analysis, and Visualizations: [link to code](https://gist.github.com/embruna/20a42d68d3c56047fbffc585feb64fd1)
-1. You can use `rvest` to scrape tables from websites into R: 
+1. **Text Analysis**, including downloading from Project Gutenberg, Sentiment Analysis, and Visualizations: [link to code](https://gist.github.com/embruna/20a42d68d3c56047fbffc585feb64fd1)
+1. **Scrape tables from websites into R** with `rvest`: 
     * Importing a wikipedia table to R: [tutorial](https://kyleake.medium.com/wikipedia-data-scraping-with-r-rvest-in-action-3c419db9af2d).  
     * Scraping a table from a generic webpage: [code](https://gist.github.com/embruna/0614e25e6113f7d491f6ba826af87e04)
     * You can also go old-school and import direct into google sheets. You can use this tutorial, or just give it a try: import the table on the Wikipedia page of [List of Countries by Population Size](https://en.wikipedia.org/wiki/List_of_countries_by_population_(United_Nations) by clicking on cell A1, then entering this in the function bar: `=ImportHtml("https://en.wikipedia.org/wiki/List_of_countries_by_population_(United_Nations)", "table", 1)`. the URL is the page for the entry, and `,1` at the end indicates what table you want. 
 
 ![Efficiency Calculator, via [xkcd](https://xkcd.com/1205/)](https://imgs.xkcd.com/comics/is_it_worth_the_time.png)
 
-# Part 2: Learning R Markdown
+# Part 2: Optical Character Recognition (OCR)
+
+
+# Part 3: Learning R Markdown
 
 What is R Markdown? Short version: it's a way to convert your R Markdown file (with text and code) into any one of several output formats including: HTML, PDF, MS Word, slides for presentations (Beamer, HTML5 slides), books, dashboards, scientific articles, and websites. You can find the [complete overview here](https://rmarkdown.rstudio.com/). A gallery of the different things you can do with R Markdown [can be found here](https://rmarkdown.rstudio.com/gallery.html).
 

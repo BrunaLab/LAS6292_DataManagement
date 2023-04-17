@@ -118,9 +118,9 @@ log %>%
 
 ### PART 2: Research misconduct related to data
 
-1. Take 15 minutes to read this article: Martinson, B., Anderson, M. & de Vries, R. 2005. Scientists behaving badly. Nature 435:737–738. [link](https://doi.org/10.1038/435737a). ~~We'll come back and discuss it as a group after the break.~~ Go to the class Canvas page and tell the class what you thought of the paper. In particular: 
+1. Take 15 minutes to read this article: Martinson, B., Anderson, M. & de Vries, R. 2005. Scientists behaving badly. Nature 435:737–738. [link](https://doi.org/10.1038/435737a). Then then go to the class Canvas page and tell the class what you thought of the paper. In particular: 
 
   * Did the % of scientists engaging in the different behaviors surprise you, and 
   * Are all the behaviors equally 'bad'? Are there cases (or disciplinary norms) in which they might be acceptable?
 
-We will discuss your responses for a few minutes at the start of Friday's class.
+We will discuss your responses for a few minutes at the start of Next week's class.
