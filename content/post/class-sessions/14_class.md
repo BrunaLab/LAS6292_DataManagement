@@ -27,7 +27,7 @@ weight: 24
     * Scraping a table from a generic webpage: [code](https://gist.github.com/embruna/0614e25e6113f7d491f6ba826af87e04)
     * You can also go old-school and import direct into google sheets. You can use this tutorial, or just give it a try: import the table on the Wikipedia page of [List of Countries by Population Size](https://en.wikipedia.org/wiki/List_of_countries_by_population_(United_Nations) by clicking on cell A1, then entering this in the function bar: `=ImportHtml("https://en.wikipedia.org/wiki/List_of_countries_by_population_(United_Nations)", "table", 1)`. the URL is the page for the entry, and `,1` at the end indicates what table you want. 
 
-![Efficiency Calculator, via [(https://xkcd.com/1205/)](https://imgs.xkcd.com/comics/is_it_worth_the_time.png)
+![Efficiency Calculator, via [xkcd](https://xkcd.com/1205/)](https://imgs.xkcd.com/comics/is_it_worth_the_time.png)
 
 # Part 2: Learning R Markdown
 
