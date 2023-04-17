@@ -39,11 +39,12 @@ geometry: margin=1in
 fontsize: 12pt
 linkcolor: blue
 urlcolor: blue
-output:
-  pdf_document: default
-  # html_document:
-  #   df_print: paged
-  # rmdformats::robobook: default
+output: pdf_document
+knit: (function(inputFile, encoding) {
+  rmarkdown::render(inputFile,
+  encoding = encoding,
+  output_dir = "./static/uploads")
+  })
 ---
 
 
@@ -95,7 +96,8 @@ opts_knit$set(width=75)
 
 ## Intro: Privacy
 
-1. NIH: [what is HIPPA?](https://www.cdc.gov/phlp/publications/topic/hipaa.html#:~:text=The%20Health%20Insurance%20Portability%20and,the%20patient's%20consent%20or%20knowledge.)
+1. NIH: [what is HIPPA?](https://tinyurl.com/mw97nt4b)
+<!-- https://www.cdc.gov/phlp/publications/topic/hipaa.html#:~:text=The%20Health%20Insurance%20Portability%20and,the%20patient's%20consent%20or%20knowledge -->
 1. What is the EU General Data Protection Regulation (GDPR)? [(link 1)](https://www.ukri.org/wp-content/uploads/2020/10/UKRI-020920-GDPR-FAQs.pdf), [(link 2)](https://www.wired.co.uk/article/what-is-gdpr-uk-eu-legislation-compliance-summary-fines-2018), [(link 3 - UF)](https://privacy.ufl.edu/european-union-general-data-protection-regulation-eu-gdpr/)
 1. What is [FERPA?](https://registrar.ufl.edu/ferpa/) 
 

@@ -95,9 +95,9 @@ opts_knit$set(width=75)
 
 3. Goodluck, K. 2020. Indigenous data sovereignty shakes up research. High Country News.  [read online](https://www.hcn.org/issues/52.11/indigenous-affairs-covid19-indigenous-data-sovereignty-shakes-up-research) 
 
-4. Woodbury, R. B., Beans, J. A., Hiratsuka, V. Y., & Burke, W. (2019). Data Management in Health-Related Research Involving Indigenous Communities in the United States and Canada: A Scoping Review. Frontiers in genetics, 10, 942. [read online](https://www.hcn.org/issues/52.11/indigenous-affairs-covid19-indigenous-data-sovereignty-shakes-up-research)]  [download pdf](https://github.com/BrunaLab/LAS6292_DataManagement/blob/master/Assigned_Readings/Goodluck_2020.pdf)
+4. Woodbury, R. B., J. A. Beans, V. Y. Hiratsuka, & W. Burke. 2019. Data Management in Health-Related Research Involving Indigenous Communities in the United States and Canada: A Scoping Review. Frontiers in genetics, 10, 942. [read online](https://www.hcn.org/issues/52.11/indigenous-affairs-covid19-indigenous-data-sovereignty-shakes-up-research)]  [download pdf](https://github.com/BrunaLab/LAS6292_DataManagement/blob/master/Assigned_Readings/Goodluck_2020.pdf)
 
-https://www.science.org/doi/10.1126/science.abn5400
+5. Michelle Rourke et al. 2022. Sovereignty, sanctions, and data sharing under international law. _Science_ 375: 724-726.[DOI:10.1126/science.abn5400](https://www.science.org/doi/10.1126/science.abn5400)
 
 ### **Online Lectures:**  
 

@@ -39,11 +39,7 @@ geometry: margin=1in
 fontsize: 12pt
 linkcolor: blue
 urlcolor: blue
-output:
-  # pdf_document: default
-  html_document: defauilt
-  #   df_print: paged
-  # rmdformats::robobook: default
+output: pdf_document
 ---
 
 
@@ -128,5 +124,5 @@ log %>%
 
 ### PART 2: Research misconduct related to data
 
-1. Take 15 minutes to read this article: Martinson, B., Anderson, M. & de Vries, R. 2005. Scientists behaving badly. Nature 435:737–738. [link](https://doi.org/10.1038/435737a). We'll come back and discuss it as a group aftyer the break.
+1. Take 15 minutes to read this article: Martinson, B., Anderson, M. & de Vries, R. 2005. Scientists behaving badly. Nature 435:737–738. [link](https://doi.org/10.1038/435737a). We'll come back and discuss it as a group after the break.
 
