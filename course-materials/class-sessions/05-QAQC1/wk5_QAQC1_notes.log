@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2023.1.26)  30 JAN 2023 16:56
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2023.1.26)  6 FEB 2023 13:25
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**"/Users/emiliobruna/Dropbox (UFL)/Teaching/LAS 6292 - Data Collection & Management/LAS6292_DataManagement/static/uploads/wk4_reproducibility_notes.tex"
-(/Users/emiliobruna/Dropbox (UFL)/Teaching/LAS 6292 - Data Collection & Management/LAS6292_DataManagement/static/uploads/wk4_reproducibility_notes.tex
+**"/Users/emiliobruna/Dropbox (UFL)/Teaching/LAS 6292 - Data Collection & Management/LAS6292_DataManagement/static/uploads/wk5_QAQC1_notes.tex"
+(/Users/emiliobruna/Dropbox (UFL)/Teaching/LAS 6292 - Data Collection & Management/LAS6292_DataManagement/static/uploads/wk5_QAQC1_notes.tex
 LaTeX2e <2022-11-01> patch level 1
 L3 programming layer <2023-01-24> (/Users/emiliobruna/Library/TinyTeX/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2022/07/02 v1.4n Standard LaTeX document class
@@ -521,8 +521,8 @@ LaTeX Font Info:    Font shape `T1/SourceSansPro-TLF/regular/n' will be
 File: l3backend-pdftex.def 2023-01-16 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count290
 \l__pdf_internal_box=\box54
-) (./wk4_reproducibility_notes.aux)
-\openout1 = `wk4_reproducibility_notes.aux'.
+) (./wk5_QAQC1_notes.aux)
+\openout1 = `wk5_QAQC1_notes.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 90.
 LaTeX Font Info:    ... okay on input line 90.
@@ -617,35 +617,65 @@ LaTeX Font Info:    Font shape `T1/SourceSansPro-TLF/b/n' aliased to
 LaTeX Font Info:    Font shape `T1/SourceSansPro-TLF/bold/n' will be
 (Font)              scaled to size 17.28pt on input line 95.
 LaTeX Font Info:    Font shape `T1/SourceSansPro-TLF/m/n' aliased to
-(Font)              `T1/SourceSansPro-TLF/regular/n' on input line 99.
+(Font)              `T1/SourceSansPro-TLF/regular/n' on input line 98.
 LaTeX Font Info:    Font shape `T1/SourceSansPro-TLF/regular/n' will be
-(Font)              scaled to size 14.4pt on input line 99.
+(Font)              scaled to size 14.4pt on input line 98.
 LaTeX Font Info:    Font shape `T1/SourceSansPro-TLF/b/n' aliased to
-(Font)              `T1/SourceSansPro-TLF/bold/n' on input line 99.
+(Font)              `T1/SourceSansPro-TLF/bold/n' on input line 98.
 LaTeX Font Info:    Font shape `T1/SourceSansPro-TLF/bold/n' will be
-(Font)              scaled to size 14.4pt on input line 99.
-LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 106.
-(/Users/emiliobruna/Library/TinyTeX/texmf-dist/tex/latex/lm/t1lmtt.fd
-File: t1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
-)
+(Font)              scaled to size 14.4pt on input line 98.
 LaTeX Font Info:    Font shape `T1/SourceSansPro-TLF/b/n' aliased to
-(Font)              `T1/SourceSansPro-TLF/bold/n' on input line 127.
+(Font)              `T1/SourceSansPro-TLF/bold/n' on input line 102.
 LaTeX Font Info:    Font shape `T1/SourceSansPro-TLF/bold/n' will be
-(Font)              scaled to size 12.0pt on input line 127.
-LaTeX Font Info:    Font shape `T1/lmtt/bx/n' in size <12> not available
-(Font)              Font shape `T1/lmtt/b/n' tried instead on input line 127.
-LaTeX Font Info:    Font shape `T1/SourceSansPro-TLF/m/it' aliased to
-(Font)              `T1/SourceSansPro-TLF/regular/it' on input line 144.
-LaTeX Font Info:    Font shape `T1/SourceSansPro-TLF/regular/it' will be
-(Font)              scaled to size 12.0pt on input line 144.
-LaTeX Font Info:    Trying to load font information for TS1+SourceSansPro-TLF on input line 149.
+(Font)              scaled to size 12.0pt on input line 102.
+LaTeX Font Info:    Trying to load font information for TS1+SourceSansPro-TLF on input line 124.
 (/Users/emiliobruna/Library/TinyTeX/texmf-dist/tex/latex/sourcesanspro/TS1SourceSansPro-TLF.fd
 File: TS1SourceSansPro-TLF.fd 2020/01/19 (autoinst) Font definitions for TS1/SourceSansPro-TLF.
 )
 LaTeX Font Info:    Font shape `TS1/SourceSansPro-TLF/m/n' aliased to
-(Font)              `TS1/SourceSansPro-TLF/regular/n' on input line 149.
+(Font)              `TS1/SourceSansPro-TLF/regular/n' on input line 124.
 LaTeX Font Info:    Font shape `TS1/SourceSansPro-TLF/regular/n' will be
-(Font)              scaled to size 12.0pt on input line 149.
+(Font)              scaled to size 12.0pt on input line 124.
+LaTeX Font Info:    Font shape `T1/SourceSansPro-TLF/m/it' aliased to
+(Font)              `T1/SourceSansPro-TLF/regular/it' on input line 131.
+LaTeX Font Info:    Font shape `T1/SourceSansPro-TLF/regular/it' will be
+(Font)              scaled to size 12.0pt on input line 131.
+LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 225.
+(/Users/emiliobruna/Library/TinyTeX/texmf-dist/tex/latex/lm/ot1lmr.fd
+File: ot1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+) (/Users/emiliobruna/Library/TinyTeX/texmf-dist/tex/latex/microtype/mt-cmr.cfg
+File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman (RS)
+)
+LaTeX Font Info:    Trying to load font information for OML+lmm on input line 225.
+(/Users/emiliobruna/Library/TinyTeX/texmf-dist/tex/latex/lm/omllmm.fd
+File: omllmm.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
+LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 225.
+(/Users/emiliobruna/Library/TinyTeX/texmf-dist/tex/latex/lm/omslmsy.fd
+File: omslmsy.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
+LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 225.
+(/Users/emiliobruna/Library/TinyTeX/texmf-dist/tex/latex/lm/omxlmex.fd
+File: omxlmex.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <12> on input line 225.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <8> on input line 225.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <6> on input line 225.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 225.
+(/Users/emiliobruna/Library/TinyTeX/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+) (/Users/emiliobruna/Library/TinyTeX/texmf-dist/tex/latex/microtype/mt-msa.cfg
+File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 225.
+(/Users/emiliobruna/Library/TinyTeX/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+) (/Users/emiliobruna/Library/TinyTeX/texmf-dist/tex/latex/microtype/mt-msb.cfg
+File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
+)
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -663,40 +693,20 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[2]
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
-[3]
-LaTeX Font Info:    Font shape `T1/SourceSansPro-TLF/b/it' aliased to
-(Font)              `T1/SourceSansPro-TLF/bold/it' on input line 467.
-LaTeX Font Info:    Font shape `T1/SourceSansPro-TLF/bold/it' will be
-(Font)              scaled to size 12.0pt on input line 467.
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
-[4] (./wk4_reproducibility_notes.aux) ) 
+[2] (./wk5_QAQC1_notes.aux) ) 
 Here is how much of TeX's memory you used:
- 14402 strings out of 478025
- 237497 string characters out of 5839073
- 1867305 words of memory out of 5000000
- 34144 multiletter control sequences out of 15000+600000
- 600533 words of font info for 112 fonts, out of 8000000 for 9000
+ 14529 strings out of 478025
+ 241380 string characters out of 5839073
+ 1868305 words of memory out of 5000000
+ 34284 multiletter control sequences out of 15000+600000
+ 603291 words of font info for 125 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 77i,11n,81p,1144b,585s stack positions out of 10000i,1000n,20000p,200000b,200000s
-{/Users/emiliobruna/Library/TinyTeX/texmf-dist/fonts/enc/dvips/sourcesanspro/a_emkxm5.enc}{/Users/emiliobruna/Library/TinyTeX/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}{/Users/emiliobruna/Library/TinyTeX/texmf-dist/fonts/enc/dvips/sourcesanspro/a_5ponh6.enc}</Users/emiliobruna/Library/TinyTeX/texmf-dist/fonts/type1/adobe/sourcesanspro/SourceSansPro-Bold.pfb></Users/emiliobruna/Library/TinyTeX/texmf-dist/fonts/type1/adobe/sourcesanspro/SourceSansPro-BoldIt.pfb></Users/emiliobruna/Library/TinyTeX/texmf-dist/fonts/type1/adobe/sourcesanspro/SourceSansPro-It.pfb></Users/emiliobruna/Library/TinyTeX/texmf-dist/fonts/type1/adobe/sourcesanspro/SourceSansPro-Regular.pfb></Users/emiliobruna/Library/TinyTeX/texmf-dist/fonts/type1/public/lm/lmtk10.pfb></Users/emiliobruna/Library/TinyTeX/texmf-dist/fonts/type1/public/lm/lmtt12.pfb></Users/emiliobruna/Library/TinyTeX/texmf-dist/fonts/type1/public/lm/lmtti10.pfb>
-Output written on wk4_reproducibility_notes.pdf (4 pages, 295627 bytes).
+ 77i,11n,81p,1134b,536s stack positions out of 10000i,1000n,20000p,200000b,200000s
+{/Users/emiliobruna/Library/TinyTeX/texmf-dist/fonts/enc/dvips/sourcesanspro/a_emkxm5.enc}{/Users/emiliobruna/Library/TinyTeX/texmf-dist/fonts/enc/dvips/sourcesanspro/a_5ponh6.enc}</Users/emiliobruna/Library/TinyTeX/texmf-dist/fonts/type1/adobe/sourcesanspro/SourceSansPro-Bold.pfb></Users/emiliobruna/Library/TinyTeX/texmf-dist/fonts/type1/adobe/sourcesanspro/SourceSansPro-It.pfb></Users/emiliobruna/Library/TinyTeX/texmf-dist/fonts/type1/adobe/sourcesanspro/SourceSansPro-Regular.pfb>
+Output written on wk5_QAQC1_notes.pdf (2 pages, 179539 bytes).
 PDF statistics:
- 259 PDF objects out of 1000 (max. 8388607)
- 235 compressed objects within 3 object streams
- 99 named destinations out of 1000 (max. 500000)
- 32913 words of extra memory for PDF output out of 35830 (max. 10000000)
+ 148 PDF objects out of 1000 (max. 8388607)
+ 135 compressed objects within 2 object streams
+ 43 named destinations out of 1000 (max. 500000)
+ 34905 words of extra memory for PDF output out of 35830 (max. 10000000)
 
