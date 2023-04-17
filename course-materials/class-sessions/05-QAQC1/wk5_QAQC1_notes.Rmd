@@ -1,0 +1,151 @@
+---
+title: "LAS 6292: QA/QC 1 - Data Entry"
+date: "updated: `r Sys.Date()`"
+header-includes:
+- \AtBeginDocument{\let\maketitle\relax} # this removes default title section
+- \usepackage[default]{sourcesanspro}
+- \usepackage{fancyhdr} # modify header into left, center, right
+- \pagestyle{fancy} # cues the use of fancy headers
+- \fancyfoot{} # cues the use of fancy footer
+# month & year on header left
+- \fancyhead[L]{LAS 6292 Spring `r format(Sys.time(), '%Y')`, EM Bruna} 
+# name and page on header right
+- \fancyhead[R]{QA/QC - Data Entry, p. \thepage} 
+- \fancyfoot[R]{Last update `r format(Sys.time(), '%d %B %Y')`}
+# - \usepackage{setspace}{singlespace} # manipulate line spacing 
+- \usepackage{parskip} # manipulate indents and spacing before/after paragra phs 
+- \usepackage{xcolor} # changes colors of text
+# to center to top level (#) headings (my name) and change color of font
+# more info # https://www.ctan.org/pkg/sectsty
+- \usepackage{sectsty} \sectionfont{\centering\color{darkmidnightblue}}
+# to center to sub-sub-headings (###) and change color of font
+- \usepackage{sectsty} \subsectionfont{\color{darkmidnightblue}}
+# http://latexcolor.com/ to choose colors
+# define the colors used above with rgb codes
+- \definecolor{darkcerulean}{rgb}{0.03, 0.27, 0.49}
+- \definecolor{darkmidnightblue}{rgb}{0.0, 0.2, 0.4}
+# - \usepackage{ragged2e}
+# - \setlength\RaggedRightParindent{15pt}
+# - \RaggedRight - # make the right margin ragged
+# https://tex.stackexchange.com/questions/258714/prevent-hyphenation-across-lines-enforce-right-margin
+# - \hyphenpenalty=10000 #to suppress ordinary hyphenation
+# - \exhyphenpenalty=10000 #to prohibit line breaks at explicit hyphens.
+# - \setstretch{1.0}
+
+# https://babichmorrowc.github.io/post/changing-fonts-in-rmarkdown-pdfs/
+
+mainfont: SourceSansPro
+geometry: margin=1in
+fontsize: 12pt
+linkcolor: blue
+urlcolor: blue
+output: pdf_document
+knit: (function(inputFile, encoding) {
+  rmarkdown::render(inputFile,
+  encoding = encoding,
+  output_dir = "./static/uploads")
+  })
+---
+
+```{r setup, include=FALSE}
+library(knitr)
+library(rmdformats)
+
+## Global options
+options(max.print="75")
+opts_chunk$set(echo=FALSE,
+	             cache=TRUE,
+               prompt=FALSE,
+               tidy=TRUE,
+               comment=NA,
+               message=FALSE,
+               warning=FALSE)
+opts_knit$set(width=75)
+```
+
+# QA/QC: Reducing Error Entry/Finding and Correcting Errors 
+
+
+## Tools
+
+### Reduce Data Entry Errors with 'Data Validation' Rules 
+
+1. Data Validation in Excel [[link](https://support.microsoft.com/en-us/office/apply-data-validation-to-cells-29fecbcc-d1b9-42c1-9d76-eff3ce5f7249)]   
+
+
+### Confirm data values after entry with 'Text-to-Speech' 
+
+1. MS Excel (& other MS programs)
+
+    * Converting text to speech in Excel for Microsoft 365, Excel 2010-2021 [[link]](https://support.microsoft.com/en-us/office/converting-text-to-speech-in-excel-3f2ca8c0-90e2-4391-8e69-573832ea7300). 
+    * Microsoft for Mac: Hear selected text read aloud from Excel, Word, Power Point, and Outlook [[link](https://support.microsoft.com/en-gb/office/hear-selected-text-read-aloud-ce9fb073-2a4d-44d2-95f7-6a532f0ab112)].  See also _'System Preferences->Accessibility'_
+    * Video Tutorials
+        1. [Tutorial Video 1](https://youtu.be/5ZOsMe0aPt8). This will allow you to select rows or columns of Excel and have them read back to you. 
+        2. [Tutorial Video 2](https://youtu.be/q6LOhQThvB8): it's not as thorough, but it is a bit easier to see the menu
+        3. [Tutorial Video 3](https://youtu.be/DSltR90mkgc). Because why not a third one?
+
+2. Text-to-Speech in Google Docs
+
+    * If you prefer working in Google Docs you can do the same thing. [This article](https://www.businessinsider.com/how-to-make-google-docs-read-to-you) will show you how. You can also watch [this tutorial video](https://youtu.be/3UmI5wo5kHg).
+
+
+### Better still: 'speak-on-enter' to confirm data values as entered
+
+1. speak-on-enter [[tutorial:]](https://www.makeuseof.com/how-to-get-microsoft-excel-speak-aloud/)
+
+### Speech-to-Text for keyboardless data entry 
+
+1. Google Sheets: [Typing with your voice](https://support.google.com/docs/answer/4492226?hl=en)
+
+1. MS Word: [How to dictate documents](https://support.microsoft.com/en-us/office/dictate-your-documents-in-word-3876e05f-3fcc-418f-b8ab-db7ce0d11d3c)
+
+
+### Overview of MS Accessibility Tools
+
+1. 'Narrator' function [link](https://support.microsoft.com/en-us/windows/hear-text-read-aloud-with-narrator-040f16c1-4632-b64e-110a-da4a0ac56917)
+
+
+## Readings
+
+1. Campbell, J. L. _et al._ 2013. Quantity is nothing without quality: automated QA/QC for streaming environmental sensor data. BioScience, 63(7): 574-585. [link](https://www.nrs.fs.usda.gov/pubs/jrnl/2013/nrs_2013_campbell-j_002.pdf)
+
+For more advanced users of R/Github 
+
+1. Kim, A. Y. _et al._ 2022. Implementing GitHub Actions continuous integration to reduce error rates in ecological data collection. Methods in Ecology and Evolution, 13, 2572– 2585. https://doi.org/10.1111/2041-210X.13982
+
+
+## R Packages for Data QA/QC
+
+1. [janitor](https://sfirke.github.io/janitor/index.html): simple functions for examining and cleaning dirty data. It was built with beginning and intermediate R users in mind and is optimized for user-friendliness. Advanced R users can already do everything covered here, but with janitor they can do it faster. (see this [mini-tutorial](https://universeofdatascience.com/how-to-clean-data-in-r/))
+
+    * clean column names
+    * remove empty rows and columns
+    * remove duplicated rows
+
+1. [cleanr](https://cran.r-project.org/web/packages/cleaner/readme/README.html). small R package for cleaning and checking data columns in a fast and easy way. 
+
+1. [unheadr](https://unheadr.liomys.mx/): used to wrangle spreadhseets with embedded subheaders or values wrapped accross several rows (highlighting, merged cells, etc).
+
+
+### **For more advanced R users:** 
+
+1. The R package [pointblank](https://github.com/rich-iannone/pointblank) has some very advanced data validation tools for tidy datasets.
+
+1. [validate](https://cran.r-project.org/web/packages/validate/vignettes/cookbook.html): designed to test data against a reusable set of data validation rules, investigate, summarize, and visualize data validation results, among other things
+
+1. [Data Curator](https://github.com/qcif/data-curator) is a simple desktop data editor to help describe, validate and share usable open data.
+
+# Sources
+
+DataONE Education Module: Data Quality Control and Assurance. DataONE. Retrieved Nov12, 2012. From http://www.dataone.org/sites/all/documents/L05_DataQualityControlAssurance.pptx 
+
+Barchard, K. A., & Pace, L. A. (2011). Preventing human error: The impact of data entry methods on data accuracy and statistical results. Computers in Human Behavior, 27(5), 1834-1839. [link](https://www.sciencedirect.com/science/article/pii/S0747563211000707?via%3Dihub)
+
+Atkinson, I. (2012). Accuracy of data transfer: double data entry and estimating levels of error. Journal of Clinical Nursing, 21(19pt20), 2730-2735.[link](https://onlinelibrary.wiley.com/doi/full/10.1111/j.1365-2702.2012.04353.x)
+
+Goldberg, S. I., Niemierko, A., & Turchin, A. (2008). Analysis of data errors in clinical research databases. AMIA Annual Symposium proceedings. AMIA Symposium, 2008, 242–246. [link](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2656002/)
+
+
+
+
+

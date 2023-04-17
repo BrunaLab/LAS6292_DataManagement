@@ -130,7 +130,7 @@ opts_knit$set(width=75)
 
 1.  Online (free demo) version of [Watson](https://speech-to-text-demo.ng.bluemix.net/); note the "detect multiple speakers" option.
 
-1. [Zoom via UF](https://video.ufl.edu/conferencing/zoom/captions-and-live-transcription/); see also this [Link](https://education.ufl.edu/educational-research/14320).
+1. [Zoom via UF](https://video.ufl.edu/conferencing/zoom/captions-and-live-transcription/); see also this [Link](https://education.ufl.edu/educational-research/14320) and this announcement about the addition of [new languages for UF users](https://news.it.ufl.edu/infrastructure/available-in-zoom-translated-captions-and-live-transcriptions/)
 
   **_Second-Tier_**  
 

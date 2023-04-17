@@ -43,11 +43,11 @@ header-includes:
 
 # https://babichmorrowc.github.io/post/changing-fonts-in-rmarkdown-pdfs/
 output: pdf_document
-knit: (function(inputFile, encoding) {
-  rmarkdown::render(inputFile,
-  encoding = encoding,
-  output_dir = "./static/uploads")
-  })
+# knit: (function(inputFile, encoding) {
+#   rmarkdown::render(inputFile,
+#   encoding = encoding,
+#   output_dir = "./static/uploads")
+#   })
 ---
 
 ```{r setup, include=FALSE}
