@@ -63,7 +63,7 @@ Use these websites to:
     
     * Try with your [iPhone](https://support.apple.com/en-us/HT212630) or [Android phone](https://www.usatoday.com/story/tech/tips/2022/05/08/iphone-android-use-smartphone-as-scanner/9674231002/).  
 
-4. Upload the OCR scans to Canvas
+4. Upload the OCR scans to Canvas. 
 
 # Part 3: Extracting data from published figures
 
