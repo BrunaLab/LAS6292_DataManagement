@@ -58,6 +58,8 @@ Use these websites to:
     * Try using google's OCR to import into google Docs ([tutorial](https://www.klippa.com/en/blog/information/google-docs-ocr/)). Note also [Google's AI OCR](https://cloud.google.com/use-cases/ocr).
     * Try with your [iPhone](https://support.apple.com/en-us/HT212630) or [Android phone](https://www.usatoday.com/story/tech/tips/2022/05/08/iphone-android-use-smartphone-as-scanner/9674231002/).
 
+4. Upload the OCR scans to Canvas
+
 # Part 3: Extracting data from published figures
 
 
