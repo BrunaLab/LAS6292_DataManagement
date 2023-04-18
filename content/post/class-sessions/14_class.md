@@ -50,9 +50,9 @@ Use these websites to:
   **and**  
 
   2. Importing the data from these images and pdf's into an excel sheet 
-    * [handwriting_pdf.pdf](https://github.com/BrunaLab/LAS6292_DataManagement/blob/master/course-materials/class-sessions/14-automated-data-extraction/ocr_files_for_class/ocr_to_text/handwriting_pdf.pdf)   
-    * [text_photo_3.jpeg](https://github.com/BrunaLab/LAS6292_DataManagement/blob/master/course-materials/class-sessions/14-automated-data-extraction/ocr_files_for_class/ocr_to_text/text_photo_3.jpeg)   
-    * [typed_text_1.jpeg](https://github.com/BrunaLab/LAS6292_DataManagement/blob/master/course-materials/class-sessions/14-automated-data-extraction/ocr_files_for_class/ocr_to_text/typed_text_1.jpeg)   
+    * [handwriting_pdf.pdf](https://github.com/BrunaLab/LAS6292_DataManagement/blob/master/course-materials/class-sessions/14-automated-data-extraction/ocr_files_for_class/ocr_to_text/handwriting_pdf.pdf)  
+    * [text_photo_3.jpeg](https://github.com/BrunaLab/LAS6292_DataManagement/blob/master/course-materials/class-sessions/14-automated-data-extraction/ocr_files_for_class/ocr_to_text/text_photo_3.jpeg)  
+    * [typed_text_1.jpeg](https://github.com/BrunaLab/LAS6292_DataManagement/blob/master/course-materials/class-sessions/14-automated-data-extraction/ocr_files_for_class/ocr_to_text/typed_text_1.jpeg)     
   
   3. ***Bonus (if time permits)*** 
     * Try using google's OCR to import into google Docs ([tutorial](https://www.klippa.com/en/blog/information/google-docs-ocr/)). Note also [Google's AI OCR](https://cloud.google.com/use-cases/ocr).
