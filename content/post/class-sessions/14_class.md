@@ -41,8 +41,19 @@ The following are three OCR sites.
 
 Use these websites to:
 
-  1. Extract text from these pdfs and images, and 
-  1. Importing the data from these images and pdf's into an excel sheet
+  1. Extract text from these pdfs and images
+      * [Page_06.tif](https://github.com/BrunaLab/LAS6292_DataManagement/blob/ac43e8fbefc8ecc8d8ee75ab0212a894532a7062/course-materials/class-sessions/14-automated-data-extraction/ocr_files_for_class/ocr_to_csv/Page_06.tif)
+      * [pdf_of_excel.pdf](https://github.com/BrunaLab/LAS6292_DataManagement/blob/master/course-materials/class-sessions/14-automated-data-extraction/ocr_files_for_class/ocr_to_csv/pdf_of_excel.pdf)
+      * [pic_of_invoice_jpg.jpeg](https://github.com/BrunaLab/LAS6292_DataManagement/blob/master/course-materials/class-sessions/14-automated-data-extraction/ocr_files_for_class/ocr_to_csv/pic_of_invoice_jpg.jpeg)
+      * [pic_of_table_jpg.jpeg](https://github.com/BrunaLab/LAS6292_DataManagement/blob/master/course-materials/class-sessions/14-automated-data-extraction/ocr_files_for_class/ocr_to_csv/pic_of_table_jpg.jpeg)
+
+and  
+
+  2. Importing the data from these images and pdf's into an excel sheet
+  * [handwriting_pdf.pdf](https://github.com/BrunaLab/LAS6292_DataManagement/blob/master/course-materials/class-sessions/14-automated-data-extraction/ocr_files_for_class/ocr_to_text/handwriting_pdf.pdf)
+  * [text_photo_3.jpeg](https://github.com/BrunaLab/LAS6292_DataManagement/blob/master/course-materials/class-sessions/14-automated-data-extraction/ocr_files_for_class/ocr_to_text/text_photo_3.jpeg)
+  * [typed_text_1.jpeg](https://github.com/BrunaLab/LAS6292_DataManagement/blob/master/course-materials/class-sessions/14-automated-data-extraction/ocr_files_for_class/ocr_to_text/typed_text_1.jpeg)
+  
   1. ***Bonus 1:*** If time permits, try using google's OCR to import into google Docs ([tutorial](https://www.klippa.com/en/blog/information/google-docs-ocr/)). Note also [Google's AI OCR](https://cloud.google.com/use-cases/ocr).
   1. ***Bonus 2:*** try ot with your [iPhone](https://support.apple.com/en-us/HT212630) or [Android phone](https://www.usatoday.com/story/tech/tips/2022/05/08/iphone-android-use-smartphone-as-scanner/9674231002/).
 
