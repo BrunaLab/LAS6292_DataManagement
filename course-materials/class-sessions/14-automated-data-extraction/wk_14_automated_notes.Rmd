@@ -98,6 +98,7 @@ opts_knit$set(width=75)
     * Detailed [Blog Post / Tutorial](https://datascienceplus.com/extracting-tables-from-pdfs-in-r-using-the-tabulizer-package/)
     * [Convert PDF to text in R OCR pdftools](https://www.youtube.com/watch?v=DhY3V4LCdps)
     * [PDFtools in R](https://www.youtube.com/watch?v=6ItyOgS2noc )
+    * [Amazon TextExtract](https://aws.amazon.com/pm/textract)
     
 
 4. Extracting Tables from images using R package `magick`.
