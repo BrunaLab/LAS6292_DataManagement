@@ -43,6 +43,9 @@ Use these websites to:
 
   1. Extract text from these pdfs and images
       * [ha_data.pdf](https://github.com/BrunaLab/LAS6292_DataManagement/blob/master/course-materials/class-sessions/14-automated-data-extraction/ocr_files_for_class/ocr_to_csv/ha_data.pdf)
+      
+      * [ha_pdf_of_excel.pdf](https://github.com/BrunaLab/LAS6292_DataManagement/blob/master/course-materials/class-sessions/14-automated-data-extraction/ocr_files_for_class/ocr_to_csv/ha_pdf_of_excel.pdf)
+      
       * [pdf_of_excel.pdf](https://github.com/BrunaLab/LAS6292_DataManagement/blob/master/course-materials/class-sessions/14-automated-data-extraction/ocr_files_for_class/ocr_to_csv/pdf_of_excel.pdf)
       * [pic_of_invoice_jpg.jpeg](https://github.com/BrunaLab/LAS6292_DataManagement/blob/master/course-materials/class-sessions/14-automated-data-extraction/ocr_files_for_class/ocr_to_csv/pic_of_invoice_jpg.jpeg)
       * [pic_of_table_jpg.jpeg](https://github.com/BrunaLab/LAS6292_DataManagement/blob/master/course-materials/class-sessions/14-automated-data-extraction/ocr_files_for_class/ocr_to_csv/pic_of_table_jpg.jpeg)
