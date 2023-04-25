@@ -197,7 +197,7 @@ Tuesday, Periods 3-5 (9:35 am - 12:35 pm) in 376 Grinter Hall
     <td>4/25</td>
     <td>Data Sharing, Reuse, & Archives</td>
     <td>{{% staticref "/post/class-sessions/readings-week-16" "newtab" %}}<i class="fas fa-book-open"></i>{{% /staticref %}} </td> 
-   <td>{{% staticref "/post/class-sessions/16_class" %}}<i class="fas fa-laptop-code"></i>{{% /staticref %}}</td>
+   <!-- <td>{{% staticref "/post/class-sessions/16_class" %}}<i class="fas fa-laptop-code"></i>{{% /staticref %}}</td>--->
    <!-- <td>{{% staticref "uploads/dataviz_slides.pdf" "newtab" %}}<i class="fas fa-image"></i>  Slides{{% /staticref %}}</td>
   </tr>
   --->
