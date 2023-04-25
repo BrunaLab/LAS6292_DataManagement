@@ -16,6 +16,9 @@ main:
   - name: Assignments
     url: docs/assignments
     weight: 30
+  - name: Manuals
+    url: docs/manuals
+    weight: 40
   - name: Resources
     url: docs/resources
-    weight: 40
+    weight: 50
