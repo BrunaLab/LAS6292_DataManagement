@@ -15,7 +15,7 @@ weight: 2
 
 {{% callout note %}}
 
-The complete and updated course syllabus with all dates, assignments, and course policies can be downloaded {{% staticref "uploads/LAS6292_Syllabus.pdf" "newtab" %}}here{{% /staticref %}}.
+The complete & updated course syllabus with all dates, assignments, and course policies can be downloaded {{% staticref "uploads/syllabus_LAS6292.pdf" "newtab" %}}here{{% /staticref %}}.
 
 {{% /callout %}}
 
