@@ -73,64 +73,16 @@ library(viridis)
 knitr::include_graphics("./icons/banner.png")
 ```
 
+# INSTRUCTOR INFORMATION
 
-<!-- --- -->
-```{r course_info, echo=FALSE,message = FALSE,warning=FALSE}
+\vspace{0.2cm}
 
-title<-c("LAS 6292: Data Collection & Management")
-year<-c("Spring Semester 2024")
+\textbf{\color{darkmidnightblue}Instructor:} Dr. Emilio M. Bruna  
+\textbf{\color{darkmidnightblue}Contact Information:} embruna@ufl.edu, (352) 846-0634  
+\textbf{\color{darkmidnightblue}Office:} TEC Lab, 711 Newell Dr.  
+\textbf{\color{darkmidnightblue}Class Time and Location:} Fridays 12:50-3:50 in Grinter Hall   376
 
-class_time<-c("Fridays 12:50-3:50","Grinter Hall 376")
-class_loc<-c("Grinter Hall 376","---")
-
-prof_name<-c("Dr. Emilio M. Bruna")
-prof_email<-c("embruna@ufl.edu")
-prof_phone<-c("(352) 846-0634")
-prof_office<-c("Office: TEC Lab, 711 Newell Dr.")
-
-prof<-c("\\color{darkmidnightblue}Instructor",prof_name, prof_email, prof_phone)
-class_time<-c("\\color{darkmidnightblue}Class Sessions",class_time,"")
-
-prof<-as_tibble(prof)
-time<-as_tibble(class_time)
-
-course_info<-bind_cols(prof,time) %>% rename("Instructor" ="value...1",
-                                                      "Class Sessions" ="value...2")
-```
-
-\vspace{0.5cm}  
-
-```{r instructors, echo=FALSE,message = FALSE,warning=FALSE,fig.pos='H'}
-# course_info %>% select(-Location) %>% 
-course_info %>%
-  kbl(booktabs = T,
-      bottomrule = F,
-      # toprule = F,
-      # midrule = F,
-      escape= F,
-      format="latex",
-      align="cc",
-      col.names = NULL) %>%
-  kable_paper(full_width = F,
-              position = "left") %>%
-  kable_styling(latex_options = "HOLD_position") %>%
-  row_spec(1,bold=T,color = "darkmidnightblue") %>%
-  column_spec(1,width = "10em", background="white", latex_valign = "m",color = "black") %>%
-  column_spec(2, width = "10em",latex_valign = "m", background = "white", color="black") %>%
-  # column_spec(3, width = "11em",latex_valign = "m", background = "white", color="black") %>%
-  # column_spec(4, width = "6em",latex_valign = "m", background = "white", color="black") %>%
-  sub("\\\\toprule", "", .) %>% # Removes top line
-  sub("\\\\bottomrule", "", .) # remove bottom line
-``` 
-
-<!-- \vspace{-0.5cm}   -->
-\vspace{-0.3cm}
-
----   
-
-\vspace{-0.5cm}
-
-# COURSE OVERVIEW
+# COURSE OVERVIEW 
 
 \vspace{0.2cm}
 
@@ -154,12 +106,13 @@ This course is a practical introduction to methods, tools, and best practices fo
 <!-- \vspace{-0.3cm} -->
 
 
-```{r materials, echo=FALSE, include=TRUE,fig.cap="Required Course Materials", out.width = '3%' , fig.align="left"}
-# knitr::include_graphics("./icons/pencil.png")
-knitr::include_graphics("./icons/hummingbird.png")
-```
+<!-- ```{r materials, echo=FALSE, include=TRUE,fig.cap="Required Course Materials", out.width = '3%' , fig.align="left"} -->
+<!-- # knitr::include_graphics("./icons/pencil.png") -->
+<!-- knitr::include_graphics("./icons/hummingbird.png") -->
+<!-- ``` -->
 
-\vspace{-0.3cm}
+## Required Course Materials
+\vspace{0.2cm}
 
 **Students are not required to purchase any textbooks or course materials.** All class materials & assignments are on the class website (https://las6292.netlify.app/). Some assigned readings may come from the *New York Times* and have dynamic multimedia data visualizations and video that can't be appreciated in the posted .pdf format. *Students in this class should sign up for free online access to the New York Times* by following the instructions at [this UF Libraries Website](https://businesslibrary.uflib.ufl.edu/c.php?g=943928&p=7708734).
 
@@ -167,12 +120,13 @@ knitr::include_graphics("./icons/hummingbird.png")
 
 <!-- \newpage -->
 
-```{r office_hours, echo=FALSE, include=TRUE,fig.cap="Instructor Office Hours", out.width = '3%', fig.pos='h', fig.align="left" }
-# knitr::include_graphics("./icons/magnifying-glass-chart.png")
-knitr::include_graphics("./icons/beetle.png")
-```
+<!-- ```{r office_hours, echo=FALSE, include=TRUE,fig.cap="Instructor Office Hours", out.width = '3%', fig.pos='h', fig.align="left" } -->
+<!-- # knitr::include_graphics("./icons/magnifying-glass-chart.png") -->
+<!-- knitr::include_graphics("./icons/beetle.png") -->
+<!-- ``` -->
+## Instructor Office Hours   
 
-\vspace{-0.5cm}
+\vspace{0.2cm}
 
 **Time and Signup:** Wednesday & Thursday 10:30-11:45 am (in-person & online). Drop by anytime or sign up for a specific time here: [https://embruna.youcanbook.me](https://embruna.youcanbook.me).If you can't make it these days/times please let us know - we will find a time to meet that works for you.
 
@@ -183,7 +137,13 @@ knitr::include_graphics("./icons/beetle.png")
 --- 
 
 # COURSE CALENDAR, ASSIGNMENTS, & GRADES
-&nbsp;  
+
+\vspace{0.2cm}
+
+## Class Calendar
+
+\vspace{0.2cm}
+
 ```{r outline, echo=FALSE}
 Week <- c(seq(1, 15, by = 1), "Finals Week")
 
@@ -240,15 +200,22 @@ kable(outline,
 
 \vspace{0.3cm}
 
-```{r assignments, echo=FALSE, include=TRUE,fig.cap="Final Course Grades", out.width = '3%', fig.pos='h', fig.align="left" }
-# knitr::include_graphics("./icons/magnifying-glass-chart.png")
-knitr::include_graphics("./icons/vine.png")
-```
+<!-- ```{r assignments, echo=FALSE, include=TRUE,fig.cap="Final Course Grades", out.width = '3%', fig.pos='h', fig.align="left" } -->
+<!-- # knitr::include_graphics("./icons/magnifying-glass-chart.png") -->
+<!-- knitr::include_graphics("./icons/vine.png") -->
+<!-- ``` -->
 
 \vspace{-0.3cm}
+## Final Course Grades  
 
-**The final course grade is based on the assignments below.**. Most of the in-class assignments involve hands-on practice with data collection or manipulation. In some weeks, however, assignment will be the submission of questions for group discussion or brief reflection on the issues from the readings. Note also that most in-class assignments are designed to be completed during the class session, but to ensure students master the concepts rather than rush through them *they can be submitted anytime before 9 am the day of the following class session.*Late assignments will lose 10 pts. Finally, **_there is no Final Exam in this course_, and the Individual Project is due on the scheduled date of the final exam._** 
+\vspace{0.2cm}
+
+**The final course grade is based on the assignments below.**. Most of the in-class assignments involve hands-on practice with data collection or manipulation. In some weeks, however, assignment will be the submission of questions for group discussion or brief reflection on the issues from the readings. Note also that most in-class assignments are designed to be completed during the class session, but to ensure students master the concepts rather than rush through them *they can be submitted anytime before 9 am the day of the following class session.*Late assignments will lose 10 pts. Finally, **there is no Final Exam in this course, and the Individual Project is due on the scheduled date of the final exam.** 
  
+## Assignments
+
+\vspace{0.2cm}
+
 
 ```{r points, echo=FALSE}
 in_class <- 25
@@ -323,12 +290,14 @@ kable(assignments,
 
 **_Regrades:_** Requests for re-evaluation of assignments must be accompanied by an explanation for why you think you deserve additional credit and the number of additional points you think you deserve. The deadline for submission is one week after the work was returned.
 
-```{r grades, echo=FALSE, include=TRUE,fig.cap="Final Course Grades", out.width = '3%', fig.pos='h', fig.align="left" }
-# knitr::include_graphics("./icons/magnifying-glass-chart.png")
-knitr::include_graphics("./icons/gorilla.png")
-```
+<!-- ```{r grades, echo=FALSE, include=TRUE,fig.cap="Final Course Grades", out.width = '3%', fig.pos='h', fig.align="left" } -->
+<!-- # knitr::include_graphics("./icons/magnifying-glass-chart.png") -->
+<!-- knitr::include_graphics("./icons/gorilla.png") -->
+<!-- ``` -->
 
-\vspace{-0.3cm}
+## Final Course Grades
+
+\vspace{0.2cm}
 
 Course grades will be based on the percentage of total points earned and will be assigned with the following scale:  **A:** >93%   **A-:** 92-90%   **B+:** 89-87%    **B:** 86-83%   **B-:** 82-80%  **C+:** 79-77%    **C:** 76-73%   **C-:** 72-70%.  **D+:** 69-67%    **D-:** 62-60%    **E:** 59% and below.  
 
@@ -340,7 +309,25 @@ Course grades will be based on the percentage of total points earned and will be
 
 --- 
 
-```{r ridges_image, echo=FALSE, include=TRUE, out.width = '90%', fig.align="center" }
-knitr::include_graphics("./icons/ridges.png")
-```
+
+\vspace{0.3cm}
+
+<!-- ```{r attendance, echo=FALSE, include=TRUE,fig.cap="Attendance and Participation", out.width = '3%', fig.pos='h', fig.align="left" } -->
+<!-- # knitr::include_graphics("./icons/magnifying-glass-chart.png") -->
+<!-- knitr::include_graphics("./icons/palm.png") -->
+<!-- ``` -->
+
+## ATTENDANCE AND PARTICIPATION
+
+\vspace{0.2cm}
+
+**Attendance:** Although attendance is not required, many of the sessions we will be completing activities in class that count towards your grade. Most of these can be completed independently, but by doing them in class you will benefit from working collaboratively with the other students.
+
+**Participation:** Consistent informed, thoughtful, and considerate class participation is encouraged. If you have personal issues that prohibit you from joining freely in class discussion (e.g., shyness, language barriers, medical condition): no problem. let us know and we will discuss alternative modes of participation.
+
+**Important note regarding class discussions and group work:** We will explore some challenging, important problems and increase our understandings of different perspectives and approaches for addressing them. These conversations may not always be easy; we sometimes will make mistakes in both how we communicate our perspective and what we hear other say. There may be times when we need patience, courage, imagination, and of course mutual respect to engage our texts, classmates, instructors, guests, and our own ideas and experiences. Disrespectful or disruptive behavior will not be tolerated. And always remember that as scholars we must employ critical thinking, rely on data, and cite verifiable sources and experts to interrogate all assigned readings and subject matter in this course as a means of determining if we agree with classmates and instructors. No lesson is intended to espouse, promote, advance, inculcate, or compel a particular feeling, perception, viewpoint or belief.
+
+<!-- ```{r ridges_image, echo=FALSE, include=TRUE, out.width = '90%', fig.align="center" } -->
+<!-- knitr::include_graphics("./icons/ridges.png") -->
+<!-- ``` -->
 

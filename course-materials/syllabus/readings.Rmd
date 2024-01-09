@@ -304,7 +304,7 @@ library(viridis)
 
 >**Watch**
 
->1. NIH:[Statistical methods for protecting data confidentiality](https://youtu.be/3vN-6A2zbsk)
+>1. NIH: [Statistical methods for protecting data confidentiality](https://youtu.be/3vN-6A2zbsk)
 >2. Patricia Jenkinson Video Seminar: [Ethics in Human Subject Research](https://youtu.be/e0uydNe4cQo)
 >3. US Department of Health & Human Services: [Informed Consent Overview](https://youtu.be/Y7uI3sM9wtc)
 >4. Australian Council for International Development (ACFID): [Principles and Guidelines for Ethical Research and Evaluation in Development](https://youtu.be/ylkKCgEIMws)
