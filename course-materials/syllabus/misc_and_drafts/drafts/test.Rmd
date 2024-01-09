@@ -1,0 +1,171 @@
+---
+title: 'Syllabus'
+author: "Emilio M. Bruna"
+date: "`r format(Sys.time(), '%Y')`"
+web: www.BrunaLab.org
+github: embruna
+twitter: https://twitter.com/BrunaLab
+phone: (352) 514-3935
+email: embruna@ufl.edu
+geometry: margin=0.25in
+# fontsize: 12pt
+linkcolor: blue
+urlcolor: blue
+# site: bookdown::bookdown_site
+header-includes:
+- \usepackage{fancyhdr}
+- \pagestyle{fancy}
+- \fancyfoot{}
+- \fancyhead[R]{Syllabus, p. \thepage}
+- \fancyhead[L]{IDS 2935 - Rain Forests (`r format(Sys.time(), '%Y')`)}
+- \usepackage[default]{sourcesanspro}
+- \usepackage{parskip}
+- \usepackage{caption}
+- \usepackage{xcolor}
+- \definecolor{green}{RGB}{0,102,0}
+- \AtBeginDocument{\let\maketitle\relax}
+- \usepackage[none]{hyphenat}
+- \usepackage[document]{ragged2e}
+# - \usepackage{sectsty} \allsectionsfont{\raggedright}
+- \usepackage{sectsty} \sectionfont{\centering}
+- \usepackage{titlesec}
+- \titlespacing{\section}{0pt}{12pt plus 2pt minus 1pt}{0pt plus 1pt minus 1pt}
+- \titlespacing{\subsection}{0pt}{12pt plus 2pt minus 1pt}{0pt plus 1pt minus 1pt}
+- \titlespacing{\subsubsection}{0pt}{12pt plus 2pt minus 1pt}{0pt plus 1pt minus 1pt}
+output: pdf_document
+  # word_document: default
+# output: html_document
+# weight: 5
+    # df_print: paged
+---
+
+```{r setup_syllabus, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(tidyverse)
+library(kableExtra)
+library(tidyverse)
+```
+
+```{r, echo=FALSE, out.width="15%"}
+knitr::include_graphics("logo.png")
+```
+
+<!-- \begin{minipage}[t]{0.05\textwidth} -->
+<!-- COL 1 \\ -->
+<!-- \end{minipage} -->
+<!-- \begin{minipage}[t]{0.95\textwidth} -->
+<!-- COURSE AND UNIVERSITY POLICIES\\ -->
+<!-- \end{minipage} -->
+
+```{r policies, echo=FALSE,message = FALSE,warning=FALSE}
+p1<- c("Students Requiring Accommodation")
+t1<-c("Students with disabilities or learning barriers that would like to request academic accommodations should connect with the Disability Resource Center by visiting \\url{https://disability.ufl.edu/students/get-started/}. Please share your letter with me and discuss access needs as early as possible in the semester so that I can do whatever is necessary to ensure your participation and learning.")
+
+p2<- c("UF Evaluations Process")
+t2<-c("Students are expected to provide professional and respectful feedback on the quality of instruction in this course by completing course evaluations online via GatorEvals. Guidance on how to give feedback in a professional and respectful manner is available at \\url{https://gatorevals.aa.ufl.edu/students/}. Students will be notified when the evaluation period opens, and can complete evaluations through the email they receive from GatorEvals, in their Canvas course menu under GatorEvals, or via \\url{https://ufl.bluera.com/ufl}. Summaries of course evaluation results are available to students at \\url{https://gatorevals.aa.ufl.edu/public-results/}.")
+
+p3<- c("University Honesty Policy")
+t3<-c("UF students are bound by The Honor Pledge which states, “We, the members of the University of Florida community, pledge to hold ourselves and our peers to the highest standards of honor and integrity by abiding by the Honor Code. On all work submitted for credit by students at the University of Florida, the following pledge is either required or implied: On my honor, I have neither given nor received unauthorized aid in doing this assignment. The Honor Code (\\url{https://www.dso.ufl.edu/sccr/process/student-conduct-honor-code/}) specifies a number of behaviors that are in violation of this code and the possible sanctions. Furthermore, you are obligated to report any condition that facilitates academic misconduct to appropriate personnel. If you have questions or concerns, consult with the instructor or TAs.")
+
+p4<- c("Children in the Classroom")
+t4<-c("UF does not have a formal policy on children in the classroom. The following policy reflects my own perspective and commitment to student-parents.You and your nursing baby are welcome in class anytime. I never want students to feel like they have to choose between feeding their baby and continuing their education. Occasionally bringing a child to class because of a gap in care is perfectly acceptable. I understand that minor illnesses and unforeseen disruptions in childcare often put parents in the position of having to chose between attending class or staying home to care for them. Let me know in advance if at all possible. If you bring your child to class: Please sit close to the exit so that if your child needs attention you can more easily step outside until their needs have been met (and so other students can continue learning). Non-parents in the class, I ask that you please be willing to offer your seat near a door to parents as needed. Let me know how I can help. Finally, I understand that balancing school, childcare and perhaps even a job can be exhausting and a barrier to learning. I maintain the same high expectations for all students in my class, and will work with you to find ways you can balance your responsibilities as a parent and student.")
+  
+p5<- c("In-Class Recording")
+t5<-c("Students are allowed to record video or audio of class lectures. However, the purposes for which these recordings may be used are strictly controlled. The only allowable purposes are:  $\\textbf{(1)}$ for personal educational use,  $\\textbf{(2)}$ in connection with a complaint to the university, or  $\\textbf{(3)}$ as evidence in, or in preparation for, a criminal or civil proceeding.  All other purposes are prohibited. Specifically, students may not publish recorded lectures without the written consent of the instructor. A 'class lecture' is: an educational presentation intended to inform or teach enrolled students about a particular subject, including any instructor-led discussions that form part of the presentation, and delivered by any instructor hired or appointed by the University, or by a guest instructor, as part of a University of Florida course. A class lecture does not include lab sessions, student presentations, clinical presentations such as patient history, academic exercises involving solely student participation, assessments (quizzes, tests, exams), field trips, private conversations between students in the class or between a student and the faculty or lecturer during a class session. Publication without permission of the instructor is prohibited. To 'publish' means to share, transmit, circulate, distribute, or provide access to a recording, regardless of format or medium, to another person (or persons), including but not limited to another student within the same class section. Additionally, a recording, or transcript of a recording, is considered published if it is posted on or uploaded to, in whole or in part, any media platform, including but not limited to social media, book, magazine, newspaper, leaflet, or third-party note/tutoring services. A student who publishes a recording without written consent may be subject to a civil cause of action instituted by a person injured by the publication and/or discipline under UF Regulation 4.040 Student Honor Code and Student Conduct Code.")
+
+policy <- c(p1,"",p2,"",p3,"",p4,"",p5)
+text <- c(t1,"",t2,"",t3,"",t4,"",t5)
+
+class_policies <- data.frame(policy, text)
+# class_policies <- read_csv("./class_materials/syllabus/course_schedule/policies.csv")
+
+kable(class_policies,
+      # digits = 2,
+      align="cl",
+      format="latex",
+      row.names = FALSE,
+      escape= F,
+      booktabs=T,
+      linesep = "",
+      col.names = NULL
+      # caption="Graded Coursework"
+      ) %>% 
+   kable_classic_2(full_width = F,
+                # latex_options="scale_down",
+                font_size = 8,
+                position = "left") %>% 
+  column_spec(1, width = "7em", color = "white", background="green") %>% 
+  column_spec(2, width = "55em", color = "black", background="white") 
+# %>%
+  # column_spec(2, width = "8em", color = "white", background = "blue") %>% 
+  # column_spec(3, width = "8em", color = "white", background = "gray") %>% 
+  # row_spec(1, bold=T) 
+# %>%
+#   # column_spec(3, width = "5em") %>% 
+#   column_spec(3, width = "6em") %>% 
+#   row_spec(0,hline_after = F, bold=T) %>% 
+#   row_spec(c(1:5),hline_after = T) %>% 
+#   row_spec(6,bold=T) %>% 
+#   add_indent(6)
+```
+
+
+```{r table2, echo=FALSE,message = FALSE,warning=FALSE}
+policy <- c("Students Requiring Accommodation")
+text <- c(
+  "Students with disabilities or learning barriers that would like to request academic accommodations should connect with the Disability Resource Center by visiting \\url{https://disability.ufl.edu/students/get-started/}. Please share your letter with me and discuss access needs as early as possible in the semester so that I can do whatever is necessary to ensure your participation and learning.")
+class_policies <- data.frame(policy, text)
+# class_policies <- read_csv("./class_materials/syllabus/course_schedule/policies.csv")
+
+kable(class_policies,
+      # digits = 2,
+      align="cl",
+      format="latex",
+      row.names = FALSE,
+      escape= F,
+      booktabs=T,
+      linesep = "",
+      col.names = NULL
+      # caption="Graded Coursework"
+      ) %>% 
+   kable_classic_2(full_width = F,
+                # latex_options="scale_down",
+                font_size = 10,
+                position = "left") %>% 
+  column_spec(1, width = "7em", color = "white", background="gray") %>% 
+  column_spec(2, width = "45em", color = "black", background="white") %>% 
+  sub("\\\\toprule", "", .) %>% # Removes top line
+  sub("\\\\bottomrule", "", .) # remove bottom line
+```
+
+--- 
+
+```{r table3, echo=FALSE,message = FALSE,warning=FALSE}
+
+policy <- c("Students Requiring Accommodation")
+text <- c(
+  "Students with disabilities or learning barriers that would like to request academic accommodations should connect with the Disability Resource Center by visiting \\url{https://disability.ufl.edu/students/get-started/}. Please share your letter with me and discuss access needs as early as possible in the semester so that I can do whatever is necessary to ensure your participation and learning.")
+class_policies <- data.frame(policy, text)
+# class_policies <- read_csv("./class_materials/syllabus/course_schedule/policies.csv")
+
+kable(class_policies,
+      # digits = 2,
+      align="cl",
+      format="latex",
+      row.names = FALSE,
+      escape= F,
+      booktabs=T,
+      linesep = "",
+      col.names = NULL
+      # caption="Graded Coursework"
+      ) %>% 
+   kable_classic_2(full_width = F,
+                # latex_options="scale_down",
+                font_size = 10,
+                position = "left") %>% 
+  column_spec(1, width = "7em", color = "white", background="gray") %>% 
+  column_spec(2, width = "45em", color = "black", background="white") %>% 
+  sub("\\\\toprule", "", .) %>% # Removes top line
+  sub("\\\\bottomrule", "", .) # remove bottom line
+
+```

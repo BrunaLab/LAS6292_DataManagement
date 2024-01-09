@@ -1,0 +1,79 @@
+---
+title: "Student Learning Objectives: International"
+author: "Emilio M. Bruna"
+date: "`r format(Sys.time(), '%Y')`"
+web: www.BrunaLab.org
+github: embruna
+twitter: https://twitter.com/BrunaLab
+phone: (352) 514-3935
+email: embruna@ufl.edu
+geometry: margin=1in
+fontsize: 12pt
+linkcolor: blue
+urlcolor: blue
+site: bookdown::bookdown_site
+header-includes:
+- \usepackage{fancyhdr}
+- \pagestyle{fancy}
+- \fancyfoot{}
+- \fancyhead[R]{Syllabus, p. \thepage}
+- \fancyhead[L]{IDS 2935 - Rain Forests (`r format(Sys.time(), '%Y')`)}
+- \usepackage[default]{sourcesanspro}
+- \usepackage{parskip}
+- \usepackage{xcolor}
+- \AtBeginDocument{\let\maketitle\relax}
+# - \usepackage{sectsty} \allsectionsfont{\raggedright}
+- \usepackage{sectsty} \sectionfont{\centering}
+- \usepackage{titlesec}
+- \titlespacing{\section}{0pt}{12pt plus 2pt minus 1pt}{0pt plus 1pt minus 1pt}
+- \titlespacing{\subsection}{0pt}{12pt plus 2pt minus 1pt}{0pt plus 1pt minus 1pt}
+- \titlespacing{\subsubsection}{0pt}{12pt plus 2pt minus 1pt}{0pt plus 1pt minus 1pt}
+output: pdf_document
+# output: 
+#   pdf_document:
+#     fig_caption: yes   
+# classoption: 
+#   landscape
+  # word_document: default
+#   html_document
+# weight: 5
+    # df_print: paged
+---
+
+
+```{r setupsloi2, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(tidyverse)
+# library(gridExtra)
+library(kableExtra)
+# library(egg)
+# library(magick)
+# library(citr)
+```
+
+
+```{r slo_secondary, echo=FALSE,message = FALSE,warning=FALSE}
+sl_objectives_2 <- read_csv("./secondary_objectives.csv") %>% 
+  replace_na(list('Biological Sciences Objectives'="", 'This course’s Objectives (This course will…)'=""))
+
+landscape(kable(sl_objectives_2,
+      # digits = 2,
+      caption="\\textbf{Student Learning Objectives: International Objectives (for N co-designation)}",
+      align="l",
+      format="latex",
+      row.names = FALSE,
+      escape= TRUE,
+      booktabs=T,
+      linesep = "",
+      ) %>% 
+  kable_paper(full_width = F) %>%
+  kable_styling(bootstrap_options = c("hover"),
+                full_width = T,
+                latex_options="scale_down",
+                font_size = 8,
+                position = "left")) %>% 
+      row_spec(0,hline_after = F, bold=T) %>% 
+  row_spec(c(1:3),hline_after = T) 
+
+```
+

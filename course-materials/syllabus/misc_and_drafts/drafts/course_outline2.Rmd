@@ -1,0 +1,272 @@
+---
+title: "course ourline"
+author: "Emilio M. Bruna"
+date: "`r format(Sys.time(), '%Y')`"
+github: embruna
+web: www.BrunaLab.org
+twitter: https://twitter.com/BrunaLab
+phone: "(352) 514-3935"
+email: embruna@ufl.edu
+geometry: margin=0.50in
+linkcolor: blue
+urlcolor: blue
+header-includes:
+  - \usepackage{fancyhdr}
+  - \pagestyle{fancy}
+  - \fancyfoot{}
+  - \usepackage[default]{sourcesanspro}
+  - \usepackage{parskip}
+  - \usepackage{geometry}
+  - \usepackage{caption}
+  - \usepackage{xcolor}
+  - \definecolor{green}{RGB}{0,102,0}
+  - \definecolor{blue}{RGB}{0, 0, 139}
+  - \definecolor{darkcerulean}{rgb}{0.03, 0.27, 0.49}
+  - \definecolor{darkmidnightblue}{rgb}{0.0, 0.2, 0.4}
+  - \AtBeginDocument{\let\maketitle\relax}
+  - \usepackage[none]{hyphenat}
+  - \usepackage[document]{ragged2e}
+  - \usepackage{graphicx}
+  - \usepackage{sectsty}\allsectionsfont{\raggedright}
+  - \usepackage{sectsty}\sectionfont{\centering\color{darkmidnightblue}}
+  - \usepackage{sectsty}\subsectionfont{\centering\color{darkmidnightblue}}
+  - \usepackage{titlesec}
+  - \usepackage{wrapfig}
+  - \usepackage[export]{adjustbox}
+  - \titlespacing{\section}{0pt}{22pt plus 2pt minus 1pt}{0pt plus 1pt minus 1pt}
+  - \titlespacing{\subsection}{0pt}{12pt plus 2pt minus 1pt}{0pt plus 1pt minus 1pt}
+  - \titlespacing{\subsubsection}{0pt}{12pt plus 2pt minus 1pt}{0pt plus 1pt minus 1pt}
+# classoption:
+#  - twocolumn
+
+output: 
+  pdf_document: 
+    extra_dependencies: ["wrapfig"]
+---
+
+```{r setup_policies, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(tidyverse)
+library(fontawesome)
+library(flextable)
+library(kableExtra)
+```
+
+\vspace{0.3cm}
+<!-- \begin{flushleft} -->
+<!-- \end{flushleft} -->
+# The Future of Rain Forests
+
+## IDS 2935 - Quest 2 - Fall 2022
+\vspace{0.6cm} 
+\newpage 
+
+```{r, echo=FALSE, results='asis'}
+cat("\\onecolumn")
+```
+
+Tropical rain forests cover ~ 15% of the Earth’s land surface but contain over 50% of the world’s biodiversity. They are also the home to millions of people, the source of products central to our lives, shape global climate, and are being cleared at unprecedented rates. Students in this class will investigate the same fundamental questions asked by researchers studying rain forests: Why are we fascinated by tropical rain forests? What gave rise to their remarkable biodiversity? How have stereotypes about them permeated everything from pop culture to international relations? What are the national and international drivers and consequences of deforestation? Is forest conservation compatible with socioeconomic development? Because these questions and their answers are inherently multidisciplinary, the course will include content from the humanities, social sciences, and biophysical sciences. While the course focuses on tropical countries, a central theme of the course is exploring the individual, local, national, and global impacts of tropical rain forests in an increasingly interconnected world.
+
+```{r, echo=FALSE, results='asis'}
+cat("\\twocolumn")
+```
+
+
+
+## Instructors
+<!-- \vspace{0.3cm} -->
+<!-- \begin{center}   -->
+
+```{r gorilla, echo=FALSE, include=TRUE,fig.cap="", out.width = '10%', fig.align="center" }
+# knitr::include_graphics("./course_schedule/icons/gorilla.png")
+knitr::include_graphics("./icons/gorilla.png")
+```
+**Instructor**  
+Dr. Emilio M. Bruna *(he/him)*  
+embruna@ufl.edu  
+(352) 846-0634   
+
+**Teaching Assistant**  
+Priyanka Hari Haran *(she/her)*  
+priyanka email  
+(352) 846-0643  
+
+<!-- \end{center} -->
+
+---
+
+## Course Description & Objectives
+```{r beetle, echo=FALSE, include=TRUE,fig.cap="", out.width = '10%', fig.align="center" }
+# knitr::include_graphics("./course_schedule/icons/beetle.png")
+knitr::include_graphics("./icons/beetle.png")
+```
+<!-- \vspace{0.3cm} -->
+<!-- ***Abridged Version in the Course Catalog:*** This course investigates the fundamental issues addressed by scientists studying tropical rain forests, including what gave rise to their remarkable biodiversity, the drivers and consequences of deforestation, why people are fascinated by rain forests, cultural stereotypes about the tropics, and if forest conservation is compatible with socioeconomic development. -->
+
+
+
+<!-- \begin{wrapfigure}{l}{0.3\textwidth} -->
+<!--   \centering -->
+<!--     \includegraphics[width=\linewidth]{"./icons/gorilla.png"} -->
+<!-- \end{wrapfigure} -->
+
+
+
+<!-- \begin{wrapfigure}{R}{4in} -->
+<!--   \includegraphics{course_schedule/icons/gorilla-1.pdf} -->
+<!--   \caption{This is a caption.} -->
+<!-- \end{wrapfigure} -->
+
+
+<!-- ***Longer & More Exciting Version:***  -->
+Tropical rain forests cover ~ 15% of the Earth’s land surface but contain over 50% of the world’s biodiversity. They are also the home to millions of people, the source of products central to our lives, shape global climate, and are being cleared at unprecedented rates. Students in this class will investigate the same fundamental questions asked by researchers studying rain forests: Why are we fascinated by tropical rain forests? What gave rise to their remarkable biodiversity? How have stereotypes about them permeated everything from pop culture to international relations? What are the national and international drivers and consequences of deforestation? Is forest conservation compatible with socioeconomic development? Because these questions and their answers are inherently multidisciplinary, the course will include content from the humanities, social sciences, and biophysical sciences. While the course focuses on tropical countries, a central theme of the course is exploring the individual, local, national, and global impacts of tropical rain forests in an increasingly interconnected world. **By the end of the course students will be able to:**
+
+
+```{r course_info, echo=FALSE,message = FALSE,warning=FALSE}
+
+title<-c("The Future of Rain Forests (IDS2935")
+year<-c("Fall Semester 2023")
+
+class_time<-c("Tuesday 9:35-10:25 AM (Period 3) in LIT-0237 \\textit{and}","Thursday 9:35-11:30 AM (Periods 3-4) in MAEB-0211","")
+
+
+prof_name<-c("Dr. Emilio M. Bruna")
+prof_email<-c("embruna@ufl.edu")
+prof_phone<-c("(352) 846-0634")
+# prof_office<-c("Office: location")
+
+ta_name<-c("Priyanka Hari Haran")
+ta_email<-c("priyanka email")
+ta_phone<-c("(352) 846-0634")
+# ta_office<-c("Office: location")
+
+office_hours<-c("Office Location & Drop-In Hours**: Wednesday and Friday 10:30 am - 12 noon in the Tropical Ecology & Conservation Lab, 711 Newell Drive (for a map to the lab click the 'Contact' link at [BrunaLab.org](http://brunalab.org)). You can come to drop-in hours in person or via Zoom (link on class canvas page). If you like, you _sign can up for a specific time slot in advance at [embruna.youcanbook.me](https://embruna.youcanbook.me)_. If you can't make it on those days/times let me know and we will find a time that works for you.")
+
+course_description<-c("Tropical rain forests cover approximately 15% of the Earth’s land surface but contain over 50% of the world’s biodiversity. They are also the home to millions of people, the source of products central to our lives, shape global climate, and are being cleared at unprecedented rates. Students in this class will investigate the same fundamental questions asked by researchers studying rain forests: Why are we fascinated by tropical rain forests? What gave rise to their remarkable biodiversity? How have stereotypes about them permeated everything from pop culture to international relations? What are the national and international drivers and consequences of deforestation? Is forest conservation compatible with socioeconomic development? Because these questions and their answers are inherently multidisciplinary, the course will include content from the humanities, social sciences, and biophysical sciences. While the course focuses on tropical countries, a central theme of the course is exploring the individual, local, national, and global impacts of tropical rain forests in an increasingly interconnected world.")
+
+course_objectives<-c("By the end of the course students will be able to:
+
+Recognize and describe stereotypes about rain forests \\& their residents
+Analyze rain forest tropes in art, literature, \\& popular culture
+Discuss \\& evaluate hypotheses for the origins and maintenance of tropical biodiversity
+Explain \\& compare human history in rain forests
+Review contemporary threats to rain forests
+Analyze and visualize data on deforestation
+Review and contrast strategies for rain forest conservation \\& restoration
+Identify rain forests in their daily lives \\& set personal goals for advancing their conservation
+Produce materials for communicating about rain forests to family and peers")
+
+prof<-c("Instructor",prof_name, prof_email, prof_phone)
+ta<-c("Teaching Assistant",ta_name, ta_email, ta_phone)
+class_time<-c("Class Hours and Location",class_time)
+prof<-as_tibble(prof)
+ta<-as_tibble(ta)
+class_time<-as_tibble(class_time)
+course_info<-bind_cols(prof,ta,class_time) %>% rename("Instructor" ="value...1",
+                                                      "Teaching Assistant" ="value...2",
+                                                      "Class Hours and Location" ="value...3")
+```
+
+<!-- ```{r profs_table, echo=FALSE,message = FALSE,warning=FALSE,fig.pos='H'} -->
+<!-- course_info %>% -->
+<!--   kbl(booktabs = T, -->
+<!--       bottomrule = F, -->
+<!--       # toprule = F, -->
+<!--       # midrule = F, -->
+<!--       escape= F, -->
+<!--       format="latex", -->
+<!--       align="lll", -->
+<!--       col.names = NULL) %>% -->
+<!--   kable_paper(full_width = F, -->
+<!--               position = "left") %>% -->
+<!--   kable_styling(latex_options = "HOLD_position") %>%  -->
+<!--   row_spec(1,bold=T) %>%  -->
+<!--   column_spec(1,width = "10em", background="white", latex_valign = "m",color = "black") %>%  -->
+<!--   column_spec(2, width = "10em",latex_valign = "m", background = "white", color="black") %>%  -->
+<!--   column_spec(3, width = "30em",latex_valign = "m", background = "white", color="black") %>%  -->
+<!--   sub("\\\\toprule", "", .) %>% # Removes top line -->
+<!--   sub("\\\\bottomrule", "", .) # remove bottom line  -->
+<!-- ``` -->
+
+<!-- ## Course objectives -->
+\vspace{0.3cm}
+
+* Recognize \& describe stereotypes about rain forests \& their residents
+* Analyze rain forest tropes in art, literature, \& popular culture,  
+* Discuss \& evaluate hypotheses for the origins and maintenance of tropical biodiversity,  
+* Explain \& compare human history in rain forests,  
+* Review contemporary threats to rain forests,  
+* Analyze and visualize data on deforestation,  
+* Review and contrast strategies for rain forest conservation \& restoration,  
+* Identify rain forests in their daily lives \& set personal goals for advancing their conservation,  
+* Produce materials for communicating about rain forests to family and peers.  
+
+---
+## Required Course Materials 
+<!-- \vspace{0.3cm} -->
+```{r vine, echo=FALSE, include=TRUE,fig.cap="", out.width = '10%', fig.align="center" }
+# knitr::include_graphics("./course_schedule/icons/vine.png")
+knitr::include_graphics("./icons/vine.png")
+```
+*Students are not required to purchase any textbooks or course materials.* All materials, including readings and videos, are made available on the course Canvas page. However, many of the assigned articles from the New York Times have dynamic multimedia data visualizations and video that can't be appreciated in pdf format. _Students in this class should sign up for free online access to the NY Times by following the instructions at [this UF Libraries Website](https://businesslibrary.uflib.ufl.edu/c.php?g=943928&p=7708734).
+
+<!-- ---  -->
+
+
+
+
+```{r, echo=FALSE, results='asis'}
+cat("\\onecolumn")
+```
+
+
+## Office Hours at the Bruna Lab  
+
+```{r hummer, echo=FALSE, include=TRUE,fig.cap="", out.width = '10%', fig.align="center" }
+# knitr::include_graphics("./course_schedule/icons/hummingbird.png")
+knitr::include_graphics("./icons/hummingbird.png")
+```
+
+**Date, Time, and Location:** Wednesday and Friday 10:30 am-12 noon in the Tropical Ecology and Conservation Lab, 711 Newell Drive (for a map to the lab click the "Contact" link at \url{http://brunalab.org}. You can come to drop-in hours in person or via Zoom (link on class canvas page). If you like, *you can sign can up for a specific time slot in advance at* \url{https://embruna.youcanbook.me}. If you can't make it on those days/times let me know and we will find a time that works for you.
+
+\vspace{0.3cm}
+**Why should you come to Office Hours?**
+
+1. To introduce yourself.  
+2. To get clarification on assignments. 
+3. Make sure you understood key points from class. 
+4. Get feedback on ideas for course projects. 
+5. **Free tea, coffee, or espresso in our lab kitchen.**
+6. Get advice on navigating college. 
+7. Ask about gaining experience for post-UF goals. 
+8. Get help arranging a study group. 
+9. ***You don't need a reason...just come on by.***
+
+
+<!-- \end{minipage} -->
+<!-- } -->
+
+
+
+
+<!-- Wednesday and Friday 10:30 am - 12 noon in the Tropical Ecology \\& Conservation Lab, 711 Newell Drive (for a map to the lab click the "Contact" link at [BrunaLab.org](http://brunalab.org)). You can come to drop-in hours in person or via Zoom (link on class canvas page). If you like, you _sign can up for a specific time slot in advance at [embruna.youcanbook.me](https://embruna.youcanbook.me)_. If you can't make it on those days/times let me know and we will find a time that works for you. -->
+
+
+<!-- ### Why should you come to Office Hours? -->
+
+<!-- * To introduce yourself -->
+<!-- * Because there is _free tea, coffee, or espresso in our lab kitchen_ -->
+<!-- * To get clarification on assignments -->
+<!-- * It's an opportunity to discuss topics that came up in class  -->
+<!-- * You can check to make sure you understood the key points from a class session -->
+<!-- * We can give you feedback on ideas for course projects -->
+<!-- * Get advice on successfully navigating college -->
+<!-- * Ask questions about how to gain experience for your post-graduation goals -->
+<!-- * To get help arranging a study group -->
+<!-- * _You don't need a reason...just come on by._  -->
+
+
+
+```{r, echo=FALSE, results='asis'}
+cat("\\onecolumn")
+```

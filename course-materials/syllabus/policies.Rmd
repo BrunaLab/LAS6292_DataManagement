@@ -1,0 +1,404 @@
+---
+title: "Syllabus"
+author: "Emilio M. Bruna"
+date: "`r format(Sys.time(), '%Y')`"
+output: pdf_document
+github: embruna
+twitter: https://twitter.com/BrunaLab
+phone: "(352) 514-3935"
+email: embruna@ufl.edu
+geometry: margin=1in
+font-size: 10pt
+linkcolor: blue
+urlcolor: blue
+header-includes:
+- \usepackage{fancyhdr}
+- \pagestyle{fancy}
+- \fancyfoot{}
+- \usepackage[default]{sourcesanspro}
+- \usepackage{parskip}
+- \usepackage{geometry}
+- \usepackage{caption}
+- \usepackage{xcolor}
+- \definecolor{green}{RGB}{0,102,0}
+- \definecolor{blue}{RGB}{0, 0, 139}
+- \definecolor{darkcerulean}{rgb}{0.03, 0.27, 0.49}
+- \definecolor{darkmidnightblue}{rgb}{0.0, 0.2, 0.4}
+- \AtBeginDocument{\let\maketitle\relax}
+- \usepackage[none]{hyphenat}
+- \usepackage[document]{ragged2e}
+- \usepackage{graphicx}
+- \usepackage{sectsty}\allsectionsfont{\raggedright}
+- \usepackage{sectsty}\sectionfont{\centering\color{darkmidnightblue}}
+- \usepackage{sectsty}\subsectionfont{\centering\color{darkmidnightblue}}
+- \usepackage{titlesec}
+- \usepackage[export]{adjustbox}
+- \titlespacing{\section}{0pt}{22pt plus 2pt minus 1pt}{0pt plus 1pt minus 1pt}
+- \titlespacing{\subsection}{0pt}{12pt plus 2pt minus 1pt}{0pt plus 1pt minus 1pt}
+- \titlespacing{\subsubsection}{0pt}{12pt plus 2pt minus 1pt}{0pt plus 1pt minus 1pt}
+web: www.BrunaLab.org
+---
+
+```{r setup_policies, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(tidyverse)
+library(fontawesome)
+library(flextable)
+library(kableExtra)
+```
+\newpage
+
+# UF RESOURCES FOR STUDENTS  
+
+## Health, Safety, & Wellness
+\vspace{0.3cm}
+<!-- \setlength{\leftskip}{1cm} -->
+<!-- \setlength{\rightskip}{1.5cm}  -->
+
+\textbf{\color{green}Wellness and Mental Health:} Students experiencing crises or personal problems that interfere with their general well-being are encouraged to utilize the university’s counseling resources. The Counseling & Wellness Center provides confidential counseling services at no cost for currently enrolled students. Resources are available on campus for students having personal problems or lacking clear career or academic goals, which interfere with their academic performance.
+ 
+<!-- \setlength{\leftskip}{2cm}  -->
+- _University Counseling & Wellness Center_, 3190 Radio Road, 352-392-1575. They can provide Counseling Services, Groups and Workshops, Outreach and Consultation, a Self-Help Library, and Wellness Coaching. http://www.counseling.ufl.edu/.
+
+<!-- \setlength{\leftskip}{2cm}  -->
+-	_U Matter, We Care._ If you or someone you know is in distress, please contact umatter@ufl.edu, 352-392-1575, or visit U Matter, We Care website (www.umatter.ufl.edu/) to refer or report a concern and a team member will reach out to the student in distress. 
+
+<!-- \setlength{\leftskip}{1cm} -->
+
+\textbf{\color{green}Student Health Care Center:} Call 352-392-1161 for 24/7 information to help you find the care you need, or visit the Student Health Care Center website. 
+
+\textbf{\color{green}University Police Department:} Visit UF Police Department website or call 352-392-1111 (or 9-1-1 for emergencies). 
+
+\textbf{\color{green}UF Health Shands Emergency Room / Trauma Center:} For immediate medical care call 352- 733-0111 or go to the emergency room at 1515 SW Archer Road, Gainesville, FL 32608; Visit the UF Health Emergency Room and Trauma Center website. 
+
+\textbf{\color{green}Field and Fork Pantry:} The Hitchcock Pantry can provide food and toiletries for students experi- encing food insecurity. https://pantry.fieldandfork.ufl.edu/. 
+
+## Academic Services
+\vspace{0.3cm}
+
+\textbf{\color{green}The Writing Studio:} The writing studio is committed to helping University of Florida students meet their academic and professional goals by becoming better writers. Visit the writing stu- dio online at http://writing.ufl.edu/writing-studio/ or in 2215 Turlington Hall for one-on-one consultations and workshops. 
+
+\textbf{\color{green}Career Connections Center:} First Floor JWRU, 392-1601, https://career.ufl.edu/. 
+
+\textbf{\color{green}Student Success Initiative:} http://studentsuccess.ufl.edu. 
+
+\textbf{\color{green}Student Complaints:} 
+
+<!-- \setlength{\leftskip}{2cm}  -->
+- for Residential Courses: https://sccr.dso.ufl.edu/policies/student-honor-code-studentconduct-code/. 
+
+<!-- \setlength{\leftskip}{2cm}  -->
+- for Online Courses: https://pfs.tnt.aa.ufl.edu/state-authorization-status/#student-complaint  
+  
+<!-- \setlength{\leftskip}{0cm} -->
+<!-- \setlength{\rightskip}{0cm} -->
+\newpage
+
+<!-- \newgeometry{top=2.54cm, bottom=2.54cm,left=0.5cm, right=0.5cm} -->
+# UF POLICIES  
+```{r text_policies, echo=FALSE,message = FALSE,warning=FALSE}
+
+p1<- c("Student Accomodations")
+t1<-c("\\textbf{\\color{green}STUDENT ACCOMODATIONS:} Students with disabilities or learning barriers that would like to request academic accommodations should connect with the Disability Resource Center by visiting \\url{https://disability.ufl.edu/students/get-started/}. Please share your letter with me and discuss access needs as early as possible in the semester so that I can do whatever is necessary to ensure your participation and learning.")
+
+p2<- c("Course Evaluations")
+t2<-c("\\textbf{\\color{green}COURSE EVALUATIONS: }Students are expected to provide professional and respectful feedback on the quality of instruction in this course by completing course evaluations online via GatorEvals. Guidance on how to give feedback in a professional and respectful manner is available at \\url{https://gatorevals.aa.ufl.edu/students/}. Students will be notified when the evaluation period opens, and can complete evaluations through the email they receive from GatorEvals, in their Canvas course menu under GatorEvals, or via \\url{https://ufl.bluera.com/ufl}. Summaries of course evaluation results are available to students at \\url{https://gatorevals.aa.ufl.edu/public-results/}.")
+
+p3<- c("University Honesty Policy")
+t3<-c("\\textbf{\\color{green}UNIVERSITY HONESTY POLICY: }UF students are bound by The Honor Pledge which states, \\textit{“We, the members of the University of Florida community, pledge to hold ourselves and our peers to the highest standards of honor and integrity by abiding by the Honor Code. On all work submitted for credit by students at the University of Florida, the following pledge is either required or implied: On my honor, I have neither given nor received unauthorized aid in doing this assignment.} The Honor Code (\\url{https://www.dso.ufl.edu/sccr/process/student-conduct-honor-code/}) specifies a number of behaviors that are in violation of this code and the possible sanctions. Furthermore, you are obligated to report any condition that facilitates academic misconduct to appropriate personnel. If you have questions or concerns, consult with the instructor or TAs.")
+
+p5<- c("In-Class Recording")
+t5<-c("\\textbf{\\color{green}IN-CLASS RECORDING: }\\textit{\\textbf{Students are allowed to record video or audio of class lectures. However, the purposes for which these recordings may be used are strictly controlled}}. \\textbf{\\textit{The only allowable purposes are:}} \\textbf{(1)} for personal educational use, \\textbf{(2)} in connection with a complaint to the university, or \\textbf{(3)} as evidence in, or in preparation for, a criminal or civil proceeding. \\textit{All other purposes are prohibited.} \\textit{Specifically, students may not publish recorded lectures without the written consent of the instructor}. \\textit{A 'class lecture' is:} an educational presentation intended to inform or teach enrolled students about a particular subject, including any instructor-led discussions that form part of the presentation, and delivered by any instructor hired or appointed by the University, or by a guest instructor, as part of a UF course. \\textit{A class lecture does not include:} lab sessions, student presentations, clinical presentations such as patient history, academic exercises involving solely student participation, assessments (quizzes, tests, exams), field trips, private conversations between students in the class or between a student and the faculty or lecturer during a class session. \\textit{\\textbf{Publication without permission of the instructor is prohibited}}. \\textit{\\textbf{To 'publish' means:}} to share, transmit, circulate, distribute, or provide access to a recording, regardless of format or medium, to another person (or persons), including but not limited to another student within the same class section. Additionally, a recording, or transcript of a recording, is considered published if it is posted on or uploaded to, in whole or in part, any media platform, including but not limited to social media, book, magazine, newspaper, leaflet, or third-party note/tutoring services. \\textit{\\textbf{A student who publishes a recording without written consent may be subject to a civil cause of action instituted by a person injured by the publication and/or discipline under UF Regulation 4.040 Student Honor Code and Student Conduct Code.}}")
+
+p6<-c("Software Use")
+t6<-c("\\textbf{\\color{green}SOFTWARE USE: }All faculty, staff \\& students are required \\& expected to obey laws and legal agreements governing software use. Failure to do so can lead to monetary damages and/or criminal penalties for the individual violator. Because such violations are also against UF policies \\& rules, disciplinary action will be taken as appropriate.")
+
+
+p7<-c("Attendance")
+t7<-c("\\textbf{\\color{green}ATTENDANCE: }Requirements for class attendance \\& make-up exams, assignments, and other work are consistent with UF policies found at: \\url{https://catalog.ufl.edu/ugrad/current/regulations/info/attendance.aspx}.")
+policy <- c(p1,p2,p3,p4,p5,p6,p7)
+text <- c(t1,t2,t3,t4,t5,t6,t7)
+icon<-c(
+  "./icons/headphones-wt.png",
+  "./icons/thumbs-up-wt.png",
+  "./icons/scale-balanced-wt.png",
+  "./icons/person-breastfeeding-wt.png",
+  "./icons/computer-wt.png",
+  "./icons/microphone-wt.png",
+  "./icons/check-wt.png"
+  )
+# logo<-as.data.frame(icons)
+# logo<-c(icons,icons,icons)
+# logo<-logo[1:14]
+
+class_policies <- data.frame(
+  # icon,
+  # policy = policy, 
+  text = text,
+  stringsAsFactors = FALSE
+  ) 
+
+# %>% 
+#   mutate(
+#     icon = file.path("./icons",icon))
+  
+
+```
+
+```{r policies_accom, echo=FALSE,message = FALSE,warning=FALSE,fig.pos='H'}
+# Alignment of graphics with text workaround is here:
+# https://stackoverflow.com/questions/64919240/align-text-and-images-in-a-table-pdf-output
+# https://tex.stackexchange.com/questions/397708/package-xkeyval-error-valign-undefined-in-families-gin
+tbl_img <- data.frame(
+logo = c("\\includegraphics[valign=T,scale=.5,raise=7mm]{./icons/headphones-wt.png}"),
+# policy = p1,
+text=t1
+)
+tbl_img %>%
+kbl(booktabs = T,
+    bottomrule = F,
+    # toprule = F,
+    # midrule = F,
+    escape= F,
+    format="latex",
+    align="cl",
+    col.names = NULL) %>%
+kable_paper(full_width = F, font_size = 10) %>%
+kable_styling(latex_options = "HOLD_position") %>% 
+# column_spec(2,bold=T,
+#           width = "7em", 
+#           latex_valign = "m",
+#           color = "green",
+#           background="white"
+#           ) %>%
+column_spec(1,width = "4em", background="green", latex_valign = "m") %>% 
+column_spec(2, width = "43em",latex_valign = "m", color = "black", background="white") %>% 
+sub("\\\\toprule", "", .) %>% # Removes top line
+sub("\\\\bottomrule", "", .) # remove bottom line 
+# %>%
+#   column_spec(1,latex_valign = "m")
+
+```
+\begin{spacing}{0.0}
+\end{spacing}
+```{r policies_eval, echo=FALSE,message = FALSE,warning=FALSE,fig.pos='H'}
+# Alignment of graphics with text workaround is here:
+# https://stackoverflow.com/questions/64919240/align-text-and-images-in-a-table-pdf-output
+# https://tex.stackexchange.com/questions/397708/package-xkeyval-error-valign-undefined-in-families-gin
+tbl_img <- data.frame(
+logo = c("\\includegraphics[valign=T,scale=.5,raise=7mm]{./icons/thumbs-up-wt.png}"),
+# policy = p2,
+text=t2
+)
+
+tbl_img %>%
+kbl(booktabs = T,
+    bottomrule = F,
+    # toprule = F,
+    escape= F,
+    format="latex",
+    align="cl",
+    col.names = NULL
+    ) %>%
+kable_paper(full_width = F, font_size = 10) %>%
+  kable_styling(latex_options = "HOLD_position") %>% 
+  # column_spec(2,bold=T,
+#           width = "7em", latex_valign = "m",
+#           color = "green",
+#           background="white"
+#           ) %>%
+column_spec(1,width = "4em", background="green", latex_valign = "m") %>% 
+  column_spec(2, width = "43em",latex_valign = "m", color = "black", background="white") %>% 
+  sub("\\\\toprule", "", .) %>% # Removes top line
+sub("\\\\bottomrule", "", .) # remove bottom line 
+# %>%
+#   
+
+```
+\begin{spacing}{0.0}
+\end{spacing}
+```{r policies_honesty, echo=FALSE,message = FALSE,warning=FALSE,fig.pos='H'}
+# Alignment of graphics with text workaround is here:
+# https://stackoverflow.com/questions/64919240/align-text-and-images-in-a-table-pdf-output
+# https://tex.stackexchange.com/questions/397708/package-xkeyval-error-valign-undefined-in-families-gin
+tbl_img <- data.frame(
+logo = c("\\includegraphics[valign=T,scale=.5,raise=7mm]{./icons/scale-balanced-wt.png}"),
+# policy = p3,
+text=t3
+)
+tbl_img %>%
+kbl(booktabs = T,
+    bottomrule = F,
+    # toprule = F,
+    # midrule = F,
+    escape= F,
+    format="latex",
+    align="cl",
+    col.names = NULL) %>%
+kable_paper(full_width = F, font_size = 10) %>%
+  kable_styling(latex_options = "HOLD_position") %>% 
+# column_spec(2,bold=T,
+#           width = "7em", latex_valign = "m",
+#           color = "green",
+#           background="white"
+#           ) %>%
+column_spec(1,width = "4em", background="green", latex_valign = "m") %>% 
+column_spec(2, width = "43em",latex_valign = "m", color = "black", background="white") %>% 
+  sub("\\\\toprule", "", .) %>% # Removes top line
+sub("\\\\bottomrule", "", .) # remove bottom line 
+# %>%
+#   column_spec(1,latex_valign = "m")
+
+```
+\begin{spacing}{0.0}
+\end{spacing}
+```{r policies_computer, echo=FALSE,message = FALSE,warning=FALSE,fig.pos='H'}
+# Alignment of graphics with text workaround is here:
+# https://stackoverflow.com/questions/64919240/align-text-and-images-in-a-table-pdf-output
+# https://tex.stackexchange.com/questions/397708/package-xkeyval-error-valign-undefined-in-families-gin
+tbl_img <- data.frame(
+logo = c("\\includegraphics[valign=T,scale=.5,raise=7mm]{./icons/computer-wt.png}"),
+# policy = p6,
+text=t6
+)
+tbl_img %>%
+kbl(booktabs = T,
+    bottomrule = F,
+    # toprule = F,
+    # midrule = F,
+    escape= F,
+    format="latex",
+    align="cl",
+    col.names = NULL) %>%
+kable_paper(full_width = F, font_size = 10) %>%
+  kable_styling(latex_options = "HOLD_position") %>% 
+# column_spec(2,bold=T,
+#           width = "7em", latex_valign = "m",
+#           color = "green",
+#           background="white"
+#           ) %>%
+column_spec(1,width = "4em", background="green", latex_valign = "m") %>% 
+column_spec(2, width = "43em",latex_valign = "m", color = "black", background="white") %>% 
+  sub("\\\\toprule", "", .) %>% # Removes top line
+sub("\\\\bottomrule", "", .) # remove bottom line 
+# %>%
+#   column_spec(1,latex_valign = "m")
+
+```
+\begin{spacing}{0.0}
+\end{spacing}
+```{r policies_attendance, echo=FALSE,message = FALSE,warning=FALSE,fig.pos='H'}
+# Alignment of graphics with text workaround is here:
+# https://stackoverflow.com/questions/64919240/align-text-and-images-in-a-table-pdf-output
+# https://tex.stackexchange.com/questions/397708/package-xkeyval-error-valign-undefined-in-families-gin
+tbl_img <- data.frame(
+logo = c("\\includegraphics[valign=T,scale=.5,raise=7mm]{./icons/check-wt.png}"),
+# policy = p7,
+text=t7
+)
+tbl_img %>%
+kbl(booktabs = T,
+    bottomrule = F,
+    # toprule = F,
+    # midrule = F,
+    escape= F,
+    format="latex",
+    align="cl",
+    col.names = NULL) %>%
+kable_paper(full_width = F, font_size = 10) %>%
+  kable_styling(latex_options = "HOLD_position") %>% 
+# column_spec(2,bold=T,
+#           width = "7em", latex_valign = "m",
+#           color = "green",
+#           background="white"
+#           ) %>%
+column_spec(1,width = "4em", background="green", latex_valign = "m") %>% 
+column_spec(2, width = "43em",latex_valign = "m", color = "black", background="white") %>% 
+  sub("\\\\toprule", "", .) %>% # Removes top line
+sub("\\\\bottomrule", "", .) # remove bottom line 
+# %>%
+#   column_spec(1,latex_valign = "m")
+
+```
+<!-- \begin{spacing}{0.0} -->
+<!-- \end{spacing} -->
+<!-- ```{r policies_kids, echo=FALSE,message = FALSE,warning=FALSE,fig.pos='H'} -->
+<!-- # Alignment of graphics with text workaround is here: -->
+<!-- # https://stackoverflow.com/questions/64919240/align-text-and-images-in-a-table-pdf-output -->
+<!-- # https://tex.stackexchange.com/questions/397708/package-xkeyval-error-valign-undefined-in-families-gin -->
+<!-- tbl_img <- data.frame( -->
+<!-- logo = c("\\includegraphics[valign=T,scale=.5,raise=7mm]{./icons/person-breastfeeding-wt.png}"), -->
+<!-- # policy = p4, -->
+<!-- text=t4 -->
+<!-- ) -->
+<!-- tbl_img %>% -->
+<!-- kbl(booktabs = T, -->
+<!--     bottomrule = F, -->
+<!--     # toprule = F, -->
+<!--     # midrule = F, -->
+<!--     escape= F, -->
+<!--     format="latex", -->
+<!--     align="cl", -->
+<!--     col.names = NULL) %>% -->
+<!-- kable_paper(full_width = F, font_size = 10) %>% -->
+<!--   kable_styling(latex_options = "HOLD_position") %>%  -->
+<!-- # column_spec(2,bold=T, -->
+<!-- #           width = "7em", latex_valign = "m", -->
+<!-- #           color = "green", -->
+<!-- #           background="white" -->
+<!-- #           ) %>% -->
+<!-- column_spec(1,width = "4em", background="green", latex_valign = "m") %>%  -->
+<!-- column_spec(2, width = "43em",latex_valign = "m", color = "black", background="white") %>%  -->
+<!--   sub("\\\\toprule", "", .) %>% # Removes top line -->
+<!-- sub("\\\\bottomrule", "", .) # remove bottom line  -->
+<!-- ``` -->
+\begin{spacing}{0.0}
+\end{spacing}
+```{r policies_recording, echo=FALSE,message = FALSE,warning=FALSE,fig.pos='H'}
+# Alignment of graphics with text workaround is here:
+# https://stackoverflow.com/questions/64919240/align-text-and-images-in-a-table-pdf-output
+# https://tex.stackexchange.com/questions/397708/package-xkeyval-error-valign-undefined-in-families-gin
+tbl_img <- data.frame(
+logo = c("\\includegraphics[valign=T,scale=.5,raise=7mm]{./icons/microphone-wt.png}"),
+# policy = p5,
+text=t5
+)
+tbl_img %>%
+kbl(booktabs = T,
+    bottomrule = F,
+    # toprule = F,
+    # midrule = F,
+    escape= F,
+    format="latex",
+    align="cl",
+    col.names = NULL) %>%
+kable_paper(full_width = F, font_size = 10) %>%
+  kable_styling(latex_options = "HOLD_position") %>% 
+# column_spec(2,bold=T,
+#           width = "7em", latex_valign = "m",
+#           color = "green",
+#           background="white"
+#           ) %>%
+column_spec(1,width = "4em", background="green", latex_valign = "m") %>% 
+column_spec(2, width = "43em",latex_valign = "m", color = "black", background="white") %>% 
+  sub("\\\\toprule", "", .) %>% # Removes top line
+sub("\\\\bottomrule", "", .) # remove bottom line 
+# %>%
+#   column_spec(1,latex_valign = "m")
+
+```
+<!-- use whatever margins you want for left, right, top and bottom.   -->
+
+
+<!-- \newgeometry{left=0.5in,right=0.5in}     -->
+<!-- \newgeometry{left=0.5in,right=0.5in, top=0.25in, bottom=0.25in}     -->
+
+<!-- \vspace*{5cm}             -->
+
+
+<!-- ```{r vine, echo=FALSE, include=TRUE,fig.cap="", out.width = '20%', fig.align="center" } -->
+<!-- # knitr::include_graphics("./icons/vine.png") -->
+<!-- knitr::include_graphics("./icons/vine.png") -->
+<!-- ``` -->
+
+<!-- \restoregeometry  -->

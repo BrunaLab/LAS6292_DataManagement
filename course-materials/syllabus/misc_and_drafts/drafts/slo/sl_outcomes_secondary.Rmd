@@ -1,0 +1,82 @@
+---
+title: "Student Learning Outcomes: International"
+author: "Emilio M. Bruna"
+date: "`r format(Sys.time(), '%Y')`"
+web: www.BrunaLab.org
+github: embruna
+twitter: https://twitter.com/BrunaLab
+phone: (352) 514-3935
+email: embruna@ufl.edu
+geometry: margin=1in
+fontsize: 12pt
+linkcolor: blue
+urlcolor: blue
+site: bookdown::bookdown_site
+header-includes:
+- \usepackage{fancyhdr}
+- \pagestyle{fancy}
+- \fancyfoot{}
+- \fancyhead[R]{Syllabus, p. \thepage}
+- \fancyhead[L]{IDS 2935 - Rain Forests (`r format(Sys.time(), '%Y')`)}
+- \usepackage[default]{sourcesanspro}
+- \usepackage{parskip}
+- \usepackage{xcolor}
+- \AtBeginDocument{\let\maketitle\relax}
+# - \usepackage{sectsty} \allsectionsfont{\raggedright}
+- \usepackage{sectsty} \sectionfont{\centering}
+- \usepackage{titlesec}
+- \titlespacing{\section}{0pt}{12pt plus 2pt minus 1pt}{0pt plus 1pt minus 1pt}
+- \titlespacing{\subsection}{0pt}{12pt plus 2pt minus 1pt}{0pt plus 1pt minus 1pt}
+- \titlespacing{\subsubsection}{0pt}{12pt plus 2pt minus 1pt}{0pt plus 1pt minus 1pt}
+# header-includes:
+# - \usepackage{pdflscape}
+# - \newcommand{\blandscape}{\begin{landscape}}
+# - \newcommand{\elandscape}{\end{landscape}}
+output: pdf_document
+# output: 
+#   pdf_document:
+#     fig_caption: yes   
+# classoption: 
+#   landscape
+---
+
+```{r setup_slo2, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(tidyverse)
+# library(gridExtra)
+library(kableExtra)
+# library(egg)
+# library(magick)
+# library(citr)
+```
+
+
+```{r slo2, echo=FALSE,message = FALSE,warning=FALSE}
+sl_outcomes_2 <- read_csv("./secondary_outcomes.csv") %>% 
+  replace_na(list(X1="")) %>% 
+  rename("Competency"="X1")
+landscape(kable(sl_outcomes_2,
+                caption="\\textbf{Secondary Student Learning Outcomes (SLOs):
+ International Student Learning Outcomes (for N co-designation)}",
+      # digits = 2,
+      align="l",
+      format="latex",
+      row.names = FALSE,
+      escape= TRUE,
+      booktabs=T,
+      linesep = "",
+      ) %>% 
+  kable_paper(full_width = F) %>%
+  kable_styling(bootstrap_options = c("hover"),
+                full_width = T,
+                latex_options="scale_down",
+                font_size = 8,
+                position = "left")) %>% 
+  # column_spec(1, width = "10em") %>%
+  # column_spec(2, width = "28em") %>%
+  # column_spec(3, width = "15em") %>% 
+  # column_spec(4, width = "3em") %>% 
+  row_spec(0,hline_after = F, bold=T) %>% 
+  row_spec(c(1:2),hline_after = T) 
+
+```

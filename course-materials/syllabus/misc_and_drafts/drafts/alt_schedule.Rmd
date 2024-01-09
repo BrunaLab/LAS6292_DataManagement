@@ -1,0 +1,389 @@
+---
+title: 'Syllabus'
+author: "Emilio M. Bruna"
+date: "`r format(Sys.time(), '%Y')`"
+web: www.BrunaLab.org
+github: embruna
+twitter: https://twitter.com/BrunaLab
+phone: (352) 514-3935
+email: embruna@ufl.edu
+geometry: margin=1in
+fontsize: 12pt
+linkcolor: blue
+urlcolor: blue
+site: bookdown::bookdown_site
+header-includes:
+- \usepackage{fancyhdr}
+- \pagestyle{fancy}
+- \fancyfoot{}
+- \fancyhead[R]{Syllabus, p. \thepage}
+- \fancyhead[L]{IDS 2935 - Rain Forests (`r format(Sys.time(), '%Y')`)}
+- \usepackage[default]{sourcesanspro}
+- \usepackage[colorlinks=true, urlcolor=blue, linkcolor=red]{hyperref}
+- \usepackage{parskip}
+- \usepackage{caption}
+- \usepackage{xcolor}
+- \AtBeginDocument{\let\maketitle\relax}
+# - \usepackage{sectsty} \allsectionsfont{\raggedright}
+- \usepackage{sectsty} \sectionfont{\centering}
+- \usepackage{titlesec}
+- \titlespacing{\section}{0pt}{12pt plus 2pt minus 1pt}{0pt plus 1pt minus 1pt}
+- \titlespacing{\subsection}{0pt}{12pt plus 2pt minus 1pt}{0pt plus 1pt minus 1pt}
+- \titlespacing{\subsubsection}{0pt}{12pt plus 2pt minus 1pt}{0pt plus 1pt minus 1pt}
+classoption:
+- twocolumn
+output: pdf_document
+  # word_document: default
+#   html_document
+# weight: 5
+    # df_print: paged
+---
+
+```{r setup_syllabus, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(tidyverse)
+library(kableExtra)
+library(tidyverse)
+```
+
+# The Future of Rain Forests
+
+## IDS 2935 - Quest 2 - Fall 2022
+\vspace{0.6cm} 
+
+## Course Description & Information
+\vspace{0.3cm} 
+
+Tropical Rain Forests cover approximately 15% of the Earth’s land surface but contain over 50% of the world’s biodiversity. They are also the home to millions of people, the source of products central to our lives, shape global climate, and are being cleared at unprecedented rates. Students in this class will investigate the same fundamental questions asked by scientists that study rain forests: Why are we fascinated by rain forests? How have stereotypes about them permeated everything from pop culture to international relations? What gave rise to their remarkable biodiversity? What are the drivers and consequences of deforestation? Is rain forest conservation compatible with socioeconomic development? 
+
+**By the end of the course students will be able to:**  
+
+* Recognize and describe stereotypes about rain forests & their residents
+* Analyze rain forest tropes in art, literature, & popular culture
+* Discuss & evaluate hypotheses for the origins and maintenance of tropical biodiversity
+* Explain & compare human history in rain forests
+* Review contemporary threats to rain forests
+* Analyze and visualize data on deforestation
+* Review and contrast strategies for rain forest conservation & restoration
+* Identify rain forests in their daily lives & set personal goals for advancing their conservation
+* Produce materials for communicating about rain forests to family and peers
+
+### Class Day, Time, & Location 
+
+\vspace{0.3cm}
+> **Tuesday Period 3** (9:35 - 10:25 AM) in LIT-0237 _and_  
+> **Thursday Periods 3-4** (9:35 - 11:30 AM) in MAEB-0211. 
+
+**Instructor:** Dr. Emilio M. Bruna  
+
+<!-- \vspace{0.3cm} -->
+<!-- &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**Dr. Emilio M. Bruna**   -->
+
++ **email:** embruna@ufl.edu [email messages via the course Canvas page are preferred]
++ **Phone**: (352) 846-0634
++ **Office Location & Drop-In Hours**: Wednesday and Friday 10:30 am - 12 noon in the Tropical Ecology & Conservation Lab, 711 Newell Drive (for a map to the lab click the "Contact" link at [BrunaLab.org](http://brunalab.org)). You can come to drop-in hours in person or via Zoom (link on class canvas page). If you like, you _sign can up for a specific time slot in advance at [embruna.youcanbook.me](https://embruna.youcanbook.me)_. If you can't make it on those days/times let me know and we will find a time that works for you.  
+
+**Teaching Assistant:** Thomas Smith
+<!-- \vspace{0.3cm} -->
+<!-- &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**Thomas Smith**   -->
+
++ **email:** thomassmith@ufl.edu  [email via the course Canvas page is preferred]
++ **Office Location & Office Hours**: Wednesday 11 am - 12:30 pm in the Tropical Ecology & Conservation Lab (same location as Dr. Bruna) and zoom or by appointment 
+
+### Why should you come to Drop-In Hours?
+\vspace{0.3cm}
+
+  * To introduce yourself
+  * Because there is _free tea, coffee, or espresso in our lab kitchen_
+  * To get clarification on assignments
+  * It's an opportunity to discuss topics that came up in class 
+  * You can check to make sure you understood the key points from a class session
+  * We can give you feedback on ideas for course projects
+  * Get advice on successfully navigating college
+  * Ask questions about how to gain experience for your post-graduation goals
+  * To get help arranging a study group
+  * _You don't need a reason...just come on by._
+
+**Required & Recommended Course Materials**: All course materials, including readings and videos, will be made available on the course Canvas page. However, many of the assigned articles from the New York Times have dynamic multimedia data visualizations and video that can't be appreciated in pdf format. _Students in this class should sign up for free online access to the NY Times by following the instructions at [this UF Libraries Website](https://businesslibrary.uflib.ufl.edu/c.php?g=943928&p=7708734)._
+
+**Materials and Supplies Fees**: There are no additional fees for this course. 
+
+### **GenEd Information**  
+\vspace{0.3cm}
+* **Primary Designation**: Biological Sciences
+* **Secondary Designation (if seeking)**: International (N)
+* **Writing Designation**: None
+* _A minimum grade of C is required for general education credit_
+* More detailed GenEd and Quest Course Goals and Student Learning Objectives are below
+
+
+::: {}
+  ::: {.column width="30%"}
+    "Students Requiring Accommodation"
+  :::
+  ::: {.column width="70%"}
+    "Students with disabilities or learning barriers that would like to request academic accommodations should connect with the Disability Resource Center by visiting \\url{https://disability.ufl.edu/students/get-started/}. Please share your letter with me and discuss access needs as early as possible in the semester so that I can do whatever is necessary to ensure your participation and learning."
+  :::
+:::
+
+```{r table1, echo=FALSE,message = FALSE,warning=FALSE}
+
+ 
+
+
+# 
+policy <- c("Students Requiring Accommodation",
+            "UF Evaluations Process",
+            "University Honesty Policy",
+            "Children in the Classroom",
+            "In-Class Recording"
+            )
+
+text <- c(
+  "Students with disabilities or learning barriers that would like to request academic accommodations should connect with the Disability Resource Center by visiting \\url{https://disability.ufl.edu/students/get-started/}. Please share your letter with me and discuss access needs as early as possible in the semester so that I can do whatever is necessary to ensure your participation and learning.",
+  "Students are expected to provide professional and respectful feedback on the quality of instruction in this course by completing course evaluations online via GatorEvals. Guidance on how to give feedback in a professional and respectful manner is available at \\url{https://gatorevals.aa.ufl.edu/students/}. Students will be notified when the evaluation period opens, and can complete evaluations through the email they receive from GatorEvals, in their Canvas course menu under GatorEvals, or via \\url{https://ufl.bluera.com/ufl}. Summaries of course evaluation results are available to students at \\url{https://gatorevals.aa.ufl.edu/public-results/}.",
+  "UF students are bound by The Honor Pledge which states, “We, the members of the University of Florida community, pledge to hold ourselves and our peers to the highest standards of honor and integrity by abiding by the Honor Code. On all work submitted for credit by students at the University of Florida, the following pledge is either required or implied: On my honor, I have neither given nor received unauthorized aid in doing this assignment. The Honor Code (\\url{https://www.dso.ufl.edu/sccr/process/student-conduct-honor-code/}) specifies a number of behaviors that are in violation of this code and the possible sanctions. Furthermore, you are obligated to report any condition that facilitates academic misconduct to appropriate personnel. If you have questions or concerns, consult with the instructor or TAs.",
+  "UF does not have a formal policy on children in the classroom. The following policy reflects my own perspective and commitment to student-parents.You and your nursing baby are welcome in class anytime. I never want students to feel like they have to choose between feeding their baby and continuing their education. Occasionally bringing a child to class because of a gap in care is perfectly acceptable. I understand that minor illnesses and unforeseen disruptions in childcare often put parents in the position of having to chose between attending class or staying home to care for them. Let me know in advance if at all possible. If you bring your child to class: Please sit close to the exit so that if your child needs attention you can more easily step outside until their needs have been met (and so other students can continue learning). Non-parents in the class, I ask that you please be willing to offer your seat near a door to parents as needed. Let me know how I can help. Finally, I understand that balancing school, childcare and perhaps even a job can be exhausting and a barrier to learning. I maintain the same high expectations for all students in my class, and will work with you to find ways you can balance your responsibilities as a parent and student.",
+  "Students are allowed to record video or audio of class lectures. However, the purposes for which these recordings may be used are strictly controlled. The only allowable purposes are:  $\\textbf{(1)}$ for personal educational use,  $\\textbf{(2)}$ in connection with a complaint to the university, or  $\\textbf{(3)}$ as evidence in, or in preparation for, a criminal or civil proceeding.  All other purposes are prohibited. Specifically, students may not publish recorded lectures without the written consent of the instructor. A 'class lecture' is: an educational presentation intended to inform or teach enrolled students about a particular subject, including any instructor-led discussions that form part of the presentation, and delivered by any instructor hired or appointed by the University, or by a guest instructor, as part of a University of Florida course. A class lecture does not include lab sessions, student presentations, clinical presentations such as patient history, academic exercises involving solely student participation, assessments (quizzes, tests, exams), field trips, private conversations between students in the class or between a student and the faculty or lecturer during a class session. Publication without permission of the instructor is prohibited. To 'publish' means to share, transmit, circulate, distribute, or provide access to a recording, regardless of format or medium, to another person (or persons), including but not limited to another student within the same class section. Additionally, a recording, or transcript of a recording, is considered published if it is posted on or uploaded to, in whole or in part, any media platform, including but not limited to social media, book, magazine, newspaper, leaflet, or third-party note/tutoring services. A student who publishes a recording without written consent may be subject to a civil cause of action instituted by a person injured by the publication and/or discipline under UF Regulation 4.040 Student Honor Code and Student Conduct Code."
+)
+
+# text <- c("Students with disabilities or learning barriers that would like to request academic accommodations should connect with the Disability Resource Center by visiting https://disability.ufl.edu/students/get-started/. Please share your letter with me and discuss access needs as early as possible in the semester so that I can do whatever is necessary to ensure your participation and learning.",
+#           "Students are expected to provide professional and respectful feedback on the quality of instruction in this course by completing course evaluations online via GatorEvals. Guidance on how to give feedback in a professional and respectful manner is available at https://gatorevals.aa.ufl.edu/students/. Students will be notified when the evaluation period opens, and can complete evaluations through the email they receive from GatorEvals, in their Canvas course menu under GatorEvals, or via https://ufl.bluera.com/ufl/. Summaries of course evaluation results are available to students at https://gatorevals.aa.ufl.edu/public-results/.",
+#           "UF students are bound by The Honor Pledge which states, “We, the members of the University of Florida community, pledge to hold ourselves and our peers to the highest standards of honor and integrity by abiding by the Honor Code. On all work submitted for credit by students at the University of Florida, the following pledge is either required or implied: On my honor, I have neither given nor received unauthorized aid in doing this assignment. The Honor Code (https://www.dso.ufl.edu/sccr/process/student-conduct-honor-code/) specifies a number of behaviors that are in violation of this code and the possible sanctions. Furthermore, you are obligated to report any condition that facilitates academic misconduct to appropriate personnel. If you have questions or concerns, consult with the instructor or TAs.",
+#           "UF does not have a formal policy on children in the classroom. The following policy reflects my own perspective and commitment to student-parents.You and your nursing baby are welcome in class anytime. I never want students to feel like they have to choose between feeding their baby and continuing their education. Occasionally bringing a child to class because of a gap in care is perfectly acceptable. I understand that minor illnesses and unforeseen disruptions in childcare often put parents in the position of having to chose between attending class or staying home to care for them. Let me know in advance if at all possible. If you bring your child to class: Please sit close to the exit so that if your child needs attention you can more easily step outside until their needs have been met (and so other students can continue learning). Non-parents in the class, I ask that you please be willing to offer your seat near a door to parents as needed. Let me know how I can help. Finally, I understand that balancing school, childcare and perhaps even a job can be exhausting and a barrier to learning. I maintain the same high expectations for all students in my class, and will work with you to find ways you can balance your responsibilities as a parent and student.",
+#           "Students are allowed to record video or audio of class lectures. However, the purposes for which these recordings may be used are strictly controlled. The only allowable purposes are:  $\\textbf(1) for personal educational use,  (2) in connection with a complaint to the university, or  (3) as evidence in, or in preparation for, a criminal or civil proceeding.  All other purposes are prohibited. Specifically, students may not publish recorded lectures without the written consent of the instructor. A 'class lecture' is: an educational presentation intended to inform or teach enrolled students about a particular subject, including any instructor-led discussions that form part of the presentation, and delivered by any instructor hired or appointed by the University, or by a guest instructor, as part of a University of Florida course. A class lecture does not include lab sessions, student presentations, clinical presentations such as patient history, academic exercises involving solely student participation, assessments (quizzes, tests, exams), field trips, private conversations between students in the class or between a student and the faculty or lecturer during a class session. Publication without permission of the instructor is prohibited. To 'publish' means to share, transmit, circulate, distribute, or provide access to a recording, regardless of format or medium, to another person (or persons), including but not limited to another student within the same class section. Additionally, a recording, or transcript of a recording, is considered published if it is posted on or uploaded to, in whole or in part, any media platform, including but not limited to social media, book, magazine, newspaper, leaflet, or third-party note/tutoring services. A student who publishes a recording without written consent may be subject to a civil cause of action instituted by a person injured by the publication and/or discipline under UF Regulation 4.040 Student Honor Code and Student Conduct Code."
+#           )
+
+
+# "",
+# ""
+class_policies <- data.frame(policy, text)
+
+# class_policies <- read_csv("./class_materials/syllabus/course_schedule/policies.csv")
+
+kable(class_policies,
+      # digits = 2,
+      align="cl",
+      format="latex",
+      row.names = FALSE,
+      escape= F,
+      booktabs=T,
+      linesep = "",
+      # caption="Graded Coursework"
+      ) %>% 
+   kable_classic_2(full_width = T,
+                latex_options="scale_down",
+                font_size = 12,
+                position = "left") %>% 
+  column_spec(1, width = "10em", bold=T, color="red") %>%
+  column_spec(2, width = "48em", background = "gray") 
+# %>%
+#   # column_spec(3, width = "5em") %>% 
+#   column_spec(3, width = "6em") %>% 
+#   row_spec(0,hline_after = F, bold=T) %>% 
+#   row_spec(c(1:5),hline_after = T) %>% 
+#   row_spec(6,bold=T) %>% 
+#   add_indent(6)
+
+
+```
+
+## Graded Coursework
+
+
+<!-- \captionsetup[table]{labelformat=empty} -->
+<!-- \definecolor{darkmidnightblue}{HTML}{003366} -->
+<!-- \captionsetup{labelformat=empty,font={color=darkmidnightblue,bf,large}} -->
+
+\vspace{0.3cm} 
+```{r assign, echo=FALSE,message = FALSE,warning=FALSE}
+assignments <- read_csv("./assignments.csv") 
+
+df2<- c("","","",sum(assignments$Points)) 
+df2<-as.character(df2)
+df2[4]<-paste("TOTAL = ",df2[4],sep="")
+assignments <- rbind(assignments,df2)
+assignments <-assignments %>% select(-Due)
+
+
+# landscape()
+# assignments[5, 3]<-cell_spec(assignments[6, 3], "latex",  align="c")
+kable(assignments,
+      # digits = 2,
+      align="llc",
+      format="latex",
+      row.names = FALSE,
+      escape= F,
+      booktabs=T,
+      linesep = "",
+      # caption="Graded Coursework"
+      ) %>% 
+   kable_classic_2(full_width = T,
+                latex_options="scale_down",
+                font_size = 8,
+                position = "left") %>% 
+  column_spec(1, width = "10em") %>%
+  column_spec(2, width = "18em") %>%
+  # column_spec(3, width = "5em") %>% 
+  column_spec(3, width = "6em") %>% 
+  row_spec(0,hline_after = F, bold=T) %>% 
+  row_spec(c(1:5),hline_after = T) %>% 
+  row_spec(6,bold=T) %>% 
+  add_indent(6)
+
+```
+
+<!-- In-class assignments -->
+<!-- 1. Day 1 Survey (Y/N Grade) -->
+<!-- 1. Text Analysis - Historical -->
+<!-- 1. Photo/Lit Analysis -->
+<!-- 1. Video analysis: comparison of LLP and Tropical Forest structure  -->
+<!-- 1. Photo Safari - FLMNH -->
+<!-- 1. Diversity/Abundance Data Analysis -->
+<!-- 1. Movie Bingo  (Y/N Grade) -->
+<!-- 1. Geography Quiz  (Y/N Grade) -->
+<!-- 1. PCE Violations -->
+<!-- 1. (Relative) Species Diversity in Different Groups -->
+<!-- 1. What is a forest?  (Y/N Grade) -->
+<!-- 1. Durian Fest   (Y/N Grade) -->
+<!-- 1. Rural Pop Data Analysis -->
+<!-- 1. Community Conservation Negotiation  (Y/N Grade) -->
+<!-- 1. Deforestation Data Analysis -->
+<!-- 1. Palm Oil Stakeholder Analysis  (Y/N Grade) -->
+<!-- 1. Show your stripes  (Y/N Grade) -->
+<!-- 1. Q for Journalist  (Y/N Grade) -->
+<!-- 1. En-roads Group Dashboard  (Y/N Grade) -->
+<!-- 1. Conservation Values Survey  (Y/N Grade) -->
+<!-- ### **Weekly Course Schedule**  -->
+<!-- ## Semester Overview & Key Dates -->
+\vspace{0.1cm}
+
+<!-- \captionsetup[table]{labelformat=empty} -->
+\definecolor{darkmidnightblue}{HTML}{003366}
+\captionsetup{labelformat=empty,font={color=darkmidnightblue,bf,large}}
+
+```{r course_calendar, echo=FALSE,message = FALSE,warning=FALSE}
+calendar <- read_csv("./course_schedule_short.csv") %>% 
+  # calendar <- calendar %>% 
+  mutate(WEEK=paste(Week1,WEEK,sep=" ")) %>% 
+  select(-X1,-Week1) %>% 
+  mutate(DATE=paste(Day,Month,sep="-")) %>% 
+  mutate(SESSION=as.character(SESSION)) %>% 
+  select(WEEK,SESSION,DATE,TOPIC, `ASSIGNMENT DISTRIBUTED or DUE`) %>% 
+  replace_na(list(DATE="",WEEK="",SESSION="", TOPIC="", `ASSIGNMENT DISTRIBUTED or DUE`="")) %>% 
+  rename(" "="SESSION") 
+  
+
+calendar$WEEK <- gsub("NA NA","", calendar$WEEK)
+calendar$DATE <- gsub("NA-NA","", calendar$DATE)
+calendar$WEEK <- gsub("NA Final Exam","", calendar$WEEK)
+calendar$WEEK <- gsub("Finals Week NA","Finals Week", calendar$WEEK)
+# names(calendar) <- c("","","")
+
+kable(calendar,
+      # digits = 2,
+      align="l",
+      format="latex",
+      row.names = FALSE,
+      escape= TRUE,
+      booktabs=T,
+      linesep = "",
+      caption = "Semester Overview and Key Dates"
+      ) %>% 
+    kable_styling(font_size = 50) %>%
+    gsub("font-size: initial !important;", 
+         "font-size: 50pt !important;", 
+         .) %>% 
+  kable_paper(full_width = ) %>%
+  # column_spec(1, bold = F, border_right = T) %>%
+  # column_spec(2, width = "5em", background = "white",border_right = T) %>% 
+  pack_rows("WHY ARE WE FASCINATED BY TROPICAL RAIN FORESTS?", 1, 6) %>%
+  pack_rows("THE ECOLOGY & EVOLUTION OF TROPICAL RAIN FORESTS", 7, 21) %>%
+  pack_rows("THE DRIVERS AND IMPACTS OF DEFORESTATION", 22, 30) %>%
+  pack_rows("THE FUTURE OF TROPICAL RAIN FORESTS", 31, 48) %>%
+  # pack_rows("Finals Week", 49, 49) %>%
+  kable_styling(bootstrap_options = c("hover"),
+                full_width = T,
+                latex_options="scale_down", 
+                font_size = 8,
+                position = "left") %>% 
+  column_spec(1, width = "6em") %>%
+  column_spec(2, width = "1em") %>%
+  column_spec(3, width = "4em") %>%
+  column_spec(4, width = "23em") %>% 
+  column_spec(5, bold=T) %>% 
+  row_spec(0, bold=T) %>% 
+  row_spec(49, bold=T) 
+# %>% 
+#   add_header_above(c("Semester Overview & Key Dates" = 5), bold=T,color= '#003366')
+
+# column_spec(3, width = "15em") %>%
+# column_spec(4, width = "3em") %>%
+# row_spec(0,hline_after = F, bold=T) %>%
+# row_spec(c(1:2),hline_after = T)
+
+```
+
+## Course Policies
+\vspace{0.1cm} 
+### Grading, Attendance, and Participation
+\vspace{0.3cm} 
+Requirements for class attendance and make-up exams, assignments, and other work in this course are consistent with university policies that can be found at: https://catalog.ufl.edu/UGRD/academic-regulations/attendance-policies/  
+
+**_Attendance:_** Though attendance is not required, many of the sessions we will be completing activities in class that count towards your grade. Most of these can be completed independently, but by doing them in class you will benefit from working collaboratively with the other students. _Some of the in-class activities, however, can not be completed on your own._ If you miss class on one one of these days, you can elect to make up the lost points with extra-credit assignments.  **_If you need to miss class for any reason, please let me know as soon as possible_**. We will make arrangements for you to complete any assignments and go over any material you will be missing. I would much rather you focus on your health, attend your conference, or support friends and family in need than struggle to turn in assignments. 
+
+**_Participation:_** Consistent informed, thoughtful, and considerate class participation is encouraged (and in some cases required). If you have personal issues that prohibit you from joining freely in class discussion, e.g., shyness, language barriers, etc., that is not a problem. Please me know me as soon as possible and we will discuss alternative modes of participation.  
+
+**_Grade Assignment_** (based on % of possible points):
+
+\vspace{0.3cm}
+> A = 94–100%, A- = 90–93%  
+> B+ = 87–89%, B = 84–86%, B- = 80–83%  
+> C+ = 77–79%, C = 74–76%, C- = 70–73%   
+> D+ = 67–69%, D = 64–66%, D- = 60–63%  
+> E	< 60  
+
+**_Regrades:_** Requests for re-evaluation of any quizzes, exams, or assignments will only be considered if accompanied by a letter explaining why you think you deserve additional credit and the number of additional points you think you deserve.  The deadline for submitting these requests is one week after the work has been returned.
+
+**_Grade Points:_** For information on how UF assigns grade points, visit: https://catalog.ufl.edu/UGRD/academic-regulations/grades-grading-policies/
+    
+<!-- ## Quest Learning Experiences -->
+<!-- \vspace{0.3cm}  -->
+<!-- **Experiential Learning Component**: This course has multiple experiential learning activities, including a field trip to the FLMNH Butterfly Rain Forest, home surveys of tropical products, and the gathering and analysis of data on deforestation and biodiversity in different tropical rain forest regions.  -->
+
+<!-- **Self-Reflection Component**: Students will also have multiple opportunities for self-reflection throughout the course. In addition to reflection on their goals and expectations for the class, they will consider the (almost certainly under-appreciated) ubiquity of products derived from tropical plants and animals in their daily lives. Finally, they will have the opportunity to consider what actions they can take as individuals to advance rain forest conservation and the well-being of forest-dependent people. -->
+
+### Class Discussions & Group Work
+\vspace{0.3cm}
+Learning in our class will be achieved in part via work carried out with groups of fellow students. This will require structured and unstructured discussions and dialogues within and between groups, where we will explore some challenging, important problems and increase our understandings of different perspectives and approaches for addressing them. These conversations may not always be easy; we sometimes will make mistakes in both how we communicate our perspective and what we hear other say. There may be times when we need patience,  courage, imagination, and of course mutual respect to engage our texts, classmates, instructors, guests, and our own ideas and experiences. _Disrespectful or disruptive behavior will not be tolerated_. And always remember that as scholars we must employ critical thinking, rely on data, and cite verifiable sources and experts to interrogate all assigned readings and subject matter in this course as a means of determining if we agree with classmates and instructors. No lesson is intended to espouse, promote, advance, inculcate, or compel a particular feeling, perception, viewpoint or belief.
+
+
+
+## UF Resources for Students 
+\vspace{0.3cm}
+**U Matter, We Care:** If you or someone you know is in distress, please contact umatter@ufl.edu, 352-392-1575, or visit [U Matter, We Care website](https://umatter.ufl.edu/) to refer or report a concern and a team member will reach out to the student in distress.
+    
+**Counseling and Wellness Center:** Visit the [Counseling and Wellness Center website](https://counseling.ufl.edu/) or call 352-392-1575 for information on crisis services as well as non-crisis services. 
+
+**Student Health Care Center:** Call 352-392-1161 for 24/7 information to help you find the care you need, or visit the [Student Health Care Center website](https://shcc.ufl.edu/). 
+
+**University Police Department:** Visit [UF Police Department website](https://police.ufl.edu/) or call 352-392-1111 (or 9-1-1 for emergencies). 
+
+**UF Health Shands Emergency Room / Trauma Center:** For immediate medical care call 352-733-0111 or go to the emergency room at 1515 SW Archer Road, Gainesville, FL 32608; Visit the [UF Health Emergency Room and Trauma Center website](https://ufhealth.org/emergency-room-trauma-center).
+
+**Field and Fork Pantry**: The Hitchcock Pantry can provide food and toiletries for students experiencing food insecurity.  https://pantry.fieldandfork.ufl.edu/.
+
+**The Writing Studio**: The writing studio is committed to helping University of Florida students meet their academic and professional goals by becoming better writers. Visit the writing studio online at http://writing.ufl.edu/writing-studio/ or in 2215 Turlington Hall for one-on-one consultations and workshops.  
+
+<!-- ## General Education and Quest SLOs/Objectives -->
+<!-- \vspace{0.3cm}  -->
+<!-- **Course Objectives — GenEd Primary Area & Quest ** -->
+
+<!-- **Course Student Learning Outcomes (SLOs) — GenEd Primary Area & Quest ** -->
+
+<!-- **Secondary Objectives and SLOs (Optional)** -->
+
+<!-- * International Objectives (for N co-designation) -->
+
+<!-- * International Student Learning Outcomes (for N co-designation) -->
+

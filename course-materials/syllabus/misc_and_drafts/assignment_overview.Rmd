@@ -1,0 +1,81 @@
+---
+title: "Syllabus"
+author: "Emilio M. Bruna"
+date: "`r format(Sys.time(), '%Y')`"
+output: pdf_document
+github: embruna
+twitter: https://twitter.com/BrunaLab
+phone: "(352) 514-3935"
+email: embruna@ufl.edu
+geometry: margin=0.75in
+linkcolor: blue
+urlcolor: blue
+header-includes:
+- \usepackage{fancyhdr}
+- \pagestyle{fancy}
+- \fancyfoot{}
+- \usepackage[default]{sourcesanspro}
+- \usepackage{parskip}
+- \usepackage{geometry}
+- \usepackage{caption}
+- \usepackage{xcolor}
+- \definecolor{green}{RGB}{0,102,0}
+- \definecolor{blue}{RGB}{0, 0, 139}
+- \definecolor{darkcerulean}{rgb}{0.03, 0.27, 0.49}
+- \definecolor{darkmidnightblue}{rgb}{0.0, 0.2, 0.4}
+- \AtBeginDocument{\let\maketitle\relax}
+- \usepackage[none]{hyphenat}
+- \usepackage[document]{ragged2e}
+- \usepackage{graphicx}
+- \usepackage{sectsty}\allsectionsfont{\raggedright}
+- \usepackage{sectsty}\sectionfont{\centering\color{darkmidnightblue}}
+- \usepackage{sectsty}\subsectionfont{\centering\color{darkmidnightblue}}
+- \usepackage{titlesec}
+- \usepackage[export]{adjustbox}
+- \titlespacing{\section}{0pt}{22pt plus 2pt minus 1pt}{0pt plus 1pt minus 1pt}
+- \titlespacing{\subsection}{0pt}{12pt plus 2pt minus 1pt}{0pt plus 1pt minus 1pt}
+- \titlespacing{\subsubsection}{0pt}{12pt plus 2pt minus 1pt}{0pt plus 1pt minus 1pt}
+web: www.BrunaLab.org
+---
+
+```{r assignments, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(tidyverse)
+library(fontawesome)
+library(flextable)
+library(kableExtra)
+```
+
+\newpage
+
+# Overview of Activities and Assignments
+<!-- &nbsp; -->
+<!-- \setlength{\leftskip}{1cm} -->
+<!-- \setlength{\rightskip}{1.5cm}  -->
+
+The experiential learning activities include a field trip to the FLMNH's Butterfly Rain Forest, home surveys of tropical products, and the gathering and analysis of data on deforestation and biodiversity in different tropical countries. The self-reflection activities include opportunities to consider your goals and expectations for the class, the under-appreciated ubiquity of products derived from rain forest plants and animals in our daily lives, and actions we can take as individuals to advance rain forest conservation and the well-being of all forest-dependent people.
+
+\textbf{\color{green}In-class activities:} In-class exercises are designed to reinforce key concepts from readings and lectures, discuss the assigned readings, and learn/practice skills that will be used in the analytical essays or the final project. Some are completed individually, while others require working in groups or pairs. Activities range from analyzing tropical images in works of art to graphing species diversity data to negotiating priority areas for conservation with other groups. Each activity has instructions and a rubric that defines what is required for submission and how grades are assigned; they are designed to be completed in class with the assistance of classmates, the TA, and instructor. Although there will be an in-class activity every class session, only the 20 with the highest score will be included in the final grade.  
+
+\textbf{\color{green}Movie Reviews:}  Your assignment is to watch three films set in tropical rain forests and briefly explain how the rain forest setting is presented and advances each film’s narrative. Your review should not be a summary of the film and its plot (i.e., a descriptive review) or an overall judgment of whether the film is "good" or "bad" (i.e., an evaluative review). Start by documenting the rain forest tropes we discussed in class for each film using the Trope Checklist on the course website, then explain how each film's use of these tropes reinforces or subverts one or more of the historical stereotypes about rain forests and the people that live in them that we discussed in class. Support your claims with specific examples drawn from the movie’s plot, characters, visuals, or use of sound.  
+
+\textbf{\color{green}Analytic Essay:} Brazil and Indonesia are two of the countries that have the most tropical forest within their borders. Consequently, considerable attention is paid to documenting trends in forest loss in these countries, as well as in trying to infer the internal and external factors - economic, social, political - that might be responsible for any changes in the rates of deforestation over time. Your assignment is to (1) calculate and compare deforestation in Brazil and Indonesia from 2001-2021, and (2) identify the factors that are most likely responsible for the observed trends. [Note: this was the essay for Fall 2022, it will be modified in subsequent years as appropriate].   
+
+\textbf{\color{green}Final Project:} To develop materials to communicate information about rain forests with either (a) UF undergraduates or (b) members of your family. This project requires identifying the message and its importance with the COMPASS 'Message Box', developing a tool for communicating the message to your chosen audience (e.g., infographic, video message, paintings or works of art, social media posts), and a brief reflection on the process, product, and efficacy. [Note: The complete assignment includes a thorough description of the COMPASS Message Box, a long list of potential projects with templates, and examples of previous submissions. It is designed to encourage student creativity].  
+
+\textbf{\color{green}Quest - Experiential Learning Component:}  This course includes multiple experiential learning components, including: (1). An in-home palm oil survey: Students will go through their homes and survey for products they use at least 1-2 times per week that contain palm oil or palm oil derivatives. (2) A Photo Safari at the FLMNH Florida Butterfly Rain Forest: Students will search for examples of plants that are representative of different pollination syndromes and represent different leaf forms. (3) Research on temporal trends in tropical deforestation: Students will gather and analyze data comparing the rates of deforestation in tropical countries and hypothesize as to the mechanisms responsible for the patterns.  
+
+<!-- \setlength{\leftskip}{1cm} -->
+\textbf{\color{green}Quest - Self-Reflection Component:} Students will have multiple opportunities to write brief self-reflection essays, including:  (1) A reflection on what you observed and learned from our simulations of global CO2 emissions under alternative policy scenarios using the En-ROADS simulation platform. Having experimented with simulated alternatives for reducing global CO2, please reflect critically on what you observed and learned from our “climate negotiations”. What trends give you hope that your proposals are possible? What can you personally do to help create the necessary changes? Which of the proposals do you favor and why? Things to keep in mind for your responses and reflection include how well do you think your proposal does in meeting the Paris climate goals, how would the economy be different at different points in the future under your proposal, and what it would it take for your proposal to be realized.  (2) Now that semester has ended, take time to reflect critically on the following: (1) what have you learned from your readings, discussions, and preparing your course project about the challenge of communicating about tropical rain forests to audiences that may not know much about them? (2) What actions could you take going forward that to advance rain forest conservation? How likely are you to take them, and what is motivating or hindering your actions?
+
+<!-- --- -->
+
+
+<!-- ```{r vine, echo=FALSE, include=TRUE,fig.cap="", out.width = '7%', fig.align="center" } -->
+<!-- # knitr::include_graphics("./course_schedule/icons/vine.png") -->
+<!-- knitr::include_graphics("./icons/vine.png") -->
+<!-- ``` -->
+
+<!-- ---  -->
+
+\newpage

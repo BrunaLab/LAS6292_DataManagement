@@ -1,0 +1,196 @@
+---
+title: 'Syllabus'
+author: "Emilio M. Bruna"
+date: "`r format(Sys.time(), '%Y')`"
+web: www.BrunaLab.org
+github: embruna
+twitter: https://twitter.com/BrunaLab
+phone: (352) 514-3935
+email: embruna@ufl.edu
+geometry: margin=0.25in
+# fontsize: 12pt
+linkcolor: blue
+urlcolor: blue
+# site: bookdown::bookdown_site
+header-includes:
+- \usepackage{fancyhdr}
+- \pagestyle{fancy}
+- \fancyfoot{}
+# - \fancyhead[R]{Syllabus, p. \thepage}
+# - \fancyhead[L]{IDS 2935 - Rain Forests (`r format(Sys.time(), '%Y')`)}
+- \usepackage[default]{sourcesanspro}
+- \usepackage{parskip}
+- \usepackage{caption}
+- \usepackage{xcolor}
+- \definecolor{green}{RGB}{0,102,0}
+- \AtBeginDocument{\let\maketitle\relax}
+- \usepackage[none]{hyphenat}
+- \usepackage[document]{ragged2e}
+# - \usepackage{sectsty} \allsectionsfont{\raggedright}
+- \usepackage{sectsty} \sectionfont{\centering}
+- \usepackage{titlesec}
+- \titlespacing{\section}{0pt}{12pt plus 2pt minus 1pt}{0pt plus 1pt minus 1pt}
+- \titlespacing{\subsection}{0pt}{12pt plus 2pt minus 1pt}{0pt plus 1pt minus 1pt}
+- \titlespacing{\subsubsection}{0pt}{12pt plus 2pt minus 1pt}{0pt plus 1pt minus 1pt}
+output: pdf_document
+  # word_document: default
+# output: html_document
+# weight: 5
+    # df_print: paged
+---
+
+```{r setup_resources, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(tidyverse)
+library(kableExtra)
+library(tidyverse)
+```
+
+<!-- ```{r, echo=FALSE, out.width="10%"} -->
+<!-- knitr::include_graphics("logo.png") -->
+<!-- ``` -->
+
+UF Resources for Students 
+Students experiencing crises or personal problems that interfere with their general wellbeing are encouraged to utilize the university’s counseling resources. The Counseling & Wellness Center provides confidential counseling services at no cost for currently enrolled students. Resources are available on campus for students having personal problems or lacking clear career or academic goals, which interfere with their academic performance.
+
+•	University Counseling & Wellness Center, 3190 Radio Road, 352-392-1575. They can provide Counseling Services, Groups and Workshops, Outreach and Consultation, a Self-Help Library, and Wellness Coaching. http://www.counseling.ufl.edu/.
+
+•	U Matter, We Care: If you or someone you know is in distress, please contact umatter@ufl.edu, 352-392-1575, or visit U Matter, We Care website (www.umatter.ufl.edu/) to refer or report a concern and a team member will reach out to the student in distress. 
+
+•	Student Health Care Center: Call 352-392-1161 for 24/7 information to help you find the care you need, or visit the Student Health Care Center website. 
+
+•	University Police Department: Visit UF Police Department website or call 352-392-1111 (or 9-1-1 for emergencies). 
+
+•	UF Health Shands Emergency Room / Trauma Center: For immediate medical care call 352- 733-0111 or go to the emergency room at 1515 SW Archer Road, Gainesville, FL 32608; Visit the UF Health Emergency Room and Trauma Center website. 
+
+•	Field and Fork Pantry: The Hitchcock Pantry can provide food and toiletries for students experi- encing food insecurity. https://pantry.fieldandfork.ufl.edu/. 
+
+•	The Writing Studio: The writing studio is committed to helping University of Florida students meet their academic and professional goals by becoming better writers. Visit the writing stu- dio online at http://writing.ufl.edu/writing-studio/ or in 2215 Turlington Hall for one-on-one consultations and workshops. 
+
+•	Career Connections Center, First Floor JWRU, 392-1601, https://career.ufl.edu/. 
+
+•	Student Success Initiative, http://studentsuccess.ufl.edu. 
+
+•	Student Complaints: 
+o	Residential Course: https://sccr.dso.ufl.edu/policies/student-honor-code-studentconduct-code/. 
+o	Online Course: https://pfs.tnt.aa.ufl.edu/state-authorization-status/#student-complaint
+
+
+<!-- \begin{minipage}[t]{0.05\textwidth} -->
+<!-- COL 1 \\ -->
+<!-- \end{minipage} -->
+<!-- \begin{minipage}[t]{0.95\textwidth} -->
+<!-- COURSE AND UNIVERSITY POLICIES\\ -->
+<!-- \end{minipage} -->
+
+```{r slos, echo=FALSE,message = FALSE,warning=FALSE}
+slo1a<- c("")
+slo1b<- c("")
+slo1c<-c("")
+  
+slosa <- c("",slo1a,slo1b,slo1c,"",slo3a,slo3b,slo3c)
+slosb <- c("",slo4a,slo4b,slo4c,"",slo2a,slo2b,slo2c)
+
+slos <- data.frame(slosa, slosb)
+
+# class_policies <- read_csv("./class_materials/syllabus/course_schedule/policies.csv")
+# insert \n where you want line break, then run: 
+# class_policies$text <- linebreak(class_policies$text)
+# class_policies$policy <- linebreak(class_policies$policy)
+
+
+kable(slos,
+      # digits = 2,
+      align="cc",
+      format="latex",
+      row.names = FALSE,
+      escape= F,
+      booktabs=T,
+      linesep = "",
+      # caption="Student Learning Objectives",
+      col.names = NULL
+      ) %>% 
+   kable_classic_2(full_width = F,
+                # latex_options="scale_down",
+                font_size = 8,
+                position = "center") %>% 
+ column_spec(1, width = "26em", color = "white", background="green") %>% 
+column_spec(2, width = "26em", color = "black", background="white") %>% 
+row_spec(c(2,6),bold=T) %>% 
+  row_spec(c(3,7),italic =T) 
+
+# %>% 
+#   row_spec(1, image = "./logo.png")
+# %>%
+  # column_spec(2, width = "8em", color = "white", background = "blue") %>% 
+  # column_spec(3, width = "8em", color = "white", background = "gray") %>% 
+  # row_spec(1, bold=T) 
+# %>%
+#   # column_spec(3, width = "5em") %>% 
+#   column_spec(3, width = "6em") %>% 
+#   row_spec(0,hline_after = F, bold=T) %>% 
+#   row_spec(c(1:5),hline_after = T) %>% 
+#   row_spec(6,bold=T) %>% 
+#   add_indent(6)
+```
+
+
+<!-- ```{r table2, echo=FALSE,message = FALSE,warning=FALSE} -->
+<!-- policy <- c("Students Requiring Accommodation") -->
+<!-- text <- c( -->
+<!--   "Students with disabilities or learning barriers that would like to request academic accommodations should connect with the Disability Resource Center by visiting \\url{https://disability.ufl.edu/students/get-started/}. Please share your letter with me and discuss access needs as early as possible in the semester so that I can do whatever is necessary to ensure your participation and learning.") -->
+<!-- class_policies <- data.frame(policy, text) -->
+<!-- # class_policies <- read_csv("./class_materials/syllabus/course_schedule/policies.csv") -->
+
+<!-- kable(class_policies, -->
+<!--       # digits = 2, -->
+<!--       align="cl", -->
+<!--       format="latex", -->
+<!--       row.names = FALSE, -->
+<!--       escape= F, -->
+<!--       booktabs=T, -->
+<!--       linesep = "", -->
+<!--       col.names = NULL -->
+<!--       # caption="Graded Coursework" -->
+<!--       ) %>%  -->
+<!--    kable_classic_2(full_width = F, -->
+<!--                 # latex_options="scale_down", -->
+<!--                 font_size = 10, -->
+<!--                 position = "left") %>%  -->
+<!--   column_spec(1, width = "7em", color = "white", background="gray") %>%  -->
+<!--   column_spec(2, width = "45em", color = "black", background="white") %>%  -->
+<!--   sub("\\\\toprule", "", .) %>% # Removes top line -->
+<!--   sub("\\\\bottomrule", "", .) # remove bottom line -->
+<!-- ``` -->
+
+<!-- ---  -->
+
+<!-- ```{r table3, echo=FALSE,message = FALSE,warning=FALSE} -->
+
+<!-- policy <- c("Students Requiring Accommodation") -->
+<!-- text <- c( -->
+<!--   "Students with disabilities or learning barriers that would like to request academic accommodations should connect with the Disability Resource Center by visiting \\url{https://disability.ufl.edu/students/get-started/}. Please share your letter with me and discuss access needs as early as possible in the semester so that I can do whatever is necessary to ensure your participation and learning.") -->
+<!-- class_policies <- data.frame(policy, text) -->
+<!-- # class_policies <- read_csv("./class_materials/syllabus/course_schedule/policies.csv") -->
+
+<!-- kable(class_policies, -->
+<!--       # digits = 2, -->
+<!--       align="cl", -->
+<!--       format="latex", -->
+<!--       row.names = FALSE, -->
+<!--       escape= F, -->
+<!--       booktabs=T, -->
+<!--       linesep = "", -->
+<!--       col.names = NULL -->
+<!--       # caption="Graded Coursework" -->
+<!--       ) %>%  -->
+<!--    kable_classic_2(full_width = F, -->
+<!--                 # latex_options="scale_down", -->
+<!--                 font_size = 10, -->
+<!--                 position = "left") %>%  -->
+<!--   column_spec(1, width = "7em", color = "white", background="gray") %>%  -->
+<!--   column_spec(2, width = "45em", color = "black", background="white") %>%  -->
+<!--   sub("\\\\toprule", "", .) %>% # Removes top line -->
+<!--   sub("\\\\bottomrule", "", .) # remove bottom line -->
+
+<!-- ``` -->

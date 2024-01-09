@@ -1,0 +1,67 @@
+---
+title: "Syllabus"
+author: "Emilio M. Bruna"
+date: "`r format(Sys.time(), '%Y')`"
+# output:
+#   pdf_document: default
+#   word_document: default
+github: embruna
+twitter: https://twitter.com/BrunaLab
+phone: "(352) 514-3935"
+web: www.BrunaLab.org
+email: embruna@ufl.edu
+geometry: margin=0.87in
+fontsize: 11pt
+linkcolor: darkmidnightblue
+urlcolor: darkmidnightblue
+site: bookdown::bookdown_site
+header-includes:
+- \usepackage{fancyhdr}
+- \pagestyle{fancy}
+- \fancyfoot{}
+- \fancyhead[R]{Syllabus, p. \thepage}
+- \fancyhead[L]{IDS 2935 - Future of Rain Forests (`r format(Sys.time(), '%Y')`)}
+- \usepackage[default]{sourcesanspro}
+- \usepackage{parskip}
+- \usepackage{geometry}
+- \usepackage{caption}
+- \usepackage{xcolor}
+- \definecolor{green}{RGB}{0,102,0}
+- \definecolor{blue}{RGB}{0, 0, 139}
+- \definecolor{darkcerulean}{rgb}{0.03, 0.27, 0.49}
+- \definecolor{darkmidnightblue}{rgb}{0.0, 0.2, 0.4}
+- \definecolor{darkcerulean}{rgb}{0.03, 0.27, 0.49}
+- \AtBeginDocument{\let\maketitle\relax}
+- \usepackage[none]{hyphenat}
+- \usepackage{setspace}
+- \usepackage[document]{ragged2e}
+- \usepackage{graphicx}
+- \usepackage{sectsty}\allsectionsfont{\raggedright}
+- \usepackage{sectsty}\sectionfont{\centering\color{darkmidnightblue}}
+- \usepackage{sectsty}\subsectionfont{\centering\color{darkmidnightblue}}
+- \usepackage{titlesec}
+- \usepackage[export]{adjustbox}
+- \titlespacing{\section}{0pt}{24pt plus 2pt minus 1pt}{0pt plus 1pt minus 1pt}
+- \titlespacing{\subsection}{0pt}{12pt plus 2pt minus 1pt}{0pt plus 1pt minus 1pt}
+- \titlespacing{\subsubsection}{0pt}{12pt plus 2pt minus 1pt}{0pt plus 1pt minus 1pt}
+- \usepackage{floatrow}
+- \DeclareFloatSeparators{mysep}{\hskip-94em}
+
+  # - \floatsetup[figure]{capposition=beside,capbesideposition={left,top}}  
+- \floatsetup[figure]{capposition=beside,capbesidesep=mysep,capbesideposition={right, center}}
+output: pdf_document
+# knit: (function(inputFile, encoding) {
+#   rmarkdown::render(inputFile,
+#   output_file = "syllabus_LAS6292.pdf",
+#   encoding = encoding,
+#   output_dir = "./static/uploads")
+#   })
+---
+
+\definecolor{darkmidnightblue}{HTML}{003366}
+\captionsetup{labelformat=empty,font={color=darkmidnightblue,bf,large}}
+
+```{r, child=c('./course_outline.Rmd','./faq.Rmd','./policies.Rmd','./readings.Rmd')}
+```
+
+<!-- ,'./assignment_overview.Rmd' -->

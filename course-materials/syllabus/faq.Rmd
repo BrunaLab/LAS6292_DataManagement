@@ -1,0 +1,545 @@
+---
+title: "faq"
+author: "Emilio M. Bruna"
+date: "`r format(Sys.time(), '%Y')`"
+output:
+  pdf_document: default
+  html_document:
+    df_print: paged
+twitter: https://twitter.com/BrunaLab
+phone: "(352) 514-3935"
+email: embruna@ufl.edu
+geometry: margin=0.25in
+linkcolor: blue
+urlcolor: blue
+header-includes:
+- \usepackage{fancyhdr}
+- \pagestyle{fancy}
+- \fancyfoot{}
+- \usepackage[default]{sourcesanspro}
+- \usepackage{parskip}
+- \usepackage{geometry}
+- \usepackage{caption}
+- \usepackage{xcolor}
+- \definecolor{green}{RGB}{0,102,0}
+- \definecolor{blue}{RGB}{0, 0, 139}
+- \definecolor{darkcerulean}{rgb}{0.03, 0.27, 0.49}
+- \definecolor{darkmidnightblue}{rgb}{0.0, 0.2, 0.4}
+- \AtBeginDocument{\let\maketitle\relax}
+- \usepackage[none]{hyphenat}
+- \usepackage[document]{ragged2e}
+- \usepackage{graphicx}
+- \usepackage{sectsty}\allsectionsfont{\raggedright}
+- \usepackage{sectsty}\sectionfont{\centering\color{darkmidnightblue}}
+- \usepackage{sectsty}\subsectionfont{\centering\color{darkmidnightblue}}
+- \usepackage{titlesec}
+- \usepackage[export]{adjustbox}
+- \titlespacing{\section}{0pt}{22pt plus 2pt minus 1pt}{0pt plus 1pt minus 1pt}
+- \titlespacing{\subsection}{0pt}{12pt plus 2pt minus 1pt}{0pt plus 1pt minus 1pt}
+- \titlespacing{\subsubsection}{0pt}{12pt plus 2pt minus 1pt}{0pt plus 1pt minus 1pt}
+web: www.BrunaLab.org
+github: embruna
+---
+
+```{r setup_faq, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(tidyverse)
+library(fontawesome)
+library(flextable)
+library(kableExtra)
+```
+
+
+<!-- ### Why should you come to Drop-In Hours? -->
+<!-- \vspace{0.3cm} -->
+
+<!--   * To introduce yourself -->
+<!--   * Because there is _free tea, coffee, or espresso in our lab kitchen_ -->
+<!--   * To get clarification on assignments -->
+<!--   * It's an opportunity to discuss topics that came up in class  -->
+<!--   * You can check to make sure you understood the key points from a class session -->
+<!--   * We can give you feedback on ideas for course projects -->
+<!--   * Get advice on successfully navigating college -->
+<!--   * Ask questions about how to gain experience for your post-graduation goals -->
+<!--   * To get help arranging a study group -->
+<!--   * _You don't need a reason...just come on by._ -->
+
+
+<!-- ```{r hummer, echo=FALSE, include=TRUE,fig.cap="", out.width = '10%', fig.align="center" } -->
+<!-- # knitr::include_graphics("./icons/hummingbird.png") -->
+<!-- knitr::include_graphics("./icons/hummingbird.png") -->
+<!-- ``` -->
+
+
+\newpage
+
+<!-- \newgeometry{top=2.54cm, bottom=2.54cm,left=0.5cm, right=0.5cm} -->
+
+# FREQUENTLY ASKED QUESTIONS
+
+```{r text_faq, echo=FALSE,message = FALSE,warning=FALSE}
+# \\textbf{\\color{black}----}
+p0<- c("\\color{black}What is the best way to contact the instructors?")
+t0<-c("Email sent via Canvas That's also how we will respond.")
+
+p1<- c("\\color{black}Can you give me \\textbf{\\textit{one}} good reason why I should go to Office Hours?")
+t1<-c("\\textbf{I can give you ten}. \\textbf{(1)} To introduce yourself. \\textbf{(2)} To get clarification on assignments. \\textbf{(3)} To discuss topics that came up in class. \\textbf{(4) \\textit{There is free tea, coffee, or espresso in our lab kitchen}}. \\textbf{(5)} You can check to make sure you understood the key points from a class session. \\textbf{(6)} We can give you feedback on ideas for course projects.\\textbf{(7)}  Get advice on successfully navigating college. \\textbf{(8)} Ask questions about how to gain experience for your post-graduation goals. \\textbf{(9)} To get help arranging a study group.\\textbf{(10) \\textit{You don't need a good reason...just come on by.}}")
+
+p2<- c("\\color{black}How will you send announcements to the class?")
+t2<-c("Canvas! Check the course Canvas page for announcements and be sure you are recieving Canvas emails and updates.")
+
+p3<- c("\\color{black}What work should we do \\textit{before} class?")
+t3<-c("Read, watch, listen to, or review all materials assigned for the session. This material will set the stage for the in-class activities.")
+
+p4<- c("\\color{black}What will we do \\textit{during} class? \\newline When is 'in-class' work due?")
+t4<-c("In-class exercises that reinforce key concepts, discussions of the assigned readings, and let you practice skills in other assignments. Some are completed individually, while others require working in groups or pairs. Each activity will have instructions and a rubric; most are designed to be finished in class. \\newline \\textit{In-class work is due one week from the date it was assigned.}")
+
+p6<- c('\\color{black}When is the "in-class" work due?')
+t6<-c("One week from the date it was assigned.")
+
+p7<- c("\\color{black}What if I miss class?")
+t7<-c("Attendance is not required, but in many of the sessions we will be completing activities in class that count towards your grade. Most of these can be completed independently, but by doing them in class you will benefit from working collaboratively with the other students. Some of the in-class activities, however, can not be completed on your own. That's why only a subset of the in-class assignments count towards your grade and we offer extra credit.")
+
+p8<-c("\\color{black}I know I will miss class on a certain date. What should I do?")
+t8<-c("Let us know as soon as possible so we can make arrangements for you to review material you will miss and complete assignments.")
+
+p5<-c("\\color{black}Class discussions are difficult for me. Will this affect my grade?")
+t5<-c("No! If there are issues that make engaging in discussions difficult (e.g., shyness, language barriers, a medical condition), let us know and we will find alternative modes of participation.")
+
+p9<- c("I have no child care today. My kid's school was cancelled. My partner can't stay with our baby. What should I do? Can I bring my kid to class?")
+t9<-c("UF does not have a policy on children in the classroom; the following is my commitment to student-parents. I never want students to feel they have to choose between feeding their baby and their education. \\textit{You and your nursing baby are welcome in class anytime;} I also don't want parents to feel they must chose between attending class or staying home to care for kids, so \\textit{occasionally bringing your kid to class because of a gap in child care is also acceptable.} If you do bring your child to class, please sit close to the exit so that you can more easily step outside if you need to care for them (and so other students can continue learning). Non-parents in the class: please help by offering your seat near a door to parents. Finally, I understand that balancing school, childcare and perhaps also a job can be exhausting and a barrier to learning. I maintain the same high standards for all students in my class, and will work with you to find ways to balance your responsibilities as a parent and student. \\textbf{\\textit{Let me know how I can help.}}")
+
+# 
+# policy <- c("",p1,"",p2,"",p3,"",p4,"",p5,"",p6,"",p7,"",p8,"")
+# text <- c("",t1,"",t2,"",t3,"",t4,"",t5,"",t6,"",t7,"",t8,"")
+# blank_col<-c(rep("t",nrow(as.data.frame(text))))
+
+# # envelope-circle-check
+# person-running
+# mug-saucer
+# bullhorn
+# house-user
+# person-chalkboard
+# volume-xmark
+# calendar-check
+# calendar-xmark
+# calendar-plus
+
+# icon<-c(
+#   "./icons/envelope-circle-check.png",
+#   "./icons/mug-saucer.png",
+# "./icons/bullhorn.png",
+# "./icons/house-user.png",
+# "./icons/person-chalkboard.png",
+# "./icons/volume-xmark.png",
+# "./icons/calendar-check.png",
+# "./icons/calendar-xmark.png",
+# "./icons/calendar-plus.png"
+# )
+# logo<-as.data.frame(icons)
+# logo<-c(icons,icons,icons)
+# logo<-logo[1:14]
+# 
+# faq <- data.frame(
+#   # icon,
+#   policy = policy, 
+#   text = text,
+#   blank_col = blank_col,
+#   stringsAsFactors = FALSE
+#   ) 
+
+# %>% 
+#   mutate(
+#     icon = file.path("./icons",icon))
+  
+
+```
+
+
+
+```{r comm, echo=FALSE,message = FALSE,warning=FALSE,fig.pos='H'}
+# Alignment of graphics with text workaround is here:
+# https://stackoverflow.com/questions/64919240/align-text-and-images-in-a-table-pdf-output
+# https://tex.stackexchange.com/questions/397708/package-xkeyval-error-valign-undefined-in-families-gin
+tbl_img <- data.frame(
+logo = c("\\includegraphics[valign=T,scale=.4,raise=6mm]{./icons/envelope-circle-check.png}"),
+policy = p0,
+text=t0
+)
+tbl_img %>%
+kbl(booktabs = T,
+    bottomrule = F,
+    # toprule = F,
+    # midrule = F,
+    escape= F,
+format="latex",
+    align="cll",
+    col.names = NULL) %>%
+kable_paper(full_width = F, font_size = 10) %>%
+kable_styling(latex_options = "HOLD_position") %>% 
+# column_spec(2,bold=T,
+#           width = "7em", 
+#           latex_valign = "m",
+#           color = "green",
+#           background="white"
+#           ) %>%
+column_spec(1,width = "4em", background="green", latex_valign = "m") %>% 
+column_spec(2, width = "14em",latex_valign = "m", color = "black", background="white") %>% 
+  column_spec(3, width = "30em",latex_valign = "m", color = "black", background="white") %>%
+sub("\\\\toprule", "", .) %>% # Removes top line
+sub("\\\\bottomrule", "", .) # remove bottom line 
+# %>%
+#   column_spec(1,latex_valign = "m")
+
+```
+\begin{spacing}{0.0}
+\end{spacing}
+
+
+```{r office, echo=FALSE,message = FALSE,warning=FALSE,fig.pos='H'}
+# Alignment of graphics with text workaround is here:
+# https://stackoverflow.com/questions/64919240/align-text-and-images-in-a-table-pdf-output
+# https://tex.stackexchange.com/questions/397708/package-xkeyval-error-valign-undefined-in-families-gin
+tbl_img <- data.frame(
+logo = c("\\includegraphics[valign=T,scale=.4,raise=6mm]{./icons/mug-saucer.png}"),
+policy = p1,
+text=t1
+)
+tbl_img %>%
+kbl(booktabs = T,
+    bottomrule = F,
+    # toprule = F,
+    # midrule = F,
+    escape= F,
+format="latex",
+    align="cll",
+    col.names = NULL) %>%
+kable_paper(full_width = F, font_size = 10) %>%
+kable_styling(latex_options = "HOLD_position") %>% 
+# column_spec(2,bold=T,
+#           width = "7em", 
+#           latex_valign = "m",
+#           color = "green",
+#           background="white"
+#           ) %>%
+column_spec(1,width = "4em", background="green", latex_valign = "m") %>% 
+column_spec(2, width = "14em",latex_valign = "m", color = "black", background="white") %>% 
+  column_spec(3, width = "30em",latex_valign = "m", color = "black", background="white") %>%
+sub("\\\\toprule", "", .) %>% # Removes top line
+sub("\\\\bottomrule", "", .) # remove bottom line 
+# %>%
+#   column_spec(1,latex_valign = "m")
+
+```
+\begin{spacing}{0.0}
+\end{spacing}
+```{r announce, echo=FALSE,message = FALSE,warning=FALSE,fig.pos='H'}
+# Alignment of graphics with text workaround is here:
+# https://stackoverflow.com/questions/64919240/align-text-and-images-in-a-table-pdf-output
+# https://tex.stackexchange.com/questions/397708/package-xkeyval-error-valign-undefined-in-families-gin
+tbl_img <- data.frame(
+  logo = c("\\includegraphics[valign=T,scale=.4,raise=6mm]{./icons/bullhorn.png}"),
+policy = p2,
+text=t2
+)
+tbl_img %>%
+kbl(booktabs = T,
+    bottomrule = F,
+    # toprule = F,
+    # midrule = F,
+    escape= F,
+format="latex",
+    align="cll",
+    col.names = NULL) %>%
+kable_paper(full_width = F, font_size = 10) %>%
+kable_styling(latex_options = "HOLD_position") %>% 
+# column_spec(2,bold=T,
+#           width = "7em", 
+#           latex_valign = "m",
+#           color = "green",
+#           background="white"
+#           ) %>%
+column_spec(1,width = "4em", background="green", latex_valign = "m") %>% 
+column_spec(2, width = "14em",latex_valign = "m", color = "black", background="white") %>% 
+  column_spec(3, width = "30em",latex_valign = "m", color = "black", background="white") %>%
+sub("\\\\toprule", "", .) %>% # Removes top line
+sub("\\\\bottomrule", "", .) # remove bottom line 
+# %>%
+#   column_spec(1,latex_valign = "m")
+
+```
+\begin{spacing}{0.0}
+\end{spacing}
+
+```{r before, echo=FALSE,message = FALSE,warning=FALSE,fig.pos='H'}
+# Alignment of graphics with text workaround is here:
+# https://stackoverflow.com/questions/64919240/align-text-and-images-in-a-table-pdf-output
+# https://tex.stackexchange.com/questions/397708/package-xkeyval-error-valign-undefined-in-families-gin
+tbl_img <- data.frame(
+logo = c("\\includegraphics[valign=T,scale=.4,raise=6mm]{./icons/house-user.png}"),
+policy = p3,
+text=t3
+)
+
+tbl_img %>%
+kbl(booktabs = T,
+    bottomrule = F,
+    # toprule = F,
+    # midrule = F,
+    escape= F,
+format="latex",
+    align="cll",
+    col.names = NULL) %>%
+kable_paper(full_width = F, font_size = 10) %>%
+kable_styling(latex_options = "HOLD_position") %>% 
+# column_spec(2,bold=T,
+#           width = "7em", 
+#           latex_valign = "m",
+#           color = "green",
+#           background="white"
+#           ) %>%
+column_spec(1,width = "4em", background="green", latex_valign = "m") %>% 
+column_spec(2, width = "14em",latex_valign = "m", color = "black", background="white") %>% 
+  column_spec(3, width = "30em",latex_valign = "m", color = "black", background="white") %>%
+sub("\\\\toprule", "", .) %>% # Removes top line
+sub("\\\\bottomrule", "", .) # remove bottom line 
+# %>%
+#   column_spec(1,latex_valign = "m")
+
+```
+\begin{spacing}{0.0}
+\end{spacing}
+
+```{r during, echo=FALSE,message = FALSE,warning=FALSE,fig.pos='H'}
+# Alignment of graphics with text workaround is here:
+# https://stackoverflow.com/questions/64919240/align-text-and-images-in-a-table-pdf-output
+# https://tex.stackexchange.com/questions/397708/package-xkeyval-error-valign-undefined-in-families-gin
+tbl_img <- data.frame(
+logo = c("\\includegraphics[valign=T,scale=.4,raise=6mm]{./icons/person-chalkboard.png}"),
+policy = p4,
+text=t4
+)
+
+tbl_img %>%
+kbl(booktabs = T,
+    bottomrule = F,
+    # toprule = F,
+    # midrule = F,
+    escape= F,
+format="latex",
+    align="cll",
+    col.names = NULL) %>%
+kable_paper(full_width = F, font_size = 10) %>%
+kable_styling(latex_options = "HOLD_position") %>% 
+# column_spec(2,bold=T,
+#           width = "7em", 
+#           latex_valign = "m",
+#           color = "green",
+#           background="white"
+#           ) %>%
+column_spec(1,width = "4em", background="green", latex_valign = "m") %>% 
+column_spec(2, width = "14em",latex_valign = "m", color = "black", background="white") %>% 
+  column_spec(3, width = "30em",latex_valign = "m", color = "black", background="white") %>%
+sub("\\\\toprule", "", .) %>% # Removes top line
+sub("\\\\bottomrule", "", .) # remove bottom line 
+# %>%
+#   column_spec(1,latex_valign = "m")
+
+```
+\begin{spacing}{0.0}
+\end{spacing}
+
+<!-- ```{r due, echo=FALSE,message = FALSE,warning=FALSE,fig.pos='H'} -->
+<!-- # Alignment of graphics with text workaround is here: -->
+<!-- # https://stackoverflow.com/questions/64919240/align-text-and-images-in-a-table-pdf-output -->
+<!-- # https://tex.stackexchange.com/questions/397708/package-xkeyval-error-valign-undefined-in-families-gin -->
+<!-- tbl_img <- data.frame( -->
+<!-- logo = c("\\includegraphics[valign=T,scale=.4,raise=6mm]{./icons/calendar-check.png}"), -->
+<!-- policy = p6, -->
+<!-- text=t6 -->
+<!-- ) -->
+
+<!-- tbl_img %>% -->
+<!-- kbl(booktabs = T, -->
+<!--     bottomrule = F, -->
+<!--     # toprule = F, -->
+<!--     # midrule = F, -->
+<!--     escape= F, -->
+<!-- format="latex", -->
+<!--     align="cll", -->
+<!--     col.names = NULL) %>% -->
+<!-- kable_paper(full_width = F, font_size = 10) %>% -->
+<!-- kable_styling(latex_options = "HOLD_position") %>%  -->
+<!-- # column_spec(2,bold=T, -->
+<!-- #           width = "7em",  -->
+<!-- #           latex_valign = "m", -->
+<!-- #           color = "green", -->
+<!-- #           background="white" -->
+<!-- #           ) %>% -->
+<!-- column_spec(1,width = "4em", background="green", latex_valign = "m") %>%  -->
+<!-- column_spec(2, width = "14em",latex_valign = "m", color = "black", background="white") %>%  -->
+<!--   column_spec(3, width = "30em",latex_valign = "m", color = "black", background="white") %>% -->
+<!-- sub("\\\\toprule", "", .) %>% # Removes top line -->
+<!-- sub("\\\\bottomrule", "", .) # remove bottom line  -->
+<!-- # %>% -->
+<!-- #   column_spec(1,latex_valign = "m") -->
+
+<!-- ``` -->
+<!-- \begin{spacing}{0.0} -->
+<!-- \end{spacing} -->
+
+```{r miss, echo=FALSE,message = FALSE,warning=FALSE,fig.pos='H'}
+# Alignment of graphics with text workaround is here:
+# https://stackoverflow.com/questions/64919240/align-text-and-images-in-a-table-pdf-output
+# https://tex.stackexchange.com/questions/397708/package-xkeyval-error-valign-undefined-in-families-gin
+tbl_img <- data.frame(
+logo = c("\\includegraphics[valign=T,scale=.4,raise=6mm]{./icons/calendar-xmark.png}"),
+policy = p7,
+text=t7
+)
+
+tbl_img %>%
+kbl(booktabs = T,
+    bottomrule = F,
+    # toprule = F,
+    # midrule = F,
+    escape= F,
+format="latex",
+    align="cll",
+    col.names = NULL) %>%
+kable_paper(full_width = F, font_size = 10) %>%
+kable_styling(latex_options = "HOLD_position") %>% 
+# column_spec(2,bold=T,
+#           width = "7em", 
+#           latex_valign = "m",
+#           color = "green",
+#           background="white"
+#           ) %>%
+column_spec(1,width = "4em", background="green", latex_valign = "m") %>% 
+column_spec(2, width = "14em",latex_valign = "m", color = "black", background="white") %>% 
+  column_spec(3, width = "30em",latex_valign = "m", color = "black", background="white") %>%
+sub("\\\\toprule", "", .) %>% # Removes top line
+sub("\\\\bottomrule", "", .) # remove bottom line 
+# %>%
+#   column_spec(1,latex_valign = "m")
+
+```
+\begin{spacing}{0.0}
+\end{spacing}
+
+```{r miss-advance, echo=FALSE,message = FALSE,warning=FALSE,fig.pos='H'}
+# Alignment of graphics with text workaround is here:
+# https://stackoverflow.com/questions/64919240/align-text-and-images-in-a-table-pdf-output
+# https://tex.stackexchange.com/questions/397708/package-xkeyval-error-valign-undefined-in-families-gin
+tbl_img <- data.frame(
+logo = c("\\includegraphics[valign=T,scale=.4,raise=6mm]{./icons/calendar-plus.png}"),
+policy = p8,
+text=t8
+)
+tbl_img %>%
+kbl(booktabs = T,
+    bottomrule = F,
+    # toprule = F,
+    # midrule = F,
+    escape= F,
+format="latex",
+    align="cll",
+    col.names = NULL) %>%
+kable_paper(full_width = F, font_size = 10) %>%
+kable_styling(latex_options = "HOLD_position") %>% 
+# column_spec(2,bold=T,
+#           width = "7em", 
+#           latex_valign = "m",
+#           color = "green",
+#           background="white"
+#           ) %>%
+column_spec(1,width = "4em", background="green", latex_valign = "m") %>% 
+column_spec(2, width = "14em",latex_valign = "m", color = "black", background="white") %>% 
+  column_spec(3, width = "30em",latex_valign = "m", color = "black", background="white") %>%
+sub("\\\\toprule", "", .) %>% # Removes top line
+sub("\\\\bottomrule", "", .) # remove bottom line 
+# %>%
+#   column_spec(1,latex_valign = "m")
+
+```
+\begin{spacing}{0.0}
+\end{spacing}
+
+```{r shy, echo=FALSE,message = FALSE,warning=FALSE,fig.pos='H'}
+# Alignment of graphics with text workaround is here:
+# https://stackoverflow.com/questions/64919240/align-text-and-images-in-a-table-pdf-output
+# https://tex.stackexchange.com/questions/397708/package-xkeyval-error-valign-undefined-in-families-gin
+tbl_img <- data.frame(
+logo = c("\\includegraphics[valign=T,scale=.4,raise=6mm]{./icons/volume-xmark.png}"),
+policy = p5,
+text=t5
+)
+
+tbl_img %>%
+kbl(booktabs = T,
+    bottomrule = F,
+    # toprule = F,
+    # midrule = F,
+    escape= F,
+format="latex",
+    align="cll",
+    col.names = NULL) %>%
+kable_paper(full_width = F, font_size = 10) %>%
+kable_styling(latex_options = "HOLD_position") %>% 
+# column_spec(2,bold=T,
+#           width = "7em", 
+#           latex_valign = "m",
+#           color = "green",
+#           background="white"
+#           ) %>%
+column_spec(1,width = "4em", background="green", latex_valign = "m") %>% 
+column_spec(2, width = "14em",latex_valign = "m", color = "black", background="white") %>% 
+  column_spec(3, width = "30em",latex_valign = "m", color = "black", background="white") %>%
+sub("\\\\toprule", "", .) %>% # Removes top line
+sub("\\\\bottomrule", "", .) # remove bottom line 
+# %>%
+#   column_spec(1,latex_valign = "m")
+
+```
+\begin{spacing}{0.0}
+\end{spacing}
+
+```{r policies_kids, echo=FALSE,message = FALSE,warning=FALSE,fig.pos='H'}
+# Alignment of graphics with text workaround is here:
+# https://stackoverflow.com/questions/64919240/align-text-and-images-in-a-table-pdf-output
+# https://tex.stackexchange.com/questions/397708/package-xkeyval-error-valign-undefined-in-families-gin
+tbl_img <- data.frame(
+logo = c("\\includegraphics[valign=T,scale=.4,raise=6mm]{./icons/person-breastfeeding-wt.png}"),
+policy=p9,
+text=t9
+)
+
+tbl_img %>%
+kbl(booktabs = T,
+    bottomrule = F,
+    # toprule = F,
+    # midrule = F,
+    escape= F,
+format="latex",
+    align="cll",
+    col.names = NULL) %>%
+kable_paper(full_width = F, font_size = 10) %>%
+kable_styling(latex_options = "HOLD_position") %>% 
+# column_spec(2,bold=T,
+#           width = "7em", 
+#           latex_valign = "m",
+#           color = "green",
+#           background="white"
+#           ) %>%
+column_spec(1,width = "4em", background="green", latex_valign = "m") %>% 
+column_spec(2, width = "14em",latex_valign = "m", color = "black", background="white") %>% 
+  column_spec(3, width = "30em",latex_valign = "m", color = "black", background="white") %>%
+sub("\\\\toprule", "", .) %>% # Removes top line
+sub("\\\\bottomrule", "", .) # remove bottom line 
+
+```
+
+<!-- \restoregeometry  -->
+
+
+

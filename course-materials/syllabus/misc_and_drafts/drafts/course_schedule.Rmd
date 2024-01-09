@@ -1,0 +1,92 @@
+---
+# title: 'Syllabus'
+title: '&nbsp;'
+# author: "Emilio M. Bruna"
+# date: "`r format(Sys.time(), '%Y')`"
+web: www.BrunaLab.org
+github: embruna
+twitter: https://twitter.com/BrunaLab
+phone: (352) 514-3935
+email: embruna@ufl.edu
+geometry: margin=1in
+fontsize: 12pt
+linkcolor: blue
+urlcolor: blue
+site: bookdown::bookdown_site
+compact-title: TRUE
+header-includes:
+# - \usepackage{fancyhdr}
+# - \pagestyle{fancy}
+# - \fancyfoot{}
+# - \fancyhead[R]{Syllabus, p. \thepage}
+# - \fancyhead[L]{IDS 2935 - Rain Forests (`r format(Sys.time(), '%Y')`)}
+- \usepackage[default]{sourcesanspro}
+- \usepackage{parskip}
+- \usepackage{xcolor}
+- \AtBeginDocument{\let\maketitle\relax}
+# - \usepackage{sectsty} \allsectionsfont{\raggedright}
+- \usepackage{sectsty} \sectionfont{\centering}
+- \usepackage{titlesec}
+- \titlespacing{\section}{0pt}{12pt plus 2pt minus 1pt}{0pt plus 1pt minus 1pt}
+- \titlespacing{\subsection}{0pt}{12pt plus 2pt minus 1pt}{0pt plus 1pt minus 1pt}
+- \titlespacing{\subsubsection}{0pt}{12pt plus 2pt minus 1pt}{0pt plus 1pt minus 1pt}
+# output: pdf_document
+  # word_document: default
+output: html_document
+# weight: 5
+    # df_print: paged
+---
+
+```{r setup_schedule, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(tidyverse)
+library(kableExtra)
+library(tidyverse)
+```
+
+
+<!-- ~/Dropbox (UFL)/Teaching/IDS 2935 - Future of Rain Forests//IDS2935_syllabus/course_schedule -->
+```{r course_calendar, echo=FALSE,message = FALSE,warning=FALSE}
+calendar <- read_csv("./course_schedule/course_schedule_short.csv") %>% 
+  # calendar <- calendar %>% 
+  mutate(Week=paste(Week1,Week,sep=" ")) %>% 
+  select(-X1,-Week1) %>% 
+  mutate(Date=paste(Day,Month,sep="-")) %>% 
+  select(Week,Date,Topic, `Assignment handed out or due`) %>% 
+  replace_na(list(Date="",Week="", Topic="", `Assignment handed out or due`=""))
+
+calendar$Week <- gsub("NA NA","", calendar$Week)
+calendar$Date <- gsub("NA-NA","", calendar$Date)
+calendar$Week <- gsub("NA Final Exam","", calendar$Week)
+# names(calendar) <- c("","","")
+
+kable(calendar,
+      # digits = 2,
+      align="l",
+      format="html",
+      row.names = FALSE,
+      escape= TRUE,
+      booktabs=T,
+      linesep = "",
+      ) %>% 
+  kable_paper(full_width = F) %>%
+  # column_spec(1, bold = F, border_right = T) %>%
+  # column_spec(2, width = "5em", background = "white",border_right = T) %>% 
+  pack_rows("WHY ARE WE FASCINATED BY TROPICAL RAIN FORESTS?", 1, 6, color="darkgreen") %>%
+  pack_rows("THE ECOLOGY & EVOLUTION OF TROPICAL RAIN FORESTS", 7, 21, color="darkgreen") %>%
+  pack_rows("THE DRIVERS AND IMPACTS OF DEFORESTATION", 22, 30, color="darkgreen") %>%
+  pack_rows("THE FUTURE OF TROPICAL RAIN FORESTS", 31, 48, color="darkgreen") %>%
+  pack_rows("Finals Week", 49, 49, color="darkgreen") %>%
+  kable_styling(bootstrap_options = c("hover"),
+                full_width = T,
+                # latex_options="scale_down",
+                font_size = 14,
+                position = "left")
+  # column_spec(1, width = "5em") %>%
+  # column_spec(2, width = "4em") %>%
+  # column_spec(3, width = "25em")
+# column_spec(3, width = "15em") %>%
+# column_spec(4, width = "3em") %>%
+# row_spec(0,hline_after = F, bold=T) %>%
+# row_spec(c(1:2),hline_after = T)
+```
