@@ -49,13 +49,13 @@ header-includes:
 
   # - \floatsetup[figure]{capposition=beside,capbesideposition={left,top}}  
 - \floatsetup[figure]{capposition=beside,capbesidesep=mysep,capbesideposition={right, center}}
-output: pdf_document
-# knit: (function(inputFile, encoding) {
-#   rmarkdown::render(inputFile,
-#   output_file = "syllabus_LAS6292.pdf",
-#   encoding = encoding,
-#   output_dir = "./static/uploads")
-#   })
+# output: pdf_document
+knit: (function(inputFile, encoding) {
+  rmarkdown::render(inputFile,
+  output_file = "syllabus_LAS6292.pdf",
+  encoding = encoding,
+  output_dir = "./static/uploads")
+  })
 ---
 
 \definecolor{darkmidnightblue}{HTML}{003366}
