@@ -15,7 +15,7 @@ weight: 2
 
 {{% callout note %}}
 
-The complete & updated course syllabus with all dates, assignments, and course policies can be downloaded {{% staticref "uploads/syllabus_LAS6292.pdf" "newtab" %}}here{{% /staticref %}}.
+**The course syllabus is {{% staticref "uploads/syllabus_LAS6292.pdf" "newtab" %}}here{{% /staticref %}}.** It includes all updates to the reading list, UF and Instructor policies, the course schedule, and assignment deadlines. 
 
 {{% /callout %}}
 

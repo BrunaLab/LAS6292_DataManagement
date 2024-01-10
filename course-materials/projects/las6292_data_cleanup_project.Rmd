@@ -57,8 +57,8 @@ library(kableExtra)
 ```
 
 ```{r assignment_points,echo=FALSE}
-code <- 100
-clean_data <- 250
+code <- 150
+clean_data <- 100
 metadata <- 250
 total_points <- code + clean_data + metadata
 ```
