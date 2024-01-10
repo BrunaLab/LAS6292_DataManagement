@@ -128,11 +128,11 @@ This course is a practical introduction to methods, tools, and best practices fo
 
 \vspace{0.2cm}
 
-**Time and Signup:** Wednesday & Thursday 10:30-11:45 am (in-person & online). Drop by anytime or sign up for a specific time here: [https://embruna.youcanbook.me](https://embruna.youcanbook.me).If you can't make it these days/times please let us know - we will find a time to meet that works for you.
+**Time and Signup:** Tuesday and Wednesday from 10:30-11:45 am. We can meet in person or online (details below). Drop by anytime during those times or sign up for a specific time slot here: [https://embruna.youcanbook.me](https://embruna.youcanbook.me).If you can't make it these days/times please let us know - we will find a time to meet that works for you.
 
 - ***Location - in-person:*** The Tropical Ecology & Conservation Lab is located next to the Rawlings Hall bus stop (711 Newell Drive; to find a map click the "Contact" link at [BrunaLab.org](http://brunalab.org)).
 
-- ***Location - online:*** use the zoom link on the course Canvas page. I am online the entire session.  
+- ***Location - online:*** use the zoom link on the course Canvas page. I will be online the entire session.  
 
 --- 
 
@@ -231,7 +231,7 @@ course_total <-
   dmp 
 
 # dmp_peer_due<-c("16 March 2023")
-dmp_due<-c("23 March 2024")
+dmp_due<-c("22 March 2024")
 # peer_code_review_due<-c("28 March 2023")
 project_due<-c("30 April 2024")
 

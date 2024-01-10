@@ -2,14 +2,6 @@
 title: "Syllabus"
 author: "Emilio M. Bruna"
 date: "`r format(Sys.time(), '%Y')`"
-# output:
-#   pdf_document: default
-#   word_document: default
-github: embruna
-twitter: https://twitter.com/BrunaLab
-phone: "(352) 514-3935"
-web: www.BrunaLab.org
-email: embruna@ufl.edu
 geometry: margin=0.87in
 fontsize: 11pt
 linkcolor: darkmidnightblue
@@ -46,8 +38,6 @@ header-includes:
 - \titlespacing{\subsubsection}{0pt}{12pt plus 2pt minus 1pt}{0pt plus 1pt minus 1pt}
 - \usepackage{floatrow}
 - \DeclareFloatSeparators{mysep}{\hskip-94em}
-
-  # - \floatsetup[figure]{capposition=beside,capbesideposition={left,top}}  
 - \floatsetup[figure]{capposition=beside,capbesidesep=mysep,capbesideposition={right, center}}
 # output: pdf_document
 knit: (function(inputFile, encoding) {
