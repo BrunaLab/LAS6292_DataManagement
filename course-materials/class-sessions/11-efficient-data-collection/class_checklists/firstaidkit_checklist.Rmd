@@ -45,148 +45,73 @@ knitr::opts_chunk$set(echo = TRUE)
 
 <!-- https://www.sciencedirect.com/topics/medicine-and-dentistry/first-aid-kit -->
 
-# Travel 
+# First Aid
 
-## Prior to Departure
+These items from the CDC's [_'Advice for Travelers'_ website](https://wwwnc.cdc.gov/travel/page/pack-smart)
 
-- [ ] Inform bank & credit cards of travel dates
-- [ ] Update emergency contact information 
-- [ ] Provide trip details and contact info to emergency contacts
+## Prescription medicines
 
+- [ ] Your prescriptions
+- [ ] Travelers’ diarrhea antibiotic
+- [ ] Medicines to prevent malaria
 
-## Documents
+## Medical supplies
 
-- [ ] driver's license / international drivers license
-- [ ] Immunization Records
-- [ ] copies of IACUC approval
-- [ ] copies of IRB approval
-- [ ] research and collection permits
-- [ ] passport valid for duration of trip
-- [ ] Prescriptions - Glasses
-- [ ] Prescriptions - Medications
-- [ ] printout of tickets & boarding passes
-- [ ] visa(s)
-- [ ] Emergency Contact List
-
-## Carry-on Items
-
-- [ ] day pack 
-- [ ] airplane pillow 
-- [ ] book
-- [ ] cash, debit / credit cards
-- [ ] change of socks, underwear, t-shirt
-- [ ] e-reader & charger
-- [ ] universal adapter plug
-- [ ] glasses / spare glasses
-- [ ] glasses case
-- [ ] gum 
-- [ ] headphones
-- [ ] KN95 masks
-- [ ] laptop
-- [ ] laptop case
-- [ ] laptop charger 
-- [ ] snacks
-- [ ] phone 
-- [ ] phone charger
-- [ ] powerbank / portable battery
-- [ ] Prescription medications (for the length of your stay)
-- [ ] toothbrush
-- [ ] toothpaste
-- [ ] translation app
-- [ ] wallet
-- [ ] watch 
-- [ ] water bottle
-- [ ] sleep mask
-
-## Toiletries
-
-- [ ] birth control / protection
-- [ ] contact lenses 
-- [ ] contact solution
-- [ ] deodorant 
-- [ ] dramamine
-- [ ] epipen
-- [ ] hair products 
-- [ ] Ibuprofen 
-- [ ] female hygiene products
-- [ ] shampoo / conditioner
-- [ ] skincare products
-- [ ] makeup
-- [ ] soap / body wash
-- [ ] sunscreen
-- [ ] hair ties
+- [ ] Glasses and contacts
+- [ ] Medical alert bracelet or necklace
+- [ ] Diabetes testing supplies
+- [ ] Insulin
+- [ ] Inhalers
+- [ ] EpiPens
 
 
-## Clothing
+## Over-the-counter medicines
 
-- [ ] bandannas
-- [ ] bathing suit
-- [ ] clothing for town, social events
-- [ ] pants
-- [ ] rain jacket or poncho
-- [ ] sandals / flip-flops
-- [ ] shirts - lightweight, long-sleeved for the field
-- [ ] shorts
-- [ ] socks
-- [ ] sunglasses
-- [ ] sweater/jacket
-- [ ] swim goggles 
-- [ ] swimsuit
-- [ ] t-shirts
-- [ ] tennis shoes
-- [ ] towel
-- [ ] underwear
+- [ ] Diarrhea medicine (Imodium or Pepto-Bismol)
+- [ ] Antacid
+- [ ] Antihistamine
+- [ ] Motion sickness medicine
+- [ ] Cough drops, cough suppressant, or expectorant
+- [ ] Decongestant
+- [ ] Pain and fever medicine (acetaminophen, aspirin, or ibuprofen)
+- [ ] Mild laxative
+- [ ] Mild sedative or sleep aid
 
+## Supplies to prevent illness or injury
 
-## Travel with kids
+- [ ] Hand sanitizer (containing at least 60% alcohol) or antibacterial hand wipes
+- [ ] Water purification tablets
+- [ ] Insect repellent (with an active ingredient like DEET or picaridin)
+- [ ] Sunscreen (with UVA and UVB protection, SPF 15 or higher)
+- [ ] Sunglasses and hat
+- [ ] Condoms
+- [ ] Earplugs
 
-- [ ] prepare required documents: passports, birth certificates, marriage certificates, immunization records, etc.
+## First-aid kit
 
+- [ ] 1% hydrocortisone cream
+- [ ] Antibacterial or antifungal ointments
+- [ ] Digital thermometer
+- [ ] Oral rehydration salts
+- [ ] Antiseptic wound cleaner
+- [ ] Aloe gel for sunburns
+- [ ] Insect bite anti-itch gel or cream
+- [ ] Bandages
+- [ ] Disposable gloves
+- [ ] Cotton swabs (Q-Tips)
+- [ ] Tweezers
+- [ ] Eye drops
 
-# Fieldwork
+# Documents
 
-- [ ] backpack
-- [ ] batteries (AA, AAA)
-- [ ] binoculars
-- [ ] books
-- [ ] camera
-- [ ] camera charger or batteries
-- [ ] checklist (for field work)
-- [ ] checklist (for interviews)
-- [ ] clipboard
-- [ ] compass 
-- [ ] data sheets
-- [ ] field guides
-- [ ] field notebooks
-- [ ] first aid kit
-- [ ] forceps
-- [ ] games / playing cards
-- [ ] GPS 
-- [ ] hat (wide-brimmed or baseball cap)
-- [ ] headlamp / flashlight
-- [ ] heat pad / muscle cream
-- [ ] hiking boots
-- [ ] Insect repellent (Deet, Permethrin for pre-treating clothes)
-- [ ] IRB consent forms for interviews
-- [ ] latex gloves
-- [ ] laundry bags
-- [ ] Letter from host institutions
-- [ ] maps 
-- [ ] memory cards
-- [ ] mosquito net
-- [ ] pens / pencils
-- [ ] permits 
-- [ ] pocket knife
-- [ ] portable hard drive 
-- [ ] questionnaires 
-- [ ] rain cover for pack
-- [ ] recorder
-- [ ] safety whistle
-- [ ] snacks for field (granola, protein bars, sunflower seeds, almonds, etc)
-- [ ] tall rubber boots
-- [ ] treats for participants, kids
-- [ ] Ziploc bags
-
-
+- [ ] Copies of your passport and travel documents
+- [ ] Copies of all prescriptions (medications, glasses, or medical supplies)
+- [ ] Health insurance card and documents
+- [ ] Proof of yellow fever vaccination (if required for your trip)
+- [ ] Contact card with the street addresses, phone numbers, and e-mail addresses of:     - [ ] Family member or close contact in the United States
+    - [ ] Health care provider(s) at home
+    - [ ] Lodging at your destination
+    - [ ] Hospitals or clinics (including emergency services) in your destination
+    - [ ] US embassy or consulate in the destination country or countries
 
 
