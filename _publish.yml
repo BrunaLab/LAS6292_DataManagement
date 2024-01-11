@@ -1,0 +1,4 @@
+- source: project
+  netlify:
+    - id: "3a089857-f08f-4efe-b681-af0dc2aa127f"
+      url: "https://las6292.netlify.app"
