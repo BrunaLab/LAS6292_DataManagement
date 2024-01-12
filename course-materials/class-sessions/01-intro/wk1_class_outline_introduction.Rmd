@@ -30,8 +30,9 @@ header-includes:
 output: pdf_document
 knit: (function(inputFile, encoding) {
   rmarkdown::render(inputFile, 
+  output_file = "01-intro-notes",
   encoding = encoding, 
-  output_dir = "./content/course-materials/class-sessions/01-intro")
+  output_dir = "./course-materials/class-sessions/01-intro")
   })
 ---
 
@@ -60,22 +61,14 @@ knit: (function(inputFile, encoding) {
 
 ## Pre-Class Preparation & Materials Needed (Instructor):
 
-* email students: 
-* Confirmation of room and zoom link
-* Pls bring own mug or water bottle, welcome to bring food / snacks
-* Ask if any students need a laptop and arrange for a loan if necessary.
-* Snacks
-* Copies of the syllabus
-* Copy of Course Roster
-* Flip charts and markers
-* Dry write markers
-* Tent cards for student names
-
+* email students: confirmation of room and zoom link, pls bring own mug or water bottle, welcome to bring food / snacks
+* Ask if any students need laptop, arrange for a loan if needed
+* Copy of syllabus and Course Roster
+* Flip charts, markers, tent cards for names, dry-write markers
 
 ## Pre-class Preparation (Students):
 
-* Readings: None
-* Online Lectures: None
+* Readings or Online Lectures: None
 
 ## ‘Data’ across disciplines & the Data Life Cycle  
 
@@ -123,27 +116,28 @@ Get to know one another! Get in pairs, introduce yourselves, and record response
    8. Any concerns / worries / fears about this class (in particular) and this semester (in general)?
    9. Now discuss with your partner the following question: **_What are 'Data_?** 
    
-   Be prepared to share your answers with the class.
-
   &nbsp;**B. Report Back (`r breakout1_discussion` min)**
 
 1. What are Data?
-    1. Students take turns introducing themselves_
+    1. Students take turns introducing themselves
     2. Quick summary of the different ways they defined "data"
 
 ### **Intro to Breakout 2: Motivation for Teaching This Course & Data Across Disciplines (`r intro_breakout2` min): **
 
-  1. The defintion of "Data"  
+  1. The defintion of "Data"   
   2. EB Motivation for teaching the class:  
-    * Reduce Student Stress  
-    * Research integrity: identifies fraud, a shield to protect you when you are right  
-    * Because it really matters to society, both when we get it wrong and when we get it right  
-    * Because your data are a potential gold mine for future researchers...but only if you take a few important steps now.  
+  
+  - Reduce Student Stress
+  - Research integrity: identifies fraud, a shield to protect you when you are right
+  - Because it really matters to society, both when we get it wrong and when we get it right
+  - Because your data are a potential gold mine for future researchers...but only if you take a few important steps now.  
+    
    2. Prompt for the next breakout (to start after break); Breakout into larger groups (n = 4)  
 
-### **BREAK: `r snack_break` min **
+### **BREAK: `r snack_break` min **  
 
-### **Breakout 2 Groups: 'Data' across disciplines ** (`r breakout2` min total)
+
+### **Breakout 2 Groups: 'Data' across disciplines ** (`r breakout2` min total).  
 
 Now that data have been defined, we will break into small groups to discuss the following questions (**`r breakout2` min**). We'll come back and discuss what you came up with for as a group **(`r breakout2_discussion` min)**.
 
@@ -151,8 +145,6 @@ Now that data have been defined, we will break into small groups to discuss the 
 2. How are these data gathered (tools, techniques) and recorded (media)? 
 
 ### **Breakout 2 Discussion: `r breakout2_discussion` min **
-
-So what do you think?   
 
 1. What are the different kinds of data collected in different disciplines?
 2. How are these data gathered (tools, techniques) and recorded (media)? 
@@ -180,6 +172,5 @@ So what do you think?
 
 ## After class: 
 
-* Be sure you complete and submit the assignment by 9 am Monday
-* Prepare for next session (assigned reading, videos, etc).
+* Be sure you complete and submit the assignment (by 9 am morning of next session) and prepare for next session by doing reading and watching videos).
 
