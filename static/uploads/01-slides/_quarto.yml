@@ -1,0 +1,4 @@
+project:
+  title: "test_presentation"
+  type: website
+  output-dir: ../docs/las6292/01-intro
