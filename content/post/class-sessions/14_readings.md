@@ -30,8 +30,8 @@ weight: 25
         
 **Readings:** 
 
-1.  Drinkwater, R. E., Cubey, R. W., & Haston, E. M. (2014). The use of Optical Character Recognition (OCR) in the digitization of herbarium specimen labels. PhytoKeys, (38), 15-30.  [[read online]](doi:10.3897/phytokeys.38.7168) or {{% staticref "course-materials/readings/Drinkwater_etal_2014.pdf" "newtab" %}}[download pdf]{{% /staticref %}}
+1.  Drinkwater, R. E., Cubey, R. W., & Haston, E. M. (2014). The use of Optical Character Recognition (OCR) in the digitization of herbarium specimen labels. PhytoKeys, (38), 15-30.  [[read online]](doi:10.3897/phytokeys.38.7168) or {{% staticref "uploads/readings/Drinkwater_etal_2014.pdf" "newtab" %}}[download pdf]{{% /staticref %}}
 
-2.  Joo, Jungseock and Zachary C. Steinert-Threlkeld. 2019. Image as data: Automated visual content analysis for social science. [[read online]](https://ocean.sagepub.com/blog/image-as-data-automated-visual-content-analysis-for-social-science)  or {{% staticref "course-materials/readings/Joo_and_Steinert-Threlkeld_2019.pdf" "newtab" %}}[download pdf]{{% /staticref %}}
+2.  Joo, Jungseock and Zachary C. Steinert-Threlkeld. 2019. Image as data: Automated visual content analysis for social science. [[read online]](https://ocean.sagepub.com/blog/image-as-data-automated-visual-content-analysis-for-social-science)  or {{% staticref "uploads/readings/Joo_and_Steinert-Threlkeld_2019.pdf" "newtab" %}}[download pdf]{{% /staticref %}}
 
 * **Videos:** None

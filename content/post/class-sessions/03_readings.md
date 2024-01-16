@@ -36,16 +36,16 @@ weight: 5
  
 ### **Readings**
 
-1.  Tesi, W. 2020. An Outdated Version of Excel Led the U.K. to Undercount COVID-19 Cases. Slate. [[read online]](https://slate.com/technology/2020/10/u-k-covid-19-spike-caused-by-microsoft-excel-error.html) or {{% staticref "course-materials/readings/tesi2020.pdf" "newtab" %}}[download pdf]{{% /staticref %}}
+1.  Tesi, W. 2020. An Outdated Version of Excel Led the U.K. to Undercount COVID-19 Cases. Slate. [[read online]](https://slate.com/technology/2020/10/u-k-covid-19-spike-caused-by-microsoft-excel-error.html) or {{% staticref "uploads/readings/tesi2020.pdf" "newtab" %}}[download pdf]{{% /staticref %}}
         
         
-2. Stolberg et al. 2020. CDC Test Counting Error Leaves Epidemiologists ‘Really Baffled’. NY Times.  [[read online]](https://www.nytimes.com/2020/05/22/us/politics/coronavirus-tests-cdc.html?referringSource=articleShare) or {{% staticref "course-materials/readings/Stolberg_2020_NYT.pdf" "newtab" %}}[download pdf]{{% /staticref %}}
+2. Stolberg et al. 2020. CDC Test Counting Error Leaves Epidemiologists ‘Really Baffled’. NY Times.  [[read online]](https://www.nytimes.com/2020/05/22/us/politics/coronavirus-tests-cdc.html?referringSource=articleShare) or {{% staticref "uploads/readings/Stolberg_2020_NYT.pdf" "newtab" %}}[download pdf]{{% /staticref %}}
         
 
-3.  Broman, K. W., and Woo, K. H. (2018). Data organization in spreadsheets. The American Statistician, 72(1), 2-10.  [[read online]](https://www.tandfonline.com/doi/full/10.1080/00031305.2017.1375989) or {{% staticref "course-materials/readings/Broman_and_Woo_2018.pdf" "newtab" %}}[download pdf]{{% /staticref %}} __This paper is *especially* important; it may well be one of the more helpful papers you read while a student. Really.__
+3.  Broman, K. W., and Woo, K. H. (2018). Data organization in spreadsheets. The American Statistician, 72(1), 2-10.  [[read online]](https://www.tandfonline.com/doi/full/10.1080/00031305.2017.1375989) or {{% staticref "uploads/readings/Broman_and_Woo_2018.pdf" "newtab" %}}[download pdf]{{% /staticref %}} __This paper is *especially* important; it may well be one of the more helpful papers you read while a student. Really.__
 
 
-4.  Johnson, B. D., Dunlap, E., and Benoit, E. (2010). Organizing "mountains of words" for data analysis, both qualitative and quantitative. Substance Use & Misuse, 45(5), 648-70.  [[read online]](https://www.tandfonline.com/doi/abs/10.3109/10826081003594757?journalCode=isum20) or {{% staticref "course-materials/readings/Johnson_etal_2010.pdf" "newtab" %}}[download pdf]{{% /staticref %}}. 
+4.  Johnson, B. D., Dunlap, E., and Benoit, E. (2010). Organizing "mountains of words" for data analysis, both qualitative and quantitative. Substance Use & Misuse, 45(5), 648-70.  [[read online]](https://www.tandfonline.com/doi/abs/10.3109/10826081003594757?journalCode=isum20) or {{% staticref "uploads/readings/Johnson_etal_2010.pdf" "newtab" %}}[download pdf]{{% /staticref %}}. 
 
 ### Computer Resources
 

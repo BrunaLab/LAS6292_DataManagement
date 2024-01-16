@@ -36,9 +36,9 @@ weight: 17
 **Readings:** 
 
 
-1.  Michener, W. K. (2015). Ten simple rules for creating a good data management plan. PLoS computational biology, 11(10), e1004525.  [[read online]](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1004525) or {{% staticref "course-materials/readings/Michener_2015_PloSBio.PDF" "newtab" %}}[download pdf]{{% /staticref %}}
+1.  Michener, W. K. (2015). Ten simple rules for creating a good data management plan. PLoS computational biology, 11(10), e1004525.  [[read online]](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1004525) or {{% staticref "uploads/readings/Michener_2015_PloSBio.PDF" "newtab" %}}[download pdf]{{% /staticref %}}
 
-2. Goodman A, et al. (2014) Ten Simple Rules for the Care and Feeding of Scientific Data. PLoS Comput Biol 10(4): e1003542. *_this paper connects what we've done with what's next_*  [[read online]](https://doi.org/10.1371/journal.pcbi.1003542) or {{% staticref "course-materials/readings/Goodman_etal_2014.pdf" "newtab" %}}[download pdf]{{% /staticref %}}
+2. Goodman A, et al. (2014) Ten Simple Rules for the Care and Feeding of Scientific Data. PLoS Comput Biol 10(4): e1003542. *_this paper connects what we've done with what's next_*  [[read online]](https://doi.org/10.1371/journal.pcbi.1003542) or {{% staticref "uploads/readings/Goodman_etal_2014.pdf" "newtab" %}}[download pdf]{{% /staticref %}}
   
 
 * **Videos** 

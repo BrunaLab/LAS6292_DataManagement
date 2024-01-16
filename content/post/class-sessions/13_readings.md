@@ -41,11 +41,11 @@ weight: 23
 
 1. **Readings:** 
 
-* Aanensen DM, Huntley DM, Feil EJ, al-Own F, Spratt BG (2009) EpiCollect: Linking Smartphones to Web Applications for Epidemiology, Ecology and Community Data Collection. PLoS ONE 4(9): e6968.  [[read online]](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0006968) or {{% staticref "course-materials/readings/Aanensen_etal_2009.PDF" "newtab" %}}[download pdf]{{% /staticref %}}
+* Aanensen DM, Huntley DM, Feil EJ, al-Own F, Spratt BG (2009) EpiCollect: Linking Smartphones to Web Applications for Epidemiology, Ecology and Community Data Collection. PLoS ONE 4(9): e6968.  [[read online]](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0006968) or {{% staticref "uploads/readings/Aanensen_etal_2009.PDF" "newtab" %}}[download pdf]{{% /staticref %}}
 
-* Moylan, CA et al. 2013. Increasingly mobile: How new technologies can enhance qualitative research. Qualitative social work: research and practice, 14(1):36-47.  [[read online]](https://journals.sagepub.com/doi/10.1177/1473325013516988) or {{% staticref "course-materials/readings/Moylan_etal_2015.pdf" "newtab" %}}[download pdf]{{% /staticref %}}
+* Moylan, CA et al. 2013. Increasingly mobile: How new technologies can enhance qualitative research. Qualitative social work: research and practice, 14(1):36-47.  [[read online]](https://journals.sagepub.com/doi/10.1177/1473325013516988) or {{% staticref "uploads/readings/Moylan_etal_2015.pdf" "newtab" %}}[download pdf]{{% /staticref %}}
 
-* Teacher, Amber G. F. et al. Smartphones in ecology and evolution: a guide for the app‐rehensive. Ecology and Evolution 3(16):5268– 5278  [[read online]](https://onlinelibrary.wiley.com/doi/full/10.1002/ece3.888) or {{% staticref "course-materials/readings/Teacher_etal_2013.pdf" "newtab" %}}[download pdf]{{% /staticref %}}
+* Teacher, Amber G. F. et al. Smartphones in ecology and evolution: a guide for the app‐rehensive. Ecology and Evolution 3(16):5268– 5278  [[read online]](https://onlinelibrary.wiley.com/doi/full/10.1002/ece3.888) or {{% staticref "uploads/readings/Teacher_etal_2013.pdf" "newtab" %}}[download pdf]{{% /staticref %}}
 
 
 2. **Videos:** 
