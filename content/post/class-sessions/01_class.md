@@ -20,10 +20,10 @@ type: book
 weight: 2
 ---
 
-## In-Class Exercise/Assignment: Survey: Student Research and Data Management Interests  
+## In-Class Exercise
 
 
-  1. **Please complete the survey:** [link](https://forms.gle/vRQA9zu84Gf4xU2M9).
+  1. **Please complete the 'Student Research and Data Management Interests' survey**:  [link to survey](https://forms.gle/vRQA9zu84Gf4xU2M9).
 
 ## After class: 
 
