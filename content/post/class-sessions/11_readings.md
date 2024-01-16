@@ -34,7 +34,7 @@ weight: 19
         
 #### **Readings:** 
 
-  1.  Redman, T. 2016. Bad Data Costs the U.S. $3 Trillion Per Year. Harvard Business Review.    [[read online]](https://hbr.org/2016/09/bad-data-costs-the-u-s-3-trillion-per-year#:~:text=How%20much%20is%20it%20costing%20you%3F&text=Consider%20this%20figure%3A%20%24136%20billion%20per%20year.&text=But%20here's%20another%20number%3A%20%243.1,the%20US%20alone%2C%20in%202016.) or {{% staticref "course-materials/readings/Redman_2016.pdf" "newtab" %}}[download pdf]{{% /staticref %}}
+  1.  Redman, T. 2016. Bad Data Costs the U.S. $3 Trillion Per Year. Harvard Business Review.    [[read online]](https://hbr.org/2016/09/bad-data-costs-the-u-s-3-trillion-per-year#:~:text=How%20much%20is%20it%20costing%20you%3F&text=Consider%20this%20figure%3A%20%24136%20billion%20per%20year.&text=But%20here's%20another%20number%3A%20%243.1,the%20US%20alone%2C%20in%202016.) or {{% staticref "uploads/readings/Redman_2016.pdf" "newtab" %}}[download pdf]{{% /staticref %}}
 
 #### **Videos:** 
 
