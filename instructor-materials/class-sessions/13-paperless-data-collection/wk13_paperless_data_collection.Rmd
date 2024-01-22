@@ -63,13 +63,13 @@ Download the Epicollect app to a phone or tablet (if you need one let me know).
 ### **Readings**
 
 1.  Aanensen DM, Huntley DM, Feil EJ, al-Own F, Spratt BG (2009) EpiCollect: Linking Smartphones to Web Applications for Epidemiology, Ecology and Community Data Collection. PLoS ONE 4(9): e6968.  
-        [[read online]](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0006968) [[download pdf]](https://github.com/BrunaLab/LAS6292_DataManagement/blob/master/course-materials/Aanensen_etal_2009.PDF)
+        [[read online]](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0006968) [[download pdf]](https://github.com/BrunaLab/LAS6292_DataManagement/blob/master/instructor-materials/Aanensen_etal_2009.PDF)
 
 2.  Moylan, CA et al. 2013. Increasingly mobile: How new technologies can enhance qualitative research. Qualitative social work: research and practice, 14(1):36-47.  
-        [[read online]](https://journals.sagepub.com/doi/10.1177/1473325013516988) [[download pdf]](https://github.com/BrunaLab/LAS6292_DataManagement/blob/master/course-materials/Moylan_etal_2015.pdf)
+        [[read online]](https://journals.sagepub.com/doi/10.1177/1473325013516988) [[download pdf]](https://github.com/BrunaLab/LAS6292_DataManagement/blob/master/instructor-materials/Moylan_etal_2015.pdf)
 
 3.  Teacher, Amber G. F. et al. Smartphones in ecology and evolution: a guide for the app‐rehensive. Ecology and Evolution 3(16):5268– 5278  
-        [[read online]](https://onlinelibrary.wiley.com/doi/full/10.1002/ece3.888)  [[download pdf]](https://github.com/BrunaLab/LAS6292_DataManagement/blob/master/course-materials/Teacher_etal_2013.pdf)
+        [[read online]](https://onlinelibrary.wiley.com/doi/full/10.1002/ece3.888)  [[download pdf]](https://github.com/BrunaLab/LAS6292_DataManagement/blob/master/instructor-materials/Teacher_etal_2013.pdf)
         
 
 ### **Online Lectures:**  

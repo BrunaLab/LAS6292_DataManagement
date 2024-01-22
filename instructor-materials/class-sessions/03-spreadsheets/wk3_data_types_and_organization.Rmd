@@ -195,9 +195,9 @@ Much of your future as a researcher will be spent cleaning and correcting data, 
 
 ![Download Files by following the link and clicking this button.](download_button.png){width=50%}
 
-  * `SAFI_messy.xlsx`: [download link](https://github.com/BrunaLab/LAS6292_DataManagement/blob/03dd47f3b52a9bf32be643cf34bafcce6566e555/content/course-materials/class-sessions/03-spreadsheets/examples/SAFI_messy.xlsx).
-  * `unity-portal-data.xlsx`: [download link](https://github.com/BrunaLab/LAS6292_DataManagement/blob/03dd47f3b52a9bf32be643cf34bafcce6566e555/content/course-materials/class-sessions/03-spreadsheets/examples/untidy-portal-data.xlsx).
-  * `dates.xlsx`: {download link](https://github.com/BrunaLab/LAS6292_DataManagement/blob/03dd47f3b52a9bf32be643cf34bafcce6566e555/content/course-materials/class-sessions/03-spreadsheets/examples/dates.xlsx)
+  * `SAFI_messy.xlsx`: [download link](https://github.com/BrunaLab/LAS6292_DataManagement/blob/03dd47f3b52a9bf32be643cf34bafcce6566e555/content/instructor-materials/class-sessions/03-spreadsheets/examples/SAFI_messy.xlsx).
+  * `unity-portal-data.xlsx`: [download link](https://github.com/BrunaLab/LAS6292_DataManagement/blob/03dd47f3b52a9bf32be643cf34bafcce6566e555/content/instructor-materials/class-sessions/03-spreadsheets/examples/untidy-portal-data.xlsx).
+  * `dates.xlsx`: {download link](https://github.com/BrunaLab/LAS6292_DataManagement/blob/03dd47f3b52a9bf32be643cf34bafcce6566e555/content/instructor-materials/class-sessions/03-spreadsheets/examples/dates.xlsx)
   
 
 2. Open `SAFI_messy.xlsx` and look at how the data are have been entered and organized. Now discuss the following questions. Keep in mind the `tidy` principles about which you read in Broman and Woo (2018).
@@ -313,7 +313,7 @@ A live coding example to lay the foundation for what we will be doing moving for
 
 # Tools & Resources
 
-1. Data Validation in Google Sheets: [blog post](https://www.howtogeek.com/428919/how-to-restrict-data-input-in-google-sheets-with-data-validation/) and [video tutorial](https://www.youtube.com/watch?v=VEJMeYroDTM). A pdf version is available for download [here](https://github.com/BrunaLab/LAS6292_DataManagement/blob/57becfed53e93c81492f8ba426a5b198b83769e6/content/course-materials/class-sessions/03-spreadsheets/data-validation-google-sheets.pdf).
+1. Data Validation in Google Sheets: [blog post](https://www.howtogeek.com/428919/how-to-restrict-data-input-in-google-sheets-with-data-validation/) and [video tutorial](https://www.youtube.com/watch?v=VEJMeYroDTM). A pdf version is available for download [here](https://github.com/BrunaLab/LAS6292_DataManagement/blob/57becfed53e93c81492f8ba426a5b198b83769e6/content/instructor-materials/class-sessions/03-spreadsheets/data-validation-google-sheets.pdf).
 
 2. Why not bypass spreadsheets like Excel and use a csv editor like [Comma Chameleon][https://comma-chameleon.io/] instead? CC and other csv editors allow you to enter data in the same way - into cells, by adding and removing rows - and then export your file. But that's about it, which means you can't do many of the things (e.g., calculations, color in cells) that cause problems down the road.
 

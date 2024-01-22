@@ -68,11 +68,11 @@ opts_knit$set(width=75)
 
 1. Download the following .txt files. Note that the link takes you to a page on your browsewr; use "save this page as" to download it to your computer. 
 
-[`spanish_text_1voice.txt`](https://raw.githubusercontent.com/BrunaLab/LAS6292_DataManagement/master/content/course-materials/class-sessions/11-transcription-translation/translation_text/spanish_text_1voice.txt)
+[`spanish_text_1voice.txt`](https://raw.githubusercontent.com/BrunaLab/LAS6292_DataManagement/master/content/instructor-materials/class-sessions/11-transcription-translation/translation_text/spanish_text_1voice.txt)
 
-[`turkish_text.txt`](https://raw.githubusercontent.com/BrunaLab/LAS6292_DataManagement/master/content/course-materials/class-sessions/11-transcription-translation/translation_text/turkish_text.txt)
+[`turkish_text.txt`](https://raw.githubusercontent.com/BrunaLab/LAS6292_DataManagement/master/content/instructor-materials/class-sessions/11-transcription-translation/translation_text/turkish_text.txt)
 
-[`spanish_text_interview.txt`](https://raw.githubusercontent.com/BrunaLab/LAS6292_DataManagement/master/content/course-materials/class-sessions/11-transcription-translation/translation_text/spanish_text_1voice.txt)
+[`spanish_text_interview.txt`](https://raw.githubusercontent.com/BrunaLab/LAS6292_DataManagement/master/content/instructor-materials/class-sessions/11-transcription-translation/translation_text/spanish_text_1voice.txt)
 
 <!-- [`spanish_text_interview.txt`] -->
 

@@ -82,9 +82,9 @@ opts_knit$set(width=75)
 
 1. DataOneDMP samples for NSF
 
-* NSF General: [Mauna Loa example](https://github.com/BrunaLab/LAS6292_DataManagement/blob/master/course-materials/class-sessions/09-DMP/example_dmps/DMP_MaunaLoa_Formatted.pdf)
-* NSF General: [Rio Grande example](https://github.com/BrunaLab/LAS6292_DataManagement/blob/master/course-materials/class-sessions/09-DMP/example_dmps/Repository%20selection%20exercise%20Data%20One%20Geosciences%20DMP.pdf)
-* NSF DEB: [Emilio Bruna Heliconia example](https://github.com/BrunaLab/LAS6292_DataManagement/blob/master/course-materials/class-sessions/09-DMP/example_dmps/DataManagementPlan.pdf)
+* NSF General: [Mauna Loa example](https://github.com/BrunaLab/LAS6292_DataManagement/blob/master/instructor-materials/class-sessions/09-DMP/example_dmps/DMP_MaunaLoa_Formatted.pdf)
+* NSF General: [Rio Grande example](https://github.com/BrunaLab/LAS6292_DataManagement/blob/master/instructor-materials/class-sessions/09-DMP/example_dmps/Repository%20selection%20exercise%20Data%20One%20Geosciences%20DMP.pdf)
+* NSF DEB: [Emilio Bruna Heliconia example](https://github.com/BrunaLab/LAS6292_DataManagement/blob/master/instructor-materials/class-sessions/09-DMP/example_dmps/DataManagementPlan.pdf)
 
 2. Sample DMPs on the 'DMP Tool' website [Public DMPs](https://dmptool.org/public_plans) **(_note: "Public DMPs are plans created using the dmptool service and shared publicly by their owners. They are not vetted for quality, completeness, or adherence to funder guidelines."_)**
 

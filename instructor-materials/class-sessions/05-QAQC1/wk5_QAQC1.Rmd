@@ -87,9 +87,9 @@ opts_knit$set(width=75)
 
 ### **Readings**
 
-1.  Kamentez, A. 2018. The School Shootings that weren’t.NPR  [[read online]](http://tinyurl.com/y77p3o36)  [[download pdf]](https://github.com/BrunaLab/LAS6292_DataManagement/blob/master/course-materials/readings/Kamenetz_2018.pdf)
+1.  Kamentez, A. 2018. The School Shootings that weren’t.NPR  [[read online]](http://tinyurl.com/y77p3o36)  [[download pdf]](https://github.com/BrunaLab/LAS6292_DataManagement/blob/master/instructor-materials/readings/Kamenetz_2018.pdf)
 
-2.  Lincoln, Matthew D. 2018. "Best Practices for Using Google Sheets in Your Data Project."  [[read online]](https://matthewlincoln.net/2018/03/26/best-practices-for-using-google-sheets-in-your-data-project.html) [[download pdf]](https://github.com/BrunaLab/LAS6292_DataManagement/blob/master/course-materials/readings/Lincoln_2018.pdf)
+2.  Lincoln, Matthew D. 2018. "Best Practices for Using Google Sheets in Your Data Project."  [[read online]](https://matthewlincoln.net/2018/03/26/best-practices-for-using-google-sheets-in-your-data-project.html) [[download pdf]](https://github.com/BrunaLab/LAS6292_DataManagement/blob/master/instructor-materials/readings/Lincoln_2018.pdf)
 
 3. [Assess Whether You Have a Data Quality Problem](https://hbr.org/2016/07/assess-whether-you-have-a-data-quality-problem?ab=at_articlepage_recommendedarticles_bottom1x1)
 

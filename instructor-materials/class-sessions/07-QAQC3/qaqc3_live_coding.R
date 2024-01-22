@@ -6,7 +6,7 @@ library(tidyverse)
 # Load the csv file with data ---------------------------------------------
 
 las_data<- read_csv(" ------ .csv") # you will need to add the path
-# las_data <- read_csv("./course-materials/class-sessions/07-QAQC3/demo_datasets/las_data_viz.csv")
+# las_data <- read_csv("./instructor-materials/class-sessions/07-QAQC3/demo_datasets/las_data_viz.csv")
 
 # Basic Summary of the columns in the df
 summary(las_data)
@@ -220,7 +220,7 @@ las_data %>%
 
 
 
-bigfoot<-read_csv("./course-materials/class-sessions/07-QAQC3/demo_datasets/annual_bigfoot.csv")
+bigfoot<-read_csv("./instructor-materials/class-sessions/07-QAQC3/demo_datasets/annual_bigfoot.csv")
 
 
 

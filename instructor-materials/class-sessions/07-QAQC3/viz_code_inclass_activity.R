@@ -3,7 +3,7 @@ library(tidyverse)
 
 # read in the data
 
-bites<-read_csv("./course-materials/class-sessions/07-QAQC3/demo_datasets/bites_summary.csv")
+bites<-read_csv("./instructor-materials/class-sessions/07-QAQC3/demo_datasets/bites_summary.csv")
 bite_summary<-bites %>% 
   # group_by(breed,bite_location) %>% 
   group_by(breed) %>% 
@@ -11,7 +11,7 @@ bite_summary<-bites %>%
   arrange(desc(n))
 
 
-bigfoot<-read_csv("./course-materials/class-sessions/07-QAQC3/demo_datasets/annual_bigfoot.csv")
+bigfoot<-read_csv("./instructor-materials/class-sessions/07-QAQC3/demo_datasets/annual_bigfoot.csv")
 
 
 # We will first make a bar chart, then a scatter plot.

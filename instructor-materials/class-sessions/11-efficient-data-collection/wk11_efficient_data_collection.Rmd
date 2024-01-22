@@ -93,7 +93,7 @@ opts_knit$set(width=75)
 
 ### **Readings**
 
-1. Redman, T. 2016. Bad Data Costs the U.S. $3 Trillion Per Year. Harvard Business Review. [[download pdf]](https://github.com/BrunaLab/LAS6292_DataManagement/blob/master/course-materials/readings/Redman_2016.pdf)
+1. Redman, T. 2016. Bad Data Costs the U.S. $3 Trillion Per Year. Harvard Business Review. [[download pdf]](https://github.com/BrunaLab/LAS6292_DataManagement/blob/master/instructor-materials/readings/Redman_2016.pdf)
 
 
 ### **Online Lectures:**  

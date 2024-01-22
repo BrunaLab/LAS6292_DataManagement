@@ -166,19 +166,19 @@ https://statsandr.com/blog/outliers-detection-in-r/
 Original Readings for this week: 
 
 1.  Alexander, S.M., Jones, K., Bennett, N.J. et al. Qualitative data sharing and synthesis for sustainability science. Nat Sustain 3, 81–88 (2020).  
-        [[read online]](https://doi.org/10.1038/s41893-019-0434-8 )  [[download pdf]](https://github.com/BrunaLab/LAS6292_DataManagement/blob/master/course-materials/readings/Alexander_etal_2019_NatureSustainability.pdf)
+        [[read online]](https://doi.org/10.1038/s41893-019-0434-8 )  [[download pdf]](https://github.com/BrunaLab/LAS6292_DataManagement/blob/master/instructor-materials/readings/Alexander_etal_2019_NatureSustainability.pdf)
 
 2. Renaut, S. et al. 2018. Management, Archiving, and Sharing for Biologists and the Role of Research Institutions in the Technology-Oriented Age. *BioScience* 68(6)400–411  
-        [[read online]](https://academic.oup.com/bioscience/article/68/6/400/4983937) [[download pdf]](https://github.com/BrunaLab/LAS6292_DataManagement/blob/master/course-materials/readings/Renaut_etal_2018_Bioscience.pdf)  
+        [[read online]](https://academic.oup.com/bioscience/article/68/6/400/4983937) [[download pdf]](https://github.com/BrunaLab/LAS6292_DataManagement/blob/master/instructor-materials/readings/Renaut_etal_2018_Bioscience.pdf)  
 
 2.  Duke, Clifford S., and John H. Porter. 2013. "The ethics of data sharing and reuse in biology." BioScience 63(6): 483-489.  
-        [[read online]](https://academic.oup.com/bioscience/article/63/6/483/226339) [[download pdf]](https://github.com/BrunaLab/LAS6292_DataManagement/blob/master/course-materials/readings/Duke%26Porter_2013.pdf)
+        [[read online]](https://academic.oup.com/bioscience/article/63/6/483/226339) [[download pdf]](https://github.com/BrunaLab/LAS6292_DataManagement/blob/master/instructor-materials/readings/Duke%26Porter_2013.pdf)
 
 3.  Tenopir, C., et al.  (2015). Changes in data sharing and data reuse practices and perceptions among scientists worldwide. PloS one, 10(8), e0134826.  
-        [[read online]](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0134826) [[download pdf]](https://github.com/BrunaLab/LAS6292_DataManagement/blob/master/course-materials/readings/Tenopir_etal_2015.PDF)
+        [[read online]](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0134826) [[download pdf]](https://github.com/BrunaLab/LAS6292_DataManagement/blob/master/instructor-materials/readings/Tenopir_etal_2015.PDF)
 
 4.  Mauthner, NS, & O. Parry O. 2009. Qualitative data preservation and sharing in the social sciences: On whose philosophical terms?. Australian J of Social Issues 44(3):291-307.  
-         [[read online]](https://onlinelibrary.wiley.com/doi/abs/10.1002/j.1839-4655.2009.tb00147.x)  [[download pdf]](https://github.com/BrunaLab/LAS6292_DataManagement/blob/master/course-materials/readings/Mauthner_et_al-2009-Australian_Journal_of_Social_Issues.pdf)
+         [[read online]](https://onlinelibrary.wiley.com/doi/abs/10.1002/j.1839-4655.2009.tb00147.x)  [[download pdf]](https://github.com/BrunaLab/LAS6292_DataManagement/blob/master/instructor-materials/readings/Mauthner_et_al-2009-Australian_Journal_of_Social_Issues.pdf)
 
 
 ### **Online Lectures:**  

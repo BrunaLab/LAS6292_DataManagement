@@ -89,8 +89,8 @@ df4<-df4 %>%
   mutate(species=as.factor(species)) 
   
 summary(df4)
-# write_csv(df4,"./course-materials/class-sessions/07-QAQC3/las_data_viz.csv")
+# write_csv(df4,"./instructor-materials/class-sessions/07-QAQC3/las_data_viz.csv")
 
 las_data<-iris
 las_data[42,1]<-las_data[42,1]+10
-write_csv(las_data,"./course-materials/class-sessions/07-QAQC3/demo_datasets/las_data_viz.csv")
+write_csv(las_data,"./instructor-materials/class-sessions/07-QAQC3/demo_datasets/las_data_viz.csv")

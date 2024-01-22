@@ -1,6 +1,6 @@
 library(tidyverse)
 library(readxl)
-portal<-read_xlsx("./content/course-materials/class-sessions/03-spreadsheets/examples/untidy-portal-data.xlsx",skip=3)
+portal<-read_xlsx("./content/instructor-materials/class-sessions/03-spreadsheets/examples/untidy-portal-data.xlsx",skip=3)
 
 # Select the columns that represent each plot
 plot1<-select(portal,1:5)
