@@ -24,7 +24,7 @@ weight: 20
 
 ### Breakout: Process Audit of Data Forms
 
-  1. Look over these forms [link](https://github.com/BrunaLab/LAS6292_DataManagement/blob/master/course-materials/class-sessions/11-efficient-data-collection/datasheet_examples.pdf) and conduct a process audit. 
+  1. Look over these forms [link](https://github.com/BrunaLab/LAS6292_DataManagement/blob/master/instructor-materials/class-sessions/11-efficient-data-collection/datasheet_examples.pdf) and conduct a process audit. 
   2. _Where_ and _why_ do you think errors are most likely to sneak in? 
   3. Summarize your conclusions and prepare to present them to the class.
 
@@ -45,7 +45,7 @@ weight: 20
 
 1. Make a checklist for your research - it can be for materials you need to take with you, procedures for interviews or field experiments, or for research compliance (IRB, permits). 
 1. There's no need to format the list with numbers. checkboxes, headers, bolding, etc. - just submit the list of items and I will create and post an .Rmd document with them that will be editable by others. 
-1. You can see some [examples of checklists here](https://github.com/BrunaLab/LAS6292_DataManagement/blob/master/course-materials/class-sessions/11-efficient-data-collection/checklist_examples.pdf), along with the checklist last year's course put together as a group [Travel/Fieldwork Checklist](https://github.com/BrunaLab/LAS6292_DataManagement/blob/master/course-materials/class-sessions/11-efficient-data-collection/class_checklists/travel_checklist.pdf) 
+1. You can see some [examples of checklists here](https://github.com/BrunaLab/LAS6292_DataManagement/blob/master/instructor-materials/class-sessions/11-efficient-data-collection/checklist_examples.pdf), along with the checklist last year's course put together as a group [Travel/Fieldwork Checklist](https://github.com/BrunaLab/LAS6292_DataManagement/blob/master/instructor-materials/class-sessions/11-efficient-data-collection/class_checklists/travel_checklist.pdf) 
 1. I asked around, and some useful ones people would really like to see include checklists for first aid kits (see this [link](https://www.sciencedirect.com/topics/medicine-and-dentistry/first-aid-kit)) and research permits for different countries.
 
 ### Grading Rubric: 

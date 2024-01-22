@@ -32,7 +32,7 @@ knit: (function(inputFile, encoding) {
   rmarkdown::render(inputFile, 
   output_file = "01-intro-notes",
   encoding = encoding, 
-  output_dir = "./course-materials/class-sessions/01-intro")
+  output_dir = "./instructor-materials/class-sessions/01-intro")
   })
 ---
 

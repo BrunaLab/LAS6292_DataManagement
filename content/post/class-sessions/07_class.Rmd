@@ -62,7 +62,7 @@ library(tidyverse)
 
 ### DATA VISUALIZATION PART 1: DataViz to find errors
 
-1) Dataset for part 1: [las_data_viz.csv](https://raw.githubusercontent.com/BrunaLab/LAS6292_DataManagement/master/course-materials/class-sessions/07-QAQC3/demo_datasets/las_data_viz.csv)
+1) Dataset for part 1: [las_data_viz.csv](https://raw.githubusercontent.com/BrunaLab/LAS6292_DataManagement/master/instructor-materials/class-sessions/07-QAQC3/demo_datasets/las_data_viz.csv)
 
 2) Code: the code used in class is at the bottom of this page. You can also [download it here](https://gist.github.com/embruna/d0a42a5eac5fd56b582fe29d0fd26259). Either download a zip file containing the .r file ("download zip" button in the top right corner), or click the "raw" button to open the code in a web browser; you can then "copy-and-paste" this into an R script.
 
@@ -70,11 +70,11 @@ library(tidyverse)
 
 1) Here are three datasets to download for this part of the session. Save to your RStudio Project.
 
-- [cereal.csv](https://raw.githubusercontent.com/BrunaLab/LAS6292_DataManagement/master/course-materials/class-sessions/07-QAQC3/demo_datasets/cereal.csv): data on the nutritional content of different breakfast cereals.
+- [cereal.csv](https://raw.githubusercontent.com/BrunaLab/LAS6292_DataManagement/master/instructor-materials/class-sessions/07-QAQC3/demo_datasets/cereal.csv): data on the nutritional content of different breakfast cereals.
 
-- [bites.csv](https://raw.githubusercontent.com/BrunaLab/LAS6292_DataManagement/master/course-materials/class-sessions/07-QAQC3/demo_datasets/bites_summary.csv): Data on dogs bites by breed.
+- [bites.csv](https://raw.githubusercontent.com/BrunaLab/LAS6292_DataManagement/master/instructor-materials/class-sessions/07-QAQC3/demo_datasets/bites_summary.csv): Data on dogs bites by breed.
 
-- [bigfoot.csv](https://raw.githubusercontent.com/BrunaLab/LAS6292_DataManagement/master/course-materials/class-sessions/07-QAQC3/demo_datasets/annual_bigfoot.csv): Number of Bigfoot sightings per year in North America
+- [bigfoot.csv](https://raw.githubusercontent.com/BrunaLab/LAS6292_DataManagement/master/instructor-materials/class-sessions/07-QAQC3/demo_datasets/annual_bigfoot.csv): Number of Bigfoot sightings per year in North America
 
 
 2) We're going to make a bar plot, then a scatter plot. First you read in the data using `read_csv()`:

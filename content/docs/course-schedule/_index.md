@@ -39,7 +39,7 @@ Tuesday, Periods 3-5 (9:35 am - 12:35 pm) in 376 Grinter Hall
 
 <!-- code for in-class link: <td>{{% staticref "/post/class-sessions/02_class" %}}<i class="fas fa-book-open"></i>{{% /staticref %}}</td>---> 
 
-<!-- code for slides link: <td>{{% staticref "course-materials/class-sessions/01-intro/01_slides_2022.pdf" "newtab" %}}<i class="fas fa-image"></i>{{% /staticref %}} </td> ---> 
+<!-- code for slides link: <td>{{% staticref "instructor-materials/class-sessions/01-intro/01_slides_2022.pdf" "newtab" %}}<i class="fas fa-image"></i>{{% /staticref %}} </td> ---> 
 
 <table>
 <col style="width:5%">

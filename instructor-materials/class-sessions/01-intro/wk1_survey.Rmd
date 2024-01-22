@@ -31,7 +31,7 @@ output: pdf_document
 knit: (function(inputFile, encoding) {
   rmarkdown::render(inputFile,
   encoding = encoding,
-  output_dir = "./course-materials/class-sessions/01-intro")
+  output_dir = "./instructor-materials/class-sessions/01-intro")
   })
 ---
 

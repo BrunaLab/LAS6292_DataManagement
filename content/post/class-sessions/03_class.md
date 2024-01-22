@@ -31,9 +31,9 @@ Much of your future as a researcher will be spent cleaning and correcting data, 
 
 {{< figure src="download_button.png" id="download">}}.
 
-  * `SAFI_messy.xlsx`: [download link](https://github.com/BrunaLab/LAS6292_DataManagement/blob/703638deb8c2bd62763ce95fa5cee629e9605a40/course-materials/class-sessions/03-spreadsheets/examples/SAFI_messy.xlsx).
-  * `unity-portal-data.xlsx`: [download link](https://github.com/BrunaLab/LAS6292_DataManagement/blob/703638deb8c2bd62763ce95fa5cee629e9605a40/course-materials/class-sessions/03-spreadsheets/examples/untidy-portal-data.xlsx).
-  * `dates.xlsx`: [download link](https://github.com/BrunaLab/LAS6292_DataManagement/blob/703638deb8c2bd62763ce95fa5cee629e9605a40/course-materials/class-sessions/03-spreadsheets/examples/dates.xlsx)
+  * `SAFI_messy.xlsx`: [download link](https://github.com/BrunaLab/LAS6292_DataManagement/blob/703638deb8c2bd62763ce95fa5cee629e9605a40/instructor-materials/class-sessions/03-spreadsheets/examples/SAFI_messy.xlsx).
+  * `unity-portal-data.xlsx`: [download link](https://github.com/BrunaLab/LAS6292_DataManagement/blob/703638deb8c2bd62763ce95fa5cee629e9605a40/instructor-materials/class-sessions/03-spreadsheets/examples/untidy-portal-data.xlsx).
+  * `dates.xlsx`: [download link](https://github.com/BrunaLab/LAS6292_DataManagement/blob/703638deb8c2bd62763ce95fa5cee629e9605a40/instructor-materials/class-sessions/03-spreadsheets/examples/dates.xlsx)
   
 
 2. Open `SAFI_messy.xlsx` and look at how the data are have been entered and organized. Now discuss the following questions. Keep in mind the `tidy` principles about which you read in Broman and Woo (2018).

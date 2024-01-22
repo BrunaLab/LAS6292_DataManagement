@@ -42,20 +42,20 @@ The following are three OCR sites.
 Use these websites to:
 
   1. Extract text from these pdfs and images
-      * [ha_data.pdf](https://github.com/BrunaLab/LAS6292_DataManagement/blob/master/course-materials/class-sessions/14-automated-data-extraction/ocr_files_for_class/ocr_to_csv/ha_data.pdf)
+      * [ha_data.pdf](https://github.com/BrunaLab/LAS6292_DataManagement/blob/master/instructor-materials/class-sessions/14-automated-data-extraction/ocr_files_for_class/ocr_to_csv/ha_data.pdf)
       
-      * [ha_pdf_of_excel.pdf](https://github.com/BrunaLab/LAS6292_DataManagement/blob/master/course-materials/class-sessions/14-automated-data-extraction/ocr_files_for_class/ocr_to_csv/ha_pdf_of_excel.pdf)
+      * [ha_pdf_of_excel.pdf](https://github.com/BrunaLab/LAS6292_DataManagement/blob/master/instructor-materials/class-sessions/14-automated-data-extraction/ocr_files_for_class/ocr_to_csv/ha_pdf_of_excel.pdf)
       
-      * [pdf_of_excel.pdf](https://github.com/BrunaLab/LAS6292_DataManagement/blob/master/course-materials/class-sessions/14-automated-data-extraction/ocr_files_for_class/ocr_to_csv/pdf_of_excel.pdf)
-      * [pic_of_invoice_jpg.jpeg](https://github.com/BrunaLab/LAS6292_DataManagement/blob/master/course-materials/class-sessions/14-automated-data-extraction/ocr_files_for_class/ocr_to_csv/pic_of_invoice_jpg.jpeg)
-      * [pic_of_table_jpg.jpeg](https://github.com/BrunaLab/LAS6292_DataManagement/blob/master/course-materials/class-sessions/14-automated-data-extraction/ocr_files_for_class/ocr_to_csv/pic_of_table_jpg.jpeg)
+      * [pdf_of_excel.pdf](https://github.com/BrunaLab/LAS6292_DataManagement/blob/master/instructor-materials/class-sessions/14-automated-data-extraction/ocr_files_for_class/ocr_to_csv/pdf_of_excel.pdf)
+      * [pic_of_invoice_jpg.jpeg](https://github.com/BrunaLab/LAS6292_DataManagement/blob/master/instructor-materials/class-sessions/14-automated-data-extraction/ocr_files_for_class/ocr_to_csv/pic_of_invoice_jpg.jpeg)
+      * [pic_of_table_jpg.jpeg](https://github.com/BrunaLab/LAS6292_DataManagement/blob/master/instructor-materials/class-sessions/14-automated-data-extraction/ocr_files_for_class/ocr_to_csv/pic_of_table_jpg.jpeg)
 
   **and**  
 
   2. Importing the data from these images and pdf's into an excel sheet 
-    * [handwriting_pdf.pdf](https://github.com/BrunaLab/LAS6292_DataManagement/blob/master/course-materials/class-sessions/14-automated-data-extraction/ocr_files_for_class/ocr_to_text/handwriting_pdf.pdf)  
-    * [text_photo_3.jpeg](https://github.com/BrunaLab/LAS6292_DataManagement/blob/master/course-materials/class-sessions/14-automated-data-extraction/ocr_files_for_class/ocr_to_text/text_photo_3.jpeg)  
-    * [typed_text_1.jpeg](https://github.com/BrunaLab/LAS6292_DataManagement/blob/master/course-materials/class-sessions/14-automated-data-extraction/ocr_files_for_class/ocr_to_text/typed_text_1.jpeg)     
+    * [handwriting_pdf.pdf](https://github.com/BrunaLab/LAS6292_DataManagement/blob/master/instructor-materials/class-sessions/14-automated-data-extraction/ocr_files_for_class/ocr_to_text/handwriting_pdf.pdf)  
+    * [text_photo_3.jpeg](https://github.com/BrunaLab/LAS6292_DataManagement/blob/master/instructor-materials/class-sessions/14-automated-data-extraction/ocr_files_for_class/ocr_to_text/text_photo_3.jpeg)  
+    * [typed_text_1.jpeg](https://github.com/BrunaLab/LAS6292_DataManagement/blob/master/instructor-materials/class-sessions/14-automated-data-extraction/ocr_files_for_class/ocr_to_text/typed_text_1.jpeg)     
   
   3. ***Bonus (if time permits)*** 
    
