@@ -1,0 +1,187 @@
+---
+title: "LAS 6292: Organization & Backups"
+format: 
+  revealjs:
+    # theme: [night, custom.scss]
+    theme: [night, slides.css]
+    slide-number: true
+    show-slide-number: print
+    # theme: [night]
+    # theme: [custom.css]
+    smaller: true 
+    incremental: true   
+    # self-contained: false
+    # reveal-js-url: 
+    # theme: white
+# editor: source
+# output-dir: "./static/uploads"
+# output: revealjs::revealjs_presentation
+include-in-header:
+      text: |
+        <style>
+        .right {
+          text-align: right;
+        }
+        </style>
+---
+
+
+## How to Name Your Files {.center}
+
+
+![](./images/img1.png){fig-align="center" width=50% height=50%} 
+
+## These are all real examples found on EB's computer {.center}
+
+
+## Example 1 {.center .incremental}
+
+::: {layout-ncol=2}
+
+
+![](./images/img3.png){fig-align="center" width=70% height=70%} 
+
+![](https://media.giphy.com/media/cEYFeDKVPTmRgIG9fmo/giphy.gif){fig-align="center" width=70% height=70%} 
+
+
+
+:::
+
+
+
+## Example 2 {.center}
+
+
+
+![](./images/img4.png){fig-align="center" width=70% height=70%} 
+
+![](https://media.giphy.com/media/3oEjHGr1Fhz0kyv8Ig/giphy.gif){fig-align="center" width=30% height=30%} 
+
+## Example 3 {.center}
+
+![](./images/img6.png){fig-align="center" width=40% height=40%} 
+
+<h3>This sounds...scary.</h3> 
+
+![](./images/img7.png){.fragment fig-align="center" width=70% height=70%} 
+
+## Example 4 {.center}
+![](./images/img8.png){fig-align="center" width=20% height=20%} 
+
+<h3>We've all been there.</h3>
+
+![](https://media.giphy.com/media/Bce2LvqY3EG9QXvCDY/giphy.gif){fig-align="center" width=70% height=70%} 
+
+
+## How should you name files? {.center}
+
+<span class="italic"><h3 style="color:black">Here are 6 things to remember.</h3></span>
+
+![](./images/img9.png){fig-align="center" width=70% height=70%} 
+
+# 
+
+## 1. Use a name that describes and uniquely identifies the file contents {.incremental}
+
+
+![](./images/img10.png){.fragment fig-align="right" width=70% height=70%} 
+![](./images/img11.png){.fragment fig-align="center" width=70% height=70%} 
+![](./images/img12.png){.fragment fig-align="center" width=70% height=70%} 
+![](./images/img13.png){.fragment fig-align="center" width=70% height=70%} 
+
+
+- **You can use descriptors like these in the name:** (1) project acronym, (2) location where data were collected,
+(3) researcher name, (4) year or month collected, (5) type of data in file
+
+## 2. Keep names as short as possible
+<br>
+<br>
+<br>
+<span class="italic"><h3 style= "font-family: Courier New; color:darkred; text-align:center"> < 25 characters </h3></span>
+
+
+## 3. Avoid using spaces & special characters
+
+<br>
+<br>
+<br>
+<span class="italic"><h3 style= "font-family: Courier New; color:darkred; text-align:center"> $ % ^ & # | : , ; </h3></span>
+
+<br>
+<br>
+<br>
+<h4 style= "color:black; text-align:center"> Computer programs interpret these characters as special instructions, spaces, or breakpoints. </h4>
+
+
+
+
+## 4. Start with letters, never numbers
+
+<br>
+<br>
+<br>
+<h3 style= "font-family: Courier New; color:darkred; text-align:center"> 1998_data </h3>
+<h3 style= "color:black; text-align:center"> NO </h3>
+<br>
+<br>
+<br>
+<h3 style= "font-family: Courier New; color:darkred; text-align:center"> data_1998 </h3>
+<h3 style= "color:black; text-align:center"> YES </h3>
+
+
+## 5. Include dates in names (but be careful!){.incremental}
+
+
+
+![](./images/img14.png){fig-align="center" width=70% height=70%} 
+
+![](./images/img15.png){.fragment fig-align="center" width=70% height=70%} 
+
+- **This can lead to major problems when collaborating internationally or 
+when team members use versions of software from different global regions.**
+
+
+
+
+## 6. Dates in names: use standard format
+<h3 style= "color:navyblue; text-align:center">  (ISO 8601)^[International Organization for Standardization] </h3>
+
+
+![](./images/img16.png){fig-align="center" width=90% height=90%} 
+
+## Bonus from doing 5 & 6
+
+<span class="italic"><h4 style="color:black; text-align:left">In addition to avoiding confusion, you can now quickly sort files chronologically.</h4></span>
+
+
+::: {layout-ncol=2 .fragment .column1 width="30%"}
+
+Characters are read and sorted in order, so  files with “4 April” in the name will be sorted after those with “5 April”, regardless of the year….
+
+![](./images/img17.png){fig-align="center" width=35% height=35%} 
+
+…but not when you use ISO format, which puts the year first.
+
+![](./images/img18.png){fig-align="center" width=35% height=35%} 
+
+
+:::
+
+## 7. Use a consistent method of dealing with spaces and letter case.
+
+<span class="italic"><h4 style="color:black; text-align:left">There are two preferred options: </h4></span>
+
+
+::: {layout-ncol=2 .fragment .column1 width="30%"}
+
+
+![](./images/img19.png){fig-align="center" width=70% height=70%} 
+
+
+![](./images/img20.png){fig-align="center" width=70% height=70%} 
+
+:::
+
+
+
+

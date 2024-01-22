@@ -62,7 +62,7 @@ Tuesday, Periods 3-5 (9:35 am - 12:35 pm) in 376 Grinter Hall
     <td>‘Data’ across disciplines; Data Life-cycle </td>
     <td>{{% staticref "/post/class-sessions/readings-week-01" "newtab" %}}<i class="fas fa-book-open"></i>{{% /staticref %}}</td> 
     <td>{{% staticref "/post/class-sessions/class-week-01" %}}<i class="fas fa-laptop-code"></i>{{% /staticref %}}</td>
- <!-- <td>{{% staticref "uploads/slides/slides/01_intro_slides.pdf" "newtab" %}}<i class="fas fa-image"></i> Slides: Intro{{% /staticref %}} </td> --->
+    <td>{{% staticref "https://las6292.netlify.app/uploads/slides/01-intro/01_slides_intro.html#/title-slide" "newtab" %}}<i class="fas fa-image"></i> Slides: Intro{{% /staticref %}} </td>
   </tr>
   
   <tr>
@@ -71,10 +71,9 @@ Tuesday, Periods 3-5 (9:35 am - 12:35 pm) in 376 Grinter Hall
     <td>File Formats, Naming Conventions, Data Storage & Security</td>
     <td>{{% staticref "/post/class-sessions/readings-week-02" "newtab" %}}<i class="fas fa-book-open"></i>{{% /staticref %}}</td> 
     <td>{{% staticref "/post/class-sessions/class-week-02" %}}<i class="fas fa-laptop-code"></i>{{% /staticref %}}</td>
-  <!--   <td>{{% staticref "uploads/notes/wk2_naming_conventions_notes.pdf" "newtab" %}}<i class="fas fa-pen"></i> Notes: Naming Conventions{{% /staticref %}}
+  <td>{{% staticref "uploads/notes/wk2_naming_conventions_notes.pdf" "newtab" %}}<i class="fas fa-pen"></i> Notes: Naming Conventions{{% /staticref %}}
     <br>{{% staticref "uploads/notes/wk2_file_organization_notes.pdf" "newtab" %}}<i class="fas fa-pen"></i> Notes: File Organization{{% /staticref %}}
-    <br>{{% staticref "uploads/notes/wk2_storage_backup_notes.pdf" "newtab" %}}<i class="fas fa-pen"></i> Notes: Storage & Backup{{% /staticref %}}</td> --->
-    
+    <br>{{% staticref "uploads/notes/wk2_storage_backup_notes.pdf" "newtab" %}}<i class="fas fa-pen"></i> Notes: Storage & Backup{{% /staticref %}}</td>
   </tr>
   
   <tr>
