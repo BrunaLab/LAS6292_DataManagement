@@ -29,9 +29,9 @@ Much of your future as a researcher will be spent cleaning and correcting data, 
 
 1. Download the following three spreadsheets. To download the files, click the links below - they should automatically download to your computer.  
 
-  * `SAFI_messy.xlsx`: [download link](https://las6292.netlify.app/notes/exercises/spreadsheets/dates.xlsx).
-  * `unity-portal-data.xlsx`: [download link](https://las6292.netlify.app/notes/exercises/spreadsheets/untidy-portal-data.xlsx).
-  * `dates.xlsx`: [download link](https://las6292.netlify.app/notes/exercises/spreadsheets/dates.xlsx)
+  * `SAFI_messy.xlsx`: [download link](https://las6292.netlify.app/uploads/exercises/spreadsheets/dates.xlsx).
+  * `unity-portal-data.xlsx`: [download link](https://las6292.netlify.app/uploads/exercises/spreadsheets/untidy-portal-data.xlsx).
+  * `dates.xlsx`: [download link](https://las6292.netlify.app/uploads/exercises/spreadsheets/dates.xlsx)
   
 
 2. Open `SAFI_messy.xlsx` and look at how the data are have been entered and organized. Now discuss the following questions. Keep in mind the `tidy` principles about which you read in Broman and Woo (2018).
