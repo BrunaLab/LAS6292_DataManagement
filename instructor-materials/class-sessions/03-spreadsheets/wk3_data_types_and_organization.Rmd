@@ -161,14 +161,14 @@ time_remain <- 180 - total_time
 
 Down the road when doing data correction, organizing data, and doing analyses it will be essential to classify data according to their 'type'. It can also help with data entry, which is why we will introduce some of these types here:
 
-1. Nominal aka Factor: categories or groups, such as [`apple`, `orange`], [`trumpet`, `flute`, `violin`]
-2. Ordinal aka Ordered Factor: groups where there is an order: [`first`>`second`>`third`], [`small`<`medium`<`large`]. Note that this order doesn't imply quantitative value, e.g., One is not stating that `medium` is twice the size of `small` or that `large` is twice the size of `medium.` 
-3. Character: [`a`, `gnv`, `mexico`, `Inigo Montoya`]
-4. Numeric (real or decimal): `2`, `15.5`
-5. Integer: [`1`,`2`,`3`]
-6. Logical: [`True`, `False`]
-7. Complex: `1+4*i`
-8. Interesting case: what category are [`red`, `orange`, `green`, `blue`]? We usually treat it as Nominal, but it is actually Ordinal - the colors represent wavelengths on the visible light spectrum (650, 600, 550, and 450 nm respectively). If you were recording the wavelength itself, it would be Numeric. 
+1. **Nominal aka Factor:** categories or groups, such as [`apple`, `orange`], [`trumpet`, `flute`, `violin`]
+2. **Ordinal aka Ordered Factor:** groups where there is an order: [`first`>`second`>`third`], [`small`<`medium`<`large`]. Note that this order doesn't imply quantitative value, e.g., One is not stating that `medium` is twice the size of `small` or that `large` is twice the size of `medium.` 
+3. **Character**: [`a`, `gnv`, `mexico`, `Inigo Montoya`]
+4. **Numeric (real or decimal):** `2`, `15.5`
+5. **Integer:** [`1`,`2`,`3`]
+6. **Logical:** [`True`, `False`]
+7. **Complex:** `1+4*i`
+8. **Interesting case:** what category are [`red`, `orange`, `green`, `blue`]? We usually treat it as Nominal, but it is actually Ordinal - the colors represent wavelengths on the visible light spectrum (650, 600, 550, and 450 nm respectively). If you were recording the wavelength itself, it would be Numeric. 
 9. *For more on different categories of data you can [watch this video on LinkedIn Learning](https://www.linkedin.com/learning/introduction-to-data-science-2/statistical-data-types?u=41282748)*. More information on how to log on to LinkedIn Learning as a UF Affiliate is found [here](https://training.it.ufl.edu/linkedin/)
 
 ### **Spreadsheets**  (`r t2_overview` min)
@@ -183,7 +183,13 @@ Spreadsheets are ok for data entry, but they have some features that make it eas
     
 &nbsp;&nbsp;&nbsp;&nbsp;**Don't. Please**  
   
-There are several reasons why. **(A)** The 'drag-and-drop', menu-driven nature of spreadsheet programs makes it very difficult (or impossible) to replicate your steps, much less those of another person. This means you can't easily find where mistakes were made, and if you have to reconstruct an analysis or figure you have to start from from the very beginnng. This is extremely tedious. **(B)** Furthermore, when doing calculations in a spreadsheet it is easy to accidentally apply a slightly different formula to multiple adjacent cells. It is easy to introduce mistakes. **(C)** Finally, at some point during your data correction or analyses - probably without even realizing it - you will make a mistake either 'sorting' or trying to fill in cells with 'copy-drag-drop-paste'. This will potentially ruin several days of your life (or more) while you try to fix it (assuming you realize you made this mistake, which people often don't).
+There are several reasons why.  
+
+**(A)** The 'drag-and-drop', menu-driven nature of spreadsheet programs makes it very difficult (or impossible) to replicate your steps, much less those of another person. This means you can't easily find where mistakes were made, and if you have to reconstruct an analysis or figure you have to start from from the very beginning This is extremely tedious.   
+
+**(B)** Furthermore, when doing calculations in a spreadsheet it is easy to accidentally apply a slightly different formula to multiple adjacent cells. It is easy to introduce mistakes.  
+
+**(C)** Finally, at some point during your data correction or analyses - probably without even realizing it - you will make a mistake either 'sorting' or trying to fill in cells with 'copy-drag-drop-paste'. This will potentially ruin several days of your life (or more) while you try to fix it (assuming you realize you made this mistake, which people often don't).
     
 
 ## **Breakout 1: Group Discussion (`r breakout1` min) **
@@ -270,7 +276,7 @@ b. How would you correct each of these issues? Could these data easily be import
 
 ## **In-class Group Assignment (`r breakout2` min)**
 
-### **The goal of this breakout** is to learn some ways to minimize the number of mistakes when entering data. **First**, watch the following video (11 min) on ['Data Validation in Excel'](https://www.youtube.com/watch?v=nMxl1_NAcxc). **Second**, open this web page on ['Quality Assurance and Control in Excel'](https://datacarpentry.org/spreadsheet-ecology-lesson/04-quality-control/). It covers the same material, so it's a handy reference to have open during the exercise. (*Note: while we are using Excel for this exercise, see "Tools" below for how to do the same in Google Sheets*).   
+### **The goal of this breakout** is to learn some ways to minimize the number of mistakes when entering data. **First**, watch the following video (11 min) on ['Data Validation in Excel'](https://www.youtube.com/watch?v=nMxl1_NAcxc). **Second**, open this web page on ['Quality Assurance and Control in Excel'](https://datacarpentry.org/spreadsheet-ecology-lesson/04-quality-control.html). It covers the same material, so it's a handy reference to have open during the exercise. (*Note: while we are using Excel for this exercise, see "Tools" below for how to do the same in Google Sheets*).   
 
 ### **Exercise: ** Set up a `tidy` sheet for data entry for the Portal data from Breakout 1 
 
@@ -313,7 +319,7 @@ A live coding example to lay the foundation for what we will be doing moving for
 
 # Tools & Resources
 
-1. Data Validation in Google Sheets: [blog post](https://www.howtogeek.com/428919/how-to-restrict-data-input-in-google-sheets-with-data-validation/) and [video tutorial](https://www.youtube.com/watch?v=VEJMeYroDTM). A pdf version is available for download [here](https://github.com/BrunaLab/LAS6292_DataManagement/blob/57becfed53e93c81492f8ba426a5b198b83769e6/content/instructor-materials/class-sessions/03-spreadsheets/data-validation-google-sheets.pdf).
+1. Data Validation in Google Sheets: [blog post](https://www.howtogeek.com/428919/how-to-restrict-data-input-in-google-sheets-with-data-validation/) and [video tutorial](https://www.youtube.com/watch?v=VEJMeYroDTM). A pdf version is available for download [here](https://github.com/BrunaLab/LAS6292_DataManagement/static/uploads/readings/data-validation-google-sheets.pdf).
 
 2. Why not bypass spreadsheets like Excel and use a csv editor like [Comma Chameleon][https://comma-chameleon.io/] instead? CC and other csv editors allow you to enter data in the same way - into cells, by adding and removing rows - and then export your file. But that's about it, which means you can't do many of the things (e.g., calculations, color in cells) that cause problems down the road.
 
