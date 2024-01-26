@@ -95,11 +95,11 @@ opts_knit$set(width=75)
 
 1.  Broman, K. W., & Woo, K. H. (2018). Data organization in spreadsheets. The American Statistician, 72(1), 2-10.   [[read online]](https://www.tandfonline.com/doi/full/10.1080/00031305.2017.1375989) 
 
-1. Data Validation in Google Sheets: [blog post](https://www.howtogeek.com/428919/how-to-restrict-data-input-in-google-sheets-with-data-validation/) and [video tutorial](https://www.youtube.com/watch?v=VEJMeYroDTM). A pdf version is available for download [here](https://github.com/BrunaLab/LAS6292_DataManagement/blob/57becfed53e93c81492f8ba426a5b198b83769e6/content/instructor-materials/class-sessions/03-spreadsheets/data-validation-google-sheets.pdf).
+1. Data Validation in Google Sheets: [blog post](https://www.howtogeek.com/428919/how-to-restrict-data-input-in-google-sheets-with-data-validation/) and [video tutorial](https://www.youtube.com/watch?v=VEJMeYroDTM). A pdf version is available for download [here](https://las6292.netlify.app/uploads/readings/data-validation-google-sheets.pdf).
 
 2. Why not bypass spreadsheets like Excel and use a csv editor like [Comma Chameleon][https://comma-chameleon.io/] instead? CC and other csv editors allow you to enter data in the same way - into cells, by adding and removing rows - and then export your file. But that's about it, which means you can't do many of the things (e.g., calculations, color in cells) that cause problems down the road.
 
-3. More advanced users comfortable with R can also look into [Data Curator](https://github.com/qcif/data-curator), with whch you can create and edit tabular data from scratch or from a template, open Microsoft Excel and CSV files, and automatically correct common problems found in these and other file types. 
+3. More advanced users comfortable with R can also look into [Data Curator](https://github.com/qcif/data-curator), with which you can create and edit tabular data from scratch or from a template, open Microsoft Excel and CSV files, and automatically correct common problems found in these and other file types. 
 
 1. DataONE Community Engagement & Outreach Working Group (2017) "Data Quality Control and Assurance". Accessed through the Data Management Skillbuilding Hub at https://dataoneorg.github.io/Education/lessons/05_qaqc/index on Aug 31, 2020
 
