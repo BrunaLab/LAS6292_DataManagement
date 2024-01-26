@@ -54,7 +54,7 @@ knit: (function(inputFile, encoding) {
 
 There aren't really "rules" about how to organize your files, but I think the best way to organize is to think in terms of "projects". Of course, how you define a "project" is sometimes tough...is the PhD the 'Project' or is each chapter of the dissertation a 'Project'? You'll have to give this some thought and think of  a system that works for you. That said...
 
-**I like 'Project' based organization for two main reasons: **
+**I like 'Project' based organization for two main reasons: ** 
 
 1. **First**, it pushes you to think in terms of outcomes: 'projects' lead to 'products' (e.g., paper, report, grant proposal). This helps you think more clearly about what data need to be collected and the analyses that need to be done. If the data aren't for a new project, and it's not clear to you if or how the data fit into a pre-existing project, then are you sure you need to spend time, effort, and money collecting them?   
 
