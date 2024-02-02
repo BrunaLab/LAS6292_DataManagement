@@ -29,7 +29,7 @@ Much of your future as a researcher will be spent cleaning and correcting data, 
 
 1. Download the following three spreadsheets. To download the files, click the links below - they should automatically download to your computer.  
 
-  * `SAFI_messy.xlsx`: [download link](https://las6292.netlify.app/uploads/exercises/spreadsheets/dates.xlsx).
+  * `SAFI_messy.xlsx`: [download link](https://las6292.netlify.app/uploads/exercises/spreadsheets/SAFI_messy.xlsx).
   * `unity-portal-data.xlsx`: [download link](https://las6292.netlify.app/uploads/exercises/spreadsheets/untidy-portal-data.xlsx).
   * `dates.xlsx`: [download link](https://las6292.netlify.app/uploads/exercises/spreadsheets/dates.xlsx)
   
