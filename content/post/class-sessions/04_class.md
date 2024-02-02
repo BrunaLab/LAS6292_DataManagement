@@ -46,9 +46,9 @@ The code below is for {{< icon name="r-project" pack="fab" >}}. You may use any 
 
 ## 2. Download the data we will be using in class
 
-1. Open the messy data file `demo_data.csv` by following [this link](https://raw.githubusercontent.com/BrunaLab/LAS6292_DataManagement/master/instructor-materials/class-sessions/04-reproducibility/examples/demo_data.csv)
-1. the data will open as a tab in your web browser in `.csv` format; save them to the `data_raw` folder by going to 'File' on the menu bar of your web browser and selecting 'Save page as' from the drop-down menu.
-1. save the file to the `data_raw` folder. 
+1. Open the messy data file `demo_data.csv` by following [this link](https://las6292.netlify.app/uploads/exercises/spreadsheets/demo_data.csv)
+<!---1. the data will open as a tab in your web browser in `.csv` format; save them to the `data_raw` folder by going to 'File' on the menu bar of your web browser and selecting 'Save page as' from the drop-down menu. --->
+2. save the file to the `data_raw` folder. 
 
 <!-- ![Download Files by following the link and clicking this button.](raw_download.png){width=50%} -->
 
