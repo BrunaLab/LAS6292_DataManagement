@@ -82,7 +82,7 @@ Tuesday, Periods 3-5 (9:35 am - 12:35 pm) in 376 Grinter Hall
     <td>Data structure & format of data and datasets</td>
     <td>{{% staticref "/post/class-sessions/readings-week-03" "newtab" %}}<i class="fas fa-book-open"></i>{{% /staticref %}}</td> 
   <td>{{% staticref "/post/class-sessions/class-week-03" %}}<i class="fas fa-laptop-code"></i>{{% /staticref %}}</td>
- <!--    <td>{{% staticref "uploads/notes/wk3_spreadsheets_notes.pdf" "newtab" %}}<i class="fas fa-pen"></i> Notes{{% /staticref %}}</td> --->
+ <td>{{% staticref "uploads/notes/wk3_spreadsheets_notes.pdf" "newtab" %}}<i class="fas fa-pen"></i> Notes{{% /staticref %}}</td>
   </tr>
   
   <tr>
@@ -91,9 +91,10 @@ Tuesday, Periods 3-5 (9:35 am - 12:35 pm) in 376 Grinter Hall
     <td>Reproducible Data (Re)organization</td>
     <td>{{% staticref "/post/class-sessions/readings-week-04" "newtab" %}}<i class="fas fa-book-open"></i>{{% /staticref %}}</td> 
    <td>{{% staticref "/post/class-sessions/class-week-04" %}}<i class="fas fa-laptop-code"></i>{{% /staticref %}}</td>
- <!--   <td>{{% staticref "uploads/slides/wk4_reproducibility_slides.pdf" "newtab" %}}<i class="fas fa-image"></i>  Slides{{% /staticref %}}
+ <td>{{% staticref "uploads/slides/wk4_reproducibility_slides.pdf" "newtab" %}}<i class="fas fa-image"></i>  Slides{{% /staticref %}}
    <br>{{% staticref "uploads/notes/wk4_reproducibility_notes.pdf" "newtab" %}}<i class="fas fa-pen"></i> Notes{{% /staticref %}}
-   <br>{{% staticref "uploads/notes/wk4_live_coding.R" "newtab" %}}<i class="far fa-file-code"></i>  Demo R Code{{% /staticref %}}</td> --->
+   <br>{{% staticref "uploads/notes/wk4_live_coding.R" "newtab" %}}<i class="far fa-file-code"></i>  Demo R Code (from class){{% /staticref %}}
+   <br>{{% staticref "uploads/notes/wk4_live_coding.R" "newtab" %}}<i class="far fa-file-code"></i>  Demo R Code (more examples){{% /staticref %}}</td>
   </tr>
   
   <tr>
