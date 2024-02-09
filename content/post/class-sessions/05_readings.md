@@ -56,7 +56,7 @@ You can use the following to set up an automatic review your data after you have
 
 1. Kim, A. Y., Herrmann, V., Barreto, R., Calkins, B., Gonzalez-Akre, E., Johnson, D. J., Jordan, J. A., Magee, L., McGregor, I. R., Montero, N., Novak, K., Rogers, T., Shue, J., & Anderson-Teixeira, K. J. (2022). Implementing GitHub Actions continuous integration to reduce error rates in ecological data collection. Methods in Ecology and Evolution, 13, 2572–2585. https://doi.org/10.1111/2041-210X.13982
 
-2. Iannone, Richard's `pointblank` R package for Data Validation and Organization of Metadata [[link](https://rstudio.github.io/pointblank/)
+2. Richard Iannone's `pointblank` R package for Data Validation and Organization of Metadata [[link](https://rstudio.github.io/pointblank/)
 
 
 
