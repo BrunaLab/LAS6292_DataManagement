@@ -50,6 +50,16 @@ _Skim and consider what Box 1, Table 1, Figure 2, and Box 3 would look like for 
 3. Campbell, J. L. _et al._ 2013. Quantity is nothing without quality: automated QA/QC for streaming environmental sensor data. BioScience, 63(7): 574-585. [link](uploads/readings/Campbell_2013_Bioscience.pdf)
 
 
+***Optional, for those with some experience using R+Github ***
+
+You can use the following to set up an automatic review your data after you have finished entering it; any values beyond the range you establish in advance will be flagged for review. (You can see what this looks like [here](https://brunalab.github.io/HeliconiaSurveys/survey_validation/survey_validation.html)).
+
+1. Kim, A. Y., Herrmann, V., Barreto, R., Calkins, B., Gonzalez-Akre, E., Johnson, D. J., Jordan, J. A., Magee, L., McGregor, I. R., Montero, N., Novak, K., Rogers, T., Shue, J., & Anderson-Teixeira, K. J. (2022). Implementing GitHub Actions continuous integration to reduce error rates in ecological data collection. Methods in Ecology and Evolution, 13, 2572–2585. https://doi.org/10.1111/2041-210X.13982
+
+2. Iannone, Richard's `pointblank` R package for Data Validation and Organization of Metadata [[link](https://rstudio.github.io/pointblank/)
+
+
+
 
 <!--- **Videos:** 
 

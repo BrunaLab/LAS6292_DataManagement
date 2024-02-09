@@ -2,6 +2,7 @@
 title: "LAS 6292: Reproducibility"
 date: "updated: `r Sys.Date()`"
 header-includes:
+- \usepackage{lmodern}
 - \AtBeginDocument{\let\maketitle\relax} # this removes default title section
 - \usepackage[default]{sourcesanspro}
 - \usepackage{fancyhdr} # modify header into left, center, right
@@ -24,17 +25,14 @@ header-includes:
 # define the colors used above with rgb codes
 - \definecolor{darkcerulean}{rgb}{0.03, 0.27, 0.49}
 - \definecolor{darkmidnightblue}{rgb}{0.0, 0.2, 0.4}
-mainfont: SourceSansPro
+# mainfont: SourceSansPro
 geometry: margin=1in
 fontsize: 12pt
 linkcolor: blue
 urlcolor: blue
-output:
-  pdf_document: default
-  # html_document:
-  #   df_print: paged
-  # rmdformats::robobook: default
+output: pdf_document
 ---
+
 ```{r setup, include=FALSE}
 library(knitr)
 library(rmdformats)
