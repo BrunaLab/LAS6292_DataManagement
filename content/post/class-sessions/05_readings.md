@@ -47,7 +47,7 @@ weight: 9
 
 _Skim and consider what Box 1, Table 1, Figure 2, and Box 3 would look like for Humanities and Social Sciences._
 
-3. Campbell, J. L. _et al._ 2013. Quantity is nothing without quality: automated QA/QC for streaming environmental sensor data. BioScience, 63(7): 574-585. [link](https://www.nrs.fs.usda.gov/pubs/jrnl/2013/nrs_2013_campbell-j_002.pdf)
+3. Campbell, J. L. _et al._ 2013. Quantity is nothing without quality: automated QA/QC for streaming environmental sensor data. BioScience, 63(7): 574-585. [link](uploads/readings/Campbell_2013_Bioscience.pdf)
 
 
 
