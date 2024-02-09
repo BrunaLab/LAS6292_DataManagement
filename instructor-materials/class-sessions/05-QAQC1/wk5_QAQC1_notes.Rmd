@@ -129,16 +129,13 @@ For more advanced users of R/Github
 
 ### **For more advanced R users:** 
 
-1. The R package [pointblank](https://github.com/rich-iannone/pointblank) has some very advanced data validation tools for tidy datasets.
+1. Richard's Iannone `pointblank` R package for Data Validation and Organization of Metadata [[link](https://rstudio.github.io/pointblank/)
 
 1. [validate](https://cran.r-project.org/web/packages/validate/vignettes/cookbook.html): designed to test data against a reusable set of data validation rules, investigate, summarize, and visualize data validation results, among other things
 
 1. [Data Curator](https://github.com/qcif/data-curator) is a simple desktop data editor to help describe, validate and share usable open data.
 
 1. Kim, A. Y., Herrmann, V., Barreto, R., Calkins, B., Gonzalez-Akre, E., Johnson, D. J., Jordan, J. A., Magee, L., McGregor, I. R., Montero, N., Novak, K., Rogers, T., Shue, J., & Anderson-Teixeira, K. J. (2022). Implementing GitHub Actions continuous integration to reduce error rates in ecological data collection. Methods in Ecology and Evolution, 13, 2572–2585. https://doi.org/10.1111/2041-210X.13982
-
-2. Richard's Iannone `pointblank` R package for Data Validation and Organization of Metadata [[link](https://rstudio.github.io/pointblank/)
-
 
 
 
