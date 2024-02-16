@@ -10,16 +10,6 @@ type: book
 weight: 5
 ---
 
-## Data Security
-
-[UF Office of Information Security and Compliance](https://security.ufl.edu/wp-content/uploads/2012/12/data-security-handouts.pdf)  
-[Cyber Safeguards for UF](https://security.ufl.edu/learn-information-security/protect-yourself/data/)    
-[UF IRB](http://irb.ufl.edu/index/data/1981-2.html)  
-[UF Data Classification Policy](https://it.ufl.edu/policies/information-security/data-classification-policy/)  
-[UF Office of Information Security and Compliance](https://security.ufl.edu/wp-content/uploads/2012/12/data-security-handouts.pdf)   
-
-## Platforms for Organization & Collaboration
-[Open Science Framework](https://osf.io/) 
 
 ## R Programming
 
@@ -27,7 +17,7 @@ weight: 5
 
 1. Hadley Wickham wrote a book on using the tidyverse and the [online version is FREE](https://r4ds.had.co.nz/). This is a phenomenal resource on using R to import, tidy, and visualize data. 
 
-2. [RStudio Cheat Sheets](https://rstudio.com/resources/cheatsheets/): help with commands for using the different `tidyverse` packages, RStudio shortcuts and tricks, help with R commands, and more. You definitely want the ones for Data Import, Work with Strings, Factors, Data Transformation, and Base R.
+2. [Posit Cheat Sheets](https://posit.co/resources/cheatsheets/): help with commands for using the different `tidyverse` packages, RStudio shortcuts and tricks, help with R commands, and more. You definitely want the ones for Data Import, Work with Strings, Factors, Data Transformation, and Base R.
 
 3. Where and How to ask for help  
 
@@ -35,6 +25,7 @@ weight: 5
     example]((http://adv-r.had.co.nz/Reproducibility.html)) for getting help with R  
     * [how to post good questions on StackOverflow](https://www.r-bloggers.com/2011/01/three-tips-for-posting-good-questions-to-r-help-and-stack-overflow/)  
     * The UF [R-users listserv](http://www.r-gators.com/listserv/) is *very* user friendly and a great place to post requests for help. 
+
 
 ### Tutorials and Books
 
@@ -105,3 +96,16 @@ weight: 5
 
 ## Form Design
 [Best Practice for Form Design](https://medium.com/nextux/form-design-best-practices-9525c321d759)
+
+
+
+## Data Security
+
+[UF Office of Information Security and Compliance](https://security.ufl.edu/wp-content/uploads/2012/12/data-security-handouts.pdf)  
+[Cyber Safeguards for UF](https://security.ufl.edu/learn-information-security/protect-yourself/data/)    
+[UF IRB](http://irb.ufl.edu/index/data/1981-2.html)  
+[UF Data Classification Policy](https://it.ufl.edu/policies/information-security/data-classification-policy/)  
+[UF Office of Information Security and Compliance](https://security.ufl.edu/wp-content/uploads/2012/12/data-security-handouts.pdf)   
+
+## Platforms for Organization & Collaboration
+[Open Science Framework](https://osf.io/) 
