@@ -38,7 +38,7 @@ weight: 11
 
 **Computer Resources** 
 
-1. Install OpenRefine on your computer and verify it works by following the instructions: [link](https://datacarpentry.org/openrefine-socialsci/setup.html)
+1. Install OpenRefine on your computer and verify it works by following the instructions: [link](https://datacarpentry.org/openrefine-socialsci/index.html)
 
 2. Scan the basic workflow for what we will be doing: [link](https://hackmd.io/WnKT7eiMQde7jCF5teVHBQ#Setup)
 

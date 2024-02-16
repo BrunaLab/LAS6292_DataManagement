@@ -46,7 +46,7 @@ OpenRefine is a powerful, free, and open source tool that is used to work with a
 
 ## **Assignment**
 
-Now it's your turn. [Download this csv file](https://raw.githubusercontent.com/BrunaLab/LAS6292_DataManagement/master/instructor-materials/class-sessions/06-QAQC2/portal_rodents_or_short.csv) and use OpenRefine to clean it up. After you create a Project, edit the data as follows:
+Now it's your turn. [Download this csv file](https://las6292.netlify.app/uploads/exercises/portal_rodents_or_short.csv) and use OpenRefine to clean it up. After you create a Project, edit the data as follows:
 
 1. Correct and standardize the names of the countries in which the rodents were captured. 
 
@@ -73,13 +73,11 @@ Instructor follow-up required to implement most changes: 20
 
 *  [Open Refine](https://openrefine.org/) Homepage. Includes the [user's manual](https://docs.openrefine.org/) and links to [more tutorials](https://openrefine.org/documentation.html).
 
-## UF Library Workshops
-
-* The UF Library teaches a number of excellent workshops, including one on using OpenRefine taught by Dr. Hao Ye. You can see the schedule (or request one) [here](https://ufl.libcal.com/calendar/workshops/?cid=11693&t=d&d=0000-00-00&cal=11693,5125,8858&inc=0).
 
 ## Tutorials
 
-*  Environmental Data Initiative [OpenRefine Tutorial](https://environmentaldatainitiative.org/webinars-events/previous-edi-events/how-to-clean-and-format-data-using-r-packages-datamaid-dplyr-openrefine-excel/)
+* OpenRefine curates a list of tutorials (including youtube videos and online posts). I recommend starting with this list, which you can [find here](https://openrefine.org/external_resources).
+* Environmental Data Initiative [OpenRefine Tutorial](https://environmentaldatainitiative.org/webinars-events/previous-edi-events/how-to-clean-and-format-data-using-r-packages-datamaid-dplyr-openrefine-excel/)
 * Cleaning Data with OpenRefine Video Tutorials: 
     * [Video Tutorial No. 1](https://www.youtube.com/watch?v=nORS7STbLyk)
     * [Video Tutorial No. 2](https://www.youtube.com/watch?v=xZlz4ISgNBc)
@@ -96,4 +94,4 @@ Instructor follow-up required to implement most changes: 20
 
 ## R Tools
 
-*  The [rrefine package](https://cran.r-project.org/web/packages/rrefine/vignettes/rrefine-vignette.html) allows you to do some OpenRefine tasks from within R. 
+* The [rrefine package](https://cran.r-project.org/web/packages/rrefine/vignettes/rrefine-vignette.html) allows you to do some OpenRefine tasks from within R, such as import, export, apply data cleaning operations, or delete a project in OpenRefine directly from R. In other words, it's for repeating operations in R *after* you've worked with OpenRefine.

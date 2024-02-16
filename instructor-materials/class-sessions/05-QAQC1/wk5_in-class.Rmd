@@ -73,6 +73,7 @@ speak cells on enter Excel https://youtu.be/DSltR90mkgc
 
 2. 'Speak Cells on Enter': This function will read back what you entered in a cell when you hit "enter". You can set it up using [this tutorial video](https://youtu.be/DSltR90mkgc).
 
+3. Mac settings are a bit different. Can you figure them out? 
 
 ### Google Docs
 
