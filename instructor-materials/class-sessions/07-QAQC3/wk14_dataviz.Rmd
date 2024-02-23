@@ -52,8 +52,6 @@ Some basics
 BUT
 
 
-
-
 Identify outliers: Boxplot, line graph for each case (though it will be messy, can identify an abnormal value easily. Eg, remaining years of life of a human population over age should always be non-increasing, any uphill indicates error (a time-series error)).
 
 Logical check: Scatter plot (or correlation) between known correlated variables. Perform deterministic logical checks, like, if Male then NA for menstrual related questions, or date of birth should not be beyond the date of death, etc.
