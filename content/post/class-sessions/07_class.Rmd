@@ -67,17 +67,17 @@ library(tidyverse)
 
 1) Here are three datasets to download for this part of the session. Save to your RStudio Project.
 
-- [cereal.csv](https://raw.githubusercontent.com/BrunaLab/LAS6292_DataManagement/master/instructor-materials/class-sessions/07-QAQC3/demo_datasets/cereal.csv): data on the nutritional content of different breakfast cereals.
+- [cereal.csv](https://las6292.netlify.app/uploads/exercises/dataviz/cereal.csv): data on the nutritional content of different breakfast cereals.
 
-- [bites.csv](https://raw.githubusercontent.com/BrunaLab/LAS6292_DataManagement/master/instructor-materials/class-sessions/07-QAQC3/demo_datasets/bites_summary.csv): Data on dogs bites by breed.
+- [bites.csv](https://las6292.netlify.app/uploads/exercises/dataviz/bites_summary.csv): Data on dogs bites by breed.
 
-- [bigfoot.csv](https://raw.githubusercontent.com/BrunaLab/LAS6292_DataManagement/master/instructor-materials/class-sessions/07-QAQC3/demo_datasets/annual_bigfoot.csv): Number of Bigfoot sightings per year in North America
+- [bigfoot.csv](https://las6292.netlify.app/uploads/exercises/dataviz/annual_bigfoot.csv): Number of Bigfoot sightings per year in North America
 
 
 2) We're going to make a bar plot, then a scatter plot. First you read in the data using `read_csv()`:
 
-      - `bites<-read_csv("./-------")`  
-      - `bigfoot<-read_csv("./-------")`
+      - `bites <- read_csv("./-------")`  
+      - `bigfoot <- read_csv("./-------")`
 
 3) Now that we've learned about making basic figures, your job is to make a figure that is as ugly as possible. If you need some inspiration, [check out these examples!](https://twitter.com/drdrewsteen/status/1172547837046820864?s=12)
 
