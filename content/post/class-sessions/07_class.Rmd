@@ -62,7 +62,7 @@ library(tidyverse)
 
 ### DATA VISUALIZATION PART 1: DataViz to find errors
 
-1) Dataset for part 1: [las_data_viz.csv](https://raw.githubusercontent.com/BrunaLab/LAS6292_DataManagement/master/instructor-materials/class-sessions/07-QAQC3/demo_datasets/las_data_viz.csv)
+1) Dataset for part 1: [las_data_viz.csv](https://las6292.netlify.app/uploads/exercises/dataviz/las_data_viz.csv)
 
 2) Code: the code used in class is at the bottom of this page. You can also [download it here](https://gist.github.com/embruna/d0a42a5eac5fd56b582fe29d0fd26259). Either download a zip file containing the .r file ("download zip" button in the top right corner), or click the "raw" button to open the code in a web browser; you can then "copy-and-paste" this into an R script.
 

@@ -1,0 +1,3756 @@
+breed,color,bite_location
+germ shepherd,brown/blac,body
+dachshund,red,body
+pit bull,blk-white,body
+germ shepherd,black,NA
+shih tzu,beige-wht,body
+shih tzu,black,body
+cocker spainel,blk-white,head
+pit bull,white-tan,body
+pit bull,tan,body
+chichauhua,tan,head
+pit bull,black-whit,head
+beagle,NA,head
+chow chow,red,body
+pit bull,brn-brindl,head
+other,white,body
+boxer,gray,body
+aaust. terr.,black-whit,body
+boxer,fawn,body
+beagle,tri,body
+cocker spainel,black-tan,body
+pit bull,tan-white,body
+gold retriever,yellow,body
+germ shepherd,blk-brown,body
+labrador retriv,chocolate,body
+gold retriever,lt. golden,body
+dachshund,black,body
+bullmastiff,brn-brindl,body
+pit bull,tan,head
+border collie,blk-wht,body
+pit bull,white-brn,body
+pomeranian,brown-blk,body
+yorkshire terrier,gray-wht,body
+other,brindle,head
+shih tzu,cream,body
+other,black,body
+other,blk-brindl,body
+greyhound,fawn,head
+chichauhua,black-tan,body
+shih tzu,blk-wht,body
+dachshund,black-tan,body
+rottweiler,NA,body
+other,sandy,body
+germ shepherd,brn-blk,body
+pit bull,brindle-wh,body
+pit bull,NA,body
+pit bull,brn-wht,body
+amer. bull dog,brn-white,body
+pit bull,black/whit,NA
+gold retriever,NA,body
+dalmatian,NA,body
+husky,NA,body
+border collie,NA,NA
+pit bull,white,body
+pit bull,gray/white,body
+beagle,tri,head
+chow chow,NA,body
+aaust. terr.,brown,body
+labrador retriv,golden,unknown
+yorkshire terrier,tan blk,body
+pit bull,blk whte,body
+pit bull,black,head
+pit bull,brn wht,body
+pit bull,brn wht,body
+pit bull,brindle,body
+pit bull,blue whit,body
+dachshund,brown,body
+labrador retriv,red,body
+boxer,brindle,body
+pit bull,wht blk,body
+bull dog,tri,NA
+shih tzu,black,body
+pit bull,wht brn,body
+pit bull,white,body
+pit bull,wht tan,body
+labrador retriv,blk wht,head
+pit bull,wht brn,body
+mastif,brindle,body
+labrador retriv,black,body
+pit bull,brown,unknown
+chow chow,brn,head
+pit bull,white br,body
+great pyreneese,white,NA
+mastif,NA,body
+shih tzu,NA,head
+labrador retriv,yellow,NA
+germ shepherd,NA,body
+great dane,NA,body
+shih tzu,beige/whit,body
+pit bull,white-brn,NA
+pit bull,NA,head
+great dane,blk,body
+border collie,tri,body
+yorkshire terrier,tan-silver,body
+pit bull,brown,body
+beagle,blue-wht,body
+rottweiler,blk-tan,body
+poodle,blk,body
+siberan husky,tan-wht,body
+pit bull,blk-wht,body
+germ shepherd,gray-blk,body
+pit bull,blk-wht,body
+rottweiler,black,body
+weimaraner,grey,body
+chow chow,beige,body
+other,blk-tan,body
+corgi,black,body
+boston terrier,wht-blk,body
+husky,white,body
+labrador retriv,black,head
+other,red-wht,head
+schnauzer,blk-wht,body
+shih tzu,tri,body
+pit bull,brn-wht,body
+pit bull,tan-wht,NA
+chichauhua,brown,body
+cocker spainel,blk,body
+pit bull,brindle,body
+other,blk-gray,body
+germ shepherd,NA,body
+pit bull,NA,head
+pit bull,brn-wht,body
+labrador retriv,black,body
+basset hound,tri,body
+bull dog,fawn,body
+min pin,blk-tan,body
+pit bull,gray-wht,body
+pit bull,blue-wht,body
+poodle,white,body
+germ shepherd,brn-blk,body
+aaust. terr.,brn-blk,body
+pit bull,black,body
+labrador retriv,blk-wht,body
+chichauhua,white-tan,body
+rottweiler,blk-brn,body
+chow chow,NA,head
+germ shepherd,blk-tan,body
+dachshund,red-brn,body
+rottweiler,blk-wht,body
+shih tzu,blk-white,head
+min pin,cho.-tan,head
+welsh corgi,brn-wht,body
+pit bull,brn-wht,body
+pit bull,brn-blk,body
+labrador retriv,red,body
+yorkshire terrier,blk-gold,body
+border collie,blk,NA
+gold retriever,golden,body
+pomeranian,tanish,body
+labrador retriv,yellow,body
+germ shepherd,tan-blk,body
+shih tzu,wht-blk,head
+bull dog,brn-wht,body
+pit bull,grey,body
+boxer,tan,body
+boxer,brn-wht,body
+mastif,bl-brindle,body
+germ shepherd,gray-blue,body
+cocker spainel,black,body
+mastif,tan,body
+chichauhua,wht-brn,head
+schnauzer,black,head
+other,blk-wht,body
+pit bull,black-wht,body
+cocker spainel,blonde,head
+pit bull,tan-wht,head
+border collie,blk-wht,body
+germ shepherd,blk-tan,body
+weimaraner,gray,body
+labrador retriv,black,body
+rottweiler,NA,body
+dachshund,black,head
+germ shepherd,white,body
+other,black,body
+siberan husky,white,body
+am bulldog,wht-brn,body
+boxer,NA,head
+other,blk-wht,head
+gold retriever,red,body
+germ shepherd,black,body
+boxer,red-wht,body
+chichauhua,tan,body
+pit bull,tan-wht,body
+boxer,NA,body
+pit bull,tan,body
+labrador retriv,black,head
+chichauhua,chocolate,body
+dachshund,brown,head
+chichauhua,blk-tan,body
+pit bull,black/whit,head
+pit bull,black & wh,body
+boxer,NA,body
+boxer,brindle-wh,head
+amer. bull dog,wht-brn,body
+pit bull,tan-wht,body
+boxer,brn-white,head
+boxer,brindle,body
+samoyed,white,body
+border collie,black-wht,head
+germ shepherd,brn-blk,body
+pit bull,tan,body
+chichauhua,tan,body
+pit bull,brown-wht,body
+labrador retriv,brown,body
+pit bull,gray-white,body
+boxer,brown,body
+maltase,white,body
+labrador retriv,brown,body
+akita,blk-wht,body
+pit bull,brown-wht,body
+maltase,white,body
+pit bull,blk-white,body
+sheltie,tri,body
+shih tzu,white,body
+boston terrier,blk-wht,head
+lhasa apso,blk-gray,head
+husky,blk-wht,body
+pit bull,brindle,body
+chichauhua,tan,body
+am bulldog,white,body
+bull dog,tri,body
+chow chow,black,body
+other,blk-white,body
+pit bull,fawn,body
+pit bull,fawn-wht,body
+gold retriever,beige,body
+saint bernard,brown-wht,body
+boxer,brown-wht,body
+pit bull,black,body
+dachshund,blk-tan,head
+boston terrier,black/whit,head
+siberan husky,red-wht,head
+shih tzu,wht-tan,head
+pit bull,white,head
+pit bull,white,body
+other,white-blk,body
+boxer,blk-brown,body
+pit bull,brown,head
+beagle,brown,head
+labrador retriv,black,head
+airedale ter.,brown-blk,body
+am. eskimo,white,body
+germ shepherd,tan-black,body
+pit bull,tan-white,body
+sheltie,brn-wht,head
+chichauhua,white-blk,head
+pit bull,NA,body
+labrador retriv,black,body
+shih tzu,reddish br,body
+labrador retriv,blonde,body
+pit bull,white-tan,body
+pit bull,brown-wht,head
+am bulldog,blk-wht,body
+bichon frise,white,body
+pit bull,black-whit,body
+labrador retriv,NA,body
+pug,brn-blk,body
+greyhound,fawn-wht,body
+chichauhua,beige,head
+pit bull,white-blk,body
+chichauhua,blalck,body
+germ shepherd,brown,body
+pit bull,brn-wht,head
+pit bull,brn-wht,body
+chichauhua,tan,body
+chow chow,blonde,body
+doberman,blk,body
+airedale ter.,blk-brn,body
+boston terrier,blk-wht,body
+germ shepherd,blk-brn,head
+schnauzer,gray,body
+dotson,brown,body
+chow chow,gray/brown,head
+pit bull,NA,body
+poodle,black/gray,body
+aaust. terr.,brn-wht,head
+new foundland,black,body
+pit bull,brn-wht,body
+beagle,NA,body
+doberman,blk-tan,body
+chichauhua,white,body
+pit bull,white,body
+pit bull,brown,body
+cocker spainel,brown,body
+am bulldog,tan,head
+rottweiler,blk-tan,body
+bullmastiff,brindle,body
+germ shepherd,blk/brn,body
+lhasa apso,gray,body
+pit bull,wht-brn,body
+pit bull,brn-wht,body
+pit bull,brown,body
+shih tzu,blk-wht,head
+shih tzu,brn-wht,head
+boxer,wht-brn,head
+labrador retriv,black,NA
+boxer,NA,body
+germ shepherd,black,body
+bernesen mt.,black,body
+min pin,blk-tan,body
+pit bull,blk-wht,body
+pit bull,NA,body
+germ shepherd,blk-brn,body
+beagle,tri,body
+pit bull,brn-beige,body
+boxer,brown,head
+pit bull,NA,body
+havanese,blk-wht,body
+great dane,blk-wht,body
+doberman,black,body
+boxer,brown,body
+labrador retriv,blk-wht,body
+labrador retriv,yellow,body
+pit bull,tan & whit,head
+rottweiler,black,body
+akita,wht-brown,head
+english setter,wht-liver,body
+pomeranian,brown,body
+pit bull,tan-wht,body
+pit bull,brn-brindl,body
+pit bull,tri,head
+beagle,brn-wht,body
+beagle,tri,body
+beagle,tri,body
+doberman,blk-tan,body
+labrador retriv,black,body
+germ shepherd,brn-blk,body
+pit bull,red-white,head
+dachshund,red,body
+shih tzu,blk-gray,body
+am bulldog,tan-wht,body
+dachshund,blk-tan,body
+shih tzu,tri,head
+pit bull,blk-wht,head
+schnauzer,blk-wht,body
+other,black,body
+labrador retriv,NA,body
+germ shepherd,blk-tan,body
+pit bull,brn-blk,body
+pit bull,wht-black,body
+chichauhua,NA,body
+germ shepherd,blk-silver,body
+pit bull,NA,head
+shih tzu,cream,head
+germ shepherd,blk-brn,head
+bullmastiff,fawn,head
+akita,wht-blk,body
+other,tri,body
+pit bull,blk-wht,body
+pit bull,brown-tan,body
+shar-pei,blonde,body
+dachshund,black,head
+pit bull,black/whit,head
+cockapoo,white,head
+pit bull,brn-wht,head
+germ shepherd,tri,body
+pit bull,tan,body
+pit bull,NA,body
+pit bull,brn-wht,body
+pomeranian,tan-brn,body
+old eng shp dog,wht-brindl,body
+pit bull,blk-wht,head
+pomeranian,brown,body
+dachshund,red,body
+min pin,NA,body
+boxer,NA,body
+great pyreneese,white,body
+min pin,blk-brn,body
+boxer,brn-wht,body
+pit bull,wht-blk,head
+bullmastiff,brown,body
+akita,tri,body
+pit bull,brown,body
+rottweiler,blk,head
+doberman,NA,body
+maltase,white,body
+germ shepherd,brn-blk,body
+pit bull,blk-wht,body
+pit bull,blk-wht,body
+germ shepherd,blk,head
+chichauhua,wht-blk,body
+boxer,tri,body
+aaust. terr.,brn-wht,body
+pit bull,white,body
+chichauhua,blk-wht,body
+min pin,blk-tan,body
+pit bull,NA,body
+beagle,blk-wht,body
+am bulldog,wht-brn,body
+pit bull,wht-blk,body
+beagle,brown,body
+pit bull,tri,body
+akita,blk-wht,body
+dachshund,reddish br,body
+rottweiler,black,head
+pit bull,red-wht,body
+shih tzu,grey-wht,body
+chichauhua,brn-wht,body
+germ shepherd,brownish t,body
+cocker spainel,blk,body
+pit bull,blue,body
+shih tzu,fawn,body
+shih tzu,fawn,body
+boxer,brindle,body
+germ shepherd,tan/brown,body
+germ shepherd,black/brow,body
+pit bull,tan,body
+shih tzu,blk-wht,head
+maltase,white,body
+yorkshire terrier,blk-brn,body
+pit bull,blk-brn,body
+shih tzu,fawn,body
+pit bull,fawn,body
+rottweiler,NA,body
+cocker spainel,tan-wht,body
+westie,white,head
+shih tzu,gray,body
+shih tzu,tan,body
+gold retriever,golden,body
+labrador retriv,blk,body
+pit bull,blue-wht,body
+shih tzu,tan-white,head
+beagle,black,body
+pit bull,blue,body
+bullmastiff,brown,body
+labrador retriv,blk-wht,head
+pomeranian,white,body
+germ shepherd,blk-tan,body
+labrador retriv,black,body
+chichauhua,blk-brn,body
+pit bull,brn-wht,body
+sheltie,tri,body
+am bulldog,NA,body
+pit bull,NA,body
+pit bull,brown/wht,body
+labrador retriv,black,head
+pit bull,NA,body
+weimaraner,gray,body
+gold retriever,red golden,body
+other,tri color,NA
+pit bull,brown/wht,body
+dotson,brown,head
+pit bull,NA,body
+labrador retriv,NA,NA
+poodle,NA,NA
+pit bull,brindle,body
+pit bull,blk/wht,unknown
+bouvier,NA,head
+pit bull,brn/wht,body
+pit bull,NA,body
+dachshund,NA,body
+pit bull,brown/whte,body
+pit bull,NA,body
+am bulldog,NA,head
+labrador retriv,chocolate,head
+cocker spainel,NA,head
+gold retriever,NA,body
+bernesen mt.,NA,unknown
+bernesen mt.,NA,body
+bernesen mt.,NA,body
+boxer,black,body
+boxer,NA,NA
+pit bull,brn/wht,body
+pit bull,brn/wht,body
+pit bull,wht/blue,body
+pit bull,wht/bwn,body
+yorkshire terrier,tan/tricol,body
+pit bull,black,body
+boxer,tan/wht,head
+boxer,white,body
+chichauhua,tan/wht,body
+pit bull,brown,NA
+pit bull,NA,body
+schnauzer,blk/wht,head
+maltase,white,head
+pit bull,white/red,body
+pit bull,blk/white,body
+labrador retriv,black,body
+germ shepherd,NA,body
+basset hound,wht/brn/bl,head
+shih tzu,wht/gray,body
+akita,blk/wht,body
+pit bull,wht/bwn,body
+aaust. terr.,white,head
+gold retriever,golden,body
+rat terrier,blk/wht,head
+germ shepherd,blk/tan,head
+boxer,NA,body
+akita,brn/wht,NA
+pit bull,brown,body
+pit bull,NA,body
+germ shepherd,black,body
+chichauhua,tricolor,body
+border collie,blk/wht,body
+germ shepherd,brn/blk,body
+great dane,brown,body
+westie,white,head
+boxer,red,body
+weimaraner,grey,NA
+boxer,brindle,body
+pit bull,blk/brn,body
+boxer,brn/blk,body
+germ shepherd,brn/blk,body
+schnauzer,black/wht,head
+basset hound,wht w/ blk,body
+labrador retriv,yellow,head
+dachshund,NA,body
+great dane,NA,head
+sheep dog,NA,body
+germ shepherd,black,body
+pit bull,wht/brn,head
+great dane,black,NA
+boston terrier,blk/wht,body
+chichauhua,blk/wht,NA
+pit bull,wht/tan,head
+labrador retriv,brown,NA
+chichauhua,brown,head
+labrador retriv,black,body
+border collie,black,head
+bullmastiff,gry/brd,head
+pomeranian,NA,body
+pit bull,brown,body
+labrador retriv,black,body
+chichauhua,wht,body
+labrador retriv,blk,body
+dachshund,blk/tan,body
+pit bull,br and wht,body
+chow chow,red,body
+heeler,blue merle,head
+min pin,brn/blk,body
+westie,white,NA
+pekingese,NA,body
+pit bull,black,body
+pit bull,tan/wht,body
+germ shepherd,black,body
+pit bull,blue,body
+germ shepherd,NA,body
+welsh corgi,tan,body
+shih tzu,blk/wht,NA
+boston terrier,blk/wht,body
+rottweiler,NA,head
+pit bull,tan,NA
+pit bull,wht/brn,head
+pit bull,blue/wht,body
+pit bull,br/whit,body
+pit bull,brn/wht,head
+germ shepherd,blk/tan,head
+sheltie,NA,NA
+pit bull,NA,body
+akita,NA,body
+gold retriever,NA,NA
+pit bull,brown,body
+shih tzu,white,body
+border collie,black,body
+beagle,NA,body
+pit bull,NA,body
+akita,black,body
+beagle,tricolor,body
+beagle,tri,NA
+gold retriever,NA,body
+yorkshire terrier,tan,body
+dalmatian,brn/wht,body
+dachshund,black,body
+fox terrier mix,white,body
+beagle,wht/tan,NA
+boxer,wht/brn,body
+beagle,brown,body
+doberman,red,head
+aaust. terr.,NA,NA
+weimaraner,silver,body
+pit bull,blue/whit,unknown
+english bulldog,wht/brwn,head
+yorkshire terrier,NA,body
+gold retriever,yellow,body
+boxer,NA,body
+dachshund,brown,body
+great dane,mulit/brn,NA
+pit bull,blue,body
+pomeranian,NA,body
+boxer,brown,body
+dachshund,red,body
+pit bull,black,body
+boxer,brin/black,head
+other,brown whit,body
+shar-pei,red,body
+boxer,black,body
+rat terrier,brn/wht,body
+shih tzu,NA,body
+boston terrier,blk/wht,head
+border collie,blk/wht,NA
+pit bull,tan/wht,body
+pit bull,blk/wht,unknown
+chichauhua,NA,body
+germ shepherd,blk/tan,body
+border collie m,brn/wht,body
+pit bull,NA,body
+akita,brn/red,head
+shih tzu,brn/whit/b,head
+pit bull,black,body
+chichauhua,brn/wht,NA
+pit bull,brindle,body
+pit bull,brindle,body
+aaust. terr.,tan/brn,head
+yorkshire terrier,NA,body
+pit bull,brn/wht,body
+border collie,blk/wht,body
+chichauhua,brown,head
+pit bull,tan/wht,NA
+border collie m,black,body
+pit bull,blk/wht,body
+chow chow,red,body
+labrador retriv,NA,body
+labrador retriv,NA,body
+beagle,brn/wht,body
+shih tzu,wht/tan,head
+beagle,brn/wht,body
+dachshund,NA,body
+shih tzu,blk/wht,unknown
+germ shepherd,black,body
+pit bull,red,body
+pit bull,brown,body
+beagle,blk/tan,body
+pit bull,blk/wht,body
+germ shepherd,wht/brown,head
+mastif,brown,NA
+pit bull,brn/wht,body
+border collie,NA,NA
+boxer,tan/white,unknown
+great dane,NA,head
+germ shepherd,wht/brn,body
+germ shepherd,tan/gr/blk,body
+basanji,brn/wht,body
+great dane,brindle,body
+chichauhua,wht.brn,body
+pit bull,tan/wht,body
+pit bull,blk/wht,body
+germ shepherd,blk/tan,NA
+germ shepherd,blk/tan,body
+rottweiler,blk/brn,unknown
+boxer,fawn,body
+pit bull,NA,head
+pit bull,tan,body
+boxer,tan/wht,NA
+poodle,white,body
+gold retriever,tan/wht,head
+rottweiler,blk/brn,body
+pyrenes,white,NA
+germ shepherd,red black,body
+germ shepherd,NA,head
+great dane,tan/blk,unknown
+pit bull,whit/tan,body
+labrador retriv,brown,body
+pit bull,brn/wht,body
+pit bull,brn/wht,body
+dachshund,red,unknown
+sheltie,NA,body
+pit bull,brindle,body
+doberman,tan white,unknown
+labrador retriv,black,body
+blood hound,blk/tan,body
+pit bull,NA,unknown
+collie,grey,NA
+chichauhua,NA,head
+saint bernard,NA,unknown
+pekingese,NA,NA
+pit bull,white,body
+aaust. terr.,blue/gray,body
+pit bull,NA,NA
+rat terrier,brn/wht,unknown
+dotson,blk/brn,body
+bullmastiff,NA,head
+chichauhua,brown,head
+pit bull,tan/wht,head
+pit bull,tan/silver,body
+shih tzu,red,NA
+pit bull,NA,body
+border collie m,brn,body
+cocker spainel,blk/tan,unknown
+husky,brn/tan,head
+rottweiler,brown,unknown
+pit bull,red/wht,NA
+labrador retriv,NA,body
+english bulldog,wht/blk,unknown
+husky,NA,head
+labrador retriv,black,head
+pit bull,NA,body
+labrador retriv,yellow,body
+boxer,blk/white,body
+beagle,tri,body
+chow chow,bl/wh/brow,head
+shih tzu,blk/wht,body
+chichauhua,NA,head
+other,brown,head
+pit bull,red/wht,head
+pit bull,NA,head
+pit bull,NA,body
+pomeranian,blk/wht,body
+pit bull,NA,unknown
+germ shepherd,tan,head
+rat terrier,NA,head
+akita,gray,head
+alask. malamute,NA,NA
+britney spaniel,org/wht,head
+basset hound,NA,head
+border collie m,NA,body
+pit bull,NA,body
+germ shepherd,black,NA
+pit bull,blue,body
+pit bull,black,body
+chichauhua,black,head
+rat terrier,red/wht,head
+britney spaniel,NA,body
+bichon frese,white,body
+germ shepherd,NA,NA
+gold retriever,NA,body
+pomeranian,brown,body
+chichauhua,blk/brn,body
+germ shepherd,brn/blk,unknown
+sheep dog,blk/brn,body
+germ shepherd,tan/blk,body
+great dane,NA,body
+pit bull,NA,NA
+pit bull,NA,body
+weimaraner,NA,body
+labrador retriv,yello,head
+bull dog,NA,body
+pit bull,NA,body
+pit bull,tan,body
+pit bull,fawn/wht,body
+labrador retriv,NA,unknown
+aaust. terr.,NA,body
+bull dog,white,body
+pomeranian,blue merle,unknown
+pomeranian,white,unknown
+border collie m,NA,head
+mastif,NA,body
+pit bull,NA,head
+poodle,black,body
+beagle,NA,body
+germ shepherd,blk/brn,body
+rat terrier,NA,unknown
+boxer,NA,head
+aaust. terr.,NA,body
+pit bull,blk wht,body
+pit bull,NA,unknown
+germ shepherd,NA,body
+pit bull,NA,NA
+gold retriever,black,NA
+germ shepherd,NA,body
+boxer,brown,head
+labrador retriv,black,NA
+labrador retriv,yellow/brn,body
+labrador retriv,black,NA
+rottweiler,NA,body
+pit bull,NA,NA
+dachshund,brn,body
+pit bull,NA,body
+boxer,NA,unknown
+labrador retriv,NA,unknown
+pit bull,NA,body
+pit bull,NA,body
+germ shepherd,NA,NA
+poodle,black,body
+germ shepherd,NA,NA
+pit bull,tan,unknown
+pit bull,blue white,unknown
+beagle,black tan,body
+dotson,NA,body
+pit bull,NA,unknown
+dachshund,blk/tan,body
+pit bull,NA,body
+bichon frise,NA,body
+rottweiler,NA,NA
+aaust. terr.,browm,body
+germ shepherd,brown/blac,body
+pit bull,NA,body
+labrador retriv,NA,head
+pit bull,brn wht,body
+pit bull,NA,body
+chichauhua,brown,body
+pit bull,NA,NA
+pit bull,blue white,head
+aaust. terr.,blk wht,body
+maltase,cream,body
+other,"blk, brw,",body
+english bulldog,blk & wht,body
+germ shepherd,tan/blk,body
+rat terrier,NA,NA
+pit bull,NA,head
+doberman,chol/tan,head
+germ shepherd,blk/brw,body
+germ shepherd,brown,body
+border collie,NA,body
+pit bull,NA,unknown
+germ shepherd,brn blck,body
+pit bull,NA,body
+border collie m,NA,body
+great dane,wht/gry,unknown
+pit bull,red,unknown
+dachshund,NA,head
+germ shepherd,NA,body
+blood hound,NA,unknown
+labrador retriv,blk,unknown
+germ shepherd,NA,body
+basset hound,NA,NA
+pit bull,NA,body
+bull dog,NA,unknown
+mastif,NA,body
+labrador retriv,tan,unknown
+bullmastiff,NA,unknown
+pit bull,NA,body
+gold retriever,NA,body
+rottweiler,NA,body
+chichauhua,NA,body
+chow chow,red,body
+weimaraner,gray,body
+pit bull,yello,body
+pit bull,blk/wht,body
+aaust. terr.,brn/blck,unknown
+border collie,NA,NA
+akita,brn/blk,body
+shih tzu,NA,body
+pit bull,NA,body
+bichon frese,white,NA
+maltase,NA,body
+akita,NA,body
+germ shepherd,NA,body
+germ shepherd,NA,body
+yorkshire terrier,brn/blk,unknown
+pit bull,NA,body
+chichauhua,NA,head
+pit bull,blk/white,body
+pit bull,red,body
+great dane,NA,body
+shar-pei,black,body
+weimaraner,NA,body
+poodle,black,body
+poodle,NA,NA
+pomeranian,black/whit,body
+germ shepherd,NA,NA
+pit bull,NA,body
+germ shepherd,brn/blk,body
+pit bull,blk/wht,body
+welsh corgi,NA,body
+germ shepherd,NA,body
+mastif,NA,head
+gold retriever,NA,body
+chichauhua,NA,body
+pit bull,NA,body
+great pyreneese,white,body
+pug,NA,body
+pit bull,NA,body
+pit bull,blk/wht,body
+pit bull,NA,body
+pit bull,blue,body
+shih tzu,NA,body
+beagle,NA,head
+poodle,NA,body
+labrador retriv,brown,unknown
+pit bull,NA,body
+beagle,tri,body
+min pin,NA,body
+chichauhua,NA,body
+labrador retriv,brow,unknown
+fox terrier,NA,head
+pit bull,black,NA
+schnauzer,grey&white,body
+pit bull,blk wht,body
+pit bull,blk/wht,body
+pit bull,brown,body
+pit bull,NA,body
+germ shepherd,brown,body
+pit bull,blk/wht,body
+beagle,NA,body
+germ shepherd,NA,body
+germ shepherd,NA,body
+pit bull,NA,unknown
+boxer,NA,unknown
+labrador retriv,brown,body
+pit bull,NA,body
+chow chow,black,body
+chichauhua,NA,body
+germ shepherd,NA,body
+rottweiler,NA,body
+pit bull,NA,NA
+pit bull,NA,head
+germ shepherd,NA,body
+amer. bull dog,NA,body
+pit bull,red,body
+amer. bull dog,NA,head
+pomeranian,NA,body
+labrador retriv,black,head
+rottweiler,brown,body
+pit bull,black,unknown
+border collie,blk/wht,body
+rottweiler,NA,body
+pit bull,NA,body
+min pin,blk brn,body
+aaust. terr.,NA,head
+bull dog,NA,unknown
+pit bull,fawn/wht,body
+beagle,NA,body
+labrador retriv,NA,head
+chichauhua,NA,unknown
+sheltie,NA,body
+greyhound,NA,body
+husky,NA,head
+germ shepherd,NA,body
+rottweiler,NA,body
+pit bull,NA,unknown
+pit bull,brn,body
+siberan husky,blk/wht,head
+germ shepherd,blk/tan,body
+bull dog,NA,body
+labrador retriv,chocolate,head
+chichauhua,NA,body
+beagle,NA,unknown
+germ shepherd,blk & tan,body
+aaust. terr.,NA,body
+pit bull,NA,unknown
+shih tzu,NA,unknown
+pit bull,NA,head
+collie,sable whit,body
+shih tzu,blk/wht,unknown
+welsh corgi,brn/wht,body
+germ shepherd,brown,body
+poodle,whit,body
+pit bull,fawn,body
+pit bull,NA,unknown
+pit bull,NA,body
+pit bull,gray white,body
+english bulldog,brn white,body
+pit bull,NA,body
+lhasa apso,white,body
+pit bull,NA,body
+beagle,NA,head
+dachshund,NA,head
+pit bull,NA,body
+germ shepherd,NA,body
+yorkshire terrier,brn/blk,body
+pit bull,red white,head
+pit bull,NA,unknown
+labrador retriv,black,body
+beagle,NA,head
+beagle,rd brn wht,body
+doberman,blk,body
+collie,NA,body
+gold retriever,NA,body
+beagle,tricolor,head
+labrador retriv,blk white,body
+pit bull,tri,body
+pit bull,black,body
+shih tzu,blk white,body
+am bulldog,brn wht,body
+labrador retriv,NA,body
+dachshund,white/brn,head
+britney spaniel,red/wht,head
+rat terrier,wht brn,body
+pit bull,NA,body
+pit bull,blk/wht,NA
+poodle,black,NA
+boxer,NA,head
+pit bull,NA,body
+pit bull,brindle,body
+border collie,blk/wht,head
+pit bull,NA,body
+husky,NA,NA
+aaust. terr.,NA,body
+siberan husky,wht tri,body
+boxer,brn/wht,body
+labrador retriv,blonde,body
+beagle,NA,head
+germ shepherd,NA,head
+aaust. terr.,NA,NA
+yorkshire terrier,tan,NA
+pit bull,NA,unknown
+corgi,NA,head
+havanese,NA,body
+germ shepherd,NA,unknown
+english bulldog,NA,NA
+pekingese,NA,NA
+blue heeler,NA,body
+shih tzu,white,body
+pit bull,NA,NA
+shih tzu,NA,body
+chichauhua,NA,body
+boston terrier,NA,NA
+pekingese,blk whit,body
+pit bull,blue whte,body
+gold retriever,gold,body
+akita,NA,unknown
+pit bull,blk/wht,body
+chichauhua,NA,body
+labrador retriv,NA,body
+rottweiler,NA,body
+labrador retriv,black /wht,head
+boxer,brn wht,head
+catahoula,brn/wht,body
+germ shepherd,NA,body
+germ shepherd,NA,body
+boxer,brn/whte,body
+boxer,tan,body
+maltase,NA,body
+rottweiler,NA,body
+shih tzu,white,head
+pekingese,NA,body
+pit bull,NA,body
+boxer,blk wht,body
+pit bull,brn brindl,head
+pit bull,brn whit,head
+beagle,brown,body
+beagle,black,head
+pit bull,NA,head
+doberman,black,body
+border collie m,NA,body
+pomeranian,red,body
+pomeranian,blonde,unknown
+pit bull,red,body
+pit bull,gry wht,body
+pit bull,blk wht,body
+shih tzu,wht blk,head
+schnauzer,gry blk,body
+great dane,NA,body
+pit bull,NA,body
+chichauhua,blk wht,body
+cocker spainel,NA,unknown
+boston terrier,NA,NA
+pit bull,blk & gray,body
+pit bull,white,body
+dachshund,NA,body
+germ shepherd,NA,body
+border collie,wht/bblk,body
+labrador retriv,yellow,body
+schnauzer,grey,body
+shih tzu,wht blk,body
+aaust. terr.,blk whit,body
+min pin,NA,head
+boxer,brn wht,body
+beagle,NA,unknown
+chichauhua,NA,body
+mastif,brindle,body
+pit bull,brn blue,body
+boxer,brindle,head
+pit bull,NA,unknown
+rottweiler,blck,unknown
+pit bull,NA,body
+labrador retriv,NA,NA
+germ shepherd,blk tan,body
+yorkshire terrier,NA,head
+westie,white,body
+pit bull,ble wht,unknown
+pit bull,blk wht,body
+aaust. terr.,blk wht,body
+pit bull,red white,body
+pit bull,bri white,body
+pit bull,tan,body
+pit bull,blk white,body
+maltase,whit,body
+border collie m,NA,NA
+pit bull,NA,body
+pit bull,NA,body
+labrador retriv,yellow,body
+shih tzu,wht gray,body
+pit bull,white,body
+am bulldog,wht blk,body
+pit bull,tan/wht,body
+aaust. terr.,blk wht,body
+germ shepherd,NA,body
+husky,wht blk,body
+shar-pei,NA,body
+boxer,red white,unknown
+rottweiler,blk red,unknown
+pit bull,blue wht,head
+chichauhua,NA,head
+blue heeler,NA,body
+bichon frise,NA,head
+pit bull,white pink,body
+akita,blk whit,body
+labrador retriv,black,unknown
+pit bull,NA,body
+catahoula,blk gray,body
+bichon frese,white,body
+pit bull,NA,body
+gold retriever,golden,body
+welsh corgi,brn wht,body
+border collie,NA,body
+border collie,brn white,body
+cane corso,NA,head
+germ shepherd,NA,unknown
+chichauhua,brn tan,body
+pit bull,brn,body
+pit bull,gry brn,head
+gold retriever,yellow,body
+irish setter,blk,body
+labrador retriv,black,body
+pit bull,brindle wh,body
+chichauhua,NA,body
+labrador retriv,black,body
+pyrenes,white,head
+beagle,blk wht,unknown
+great dane,NA,body
+rottweiler,NA,unknown
+germ shepherd,NA,body
+saint bernard,wht blk,body
+beagle,NA,body
+pit bull,NA,unknown
+boxer,brn,body
+yorkshire terrier,blonde,body
+lhasa apso,gray blk,NA
+alask. malamute,gray blk,body
+pit bull,blue/white,head
+siberan husky,whte,head
+gold retriever,blonde,head
+amer. bull dog,wht brn,head
+pit bull,NA,body
+pit bull,NA,body
+pit bull,NA,body
+husky,NA,body
+rottweiler,brown,unknown
+shih tzu,blk white,head
+cane corso,tan,body
+labrador retriv,black,body
+germ shepherd,NA,NA
+pit bull,NA,unknown
+mastif,brindle,unknown
+pit bull,brindle,body
+chichauhua,brown,unknown
+pit bull,wht brn,body
+pit bull,blk white,unknown
+pit bull,brn blk,body
+gold retriever,golden,body
+poodle,whte,body
+pit bull,gold white,body
+rottweiler,tan blk,body
+basset hound,brown,head
+boston terrier,NA,head
+rottweiler,NA,body
+great dane,NA,body
+pit bull,NA,unknown
+labrador retriv,yellow,body
+pit bull,lady,body
+pit bull,NA,body
+beagle,black,body
+labrador retriv,black,body
+border collie,NA,body
+pit bull,brindle,body
+chichauhua,white,body
+pit bull,buff,body
+germ shepherd,NA,head
+beagle,blk wht,body
+boxer,NA,NA
+rottweiler,tan,unknown
+pit bull,NA,body
+amer. bull dog,NA,body
+gold retriever,NA,NA
+chichauhua,NA,body
+beagle,NA,head
+pomeranian,white,body
+amer. bull dog,NA,unknown
+pit bull,NA,body
+labrador retriv,NA,body
+alask. malamute,brn,body
+great dane,fawn,body
+germ shepherd,NA,unknown
+pit bull,blk wht,body
+english bulldog,white,head
+pit bull,brn white,body
+germ shepherd,NA,body
+great dane,NA,body
+germ shepherd,NA,body
+pomeranian,red,head
+yorkshire terrier,gray brn,body
+aaust. terr.,tri,body
+shih tzu,blk wht,body
+aaust. terr.,blk brn,body
+pit bull,brindle,body
+pit bull,brown,head
+chichauhua,black,head
+chow chow,black,head
+pit bull,brown/whit,head
+pit bull,NA,head
+pit bull,brwn  wht,body
+pit bull,white,body
+pit bull,NA,head
+pit bull,blue white,unknown
+yorkshire terrier,brn blk,body
+chichauhua,tan,body
+germ shepherd,blk tan,body
+germ shepherd,blk yellow,body
+chichauhua,blk wht,body
+chichauhua,black,head
+amer. bull dog,NA,head
+great dane,gry blk,head
+dotson,NA,unknown
+beagle,tri,unknown
+rat terrier,gray,body
+dotson,brown,body
+min pin,black,body
+bull dog,NA,body
+pit bull,NA,body
+labrador retriv,blk whit,body
+pit bull,gry white,body
+pomeranian,cream,head
+labrador retriv,brown,head
+pit bull,NA,head
+pit bull,NA,unknown
+am bulldog,NA,body
+chichauhua,tan,unknown
+labrador retriv,black,body
+chow chow,NA,head
+pit bull,NA,head
+gold retriever,NA,body
+english bulldog,wht blk,body
+labrador retriv,black,body
+pit bull,white,head
+pit bull,brn wht,body
+schnauzer,gry and cr,body
+husky,NA,body
+pit bull,brindle,head
+schnauzer,gry wht,unknown
+pekingese,gold whit,body
+basset hound,red,unknown
+pit bull,gry brown,body
+min pin,blk tan,head
+pit bull,brn wht,body
+pit bull,blue white,body
+pit bull,brindle,body
+pit bull,NA,body
+labrador retriv,tan,unknown
+schnauzer,blk wht,head
+pug,NA,head
+rottweiler,brn blk,body
+rottweiler,blk brn,body
+pit bull,brn wht,body
+pit bull,brn white,body
+pit bull,blk wht,body
+westie,white,body
+pit bull,NA,body
+bull dog,white,body
+boston terrier,NA,head
+labrador retriv,black,head
+english bulldog,brindle wh,body
+border collie,blk white,head
+bullmastiff,brn wht,body
+shih tzu,black,head
+pit bull,brn wht,body
+boxer,brindle wh,body
+pit bull,wht black,body
+rat terrier,blk wht,head
+germ shepherd,white,body
+pit bull,gray,body
+pit bull,gry brn,body
+greyhound,tan,body
+cocker spainel,NA,body
+gold retriever,NA,body
+pit bull,NA,NA
+dachshund,black,body
+labrador retriv,blck,head
+pit bull,brindle,body
+pit bull,brn blk,body
+fox terrier,white,body
+bull dog,NA,unknown
+germ shepherd,white,body
+pit bull,NA,body
+great dane,tan,head
+shih tzu,whit grey,body
+pit bull,brn wht,body
+pit bull,blk wht,body
+pit bull,brn wht,body
+dotson,blk brn,body
+husky,blk wht,head
+pit bull,NA,unknown
+gold retriever,orange,body
+labrador retriv,blk,body
+pit bull,NA,body
+pit bull,NA,body
+germ shepherd,blk brown,body
+schnauzer,NA,body
+germ shepherd,NA,body
+aaust. terr.,brn white,body
+rottweiler,blk tan,body
+boxer,brn whtie,body
+siberan husky,blk wht,body
+basset hound,brn wht bl,head
+rottweiler,NA,body
+basset hound,tricolor,head
+dachshund,red,body
+shih tzu,tan wht,head
+am bulldog,grey white,body
+pit bull,blk wht,body
+maltase,wht blck,head
+cocker spainel,brown,body
+boxer,brn wht,body
+sheep dog,wht blk,body
+chichauhua,brown,body
+english shepard,gry wht,head
+great dane,light brow,body
+pit bull,NA,body
+akita,NA,body
+labrador retriv,blk,body
+pit bull,wht brn,body
+pit bull,brn wht,body
+boxer,brn wht,body
+pit bull,tan white,body
+pit bull,buff,body
+germ shepherd,blk tan,body
+pit bull,brown,head
+rottweiler,NA,body
+poodle,blk,NA
+pit bull,NA,unknown
+pit bull,wht brn,body
+pit bull,brindle,body
+pit bull,brn white,body
+pit bull,brn white,body
+shih tzu,blk whit,body
+pit bull,isabell,body
+labrador retriv,blonde,NA
+am. eskimo,NA,NA
+rat terrier,brown wht,NA
+pit bull,wht/brown,NA
+other,blk wht,body
+husky,blk white,NA
+shih tzu,NA,body
+pit bull,brn- wht,NA
+pit bull,blk,head
+germ shepherd,blk,NA
+pit bull,wht-brwn,body
+pit bull,wht w/ spo,NA
+germ shepherd,black/tan,body
+pit bull,white/gray,body
+labrador retriv,tricolor,body
+pit bull,white/tan,body
+shih tzu,brindle,NA
+pit bull,white,NA
+bull dog,NA,NA
+pit bull,brown,body
+akita,wht blk,body
+pit bull,brindle,body
+pomeranian,black,body
+husky,NA,body
+english bulldog,fawn,body
+pit bull,reddish,body
+alask. malamute,gry white,body
+pit bull,blue white,body
+boxer,brindle wh,body
+westie,white,body
+labrador retriv,black,head
+schnauzer,NA,body
+pit bull,brn wht,body
+poodle,brown,body
+rottweiler,black,body
+labrador retriv,NA,body
+schnauzer,blk wht,body
+pit bull,blk brn,body
+schnauzer,grey white,body
+rottweiler,blk tan,body
+germ shepherd,blk tan,body
+rottweiler,black,body
+boxer,NA,head
+min pin,black tan,body
+pit bull,blue,body
+pit bull,brindle,body
+shih tzu,white tan,body
+husky,brown,body
+boston terrier,NA,body
+yorkshire terrier,brn blk,body
+min pin,NA,body
+lhasa apso,golden,body
+schnauzer,wheat,body
+germ shepherd,black,body
+beagle,tan,body
+dachshund,red,body
+boxer,brindle,body
+shih tzu,blonde,body
+pit bull,NA,body
+dachshund,red,unknown
+chichauhua,brown,body
+pit bull,brindle,body
+boxer,tan white,NA
+boxer,brindle,body
+labrador retriv,black,body
+pit bull,NA,body
+eng. mastiff,tan,head
+pit bull,white,body
+boxer,black,body
+mastif,brn blk,body
+pug,brown,head
+chichauhua,blk brn,body
+chichauhua,tan white,body
+chichauhua,wht brn,body
+great dane,blue,body
+westie,white,unknown
+labrador retriv,chocolate,head
+aaust. terr.,NA,body
+pit bull,red brn,body
+great pyreneese,white,body
+germ shepherd,blk brwn,body
+labrador retriv,black,body
+labrador retriv,tan,body
+shar-pei,brown,head
+westie,white,body
+pit bull,brindle bl,body
+boxer,red white,body
+shih tzu,white,body
+pit bull,blk wht,body
+labrador retriv,blk wht,head
+pit bull,wht brindl,unknown
+schnauzer,silver,body
+pit bull,blk wht,body
+pit bull,NA,body
+black lab,black,body
+pit bull,NA,NA
+pit bull,grey,body
+shih tzu,black,body
+labrador retriv,black,NA
+pit bull,fawn whte,body
+pit bull,NA,NA
+scottish ter.,black,body
+schnauzer,blk silver,unknown
+aaust. terr.,tri color,head
+pit bull,fawn white,body
+black lab,black,unknown
+bull dog,black,body
+germ shepherd,NA,body
+shar-pei,tan,body
+pit bull,brown,body
+black lab,black,head
+beagle,tri,body
+aaust. terr.,blk gray,body
+cocker spainel,brn wht,body
+pit bull,brown,body
+germ shepherd,blk brn,body
+lakeland ter.,blonde,head
+beagle,blk wht,body
+boxer,brindle,body
+bull dog,brn whit,body
+pit bull,blk wht,body
+germ shepherd,blonde,body
+chow chow,red,body
+chow chow,black,body
+pit bull,white,body
+labrador retriv,black,body
+westie,white,head
+pit bull,gray/blue,head
+boxer,brindle,body
+pit bull,blk brown,unknown
+beagle,blk wht,body
+english setter,wht orange,body
+poodle,blk wht,body
+shih tzu,red white,body
+pit bull,brn white,body
+pit bull,brn white,body
+pit bull,NA,body
+pit bull,gray white,body
+chichauhua,tri color,body
+pug,NA,unknown
+husky,tan,body
+pit bull,black,body
+maltase,white,body
+pit bull,NA,NA
+yorkshire terrier,brn blk,head
+germ shepherd,brn blk,body
+border collie,blk white,unknown
+pit bull,black,body
+beagle,tri,body
+pomeranian,tan wht,body
+labrador retriv,black,head
+coon hound,NA,head
+husky,NA,head
+boxer,fawn,NA
+english bulldog,tan & whit,head
+aaust. terr.,black whit,head
+doberman,blk tan,head
+labrador retriv,black,body
+poodle,black,body
+chichauhua,NA,head
+pit bull,brindle wh,head
+pit bull,blue wht,head
+pit bull,NA,body
+akita,tan,NA
+germ shepherd,NA,body
+pomeranian,brown,body
+pit bull,brindle,body
+labrador retriv,black,body
+akita,fawn & wht,body
+chichauhua,brown,body
+chichauhua,wht tan,body
+border collie,black wht,head
+pit bull,NA,body
+labrador retriv,white,body
+bullmastiff,brown,head
+boxer,brendal,body
+pit bull,brindle wh,body
+border collie m,blk wht,head
+rottweiler,blk brn,head
+dachshund,red,head
+pit bull,NA,body
+germ shepherd,NA,body
+germ shepherd,black,body
+poodle,white,body
+poodle,tan,body
+blood hound,NA,body
+pit bull,brn,body
+pug,fawn,body
+shar-pei,NA,body
+boston terrier,blk wht,head
+husky,blonde tan,head
+shih tzu,blk wht,body
+pit bull,white,body
+pit bull,tan,body
+rottweiler,blk tan,head
+pit bull,brown wht,body
+germ shepherd,yellow blk,body
+pit bull,wht brown,body
+britney spaniel,orange wht,body
+yorkshire terrier,brown,body
+pit bull,NA,head
+boxer,brindle wh,head
+pit bull,white/gray,body
+dachshund,brn blck,body
+beagle,NA,body
+dotson,black/brow,body
+great dane,NA,body
+chocolate lab.,brown,body
+pomeranian,black,body
+great dane,blck wht,NA
+chow chow,NA,body
+beagle,tricolor,body
+germ shepherd,white,body
+great pyreneese,white,body
+boxer,brown,head
+poodle,white,body
+rottweiler,NA,body
+germ shepherd,NA,body
+pit bull,NA,body
+husky,white grey,head
+pit bull,white,body
+schnauzer,gray blck,body
+chichauhua,blk wht,head
+germ shepherd,tan,body
+coon hound,red,head
+dachshund,NA,body
+pit bull,NA,body
+labrador retriv,black,head
+poodle,black,head
+pit bull,blue,body
+pit bull,NA,body
+pit bull,multi,body
+bullmastiff,brindle,body
+akita,blk white,body
+mastif,brindle,body
+coon hound,blck tan,body
+cockapoo,black,head
+pit bull,brn whte,head
+schnauzer,blk whte,head
+rottweiler,black,head
+samoyed,white,body
+pit bull,brn,head
+pit bull,wht blck,body
+pit bull,wht blk,body
+yorkshire terrier,gray tan,head
+pit bull,brindle,body
+dachshund,red,body
+pit bull,blue,body
+box terrier,brindle,body
+pit bull,brindle,body
+chichauhua,NA,body
+labrador retriv,NA,head
+dachshund,blk tan,body
+gold retriever,blonde,head
+rottweiler,black,head
+pit bull,black,body
+boxer,wht blck,body
+pit bull,wht brown,body
+germ shepherd,NA,body
+poodle,black,body
+poodle,white,unknown
+cattle dog,rust whit,head
+pit bull,brn wht,body
+schnauzer,blk wht,head
+chichauhua,NA,body
+germ shepherd,white,body
+chichauhua,NA,body
+pit bull,NA,body
+akita,brn blk,body
+english bulldog,white,body
+pit bull,blue,body
+pit bull,tan white,body
+pit bull,white,body
+pit bull,brown,head
+dachshund,brown,head
+germ shepherd,brn blck,body
+yorkshire terrier,NA,body
+am bulldog,white,NA
+pit bull,brn blk,body
+basset hound,multicolor,head
+schnauzer,gray blck,body
+doberman,blk red,body
+pit bull,brn wht,body
+labrador retriv,black,body
+cane corso,blue,body
+labrador retriv,black,body
+chichauhua,NA,body
+maltase,white,body
+rottweiler,brn wht,body
+pit bull,red wht,body
+dachshund,blk gray,body
+aaust. terr.,blk brn,head
+shih tzu,wht blk,body
+shih tzu,NA,head
+labrador retriv,tan,head
+border collie,NA,unknown
+shih tzu,white,body
+border collie,NA,head
+border collie,blk wht,body
+english bulldog,brn tan,body
+weimaraner,gray,body
+labrador retriv,black,body
+germ shepherd,blk tan,body
+germ shepherd,NA,body
+chichauhua,black,body
+aaust. terr.,grey blck,body
+boston terrier,NA,body
+akita,NA,body
+min pin,black,body
+pit bull,tri,body
+maltase,white,body
+germ shepherd,tan black,body
+pit bull,NA,body
+pit bull,blue white,body
+cane corso,brn gray,body
+chichauhua,wht brn,body
+beagle,red,body
+chichauhua,brn blk,body
+chichauhua,white blck,body
+am bulldog,NA,body
+boxer,dark brown,body
+dachshund,NA,body
+border collie m,NA,NA
+pit bull,blue,body
+pit bull,grey,head
+shih tzu,gry wht,body
+shar-pei,tan,body
+amer. bull dog,tan white,body
+chichauhua,red,body
+shih tzu,white,head
+pit bull,black,body
+shih tzu,brn wht,body
+boxer,white,body
+saint bernard,brn wht,body
+pit bull,red,body
+labrador retriv,tan/white,body
+labrador retriv,black,body
+labrador retriv,tan,body
+weimaraner,tan/white,body
+basanji,beige,body
+blue heeler,black,head
+doberman,black/tan,body
+chichauhua,brn/white,body
+poodle,white,body
+pit bull,red/white,body
+cocker spainel,brown,body
+pit bull,NA,body
+pit bull,wht tan,body
+pit bull,NA,unknown
+pit bull,black,body
+pit bull,gry white,body
+siberan husky,NA,head
+bull dog,NA,body
+english shepard,blk white,body
+doberman,blk brn,head
+border collie m,white/blac,body
+pit bull,blk wht,body
+beagle,brown,body
+pit bull,red,body
+pit bull,blk wht,NA
+sheltie,sable,head
+min pin,blk brn,body
+pit bull,NA,unknown
+pit bull,brindle,body
+pit bull,NA,body
+spitz,NA,head
+pit bull,NA,body
+poodle,white,body
+pit bull,black,head
+germ shepherd,brown,body
+pit bull,brn wht,body
+beagle,tri,head
+pit bull,tan,body
+chichauhua,NA,body
+westie,NA,body
+labrador retriv,brown,unknown
+germ shepherd,NA,unknown
+poodle,NA,unknown
+pit bull,gray,body
+pit bull,NA,body
+great pyreneese,white,body
+am bulldog,NA,unknown
+germ shepherd,blk tan,body
+pit bull,tan wht,body
+pit bull,gray wht,body
+pit bull,blck whte,body
+alask. malamute,grey,body
+shih tzu,blk white,body
+pit bull,NA,body
+chichauhua,tan,body
+saint bernard,tan,head
+pit bull,brown,body
+rottweiler,blk brn,body
+pit bull,gray wht,body
+pit bull,NA,body
+gold retriever,NA,body
+am bulldog,wht/brindl,head
+germ shepherd,NA,body
+rottweiler,blk brn,body
+bull dog,red,body
+pit bull,blue wht,head
+labrador retriv,black,body
+border collie,black/whit,head
+pit bull,white,body
+pit bull,blue,body
+lhasa apso,honey,body
+pit bull,brn wht,body
+cane corso,gray,body
+labrador retriv,brn,NA
+germ shepherd,blk brn,body
+labrador retriv,black,body
+pit bull,white,body
+shih tzu,NA,head
+dachshund,brown,body
+germ shepherd,blk brn,body
+poodle,white,body
+blood hound,blk tan,body
+maltase,white,body
+great dane,NA,head
+chichauhua,blk brn,head
+chichauhua,black,body
+boxer,NA,body
+rottweiler,black,body
+boston terrier,black whte,body
+pit bull,wht brn,body
+rottweiler,blk tan,body
+pit bull,gray white,body
+pit bull,black,body
+boxer,tan,body
+fox terrier,"wht, br,bl",body
+beagle,tri,NA
+yorkshire terrier,blond,body
+pit bull,blk,body
+corgi,red,NA
+germ shepherd,black,body
+pit bull,blue wht,body
+britney spaniel,red white,head
+westie,white,body
+pug,NA,body
+pit bull,blue,body
+labrador retriv,blk whte,head
+siberan husky,NA,body
+siberan husky,bl/whit/gr,body
+rottweiler,NA,body
+great dane,gry blk,body
+pug,fawn tan,body
+pit bull,tan white,body
+pit bull,brown,head
+pit bull,blue brn,body
+pit bull,wht gray,body
+beagle,brn wht,body
+boxer,fawn,unknown
+germ shepherd,grey,body
+chichauhua,NA,body
+pug,NA,body
+pit bull,tan whit,head
+pit bull,blue,NA
+pit bull,NA,head
+beagle,NA,unknown
+labrador retriv,NA,NA
+germ shepherd,brn blk,body
+labrador retriv,blk,body
+border collie,NA,NA
+germ shepherd,tn blk,body
+pit bull,tan white,body
+germ shepherd,blk brn,body
+pit bull,black,body
+pit bull,NA,head
+pit bull,blk wht,body
+doberman,black,head
+pit bull,red white,head
+english bulldog,brindle,body
+labrador retriv,black,body
+germ shepherd,tan blk,body
+pit bull,brn brindl,body
+chichauhua,tri,body
+pit bull,golden,unknown
+english setter,red,body
+chichauhua,tan,body
+yorkshire terrier,grey brn,body
+cane corso,NA,body
+chichauhua,tan,body
+toy poodle,gray,body
+husky,NA,body
+labrador retriv,chocolate,body
+pug,black,body
+pomeranian,tan,NA
+labrador retriv,black/gray,NA
+germ shepherd,brown/blac,NA
+cocker spainel,tan,body
+germ shepherd,black/brow,body
+bernesen mt.,NA,body
+labrador retriv,black,NA
+cattle dog,brown/blac,body
+husky,NA,head
+chichauhua,brown,body
+french bulldog,blk wht,body
+pit bull,white,body
+maltase,white,unknown
+basanji,red white,body
+bullmastiff,brindle,head
+chichauhua,black,body
+germ shepherd,NA,body
+pit bull,NA,NA
+chichauhua,brn blk,body
+pit bull,brindle,body
+boxer,brown,head
+amer. bull dog,wht brn,unknown
+pit bull,blue white,body
+pit bull,blck,head
+dachshund,grey blk b,body
+pit bull,brown,body
+pit bull,blue & blk,body
+gold retriever,NA,body
+pit bull,NA,body
+pit bull,brn wht,body
+chow chow,blackj,body
+pit bull,chocolate,head
+westie,NA,unknown
+doberman,black,body
+dachshund,NA,body
+germ shepherd,brn blk,body
+germ shepherd,NA,body
+maltase,blk wht,body
+pit bull,NA,body
+chichauhua,blk brn,body
+english bulldog,tan,body
+sheltie,tri,body
+cane corso,blue,body
+pit bull,NA,head
+basset hound,brn wht,head
+catahoula,merle,head
+pit bull,brown,body
+labrador retriv,NA,body
+amer. bull dog,brn white,body
+westie,white,body
+pit bull,grey,head
+chichauhua,NA,body
+pit bull,NA,NA
+dotson,black,body
+labrador retriv,blk white,head
+shih tzu,tri,body
+english bulldog,NA,body
+chow chow,red,head
+pit bull,NA,head
+dachshund,red,body
+germ shepherd,blk tan,body
+pit bull,brown,body
+boxer,black/whit,body
+pit bull,blue,body
+pit bull,red wht,body
+pit bull,wht brn,body
+germ shepherd,brown,body
+cane corso,blue,body
+other,brn wht,body
+germ shepherd,brwn blck,body
+saint bernard,tri,unknown
+shih tzu,brn wht,body
+pit bull,NA,unknown
+akita,bk white,body
+pomeranian,brn wht,head
+english bulldog,NA,body
+germ shepherd,wht blck,body
+aaust. terr.,black,body
+pit bull,brindle,head
+mastif,brn blk,body
+boston terrier,blk whte,body
+chichauhua,brn,body
+shih tzu,white,body
+yorkshire terrier,blk tan,body
+germ shepherd,tan blck,body
+boxer,white,NA
+pit bull,wht brn,body
+border collie,black,body
+pit bull,brown,body
+pit bull,blk wht,head
+pit bull,grey,head
+pit bull,gray white,unknown
+chichauhua,tan,body
+pit bull,white,head
+germ shepherd,blk brn,head
+boxer,tan white,body
+germ shepherd,tan blk,body
+pit bull,NA,body
+other,wht tan,body
+gold retriever,gold,body
+dotson,NA,head
+pit bull,NA,body
+labrador retriv,black,body
+am bulldog,white,body
+pit bull,NA,NA
+labrador retriv,black,head
+schnauzer,gray,body
+am bulldog,gray white,head
+yorkshire terrier,brn blk,body
+aaust. terr.,wht blck,body
+pit bull,black,body
+chow chow,orange,body
+cane corso,brindle,body
+pit bull,brn white,body
+pit bull,brown,body
+aaust. terr.,gray,body
+pit bull,NA,body
+pit bull,wht brindl,body
+husky,white gray,body
+pit bull,tan,body
+aaust. terr.,red,body
+germ shepherd,blk brn,body
+labrador retriv,blonde,body
+pit bull,wht brn,body
+labrador retriv,brn white,head
+irish setter,red,head
+pomeranian,white,head
+labrador retriv,black,body
+boxer,NA,body
+germ shepherd,NA,body
+lhasa apso,gray,body
+rat terrier,wht blk,body
+sheep dog,tri,body
+blood hound,black,head
+labrador retriv,black,body
+boxer,fawn wht,body
+yorkshire terrier,blk brn,body
+mastif,blue,body
+schnauzer,gray,body
+labrador retriv,brown,head
+gold retriever,red brown,head
+boston terrier,blk white,head
+dachshund,black,head
+pit bull,black,body
+germ shepherd,NA,body
+boxer,white,body
+pit bull,black whit,body
+black lab,black,body
+greyhound,brindle,head
+chichauhua,tan,body
+pit bull,brown/whte,head
+germ shepherd,tan blk,body
+germ shepherd,NA,body
+boxer,brindle,body
+pit bull,white,body
+pit bull,brindle wh,body
+pit bull,NA,body
+labrador retriv,blonde,body
+germ shepherd,blk brn,body
+chow chow,blonde,body
+dachshund,NA,head
+blood hound,red,body
+chichauhua,NA,body
+english shepard,blk white,body
+pit bull,brown,body
+pit bull,brindle wh,body
+pit bull,buff white,body
+bull dog,black wht,body
+pit bull,tan,body
+cocker spainel,blk tan,body
+boxer,brown,body
+basset hound,white/brow,head
+black lab,black,body
+shih tzu,white blk,head
+other,brown,head
+boston terrier,blk wht,body
+border collie,tri,head
+schnauzer,brn beige,head
+rottweiler,blk brn,body
+labrador retriv,brn,body
+aaust. terr.,whit silve,body
+bull dog,blk wht,body
+black lab,black,head
+cocker spainel,brn wht,body
+dachshund,black,body
+pit bull,gry white,NA
+pug,beige,body
+boxer,brindle,head
+great dane,blk wht,head
+pit bull,NA,head
+pit bull,black / ta,unknown
+shih tzu,NA,body
+great dane,black,body
+germ shepherd,black,body
+pit bull,brindle,body
+chichauhua,brown tan,body
+pit bull,fawn white,body
+rottweiler,black/brow,body
+siberan husky,brown/whit,head
+labrador retriv,black,body
+maltase,white,body
+gold retriever,NA,body
+boxer,brindle,body
+pit bull,black whit,body
+black lab,black,body
+beagle,NA,unknown
+pit bull,gry wht,body
+pit bull,brindle wh,body
+germ shepherd,brown,head
+pit bull,black,body
+poodle,white,unknown
+great dane,black,body
+basanji,brindle,unknown
+pit bull,brindle,body
+gold retriever,golden,body
+pit bull,gray white,body
+maltase,blonde,body
+shih tzu,blak,body
+pit bull,brn white,body
+pit bull,tan,body
+labrador retriv,white brn,head
+husky,whit blk,head
+dotson,brn blk,body
+boxer,white,body
+great pyreneese,white,head
+blue heeler,blk white,head
+boxer,white,body
+pit bull,tan white,body
+shar-pei,tan wht,body
+labrador retriv,brn wht,head
+pit bull,blue white,body
+schnauzer,brn white,body
+pit bull,black,body
+pekingese,NA,body
+boxer,brindle,NA
+black lab,black,body
+basanji,blk br,body
+pit bull,tan white,body
+pit bull,black,NA
+cocker spainel,whte tan,body
+aaust. terr.,white gray,body
+basset hound,tri,body
+pit bull,wht blk br,unknown
+chow chow,black,head
+blue heeler,white,head
+poodle,black,body
+germ shepherd,tan black,body
+box terrier,br white,body
+germ shepherd,white,body
+labrador retriv,brown,body
+pit bull,blue whte,body
+pit bull,brown tan,body
+shih tzu,white,head
+shih tzu,wht blk,head
+dachshund,black,body
+chichauhua,wht tan,body
+pug,fawn,body
+yorkshire terrier,tri-color,body
+germ shepherd,blk brown,unknown
+pit bull,brn white,unknown
+labrador retriv,blk wht,head
+pug,blk wht,body
+chichauhua,white red,body
+cane corso,brown,body
+alask. malamute,grey white,body
+shih tzu,blonde tan,body
+rottweiler,NA,body
+pit bull,brn tan,body
+pit bull,whte brn,body
+lakeland ter.,yellow,body
+havanese,white,body
+labrador retriv,yellow,body
+pit bull,brown tan,body
+pit bull,white brn,body
+aaust. terr.,tri,body
+labrador retriv,brown,body
+black lab,black,body
+collie,NA,unknown
+rottweiler,brown,unknown
+briard,tan,body
+pit bull,blk wht,head
+beagle,white brn,body
+shar-pei,brn tan,body
+aaust. terr.,blk & tri,body
+germ shepherd,brindle,body
+shih tzu,white,body
+french bulldog,cream,body
+pit bull,NA,body
+aaust. terr.,white brn,unknown
+scottish ter.,brindle,body
+shih tzu,white,body
+pit bull,brn wht,body
+boxer,brindle wh,body
+beagle,wht brn,body
+chow chow,black,body
+shih tzu,gray,body
+pit bull,brn white,body
+pit bull,NA,head
+labrador retriv,brn blck,body
+eng. mastiff,tan black,head
+shih tzu,brown,body
+havanese,white,head
+labrador retriv,black,head
+chichauhua,blond,unknown
+new foundland,black,body
+pit bull,fawn,unknown
+boxer,brindkle,NA
+pit bull,tan,body
+chow chow,brown,body
+maltase,white,body
+border collie m,black,body
+great dane,NA,body
+shih tzu,brown,head
+labrador retriv,brown,body
+shih tzu,black,NA
+pit bull,brown,body
+pit bull,tan,unknown
+dalmatian,white blk,head
+germ shepherd,brn blck,body
+mastif,tan blk,body
+pit bull,brindle,body
+chichauhua,blk white,body
+great dane,harequin,head
+coon hound,brn white,body
+beagle,tri,body
+germ shepherd,brown,unknown
+chichauhua,NA,body
+chow chow,white,body
+pit bull,brown blk,body
+pit bull,gray,body
+pit bull,white,body
+dachshund,reddish br,unknown
+pit bull,brindle,body
+poodle,black,body
+pit bull,brindle,body
+aaust. terr.,blk white,body
+cane corso,brn white,body
+border collie,black,body
+pit bull,gry white,body
+st bernard,white brn,head
+pit bull,black,body
+blue heeler,blue red,unknown
+great dane,blue,unknown
+dachshund,cooper,unknown
+germ shepherd,orange,body
+collie,white tan,body
+germ shepherd,brn blk,head
+labrador retriv,yellow,body
+pit bull,brn wht,body
+pit bull,white br,body
+pit bull,blk wht,body
+beagle,whit brn b,NA
+pit bull,blk wht br,unknown
+pit bull,black,unknown
+pit bull,black,body
+pit bull,black,body
+mastif,NA,body
+boxer,brindle,unknown
+pit bull,brn white,body
+cane corso,blue,body
+pit bull,black,body
+chichauhua,tan wht,body
+yorkshire terrier,brm gry,body
+black lab,black,body
+samoyed,white,body
+labrador retriv,brown,unknown
+germ shepherd,brown,body
+blue heeler,blk gry,body
+shih tzu,NA,body
+boxer,brn white,head
+pit bull,blacf,body
+boxer,brn white,body
+pit bull,brown,body
+germ shepherd,black,body
+rat terrier,blk wht,body
+boxer,brindle,body
+cane corso,brindle,head
+germ shepherd,blck brown,unknown
+french bulldog,white,head
+chow chow,brown,head
+dachshund,brown,body
+mastif,white brn,unknown
+dotson,red,body
+aaust. terr.,red,body
+rottweiler,blck brn,body
+aaust. terr.,brown,body
+collie,white,body
+pit bull,brindle,body
+germ shepherd,blue brn,head
+pit bull,tan wht,body
+beagle,tri,body
+pit bull,red white,body
+pit bull,brown,body
+beagle,NA,body
+boxer,brn blck,body
+pit bull,red nose,unknown
+poodle,black,unknown
+bull dog,tan,unknown
+siberan husky,white brow,body
+pit bull,grey white,body
+labrador retriv,blk wht,head
+germ shepherd,NA,body
+pit bull,gry/wht,unknown
+poodle,grey,body
+boxer,brn wht,body
+germ shepherd,black,body
+shih tzu,blk wht,body
+germ shepherd,blk tan,body
+labrador retriv,black,body
+aaust. terr.,wht blk,body
+boxer,brn wht,head
+chichauhua,black,body
+sheep dog,NA,body
+germ shepherd,NA,head
+collie,brn blk wh,head
+coon hound,black,unknown
+labrador retriv,black,NA
+husky,white,body
+pit bull,brown,body
+english bulldog,wht/brindl,body
+pit bull,blck wht,body
+beagle,black,body
+pit bull,black,unknown
+germ shepherd,NA,body
+schnauzer,brown,body
+pit bull,gray white,unknown
+aaust. terr.,brindle,body
+labrador retriv,chocolate,body
+pit bull,white,body
+shih tzu,blk white,body
+yorkshire terrier,gry silver,body
+pit bull,black,body
+boxer,brown,body
+sheltie,tri,unknown
+germ shepherd,white,body
+beagle,blk/brown,body
+germ shepherd,brown,NA
+labrador retriv,yellow,body
+germ shepherd,brn blk,unknown
+gold retriever,NA,body
+labrador retriv,yellow,unknown
+greyhound,brindle,unknown
+germ shepherd,brown,body
+beagle,blk brn,body
+boxer,red,head
+rottweiler,blk brn,unknown
+pit bull,brn blk,body
+pit bull,black,head
+aaust. terr.,red,body
+basset hound,cream whit,body
+pit bull,tan white,body
+pit bull,brwn wht,body
+germ shepherd,blk brn,body
+boxer,blk wht,body
+basset hound,tan,body
+chow chow,brown,body
+boxer,wht brn,body
+germ shepherd,blk brn,body
+pit bull,NA,body
+pit bull,gray white,head
+pug,brown,head
+black lab,black,head
+border collie,white,unknown
+boston terrier,blk brn,unknown
+coon hound,NA,unknown
+gold retriever,blonde,head
+germ shepherd,NA,body
+beagle,red,body
+rat terrier,brindle,body
+pit bull,brindle,head
+poodle,gold,body
+boxer,brindle,body
+germ shepherd,NA,head
+pit bull,brown,body
+labrador retriv,NA,body
+poodle,black,unknown
+collie,brn blk wh,unknown
+gold retriever,yellow,body
+aaust. terr.,brindle,body
+rottweiler,black,body
+pit bull,tan,body
+pit bull,blk wht,body
+pit bull,brindle,body
+cane corso,brindle,head
+pit bull,gray,body
+pit bull,red white,head
+pit bull,brn whte,body
+pit bull,NA,unknown
+pit bull,NA,unknown
+schnauzer,blakc,body
+germ shepherd,blck brn,body
+pit bull,black,body
+pit bull,black,head
+great pyreneese,wht blk,head
+pit bull,brown,unknown
+pit bull,brn white,body
+pit bull,blue white,unknown
+pit bull,brown,body
+black lab,black,body
+english bulldog,brindle,head
+pit bull,blue brn,unknown
+cane corso,grey,unknown
+germ shepherd,NA,body
+pit bull,brn wht,body
+boxer,brown,body
+cane corso,gray,body
+pug,NA,head
+labrador retriv,yello,unknown
+pit bull,brn blck,body
+boxer,blk wht,body
+gold retriever,golden,body
+st bernard,tri,head
+pit bull,grey wht,unknown
+pit bull,NA,unknown
+pit bull,brindle,unknown
+bichon frese,white,body
+shih tzu,white,head
+pit bull,blk white,unknown
+greyhound,black,body
+germ shepherd,gry black,body
+aaust. terr.,tri,unknown
+husky,NA,unknown
+bull dog,brn wht,body
+pit bull,gry wht,body
+pit bull,blk wht,body
+chow chow,red,body
+pit bull,blk wht,unknown
+pit bull,wht blk,head
+black lab,black,head
+yorkshire terrier,tan white,unknown
+pit bull,red,head
+rottweiler,blk brn,body
+boxer,tan,body
+germ shepherd,black,body
+labrador retriv,black,body
+germ shepherd,blck brn,unknown
+labrador retriv,white,unknown
+chow chow,NA,NA
+pit bull,blk wht,body
+germ shepherd,grey blck,head
+labrador retriv,black,unknown
+pit bull,black wht,body
+amer. bull dog,white,body
+chow chow,cream,unknown
+yorkshire terrier,grey white,head
+pit bull,brown,body
+st bernard,white,body
+pit bull,white,head
+am bulldog,tri,body
+chichauhua,blk wht,body
+labrador retriv,yellow,unknown
+pit bull,buff,body
+pit bull,buff,body
+pit bull,brn white,body
+beagle,NA,unknown
+boxer,brn white,body
+poodle,grey,unknown
+cocker spainel,choc,unknown
+germ shepherd,blck,head
+pug,brn blck,unknown
+pit bull,tan,body
+catahoula,br-wht,body
+aaust. terr.,tri,body
+beagle,black,body
+min pin,red/tan,body
+labrador retriv,blk wht,body
+great pyreneese,tan white,head
+germ shepherd,blck yello,body
+germ shepherd,blk wht,head
+pit bull,gry white,body
+germ shepherd,black,body
+mastif,blk brindl,NA
+pit bull,NA,body
+collie,blck wht,unknown
+dachshund,light brow,body
+basset hound,brn blk,body
+pit bull,blk,body
+germ shepherd,blk tan,body
+dotson,black tan,head
+labrador retriv,black,head
+chichauhua,brindle,body
+chichauhua,brown,body
+welsh corgi,tri,body
+pit bull,tan,body
+boxer,brindle,body
+aaust. terr.,gr/wh/blk,body
+dachshund,black/whit,unknown
+germ shepherd,brwn/blk,body
+pit bull,tan/wht,body
+boxer,brn white,body
+chichauhua,black,body
+eng. mastiff,blonde,head
+chichauhua,black,NA
+rottweiler,black/brn,body
+labrador retriv,black,unknown
+border collie,blck white,head
+cocker spainel,black,unknown
+labrador retriv,brown,unknown
+golden lab,yellow,body
+germ shepherd,brown blk,unknown
+boxer,brn white,head
+pit bull,blk whte,body
+pit bull,brindle,body
+dotson,brown,unknown
+labrador retriv,blk/wht,body
+shih tzu,black,body
+germ shepherd,brn/blk,head
+toy fox terrier,blk/wht,body
+maltase,white,unknown
+english bulldog,fawn/wht,unknown
+other,red/brwn,head
+germ shepherd,blk/brn,body
+yorkshire terrier,red/blk,body
+boxer,blk/wht,body
+boxer,blk wht,body
+pit bull,NA,body
+shih tzu,blonde,NA
+pit bull,wht/brn,body
+labrador retriv,black,body
+sheep dog,wht/gry,head
+chichauhua,NA,body
+germ shepherd,blk tan,unknown
+black lab,black,unknown
+pit bull,blk white,body
+pit bull,brown,head
+pit bull,blk whte,body
+labrador retriv,brindle,NA
+aaust. terr.,red,body
+pit bull,brown,body
+chichauhua,blk wht,body
+pit bull,gry wht,body
+am bulldog,wht brn,body
+chichauhua,brn,body
+germ shepherd,blk brn,body
+aaust. terr.,brn blck,unknown
+toy poodle,brown,body
+rat terrier,wht black,body
+st bernard,NA,body
+germ shepherd,black brn,body
+collie,brn wht,body
+rottweiler,NA,body
+pit bull,silver wht,head
+siberan husky,brn wht,body
+pit bull,blu white,body
+shih tzu,wht gry,body
+sheep dog,white,body
+pit bull,tan,unknown
+pit bull,blk wht,body
+pit bull,brown,head
+collie,blk tan,unknown
+boxer,brown,body
+amer. bull dog,blk wht,body
+pit bull,NA,body
+labrador retriv,grey,body
+labrador retriv,blk,body
+pit bull,NA,NA
+cane corso,gray,body
+aaust. terr.,NA,unknown
+pit bull,wht brn,unknown
+pit bull,wht blk,body
+pit bull,gray,body
+pit bull,brn wht,body
+boxer,white brn,body
+rottweiler,blck brn,NA
+pit bull,brindle,body
+pit bull,blue whte,body
+yorkshire terrier,blk brn,head
+labrador retriv,blk,body
+pit bull,blonde,body
+pit bull,tan,body
+germ shepherd,blak tan,body
+husky,white,NA
+pit bull,NA,body
+doberman,red,NA
+germ shepherd,blk brn,body
+germ shepherd,brn tan,body
+chichauhua,blk tan,body
+chichauhua,brn,body
+pit bull,gry whit,body
+siberan husky,tan gray,head
+pit bull,black,body
+shih tzu,white tan,head
+coon hound,tri,head
+cane corso,NA,body
+fox terrier,brendle,body
+chichauhua,NA,body
+collie,wht/yel,unknown
+beagle,brown,head
+mastif,yellow/blk,body
+cane corso,brindle,body
+germ shepherd,blk brn,body
+germ shepherd,red,unknown
+pit bull,fawn wht,body
+pit bull,gray,body
+beagle,tri,body
+other,tan,unknown
+boxer,brn wht,body
+pit bull,cream wht,body
+dachshund,brn,body
+germ shepherd,wht brn,body
+pit bull,NA,body
+labrador retriv,black,body
+pomeranian,tan,head
+shih tzu,blk/wh/br,head
+pit bull,grey/brin,body
+pit bull,faw/wht,body
+pit bull,brindle,body
+germ shepherd,brn/wht,body
+scottish ter.,white,unknown
+great dane,grey,body
+chow chow,brn wht,body
+germ shepherd,black,body
+doberman,black,unknown
+chow chow,tan,unknown
+labrador retriv,tan,body
+germ shepherd,blk brn,body
+boxer,red,body
+boxer,brindle wh,body
+germ shepherd,blk tan,body
+labrador retriv,black,body
+chichauhua,gray,body
+siberan husky,NA,body
+beagle,brn wht bl,body
+aaust. terr.,multi,body
+labrador retriv,blk gry,head
+pit bull,brn wht,body
+pit bull,gray,head
+chichauhua,blonde,unknown
+labrador retriv,black & wh,unknown
+pit bull,brn white,body
+red heeler,blk brn,body
+pit bull,brn wht,body
+poodle,blk wht,body
+pit bull,brn wht,NA
+germ shepherd,tan wht,head
+doberman,blk brn,body
+beagle,wht brn,unknown
+yorkshire terrier,brown silv,head
+boxer,brindle,body
+germ shepherd,brown,body
+pit bull,black,body
+pit bull,brindle,body
+rottweiler,blk tan,body
+pit bull,wht brn,body
+basset hound,tricolor,unknown
+labrador retriv,blk wht,unknown
+beagle,brn wht,body
+chow chow,silver,body
+pit bull,NA,body
+aaust. terr.,blk wht,body
+germ shepherd,blk brn,body
+pug,brn,body
+pit bull,NA,body
+airedale ter.,blk tan,unknown
+pit bull,tan/wht,head
+pit bull,blk/wht,body
+germ shepherd,black brn,body
+pit bull,brindle,body
+rottweiler,black,body
+maltase,NA,body
+chichauhua,brown,body
+dotson,brown,body
+weiner dog,choc/grey,body
+boston terrier,NA,body
+cocker spainel,tri/liver,body
+boxer,brown,body
+pit bull,grey wht,body
+pit bull,wht tan,body
+rottweiler,blk tan,body
+chichauhua,tan,head
+pit bull,black whit,body
+border collie m,blk/wht,head
+pit bull,blue,head
+labrador retriv,black,head
+shih tzu,blk/wht,body
+malamute,NA,unknown
+pit bull,black,body
+pit bull,brown,body
+basset hound,NA,NA
+pit bull,NA,unknown
+pit bull,brn wht,body
+shih tzu,NA,head
+pit bull,brown wht,body
+pit bull,black,head
+shih tzu,gry wht,head
+gold retriever,NA,unknown
+aaust. terr.,blk brn,head
+beagle,wht brn,unknown
+pit bull,brindle,head
+irish spaniel,wht/brown,head
+pit bull,blk,body
+cocker spainel,multi colo,head
+husky,white,body
+other,gold red,body
+pit bull,gry/wht,body
+germ shepherd,NA,body
+basset hound,tan wht,body
+boxer,NA,body
+pit bull,blk wht,body
+pit bull,blk wht,body
+chow chow,red,body
+germ shepherd,blk wht,body
+border collie,blk,body
+pit bull,brn wht,unknown
+english bulldog,brn wht,unknown
+pit bull,brn wht,unknown
+english bulldog,NA,unknown
+germ shepherd,blk brn,head
+bull dog,tan wht,head
+pit bull,brn wht,body
+pit bull,brn wht,body
+germ shepherd,blk wht,head
+germ shepherd,blk tan,body
+beagle,gold wht,unknown
+labrador retriv,yellow,head
+germ shepherd,blk brn,body
+pit bull,NA,unknown
+labrador retriv,wht brindl,body
+maltase,white,unknown
+pit bull,wht brn,unknown
+germ shepherd,blk,body
+pit bull,brn wht,body
+germ shepherd,brn blk,head
+germ shepherd,brn blk,body
+pit bull,wht brn,head
+pit bull,brindle ta,NA
+chichauhua,brown,head
+black lab,blk,head
+labrador retriv,black,unknown
+pit bull,tan wht,body
+amer. bull dog,wht brn,unknown
+pug,fawn,unknown
+chow chow,black,body
+pit bull,bl wht,body
+pit bull,blu wht,body
+shih tzu,blk wht,head
+akita,NA,head
+besinji,brn wht,body
+boxer,brn wht,head
+pit bull,red wht,unknown
+min pin,NA,head
+boxer,wht blk,body
+cane corso,fawn,body
+cane corso,fawn,body
+germ shepherd,black tan,unknown
+pit bull,blk brn,head
+pit bull,black,head
+shih tzu,brn tan,unknown
+doberman,blk tan,unknown
+rottweiler,blk brn,unknown
+rottweiler,black tan,body
+pit bull,tan,body
+germ shepherd,tan blk,body
+labrador retriv,blonde,head
+poodle,white,body
+poodle,black,unknown
+germ shepherd,tan blk,body
+poodle,white,body
+pit bull,tan,unknown
+beagle,wht brn,body
+germ shepherd,NA,head
+pit bull,blu wht,body
+germ shepherd,yellow,body
+gold retriever,NA,head
+germ shepherd,blk gry,body
+shih tzu,blk wht,body
+pit bull,white,head
+pit bull,blk gry,head
+black lab,blk wht,body
+am. eskimo,white,body
+labrador retriv,NA,unknown
+pit bull,wht blk,body
+pomeranian,blonde,unknown
+pit bull,brn wht,body
+black lab,blk,head
+labrador retriv,yellow,body
+germ shepherd,black,body
+cane corso,blk brn,body
+gold retriever,red,head
+corgi,blk wht,body
+pit bull,blk brn,body
+pit bull,brn,body
+cattle dog,blk,unknown
+chichauhua,white,body
+pit bull,gry wht,body
+pit bull,red wht,body
+pit bull,wht gry,body
+boston terrier,black,unknown
+doberman,blk tan,body
+maltase,brn blk,body
+dachshund,blk tan,body
+bull dog,tan bk,body
+pit bull,gry wht,head
+pit bull,grey,body
+beagle,red,unknown
+doberman,brown,head
+border collie m,whit brn,body
+rottweiler,brn blk,body
+bull dog,NA,body
+pit bull,tan wht,body
+boxer,brown,head
+rottweiler,blk brn,body
+chow chow,gray,unknown
+pit bull,wht brn,body
+corgi,wht brn,body
+germ shepherd,tan,body
+cocker spainel,brown,head
+pit bull,blk wht,body
+cane corso,bl wht,body
+pit bull,wht brn,body
+pit bull,brn wht,body
+gold retriever,golden,unknown
+boxer,brendle,body
+pomeranian,brown,head
+pit bull,gray,body
+germ shepherd,tan/blk,body
+pit bull,blk/wht,NA
+pit bull,brndl/wht,body
+boxer,brindle,body
+labrador retriv,chocolate,body
+schnauzer,white,body
+chichauhua,blk/wht,body
+pit bull,blue/br-br,body
+am bulldog,gry wht,head
+beagle,brindle/br,body
+pit bull,NA,head
+pit bull,brn/wht,body
+germ shepherd,brn/blk,body
+germ shepherd,tan,unknown
+pit bull,brn/blk,body
+pit bull,wht/brn,body
+rottweiler,blk/brnd,body
+collie,blk,unknown
+gold retriever,NA,unknown
+toy fox terrier,wht/blk,head
+pit bull,tan/brn,unknown
+dachshund,brn,body
+gold retriever,golden,head
+boxer,tan/blk,unknown
+havanese,blk wht,head
+boxer,brown,body
+pomeranian,white,body
+rottweiler,blk brn,unknown
+shar-pei,tan,body
+chichauhua,black,body
+fox terrier,NA,NA
+boxer,NA,body
+gold retriever,lexi,unknown
+beagle,yellow,head
+germ shepherd,brown,body
+cane corso,blue,body
+pit bull,tan,body
+pit bull,NA,body
+weimaraner,gray,unknown
+husky,NA,body
+beagle,NA,body
+welsh corgi,blk wht,unknown
+dachshund,brn,body
+germ shepherd,tan blk,body
+pit bull,blue,body
+pit bull,brindle,body
+labrador retriv,brn,body
+germ shepherd,blk brn,body
+pekingese,brn  tan,body
+pit bull,NA,body
+pit bull,brown,unknown
+rottweiler,NA,body
+pit bull,tan,body
+pit bull,brn gry,body
+heeler,blue,head
+am bulldog,brn,body
+am bulldog,brn wht,body
+aaust. terr.,bl brn,body
+germ shepherd,blk brn,body
+poodle,white,unknown
+pit bull,tn wht,unknown
+schnauzer,black,unknown
+pit bull,black,body
+schnauzer,blk wht,unknown
+border collie m,blk tn,body
+pomeranian,white,body
+bullmastiff,brindle,head
+cocker spainel,brn,unknown
+pit bull,brn wht,head
+boxer,NA,body
+labrador retriv,yellow,body
+germ shepherd,NA,body
+pit bull,wht brn,body
+pit bull,brn wht,body
+chow chow,blue,body
+pit bull,brn wht,body
+pit bull,NA,head
+germ shepherd,blk tan,body
+beagle,NA,unknown
+cane corso,brindle,body
+great dane,blk wht,body
+schnauzer,wht,body
+germ shepherd,blk tan,body
+pit bull,brn wht,head
+pit bull,black,head
+corgi,brn,body
+labrador retriv,NA,unknown
+pit bull,blk wht,head
+pit bull,brn,body
+yorkshire terrier,blk tan,body
+labrador retriv,blonde,unknown
+pit bull,brn wht,body
+chichauhua,grey wht,unknown
+labrador retriv,blk wht,body
+english bulldog,brn wht,body
+pit bull,wht brn,body
+pit bull,brindle,head
+cane corso,blue,head
+chichauhua,tan,body
+min pin,blk tan,body
+chichauhua,cream,body
+border collie m,tan,body
+pit bull,NA,body
+chichauhua,blk wht,head
+min pin,blk brn,body
+fox terrier,blk brn,body
+poodle,gry whit,body
+cocker spainel,black,head
+pit bull,brn wht,unknown
+labrador retriv,gold brn,body
+germ shepherd,brn blk,body
+germ shepherd,blk brn,body
+germ shepherd,sable,body
+am. eskimo,white,body
+poodle,red brn,body
+min pin,blc,body
+pit bull,NA,body
+labrador retriv,black,body
+pit bull,gry wht,body
+pit bull,gry wht,body
+pit bull,blk wht,body
+aaust. terr.,tri,body
+cocker spainel,wht buff,body
+pit bull,red,body
+cane corso,brindle,body
+pit bull,blk wht,body
+border collie,blk wht,body
+alask. malamute,wht brn,head
+husky,brn,body
+pit bull,brown,body
+pit bull,NA,body
+pit bull,NA,NA
+beagle,tri,unknown
+pit bull,wht brn,body
+pit bull,brn wht,body
+pit bull,blue wht,body
+boxer,brn wht,body
+pit bull,blk wht,body
+pit bull,blk wht,body
+germ shepherd,brn tan,unknown
+boxer,tan,body
+beagle,white tan,unknown
+min pin,black,unknown
+husky,white,body
+germ shepherd,brn wht,body
+lakeland ter.,yellow,body
+pit bull,blk wht,body
+chichauhua,blk brn,unknown
+great dane,blck,body
+labrador retriv,black,body
+pit bull,blue,body
+yorkshire terrier,brn,body
+great pyreneese,wht tan,body
+germ shepherd,blk sable,body
+pit bull,brdle wht,body
+pit bull,NA,body
+bearded collie,gry wht,body
+pit bull,brn wht,head
+pit bull,brn/wht,head
+pit bull,brown,body
+coon hound,blk/tan,body
+pit bull,wht/tan,NA
+mastif,red,body
+husky,wht/blk,body
+pit bull,tan/wht,body
+gold retriever,wht/gold,head
+pit bull,tan,body
+pit bull,brown,body
+pit bull,brn/wht,NA
+pit bull,brn/wht,head
+pit bull,brn/wht,body
+pekingese,tri/clr,body
+pit bull,fawn,body
+poodle,brown,body
+pit bull,brn wht,body
+bull dog,wht beige,body
+greyhound,black,head
+pit bull,brn wht,body
+welsh corgi,brn wht,body
+pit bull,tan wht,body
+pit bull,tan,body
+germ shepherd,tri,body
+pit bull,wht gry,head
+boxer,fawn,body
+labrador retriv,blk,head
+pit bull,black,body
+black lab,black,body
+pit bull,brn wht,body
+pit bull,white,head
+pit bull,brown,body
+aaust. terr.,black,head
+shih tzu,blk gry,body
+min pin,blk brn,head
+pit bull,brn wht,body
+beagle,tan blk,unknown
+chichauhua,NA,unknown
+chow chow,brown,unknown
+cocker spainel,blk wht,body
+gold retriever,NA,unknown
+pit bull,blk wht,body
+pit bull,blk wht,body
+pit bull,wht brn,body
+pit bull,blk wht,body
+siberan husky,wht,body
+boxer,blk wht,body
+germ shepherd,blk brn,body
+collie,NA,body
+pit bull,NA,head
+pit bull,blk brn,body
+germ shepherd,blk brn,body
+pit bull,tan wht,unknown
+shih tzu,wht gry,body
+bullmastiff,tan blue,body
+mastif,blk wht,unknown
+labrador retriv,black,body
+bullmastiff,tan blue,body
+labrador retriv,black,body
+pit bull,brn,body
+germ shepherd,brn blk,body
+pit bull,brn wht,body
+gold retriever,yellow,body
+germ shepherd,brn tan,body
+pit bull,tan wht,body
+chichauhua,blk tan,body
+poodle,white,body
+pit bull,wht gry,body
+boxer,brindle,body
+chichauhua,blk wht,unknown
+chow chow,NA,body
+cane corso,blue,body
+labrador retriv,white,NA
+chichauhua,tan wht,body
+aaust. terr.,brn/wht,NA
+corgi,blk,body
+labrador retriv,lgt brn,unknown
+other,wht/ brn,body
+husky,wht,head
+shih tzu,lght brn,body
+toy poodle,blk,unknown
+other,brn /wht,head
+pit bull,gray,body
+border collie m,blk wht,body
+pit bull,blue wht,body
+rottweiler,black,head
+border collie,brn wht,unknown
+aaust. terr.,brn wht,head
+pit bull,NA,body
+pit bull,tan,unknown
+pit bull,brindle,body
+other,brn red,head
+doberman,blk,head
+gold retriever,tan,unknown
+pit bull,brn,body
+pit bull,brn,body
+pit bull,brindle,body
+am bulldog,brindle,body
+chichauhua,blk brn,body
+pit bull,wht blk,head
+germ shepherd,brn blk,body
+cane corso,brn wht,body
+other,tan,unknown
+bichon frese,white,unknown
+bullmastiff,tan blue,body
+gold retriever,red,body
+gold retriever,red,body
+labrador retriv,tan wht,body
+pit bull,brn wht,unknown
+beagle,brn,body
+dachshund,brown,unknown
+pit bull,brown,body
+fox terrier,blonde,head
+yorkshire terrier,black,unknown
+cattle dog,wht/blk,body
+chichauhua,wht brn,body
+chichauhua,brown,body
+labrador retriv,blk,body
+germ shepherd,blk brn,unknown
+chichauhua,brn,body
+scottish ter.,black,head
+beagle,black,body
+germ shepherd,blk brn,unknown
+pit bull,NA,unknown
+rottweiler,black,body
+pit bull,NA,body
+other,tan,body
+pit bull,brindel,body
+siberan husky,yellow,body
+boxer,wht brn,body
+pit bull,wht tan,head
+pit bull,brindle,head
+bouvier,black,body
+boxer,tan blk,unknown
+spitz,white,body
+pit bull,wht blk,head
+pit bull,black,body
+germ shepherd,brown,body
+english bulldog,red wht,unknown
+min pin,blk brn,body
+germ shepherd,tan blk,body
+germ shepherd,tan wht,body
+chichauhua,tan wht,unknown
+weimaraner,gray,body
+pit bull,gray,body
+labrador retriv,yellow,unknown
+beagle,brn blk wh,unknown
+boxer,brn blk,body
+cane corso,blk brn,head
+germ shepherd,black tan,body
+pit bull,blue wht,body
+fox terrier,black whit,body
+pomeranian,brn wht,head
+border collie,NA,body
+beagle,tan,body
+labrador retriv,brn,unknown
+pit bull,gray,body
+chichauhua,tan,body
+bullmastiff,blk wht,body
+pit bull,blk whit,body
+pit bull,gray,body
+poodle,black,unknown
+mastif,blue,body
+gold retriever,blonde,head
+germ shepherd,brn blk,body
+bullmastiff,blk brn,body
+beagle,white/brow,head
+labrador retriv,brown,head
+cane corso,brown,body
+shih tzu,blk wht,body
+border collie,bk wt br,body
+pit bull,brn wht,body
+pit bull,blk,body
+border collie,wht blk,body
+germ shepherd,tri,body
+rat terrier,wht blk,NA
+blood hound,brown,body
+pit bull,whit gray,unknown
+pug,blonde,head
+boxer,brn wht,body
+pit bull,wht brn,body
+cattle dog,blk wht,head
+labrador retriv,blk wht,head
+siberan husky,white,body
+min pin,black tan,body
+pit bull,brindle,body
+gold retriever,brn,head
+golden lab,golden,head
+shih tzu,blk/wht,head
+coon hound,blk/tan,body
+pit bull,brin/wht,body
+bull dog,wht/blk,head
+cattle dog,blk/wht,head
+labrador retriv,blk,body
+rottweiler,blk/tan,body
+pit bull,brn,body
+pit bull,brn,body
+bull dog,brn/wht,body
+shih tzu,gray/wht,body
+pit bull,brn,body
+bull dog,blk/brn/wh,head
+chichauhua,tan,body
+pit bull,blk,body
+akita,wht blk,body
+germ shepherd,NA,body
+germ shepherd,NA,body
+english setter,NA,head
+yorkshire terrier,black,body
+english shepard,blk brn,body
+yorkshire terrier,brn gry,unknown
+pit bull,brn wht,body
+pit bull,tan,body
+germ shepherd,brown,body
+boston terrier,wht brnd,head
+dachshund,brown,head
+labrador retriv,golden,head
+cane corso,gray wht,body
+dalmatian,black wht,body
+pit bull,gray,body
+germ shepherd,NA,head
+border collie,NA,unknown
+beagle,red brn,body
+border collie,blk wht,unknown
+amer. bull dog,blk wht,body
+shih tzu,white,head
+boston terrier,blk wht,head
+pit bull,tan,body
+germ shepherd,tan blk,head
+chichauhua,brown,head
+germ shepherd,black,body
+boxer,brn wht,body
+pit bull,blue wht,body
+pit bull,blk wht,body
+pit bull,yello,body
+germ shepherd,blk brn,body
+pit bull,brn wht,body
+doberman,brown,unknown
+chichauhua,brn blk,body
+pit bull,brindle,head
+amer. bull dog,white,body
+chichauhua,brn,unknown
+labrador retriv,brn blk,body
+germ shepherd,brn blk,head
+cane corso,blk brn,body
+pit bull,grey,unknown
+germ shepherd,brn wht,body
+rottweiler,blk,head
+rottweiler,blk brn,head
+chichauhua,brn,body
+pit bull,gray blk,body
+germ shepherd,blk tan,body
+chichauhua,tan,body
+beagle,tan wht,body
+chichauhua,tan,unknown
+germ shepherd,blk tan,body
+pit bull,blue,body
+catahoula,red gry,body
+bullmastiff,br white,body
+chichauhua,red brn,head
+beagle,brn blk,head
+shih tzu,white,body
+labrador retriv,NA,body
+chow chow,black,body
+germ shepherd,NA,body
+rat terrier,liver wht,body
+bullmastiff,blk wht,body
+labrador retriv,tan,body
+beagle,NA,unknown
+pit bull,NA,unknown
+shih tzu,white,body
+shih tzu,white,head
+pit bull,blk wht,head
+beagle,brn wht,body
+english bulldog,wht blk,body
+pit bull,blk wht,body
+pit bull,gray wht,body
+stan poodle,black,unknown
+pomeranian,NA,body
+pit bull,NA,body
+bullmastiff,tan blk,body
+yorkshire terrier,brown,body
+maltase,white,head
+pit bull,blonde,head
+pit bull,brn,head
+schnauzer,white,body
+pit bull,black,body
+siberan husky,brn wht,body
+boxer,brindle,unknown
+germ shepherd,brn blk,unknown
+bichon frise,white,body
+pit bull,brindle,head
+amer. bull dog,brn white,body
+pit bull,blk wht,body
+pit bull,chocolate,head
+pit bull,ble wht,body
+pit bull,brindle,body
+pit bull,gry wht,body
+pit bull,whit brn,body
+aaust. terr.,blk wht,head
+pit bull,wt brm,body
+pit bull,white,unknown
+collie,NA,body
+aaust. terr.,tri,body
+boxer,wht blk,body
+english bulldog,wht brn,body
+pit bull,tan/wht,body
+pit bull,brn/wht,unknown
+boston terrier,NA,unknown
+amer. bull dog,brn/brndl,head
+beagle,brn wht,body
+pit bull,blue,body
+pomeranian,gold,body
+pit bull,grey,body
+gold retriever,blk,body
+labrador retriv,brn,body
+labrador retriv,brn,head
+rottweiler,blk tan,body
+pit bull,blue,head
+rottweiler,black,body
+labrador retriv,golden,body
+siberan husky,blonde,head
+labrador retriv,brown,body
+pit bull,black,body
+border collie,tan wht,body
+labrador retriv,blk wht,body
+labrador retriv,blk yellow,head
+germ shepherd,blk brn,body
+germ shepherd,brn,body
+pit bull,black,head
+germ shepherd,white,body
+germ shepherd,white,body
+yorkshire terrier,gry wht,body
+pit bull,wht brn,body
+pit bull,NA,body
+germ shepherd,NA,body
+boxer,brn,head
+yorkshire terrier,gry wht,head
+aaust. terr.,white,unknown
+germ shepherd,blk gold,unknown
+pit bull,brn wht,unknown
+boxer,brn wht,body
+boxer,brindle,unknown
+pit bull,white tan,body
+labrador retriv,brown,body
+pomeranian,tan blk,head
+germ shepherd,white,unknown
+pit bull,gray wht,body
+pit bull,grat wgt,body
+dotson,black,body
+dachshund,tan blk,body
+pit bull,blk wht,body
+germ shepherd,wht,body
+pit bull,black,body
+germ shepherd,blk,head
+labrador retriv,black,body
+pit bull,brn,unknown
+germ shepherd,blk tan,body
+pit bull,brn wht,body
+pit bull,tan,unknown
+poodle,white,body
+beagle,wht tan,body
+pit bull,gry wht,unknown
+labrador retriv,tri,unknown
+boxer,NA,head
+rottweiler,NA,body
+germ shepherd,blk brn,body
+pit bull,NA,unknown
+pit bull,brn wht,body
+boxer,fawn,body
+chichauhua,blonde,body
+cocker spainel,NA,head
+pit bull,blk wht,body
+labrador retriv,blk,body
+pit bull,brindle,body
+greyhound,NA,head
+pit bull,blk whte,body
+rottweiler,blk brn,body
+labrador retriv,NA,body
+pit bull,NA,body
+chichauhua,NA,body
+pit bull,grey,body
+germ shepherd,NA,body
+labrador retriv,black,unknown
+dachshund,blk brn,body
+germ shepherd,blk brn,body
+labrador retriv,brindle,head
+chichauhua,white,head
+great dane,blue gry,body
+germ shepherd,black,body
+shih tzu,wht blk,head
+yorkshire terrier,NA,body
+cane corso,brown,body
+shih tzu,blk gry,body
+english bulldog,brindle,unknown
+pit bull,red,body
+chichauhua,brn wht,unknown
+pit bull,wht blue,head
+boxer,white,body
+labrador retriv,black,body
+corgi,brown,unknown
+beagle,wht blk,body
+siberan husky,wht gry,body
+chichauhua,white,body
+pit bull,tan wht,body
+shih tzu,blk wht,head
+pit bull,blk wht,body
+shih tzu,blk,body
+labrador retriv,blonde,unknown
+collie,red wht,head
+chichauhua,brown,unknown
+pit bull,gry blk,head
+aaust. terr.,blk wht,body
+labrador retriv,blk wht,unknown
+pit bull,blk wht,body
+beagle,brn wht,body
+blood hound,red,body
+chichauhua,brn wht,body
+black lab,black,body
+pit bull,blk wht,body
+boxer,brindle,body
+pit bull,brn wht,body
+doberman,red brn,head
+rat terrier,NA,head
+labrador retriv,brn,head
+germ shepherd,NA,body
+germ shepherd,black,body
+boxer,brn wht,body
+boxer,brendel,body
+other,brn/wht,body
+pit bull,blk wht,body
+germ shepherd,blk tan,body
+pit bull,blk wht,body
+min pin,brn,body
+boxer,cream,body
+boston terrier,blk wht,body
+pit bull,gray,body
+boxer,tan wht,NA
+pit bull,brn wht,body
+schnauzer,black,body
+labrador retriv,black,unknown
+boxer,NA,body
+weimaraner,gray,head
+chow chow,black,unknown
+pit bull,white blk,body
+pit bull,brindle,body
+pit bull,NA,body
+basset hound,brn blk w,head
+pit bull,wht brn,body
+pit bull,white brn,body
+cane corso,brindle,body
+germ shepherd,black,body
+pit bull,wht tan,body
+germ shepherd,tan wht,head
+pit bull,brn wht,body
+germ shepherd,white,body
+chichauhua,black,head
+boxer,brown,head
+pit bull,blk wht,body
+pit bull,brn blk,body
+germ shepherd,brn blk,body
+boxer,brindle,body
+pit bull,gray,body
+pit bull,blue,body
+great dane,black,body
+schnauzer,blk wht,body
+labrador retriv,black,body
+labrador retriv,blk tan,body
+boxer,wht brn,head
+pit bull,wht gry,body
+pit bull,wht gry,body
+poodle,brown,body
+chichauhua,white/blac,body
+boxer,wht & tan,body
+germ shepherd,NA,body
+siberan husky,white,NA
+germ shepherd,NA,NA
+boston terrier,blk wht,body
+pit bull,brn wht,body
+pit bull,NA,head
+beagle,NA,body
+aaust. terr.,NA,head
+labrador retriv,brown,body
+pit bull,white,body
+poodle,black,unknown
+beagle,wht brn bl,head
+siberan husky,gray,unknown
+pit bull,black,unknown
+beagle,brn wht,body
+beagle,brn wht,unknown
+germ shepherd,blk tan,body
+siberan husky,blk wht,body
+pit bull,NA,body
+pit bull,brd wht,body
+labrador retriv,choc wht,body
+labrador retriv,NA,unknown
+pit bull,NA,body
+pit bull,gray,unknown
+cocker spainel,blk wht,head
+pit bull,wht blk,body
+germ shepherd,blk tan,body
+germ shepherd,blak tan,body
+schnauzer,wht gry,body
+germ shepherd,gray,unknown
+pit bull,blu wht,body
+pit bull,blue wht,body
+boxer,brn wht,body
+irish setter,red,body
+pit bull,blue,body
+labrador retriv,brown,unknown
+chichauhua,NA,unknown
+germ shepherd,blk brn,unknown
+yorkshire terrier,brown,body
+germ shepherd,brn blk,body
+beagle,NA,unknown
+germ shepherd,brn blk,body
+labrador retriv,brown,unknown
+pit bull,NA,body
+border collie m,black,body
+labrador retriv,tan,body
+boxer,NA,body
+labrador retriv,blc white,body
+akita,blk wht,unknown
+shih tzu,white,unknown
+pit bull,wht brn,body
+siberan husky,white,body
+pit bull,wht blk,head
+labrador retriv,white,body
+bull dog,wht blk,body
+pit bull,NA,body
+boxer,blk wht,head
+pit bull,tan wht,body
+labrador retriv,brown,body
+bull dog,brn wht,body
+great dane,black,body
+doberman,brn blk,unknown
+boxer,brown,unknown
+mastif,black,unknown
+pit bull,blk wht,body
+pit bull,whit blk,body
+great dane,blk wht,body
+beagle,blk tan,body
+poodle,white,unknown
+beagle,NA,unknown
+pit bull,brown,body
+great dane,gray blk,unknown
+dachshund,brown,body
+cane corso,gry/blk,body
+english bulldog,wte/brown,head
+dachshund,blk/brn,body
+bull dog,brn/wht,head
+germ shepherd,blk/tan,body
+pit bull,bwn/wht,body
+blue heeler,blk/wht,unknown
+bichon frese,white,body
+mastif,brindle,body
+germ shepherd,NA,unknown
+pit bull,blk wht,body
+pit bull,blk wht,body
+bullmastiff,brn blk,unknown
+pit bull,blk wht,body
+aaust. terr.,brown,head
+germ shepherd,blk brn,unknown
+mastif,white,body
+pit bull,grey,body
+boxer,NA,unknown
+schnauzer,blk wht,body
+pit bull,wht blk,body
+pit bull,brown,body
+rottweiler,blk brn,body
+rottweiler,blk brn,body
+pit bull,brindle,body
+shih tzu,gry wht,body
+pit bull,NA,unknown
+aaust. terr.,gray,head
+pit bull,brindle wh,head
+rottweiler,tan blk,unknown
+pit bull,brindle,body
+chichauhua,black,body
+shih tzu,white gray,unknown
+westie,NA,unknown
+maltase,blk wht,body
+chichauhua,brn wht,body
+basset hound,brn wht,body
+border collie,blk wht,head
+border collie,blk wht,body
+beagle,tri,body
+beagle,tri,body
+labrador retriv,NA,unknown
+pit bull,brn wht,body
+bull dog,tan wht,body
+pit bull,blk wht,body
+boston terrier,NA,NA
+pit bull,brn white,unknown
+toy poodle,NA,body
+pit bull,blue,unknown
+chow chow,red,body
+pit bull,brn blk,unknown
+husky,white,head
+pit bull,NA,head
+germ shepherd,brn blk,head
+pit bull,wht brn,body
+pit bull,white,unknown
+boxer,NA,body
+rottweiler,brown,body
+pit bull,brn wht,head
+chichauhua,tan brn,body
+aaust. terr.,blk wht,body
+pit bull,blk wht,body
+aaust. terr.,black,unknown
+labrador retriv,black,body
+bull dog,blk brn,unknown
+labrador retriv,yellow,body
+gold retriever,yellow,body
+pit bull,blue,body
+labrador retriv,blk,body
+rat terrier,wht brn,unknown
+gold retriever,yellow,body
+pit bull,red wht,body
+chichauhua,brn,unknown
+pit bull,tan wht,head
+husky,red wht,unknown
+french bulldog,NA,body
+germ shepherd,brn blk,body
+boxer,black,head
+labrador retriv,black,head
+germ shepherd,brn blk,body
+sheltie,golden,head
+boxer,red brnd,body
+pit bull,brown,body
+pit bull,white,body
+germ shepherd,blk gry,body
+pit bull,wht gry,body
+pit bull,tan,body
+pit bull,wht blk,head
+germ shepherd,blk siv,body
+pit bull,NA,body
+pit bull,NA,body
+pit bull,gray,unknown
+pit bull,brown,body
+labrador retriv,NA,NA
+chichauhua,wht brown,body
+beagle,brw/blk,body
+siberan husky,white,body
+germ shepherd,tan,body
+dachshund,blk/tan,body
+germ shepherd,brown,head
+pit bull,NA,body
+greyhound,black,NA
+bichon frese,white,body
+pit bull,blk brn,body
+chow chow,tan,body
+bernesen mt.,black,body
+pit bull,brindle,body
+pit bull,brown,body
+pit bull,black,head
+pit bull,brown/wht,body
+pit bull,brindle/bl,body
+doberman,blk/brn,body
+pit bull,NA,body
+pit bull,brn wht,body
+pit bull,blue wht,body
+mastif,black,body
+chichauhua,wht tan,head
+beagle,tri,unknown
+pit bull,brn wht,body
+pit bull,wht brn,body
+black lab,NA,head
+husky,white,body
+pit bull,gray,body
+pit bull,brn wht,body
+pit bull,brown,body
+pit bull,gry wht,body
+blue heeler,NA,NA
+pit bull,brindle,body
+labrador retriv,brown,head
+weimaraner,gray,unknown
+pit bull,brown,body
+black lab,black,body
+boxer,fawn,body
+germ shepherd,brn blk,body
+aaust. terr.,blk brn,head
+boxer,brn white,body
+box terrier,brindle,unknown
+pit bull,NA,body
+mastif,tan,head
+dachshund,red,body
+am bulldog,black,body
+pit bull,tan,body
+beagle,red,body
+labrador retriv,white,head
+amer fox hound,tri,body
+yorkshire terrier,NA,head
+beagle,brn wht,unknown
+cane corso,NA,unknown
+rottweiler,tri,body
+chow chow,yellow,body
+dachshund,brown,body
+pit bull,brown,body
+coon hound,red,unknown
+germ shepherd,NA,unknown
+boxer,red,head
+germ shepherd,NA,body
+shih tzu,blk wht,body
+pit bull,tri,body
+pit bull,black,body
+dachshund,blk tan,body
+bull dog,NA,body
+chichauhua,brn wht bl,unknown
+germ shepherd,blk brn,body
+aaust. terr.,blue,body
+pit bull,gry whte,body
+pit bull,gry wht,body
+pit bull,brn wht,body
+labrador retriv,yellow,body
+pit bull,gry wht,body
+shih tzu,blk gry,head
+gold retriever,gold,unknown
+pit bull,NA,unknown
+pug,brown,body
+labrador retriv,brown,body
+yorkshire terrier,brown,body
+irish wolfhound,blk wht,body
+amer. bull dog,wht/brind,head
+pit bull,tan wht,body
+pit bull,NA,body
+dachshund,red,unknown
+pit bull,NA,NA
+germ shepherd,blk brn,head
+labrador retriv,tan,body
+dotson,brown,head
+boxer,brn blk,head
+labrador retriv,blk wht,body
+blue heeler,blk whte,body
+black lab,black,head
+english bulldog,brindle,head
+labrador retriv,blk wht,head
+samoyed,NA,NA
+pit bull,blue wht,body
+chichauhua,black,head
+aaust. terr.,blk wht,body
+malamute,blk wht,body
+pit bull,white,body
+other,NA,body
+heeler,gry wht,body
+labrador retriv,white,body
+amer. bull dog,brn wht,body
+boxer,fawn blk,body
+am bulldog,white,body
+schnauzer,gray,body
+labrador retriv,black,body
+aaust. terr.,NA,body
+boxer,brown,head
+great dane,NA,body
+maltase,wht brn,unknown
+akita,brn blk,head
+germ shepherd,brn blk,body
+chow chow,tan,body
+border collie,blk wht,body
+min pin,black brn,body
+pit bull,brn wht,body
+boston terrier,NA,body
+rottweiler,blk brn,head
+pit bull,blk wht,head
+beagle,tri color,body
+pit bull,brn,body
+pit bull,brown,body
+pit bull,brown,body
+pit bull,brn,body
+pit bull,brn wht,body
+beagle,wht brn,body
+coon hound,blk tan,unknown
+weimaraner,brn gry,body
+shih tzu,gray wht,head
+shih tzu,blk wht,head
+basset hound,black,head
+pit bull,blk wht,body
+aaust. terr.,NA,unknown
+great dane,blk wht,body
+maltase,white,body
+pit bull,wht blk,unknown
+pit bull,brown,body
+boxer,black,body
+pit bull,brown,head
+beagle,tri,body
+doberman,black,body
+germ shepherd,tan blk,body
+boxer,brn wht,body
+pit bull,brindle,body
+rat terrier,brindle,body
+pit bull,NA,body
+labrador retriv,blk wht,body
+pit bull,wht blk,body
+pit bull,wht tan,body
+labrador retriv,black,head
+bernesen mt.,blk wht br,NA
+boxer,black,head
+akita,brown,body
+pit bull,black,body
+pit bull,brown,body
+pit bull,tan/brn,body
+pit bull,grey/white,head
+pit bull,blk wht,body
+alask. malamute,blonde,body
+labrador retriv,black,head
+aaust. terr.,tri color,head
+pit bull,blk wht,body
+border collie,NA,body
+labrador retriv,blk brn,body
+pit bull,tan brn,body
+boxer,white,body
+aaust. terr.,wht blk,body
+pit bull,blue wht,body
+amer. bull dog,wht blk,head
+germ shepherd,brn blk,body
+am. eskimo,white,body
+doberman,blk brn,body
+pit bull,brown,body
+pit bull,tan wht,body
+alask. malamute,blk wht,body
+doberman,choc tan,body
+germ shepherd,blk tan,head
+border collie,blk wht,NA
+weimaraner,gray,body
+cane corso,black,head
+chichauhua,blk wht,head
+pit bull,blue,body
+labrador retriv,brown,body
+pit bull,tan blk,body
+pit bull,blk wht,body
+pit bull,brown,body
+gold retriever,golden,body
+chichauhua,white,body
+poodle,white,body
+germ shepherd,blk tan,body
+pit bull,wht blk,body
+boxer,blk wht,body
+doberman,brown,head
+pit bull,wht,body
+pit bull,NA,head
+doberman,blk brn,body
+pit bull,tan,body
+boxer,brn wht,body
+pit bull,NA,body
+gold retriever,blonde,head
+pomeranian,tan,body
+germ shepherd,blk tan,body
+boston terrier,blk wht,head
+aaust. terr.,wht blk,body
+pit bull,wht tan,head
+pit bull,tan wht,body
+pit bull,wht blk,body
+greyhound,brindle,head
+germ shepherd,black,body
+pit bull,brn wht,body
+pit bull,white,body
+pit bull,NA,body
+germ shepherd,white,body
+pit bull,brn wht,body
+pit bull,tan,body
+havanese,black,body
+cane corso,black,body
+pomeranian,red wht,body
+great dane,black,body
+pit bull,white,body
+corgi,brn/white,body
+golden lab,tan org,head
+pit bull,brn blk,head
+maltase,whtie,body
+labrador retriv,yellow,head
+pit bull,brn wht,body
+pit bull,brown,body
+pit bull,brown,body
+aaust. terr.,blk wht,body
+pit bull,white,body
+cane corso,black,body
+black lab,black,body
+chichauhua,tan,head
+pomeranian,red,head
+labrador retriv,brown,unknown
+labrador retriv,blk wht,body
+boxer,brn blk,body
