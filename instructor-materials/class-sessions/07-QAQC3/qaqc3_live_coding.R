@@ -5,18 +5,27 @@ library(tidyverse)
 
 # Load the csv file with data ---------------------------------------------
 
-las_data<- read_csv(" ------ .csv") # you will need to add the path
+las_data<-read_csv(" ------ .csv") # you will need to add the path
 # las_data <- read_csv("./instructor-materials/class-sessions/07-QAQC3/demo_datasets/las_data_viz.csv")
 
 # Basic Summary of the columns in the df
+
+# Base-R
 summary(las_data)
+
 # need to convert species to a factor
+# Base-R
 las_data$Species <- as.factor(las_data$Species)
-# Summarize again
+# Tidyverse
+las_data<-las_data %>% mutate(Species=as.factor(Species))
+
+# Summarize again...can you spot the diffference?
 summary(las_data)
+
 # can summarize individual columns
 summary(las_data$Sepal.Length)
-# can have it porvide only the mean...
+
+# can have it provide only the mean
 mean(las_data$Sepal.Length)
 # ...or median...
 median(las_data$Sepal.Length)
@@ -25,7 +34,7 @@ range(las_data$Sepal.Length)
 # summary of factor gives the sample size of each
 summary(las_data$Species)
 
-# 
+ 
 # That said, the tidy version of getting summaries is really useful and flexible
 # It is easier for more complex combinations, so we will use that most of the time
 # if we are looking at multiple variables
@@ -37,17 +46,18 @@ summary(las_data$Species)
 # "with your dataframe, then summarize the mean of column Sepal.Length"
 
 las_data %>% 
-  summarize(mean(Sepal.Length))
+  summarize(mean=mean(Sepal.Length))
+
+# Note: "mean=" is giving this new column the name "mean". you can call it whatever you want. 
+# What will it be if you don't give it any name, like in the following? 
+las_data %>% summarize(mean(Sepal.Length))
+#it still works, but has a horrible long default name...so get in the habita of naming
 
 # you can assign the value to a new variable
-mean_sl <- las_data %>% summarize(mean(Sepal.Length))
+mean_sl <- las_data %>% summarize(mean=mean(Sepal.Length))
 mean_sl
 
-# You can also give the column a new name at the same time 
-mean_sl <- las_data %>% summarize(mean = mean(Sepal.Length))
-mean_sl
-
-# you can also operate on multiple columns in the same command. 
+# you can do an operation on multiple columns in the same command. 
 # For ex, here we are getting the mean of both Sepal.Length and Petal.Length
 mean_lengths <- las_data %>%
   summarize(
@@ -56,9 +66,9 @@ mean_lengths <- las_data %>%
   )
 mean_lengths
 
-# But recall, there were different species. All the previous measurments 
-were pooling the values for the different species. How do you get the 
-mean for each species? 
+# But recall, there were different species. All the previous measurements 
+# were pooling the values for the different species to get the average. 
+# How do you get the mean for each individual species? 
   
 # To get the mean for a group, use the group_by command
 mean_sl <- las_data %>%
@@ -79,7 +89,7 @@ mean_sl
 # huh? it adds a row to each group with the min and max. 
 # this isn't very tidy, is there a better way to do this? 
 
-# yes! get the min and the macx for each column (range is the diff of these 2)
+# yes! get the min and the max for each column (range is the diff of these 2)
 mean_sl <- las_data %>%
   group_by(Species) %>%
   summarize(
@@ -96,6 +106,7 @@ mean_sl
 # https://cran.r-project.org/web/packages/datasauRus/vignettes/Datasaurus.html
 install.packages("datasauRus")
 library(datasauRus)
+
 if(requireNamespace("dplyr")){
 suppressPackageStartupMessages(library(dplyr))
 datasaurus_dozen %>% 
@@ -107,6 +118,7 @@ datasaurus_dozen %>%
     std_dev_y = sd(y),
     corr_x_y  = cor(x, y)
   )
+}
 
 if(requireNamespace("ggplot2")){
 ggplot(datasaurus_dozen, aes(x = x, y = y, colour = dataset))+
@@ -115,6 +127,7 @@ ggplot(datasaurus_dozen, aes(x = x, y = y, colour = dataset))+
   theme(legend.position = "none")+
   facet_wrap(~dataset, ncol = 3)
 }
+
 
 
 
@@ -141,7 +154,7 @@ plot(las_data$Sepal.Width,las_data$Sepal.Length)
 
 # BUT WE HAVE BEEN LOOKING THE WHOLE TIME WITH ALL SPECIES TOGETHER. LETS 
 # LOOK AT THE PATTERN FOR ALL SPECIES SEPERATELY. 
-This is much easier to do in ggplot2 (tidyverse)- 
+# This is much easier to do in ggplot2 (tidyverse)- 
 
 # Here is how to do histograms in ggplot2
 # https://r-graph-gallery.com/220-basic-ggplot2-histogram.html 
@@ -160,20 +173,34 @@ plot
 # can change colors
   plot <- ggplot(las_data, 
                  aes(x=Petal.Length)) + 
-  geom_histogram( binwidth=0.5, fill="red", color="black") +
+  geom_histogram(binwidth=0.5, 
+                 fill="red", 
+                 color="black") +
   theme_classic()
 plot
 
 
 # different plot for different groups 
 plot <- ggplot(las_data, 
-                 aes(x=Petal.Length, fill=Species)) + 
+                 aes(x=Petal.Length, 
+                     fill=Species)) + 
   geom_histogram() +
   theme_classic()
 plot
 
-
 # BOOM. Finally see why that weird value set at end
+
+
+# or give them each their own panel
+plot <- ggplot(las_data, 
+               aes(x=Petal.Length, 
+                   fill=Species)) + 
+  geom_histogram() +
+  facet_grid(rows=vars(Species))+
+  theme_classic()
+plot
+
+
 
 
 # box plots in tidy
@@ -291,12 +318,12 @@ scatter <- ggplot(data = bigfoot,
   theme(plot.title = element_text(face="bold", size=20,family = "Arial", colour = "black"),  
         # Sets title size, style, location
         # legend.position=c(0.5,0.95),
-        axis.line.y = element_line(color="black", size = 0.5, lineend="square"),
-        axis.line.x = element_line(color="black", size = 0.5, lineend="square"),
+        axis.line.y = element_line(color="black", linewidth = 0.5, lineend="square"),
+        axis.line.x = element_line(color="black", linewidth = 0.5, lineend="square"),
         axis.title.x=element_text(colour="black", size = 20, vjust=-0.5),           #S ets x axis title size, style, distance from axis #add , face = "bold" if you want bold
         axis.title.y=element_text(colour="black", size = 20, vjust=1.5),            #S ets y axis title size, style, distance from axis #add , face = "bold" if you want bold
-        axis.text.x=element_text(colour="black", size = 16, angle = 45, vjust =0, hjust=0),                          # Sets size and style of labels on axes
-        axis.text.y=element_text(colour="black", size = 16, angle = 0, vjust =0, hjust=0),                          # Sets size and style of labels on axes
+        axis.text.x=element_text(colour="black", size = 16, angle = 45, vjust =0, hjust=0), # Sets size and style of labels on axes
+        axis.text.y=element_text(colour="black", size = 16, angle = 0, vjust =0, hjust=0),  # Sets size and style of labels on axes
         # legend.title = element_blank(),                                             # Removes the Legend title
         # legend.key = element_blank(),                                              #R emoves the boxes around legend colors
         # legend.text = element_text(face="italic", color="black", size=12),
