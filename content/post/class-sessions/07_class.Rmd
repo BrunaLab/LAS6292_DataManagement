@@ -57,16 +57,13 @@ library(kableExtra)
 library(tidyverse)
 ```
 
-
-## In-Class Exercise: Data Viz
-
-### DATA VISUALIZATION PART 1: DataViz to find errors
+### PART 1: DataViz to find errors
 
 1) Dataset for part 1: [las_data_viz.csv](https://las6292.netlify.app/uploads/exercises/dataviz/las_data_viz.csv)
 
 2) Code: the code used in class is at the bottom of this page. You can also [download it here](https://gist.github.com/embruna/d0a42a5eac5fd56b582fe29d0fd26259). Either download a zip file containing the .r file ("download zip" button in the top right corner), or click the "raw" button to open the code in a web browser; you can then "copy-and-paste" this into an R script.
 
-### DATA VISUALIZATION PART 2: How to make ugly plots
+### PART 2: How to make really ugly plots
 
 1) Here are three datasets to download for this part of the session. Save to your RStudio Project.
 
