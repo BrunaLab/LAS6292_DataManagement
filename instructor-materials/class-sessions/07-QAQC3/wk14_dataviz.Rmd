@@ -59,6 +59,7 @@ Outlier	Detection
 In numerical data boxplots may help, but you can also look for entries outside what you view as a reasonable span of values (impossible negative or 0 values, age over 100, etc.)
 Plot data against time looking for abrupt changes in trend or brief departures from trend.
 
+
 https://stats.stackexchange.com/questions/481477/how-do-you-spot-errors-in-data
 
 Categorical example
@@ -84,11 +85,6 @@ par(mfrow=c(1,1))
 ```
 3. Introduce QC tools
       
-    a.	Plotting and Summary Statistics to spot anomalies
-    b.  Automated data validation & Annotation
-    c.  Verification of random samples from dataset
-    d.  Checksums
-    http://r-project.ro/conference2018/presentations/presentation_Data_Errors_How_to_Find_Them.pdf
   package validate
   https://cran.r-project.org/web/packages/validate/index.html
   https://cran.r-project.org/web/packages/validate/vignettes/cookbook.html  
@@ -102,18 +98,8 @@ if (driver_license == TRUE) age >= 16
     
 https://www.nature.com/articles/d41586-022-00792-2?WT.ec_id=NATURE-20220324&utm_source=nature_etoc&utm_medium=email&utm_campaign=20220324&sap-outbound-id=B1E43023F70B53ED7657D10BCEA77610176259F8
 
-datasets for visualization 
-
-dog bites by breed: https://www.kaggle.com/datasets/rtatman/animal-bites
-
-calories by cereal: https://www.kaggle.com/datasets/crawford/80-cereals
-
 
 https://statsandr.com/blog/outliers-detection-in-r/ 
-
-### Data processing Visualization
-*  [“Ch7 in Exploratory Data Analysis” in Wickham and Grolemund’s “R for Data Science”:](https://r4ds.had.co.nz/exploratory-data-analysis.html)  
-*  Rougier NP, Droettboom M, Bourne PE (2014) Ten Simple Rules for Better Figures. PLoS Comput Biol 10(9): e1003833.
 
 
 
@@ -161,23 +147,6 @@ https://statsandr.com/blog/outliers-detection-in-r/
 
 
 
-Original Readings for this week: 
-
-1.  Alexander, S.M., Jones, K., Bennett, N.J. et al. Qualitative data sharing and synthesis for sustainability science. Nat Sustain 3, 81–88 (2020).  
-        [[read online]](https://doi.org/10.1038/s41893-019-0434-8 )  [[download pdf]](https://github.com/BrunaLab/LAS6292_DataManagement/blob/master/instructor-materials/readings/Alexander_etal_2019_NatureSustainability.pdf)
-
-2. Renaut, S. et al. 2018. Management, Archiving, and Sharing for Biologists and the Role of Research Institutions in the Technology-Oriented Age. *BioScience* 68(6)400–411  
-        [[read online]](https://academic.oup.com/bioscience/article/68/6/400/4983937) [[download pdf]](https://github.com/BrunaLab/LAS6292_DataManagement/blob/master/instructor-materials/readings/Renaut_etal_2018_Bioscience.pdf)  
-
-2.  Duke, Clifford S., and John H. Porter. 2013. "The ethics of data sharing and reuse in biology." BioScience 63(6): 483-489.  
-        [[read online]](https://academic.oup.com/bioscience/article/63/6/483/226339) [[download pdf]](https://github.com/BrunaLab/LAS6292_DataManagement/blob/master/instructor-materials/readings/Duke%26Porter_2013.pdf)
-
-3.  Tenopir, C., et al.  (2015). Changes in data sharing and data reuse practices and perceptions among scientists worldwide. PloS one, 10(8), e0134826.  
-        [[read online]](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0134826) [[download pdf]](https://github.com/BrunaLab/LAS6292_DataManagement/blob/master/instructor-materials/readings/Tenopir_etal_2015.PDF)
-
-4.  Mauthner, NS, & O. Parry O. 2009. Qualitative data preservation and sharing in the social sciences: On whose philosophical terms?. Australian J of Social Issues 44(3):291-307.  
-         [[read online]](https://onlinelibrary.wiley.com/doi/abs/10.1002/j.1839-4655.2009.tb00147.x)  [[download pdf]](https://github.com/BrunaLab/LAS6292_DataManagement/blob/master/instructor-materials/readings/Mauthner_et_al-2009-Australian_Journal_of_Social_Issues.pdf)
-
 
 ### **Online Lectures:**  
 
@@ -189,9 +158,6 @@ Original Readings for this week:
 
 
   
-## Class Outline
-https://datacarpentry.org/R-ecology-lesson/04-visualization-ggplot2.html
-for lecture https://www.yan-holtz.com/PDF/Dataviz_Caveats.pdf
 
 
 ```{r timer, echo=FALSE}

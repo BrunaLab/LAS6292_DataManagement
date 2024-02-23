@@ -63,7 +63,7 @@ opts_chunk$set(echo=FALSE,
 opts_knit$set(width=75)
 ```
 
-# Class Outline: QA/QC 2 - Open Refine
+# Class Outline: QA/QC 3 - Data Viz
 
 ## Objectives and Competencies:   
 
@@ -94,60 +94,49 @@ By the end of this lesson students will:
 
 3. Mike Chapple: [Data Visualization in R with ggplot2](https://www.linkedin.com/learning/data-visualization-in-r-with-ggplot2/the-grammar-of-graphics?resume=false&u=41282748). Watch the "Introducing ggplot2" (4:43) and "Grammar of Graphics" (4:54)
 
-
-
-
 ### Computer Resources
 
 
-```{r timer, echo=FALSE}
-part_1 <- 10
-part_2 <- 10
-part_3 <- 45
-snack_break <- 10
-part_4 <-30
-part_5 <-45
-part_6 <-10
-
-total_time <- 
-  part_1 + 
-  part_2 + 
-  part_3 + 
-  part_4 +
-  part_5 +
-  part_6 +
-  snack_break 
-
-time_remain <- 180 - total_time
-```
 
 ## In-Class: Live cofing demo of summary and graphics
 
-
 1. Intro slides
+
+Validating Data
+
+  	a.  Plotting and Summary Statistics to spot anomalies
+    b.  Automated data validation & Annotation
+    c.  Verification of random samples from dataset
+    d.  Checksums
+    
+More
+
+1. Summary statistics for each variable: Mean, median, mode, range, standard deviations: _look for extreme ranges, unexpected means / SD, etc._ 
+1. Frequency distribution for categorical variables, modal value _look at the number in each category...any unusually high or low?_
+3. Visualization of individual variables with histograms, box plots, bar charts _how do the distributions of individual variables look?_
+4. BUT be aware the means, box plots, histograms, etc. can hide patterns. This is because very different distributions can have very similar means and vars. _provide some examples_
+5. Be sure to always plot the raw dataFamous Visualiztion of correlated variables, time series, etc. _for correlated variables, plot the x,y correlation, too_
+
+BUT
+
+Identify outliers: Boxplot, line graph for each case (though it will be messy, can identify an abnormal value easily. Eg, remaining years of life of a human population over age should always be non-increasing, any uphill indicates error (a time-series error)).
+
+Logical check: Scatter plot (or correlation) between known correlated variables. Perform deterministic logical checks, like, if Male then NA for menstrual related questions, or date of birth should not be beyond the date of death, etc.
+Outlier	Detection
+In numerical data boxplots may help, but you can also look for entries outside what you view as a reasonable span of values (impossible negative or 0 values, age over 100, etc.)
+Plot data against time looking for abrupt changes in trend or brief departures from trend.
+
+
 
 2. Load CSV file of df
 
 3. Use code here for demo: [LAS DEMO CODE](https://gist.github.com/embruna/d0a42a5eac5fd56b582fe29d0fd26259)
 
-### **Intro to OR** (`r part_1` min)
-
-### **Working with OR**  (`r part_2` min)  
-
-### **Filtering and Sorting** (`r part_3` min)
-     
-### Break (`r snack_break` min)
-
-### **Examining Numbers** (`r part_4` min)
-
-### **Using Scripts, Exporting, and Saving**  (`r part_5` min)  
-
-### **Wrap-up, Questions**  (`r part_6` min)  
-
-## **Assignment** (`r time_remain` min)
 
 
-6. **Submission:** Submit a pdf of your image as `week7_hw` on Canvas.  
+    
+    
+
 
 ### Grading Rubric: 
 
@@ -158,19 +147,58 @@ Instructor follow-up required to implement most changes: 20
 
 # Sources for this lesson 
 
-
 # Additional Tools and Resources
+
+## Readings: 
+
+* Weissgerber TL, Milic NM, Winham SJ, Garovic VD (2015) Beyond Bar and Line Graphs: Time for a New Data Presentation Paradigm. PLoS Biol 13(4): e1002128. https://doi.org/10.1371/journal.pbio.1002128
+
+*  [“Ch7 in Exploratory Data Analysis” in Wickham and Grolemund’s “R for Data Science”:](https://r4ds.had.co.nz/exploratory-data-analysis.html)  
+
+*  Rougier NP, Droettboom M, Bourne PE (2014) Ten Simple Rules for Better Figures. PLoS Comput Biol 10(9): e1003833. https://doi.org/10.1371/journal.pcbi.1003833
+
+Peeples, L. (2022) Lessons from the COVID data wizards. _Nature_ 603, 564-567. doi: https://doi.org/10.1038/d41586-022-00792-2
+
+## datasets for visualization 
+
+- dog bites by breed: https://www.kaggle.com/datasets/rtatman/animal-bites
+- calories by cereal: https://www.kaggle.com/datasets/crawford/80-cereals
 
 ## Tutorials
 
+- https://datacarpentry.org/R-ecology-lesson/04-visualization-ggplot2.html
+for lecture https://www.yan-holtz.com/PDF/Dataviz_Caveats.pdf
 
 ## R Tools
 
-https://rich-iannone.github.io/pointblank/
+* package validate: https://github.com/data-cleaning/validate and Val;idate cookbook: https://cran.r-project.org/web/packages/validate/vignettes/cookbook.html
 
-package validate
+* package pointblank: https://github.com/rstudio/pointblank
 
-https://www.yan-holtz.com/PDF/Dataviz_Caveats.pdf
+### examples
+* Data Errors and how to find them [link](http://r-project.ro/conference2018/presentations/presentation_Data_Errors_How_to_Find_Them.pdf). 
+*  https://www.yan-holtz.com/PDF/Dataviz_Caveats.pdf
+*  https://viz.wtf/   
+*  https://www.youtube.com/watch?v=5Zg-C8AAIGg&amp%3Bfeature=share
+*  https://twitter.com/cesifoti/status/1325087429049675778?s=12
+*  https://pbs.twimg.com/media/EmOn_HUXEAMHHFY.jpg
+*  https://pbs.twimg.com/media/EmOn_HVXEAAKcwC.jpg
+*  https://pbs.twimg.com/media/EmOn_HSXcAYH6L-.jpg
+*  https://pbs.twimg.com/media/EmJthkyW0AEnztZ.jpg  
+*  https://www.lemonde.fr/international/article/2020/11/04/elections-americaines-2020-suivez-la-carte-des-resultats-en-direct_6058394_3210.html
+*  https://medium.com/matter/the-trouble-with-the-purple-election-map-31e6cb9f1827
+*  [Ugly plots assignment](https://twitter.com/drdrewsteen/status/1172547837046820864?s=12)
+*  grammar ofd graphics video: https://vimeo.com/332290655 
+*  slides: https://www.yan-holtz.com/PDF/Dataviz_Caveats.pdf
 
 
-Weissgerber TL, Milic NM, Winham SJ, Garovic VD (2015) Beyond Bar and Line Graphs: Time for a New Data Presentation Paradigm. PLoS Biol 13(4): e1002128. https://doi.org/10.1371/journal.pbio.1002128
+
+
+<!-- library(validate) -->
+<!-- check_that( data.frame(age=160, driver_license=TRUE), -->
+<!-- age >= 0, -->
+<!-- age < 150, -->
+<!-- if (driver_license == TRUE) age >= 16 -->
+<!-- ) -->
+    
+
