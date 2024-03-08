@@ -75,7 +75,7 @@ This project is an opportunity to put some of the lessons we've learned into pra
 (2) The resulting 'clean' (i.e., corrected and organized) data in an appropriate format (e.g., .csv, .txt)
 (3) Metadata describing the corrected data set (This can either be in the form of the link to a github repository or the submissio of a file in .txt or .pdf format)
 
-**Due Date & Point Value:** The assignment is due **1 May 2023** by 5 pm and is worth **`r total_points` points.**  
+**Due Date & Point Value:** The assignment is due **1 May 2024** by 5 pm and is worth **`r total_points` points.**  
 
 ## Evaluation & Grading Rubric
 

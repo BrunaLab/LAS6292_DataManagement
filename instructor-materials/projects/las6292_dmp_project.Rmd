@@ -47,7 +47,7 @@ dmp <- 150
 ## Assignment overview  
 The Data Management Plan (DMP) is a critical document describing the data to be collected for a research project, how it will be stored and managed, and the investigator with primary responsibility for its management. Many funding agencies, including NSF and NIH, now require a DMP with all grant applications. _Your assignment is to prepare a Data Management Plan (DMP) for your thesis research_. I **_strongly_** recommend that you prepare your DMP using the template from the online [DMP Tool](https://dmptool.org/help) best suited to your research. 
 
-**Due Date & Point Value:** The assignment is due **23 March 2023** by 5 pm and is worth **`r dmp` points.**  Please submit the assignment via Canvas; you may submit either (a) a link granting access to your plan on the DMP Planner website _or_ (b) a link to the github archive where I can review the file _or_ (c) a copy of the file in either .pdf or .txt format. 
+**Due Date & Point Value:** The assignment is due **23 March 2024** by 5 pm and is worth **`r dmp` points.**  Please submit the assignment via Canvas; you may submit either (a) a link granting access to your plan on the DMP Planner website _or_ (b) a link to the github archive where I can review the file _or_ (c) a copy of the file in either .pdf or .txt format. 
 
 **DMP Peer review:** There is a peer review (worth 25 pts) of a colleague's draft DMP due March 22. 
 

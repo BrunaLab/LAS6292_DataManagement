@@ -18,8 +18,8 @@ bigfoot<-read_csv("./instructor-materials/class-sessions/07-QAQC3/demo_datasets/
 
 # bar chart ---------------------------------------------------------------
 
-bites10<-bites_summary %>% sample_n(10)
-
+bites10<-bite_summary %>% slice_head(n=10)
+bites10<-bite_summary %>% slice(1:10)
 # to reorder the bars
 
 bites10<-

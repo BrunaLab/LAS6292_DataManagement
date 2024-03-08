@@ -46,7 +46,7 @@ Follow the links to these pages, where you will find the data and metadata from 
     * Findable: persistent identifiers & basic machine-actionable metadata
     * Accessible: can be read by machines & humans
     * Interoperable: use shared vocabularies / ontologies, machine-accessible (meta)data
-    *Re-Usable: descriptions allow others to reuse and link with other data sources
+    * Re-Usable: descriptions allow others to reuse and link with other data sources
 
 
 2. Did they include the 5 metadata descriptors?
