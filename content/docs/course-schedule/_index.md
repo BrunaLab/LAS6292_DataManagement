@@ -133,7 +133,7 @@ Tuesday, Periods 3-5 (9:35 am - 12:35 pm) in 376 Grinter Hall
     <td>Documentation, Metadata, & Codebooks; Data Sharing, Reuse, & Archives</td>
     <td>{{% staticref "/post/class-sessions/readings-week-08" "newtab" %}}<i class="fas fa-book-open"></i>{{% /staticref %}}</td> 
     <td>{{% staticref "/post/class-sessions/class-week-08" %}}<i class="fas fa-laptop-code"></i>{{% /staticref %}}</td>
-    {{% staticref "uploads/notes/metadata_notes.pdf" "newtab" %}}<i class="fas fa-pen"></i>  Notes{{% /staticref %}}</td> 
+    <td>{{% staticref "uploads/notes/metadata_notes.pdf" "newtab" %}}<i class="fas fa-pen"></i>  Notes{{% /staticref %}}</td>
   </tr>
   
   <tr>
@@ -141,8 +141,8 @@ Tuesday, Periods 3-5 (9:35 am - 12:35 pm) in 376 Grinter Hall
     <!-- <td>3/7</td> --->
     <td>Data Management Plans</td>
     <td>{{% staticref "/post/class-sessions/readings-week-09" "newtab" %}}<i class="fas fa-book-open"></i>{{% /staticref %}} </td> 
- <td>{{% staticref "/post/class-sessions/class-week-09" %}}<i class="fas fa-laptop-code"></i>{{% /staticref %}}</td>
-   {{% staticref "uploads/notes/dmp_notes.pdf" "newtab" %}}<i class="fas fa-pen"></i>  Notes{{% /staticref %}}</td>
+    <td>{{% staticref "/post/class-sessions/class-week-09" %}}<i class="fas fa-laptop-code"></i>{{% /staticref %}}</td>
+    <td>{{% staticref "uploads/notes/dmp_notes.pdf" "newtab" %}}<i class="fas fa-pen"></i>  Notes{{% /staticref %}}</td>
   </tr>
   
   <tr>
