@@ -43,7 +43,7 @@ output: pdf_document
 knit: (function(inputFile, encoding) {
   rmarkdown::render(inputFile,
   encoding = encoding,
-  output_dir = "./static/uploads")
+  output_dir = "./static/uploads/notes")
   })
 ---
 

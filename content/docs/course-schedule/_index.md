@@ -133,7 +133,7 @@ Tuesday, Periods 3-5 (9:35 am - 12:35 pm) in 376 Grinter Hall
     <td>Documentation, Metadata, & Codebooks; Data Sharing, Reuse, & Archives</td>
     <td>{{% staticref "/post/class-sessions/readings-week-08" "newtab" %}}<i class="fas fa-book-open"></i>{{% /staticref %}}</td> 
     <td>{{% staticref "/post/class-sessions/class-week-08" %}}<i class="fas fa-laptop-code"></i>{{% /staticref %}}</td>
-    {{% staticref "uploads/notes/wk8_metadata_notes.pdf" "newtab" %}}<i class="fas fa-pen"></i>  Notes{{% /staticref %}}</td>
+    {{% staticref "uploads/notes/metadata_notes.pdf" "newtab" %}}<i class="fas fa-pen"></i>  Notes{{% /staticref %}}</td>
   </tr>
   
   <tr>
@@ -142,7 +142,7 @@ Tuesday, Periods 3-5 (9:35 am - 12:35 pm) in 376 Grinter Hall
     <td>Data Management Plans</td>
     <td>{{% staticref "/post/class-sessions/readings-week-09" "newtab" %}}<i class="fas fa-book-open"></i>{{% /staticref %}} </td> 
  <td>{{% staticref "/post/class-sessions/class-week-09" %}}<i class="fas fa-laptop-code"></i>{{% /staticref %}}</td>
-   {{% staticref "uploads/notes/wk9_dmp_notes.pdf" "newtab" %}}<i class="fas fa-pen"></i>  Notes{{% /staticref %}}</td>
+   {{% staticref "uploads/notes/dmp_notes.pdf" "newtab" %}}<i class="fas fa-pen"></i>  Notes{{% /staticref %}}</td>
   </tr>
   
   <tr>
@@ -160,8 +160,8 @@ Tuesday, Periods 3-5 (9:35 am - 12:35 pm) in 376 Grinter Hall
     <td>Efficient Data Collection</td>
     <td>{{% staticref "/post/class-sessions/readings-week-11" "newtab" %}}<i class="fas fa-book-open"></i>{{% /staticref %}}</td> 
    <td>{{% staticref "/post/class-sessions/class-week-11" %}}<i class="fas fa-laptop-code"></i>{{% /staticref %}}</td>
- <!--   <td>{{% staticref "uploads/notes/wk11_notes.pdf" "newtab" %}}<i class="fas fa-pen"></i>  Notes{{% /staticref %}}<br>
-   {{% staticref "uploads/slides/Wk11_efficient_data_collection.pdf" "newtab" %}}<i class="fas fa-image"></i>  Slides{{% /staticref %}}</br></td> --->
+ <!--   <td>{{% staticref "uploads/notes/wnotes.pdf" "newtab" %}}<i class="fas fa-pen"></i>  Notes{{% /staticref %}}<br>
+   {{% staticref "uploads/slides/efficient_data_collection.pdf" "newtab" %}}<i class="fas fa-image"></i>  Slides{{% /staticref %}}</br></td> --->
   </tr>
   
   <tr>
@@ -170,7 +170,7 @@ Tuesday, Periods 3-5 (9:35 am - 12:35 pm) in 376 Grinter Hall
     <td>Transcription & Translation</td>
     <td>{{% staticref "/post/class-sessions/readings-week-12" "newtab" %}}<i class="fas fa-book-open"></i>{{% /staticref %}}</td> 
   <td>{{% staticref "/post/class-sessions/class-week-12" %}}<i class="fas fa-laptop-code"></i>{{% /staticref %}}</td>
-<!--   <td>{{% staticref "uploads/notes/wk12_transcription_translation_notes.pdf" "newtab" %}}<i class="fas fa-pen"></i>  Notes{{% /staticref %}}</td> --->
+<!--   <td>{{% staticref "uploads/notes/transcription_translation_notes.pdf" "newtab" %}}<i class="fas fa-pen"></i>  Notes{{% /staticref %}}</td> --->
   </tr>
 
   <tr>
@@ -179,7 +179,7 @@ Tuesday, Periods 3-5 (9:35 am - 12:35 pm) in 376 Grinter Hall
     <td>‘Paperless’ Data Collection</td>
     <td>{{% staticref "/post/class-sessions/readings-week-13" "newtab" %}}<i class="fas fa-book-open"></i>{{% /staticref %}}</td> 
    <td>{{% staticref "/post/class-sessions/class-week-13" %}}<i class="fas fa-laptop-code"></i>{{% /staticref %}}</td>
- <!--   <td>{{% staticref "uploads/notes/wk13_paperless_notes.pdf" "newtab" %}}<i class="fas fa-pen"></i>  Notes{{% /staticref %}}</td> --->
+ <!--   <td>{{% staticref "uploads/notes/paperless_notes.pdf" "newtab" %}}<i class="fas fa-pen"></i>  Notes{{% /staticref %}}</td> --->
   </tr>
   
   <tr>
@@ -188,7 +188,7 @@ Tuesday, Periods 3-5 (9:35 am - 12:35 pm) in 376 Grinter Hall
     <td>Automated Data Extraction</td>
     <td>{{% staticref "/post/class-sessions/readings-week-14" "newtab" %}}<i class="fas fa-book-open"></i>{{% /staticref %}}</td> 
   <td>{{% staticref "/post/class-sessions/class-week-14" %}}<i class="fas fa-laptop-code"></i>{{% /staticref %}}</td>
-<!--   <td>{{% staticref "uploads/notes/wk14_automated_notes.pdf" "newtab" %}}<i class="fas fa-pen"></i>  Notes{{% /staticref %}}</td> --->
+<!--   <td>{{% staticref "uploads/notes/automated_notes.pdf" "newtab" %}}<i class="fas fa-pen"></i>  Notes{{% /staticref %}}</td> --->
   </tr>
   <tr>
     <td>15</td>
@@ -196,7 +196,7 @@ Tuesday, Periods 3-5 (9:35 am - 12:35 pm) in 376 Grinter Hall
     <td>Legal & Ethical Issues</td>
     <td>{{% staticref "/post/class-sessions/readings-week-15" "newtab" %}}<i class="fas fa-book-open"></i>{{% /staticref %}}</td> 
    <td>{{% staticref "/post/class-sessions/15_class" %}}<i class="fas fa-laptop-code"></i>{{% /staticref %}}</td>
-<!--    <td>{{% staticref "uploads/notes/wk15_legal_ethical_notes.pdf" "newtab" %}}<i class="fas fa-pen"></i>  Notes{{% /staticref %}}</td> --->
+<!--    <td>{{% staticref "uploads/notes/legal_ethical_notes.pdf" "newtab" %}}<i class="fas fa-pen"></i>  Notes{{% /staticref %}}</td> --->
   </tr>
   <tr>
     <td>Finals</td>
