@@ -29,7 +29,7 @@ Data repositories such as [Dryad](https://datadryad.org) and [ICPSR](https://www
 
 Go to either Dryad or ICPSR and download 2-3 datasets. Now review the data and metadata. Based on the information provided, could you explain what the abbreviations are? How the data were collected? What the values represent? Could you recreate the analysis? Is there anything missing or that stands out?
 
-* Here is an example from Dryad: The Page ["Data from: Resilient networks of ant-plant mutualists in Amazonian forest fragments"](https://datadryad.org/stash/dataset/doi:10.5061/dryad.pf2r0) includes an overview of the project and dataset, along with some other information. If you click "Download Dataset" you will get a zip file with {{% staticref "instructor-materials/class-sessions/07-metadata/sample_metadata/Ant.Plant.Mutualists.Fragmentation.csv" "newtab" %}}[the data in .csv format]{{% /staticref %}} and {{% staticref "instructor-materials/class-sessions/07-metadata//sample_metadata/Passmore_etat_README.txt" "newtab" %}}[the Metadata in .txt format]{{% /staticref %}}.
+* Here is an example from Dryad: The Page ["Data from: Resilient networks of ant-plant mutualists in Amazonian forest fragments"](https://datadryad.org/stash/dataset/doi:10.5061/dryad.pf2r0) includes an overview of the project and dataset, along with some other information. If you click "Download Dataset" you will get a zip file with the data in .csv format and the Metadata in .txt format.
     
 
 
