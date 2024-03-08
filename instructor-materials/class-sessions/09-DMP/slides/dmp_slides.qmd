@@ -1,0 +1,122 @@
+---
+title: Data Management Plans!!!!
+format: 
+  revealjs:
+    theme: [night, custom.scss]
+    slide-number: true
+    show-slide-number: print
+    # theme: [night]
+    # theme: [custom.css]
+    smaller: true 
+    # self-contained: false
+    # reveal-js-url: 
+    # theme: white
+# editor: source
+# output-dir: "./static/uploads"
+# output: revealjs::revealjs_presentation
+include-in-header:
+      text: |
+        <style>
+        .right {
+          text-align: right;
+        }
+        </style>
+---
+
+## 
+#### Contemporary “Research Data Life-Cycle”
+
+<center><img src="/images/img1.png"  height="60%" width="60%"></center>
+
+## 
+#### Contemporary “Research Data Life-Cycle”
+
+<center><img src="/images/img2.png"  height="60%" width="60%"></center>
+
+## 
+#### Contemporary “Research Data Life-Cycle”
+
+<center><img src="/images/img3.png"  height="60%" width="60%"></center>
+
+## 
+#### Contemporary “Research Data Life-Cycle”
+
+<center><img src="/images/img4.png"  height="60%" width="60%"></center>
+
+## 
+#### Contemporary “Research Data Life-Cycle”
+
+<center><img src="/images/img5.png"  height="60%" width="60%"></center>
+
+## 
+#### ‘Data Management Plans’ become ‘Metadata’
+
+<center><img src="/images/img6.png"  height="100%" width="100%"></center>
+
+
+## 
+#### Data Management Plans 
+
+
+::: columns
+
+::: {.column width="40%"}
+
+&nbsp; 
+
+- Formal document that lays out your plan for managing the data you will collect (or have collected).  
+
+- Outlines what you will do with your data during and after you complete your research 
+
+- Ensures your data is safe for the present and the future 
+
+&nbsp; 
+
+<h4 style="color:darkblue">*Does this sound familiar?*</h4>
+:::
+::: {.column width="60%"}
+<img src="/images/img7.png"  height="60%" width="60%">
+:::
+:::
+
+
+## 
+#### Why do a DMP?
+
+- Save time
+- Less work later
+- Increase research efficiency
+- **_You  may not have a choice._**
+
+<img src="/images/img8.png"  height="60%" width="60%">
+
+## 
+#### Components of a DMP
+
+- Information about data & data format
+- Metadata content and format
+- Policies for access, sharing and re-use
+- Long-term storage and data management
+- Roles and responsibilities
+- Budget
+
+<section class="right">
+<h4 style="color:darkblue">*Again...Does this sound familiar?*</h4>
+</section>
+
+## 
+#### Today...
+
+::: {.incremental}
+
+::: columns
+::: {.column width="50%"}
+<img src="/images/img9.png"  height="100%" width="100%">
+:::
+::: {.column width="50%"}
+<img src="/images/img10.png"  height="100%" width="100%">
+:::
+:::
+
+:::
+
