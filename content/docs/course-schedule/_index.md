@@ -161,8 +161,8 @@ Tuesday, Periods 3-5 (9:35 am - 12:35 pm) in 376 Grinter Hall
     <td>Efficient Data Collection</td>
     <td>{{% staticref "/post/class-sessions/readings-week-11" "newtab" %}}<i class="fas fa-book-open"></i>{{% /staticref %}}</td> 
    <td>{{% staticref "/post/class-sessions/class-week-11" %}}<i class="fas fa-laptop-code"></i>{{% /staticref %}}</td>
- <!--   <td>{{% staticref "uploads/notes/wnotes.pdf" "newtab" %}}<i class="fas fa-pen"></i>  Notes{{% /staticref %}}<br>
-   {{% staticref "uploads/slides/efficient_data_collection.pdf" "newtab" %}}<i class="fas fa-image"></i>  Slides{{% /staticref %}}</br></td> --->
+    <td>{{% staticref "uploads/notes/wnotes.pdf" "newtab" %}}<i class="fas fa-pen"></i>  Notes{{% /staticref %}}
+ <br>{{% staticref "https://las6292.netlify.app/uploads/slides/efficient-slides/efficient_slides.html" "newtab" %}}<i class="fas fa-image"></i> Slides{{% /staticref %}}</td>
   </tr>
   
   <tr>

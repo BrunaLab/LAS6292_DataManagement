@@ -1,0 +1,343 @@
+---
+title: Efficient Data Collection
+format: 
+  revealjs:
+    theme: [night, custom.scss]
+    slide-number: true
+    show-slide-number: print
+    # theme: [night]
+    # theme: [custom.css]
+    smaller: true 
+    # self-contained: false
+    # reveal-js-url: 
+    # theme: white
+# editor: source
+# output-dir: "./static/uploads"
+# output: revealjs::revealjs_presentation
+include-in-header:
+      text: |
+        <style>
+        .right {
+          text-align: right;
+        }
+        </style>
+        <style>
+        .v-center-container {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          height: 90%;
+        }
+        </style>
+---
+#
+
+<center><img src="/images/img1.png"  height="90%" width="90%"></center>
+
+#
+<h1 style="color:cornflowerblue">**Efficient**</h1>
+<h1 style="color:darkblue">**Data**</h1>
+<h1 style="color:darkblue">**Collection**</h1>
+
+# 
+<center><img src="/images/img2.png"  height="90%" width="90%"></center>
+
+
+## How can we be more efficient?
+
+<center><img src="/images/img3.png"  height="90%" width="90%"></center>
+
+ 
+## How can we be more efficient?
+
+<center><img src="/images/img4.png"  height="90%" width="90%"></center>
+
+#
+<h1 style="color:darkblue">**Why**</h1>
+<h1 style="color:darkblue">**Does**</h1>
+<h1 style="color:darkblue">**This**</h1>
+<h1 style="color:cornflowerblue">**Matter?**</h1>
+
+
+## 1-10-100 Rule
+
+<section class="left">
+<h3 style="color:darkblue">*The Cost of Quality: Data entry errors multiply costs exponentially based on stage at which identified & corrected*</h3>
+</section>
+
+<center><img src="/images/img5.png"  height="100%" width="100%"></center>
+
+<section class="right">
+<h3 style="color:darkblue">*Prevention costs less than correction, which costs less than failure.*</h3>
+</section>
+
+
+
+
+
+
+## Where can errors be introduced?
+#### _Conduct a "Process Audit”_
+
+::: {.v-center-container}
+<img src="/images/img6.png"  height="70%" width="70%">
+:::
+#
+#### Process Audit 1: “Population Genetics of Lizards in Longleaf Pine Savannas”
+
+::: columns
+::: {.column width="99%"}
+<section class="left">
+</h4>After collecting lizards in traps, animals are returned to the lab and euthanized. A piece of each animal’s liver is removed, weighed using a scale, and stored in a plastic tube filled with ethanol. The data are later entered into a spreadsheet for analysis.</h4>  
+</section>
+:::
+::: {.column width="1%"}
+:::
+:::
+<img src="/images/img7.png"  height="70%" width="70%">
+
+
+
+#
+#### Process Audit 2: “Diversity & Dynamics of Tropical Tree Communities”
+::: columns
+::: {.column width="99%"}
+<section class="left">
+</h4>Every tree in a 10-ha plot is marked with an ID number and identified to species. The diameter at breast height (DBH) of each tree is measured with a tape measure and the location is recorded with a GPS. The DBH, species, and location of each tree are recorded on datasheets; in the evening at the field station these data are entered in a spreadsheet on a laptop computer.</h4>  
+</section>
+:::
+::: {.column width="1%"}
+:::
+:::
+
+<img src="/images/img8.png"  height="90%" width="90%">
+
+#
+#### Process Audit 3. “Economic Costs and Benefits of Diversified Crop Production in Rural Tanzania”
+::: columns
+::: {.column width="99%"}
+<section class="left">
+</h4>Villagers were interviewed about their agricultural practices. In addition to answering questions (asked by researcher with assistance from translator), participants were asked to make a 'resource allocation map': a drawing of the proportion of their income allocated to food, education, farming supplies, etc.
+
+Audio recordings of the interviews were translated and transcribed to MSWord documents by bilingual students from the university. The maps were brought back to university so researchers could compare each subject’s interview responses with the budget allocations they drew on the map. Data about each interview (e.g., subject, location, translator, researcher name) were also entered in a spreadsheet). </h4>  
+</section>
+:::
+::: {.column width="1%"}
+:::
+:::
+<img src="/images/img9.png"  height="60%" width="60%">  
+
+
+# What were the results of your process audit?
+
+# What can I do?
+<h2 style="color:cornflowerblue">**1. Checklists**</h2>
+<h2 style="color:cornflowerblue">**2. Automation**</h2>
+<h2 style="color:cornflowerblue">**3. Asset Management**</h2>
+<h2 style="color:cornflowerblue">**4. UX/UI**</h2>
+
+
+
+
+
+
+## 1. Checklists
+
+<center><img src="/images/img10.png"  height="100%" width="100%"></center>
+
+
+# 
+::: columns
+
+::: {.column width="50%"}
+
+<img src="/images/img11.png"  height="90%" width="90%">
+
+:::
+::: {.column width="50%"}
+<img src="/images/img12.png"  height="90%" width="90%">
+:::
+:::
+
+
+## 2. Automation
+
+::: columns
+
+::: {.column width="50%"}
+
+<img src="/images/img13.png"  height="90%" width="90%">
+
+:::
+::: {.column width="50%"}
+<img src="/images/img14.png"  height="90%" width="90%">
+[https://ifttt.com](https://ifttt.com/){target="_blank"}
+:::
+:::
+
+
+## 3. Asset Management
+
+#### Save time and reduce errors by labeling items (e.g., vials, sheets, forms) and “fill out” forms in advance.
+ 
+<img src="/images/img17.png"  height="90%" width="90%">
+
+## 4. UX/UI
+
+#### Save time and reduce errors by formatting forms to speed up data collection, minimize errors, and streamline data entry.
+
+
+<img src="/images/img18.png"  height="60%" width="60%">
+
+## 
+
+::: {.incremental}
+
+::: columns
+::: {.column width="70%"}
+<img src="/images/img19.png"  height="80%" width="80%">
+:::
+::: {.column width="30%"}
+**1. Conduct a “Process Audit” of  these data collection forms**
+
+**2. What would your UX be if you were filling out these forms?**
+
+:::
+:::
+<img src="/images/img19.png"  height="80%" width="80%">
+:::
+
+## 
+<img src="/images/img20.png"  height="90%" width="90%">
+
+## 
+<img src="/images/img21.png"  height="90%" width="90%">
+
+
+## 
+::: columns
+::: {.column width="50%"}
+- **Reduce Cognitive Overload (aka keep it simple). **
+- **Write as little as possible**
+:::
+::: {.column width="50%"}
+<img src="/images/img22.png"  height="90%" width="90%">
+:::
+:::
+
+#
+### Use labels & keep them short…
+
+<img src="/images/img23.jpg"  height="90%" width="90%">
+
+#
+### Be careful with the location of input labels to avoid mistakes...
+
+**Poor alignment leads to filling out forms incorrectly**
+
+<img src="/images/img24.jpg"  height="90%" width="90%">
+
+#
+### …and pay attention to where you put the labels
+
+::: {.incremental}
+
+::: columns
+::: {.column width="50%"}
+<img src="/images/img25.png"  height="90%" width="90%">
+:::
+::: {.column width="50%"}
+<img src="/images/img26.png"  height="90%" width="90%">
+:::
+:::
+
+:::
+
+#
+### Use the appropriate input type and tag…
+
+**Radio Button vs. Check Box**
+
+
+<img src="/images/img27.png"  height="90%" width="90%">
+
+#
+### …and format them in helpful ways
+
+- **Blanks vs. Fill-in Boxes (narrow, wide, height)**
+- **Circling Options vs Check Boxes (distance between)** 
+- **Likert scale options (vertical vs. horizontal, direction of impact, words vs. numbers)**
+- **Options to constrain errors vs. Unknown Results**
+
+
+
+<img src="/images/img28.png"  height="90%" width="90%">
+
+#
+### Forms should be one column…
+
+**One-column forms are more comfortable to scan and conform better to mobile displays. Multiple columns can strain a user and cause them to skip fields accidentally.**
+ 
+<img src="/images/img29.jpg"  height="90%" width="90%">
+
+#
+### …Except when multi-column makes sense 
+
+**Fields that logically go together should be inline**
+ 
+<img src="/images/img30.png"  height="60%" width="60%">
+
+
+#
+### Group related fields
+
+**Filled out faster and reduces cognitive overload**
+
+<img src="/images/img31.jpg"  height="60%" width="60%">
+
+
+#
+### AVOID ALL CAPS
+
+**All caps make things hard and tiring to read**
+ 
+<img src="/images/img32.jpg"  height="90%" width="90%">
+
+#
+### For online forms: Show all options if < 6 (unless space is limited)
+
+**1) Reduces Cognitive Overload (Dropdown selector requires 2 clicks)**
+	
+<img src="/images/img33.jpg"  height="90%" width="90%">
+
+#
+### 
+
+**2) Reduces Error (accidentally selecting incorrect option)**
+ 
+<img src="/images/img34.png"  height="90%" width="90%">
+
+#
+**2) Reduces Error (accidentally selecting incorrect option)** 
+
+::: columns
+::: {.column width="40%"}
+<img src="/images/img35.png"  height="100%" width="100%">
+:::
+::: {.column width="60%"}
+<img src="/images/img36.png"  height="100%" width="100%">
+:::
+:::
+ 
+#
+### Number questions and responses
+<img src="/images/img37.png"  height="90%" width="90%">
+
+#
+### Use Formatting to guide the data collectors
+<img src="/images/img38.png"  height="70%" width="70%">
+
+#
+<h1 style="color:cornflowerblue">**Efficient**</h1>
+<h1 style="color:darkblue">**Data**</h1>
+<h1 style="color:darkblue">**Collection**</h1>

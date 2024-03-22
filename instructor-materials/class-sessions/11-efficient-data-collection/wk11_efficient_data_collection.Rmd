@@ -197,9 +197,9 @@ Let's make a checklist for a research trip.
 
 ### Grading Rubric: 
 
-**50:** Ways errors can get incorporated have been identified; revised form and google doc use UI/UX principles to reduce most data recording errors. 
-**35:** Some (but not all) ways that errors can get incorporated have been identified; revised form and google doc use UI/UX principles to reduce some of the potential data recording errors. 
-**20:** Few of the ways errors can be included are identified; data collection still likely to be error-prone and inefficient.
+**50:** Ways errors can get incorporated have been identified; revised form and google doc use UI/UX principles to reduce most data recording errors.  
+**35:** Some (but not all) ways that errors can get incorporated have been identified; revised form and google doc use UI/UX principles to reduce some of the potential data recording errors.  
+**20:** Few of the ways errors can be included are identified; data collection still likely to be error-prone and inefficient.  
 
 
 ### Free Time
