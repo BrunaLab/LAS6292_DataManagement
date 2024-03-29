@@ -1,0 +1,97 @@
+---
+title: Transcription and Translation
+format: 
+  revealjs:
+    theme: [night, custom.scss]
+    slide-number: true
+    show-slide-number: print
+    # theme: [night]
+    # theme: [custom.css]
+    smaller: true 
+    # self-contained: false
+    # reveal-js-url: 
+    # theme: white
+# editor: source
+# output-dir: "./static/uploads"
+# output: revealjs::revealjs_presentation
+include-in-header:
+      text: |
+        <style>
+        .right {
+          text-align: right;
+        }
+        </style>
+        <style>
+        .v-center-container {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          height: 90%;
+        }
+        </style>
+---
+#
+<center><img src="/images/Slide1.png"  height="100%" width="100%"></center>
+
+# 
+<center><img src="/images/Slide2.png"  height="100%" width="100%"></center>
+
+#
+<center><img src="/images/Slide3.png"  height="100%" width="100%"></center>
+
+#
+<center><img src="/images/Slide4.png"  height="100%" width="100%"></center>
+
+#
+<center><img src="/images/Slide5.png"  height="100%" width="100%"></center>
+
+#
+<center><img src="/images/Slide6.png"  height="100%" width="100%"></center>
+
+# 
+<center><img src="/images/Slide7.png"  height="100%" width="100%"></center>
+
+#
+<center><img src="/images/Slide8.png"  height="100%" width="100%"></center>
+
+#
+<center><img src="/images/Slide9.png"  height="100%" width="100%"></center>
+
+#
+<center><img src="/images/Slide10.png"  height="100%" width="100%"></center>
+
+#
+<center><img src="/images/Slide11.png"  height="100%" width="100%"></center>
+
+# 
+<center><img src="/images/Slide12.png"  height="100%" width="100%"></center>
+
+#
+<center><img src="/images/Slide13.png"  height="100%" width="100%"></center>
+
+#
+<center><img src="/images/Slide14.png"  height="100%" width="100%"></center>
+
+#
+<center><img src="/images/Slide15.png"  height="100%" width="100%"></center>
+
+#
+<center><img src="/images/Slide16.png"  height="100%" width="100%"></center>
+
+#
+<center><img src="/images/Slide17.png"  height="100%" width="100%"></center>
+
+#
+<center><img src="/images/Slide18.png"  height="100%" width="100%"></center>
+
+# 
+<center><img src="/images/Slide19.png"  height="100%" width="100%"></center>
+
+#
+<center><img src="/images/Slide20.png"  height="100%" width="100%"></center>
+
+#
+<center><img src="/images/Slide21.png"  height="100%" width="100%"></center>
+
+#
+<center><img src="/images/Slide22.png"  height="100%" width="100%"></center>

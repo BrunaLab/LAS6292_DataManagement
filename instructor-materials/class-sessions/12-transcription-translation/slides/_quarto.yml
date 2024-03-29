@@ -1,0 +1,4 @@
+project:
+  title: "LAS 6292 Slides"
+  type: website
+  output-dir: 'transcription-translation'
