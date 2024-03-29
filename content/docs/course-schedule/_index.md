@@ -171,7 +171,7 @@ Tuesday, Periods 3-5 (9:35 am - 12:35 pm) in 376 Grinter Hall
     <td>Transcription & Translation</td>
     <td>{{% staticref "/post/class-sessions/readings-week-12" "newtab" %}}<i class="fas fa-book-open"></i>{{% /staticref %}}</td> 
   <td>{{% staticref "/post/class-sessions/class-week-12" %}}<i class="fas fa-laptop-code"></i>{{% /staticref %}}</td>
-<!--   <td>{{% staticref "uploads/notes/transcription_translation_notes.pdf" "newtab" %}}<i class="fas fa-pen"></i>  Notes{{% /staticref %}}</td> --->
+<td>{{% staticref "uploads/notes/transcription_translation_notes.pdf" "newtab" %}}<i class="fas fa-pen"></i>  Notes{{% /staticref %}}</td>
   </tr>
 
   <tr>
