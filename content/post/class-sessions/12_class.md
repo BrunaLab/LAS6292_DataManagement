@@ -34,8 +34,6 @@ weight: 20
 
 
 1. Download the following .txt files. Note that the link takes you to a page on your browser; use "save this page as" to download it to your computer.   
-
- <!--    * [`turkish_text.txt`](https://raw.githubusercontent.com/BrunaLab/LAS6292_DataManagement/master/instructor-materials/class-sessions/12-transcription-translation/translation_text/turkish_text.txt). ---->
     * [`portuguese_mz_text.txt`](https://raw.githubusercontent.com/BrunaLab/LAS6292_DataManagement/master/instructor-materials/class-sessions/12-transcription-translation/translation_text/portuguese_mz_text.txt). 
 
     * [`spanish_text.txt`](https://raw.githubusercontent.com/BrunaLab/LAS6292_DataManagement/master/instructor-materials/class-sessions/12-transcription-translation/translation_text/spanish_text_1voice.txt). 
@@ -43,6 +41,10 @@ weight: 20
     * [`hindi_text.txt`](https://raw.githubusercontent.com/BrunaLab/LAS6292_DataManagement/master/instructor-materials/class-sessions/12-transcription-translation/translation_text/hindi.txt). 
 
     * [`mandarin_text.txt`](https://github.com/BrunaLab/LAS6292_DataManagement/blob/master/instructor-materials/class-sessions/12-transcription-translation/translation_text/mandarin1_text.txt)   
+
+
+ <!--    * [`turkish_text.txt`](https://raw.githubusercontent.com/BrunaLab/LAS6292_DataManagement/master/instructor-materials/class-sessions/12-transcription-translation/translation_text/turkish_text.txt). ---->
+ 
 
 <!-- from: [here](https://readchineseonline.com/texts/the-convenience-store.html)-->
  <!--   * [`spanish_text_1voice.txt`](https://raw.githubusercontent.com/BrunaLab/LAS6292_DataManagement/master/instructor-materials/class-sessions/12-transcription-translation/translation_text/spanish_text_1voice.txt) -->
@@ -96,11 +98,7 @@ Sign up for accounts with the following transcription services. You can cancel t
   
 ### STEP 2: Transcribe 
 
-1. Download the following audio files. Click the blue 'view raw' text to save it to your computer.
-
-<!---    * [`turkish_audio.mp3`](https://github.com/BrunaLab/LAS6292_DataManagement/blob/master/instructor-materials/class-sessions/12-transcription-translation/translation_audio/turkish_audio.mp3)  --->
-
-
+1. Download the following audio files. Click the blue 'view raw' text or download icon to save it to your computer.
     * [`portuguese-mz-audio.mp3`](https://github.com/BrunaLab/LAS6292_DataManagement/blob/master/instructor-materials/class-sessions/12-transcription-translation/translation_audio/portuguese-mz-audio.mp3)  
     
     * [`hindi-audio.mp3`](https://github.com/BrunaLab/LAS6292_DataManagement/blob/master/instructor-materials/class-sessions/12-transcription-translation/translation_audio/hindi-mz-audio.mp3)  
@@ -114,6 +112,9 @@ Sign up for accounts with the following transcription services. You can cancel t
 <!-- mandarin1_audio.mp3 -->
 <!-- mandarin2_audio.mp3 -->
 <!-- english_audio.mp3   -->
+
+<!---    * [`turkish_audio.mp3`](https://github.com/BrunaLab/LAS6292_DataManagement/blob/master/instructor-materials/class-sessions/12-transcription-translation/translation_audio/turkish_audio.mp3)  --->
+
 
 
 2. Now transcribe these audio files with each of the different services (note that not all services will transcribe all languages). 
