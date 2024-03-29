@@ -1,0 +1,67 @@
+---
+title: "Checklist - Solomon Islands Research Project"
+date: "updated: `r Sys.Date()`"
+header-includes:
+- \AtBeginDocument{\let\maketitle\relax} # this removes default title section
+- \usepackage[default]{sourcesanspro}
+- \usepackage{fancyhdr} # modify header into left, center, right
+- \pagestyle{fancy} # cues the use of fancy headers
+- \fancyfoot{} # cues the use of fancy footer
+# month & year on header left
+- \fancyhead[L]{Checklist for Solomon Islands Project} 
+# name and page on header right
+- \fancyhead[R]{p. \thepage} 
+- \fancyfoot[R]{Last update `r format(Sys.time(), '%d %B %Y')`}
+# - \usepackage{setspace}{singlespace} # manipulate line spacing 
+- \usepackage{parskip} # manipulate indents and spacing before/after paragra phs 
+- \usepackage{xcolor} # changes colors of text
+# to center to top level (#) headings (my name) and change color of font
+# more info # https://www.ctan.org/pkg/sectsty
+- \usepackage{sectsty} \sectionfont{\centering\color{darkmidnightblue}}
+# to center to sub-sub-headings (###) and change color of font
+- \usepackage{sectsty} \subsectionfont{\color{darkmidnightblue}}
+# http://latexcolor.com/ to choose colors
+# define the colors used above with rgb codes
+- \definecolor{darkcerulean}{rgb}{0.03, 0.27, 0.49}
+- \definecolor{darkmidnightblue}{rgb}{0.0, 0.2, 0.4}
+
+mainfont: SourceSansPro
+geometry: margin=1in
+fontsize: 12pt
+linkcolor: blue
+urlcolor: blue
+output: pdf_document
+# html_document:
+# df_print: paged
+# rmdformats::robobook: default
+---
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+<!-- - [ ] Item -->
+<!-- - [x] Item -->
+
+<!-- https://www.sciencedirect.com/topics/medicine-and-dentistry/first-aid-kit -->
+
+# Checklist for Solomon Islands Project
+
+- [ ] **Research Topic Relevance:** Is the chosen research topic relevant to the social, cultural, economic, or political context of the Solomon Islands?
+- [ ] **Ethical Considerations:** Have ethical considerations been addressed, including informed consent, confidentiality, and respect for cultural norms and traditions?
+- [ ] **Community Engagement: **Have local communities been engaged and consulted throughout the research process to ensure their perspectives are represented and respected?
+- [ ] **Language Considerations: **Have language barriers been addressed, including translation of research materials and provision of information in local languages where necessary?
+- [ ] **Research Permits: **Have necessary research permits been obtained from relevant authorities in the Solomon Islands?
+- [ ] **Cultural Sensitivity: **Is the research design culturally sensitive, taking into account local customs, beliefs, and practices?
+- [ ] **Data Collection Methods: **Have appropriate data collection methods been selected, considering the cultural and social context of the Solomon Islands (e.g., interviews,
+focus groups, participant observation)?
+- [ ] **Sampling Strategy: **Is the sampling strategy appropriate for the population under study, considering factors such as diversity, accessibility, and representativeness?
+- [ ] **Data Analysis Techniques: **Are the chosen data analysis techniques suitable for the type of data collected and aligned with established best practices in social science
+research?
+- [ ] **Validation of Findings: **Have findings been validated through member checking or other methods to ensure accuracy and reliability?
+- [ ] **Conflict Sensitivity: **Has potential for exacerbating existing conflicts or tensions been considered, and appropriate measures been taken to mitigate these risks?
+- [ ] **Researcher Reflexivity: **Have researchers reflected on their own biases, assumptions, and positionality, and taken steps to minimize their influence on the research
+process and findings?
+- [ ] **Dissemination and Impact: **Have plans been made for disseminating research findings in a way that is accessible and beneficial to local communities, policymakers, and other stakeholders in the Solomon Islands?
+
+

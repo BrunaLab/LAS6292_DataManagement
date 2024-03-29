@@ -1,0 +1,82 @@
+---
+title: "Checklist - Materials For Focus Groups in Rural Africa"
+date: "updated: `r Sys.Date()`"
+header-includes:
+- \AtBeginDocument{\let\maketitle\relax} # this removes default title section
+- \usepackage[default]{sourcesanspro}
+- \usepackage{fancyhdr} # modify header into left, center, right
+- \pagestyle{fancy} # cues the use of fancy headers
+- \fancyfoot{} # cues the use of fancy footer
+# month & year on header left
+- \fancyhead[L]{Materials For Focus Groups in Rural Africa} 
+# name and page on header right
+- \fancyhead[R]{p. \thepage} 
+- \fancyfoot[R]{Last update `r format(Sys.time(), '%d %B %Y')`}
+# - \usepackage{setspace}{singlespace} # manipulate line spacing 
+- \usepackage{parskip} # manipulate indents and spacing before/after paragra phs 
+- \usepackage{xcolor} # changes colors of text
+# to center to top level (#) headings (my name) and change color of font
+# more info # https://www.ctan.org/pkg/sectsty
+- \usepackage{sectsty} \sectionfont{\centering\color{darkmidnightblue}}
+# to center to sub-sub-headings (###) and change color of font
+- \usepackage{sectsty} \subsectionfont{\color{darkmidnightblue}}
+# http://latexcolor.com/ to choose colors
+# define the colors used above with rgb codes
+- \definecolor{darkcerulean}{rgb}{0.03, 0.27, 0.49}
+- \definecolor{darkmidnightblue}{rgb}{0.0, 0.2, 0.4}
+
+mainfont: SourceSansPro
+geometry: margin=1in
+fontsize: 12pt
+linkcolor: blue
+urlcolor: blue
+output: pdf_document
+# html_document:
+# df_print: paged
+# rmdformats::robobook: default
+---
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+<!-- - [ ] Item -->
+<!-- - [x] Item -->
+
+<!-- https://www.sciencedirect.com/topics/medicine-and-dentistry/first-aid-kit -->
+
+# Materials for Focus Groups in Rural Africa
+
+- [ ] Laminated photos of relevant species
+- [ ] Laminated photos of relevant livelihoods
+- [ ] Sticky notes (500)
+- [ ] Pencils (50)
+- [ ] Pens (50)
+- [ ] Markers (100)
+- [ ] Flip charts (5)
+- [ ] Notebooks (5)
+- [ ] Clothes pins (300)
+- [ ] Audio recorder (2)
+- [ ] Smartphone (2)
+- [ ] Ruler (5)
+- [ ] Tape measure (3)
+- [ ] Glue sticks (5)
+- [ ] Super glue (5)
+- [ ] Tape (5 rolls)
+- [ ] Thumb tacks (200)
+- [ ] Velcro roll (1)
+- [ ] Notecards (500)
+- [ ] Scissors (3)
+- [ ] String (clothesline) (100m)
+- [ ] White paper packs (3)
+- [ ] Colored pencils (200)
+- [ ] Coloring books (20)
+- [ ] Snacks
+- [ ] Drinks
+- [ ] Gifts
+- [ ] Translation dictionary
+- [ ] Outline
+- [ ] IRB
+- [ ] Permits
+- [ ] Permission from traditional authority
+
