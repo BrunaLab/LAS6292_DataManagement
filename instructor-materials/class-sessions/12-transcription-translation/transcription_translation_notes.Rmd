@@ -92,7 +92,7 @@ opts_knit$set(width=75)
 
 1.  [```aws.translate```](https://github.com/cloudyr/aws.translate) uses the Amazon Web Services to do transcription via API. Has program for NGO/non-profits.
 
-1. [```translateR``` package](https://cran.r-project.org/web/packages/translateR/index.html): tools to access Google Cloud Translation via API. [Overview](https://www.google.com/search?q=translation+in+R&rlz=1C5CHFA_enUS828US828&oq=translation+in+R&aqs=chrome..69i57j0i20i263i433i512j0i131i433i512j0i20i263i512j0i512j0i433i512j0i131i433i512j0i512l3.2043j0j7&sourceid=chrome&ie=UTF-8) and [reference manual](https://cran.r-project.org/web/packages/translateR/translateR.pdf)
+<!-- 1. [```translateR``` package](https://cran.r-project.org/web/packages/translateR/index.html): tools to access Google Cloud Translation via API. [Overview](https://www.google.com/search?q=translation+in+R&rlz=1C5CHFA_enUS828US828&oq=translation+in+R&aqs=chrome..69i57j0i20i263i433i512j0i131i433i512j0i20i263i512j0i512j0i433i512j0i131i433i512j0i512l3.2043j0j7&sourceid=chrome&ie=UTF-8) and [reference manual](https://cran.r-project.org/web/packages/translateR/translateR.pdf) -->
 
 1. [Watson (IBM)](https://cloud.ibm.com/catalog/services/speech-to-text) 500 minutes free
 
@@ -100,7 +100,7 @@ opts_knit$set(width=75)
 
 1. [Translate Shell](https://www.soimort.org/translate-shell/#translate-shell) via API
 
-1. [Translate Shell](https://www.soimort.org/translate-shell/#translate-shell)
+
 
 ### Text: Manual with Computer Assisted Technology (CAT) Software
 
@@ -114,15 +114,17 @@ opts_knit$set(width=75)
 
 ## Transcription
 
+1. The [UF International Ethnography Lab](https://soccrim.clas.ufl.edu/international-ethnography-lab-at-uf/) has access to [Trint Transcription Software](https://trint.com/), which has [detailed tutorials](https://info.trint.com/knowledge/trint-live-transcription-trint-help-center?utm_source=google&utm_medium=paid-search&utm_campaign=US|Generic|PerformanceMax&utm_content=19096908663|&utm_term=&hsa_ver=3&hsa_acc=9049097615&hsa_mt=&hsa_src=x&hsa_cam=19096908663&hsa_grp=&hsa_tgt=&hsa_kw=&hsa_ad=&hsa_net=adwords&gad_source=1&gclid=Cj0KCQjwzZmwBhD8ARIsAH4v1gVL5MGdq6p-J-xyIi22nim4ZhewHPxAw7sQe6pV9DcO2EkaZstwZ_gaAsl8EALw_wcB)
+
 1.  [Comparison Video](https://www.youtube.com/watch?v=GAmkIHJl7A0 comparisons)
 
-2. NY Times' Wirecutter [review of transcription services](https://www.nytimes.com/wirecutter/reviews/best-transcription-services/) 
+1. NY Times' Wirecutter [review of transcription services](https://www.nytimes.com/wirecutter/reviews/best-transcription-services/) 
 
 ### Automated via upload
 
   **_Top-Tier _**  
 
-1. [Otter.ai](https://otter.ai/login). English only; free (600 min/mo) and paid plans. Can transcribe zoom meetings (e.g., if you do interviews via zoom) and can [integrate with Dropbox](https://blog.otter.ai/otter-dropbox-integration/). Phone app is available for [iOS](https://play.google.com/store/apps/details?id=com.aisense.otter&hl=en_US&gl=US). There is an [online tutorial](https://www.youtube.com/watch?v=SCaBnObVsqI).  **_English-only_**
+1. [Otter.ai](https://otter.ai/login). English only (US & UK with regional accents); free (600 min/mo) and paid plans. Can transcribe zoom meetings (e.g., if you do interviews via zoom) and can [integrate with Dropbox](https://blog.otter.ai/otter-dropbox-integration/). Phone app is available for [iOS](https://play.google.com/store/apps/details?id=com.aisense.otter&hl=en_US&gl=US). There is an [online tutorial](https://www.youtube.com/watch?v=SCaBnObVsqI).  **_English-only_**
   
 1.  [Happy Scribe](https://www.happyscribe.com/) - see descriptionabove.
 
@@ -140,9 +142,9 @@ opts_knit$set(width=75)
 
 ### Automated via API
 
-1. [```transcribeR``` package](https://cran.r-project.org/web/packages/transcribeR/index.html) uses HP IDOL OnDemand's Speech Recognition API.                * [Vignette](https://cran.r-project.org/web/packages/transcribeR/vignettes/Transcribing_audio_with_transcribeR.html) 
-    * [Reference manaual](https://cran.r-project.org/web/packages/transcribeR/transcribeR.pdf)
-    * [tutorial](http://www.micha-dietze.de/pages/r_texts/_book/kaleidoscope.html)
+<!-- 1. [```transcribeR``` package](https://cran.r-project.org/web/packages/transcribeR/index.html) uses HP IDOL OnDemand's Speech Recognition API.                * [Vignette](https://cran.r-project.org/web/packages/transcribeR/vignettes/Transcribing_audio_with_transcribeR.html)  -->
+<!--     * [Reference manaual](https://cran.r-project.org/web/packages/transcribeR/transcribeR.pdf) -->
+<!--     * [tutorial](http://www.micha-dietze.de/pages/r_texts/_book/kaleidoscope.html) -->
 
 1. [```googleLanguageR```](https://docs.ropensci.org/googleLanguageR/). Uses the Google Cloud machine learning APIs for text and speech tasks. The [Cloud Speech API](https://cloud.google.com/speech/) transcribes sound files to text and the Cloud Text-to-Speech AP
 
