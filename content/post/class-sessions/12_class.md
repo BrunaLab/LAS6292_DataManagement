@@ -38,7 +38,7 @@ weight: 20
 
     * [`spanish_text.txt`](https://raw.githubusercontent.com/BrunaLab/LAS6292_DataManagement/master/instructor-materials/class-sessions/12-transcription-translation/translation_text/spanish_text_1voice.txt). 
     
-    * [`hindi_text.txt`](https://raw.githubusercontent.com/BrunaLab/LAS6292_DataManagement/master/instructor-materials/class-sessions/12-transcription-translation/translation_text/hindi.txt). 
+    * [`hindi_text.txt`](https://raw.githubusercontent.com/BrunaLab/LAS6292_DataManagement/master/instructor-materials/class-sessions/12-transcription-translation/translation_text/hindi_text.txt). 
 
     * [`mandarin_text.txt`](https://github.com/BrunaLab/LAS6292_DataManagement/blob/master/instructor-materials/class-sessions/12-transcription-translation/translation_text/mandarin1_text.txt)   
 
