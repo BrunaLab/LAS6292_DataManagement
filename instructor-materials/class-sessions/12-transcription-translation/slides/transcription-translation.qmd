@@ -75,23 +75,100 @@ include-in-header:
 #
 <center><img src="/images/Slide15.png"  height="100%" width="100%"></center>
 
-#
-<center><img src="/images/Slide16.png"  height="100%" width="100%"></center>
+<!-- # -->
+<!-- <center><img src="/images/Slide16.png"  height="100%" width="100%"></center> -->
+
+
+## **Interview Synopsis **  
+
+
+
+[included as part of the **Interview Information Form** which identifies the project name, interviewer name, narrator name, length of interview, media, donor form signed, and if the interview was transcribed]
+
+"This interview was recorded on August 12, 2005, as part of the Ace School Oral History Project. During the interview, Jane Doe, the narrator, a former student at the school, discussed the following topics:
+
+ - Her background and ties to Ace School
+ - Her first memories of attending the school
+ - The subjects taught in the school
+ - The teachers
+ - The school building exterior
+ - The interior layout and what the classrooms looked like
+ - Recess
+ - Holidays and fun times
+ - Her perspective on what her education there meant to her
+
+This interview is one of 20 in the Ace School Oral History Project, a project of the Douglas County Historical Society. Narrators represent former students, teachers, school administrators, service personnel, community leaders and school board members. The interviewer is Mary Smith."
+
+<h5 style="color:darkgray">https://www.nebraskahistory.org/lib-arch/research/audiovis/oral_history/Transcript.htm</h5>
+
+
 
 #
 <center><img src="/images/Slide17.png"  height="100%" width="100%"></center>
 
-#
-<center><img src="/images/Slide18.png"  height="100%" width="100%"></center>
+## CONSISTENCY = EFFICIENCY
 
+- If multiple people are working on the same project, use a “style guide” to ensure consistency: headers, font, format, abbreviations, capitalization,  numbers
+
+- Always indicate change in speaker
+
+- Indicate time stamps at regular intervals, and when there is an inaudible portion
+
+- Whatever you do, **_be consistent_**
+
+- When in doubt, use Chicago Manual of Style  
+<!-- <center><img src="/images/Slide18.png"  height="100%" width="100%"></center> -->
+
+# TRANSCRIBING IS AN ART, NOT A SCIENCE!  
+
+## Common issues:
+
+- False starts
+- Run-on sentences
+- Non-verbals
+- Dialects / Slang
+- Filler words
+
+
+<!-- <center><img src="/images/Slide19.png"  height="100%" width="100%"></center> -->
+#
+#### REMEMBER THE GOAL OF TRANSCRIPTION
+
+- Should not embarrass the narrator or make them look foolish  
+- Should capture the flavor of a narrator’s speech
+- Should be clarified when appropriate with the use of brackets  
+
+<!-- <center><img src="/images/Slide20.png"  height="100%" width="100%"></center> -->
+#
+#### STANDARDIZE THE HEADER 
+#### _(THIS IS YOUR METADATA)_
+
+[1] Document Name: AA00062074.pdf o Doe_diario_1889_ss 
+
+[2] Document Location: UFDC https://ufdc.ufl.edu/AA00076547/00001/pdf 
+
+[3] BIBid (bibliographic identification): AA00076547
+
+[4] Transcribers Note: This section should include all information, comments, or explanations about the transcript not found in the original text.
+
+
+<!-- <center><img src="/images/Slide21.png"  height="100%" width="100%"></center> -->
 # 
-<center><img src="/images/Slide19.png"  height="100%" width="100%"></center>
+#### Use Brackets To Indicate Anything You Added
 
-#
-<center><img src="/images/Slide20.png"  height="100%" width="100%"></center>
+[inaudible 00:33:04]
 
-#
-<center><img src="/images/Slide21.png"  height="100%" width="100%"></center>
+[end of interview]
 
-#
-<center><img src="/images/Slide22.png"  height="100%" width="100%"></center>
+My grandfather is buried there [pointing out the window], under that oak tree.
+
+[laughing]
+
+I work in the DCC [Digital Collections Center]every day.
+
+[crosstalk 00:04:45] 
+
+<h5 style="color:darkgray">See: https://ufdc.ufl.edu/AA00062074/00001/pdf</h5>
+
+
+<!-- <center><img src="/images/Slide22.png"  height="100%" width="100%"></center> -->
