@@ -70,6 +70,11 @@ opts_knit$set(width=75)
 
 ## Tools & Resources
 
+NEED TO ADD: 
+
+Chowdhury, S., Ahmed, S., Alam, S., Callaghan, C. T., Das, P., Di Marco, M., Di Minin, E., Jarić, I., Labi, M. M., Rokonuzzaman, Md., Roll, U., Sbragaglia, V., Siddika, A., & Bonn, A. (2024). A protocol for harvesting biodiversity data from Facebook. Conservation Biology, 00, e14257. https://doi.org/10.1111/cobi.14257
+
+
 ### Optical Character Recognition
 
 1. Video Primer: [What is OCR?](what is ocr? https://www.youtube.com/watch?v=Q5U_VEmcY-M)
