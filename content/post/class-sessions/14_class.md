@@ -19,61 +19,65 @@ projects: []
 weight: 24
 ---
 
-## Part 1: Automated Data Extraction - Live Coding
-
-1. **Text Analysis**, including downloading from Project Gutenberg, Sentiment Analysis, and Visualizations: [link to code](https://gist.github.com/embruna/20a42d68d3c56047fbffc585feb64fd1)
-1. **Scrape tables from websites into R** with `rvest`: 
-    * Importing a Wikipedia table to R: [tutorial](https://kyleake.medium.com/wikipedia-data-scraping-with-r-rvest-in-action-3c419db9af2d).  
-    * Scraping a table from a generic webpage: [code](https://gist.github.com/embruna/0614e25e6113f7d491f6ba826af87e04)
-    * You can also go old-school and import direct into google sheets. You can use this tutorial, or just give it a try: import the table on the Wikipedia page of [List of Countries by Population Size](https://en.wikipedia.org/wiki/List_of_countries_by_population_(United_Nations) by clicking on cell A1, then entering this in the function bar: `=ImportHtml("https://en.wikipedia.org/wiki/List_of_countries_by_population_(United_Nations)", "table", 1)`. the URL is the page for the entry, and `,1` at the end indicates what table you want. 
+# Automated Data Extraction 
 
 ![Efficiency Calculator, via [xkcd](https://xkcd.com/1205/)](https://imgs.xkcd.com/comics/is_it_worth_the_time.png)  
 
+### Part 1: Scraping Data from Tables on Websites
+
+1. Import Wikipedia tables into Google Sheets.  
+  a. Open Wikipedia page of [List of Countries by Population (UN)](https://en.wikipedia.org/wiki/List_of_countries_by_population_(United_Nations))  
+  b. Open a Google Sheet, click on cell **A1**, and then enter this in the 'Function Bar':
+    >`=ImportHtml("https://en.wikipedia.org/wiki/List_of_countries_by_population_(United_Nations)", "table", 1)`
+    
+    c. **Explanation:** the URL is the page for the entry, and `,1` at the end indicates what table on that page you want to import. _Be sure to include the quotation marks around the "URL" and "table"_.  
+  
+  
+2. Scrape tables from websites into **R** with `rvest` (Live Coding).  
+
+    a. Scraping a table from a generic webpage: [link to code used in class](https://gist.github.com/embruna/0614e25e6113f7d491f6ba826af87e04).   
+
+    b. A tutorial on Importing a Wikipedia table to R can be found [here](https://kyleake.medium.com/wikipedia-data-scraping-with-r-rvest-in-action-3c419db9af2d).  
+
+### Part 2: Downloading Books & Text Mining (Live Coding)
+
+1. Download from Project Gutenberg, Text Extraction, Sentiment Analysis, and Visualizations: [link to code used in class](https://gist.github.com/embruna/20a42d68d3c56047fbffc585feb64fd1)
 
 
-## Part 2: Optical Character Recognition (OCR)
+### Part 3: Extract data from published figures 
 
-The following are three OCR sites. 
+1. [Web Plot Digitizer](https://automeris.io/WebPlotDigitizer/) to extract data from several figures that differ in quality and content. Images are from from Pereira, Thales Augusto Zamberlan. (2018). Poor Man's Crop? Slavery in Brazilian Cotton Regions (1800-1850). Estudos Econômicos (São Paulo), 48(4), 623-655. https://doi.org/10.1590/0101-41614843tzp
 
-  * [SmallPDF](https://smallpdf.com/)
-  * [OCR2Edit](https://www.ocr2edit.com/)
-  * [pdf2go](https://www.pdf2go.com/)
 
-Use these websites to:
+### Part 4: Extract data from pdfs/images with OCR
 
-  1. Extract text from these pdfs and images
+_**For submission to Canvas**_: [SmallPDF](https://smallpdf.com/), [OCR2Edit](https://www.ocr2edit.com/), and [pdf2go](https://www.pdf2go.com/) are three widely used sites that allow you to use Optical Character Recognition (OCR) to extrat text and numbers from `.pdf` or image files (i.e., `.tiff`, `.jpg`). Use these websites to:
+
+  1. Extract text from these pdfs and images  
       * [ha_data.pdf](https://github.com/BrunaLab/LAS6292_DataManagement/blob/master/instructor-materials/class-sessions/14-automated-data-extraction/ocr_files_for_class/ocr_to_csv/ha_data.pdf)
-      
       * [ha_pdf_of_excel.pdf](https://github.com/BrunaLab/LAS6292_DataManagement/blob/master/instructor-materials/class-sessions/14-automated-data-extraction/ocr_files_for_class/ocr_to_csv/ha_pdf_of_excel.pdf)
-      
       * [pdf_of_excel.pdf](https://github.com/BrunaLab/LAS6292_DataManagement/blob/master/instructor-materials/class-sessions/14-automated-data-extraction/ocr_files_for_class/ocr_to_csv/pdf_of_excel.pdf)
       * [pic_of_invoice_jpg.jpeg](https://github.com/BrunaLab/LAS6292_DataManagement/blob/master/instructor-materials/class-sessions/14-automated-data-extraction/ocr_files_for_class/ocr_to_csv/pic_of_invoice_jpg.jpeg)
       * [pic_of_table_jpg.jpeg](https://github.com/BrunaLab/LAS6292_DataManagement/blob/master/instructor-materials/class-sessions/14-automated-data-extraction/ocr_files_for_class/ocr_to_csv/pic_of_table_jpg.jpeg)
 
-  **and**  
-
-  2. Importing the data from these images and pdf's into an excel sheet 
-    * [handwriting_pdf.pdf](https://github.com/BrunaLab/LAS6292_DataManagement/blob/master/instructor-materials/class-sessions/14-automated-data-extraction/ocr_files_for_class/ocr_to_text/handwriting_pdf.pdf)  
-    * [text_photo_3.jpeg](https://github.com/BrunaLab/LAS6292_DataManagement/blob/master/instructor-materials/class-sessions/14-automated-data-extraction/ocr_files_for_class/ocr_to_text/text_photo_3.jpeg)  
-    * [typed_text_1.jpeg](https://github.com/BrunaLab/LAS6292_DataManagement/blob/master/instructor-materials/class-sessions/14-automated-data-extraction/ocr_files_for_class/ocr_to_text/typed_text_1.jpeg)     
+  2. Import the data from these images and pdf's into an excel sheet  
   
-  3. ***Bonus (if time permits)*** 
-   
-    * Try using google's OCR to import into google Docs ([tutorial](https://www.klippa.com/en/blog/information/google-docs-ocr/)). Note also [Google's AI OCR](https://cloud.google.com/use-cases/ocr).  
+      * [handwriting_pdf.pdf](https://github.com/BrunaLab/LAS6292_DataManagement/blob/master/instructor-materials/class-sessions/14-automated-data-extraction/ocr_files_for_class/ocr_to_text/handwriting_pdf.pdf)  
+      * [text_photo_3.jpeg](https://github.com/BrunaLab/LAS6292_DataManagement/blob/master/instructor-materials/class-sessions/14-automated-data-extraction/ocr_files_for_class/ocr_to_text/text_photo_3.jpeg)  
+     * [typed_text_1.jpeg](https://github.com/BrunaLab/LAS6292_DataManagement/blob/master/instructor-materials/class-sessions/14-automated-data-extraction/ocr_files_for_class/ocr_to_text/typed_text_1.jpeg)     
     
-    * Try with your [iPhone](https://support.apple.com/en-us/HT212630) or [Android phone](https://www.usatoday.com/story/tech/tips/2022/05/08/iphone-android-use-smartphone-as-scanner/9674231002/).  
+3. Compare the results: are some ties better than others at certain kinds of images? How much does image quality matter? 
 
-4. Upload the OCR scans to Canvas. 
+4. Upload the OCR scans and your (brief) conclusions to Canvas. 
 
-# Part 3: Extracting data from published figures
+3. ***Bonus (if time permits)*** 
+   
+   * Try using google's OCR to import into google Docs ([tutorial](https://www.klippa.com/en/blog/information/google-docs-ocr/)). Note also [Google's AI OCR](https://cloud.google.com/use-cases/ocr).  
+    
+   * Try with your [iPhone](https://support.apple.com/en-us/HT212630) or [Android phone](https://www.usatoday.com/story/tech/tips/2022/05/08/iphone-android-use-smartphone-as-scanner/9674231002/).  
 
 
-* [Web Plot Digitizer](https://automeris.io/WebPlotDigitizer/) to extract data from several figures that differ in quality and content. Images are from from Pereira, Thales Augusto Zamberlan. (2018). Poor Man's Crop? Slavery in Brazilian Cotton Regions (1800-1850). Estudos Econômicos (São Paulo), 48(4), 623-655. https://doi.org/10.1590/0101-41614843tzp
-
-
-
-
-## Part 4: Learning R Markdown
+### OPTIONAL: Learning R Markdown
 
 What is R Markdown? Short version: it's a way to convert your R Markdown file (with text and code) into any one of several output formats including: HTML, PDF, MS Word, slides for presentations (Beamer, HTML5 slides), books, dashboards, scientific articles, and websites. You can find the [complete overview here](https://rmarkdown.rstudio.com/). A gallery of the different things you can do with R Markdown [can be found here](https://rmarkdown.rstudio.com/gallery.html).
 

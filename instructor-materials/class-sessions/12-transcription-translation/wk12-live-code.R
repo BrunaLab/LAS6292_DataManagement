@@ -5,7 +5,7 @@ library(googledrive)
 # Translation of Text  -----------------------------------------------------
 
 # 1. Translate in Google Doc
-2. Translate in MS Word Doc
+# 2. Translate in MS Word Doc
 # 3. https://www.diffchecker.com/diff
 
 # 4/1AY0e-g7c3fmP5aI7RtyOR_qm7QeOxCz0Tcmdy5iyRMfQfuv6YmJs8ctq3SI
@@ -23,7 +23,7 @@ a[2,2]
 # names against. Or by specifying a file type: the type argument understands 
 # MIME types, file extensions, and a few human-friendly keywords.
 
-# x <- drive_find(pattern = "indonesian_to_english")
+# x <- drive_find(pattern = "_to_english")
 # drive_get(as_id(x$id))
 # x$id[1]
 # gdrive_file <- drive_get(id = "1z64-PTCydZIB_afaYXYUf4fVniFckHmGZwVgbeg4nNY")
