@@ -43,11 +43,11 @@ header-includes:
 
 # https://babichmorrowc.github.io/post/changing-fonts-in-rmarkdown-pdfs/
 output: pdf_document
-# knit: (function(inputFile, encoding) {
-#   rmarkdown::render(inputFile,
-#   encoding = encoding,
-#   output_dir = "./static/uploads")
-#   })
+knit: (function(inputFile, encoding) {
+  rmarkdown::render(inputFile,
+  encoding = encoding,
+  output_dir = "./static/uploads/notes")
+  })
 ---
 
 ```{r setup, include=FALSE}
@@ -70,11 +70,13 @@ opts_knit$set(width=75)
 
 ## Tools & Resources
 
+<!-- NEED TO ADD: INTRO TO APIs to fully automate -->
+
 ### Optical Character Recognition
 
 1. Video Primer: [What is OCR?](what is ocr? https://www.youtube.com/watch?v=Q5U_VEmcY-M)
 
-2. Online OCR Tools - text and data from pdfs into csv,txt, etc.
+2. Online OCR Tools - text and data from `.pdf` into `.csv`, `.txt`, etc.
 
     * Google Drive - Video Primer: [OCR with Google Drive](https://www.youtube.com/watch?v=4lApeCNK6Ic)
     * Free online sites for small batches (can upgrade for larger numbers of files)
@@ -84,12 +86,17 @@ opts_knit$set(width=75)
       * [pdf to excel](https://smallpdf.com/pdf-to-excel)
       * [OnlineOCR](https://www.onlineocr.net/)
       * [PDFTables](https://pdftables.com/) will convert PDF to .csv, and has an [API](https://pdftables.com/blog/convert-pdf-to-excel-r) so you can do your conversions in bulk with R. You can do ~25 pages free; large numbers are reasonably priced.
-  
+    
+    * [Amazon TextExtract](https://aws.amazon.com/pm/textract)
+
     * [Mathpix Snip](https://mathpix.com/) digitizes handwritten or printed text, and copies outputs to the clipboard that can be pasted into LaTeX editors like Overleaf, Markdown editors like Typora, Microsoft Word, and more. 
   
-3. R tools for OCR: `pdfreader`, `tabulizer`, and `pdfreader`
+3. R tools for OCR: `pdfreader`, `tabulizer`
+<!-- , and `pdfreader` -->
 
     * R package [`pdftools`](https://cran.r-project.org/web/packages/pdftools/index.html)
+    * R package [`tabulapdf`](https://github.com/ropensci/tabulapdf)
+    <!-- * R package [`pdfreader`](https://github.com/ropensci/tabulapdf) -->
     * [written tutorial 1](http://theautomatic.net/2018/08/24/getting-data-from-pdfs-the-easy-way-with-r/)
     * [written tutorial 2](https://www.charlesbordet.com/en/extract-pdf/#)
     * [written tutorial 3](https://datascienceplus.com/extracting-tables-from-pdfs-in-r-using-the-tabulizer-package/)
@@ -98,11 +105,12 @@ opts_knit$set(width=75)
     * Detailed [Blog Post / Tutorial](https://datascienceplus.com/extracting-tables-from-pdfs-in-r-using-the-tabulizer-package/)
     * [Convert PDF to text in R OCR pdftools](https://www.youtube.com/watch?v=DhY3V4LCdps)
     * [PDFtools in R](https://www.youtube.com/watch?v=6ItyOgS2noc )
-    * [Amazon TextExtract](https://aws.amazon.com/pm/textract)
     
-
+    * More advanced but more powerful from the Programming Historian: [OCR with Google Vision API and Tesseract](https://programminghistorian.org/en/lessons/ocr-with-google-vision-and-tesseract)
+    
 4. Extracting Tables from images using R package `magick`.
-  
+
+    * R package [`magick`](https://cran.r-project.org/web/packages/magick/vignettes/intro.html) _(this package actually includes several very powerful tools for image processing; this is just one of the things you can do with it)_
     * Detailed [Blog Post / Tutorial](https://themockup.blog/posts/2021-01-18-reading-tables-from-images-with-magick/)
 
 ### Extracting Data from Published Figures
@@ -123,32 +131,33 @@ opts_knit$set(width=75)
 
 1. [`gutenbergr`](https://cran.r-project.org/web/packages/gutenbergr/index.html): Download and Process Public Domain Works from [Project Gutenberg](https://www.gutenberg.org/). Tutorial can be found [here](https://docs.ropensci.org/gutenbergr/)
 
-1. Atanassova I, Bertin M and Mayr P (2019) Editorial: Mining Scientific Papers: NLP-enhanced Bibliometrics. Front. Res. Metr. Anal. 4:2. [doi: 10.3389/frma.2019.00002](https://www.frontiersin.org/articles/10.3389/frma.2019.00002/full)
+Other Useful Text Mining Literature  
 
-1. Westergaard D, Stærfeldt H-H, Tønsberg C, Jensen LJ, Brunak S (2018) A comprehensive and quantitative comparison of text-mining in 15 million full-text articles versus their corresponding abstracts. PLoS Comput Biol 14(2): e1005962. https://doi.org/10.1371/journal.pcbi.1005962
+    * Atanassova I, Bertin M and Mayr P (2019) Editorial: Mining Scientific Papers: NLP-enhanced Bibliometrics. Front. Res. Metr. Anal. 4:2. [doi: 10.3389/frma.2019.00002](https://www.frontiersin.org/articles/10.3389/frma.2019.00002/full)
 
-1. Salloum, S.A., Al-Emran, M., Monem, A.A., Shaalan, K. (2018). Using Text Mining Techniques for Extracting Information from Research Articles. In: Shaalan, K., Hassanien, A., Tolba, F. (eds) Intelligent Natural Language Processing: Trends and Applications. Studies in Computational Intelligence, vol 740. Springer, Cham. https://doi.org/10.1007/978-3-319-67056-0_18
+    * Westergaard D, Stærfeldt H-H, Tønsberg C, Jensen LJ, Brunak S (2018) A comprehensive and quantitative comparison of text-mining in 15 million full-text articles versus their corresponding abstracts. PLoS Comput Biol 14(2): e1005962. https://doi.org/10.1371/journal.pcbi.1005962
 
-1. Simon, C., Davidsen, K., Hansen, C. et al. BioReader: a text mining tool for performing classification of biomedical literature. BMC Bioinformatics 19, 57 (2019). https://doi.org/10.1186/s12859-019-2607-x
+    * Salloum, S.A., Al-Emran, M., Monem, A.A., Shaalan, K. (2018). Using Text Mining Techniques for Extracting Information from Research Articles. In: Shaalan, K., Hassanien, A., Tolba, F. (eds) Intelligent Natural Language Processing: Trends and Applications. Studies in Computational Intelligence, vol 740. Springer, Cham. https://doi.org/10.1007/978-3-319-67056-0_18
+
+    * Simon, C., Davidsen, K., Hansen, C. et al. BioReader: a text mining tool for performing classification of biomedical literature. BMC Bioinformatics 19, 57 (2019). https://doi.org/10.1186/s12859-019-2607-x
 Extracting Body Text from Academic PDF Documents for Text Mining
 
-1. Benchimol, J., Kazinnik, S., & Saadon, Y. (2022). Text mining methodologies with R: An application to central bank texts. Machine Learning with Applications, 8, 100286.[link](https://scholar.harvard.edu/files/jbenchimol/files/text-mining-methodologies.pdf) 
+    * Benchimol, J., Kazinnik, S., & Saadon, Y. (2022). Text mining methodologies with R: An application to central bank texts. Machine Learning with Applications, 8, 100286.[link](https://scholar.harvard.edu/files/jbenchimol/files/text-mining-methodologies.pdf) 
 
-1. Yu, C., Zhang, C., & Wang, J. (2020). Extracting Body Text from Academic PDF Documents for Text Mining. arXiv preprint arXiv:2010.12647.
+    * Yu, C., Zhang, C., & Wang, J. (2020). Extracting Body Text from Academic PDF Documents for Text Mining. arXiv preprint arXiv:2010.12647.
 
-1. Gulo, C. A., & Rúbio, T. R. (2015, January). Text Mining Scientific Articles using the R. In Doctoral Symposium in Informatics Engineering. [linl](https://paginas.fe.up.pt/~prodei/dsie15/web/papers/dsie15_submission_10.pdf)
+    * Gulo, C. A., & Rúbio, T. R. (2015, January). Text Mining Scientific Articles using the R. In Doctoral Symposium in Informatics Engineering. [linl](https://paginas.fe.up.pt/~prodei/dsie15/web/papers/dsie15_submission_10.pdf)
 
-1. [jstor: An R package for Analysing Scientific Articles](https://www.youtube.com/watch?v=kNRbT-ki9tU)
-
-1. Processing Records from the WOS and Scopus for Text Mining & Biliometrics
+1. Processing and Analyzing Records from the Web of Science and Scopus for Text Mining & Biliometrics
 
     * R package [`refsplitr`](https://github.com/ropensci/refsplitr)
 
     * R package [`bibliometrix`](https://www.bibliometrix.org/)
 
+    * [jstor: An R package for Analysing Scientific Articles](https://www.youtube.com/watch?v=kNRbT-ki9tU)  
+    
+    
 ### Scraping information from websites 
-
-1. Noortje Marres & Esther Weltevrede (2013) Scraping the Social?, Journal of Cultural Economy, 6:3, 313-335, DOI: 10.1080/17530350.2013.772070
 
 1. Library Carpentry [Lesson on Webscraping](https://librarycarpentry.org/lc-webscraping/) 
 1. Start Here: [Introduction to webscraping](https://nceas.github.io/oss-lessons/data-liberation/intro-webscraping.html)
@@ -156,20 +165,24 @@ Extracting Body Text from Academic PDF Documents for Text Mining
 1. Video: [Practical Introduction to Web Scraping using R](https://www.youtube.com/watch?v=l37n_HDD1qs)
 1. Very nice [written tutorial](https://www.scrapingbee.com/blog/web-scraping-r/)...
 1. ....and another one, this time from the [UC Business Analytics R Programming Guide](http://uc-r.github.io/scraping)
-1. [scraping HTML text](http://bradleyboehmke.github.io//2015/12/scraping-html-text.html#specific_nodes) and [scraping HTML tables](http://bradleyboehmke.github.io/2015/12/scraping-html-tables.html)
-1. [SelectorGadget](https://selectorgadget.com/) is useful to id CSS selectors
-
-### Social Media Data
-
-<!-- 1. Scraping [Twitter Data with R](https://utstat.toronto.edu/~nathan/teaching/sta4002/Class1/scrapingtwitterinR-NT.html) or with [Tweetsets](https://programminghistorian.org/en/lessons/beginners-guide-to-twitter-data) -->
-
-1. Extract [Biodiversity Data from Facebook](Chowdhury, S., Ahmed, S., Alam, S., Callaghan, C. T., Das, P., Di Marco, M., Di Minin, E., Jarić, I., Labi, M. M., Rokonuzzaman, Md., Roll, U., Sbragaglia, V., Siddika, A., & Bonn, A. (2024). A protocol for harvesting biodiversity data from Facebook. Conservation Biology, 00, e14257. https://doi.org/10.1111/cobi.14257)
-
+1. [scraping HTML text](http://bradleyboehmke.github.io//2015/12/scraping-html-text.html#specific_nodes) and [scraping HTML tables](http://bradleyboehmke.github.io/2015/12/scraping-html-tables.html) 
+1. [SelectorGadget](https://selectorgadget.com/) is useful to id CSS selectors. 
+1. Noortje Marres & Esther Weltevrede (2013) Scraping the Social?, Journal of Cultural Economy, 6:3, 313-335, DOI: 10.1080/17530350.2013.772070
 
 
 ### Cell Phone Data
 
 1. Exploratory analyses [Part 1](https://www.r-bloggers.com/2019/11/exploratory-data-analysis-of-cell-phone-usage-with-r-part-1/) and [Part 2](https://www.r-bloggers.com/2019/12/exploratory-data-analysis-of-cell-phone-usage-with-r-part-2/)
+
+
+#### Social Media (Facebook, Flickr, etc,)
+
+1. How to extract [Biodiversity Data from Facebook](Chowdhury, S., Ahmed, S., Alam, S., Callaghan, C. T., Das, P., Di Marco, M., Di Minin, E., Jarić, I., Labi, M. M., Rokonuzzaman, Md., Roll, U., Sbragaglia, V., Siddika, A., & Bonn, A. (2024). A protocol for harvesting biodiversity data from Facebook. Conservation Biology, 00, e14257. https://doi.org/10.1111/cobi.14257)
+
+2. Fox, Nathan, Tom August, Francesca Mancini, Katherine E. Parks, Felix Eigenbrod, James M. Bullock, Louis Sutter, and Laura J. Graham. "“photosearcher” package in R: An accessible and reproducible method for harvesting large datasets from Flickr." SoftwareX 12 (2020): 100624. https://www.sciencedirect.com/science/article/pii/S235271102030337X  
+
+<!-- 1. Scraping [Twitter Data with R](https://utstat.toronto.edu/~nathan/teaching/sta4002/Class1/scrapingtwitterinR-NT.html) or with [Tweetsets](https://programminghistorian.org/en/lessons/beginners-guide-to-twitter-data) -->
+
 
 ### Automated Image Analysis
 
@@ -205,7 +218,11 @@ Extracting Body Text from Academic PDF Documents for Text Mining
 
 ### Databases and Websites from which you can extract data 
 
-1. Government 
+Overview: Correia, R.A., Ladle, R., Jarić, I., Malhado, A.C.M., Mittermeier, J.C., Roll, U., Soriano‐Redondo, A., Veríssimo, D., Fink, C., Hausmann, A., Guedes‐Santos, J., Vardi, R. and Di Minin, E. (2021), Digital data sources and methods for conservation culturomics. Conservation Biology, 35: 398-411. https://doi.org/10.1111/cobi.13706
+
+
+
+#### Government 
 
     * [Data.gov](https://www.data.gov/) (the open data portal of the US Government) and [Using Data.gov APIs in R](https://data.library.virginia.edu/using-data-gov-apis-in-r/)
     * the [rOpengov Project](http://ropengov.org/)
@@ -214,7 +231,7 @@ Extracting Body Text from Academic PDF Documents for Text Mining
     * a [huge list](https://cengel.github.io/gearup2016/SULdataAccess.html) of data sources for social scientists available with R tools 
     * accessing [World bank Data](https://vincentarelbundock.github.io/WDI/) with R
 
-1. US & World Census Data  
+#### US & World Census Data  
   
     * [A Guide to Working with US Census Data in R](https://rconsortium.github.io/censusguide/r-packages-all.html)
     * R Package [`tidycensus`](https://cran.r-project.org/web/packages/tidycensus/tidycensus.pdf)
@@ -223,13 +240,13 @@ Extracting Body Text from Academic PDF Documents for Text Mining
     * R package [`ipumsr`](https://tech.popdata.org/ipumsr/): The ipumsr package helps import IPUMS extracts from the IPUMS website into R. IPUMS provides census and survey data from around the world integrated across time and space. 
 
 
-1. Education Data 
+#### Education Data 
 
     * [`edbuildr`](https://github.com/EdBuild/edbuildr): import [EdBuild’s master dataset](http://viz.edbuild.org/workshops/edbuildr/) of school district finance, student demographics, and community economic indicators for every school district in the United States.
 
     * [Building R and Stata packages for the Education Data Portal](https://urban-institute.medium.com/building-r-and-stata-packages-for-the-education-data-portal-b88760c07233)
 
-1. Other Online Data Sets & Tools for Accessing them
+#### Other Online Data Sets & Tools for Accessing them
 
     * Giant [compendium of open datasets #1](https://github.com/awesomedata/awesome-public-datasets)
     * [Data on Amazonia](https://datazoomamazonia.com.br/)  
@@ -239,6 +256,5 @@ Extracting Body Text from Academic PDF Documents for Text Mining
     * [litsearcher](https://elizagrames.github.io/litsearchr/)
 an R package to facilitate quasi-automatic search strategy development for systematic review
 
-1. Correia, R.A., Ladle, R., Jarić, I., Malhado, A.C.M., Mittermeier, J.C., Roll, U., Soriano‐Redondo, A., Veríssimo, D., Fink, C., Hausmann, A., Guedes‐Santos, J., Vardi, R. and Di Minin, E. (2021), Digital data sources and methods for conservation culturomics. Conservation Biology, 35: 398-411. https://doi.org/10.1111/cobi.13706
 
 
