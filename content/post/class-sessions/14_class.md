@@ -46,7 +46,15 @@ weight: 24
 
 ### Part 3: Extract data from published figures 
 
-1. [Web Plot Digitizer](https://automeris.io/WebPlotDigitizer/) to extract data from several figures that differ in quality and content. Images are from from Pereira, Thales Augusto Zamberlan. (2018). Poor Man's Crop? Slavery in Brazilian Cotton Regions (1800-1850). Estudos Econômicos (São Paulo), 48(4), 623-655. https://doi.org/10.1590/0101-41614843tzp
+1. [Web Plot Digitizer](https://automeris.io/WebPlotDigitizer/) to extract data from several figures that differ in quality and content. Download the following three figures and we will extract the data from them using WPD:
+
+    * [Bar Graph](https://github.com/BrunaLab/LAS6292_DataManagement/blob/master/instructor-materials/class-sessions/14-automated-data-extraction/sample_images_for_OCR/for_web_plot_digitizer/bar.png) from [Jiang _et al._ (2021)](https://doi.org/10.1080/15298868.2019.1657937) 
+    * [Simple Scatter Plot](https://github.com/BrunaLab/LAS6292_DataManagement/blob/master/instructor-materials/class-sessions/14-automated-data-extraction/sample_images_for_OCR/for_web_plot_digitizer/pereira1.png) from [Pereira (2018)](https://doi.org/10.1590/0101-41614843tzp)
+    * [Complex scatter plot](https://github.com/BrunaLab/LAS6292_DataManagement/blob/master/instructor-materials/class-sessions/14-automated-data-extraction/sample_images_for_OCR/for_web_plot_digitizer/pereira2.png) from [Pereira (2018)](https://doi.org/10.1590/0101-41614843tzp)
+
+
+
+
 
 
 ### Part 4: Extract data from pdfs/images with OCR
