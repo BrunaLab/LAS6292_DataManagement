@@ -56,7 +56,12 @@ library(kableExtra)
 library(tidyverse)
 ```
 
-## In-Class Exercise: Data, Ethics, & the Law
+## Data, Ethics, & The Law
+
+### Before we start...
+
+- [an example from our lab](https://github.com/BrunaLab/bdffpRain/issues/27) of a real data clean-up situation for which OpenRefine is ideal
+
 
 ### PART 1: Anonymizing is hard
 
