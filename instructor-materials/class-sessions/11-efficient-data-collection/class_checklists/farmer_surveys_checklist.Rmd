@@ -1,0 +1,89 @@
+---
+title: "Bruna Lab Fieldwork Checklist"
+date: "updated: `r Sys.Date()`"
+header-includes:
+- \AtBeginDocument{\let\maketitle\relax} # this removes default title section
+- \usepackage[default]{sourcesanspro}
+- \usepackage{fancyhdr} # modify header into left, center, right
+- \pagestyle{fancy} # cues the use of fancy headers
+- \fancyfoot{} # cues the use of fancy footer
+# month & year on header left
+- \fancyhead[L]{Bruna Lab Fieldwork Checklist} 
+# name and page on header right
+- \fancyhead[R]{p. \thepage} 
+- \fancyfoot[R]{Last update `r format(Sys.time(), '%d %B %Y')`}
+# - \usepackage{setspace}{singlespace} # manipulate line spacing 
+- \usepackage{parskip} # manipulate indents and spacing before/after paragra phs 
+- \usepackage{xcolor} # changes colors of text
+# to center to top level (#) headings (my name) and change color of font
+# more info # https://www.ctan.org/pkg/sectsty
+- \usepackage{sectsty} \sectionfont{\centering\color{darkmidnightblue}}
+# to center to sub-sub-headings (###) and change color of font
+- \usepackage{sectsty} \subsectionfont{\color{darkmidnightblue}}
+# http://latexcolor.com/ to choose colors
+# define the colors used above with rgb codes
+- \definecolor{darkcerulean}{rgb}{0.03, 0.27, 0.49}
+- \definecolor{darkmidnightblue}{rgb}{0.0, 0.2, 0.4}
+
+mainfont: SourceSansPro
+geometry: margin=1in
+fontsize: 12pt
+linkcolor: blue
+urlcolor: blue
+output: pdf_document
+# html_document:
+# df_print: paged
+# rmdformats::robobook: default
+---
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+<!-- - [ ] Item -->
+<!-- - [x] Item -->
+
+
+# Endline Survey  
+
+Smallholder farmers' uptake of digital credit and crop insurance products in India
+
+### TIMELINE 
+- [ ] 31st March (Sunday) Reach Bhubaneswar and go straight to Jajpur; Survey
+team orientation and preparation for training 
+- [ ] 1st April (Monday) Day 1 of training. 
+- [ ] 2nd April (Tuesday) Day 2 of training. 
+- [ ] 3rd April (Wednesday) Day 3 of training. 
+- [ ] 4th April (Thursday) Free day.
+- [ ] 5th April (Friday) Day 4 – feedback from team.
+- [ ] 6th April (Saturday) Reach Amravati by night. 
+- [ ] 7th April (Sunday) Day 1 training. 
+- [ ] 8th April (Monday) Day 2 training. 
+- [ ] 9th April (Tuesday) Day 3 training. 
+- [ ] 10th April (Wednesday) Day 4 – feedback from team. 
+- [ ] 10th April (Wednesday) Take the night flight back to Delhi. 
+
+### SurveyCTO Kit  
+
+- [ ] Tablets with SurveyCTO Collect installed.
+- [ ] Backup devices (tablets or smartphones) in case of technical issues.
+- [ ] Charging cables and power banks.
+- [ ] Printed copies of the survey questionnaire for reference.
+
+### Fieldwork Essentials
+
+- [ ] Identification documents and permits required for conducting surveys.
+- [ ] Printed schedules and maps of households to visit.
+- [ ] Notebook and pens for taking additional notes or recording important
+observations.
+- [ ] Sunscreen, hat, and sunglasses
+- [ ] Umbrellas or raincoats in case of rain.
+- [ ] Hand sanitizer and wet wipes
+- [ ] Water and snacks. 
+
+### Essential Communication and Personal Tools   
+- [ ] Passport.
+- [ ] Wallet.
+- [ ] Phone.
+- [ ] Contact information of collaborators and local community leaders.
+- [ ] Off-line Google Translate.
