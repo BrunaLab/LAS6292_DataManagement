@@ -1,0 +1,90 @@
+---
+title: "Bruna Lab Fieldwork Checklist"
+date: "updated: `r Sys.Date()`"
+header-includes:
+- \AtBeginDocument{\let\maketitle\relax} # this removes default title section
+- \usepackage[default]{sourcesanspro}
+- \usepackage{fancyhdr} # modify header into left, center, right
+- \pagestyle{fancy} # cues the use of fancy headers
+- \fancyfoot{} # cues the use of fancy footer
+# month & year on header left
+- \fancyhead[L]{Bruna Lab Fieldwork Checklist} 
+# name and page on header right
+- \fancyhead[R]{p. \thepage} 
+- \fancyfoot[R]{Last update `r format(Sys.time(), '%d %B %Y')`}
+# - \usepackage{setspace}{singlespace} # manipulate line spacing 
+- \usepackage{parskip} # manipulate indents and spacing before/after paragra phs 
+- \usepackage{xcolor} # changes colors of text
+# to center to top level (#) headings (my name) and change color of font
+# more info # https://www.ctan.org/pkg/sectsty
+- \usepackage{sectsty} \sectionfont{\centering\color{darkmidnightblue}}
+# to center to sub-sub-headings (###) and change color of font
+- \usepackage{sectsty} \subsectionfont{\color{darkmidnightblue}}
+# http://latexcolor.com/ to choose colors
+# define the colors used above with rgb codes
+- \definecolor{darkcerulean}{rgb}{0.03, 0.27, 0.49}
+- \definecolor{darkmidnightblue}{rgb}{0.0, 0.2, 0.4}
+
+mainfont: SourceSansPro
+geometry: margin=1in
+fontsize: 12pt
+linkcolor: blue
+urlcolor: blue
+output: pdf_document
+# html_document:
+# df_print: paged
+# rmdformats::robobook: default
+---
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+<!-- - [ ] Item -->
+<!-- - [x] Item -->
+
+<!-- https://www.sciencedirect.com/topics/medicine-and-dentistry/first-aid-kit -->
+
+# Black Kite Project - India  
+
+Project website: https://delhikites.wixsite.com/121212
+
+
+
+## Tasks
+
+- [ ] Confirm and mention Nest ID and Chick ID on the data sheet
+- [ ] Collect 3-4 down feather sample in ziplock with silica gel
+- [ ] Collect blood sample if chick is older than 20 days – in glass slide
+and EDTA tubes
+- [ ] Immediately process blood sample slide
+- [ ] Label slides, EDTA tube and feather sample bag
+- [ ] Measure growth variables mentioned in data sheet
+- [ ] Band the chick tarsi with metal band and plastic CSIC band (if older
+than 20 days)
+- [ ] Take photographs – dorsal, ventral, under wingspan (primaries),
+cere; Label all photographs with Nest ID, Chick-ID, date, Age of the
+chick
+- [ ] heck camera trap batteries, replace battery if required.
+- [ ] Replace memory card every 2 weeks
+- [ ] Collect any ectoparasites if present.
+- [ ] Check if the chick is in good condition before putting back in the
+bag
+
+## Equipment  
+
+- [ ] Harness, rope, pole and chick bag
+- [ ] Vernier caliper and Ruler
+- [ ] Label Tags
+- [ ] Permanent marker and pens
+- [ ] Glass slides and blood processing tube
+- [ ] Blood syringe
+- [ ] EDTA tubes
+- [ ] Ethanol bottle
+- [ ] Plastic zip locks for feather
+- [ ] Silica gel
+- [ ] Batteries for camera trap
+- [ ] Memory card for camera trap
+- [ ] Datasheets
+- [ ] Charged phone for photographs
+- [ ] Bands – metal and CSIC plastic bands
