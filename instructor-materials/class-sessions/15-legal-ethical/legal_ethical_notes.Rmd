@@ -64,24 +64,6 @@ opts_chunk$set(echo=FALSE,
 opts_knit$set(width=75)
 ```
 
-
-
-
-<!-- ### 13. Legal and Ethical Issues   -->
-
-<!-- * 	Explain ownership considerations related to data sharing -->
-<!-- * 	Explain and evaluate potential legal issues connected to your data; intellectual property, copyright claims, licenses needed for use, monetary charges for data -->
-<!-- * 	Explain ethical considerations related to data sharing -->
-<!-- * 	Understand privacy levels for research data as required by potential funding agencies -->
-<!-- * 	Recognize the importance of privacy with some forms of research data (HIPAA) -->
-<!-- * 	Understand the importance of removing key personal identifiers to facilitate confidentiality -->
-
-
-
-<!-- * **Intro Material (lecture/videos): **https://dataoneorg.github.io/Education/lessons/10_policy/index -->
-
-
-
 # Tools & Resources: Ethics & Legal Compliance
 
 ## Data / Research Ethics & Compliance for UF Researchers
@@ -96,7 +78,7 @@ opts_knit$set(width=75)
 
 ## Intro: Privacy
 
-1. NIH: [what is HIPPA?](https://tinyurl.com/mw97nt4b)
+1. CDC: [what is HIPPA?](https://tinyurl.com/mw97nt4b)
 <!-- https://www.cdc.gov/phlp/publications/topic/hipaa.html#:~:text=The%20Health%20Insurance%20Portability%20and,the%20patient's%20consent%20or%20knowledge -->
 1. What is the EU General Data Protection Regulation (GDPR)? [(link 1)](https://www.ukri.org/wp-content/uploads/2020/10/UKRI-020920-GDPR-FAQs.pdf), [(link 2)](https://www.wired.co.uk/article/what-is-gdpr-uk-eu-legislation-compliance-summary-fines-2018), [(link 3 - UF)](https://privacy.ufl.edu/european-union-general-data-protection-regulation-eu-gdpr/)
 1. What is [FERPA?](https://registrar.ufl.edu/ferpa/) 
@@ -106,17 +88,23 @@ opts_knit$set(width=75)
 1. [Intro to Anonymization](https://en.wikipedia.org/wiki/Data_anonymization)
 1. [Overview by Martin Monkman](https://bookdown.org/martin_monkman/DataScienceResources_book/anonymity-and-confidentiality.html)
 1. [EDUCASE Guidelines for Data De-Identification or Anonymization](https://www.educause.edu/focus-areas-and-initiatives/policy-and-security/cybersecurity-program/resources/information-security-guide/toolkits/guidelines-for-data-deidentification-or-anonymization)
+1. [UF "HOW TO: DE-IDENTIFY DATA"](https://security.ufl.edu/faculty-staff/irm/how-to-de-identify-data/), with very useful **checklists** 
 
-## Tools for Anonymizing Data
-1. With R
-    * Martin Monkman's link to [R packages for Anonymizing Data](https://bookdown.org/martin_monkman/DataScienceResources_book/anonymity-and-confidentiality.html)
+## Tools for Anonymizing Data _(Note: be very careful doing this on your own)_
 
-1. With other tools, including stand-alone software and online tools
-    * [list of free tools](https://windowsreport.com/data-anonymization-software/)
-    * [ARX (open source, free)](https://arx.deidentifier.org/)
-    * [Amnesia (open source, free)](https://amnesia.openaire.eu/index.html)
-    * De-identification Tools from [NIST](https://www.nist.gov/itl/applied-cybersecurity/privacy-engineering/collaboration-space/focus-areas/de-id/tools)
-    * [AirCloak (paid)](https://www.techfunnel.com/information-technology/3-types-of-data-anonymization-techniques-and-tools-to-consider/)
+### With R  
+
+1. Martin Monkman's link to [R packages for Anonymizing Data](https://bookdown.org/martin_monkman/DataScienceResources_book/anonymity-and-confidentiality.html)
+1. Blog Post / [Tutorial](https://www.r-bloggers.com/2014/11/data-anonymization-in-r/)
+1. R package [`Anonymizer`](https://github.com/paulhendricks/anonymizer) 
+     
+
+### With other tools, including stand-alone software and online tools  
+1. [list of free tools](https://windowsreport.com/data-anonymization-software/)
+1. [ARX (open source, free)](https://arx.deidentifier.org/)
+1. [Amnesia (open source, free)](https://amnesia.openaire.eu/index.html)
+1. De-identification Tools from [NIST](https://www.nist.gov/itl/applied-cybersecurity/privacy-engineering/collaboration-space/focus-areas/de-id/tools)
+1. [AirCloak (paid)](https://www.techfunnel.com/information-technology/3-types-of-data-anonymization-techniques-and-tools-to-consider/)
 
 
 ## Data Protocols for Working with Indigenous Communities
@@ -130,6 +118,9 @@ opts_knit$set(width=75)
 1. [How to Ethically and Responsibly Identify Gender in Large Datasets](http://mediashift.org/2014/11/how-to-ethically-and-responsibly-identify-gender-in-large-datasets/)
 1. Clair A Kronk et al. 2022. Transgender data collection in the electronic health record: Current concepts and issues. _Journal of the American Medical Informatics Association_ 29(2):271–284 [https://doi.org/10.1093/jamia/ocab136](https://doi.org/10.1093/jamia/ocab136)
 1. Heidari, S. et al. 2016. Sex and Gender Equity in Research: rationale for the SAGER guidelines and recommended use. _Res Integr Peer Rev_ 1,2 (2016). [https://doi.org/10.1186/s41073-016-0007-6](https://doi.org/10.1186/s41073-016-0007-6)
+1. The European Institute for Gender Equality's [GEAR Tool](https://eige.europa.eu/gender-mainstreaming/toolkits/gear/data-collection-and-monitoring?language_content_entity=en#:~:text=Try%20to%20consider%20at%20least,the%20visibility%2C%20of%20your%20measures.) (Gender Equality in Academia and Research)
+1. UN "Methods for gender data collection and estimation" [Training Materials](https://data.unwomen.org/sites/default/files/documents/Asia-Pacific-Training-Curriculum/Module5/Module5_Syllabus_Methods%20for%20data%20collection%20and%20estimation.pdf). 
+1. Colaço, R., and Watson-Grant, S. (2021). A Global Call to Action for Gender-Inclusive Data Collection and Use. RTI Press Publication No. PB-0026-2112. Research Triangle Park, NC: RTI Press. https://doi.org/10.3768/rtipress.2021.pb.0026.2112
 
 ## Emerging Issues resulting from Technological Advancements
 
